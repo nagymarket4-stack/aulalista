@@ -68,3 +68,20 @@
 1. Descargar a mano el PDF oficial (`boc-a-2022-231-3533.pdf`) y pasar un script de comparación: normalizar los espacios y buscar cada `texto` como subcadena del `pdftotext`. Los que coincidan se pueden marcar como verificados de forma masiva. Al final, poner `verificado: true` por área.
 2. Adaptar `shared/prompts.js` para que la inyección RAG use `data/canarias/primaria/*.json`. Hasta el cotejo, en la interfaz de producto conviene presentar los criterios como «según el Decreto 211/2022», sin afirmar verificación oficial.
 3. Segunda pasada para los saberes básicos desde `https://www.gobiernodecanarias.org/boc/archivo/2022/231/pda/001.html`: desplazamientos 100000-200000 para CMNSC, 200000-300000 para Artística/EMOCREA, 300000-400000 para EF/Valores/LCL, 400000-500000 para LCL/LE/Matemáticas y 500000-600000 para Matemáticas/SLE.
+
+## Cotejo con el PDF oficial (17/11/2026)
+
+El texto se ha cotejado con el PDF oficial del BOC (`boc-a-2022-231-3533.pdf`, aportado por el usuario) usando `tools/verificar_criterios_canarias.py`. El script compara palabra a palabra, después de quitar las cabeceras de página y las celdas de descriptores que `pdftotext` intercala.
+
+| Elemento | Total | Coinciden literalmente | Diferencias |
+| --- | --- | --- | --- |
+| Criterios de evaluación | 308 | 307 | 1: EF 1.er ciclo 4.2, «artístico-expresivas», donde el guion queda partido por la maquetación del PDF. El texto es correcto |
+| Enunciados de competencias específicas | 56 | 54 | 2: EF C2 y C4, mismo caso de guion partido. El texto es correcto |
+
+**Resultado: todo el texto es fiel al BOC.** Los JSON pasan a `verificado: true`.
+
+Las posibles erratas que anotó el curriculista (p. ej. «CCE3» o «señalando y reconocer de las funciones») **están en el propio BOC**: se mantienen tal cual, porque es el texto oficial.
+
+Pendiente:
+- extraer los saberes básicos;
+- cotejar automáticamente los descriptores operativos.

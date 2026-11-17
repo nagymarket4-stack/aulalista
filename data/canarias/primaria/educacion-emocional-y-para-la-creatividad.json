@@ -1,53 +1,354 @@
 {
   "area": "Educación Emocional y para la Creatividad",
-  "fuente": "Decreto 211/2022 (BOC 231, 23/11/2022), anexo 2",
-  "verificado": false,
+  "fuente": "Decreto 211/2022 (BOC n.º 231, 23/11/2022), anexo 2. Cotejado con el PDF oficial boc-a-2022-231-3533.pdf",
+  "verificado": true,
   "competencias": [
-    {"id": "C1", "enunciado": "Analizar y reconocer las emociones como propias, percibiendo las señales corporales y comprendiéndolas, en diferentes situaciones de la vida cotidiana, con la finalidad de desarrollar la conciencia emocional y el autoconocimiento personal.", "resumen": "Conciencia emocional y autoconocimiento."},
-    {"id": "C2", "enunciado": "Asumir la responsabilidad de gestionar las propias experiencias emocionales, regulando y cambiando las emociones, en el caso de que sean desadaptativas, para construir una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales.", "resumen": "Regulación emocional y responsabilidad afectiva."},
-    {"id": "C3", "enunciado": "Desarrollar la capacidad empática siendo capaces de comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, estableciendo vínculos afectivos de manera que se desarrolle una sociabilidad emocional auténtica.", "resumen": "Empatía, comunicación asertiva y vínculos afectivos."},
-    {"id": "C4", "enunciado": "Expresar el compromiso emocional con las personas y la sociedad implementando proyectos colectivos de carácter emprendedor en el ámbito escolar y social, a través del desarrollo de la creatividad y la utilización múltiples lenguajes, con la finalidad de promover la autoconfianza en las propias capacidades creativas y aportar beneficios para toda la comunidad.", "resumen": "Creatividad y proyectos colectivos emprendedores con compromiso social."}
+    {
+      "id": "C1",
+      "enunciado": "Analizar y reconocer las emociones como propias, percibiendo las señales corporales y comprendiéndolas, en diferentes situaciones de la vida cotidiana, con la finalidad de desarrollar la conciencia emocional y el autoconocimiento personal.",
+      "resumen": "Conciencia emocional y autoconocimiento."
+    },
+    {
+      "id": "C2",
+      "enunciado": "Asumir la responsabilidad de gestionar las propias experiencias emocionales, regulando y cambiando las emociones, en el caso de que sean desadaptativas, para construir una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales.",
+      "resumen": "Regulación emocional y responsabilidad afectiva."
+    },
+    {
+      "id": "C3",
+      "enunciado": "Desarrollar la capacidad empática siendo capaces de comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, estableciendo vínculos afectivos de manera que se desarrolle una sociabilidad emocional auténtica.",
+      "resumen": "Empatía, comunicación asertiva y vínculos afectivos."
+    },
+    {
+      "id": "C4",
+      "enunciado": "Expresar el compromiso emocional con las personas y la sociedad implementando proyectos colectivos de carácter emprendedor en el ámbito escolar y social, a través del desarrollo de la creatividad y la utilización múltiples lenguajes, con la finalidad de promover la autoconfianza en las propias capacidades creativas y aportar beneficios para toda la comunidad.",
+      "resumen": "Creatividad y proyectos colectivos emprendedores con compromiso social."
+    }
   ],
   "ciclos": {
     "primer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional.", "descriptores": ["CCL5", "CCEC3"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada.", "descriptores": ["CCL2", "CPSAA1", "CPSAA2"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Actuar con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones y asumiendo las consecuencias de sus actos, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.", "descriptores": ["CCL5", "CPSAA1", "CPSAA2", "CPSAA5", "CCEC3"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas.", "descriptores": ["CPSAA1", "CPSAA2"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa.", "descriptores": ["CCL5", "CPSAA3", "CC1", "CC3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Reconocer las emociones en las demás personas expresando sentimientos hacia ellas, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales.", "descriptores": ["CCL1", "CD3", "CC2", "CE3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Identificar los principios y las estrategias de pensamiento creativo, iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial; así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.", "descriptores": ["CCL3", "CPSAA5", "CE1", "CE2", "CE3", "CCEC3", "CCEC4"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Favorecer el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.", "descriptores": ["STEM3", "STEM5", "CD1", "CD2", "CD3", "CD5", "CPSAA3", "CPSAA5"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional.",
+          "descriptores": [
+            "CCL5",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada.",
+          "descriptores": [
+            "CCL2",
+            "CPSAA1",
+            "CPSAA2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Actuar con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones y asumiendo las consecuencias de sus actos, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+          "descriptores": [
+            "CCL5",
+            "CPSAA1",
+            "CPSAA2",
+            "CPSAA5",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa.",
+          "descriptores": [
+            "CCL5",
+            "CPSAA3",
+            "CC1",
+            "CC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Reconocer las emociones en las demás personas expresando sentimientos hacia ellas, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales.",
+          "descriptores": [
+            "CCL1",
+            "CD3",
+            "CC2",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Identificar los principios y las estrategias de pensamiento creativo, iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial; así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "descriptores": [
+            "CCL3",
+            "CPSAA5",
+            "CE1",
+            "CE2",
+            "CE3",
+            "CCEC3",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Favorecer el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "descriptores": [
+            "STEM3",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3",
+            "CPSAA5"
+          ],
+          "saberes": []
+        }
       ]
     },
     "segundo": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Identificar las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas y reconociéndolas como propias, para favorecer el autodescubrimiento personal y la conciencia emocional.", "descriptores": ["CCL5", "CCEC3"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Comprender y analizar las emociones que experimenta, reflexionando y estableciendo relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, para adecuar sus reacciones y favorecer su autoconocimiento emocional.", "descriptores": ["CCL2", "CPSAA1", "CPSAA2"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Actuar en diferentes contextos, asumiendo la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.", "descriptores": ["CCL5", "CPSAA1", "CPSAA2", "CPSAA5", "CCEC3"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Regular las experiencias emocionales desajustadas, adecuando su intensidad, duración y vivencia desagradable, utilizando estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio.", "descriptores": ["CPSAA1", "CPSAA2"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Comunicar, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo los sentimientos de las demás personas y demostrando una actitud de respeto y de apertura hacia ellas, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.", "descriptores": ["CCL5", "CPSAA3", "CC1", "CC3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Reconocer las emociones en las demás personas, expresando sentimientos hacia ellas, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.", "descriptores": ["CCL1", "CD3", "CC2", "CE3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Experimentar los principios y las estrategias de pensamiento creativo, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, comprendiendo las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.", "descriptores": ["CCL3", "CPSAA5", "CE1", "CE2", "CE3", "CCEC3", "CCEC4"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Desarrollar el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.", "descriptores": ["STEM3", "STEM5", "CD1", "CD2", "CD3", "CD5", "CPSAA3", "CPSAA5"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Identificar las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas y reconociéndolas como propias, para favorecer el autodescubrimiento personal y la conciencia emocional.",
+          "descriptores": [
+            "CCL5",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Comprender y analizar las emociones que experimenta, reflexionando y estableciendo relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, para adecuar sus reacciones y favorecer su autoconocimiento emocional.",
+          "descriptores": [
+            "CCL2",
+            "CPSAA1",
+            "CPSAA2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Actuar en diferentes contextos, asumiendo la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+          "descriptores": [
+            "CCL5",
+            "CPSAA1",
+            "CPSAA2",
+            "CPSAA5",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Regular las experiencias emocionales desajustadas, adecuando su intensidad, duración y vivencia desagradable, utilizando estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Comunicar, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo los sentimientos de las demás personas y demostrando una actitud de respeto y de apertura hacia ellas, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.",
+          "descriptores": [
+            "CCL5",
+            "CPSAA3",
+            "CC1",
+            "CC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Reconocer las emociones en las demás personas, expresando sentimientos hacia ellas, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.",
+          "descriptores": [
+            "CCL1",
+            "CD3",
+            "CC2",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Experimentar los principios y las estrategias de pensamiento creativo, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, comprendiendo las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "descriptores": [
+            "CCL3",
+            "CPSAA5",
+            "CE1",
+            "CE2",
+            "CE3",
+            "CCEC3",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Desarrollar el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "descriptores": [
+            "STEM3",
+            "STEM5",
+            "CD1",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3",
+            "CPSAA5"
+          ],
+          "saberes": []
+        }
       ]
     },
     "tercer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Analizar y asumir las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.", "descriptores": ["CCL1", "CCL2", "CCL5", "STEM5", "CPSAA1", "CPSAA2", "CCEC3"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Actuar en diferentes contextos, asumiendo la responsabilidad emocional y su influencia en la propia conducta, y reparando, si fuera necesario, los daños causados, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.", "descriptores": ["CCL1", "CCL5", "CPSAA1", "CPSAA2", "CPSAA5", "CCEC3"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Cambiar, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas por otras emociones adaptativas, para desarrollar la capacidad de modificación afectiva.", "descriptores": ["CCL1", "CCL5", "CPSAA1", "CPSAA2", "CCEC3"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, abriéndose a conocerlas y a dejarse conocer, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.", "descriptores": ["CCL1", "CCL5", "CP3", "CD2", "CD3", "CPSAA3", "CC1", "CC3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Reconocer las emociones en las demás personas y experimentar sentimientos hacia ellas, a través del desarrollo de escucha activa, aplicando modelos empáticos y promoviendo la conciencia emocional, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.", "descriptores": ["CCL1", "CCL5", "CP3", "CD2", "CD3", "CC2", "CC3", "CE3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Aplicar principios y estrategias de pensamiento creativo, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, y superando los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.", "descriptores": ["CPSAA5", "CE2", "CE3", "CCEC3", "CCEC4"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Comprometerse emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.", "descriptores": ["STEM3", "STEM5", "CD2", "CD3", "CD5", "CPSAA3", "CPSAA5", "CE3", "CCEC4"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Analizar y asumir las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.",
+          "descriptores": [
+            "CCL1",
+            "CCL2",
+            "CCL5",
+            "STEM5",
+            "CPSAA1",
+            "CPSAA2",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Actuar en diferentes contextos, asumiendo la responsabilidad emocional y su influencia en la propia conducta, y reparando, si fuera necesario, los daños causados, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CPSAA1",
+            "CPSAA2",
+            "CPSAA5",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Cambiar, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas por otras emociones adaptativas, para desarrollar la capacidad de modificación afectiva.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CPSAA1",
+            "CPSAA2",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, abriéndose a conocerlas y a dejarse conocer, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CP3",
+            "CD2",
+            "CD3",
+            "CPSAA3",
+            "CC1",
+            "CC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Reconocer las emociones en las demás personas y experimentar sentimientos hacia ellas, a través del desarrollo de escucha activa, aplicando modelos empáticos y promoviendo la conciencia emocional, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CP3",
+            "CD2",
+            "CD3",
+            "CC2",
+            "CC3",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Aplicar principios y estrategias de pensamiento creativo, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, y superando los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.",
+          "descriptores": [
+            "CPSAA5",
+            "CE2",
+            "CE3",
+            "CCEC3",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Comprometerse emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "descriptores": [
+            "STEM3",
+            "STEM5",
+            "CD2",
+            "CD3",
+            "CD5",
+            "CPSAA3",
+            "CPSAA5",
+            "CE3",
+            "CCEC4"
+          ],
+          "saberes": []
+        }
       ]
     }
   },
   "pendiente": [
-    "Cotejo humano de los 23 criterios con el PDF oficial del BOC (pp. 45637-45640, 45644-45647 y 45652-45655): transcripción por WebFetch, en fragmentos, de una copia del PDF del BOC alojada en campuseducacion.com.",
     "Enunciado de C4: la extracción dice \"la utilización múltiples lenguajes\" (sin \"de\"); comprobar si es así en el BOC.",
-    "Saberes básicos por ciclo (bloques I a V): no transcritos; el decreto no los vincula criterio a criterio."
-  ]
+    "Saberes básicos por ciclo (bloques I a V): no transcritos; el decreto no los vincula criterio a criterio.",
+    "Saberes básicos por bloque y ciclo sin extraer",
+    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
+  ],
+  "cotejo": {
+    "fecha": "2026-11-17",
+    "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+  }
 }

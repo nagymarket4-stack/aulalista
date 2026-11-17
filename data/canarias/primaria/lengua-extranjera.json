@@ -1,77 +1,604 @@
 {
   "area": "Lengua Extranjera",
-  "fuente": "Decreto 211/2022 (BOC 231, 23/11/2022), anexo 2",
-  "verificado": false,
+  "fuente": "Decreto 211/2022 (BOC n.º 231, 23/11/2022), anexo 2. Cotejado con el PDF oficial boc-a-2022-231-3533.pdf",
+  "verificado": true,
   "competencias": [
-    {"id": "C1", "enunciado": "Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas.", "resumen": "Comprensión de textos orales, escritos y multimodales sencillos."},
-    {"id": "C2", "enunciado": "Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos.", "resumen": "Producción de textos breves y sencillos."},
-    {"id": "C3", "enunciado": "Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía.", "resumen": "Interacción oral y escrita con cortesía."},
-    {"id": "C4", "enunciado": "Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación.", "resumen": "Mediación lingüística en situaciones sencillas."},
-    {"id": "C5", "enunciado": "Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas.", "resumen": "Plurilingüismo y reflexión sobre el propio aprendizaje."},
-    {"id": "C6", "enunciado": "Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales.", "resumen": "Interculturalidad y respeto a la diversidad, incluida la canaria."}
+    {
+      "id": "C1",
+      "enunciado": "Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas.",
+      "resumen": "Comprensión de textos orales, escritos y multimodales sencillos."
+    },
+    {
+      "id": "C2",
+      "enunciado": "Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos.",
+      "resumen": "Producción de textos breves y sencillos."
+    },
+    {
+      "id": "C3",
+      "enunciado": "Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía.",
+      "resumen": "Interacción oral y escrita con cortesía."
+    },
+    {
+      "id": "C4",
+      "enunciado": "Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación.",
+      "resumen": "Mediación lingüística en situaciones sencillas."
+    },
+    {
+      "id": "C5",
+      "enunciado": "Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas.",
+      "resumen": "Plurilingüismo y reflexión sobre el propio aprendizaje."
+    },
+    {
+      "id": "C6",
+      "enunciado": "Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales.",
+      "resumen": "Interculturalidad y respeto a la diversidad, incluida la canaria."
+    }
   ],
   "ciclos": {
     "primer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Identificar e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.", "descriptores": ["CCL2", "CP1"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Seleccionar y aplicar, de forma guiada, estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales.", "descriptores": ["CCL3", "CP2", "STEM1", "CD1", "CPSAA5"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Producir, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado.", "descriptores": ["CCL1", "CP1", "CD2"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Seleccionar y aplicar, de forma guiada, conocimientos y estrategias elementales con ayuda de apoyos y recursos analógicos y digitales, para producir mensajes breves, sencillos y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.", "descriptores": ["CP2", "STEM1", "CPSAA5", "CE1", "CCEC4"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Participar, de forma guiada, en situaciones interactivas breves y muy sencillas, sobre temas de relevancia personal, próximos a su experiencia y contexto, apoyándose en diferentes recursos y soportes, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas.", "descriptores": ["CCL1", "CCL5", "CP1", "CD3", "CC3", "CE1", "CE3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Seleccionar y utilizar, de forma guiada, en contextos de interacción próximos a su entorno, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Interpretar y explicar, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.", "descriptores": ["CCL5", "CP1", "CP3", "CPSAA1", "CPSAA3", "CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Seleccionar y aplicar, de forma guiada, algunas estrategias elementales, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Identificar y comparar, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual.", "descriptores": ["CP2", "CP3"], "saberes": []},
-        {"id": "5.2", "competencia": "C5", "texto": "Identificar y utilizar, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes reforzando sus habilidades lingüísticas y experiencias comunicativas.", "descriptores": ["CP2", "STEM1", "CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.3", "competencia": "C5", "texto": "Identificar y explicar, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo las posibilidades comunicativas para construir el conocimiento.", "descriptores": ["CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.4", "competencia": "C5", "texto": "Identificar y usar los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.", "descriptores": ["CP1", "CP2"], "saberes": []},
-        {"id": "6.1", "competencia": "C6", "texto": "Mostrar interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.", "descriptores": ["CCL5", "CP3", "CC2", "CC3", "CCEC1", "CCEC2"], "saberes": []},
-        {"id": "6.2", "competencia": "C6", "texto": "Seleccionar y aplicar estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.", "descriptores": ["CPSAA1", "CPSAA3"], "saberes": []},
-        {"id": "6.3", "competencia": "C6", "texto": "Mostrar empatía y comprensión por las producciones ajenas, diferenciando y reconociendo las intervenciones en contextos comunicativos cotidianos para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.", "descriptores": ["CP3", "CCEC1", "CCEC3"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Identificar e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+          "descriptores": [
+            "CCL2",
+            "CP1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales.",
+          "descriptores": [
+            "CCL3",
+            "CP2",
+            "STEM1",
+            "CD1",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Producir, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado.",
+          "descriptores": [
+            "CCL1",
+            "CP1",
+            "CD2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Seleccionar y aplicar, de forma guiada, conocimientos y estrategias elementales con ayuda de apoyos y recursos analógicos y digitales, para producir mensajes breves, sencillos y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA5",
+            "CE1",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Participar, de forma guiada, en situaciones interactivas breves y muy sencillas, sobre temas de relevancia personal, próximos a su experiencia y contexto, apoyándose en diferentes recursos y soportes, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CP1",
+            "CD3",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Seleccionar y utilizar, de forma guiada, en contextos de interacción próximos a su entorno, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Interpretar y explicar, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.",
+          "descriptores": [
+            "CCL5",
+            "CP1",
+            "CP3",
+            "CPSAA1",
+            "CPSAA3",
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Seleccionar y aplicar, de forma guiada, algunas estrategias elementales, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Identificar y comparar, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "CP3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Identificar y utilizar, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes reforzando sus habilidades lingüísticas y experiencias comunicativas.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Identificar y explicar, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo las posibilidades comunicativas para construir el conocimiento.",
+          "descriptores": [
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.4",
+          "competencia": "C5",
+          "texto": "Identificar y usar los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.",
+          "descriptores": [
+            "CP1",
+            "CP2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Mostrar interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "descriptores": [
+            "CCL5",
+            "CP3",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Seleccionar y aplicar estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.3",
+          "competencia": "C6",
+          "texto": "Mostrar empatía y comprensión por las producciones ajenas, diferenciando y reconociendo las intervenciones en contextos comunicativos cotidianos para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "descriptores": [
+            "CP3",
+            "CCEC1",
+            "CCEC3"
+          ],
+          "saberes": []
+        }
       ]
     },
     "segundo": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Reconocer e interpretar el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.", "descriptores": ["CCL2", "CP1"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Seleccionar y aplicar, de forma codirigida, estrategias básicas en situaciones comunicativas cotidianas y de relevancia personal para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.", "descriptores": ["CCL3", "CP2", "STEM1", "CD1", "CPSAA5"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Producir, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximos a la experiencia del alumnado.", "descriptores": ["CCL1", "CP1", "CD2"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Seleccionar y aplicar, de forma codirigida, conocimientos y estrategias básicas con ayuda de recursos analógicos y digitales, para producir mensajes sencillos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.", "descriptores": ["CP2", "STEM1", "CPSAA5", "CE1", "CCEC4"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Participar, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, y un uso ético y eficaz del lenguaje.", "descriptores": ["CCL1", "CCL5", "CP1", "CD3", "CC3", "CE1", "CE3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Seleccionar y utilizar, de forma codirigida, en contextos de interacción, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Facilitar y explicar, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.", "descriptores": ["CCL5", "CP1", "CP3", "CPSAA1", "CPSAA3", "CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Seleccionar e implementar, de forma codirigida, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Comparar y contrastar, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento y reflexionando sobre ellos, para consolidar y ampliar su repertorio lingüístico individual.", "descriptores": ["CP2", "CP3"], "saberes": []},
-        {"id": "5.2", "competencia": "C5", "texto": "Experimentar y utilizar, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, y enriquecer sus habilidades lingüísticas y experiencias comunicativas.", "descriptores": ["CP2", "STEM1", "CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.3", "competencia": "C5", "texto": "Registrar y reflexionar, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas, para construir y evidenciar el conocimiento.", "descriptores": ["CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.4", "competencia": "C5", "texto": "Reconocer y aplicar los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.", "descriptores": ["CP1", "CP2"], "saberes": []},
-        {"id": "6.1", "competencia": "C6", "texto": "Respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.", "descriptores": ["CCL5", "CP3", "CC2", "CC3", "CCEC1", "CCEC2"], "saberes": []},
-        {"id": "6.2", "competencia": "C6", "texto": "Seleccionar y aplicar estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.", "descriptores": ["CPSAA1", "CPSAA3"], "saberes": []},
-        {"id": "6.3", "competencia": "C6", "texto": "Mostrar empatía y comprensión por las producciones ajenas, valorando las intervenciones en diferentes contextos comunicativos y haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.", "descriptores": ["CP3", "CCEC1", "CCEC3"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Reconocer e interpretar el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+          "descriptores": [
+            "CCL2",
+            "CP1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Seleccionar y aplicar, de forma codirigida, estrategias básicas en situaciones comunicativas cotidianas y de relevancia personal para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.",
+          "descriptores": [
+            "CCL3",
+            "CP2",
+            "STEM1",
+            "CD1",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Producir, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximos a la experiencia del alumnado.",
+          "descriptores": [
+            "CCL1",
+            "CP1",
+            "CD2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Seleccionar y aplicar, de forma codirigida, conocimientos y estrategias básicas con ayuda de recursos analógicos y digitales, para producir mensajes sencillos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA5",
+            "CE1",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Participar, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, y un uso ético y eficaz del lenguaje.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CP1",
+            "CD3",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Seleccionar y utilizar, de forma codirigida, en contextos de interacción, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Facilitar y explicar, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "descriptores": [
+            "CCL5",
+            "CP1",
+            "CP3",
+            "CPSAA1",
+            "CPSAA3",
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Seleccionar e implementar, de forma codirigida, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Comparar y contrastar, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento y reflexionando sobre ellos, para consolidar y ampliar su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "CP3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Experimentar y utilizar, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, y enriquecer sus habilidades lingüísticas y experiencias comunicativas.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Registrar y reflexionar, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas, para construir y evidenciar el conocimiento.",
+          "descriptores": [
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.4",
+          "competencia": "C5",
+          "texto": "Reconocer y aplicar los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.",
+          "descriptores": [
+            "CP1",
+            "CP2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "descriptores": [
+            "CCL5",
+            "CP3",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Seleccionar y aplicar estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.3",
+          "competencia": "C6",
+          "texto": "Mostrar empatía y comprensión por las producciones ajenas, valorando las intervenciones en diferentes contextos comunicativos y haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "descriptores": [
+            "CP3",
+            "CCEC1",
+            "CCEC3"
+          ],
+          "saberes": []
+        }
       ]
     },
     "tercer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Reconocer, interpretar y analizar el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.", "descriptores": ["CCL2", "CP1"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Seleccionar, organizar y aplicar, de forma progresivamente autónoma, métodos, estrategias y conocimientos adecuados, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.", "descriptores": ["CCL3", "CP2", "STEM1", "CD1", "CPSAA5"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Producir, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.", "descriptores": ["CCL1", "CP1", "CD2"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Seleccionar, planificar y aplicar, de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.", "descriptores": ["CP2", "STEM1", "CPSAA5", "CE1", "CCEC4"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje.", "descriptores": ["CCL1", "CCL5", "CP1", "CD3", "CC3", "CE1", "CE3"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Seleccionar, organizar y utilizar, de forma cooperativa y progresivamente autónoma, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Justificar y explicar, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.", "descriptores": ["CCL5", "CP1", "CP3", "CPSAA1", "CPSAA3", "CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Seleccionar e implementar, de forma progresivamente autónoma, métodos y estrategias adecuadas, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.", "descriptores": ["CP2", "STEM1", "CPSAA3"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento, y reflexionando sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.", "descriptores": ["CP2", "CP3"], "saberes": []},
-        {"id": "5.2", "competencia": "C5", "texto": "Experimentar, utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.", "descriptores": ["CP2", "STEM1", "CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.3", "competencia": "C5", "texto": "Registrar y reflexionar, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas, y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.", "descriptores": ["CD2", "CPSAA1", "CPSAA4", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "5.4", "competencia": "C5", "texto": "Reconocer y transferir los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.", "descriptores": ["CP1", "CP2"], "saberes": []},
-        {"id": "6.1", "competencia": "C6", "texto": "Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.", "descriptores": ["CCL5", "CP3", "CC2", "CC3", "CCEC1", "CCEC2"], "saberes": []},
-        {"id": "6.2", "competencia": "C6", "texto": "Seleccionar y aplicar estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando la diversidad existente en las islas Canarias y gestionando las emociones propias y respetando las ajenas.", "descriptores": ["CPSAA1", "CPSAA3"], "saberes": []},
-        {"id": "6.3", "competencia": "C6", "texto": "Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.", "descriptores": ["CP3", "CCEC1", "CCEC3"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Reconocer, interpretar y analizar el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+          "descriptores": [
+            "CCL2",
+            "CP1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Seleccionar, organizar y aplicar, de forma progresivamente autónoma, métodos, estrategias y conocimientos adecuados, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.",
+          "descriptores": [
+            "CCL3",
+            "CP2",
+            "STEM1",
+            "CD1",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Producir, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.",
+          "descriptores": [
+            "CCL1",
+            "CP1",
+            "CD2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Seleccionar, planificar y aplicar, de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA5",
+            "CE1",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CP1",
+            "CD3",
+            "CC3",
+            "CE1",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Seleccionar, organizar y utilizar, de forma cooperativa y progresivamente autónoma, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Justificar y explicar, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "descriptores": [
+            "CCL5",
+            "CP1",
+            "CP3",
+            "CPSAA1",
+            "CPSAA3",
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Seleccionar e implementar, de forma progresivamente autónoma, métodos y estrategias adecuadas, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento, y reflexionando sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.",
+          "descriptores": [
+            "CP2",
+            "CP3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Experimentar, utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.",
+          "descriptores": [
+            "CP2",
+            "STEM1",
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Registrar y reflexionar, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas, y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.",
+          "descriptores": [
+            "CD2",
+            "CPSAA1",
+            "CPSAA4",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.4",
+          "competencia": "C5",
+          "texto": "Reconocer y transferir los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.",
+          "descriptores": [
+            "CP1",
+            "CP2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "descriptores": [
+            "CCL5",
+            "CP3",
+            "CC2",
+            "CC3",
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Seleccionar y aplicar estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando la diversidad existente en las islas Canarias y gestionando las emociones propias y respetando las ajenas.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "6.3",
+          "competencia": "C6",
+          "texto": "Mostrar empatía y comprensión por las producciones ajenas, valorando intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "descriptores": [
+            "CP3",
+            "CCEC1",
+            "CCEC3"
+          ],
+          "saberes": []
+        }
       ]
     }
   },
   "pendiente": [
-    "Cotejo humano de los 45 criterios con el PDF oficial del BOC (pp. 45766-45771, 45774-45779 y 45783-45788): transcripción por WebFetch, en fragmentos, de una copia del PDF del BOC alojada en campuseducacion.com.",
-    "Erratas aparentes conservadas tal cual: \"propósitos de comunicación cotidianas\" (1.1, los tres ciclos) y \"análogicas\" (5.3, segundo y tercer ciclo). Confirmar en el PDF.",
-    "Saberes básicos por ciclo (I. Comunicación; II. Plurilingüismo; III. Interculturalidad; IV. Dimensiones interpersonal e intrapersonal): no transcritos."
-  ]
+    "Saberes básicos por ciclo (I. Comunicación; II. Plurilingüismo; III. Interculturalidad; IV. Dimensiones interpersonal e intrapersonal): no transcritos.",
+    "Saberes básicos por bloque y ciclo sin extraer",
+    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
+  ],
+  "cotejo": {
+    "fecha": "2026-11-17",
+    "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+  }
 }

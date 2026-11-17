@@ -1,58 +1,356 @@
 {
   "area": "Educación Física",
-  "fuente": "Decreto 211/2022 (BOC 231, 23/11/2022), anexo 2",
-  "verificado": false,
+  "fuente": "Decreto 211/2022 (BOC n.º 231, 23/11/2022), anexo 2. Cotejado con el PDF oficial boc-a-2022-231-3533.pdf",
+  "verificado": true,
   "competencias": [
-    {"id": "C1", "enunciado": "Adoptar un estilo de vida activo y saludable, practicando regularmente actividades físicas, lúdicas y deportivas, adoptando comportamientos que potencien la salud física, mental y social, así como medidas de responsabilidad individual y colectiva durante la práctica motriz, para interiorizar e integrar hábitos de actividad física sistemática que contribuyan al bienestar.", "resumen": "Estilo de vida activo, saludable y seguro."},
-    {"id": "C2", "enunciado": "Adaptar los elementos propios del esquema corporal, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones, para dar respuesta a las demandas de proyectos motores y de prácticas motrices con distintas finalidades en contextos de la vida diaria.", "resumen": "Competencia motriz: esquema corporal, habilidades y toma de decisiones."},
-    {"id": "C3", "enunciado": "Desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades sociales y actitudes de cooperación, respeto, trabajo en equipo y deportividad, con independencia de las diferencias etnoculturales, sociales, de género y de habilidad de los participantes, para contribuir a la convivencia y al compromiso ético en los diferentes espacios en los que se participa.", "resumen": "Autorregulación, juego limpio e inclusión en la práctica motriz."},
-    {"id": "C4", "enunciado": "Reconocer y practicar diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas en las situaciones motrices que se utilizan regularmente en la vida cotidiana.", "resumen": "Cultura motriz: juegos tradicionales canarios y expresión corporal."},
-    {"id": "C5", "enunciado": "Valorar diferentes medios naturales y urbanos como contextos de práctica motriz, interactuando con ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos y actividades físico-deportivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora.", "resumen": "Actividad física sostenible en el medio natural y urbano."}
+    {
+      "id": "C1",
+      "enunciado": "Adoptar un estilo de vida activo y saludable, practicando regularmente actividades físicas, lúdicas y deportivas, adoptando comportamientos que potencien la salud física, mental y social, así como medidas de responsabilidad individual y colectiva durante la práctica motriz, para interiorizar e integrar hábitos de actividad física sistemática que contribuyan al bienestar.",
+      "resumen": "Estilo de vida activo, saludable y seguro."
+    },
+    {
+      "id": "C2",
+      "enunciado": "Adaptar los elementos propios del esquema corporal, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones, para dar respuesta a las demandas de proyectos motores y de prácticas motrices con distintas finalidades en contextos de la vida diaria.",
+      "resumen": "Competencia motriz: esquema corporal, habilidades y toma de decisiones."
+    },
+    {
+      "id": "C3",
+      "enunciado": "Desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades sociales y actitudes de cooperación, respeto, trabajo en equipo y deportividad, con independencia de las diferencias etnoculturales, sociales, de género y de habilidad de los participantes, para contribuir a la convivencia y al compromiso ético en los diferentes espacios en los que se participa.",
+      "resumen": "Autorregulación, juego limpio e inclusión en la práctica motriz."
+    },
+    {
+      "id": "C4",
+      "enunciado": "Reconocer y practicar diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas en las situaciones motrices que se utilizan regularmente en la vida cotidiana.",
+      "resumen": "Cultura motriz: juegos tradicionales canarios y expresión corporal."
+    },
+    {
+      "id": "C5",
+      "enunciado": "Valorar diferentes medios naturales y urbanos como contextos de práctica motriz, interactuando con ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos y actividades físico-deportivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora.",
+      "resumen": "Actividad física sostenible en el medio natural y urbano."
+    }
   ],
   "ciclos": {
     "primer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Explorar las posibilidades de la motricidad a través del juego, identificando los beneficios de la actividad física para un estilo de vida activo y saludable, aportando hábitos de higiene corporal, educación postural, descanso e hidratación.", "descriptores": ["STEM5", "CPSAA2", "CPSAA5"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Experimentar diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.", "descriptores": ["STEM5", "CPSAA2"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Adoptar decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose a los objetivos motores y la lógica interna de las situaciones motrices.", "descriptores": ["STEM1", "CPSAA5"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Experimentar con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales.", "descriptores": ["STEM1", "CPSAA4", "CPSAA5"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Respetar las normas y reglas del juego, actuando con deportividad y juego limpio, aceptando las características y el nivel de las personas participantes e identificando y gestionando las emociones para disfrutar de la actividad física.", "descriptores": ["CPSAA1", "CPSAA3", "CPSAA5"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Participar en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando una actitud positiva frente a las actuaciones contrarias a la convivencia.", "descriptores": ["CCL1", "CCL5", "CC2"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Experimentar su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas, aceptando su valor cultural y su potencial lúdico y social, adoptando actitudes positivas hacia la igualdad.", "descriptores": ["CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Participar en composiciones con o sin soporte musical, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas mediante el ritmo y el movimiento.", "descriptores": ["CCEC1", "CCEC2"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos.", "descriptores": ["STEM5", "CC4"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Explorar las posibilidades de la motricidad a través del juego, identificando los beneficios de la actividad física para un estilo de vida activo y saludable, aportando hábitos de higiene corporal, educación postural, descanso e hidratación.",
+          "descriptores": [
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Experimentar diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.",
+          "descriptores": [
+            "STEM5",
+            "CPSAA2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Adoptar decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose a los objetivos motores y la lógica interna de las situaciones motrices.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Experimentar con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Respetar las normas y reglas del juego, actuando con deportividad y juego limpio, aceptando las características y el nivel de las personas participantes e identificando y gestionando las emociones para disfrutar de la actividad física.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Participar en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando una actitud positiva frente a las actuaciones contrarias a la convivencia.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CC2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Experimentar su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas, aceptando su valor cultural y su potencial lúdico y social, adoptando actitudes positivas hacia la igualdad.",
+          "descriptores": [
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Participar en composiciones con o sin soporte musical, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas mediante el ritmo y el movimiento.",
+          "descriptores": [
+            "CCEC1",
+            "CCEC2"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos.",
+          "descriptores": [
+            "STEM5",
+            "CC4"
+          ],
+          "saberes": []
+        }
       ]
     },
     "segundo": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Utilizar la actividad física como alternativa de ocio saludable y sostenible, adquiriendo hábitos de educación postural, de hidratación e higiene, y de alimentación, para adoptar un estilo de vida activo y saludable.", "descriptores": ["STEM2", "STEM5", "CPSAA2", "CPSAA5"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Interiorizar medidas de seguridad antes, durante y después de la práctica de actividad física, diferenciando contextos de riesgo de aquellos beneficiosos para la salud, adquiriendo actitudes inclusivas y respetando las diferencias individuales.", "descriptores": ["STEM5", "CPSAA2", "CE3"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Adoptar decisiones en juegos motores y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz.", "descriptores": ["STEM1", "CPSAA4", "CPSAA5"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal.", "descriptores": ["STEM1", "CPSAA4", "CPSAA5"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Demostrar, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacía el esfuerzo físico, controlando la impulsividad, gestionando las emociones, valorando las aportaciones de compañeros y adversarios y actuando siempre con deportividad y juego limpio.", "descriptores": ["CPSAA1", "CPSAA3", "CPSAA5"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Participar en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo los conflictos de forma dialógica y mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.", "descriptores": ["CCL1", "CCL5", "CC2", "CC3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Participar activamente en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando actitudes positivas hacia la igualdad.", "descriptores": ["CC3", "CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Distinguir y participar en composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.", "descriptores": ["CCEC1", "CCEC2", "CCEC3"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental.", "descriptores": ["STEM5", "CC4", "CE1", "CE3"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Utilizar la actividad física como alternativa de ocio saludable y sostenible, adquiriendo hábitos de educación postural, de hidratación e higiene, y de alimentación, para adoptar un estilo de vida activo y saludable.",
+          "descriptores": [
+            "STEM2",
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Interiorizar medidas de seguridad antes, durante y después de la práctica de actividad física, diferenciando contextos de riesgo de aquellos beneficiosos para la salud, adquiriendo actitudes inclusivas y respetando las diferencias individuales.",
+          "descriptores": [
+            "STEM5",
+            "CPSAA2",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Adoptar decisiones en juegos motores y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Demostrar, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacía el esfuerzo físico, controlando la impulsividad, gestionando las emociones, valorando las aportaciones de compañeros y adversarios y actuando siempre con deportividad y juego limpio.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Participar en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo los conflictos de forma dialógica y mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CC2",
+            "CC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Participar activamente en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando actitudes positivas hacia la igualdad.",
+          "descriptores": [
+            "CC3",
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Distinguir y participar en composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+          "descriptores": [
+            "CCEC1",
+            "CCEC2",
+            "CCEC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental.",
+          "descriptores": [
+            "STEM5",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "saberes": []
+        }
       ]
     },
     "tercer": {
       "criterios": [
-        {"id": "1.1", "competencia": "C1", "texto": "Integrar los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal, interiorizando así las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria.", "descriptores": ["STEM2", "STEM5", "CPSAA2", "CPSAA5"], "saberes": []},
-        {"id": "1.2", "competencia": "C1", "texto": "Aplicar medidas de seguridad antes, durante y después de la práctica de actividad física, identificando los contextos de riesgo e implementando conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia.", "descriptores": ["STEM5", "CPSAA2", "CPSAA5", "CE3"], "saberes": []},
-        {"id": "2.1", "competencia": "C2", "texto": "Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando sobre las soluciones obtenidas.", "descriptores": ["STEM1", "CPSAA4", "CPSAA5"], "saberes": []},
-        {"id": "2.2", "competencia": "C2", "texto": "Adquirir un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, valorando el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.", "descriptores": ["STEM1", "CPSAA4", "CPSAA5"], "saberes": []},
-        {"id": "3.1", "competencia": "C3", "texto": "Intervenir en situaciones motrices lúdicas, con predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva, reconociendo las actuaciones de personas compañeras y oponentes.", "descriptores": ["CPSAA1", "CPSAA3", "CPSAA5"], "saberes": []},
-        {"id": "3.2", "competencia": "C3", "texto": "Mostrar habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.", "descriptores": ["CCL1", "CCL5", "CC2", "CC3"], "saberes": []},
-        {"id": "4.1", "competencia": "C4", "texto": "Practicar juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes del deporte.", "descriptores": ["CC3", "CCEC1"], "saberes": []},
-        {"id": "4.2", "competencia": "C4", "texto": "Crear composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.", "descriptores": ["CE2", "CCEC1", "CCEC2", "CCEC3", "CCEC4"], "saberes": []},
-        {"id": "5.1", "competencia": "C5", "texto": "Adaptar las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible y comunitaria del entorno.", "descriptores": ["STEM5", "CC2", "CC4", "CE1", "CE3"], "saberes": []}
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Integrar los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal, interiorizando así las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria.",
+          "descriptores": [
+            "STEM2",
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Aplicar medidas de seguridad antes, durante y después de la práctica de actividad física, identificando los contextos de riesgo e implementando conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia.",
+          "descriptores": [
+            "STEM5",
+            "CPSAA2",
+            "CPSAA5",
+            "CE3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando sobre las soluciones obtenidas.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Adquirir un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, valorando el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.",
+          "descriptores": [
+            "STEM1",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Intervenir en situaciones motrices lúdicas, con predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva, reconociendo las actuaciones de personas compañeras y oponentes.",
+          "descriptores": [
+            "CPSAA1",
+            "CPSAA3",
+            "CPSAA5"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Mostrar habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.",
+          "descriptores": [
+            "CCL1",
+            "CCL5",
+            "CC2",
+            "CC3"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Practicar juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes del deporte.",
+          "descriptores": [
+            "CC3",
+            "CCEC1"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Crear composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+          "descriptores": [
+            "CE2",
+            "CCEC1",
+            "CCEC2",
+            "CCEC3",
+            "CCEC4"
+          ],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Adaptar las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible y comunitaria del entorno.",
+          "descriptores": [
+            "STEM5",
+            "CC2",
+            "CC4",
+            "CE1",
+            "CE3"
+          ],
+          "saberes": []
+        }
       ]
     }
   },
   "pendiente": [
-    "Cotejo humano de los 27 criterios con el PDF oficial del BOC (pp. 45669-45673, 45676-45680 y 45683-45687): transcripción por WebFetch, en fragmentos, de una copia del PDF del BOC alojada en campuseducacion.com.",
     "Segundo ciclo 3.1: la extracción conserva \"hacía el esfuerzo\" (con tilde); probable errata del BOC, comprobar.",
-    "Saberes básicos por ciclo: no transcritos; el decreto no los vincula criterio a criterio."
-  ]
+    "Saberes básicos por ciclo: no transcritos; el decreto no los vincula criterio a criterio.",
+    "Saberes básicos por bloque y ciclo sin extraer",
+    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
+  ],
+  "cotejo": {
+    "fecha": "2026-11-17",
+    "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+  }
 }

@@ -59,7 +59,13 @@ Datos de numeración extraídos del texto del BOC (para no inventar):
 | Educación Artística | 4 (C1–C4) | 10 |
 | Educación Emocional y para la Creatividad | 4 | 8 en primer y segundo ciclo, 7 en tercero |
 | Educación Física | 5 | 9 (C2 tiene 2) |
-| Lengua Castellana y Literatura, Lengua Extranjera, Matemáticas, Valores Cívicos, Segunda Lengua Extranjera | **Pendiente**: extraer del PDF | **Pendiente** |
+| Matemáticas | 8 | 42 (14 por ciclo) |
+| Lengua Castellana y Literatura | 10 | 45 (15 por ciclo) |
+| Lengua Extranjera | 6 | 45 (15 por ciclo) |
+| Educación en Valores Cívicos y Éticos | 4 | 9 (3.er ciclo) |
+| Segunda Lengua Extranjera | 6 | 15 (3.er ciclo) |
+
+> Texto literal completo en `data/canarias/primaria/*.json`, cotejado con el PDF oficial el 17/11/2026 (ver `criterios-canarias-estado.md`).
 
 Contenido de las competencias de Conocimiento del Medio (paráfrasis de su arranque): C1, educación digital; C2, curiosidad e indagación científica; C3, proyectos cooperativos; C4, cuerpo y salud; C5, elementos del medio y su interrelación; C6, aproximación crítica al entorno y la sostenibilidad; C7, rasgos de las sociedades a lo largo del tiempo; C8, diversidad social y cultural; C9, organización y funcionamiento de la sociedad.
 

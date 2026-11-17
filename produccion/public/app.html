@@ -172,7 +172,7 @@ function curriculoDe(ccaaId, area, curso) {
   if (!crit.length) return null;
   const comp = a.k.map(k => `- ${k[0]}: ${k[1]}`).join('\n');
   const lst = crit.map(c => `- Criterio ${c[0]} (${c[1]}): ${c[2]}${c[3] && c[3].length ? ' [' + c[3].join(', ') + ']' : ''}`).join('\n');
-  return `CURRÍCULO OFICIAL DEL ÁREA PARA ESTE CICLO (transcripción del decreto: es la ÚNICA fuente válida de numeración y redacción; cita los criterios con su número exacto y no inventes otros; para estos elementos NO uses la marca [VERIFICAR CON DECRETO]):
+  return `CURRÍCULO OFICIAL DEL ÁREA PARA ESTE CICLO (texto literal del decreto, cotejado con el BOC: es la ÚNICA fuente válida de numeración y redacción; cita los criterios con su número exacto y no inventes otros; para estos elementos NO uses la marca [VERIFICAR CON DECRETO]):
 Competencias específicas:
 ${comp}
 Criterios de evaluación del ${cicloDe(curso)} (entre corchetes, descriptores operativos vinculados):
