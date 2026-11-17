@@ -1,0 +1,26 @@
+name = "aulalista"
+main = "src/worker.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+# Crea el espacio KV con:  npx wrangler kv namespace create KV   y pega aquí el id
+[[kv_namespaces]]
+binding = "KV"
+id = "PEGA_AQUI_EL_ID_DEL_KV"
+
+[vars]
+MODEL = "claude-sonnet-5-5"
+PUBLIC_URL = "https://aulalista.es"
+# STRIPE_FOUNDER_LINK = "https://buy.stripe.com/..."   # Payment Link del plan Fundador
+# MAILERLITE_GROUP_ID = "..."
+
+# Secretos (NO van en este archivo). Créalos con:
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#   npx wrangler secret put STRIPE_SECRET_KEY
+#   npx wrangler secret put STRIPE_WEBHOOK_SECRET
+#   npx wrangler secret put ADMIN_TOKEN
+#   npx wrangler secret put MAILERLITE_API_KEY      (opcional)

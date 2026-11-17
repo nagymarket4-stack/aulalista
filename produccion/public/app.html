@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AulaLista · Generador de situaciones de aprendizaje</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
+<style>
+  :root{
+    --bg:#f7f5f0; --card:#fff; --ink:#1f2a2e; --muted:#5d6b70; --line:#e4e0d6;
+    --brand:#0f6e6a; --brand-2:#e8f3f2; --accent:#e07a3f; --warn:#8a5a00; --warn-bg:#fff6e0;
+    --radius:14px; --shadow:0 1px 2px rgba(0,0,0,.04),0 6px 24px rgba(0,0,0,.05);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.55}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:5}
+  .logo{font-family:Fraunces,serif;font-weight:700;font-size:22px;color:var(--brand);letter-spacing:-.3px}
+  .logo span{color:var(--accent)}
+  .plan{font-size:13px;color:var(--muted);display:flex;gap:10px;align-items:center}
+  .pill{background:var(--brand-2);color:var(--brand);padding:3px 10px;border-radius:99px;font-weight:600;font-size:12px}
+  main{display:grid;grid-template-columns:380px 1fr;gap:20px;max-width:1280px;margin:20px auto;padding:0 20px}
+  @media(max-width:900px){main{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+  .tabs{display:flex;gap:4px;padding:6px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .tab{flex:1;border:0;background:transparent;padding:9px 8px;border-radius:10px;font:600 13px Inter;color:var(--muted);cursor:pointer;white-space:nowrap}
+  .tab.on{background:var(--brand-2);color:var(--brand)}
+  form{padding:16px 18px 18px;display:flex;flex-direction:column;gap:12px}
+  label{font-size:12.5px;font-weight:600;color:var(--muted);display:flex;flex-direction:column;gap:5px}
+  input,select,textarea{font:14px Inter;padding:9px 11px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);width:100%}
+  textarea{min-height:70px;resize:vertical}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--brand);outline-offset:-1px;border-color:transparent}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .btn{border:0;border-radius:10px;padding:11px 16px;font:600 14px Inter;cursor:pointer;background:var(--brand);color:#fff}
+  .btn:disabled{opacity:.5;cursor:default}
+  .btn.ghost{background:transparent;color:var(--brand);border:1px solid var(--line)}
+  .btn.small{padding:7px 11px;font-size:13px}
+  .hint{font-size:12px;color:var(--muted);margin:0}
+  .notice{background:var(--warn-bg);color:var(--warn);padding:9px 12px;border-radius:10px;font-size:12.5px}
+  .out{min-height:70vh;display:flex;flex-direction:column}
+  .toolbar{display:flex;gap:8px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .toolbar .spacer{flex:1}
+  .status{font-size:13px;color:var(--muted)}
+  .doc{padding:26px 34px 40px;overflow:auto}
+  .doc h1,.doc h2,.doc h3{font-family:Fraunces,serif;line-height:1.25;color:var(--ink)}
+  .doc h2{font-size:21px;margin:26px 0 8px;padding-bottom:6px;border-bottom:2px solid var(--brand-2)}
+  .doc h3{font-size:16.5px;margin:18px 0 6px;color:var(--brand)}
+  .doc table{border-collapse:collapse;width:100%;margin:10px 0 16px;font-size:13.5px}
+  .doc th,.doc td{border:1px solid var(--line);padding:7px 9px;vertical-align:top;text-align:left}
+  .doc th{background:var(--brand-2);color:var(--brand)}
+  .doc .verif{background:var(--warn-bg);color:var(--warn);font-size:11px;font-weight:600;padding:1px 6px;border-radius:6px;white-space:nowrap}
+  .empty{margin:auto;text-align:center;color:var(--muted);max-width:420px;padding:40px}
+  .empty h2{font-family:Fraunces,serif;color:var(--ink);border:0}
+  .hist{list-style:none;margin:0;padding:8px}
+  .hist li{display:flex;gap:8px;align-items:center;padding:10px;border-radius:10px;cursor:pointer}
+  .hist li:hover{background:var(--brand-2)}
+  .hist .t{flex:1;font-weight:600;font-size:13.5px}
+  .hist .m{font-size:12px;color:var(--muted)}
+  .hist .del{border:0;background:none;color:var(--muted);cursor:pointer;font-size:16px}
+  .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:13.5px;opacity:0;transition:.25s;pointer-events:none}
+  .toast.on{opacity:1}
+  .hidden{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Aula<span>Lista</span></div>
+  <div class="plan"><span id="usage"></span><span class="pill" id="planPill">Plan Gratis</span></div>
+</header>
+
+<main>
+  <section class="card">
+    <div class="tabs" role="tablist">
+      <button class="tab on" data-mode="sa">Situación de aprendizaje</button>
+      <button class="tab" data-mode="rubrica">Rúbrica</button>
+      <button class="tab" data-mode="adaptacion">Adaptación DUA</button>
+      <button class="tab" data-mode="historial">Mis documentos</button>
+    </div>
+
+    <form id="form" autocomplete="off">
+      <div class="row">
+        <label>Comunidad<select id="ccaa"></select></label>
+        <label>Curso<select id="curso"></select></label>
+      </div>
+      <label>Área<select id="area"></select></label>
+
+      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
+
+      <div class="row f-sa">
+        <label>Sesiones<input id="sesiones" type="number" min="1" max="20" value="6"></label>
+        <label>Minutos/sesión<input id="duracion" type="number" min="30" max="120" step="15" value="45"></label>
+      </div>
+      <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" placeholder="Ej.: Matemáticas, Educación Artística"></label>
+      <label class="f-sa">Producto final (opcional)<input id="producto" placeholder="Ej.: guía ilustrada para visitantes"></label>
+
+      <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
+      <label class="f-rubrica hidden">Niveles de logro<select id="niveles"><option value="4">4 niveles (En inicio → Avanzado)</option><option value="5">5 niveles (IN, SU, BI, NT, SB)</option></select></label>
+
+      <label class="f-adaptacion hidden">Perfil (anónimo)<select id="perfil">
+        <option>TDAH (predominio inatento)</option><option>TDAH (predominio hiperactivo-impulsivo)</option>
+        <option>TEA (necesita apoyo en comunicación social)</option><option>Dislexia / dificultad específica de lectura</option>
+        <option>Discalculia / dificultad específica en matemáticas</option><option>Altas capacidades intelectuales</option>
+        <option>Desconocimiento del idioma de enseñanza</option><option>Discapacidad auditiva</option>
+        <option>Discapacidad visual</option><option>Discapacidad motora</option><option>Desfase curricular de 2 o más cursos</option>
+      </select></label>
+
+      <label class="f-sa f-adaptacion">Contexto u observaciones (opcional)<textarea id="contexto" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
+
+      <p class="notice">No escribas nombres ni datos personales del alumnado. Usa perfiles anónimos.</p>
+      <button class="btn" id="go" type="submit">Generar</button>
+      <p class="hint">Revisa siempre el resultado. Los elementos marcados <span class="verif" style="font-size:10px">VERIFICAR</span> deben contrastarse con el decreto.</p>
+    </form>
+
+    <div id="historial" class="hidden">
+      <ul class="hist" id="histList"></ul>
+      <p class="hint" id="histEmpty" style="padding:0 18px 18px">Aún no has guardado documentos.</p>
+    </div>
+  </section>
+
+  <section class="card out">
+    <div class="toolbar">
+      <span class="status" id="status">Listo</span>
+      <span class="spacer"></span>
+      <button class="btn small ghost hidden" id="stop">Detener</button>
+      <button class="btn small ghost" id="copy" disabled>Copiar</button>
+      <button class="btn small ghost" id="dlDocx" disabled>Descargar Word</button>
+      <button class="btn small ghost" id="dlMd" disabled>Markdown</button>
+      <button class="btn small" id="save" disabled>Guardar</button>
+    </div>
+    <div class="doc" id="doc">
+      <div class="empty">
+        <h2>Tu documento aparecerá aquí</h2>
+        <p>Elige comunidad, curso y área, describe el reto y pulsa <b>Generar</b>. En menos de un minuto tendrás una situación de aprendizaje completa, alineada con el currículo de tu comunidad.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="toast" id="toast"></div>
+
+<script>
+// AulaLista — datos curriculares y construcción de prompts (compartido entre prototipo y producción)
+// IMPORTANTE: los decretos marcados como verificados se han comprobado; el resto usa una referencia genérica
+// para que el modelo no invente números de norma. Completa DECRETO de cada comunidad antes de lanzar.
+
+const AREAS_BASE = [
+  'Conocimiento del Medio Natural, Social y Cultural',
+  'Educación Artística',
+  'Educación Física',
+  'Lengua Castellana y Literatura',
+  'Lengua Extranjera (Inglés)',
+  'Matemáticas',
+  'Educación en Valores Cívicos y Éticos'
+];
+
+const CCAA = [
+  { id: 'canarias', name: 'Canarias', decreto: 'Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias', verificado: true,
+    extra: ['Educación Emocional y para la Creatividad'],
+    nota: 'Sigue la estructura del modelo de situación de aprendizaje de la Consejería de Educación del Gobierno de Canarias y contextualiza en la realidad canaria (patrimonio natural y cultural, insularidad, biodiversidad, sostenibilidad).' },
+  { id: 'andalucia', name: 'Andalucía', extra: [] },
+  { id: 'aragon', name: 'Aragón', extra: [] },
+  { id: 'asturias', name: 'Asturias', extra: [] },
+  { id: 'baleares', name: 'Illes Balears', extra: ['Llengua Catalana i Literatura'] },
+  { id: 'cantabria', name: 'Cantabria', extra: [] },
+  { id: 'castillaleon', name: 'Castilla y León', extra: [] },
+  { id: 'clm', name: 'Castilla-La Mancha', decreto: 'Decreto 81/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Primaria en la comunidad autónoma de Castilla-La Mancha', verificado: true, extra: [] },
+  { id: 'cataluna', name: 'Cataluña', extra: ['Llengua Catalana i Literatura', 'Llengua Occitana (Aran)'] },
+  { id: 'valencia', name: 'Comunitat Valenciana', decreto: 'Decreto 106/2022, de 5 de agosto, del Consell, de ordenación y currículo de la etapa de Educación Primaria', verificado: true, extra: ['Valenciano: Lengua y Literatura'] },
+  { id: 'extremadura', name: 'Extremadura', extra: [] },
+  { id: 'galicia', name: 'Galicia', extra: ['Lingua Galega e Literatura'] },
+  { id: 'madrid', name: 'Comunidad de Madrid', extra: [] },
+  { id: 'murcia', name: 'Región de Murcia', extra: [] },
+  { id: 'navarra', name: 'Navarra', extra: ['Lengua Vasca y Literatura'] },
+  { id: 'paisvasco', name: 'País Vasco', extra: ['Lengua Vasca y Literatura'] },
+  { id: 'rioja', name: 'La Rioja', extra: [] },
+  { id: 'mefp', name: 'Ceuta y Melilla (MEFP)', extra: [] }
+];
+
+const CURSOS = ['1º', '2º', '3º', '4º', '5º', '6º'];
+
+function cicloDe(curso) {
+  const n = parseInt(curso, 10);
+  return n <= 2 ? 'primer ciclo' : n <= 4 ? 'segundo ciclo' : 'tercer ciclo';
+}
+
+function ccaaPorId(id) { return CCAA.find(c => c.id === id) || CCAA[0]; }
+
+function areasDe(ccaaId, curso) {
+  const c = ccaaPorId(ccaaId);
+  let areas = AREAS_BASE.concat(c.extra || []);
+  const n = parseInt(curso, 10);
+  if (n < 5) areas = areas.filter(a => a !== 'Educación en Valores Cívicos y Éticos');
+  return areas;
+}
+
+function marcoNormativo(c) {
+  const dec = c.decreto
+    ? c.decreto
+    : `el decreto de currículo de Educación Primaria vigente en ${c.name} (no cites su número ni fecha: escribe "decreto autonómico de currículo de ${c.name}")`;
+  return `LOMLOE (Ley Orgánica 3/2020), Real Decreto 157/2022, de 1 de marzo, de enseñanzas mínimas de Educación Primaria, y ${dec}.`;
+}
+
+const REGLAS_COMUNES = `
+REGLAS DE RIGOR (obligatorias):
+- Español de España, registro profesional docente, sin relleno ni frases vacías.
+- Usa la numeración de competencias específicas y criterios de evaluación del Real Decreto 157/2022 para el ciclo indicado (por ejemplo "CE 2" y "criterio 2.1"). Si la concreción autonómica puede diferir o no estás seguro de su redacción literal, añade al final del elemento la marca [VERIFICAR CON DECRETO]. Nunca inventes números de criterio que no existan.
+- Los descriptores operativos se citan con sus siglas oficiales del Perfil de salida (CCL, CP, STEM, CD, CPSAA, CC, CE, CCEC, con su número, p. ej. STEM2).
+- Nunca incluyas nombres ni datos personales de alumnado.
+- Devuelve SOLO el documento en Markdown (encabezados ##/###, tablas con |, listas con -). Sin preámbulo ni despedida.`;
+
+function promptSA(d) {
+  const c = ccaaPorId(d.ccaa);
+  return `Eres un/a maestro/a de Educación Primaria experto/a en diseño curricular LOMLOE y en la normativa de ${c.name}. Diseña una SITUACIÓN DE APRENDIZAJE completa, lista para entregar a jefatura de estudios o inspección.
+
+MARCO NORMATIVO: ${marcoNormativo(c)}
+${c.nota ? 'CONTEXTO AUTONÓMICO: ' + c.nota : ''}
+
+DATOS:
+- Curso: ${d.curso} de Educación Primaria (${cicloDe(d.curso)})
+- Área principal: ${d.area}
+- Otras áreas implicadas: ${d.otras || 'las que encajen de forma natural (máximo 2)'}
+- Tema o reto: ${d.tema}
+- Sesiones: ${d.sesiones} de ${d.duracion} minutos
+- Contexto del grupo: ${d.contexto || 'grupo heterogéneo estándar; propón un contexto verosímil'}
+- Producto final: ${d.producto || 'propón uno significativo y con difusión fuera del aula'}
+
+ESTRUCTURA OBLIGATORIA (usa exactamente estos encabezados ##):
+## 1. Identificación
+Título atractivo, curso, áreas, temporalización, y una frase-resumen del reto.
+## 2. Justificación y contextualización
+Problema o reto real conectado con el entorno del alumnado en ${c.name}; vinculación con los ODS y con los elementos transversales cuando proceda.
+## 3. Fundamentación curricular
+Tabla: | Competencia específica | Criterios de evaluación | Saberes básicos | Descriptores operativos |
+## 4. Fundamentación metodológica
+Modelos y métodos de enseñanza, agrupamientos, espacios, recursos (incluida la competencia digital) y principios del DUA.
+## 5. Secuencia de actividades
+Para cada sesión: "### Sesión N. Título", con objetivo de la sesión, desarrollo (inicio, desarrollo, cierre con tiempos), agrupamiento, recursos y evidencia de aprendizaje que se recoge.
+## 6. Atención a las diferencias individuales
+Medidas DUA organizadas en: representación, acción y expresión, implicación. Incluye propuestas concretas para alumnado que necesita más apoyo y para alumnado que necesita más reto.
+## 7. Evaluación
+Tabla: | Criterio | Instrumento | Evidencia | Momento | Agente (hetero/auto/coevaluación) |. Después, una rúbrica breve del producto final con 4 niveles de logro.
+## 8. Producto final y difusión
+${REGLAS_COMUNES}`;
+}
+
+function promptRubrica(d) {
+  const c = ccaaPorId(d.ccaa);
+  const niveles = d.niveles === '5'
+    ? 'Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT) y Sobresaliente (SB)'
+    : 'En inicio, En proceso, Adquirido y Avanzado';
+  return `Eres un/a maestro/a de Educación Primaria experto/a en evaluación competencial LOMLOE en ${c.name}.
+Crea una RÚBRICA DE EVALUACIÓN analítica.
+
+MARCO NORMATIVO: ${marcoNormativo(c)}
+DATOS:
+- Curso: ${d.curso} de Educación Primaria (${cicloDe(d.curso)})
+- Área: ${d.area}
+- Tarea, producto o aprendizaje a evaluar: ${d.tema}
+- Criterios de evaluación que quiere usar el docente: ${d.criterios || 'selecciona tú los 3-5 criterios del ciclo más pertinentes'}
+- Niveles de logro: ${niveles}
+
+ESTRUCTURA:
+## Rúbrica: [título]
+Una línea con curso, área y tarea.
+## Criterios evaluados
+Lista de los criterios con su número y redacción.
+## Rúbrica
+Tabla: primera columna "Criterio / indicador", una columna por nivel de logro. Descriptores observables, graduados, redactados en positivo, sin adjetivos vagos ("bien", "adecuado") sin concretar qué se observa.
+## Ponderación y calificación
+Peso de cada criterio y cómo se traduce a calificación.
+## Versión para el alumnado
+La misma rúbrica en lenguaje sencillo, en primera persona ("Yo..."), adaptada a la edad del curso.
+${REGLAS_COMUNES}`;
+}
+
+function promptAdaptacion(d) {
+  const c = ccaaPorId(d.ccaa);
+  return `Eres un/a especialista en inclusión educativa y Diseño Universal para el Aprendizaje (DUA) en Educación Primaria en ${c.name}.
+Diseña MEDIDAS ORDINARIAS DE ATENCIÓN A LAS DIFERENCIAS INDIVIDUALES para una actividad o situación de aprendizaje.
+
+MARCO NORMATIVO: ${marcoNormativo(c)}
+DATOS (perfil anónimo, sin datos personales):
+- Curso: ${d.curso} de Educación Primaria
+- Área: ${d.area}
+- Perfil del alumno o alumna: ${d.perfil}
+- Observaciones del docente: ${d.contexto || 'ninguna'}
+- Actividad o situación de aprendizaje a adaptar: ${d.tema}
+
+ESTRUCTURA:
+## Perfil y barreras previsibles
+Barreras para el aprendizaje y la participación que puede encontrar en ESTA actividad (no describas el diagnóstico en abstracto).
+## Medidas de acceso y organización
+Espacio, tiempos, agrupamientos, apoyos.
+## Ajustes metodológicos (DUA)
+Organizados en representación, acción y expresión, implicación. Concretos y aplicables mañana.
+## Actividad adaptada
+Reescribe la actividad paso a paso con los ajustes aplicados, manteniendo los mismos criterios de evaluación.
+## Evaluación accesible
+Instrumentos y formatos alternativos para recoger evidencias, sin rebajar el criterio.
+## Coordinación
+Con quién coordinarse (orientación, especialistas, familia) y qué registrar.
+Nota final: estas son medidas ordinarias y no sustituyen la evaluación psicopedagógica ni las medidas que esta determine.
+${REGLAS_COMUNES}`;
+}
+
+if (typeof module !== 'undefined') module.exports = { CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, promptSA, promptRubrica, promptAdaptacion };
+
+</script>
+<script>
+// Motor de PRODUCCIÓN: habla con el backend (Cloudflare Worker, /api/*).
+// Historial en el navegador del docente (localStorage); licencia Pro guardada tras el pago.
+const Engine = (() => {
+  const API = '';               // mismo dominio que el Worker
+  const KEY = 'al-license';
+  const store = {
+    get(k, def) { try { return JSON.parse(localStorage.getItem(k)) ?? def; } catch (e) { return def; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  const license = () => store.get(KEY, null);
+  let lastUsage = null;
+
+  async function init() {
+    // Vuelta desde Stripe Checkout: ?session_id=cs_...
+    const sid = new URLSearchParams(location.search).get('session_id');
+    if (sid) {
+      try {
+        const r = await fetch(API + '/api/license?session_id=' + encodeURIComponent(sid));
+        if (r.ok) { const j = await r.json(); store.set(KEY, j.license); }
+      } catch (e) {}
+      history.replaceState(null, '', location.pathname);
+    }
+    return { ai: true, storage: true, downloads: true };
+  }
+
+  async function generate(prompt, onText, signal, meta) {
+    const headers = { 'content-type': 'application/json' };
+    const lic = license(); if (lic) headers['authorization'] = 'Bearer ' + lic;
+    const r = await fetch(API + '/api/generate', { method: 'POST', headers, body: JSON.stringify(meta), signal });
+    if (r.status === 402 || r.status === 429) { const j = await r.json().catch(() => ({})); throw new Error(j.message || 'Límite del plan gratuito alcanzado'); }
+    if (!r.ok || !r.body) throw new Error('El servicio no responde (' + r.status + ')');
+    lastUsage = { used: +r.headers.get('x-usage-used') || 0, limit: +r.headers.get('x-usage-limit') || 0, pro: r.headers.get('x-plan') === 'pro' };
+    const reader = r.body.getReader(), dec = new TextDecoder();
+    let text = '', buf = '';
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += dec.decode(value, { stream: true });
+      let i;
+      while ((i = buf.indexOf('\n\n')) >= 0) {
+        const evt = buf.slice(0, i); buf = buf.slice(i + 2);
+        const line = evt.split('\n').find(l => l.startsWith('data: '));
+        if (!line) continue;
+        let j; try { j = JSON.parse(line.slice(6)); } catch (e) { continue; }
+        if (j.type === 'content_block_delta' && j.delta && j.delta.type === 'text_delta') { text += j.delta.text; onText(text); }
+        if (j.type === 'error') throw new Error((j.error && j.error.message) || 'Error del modelo');
+      }
+    }
+    return text;
+  }
+
+  async function canGenerate() { return { ok: true }; } // el servidor decide (402 si no hay cupo)
+  async function countUsage() {}
+  async function usage() {
+    if (license()) return { plan: 'Pro', label: '' };
+    if (!lastUsage) { try { const r = await fetch(API + '/api/usage'); if (r.ok) lastUsage = await r.json(); } catch (e) {} }
+    return { plan: 'Plan Gratis', label: lastUsage ? `${lastUsage.used}/${lastUsage.limit} este mes` : '' };
+  }
+
+  const docs = () => store.get('al-docs', []);
+  async function saveDoc(d) { const all = docs().filter(x => x.id !== d.id); all.push(d); store.set('al-docs', all.slice(-200)); }
+  async function listDocs() { return docs(); }
+  async function deleteDoc(id) { store.set('al-docs', docs().filter(x => x.id !== id)); }
+  async function download(filename, data) {
+    const blob = data instanceof Blob ? data : new Blob([data], { type: 'text/markdown;charset=utf-8' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename;
+    document.body.append(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  return { init, generate, canGenerate, countUsage, usage, saveDoc, listDocs, deleteDoc, download };
+})();
+
+</script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  let mode = 'sa', current = null, controller = null, busy = false;
+
+  // ---------- Toast ----------
+  let toastT;
+  function toast(msg){ const t=$('toast'); t.textContent=msg; t.classList.add('on'); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('on'),2600); }
+
+  // ---------- Selects ----------
+  CCAA.forEach(c => $('ccaa').add(new Option(c.name, c.id)));
+  CURSOS.forEach(c => $('curso').add(new Option(c + ' de Primaria', c)));
+  function fillAreas(){
+    const prev = $('area').value;
+    $('area').innerHTML = '';
+    areasDe($('ccaa').value, $('curso').value).forEach(a => $('area').add(new Option(a, a)));
+    if ([...$('area').options].some(o => o.value === prev)) $('area').value = prev;
+  }
+  $('ccaa').onchange = () => { fillAreas(); remember(); };
+  $('curso').onchange = () => { fillAreas(); remember(); };
+  $('area').onchange = remember;
+  function remember(){ try{ localStorage.setItem('al-prefs', JSON.stringify({ccaa:$('ccaa').value,curso:$('curso').value,area:$('area').value})); }catch(e){} }
+  try{ const p = JSON.parse(localStorage.getItem('al-prefs')||'null'); if(p){ $('ccaa').value=p.ccaa; $('curso').value=p.curso; fillAreas(); $('area').value=p.area; } else { $('curso').value='3º'; fillAreas(); } }catch(e){ fillAreas(); }
+
+  // ---------- Tabs ----------
+  const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar' };
+  const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela' };
+  document.querySelectorAll('.tab').forEach(b => b.onclick = () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === b));
+    mode = b.dataset.mode;
+    const hist = mode === 'historial';
+    $('form').classList.toggle('hidden', hist);
+    $('historial').classList.toggle('hidden', !hist);
+    if (hist) { renderHistory(); return; }
+    document.querySelectorAll('.f-sa,.f-rubrica,.f-adaptacion').forEach(el => el.classList.toggle('hidden', !el.classList.contains('f-' + mode)));
+    $('temaLabel').textContent = LABELS[mode];
+    $('tema').placeholder = PH[mode];
+  });
+
+  // ---------- Markdown ----------
+  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  function inline(s){
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+      .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g,'$1<i>$2</i>')
+      .replace(/\[VERIFICAR CON DECRETO\]/g,'<span class="verif">VERIFICAR</span>');
+  }
+  function md(src){
+    const lines = src.replace(/\r/g,'').split('\n');
+    let html = '', i = 0;
+    while (i < lines.length){
+      const l = lines[i];
+      if (/^\s*\|/.test(l)){
+        const rows = [];
+        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
+        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim());
+        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
+        if (!body.length) continue;
+        html += '<table><thead><tr>' + cells(body[0]).map(c => '<th>'+inline(c)+'</th>').join('') + '</tr></thead><tbody>';
+        body.slice(1).forEach(r => html += '<tr>' + cells(r).map(c => '<td>'+inline(c).replace(/&lt;br\s*\/?&gt;/g,'<br>')+'</td>').join('') + '</tr>');
+        html += '</tbody></table>';
+        continue;
+      }
+      let m;
+      if ((m = l.match(/^(#{1,4})\s+(.*)/))){ const n = Math.min(m[1].length+0,4); html += `<h${n}>${inline(m[2])}</h${n}>`; i++; continue; }
+      if (/^\s*[-*]\s+/.test(l)){
+        html += '<ul>'; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*[-*]\s+/,''))+'</li>'; html += '</ul>'; continue;
+      }
+      if (/^\s*\d+[.)]\s+/.test(l)){
+        html += '<ol>'; while (i < lines.length && /^\s*\d+[.)]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*\d+[.)]\s+/,''))+'</li>'; html += '</ol>'; continue;
+      }
+      if (/^\s*(---|\*\*\*)\s*$/.test(l)){ html += '<hr>'; i++; continue; }
+      if (!l.trim()){ i++; continue; }
+      const para = [];
+      while (i < lines.length && lines[i].trim() && !/^(#{1,4}\s|\s*[-*]\s|\s*\d+[.)]\s|\s*\|)/.test(lines[i])) para.push(lines[i++]);
+      html += '<p>' + inline(para.join(' ')) + '</p>';
+    }
+    return html;
+  }
+
+  // ---------- Word (.docx) ----------
+  function runs(text){
+    const D = window.docx, out = [];
+    text.replace(/\[VERIFICAR CON DECRETO\]/g,'[VERIFICAR]').split(/(\*\*[^*]+\*\*)/).forEach(part => {
+      if (!part) return;
+      if (/^\*\*.+\*\*$/.test(part)) out.push(new D.TextRun({ text: part.slice(2,-2), bold: true }));
+      else out.push(new D.TextRun(part.replace(/\*(.+?)\*/g,'$1')));
+    });
+    return out;
+  }
+  async function toDocx(src, title){
+    const D = window.docx; if (!D) throw new Error('docx');
+    const children = [], lines = src.replace(/\r/g,'').split('\n');
+    let i = 0;
+    while (i < lines.length){
+      const l = lines[i]; let m;
+      if (/^\s*\|/.test(l)){
+        const rows = [];
+        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
+        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
+        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim().replace(/<br\s*\/?>/g,'\n'));
+        if (!body.length) continue;
+        const ncol = cells(body[0]).length;
+        children.push(new D.Table({
+          width: { size: 100, type: D.WidthType.PERCENTAGE },
+          rows: body.map((r, ri) => new D.TableRow({ tableHeader: ri === 0, children: Array.from({length: ncol}, (_, ci) => {
+            const txt = cells(r)[ci] || '';
+            return new D.TableCell({ shading: ri === 0 ? { fill: 'E8F3F2' } : undefined,
+              children: txt.split('\n').map(t => new D.Paragraph({ children: ri === 0 ? [new D.TextRun({ text: t.replace(/\*\*/g,''), bold: true })] : runs(t) })) });
+          }) }))
+        }));
+        children.push(new D.Paragraph(''));
+        continue;
+      }
+      if ((m = l.match(/^(#{1,4})\s+(.*)/))){
+        const lvl = [D.HeadingLevel.HEADING_1, D.HeadingLevel.HEADING_1, D.HeadingLevel.HEADING_2, D.HeadingLevel.HEADING_3][Math.min(m[1].length,4)-1];
+        children.push(new D.Paragraph({ heading: lvl, children: [new D.TextRun(m[2].replace(/\*\*/g,''))] })); i++; continue;
+      }
+      if (/^\s*[-*]\s+/.test(l)){ children.push(new D.Paragraph({ bullet: { level: /^\s{2,}/.test(l) ? 1 : 0 }, children: runs(l.replace(/^\s*[-*]\s+/,'')) })); i++; continue; }
+      if (/^\s*\d+[.)]\s+/.test(l)){ children.push(new D.Paragraph({ children: runs(l.trim()) })); i++; continue; }
+      if (l.trim()) children.push(new D.Paragraph({ children: runs(l) }));
+      i++;
+    }
+    const doc = new D.Document({ creator: 'AulaLista', title,
+      styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } },
+      sections: [{ children }] });
+    return D.Packer.toBlob(doc);
+  }
+
+  // ---------- Generación ----------
+  function datos(){
+    return { ccaa:$('ccaa').value, curso:$('curso').value, area:$('area').value, tema:$('tema').value.trim(),
+      sesiones:$('sesiones').value, duracion:$('duracion').value, otras:$('otras').value.trim(), producto:$('producto').value.trim(),
+      contexto:$('contexto').value.trim(), criterios:$('criterios').value.trim(), niveles:$('niveles').value, perfil:$('perfil').value };
+  }
+  const TIPO = { sa:'Situación de aprendizaje', rubrica:'Rúbrica', adaptacion:'Adaptación DUA' };
+  function tituloDe(text, d){
+    const m = text.match(/^#{1,3}\s+(?:1\.\s*Identificación\s*$)?(.+)$/m);
+    const t = (text.match(/\*\*T[íi]tulo:?\*\*:?\s*(.+)/) || [])[1] || (m && !/Identificación/.test(m[1]) ? m[1] : '') || d.tema;
+    return t.replace(/[*#]/g,'').trim().slice(0, 90);
+  }
+
+  let raf = 0;
+  function show(text){ cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { $('doc').innerHTML = md(text); }); }
+  function setBusy(b){
+    busy = b; $('go').disabled = b; $('stop').classList.toggle('hidden', !b);
+    ['copy','dlDocx','dlMd','save'].forEach(id => $(id).disabled = b || !current);
+  }
+
+  $('form').onsubmit = async e => {
+    e.preventDefault();
+    if (busy) return;
+    const d = datos();
+    if (!d.tema) { toast('Describe el tema o la actividad'); return; }
+    if (/\b(se llama|llamad[oa]|nombre del alumno|DNI)\b/i.test(d.contexto + ' ' + d.tema)) {
+      if (!window.__alAvisoNombres) { window.__alAvisoNombres = true; toast('Parece que hay datos personales. Quítalos y vuelve a pulsar Generar.'); return; }
+    }
+    const check = await Engine.canGenerate();
+    if (!check.ok) { $('status').textContent = check.message; toast(check.message); return; }
+    const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : promptAdaptacion(d);
+    current = null; controller = new AbortController(); setBusy(true);
+    $('status').textContent = 'Generando…';
+    $('doc').innerHTML = '<div class="empty"><p>Pensando la estructura y alineando con el currículo…</p></div>';
+    let text = '';
+    try {
+      text = await Engine.generate(prompt, t => { text = t; show(t); }, controller.signal, { mode, d });
+      show(text);
+      current = { id: 'd' + Date.now(), tipo: mode, titulo: tituloDe(text, d), ccaa: d.ccaa, curso: d.curso, area: d.area, md: text, createdAt: Date.now() };
+      $('status').textContent = TIPO[mode] + ' lista · ' + Math.round(text.split(/\s+/).length) + ' palabras';
+      await Engine.countUsage();
+      refreshUsage();
+    } catch (err) {
+      if (text) { current = { id:'d'+Date.now(), tipo:mode, titulo:tituloDe(text,d), ccaa:d.ccaa, curso:d.curso, area:d.area, md:text, createdAt:Date.now() }; }
+      $('status').textContent = err && err.name === 'AbortError' ? 'Detenido' : ('No se pudo generar: ' + ((err && err.message) || 'error'));
+    } finally { setBusy(false); }
+  };
+  $('stop').onclick = () => controller && controller.abort();
+
+  // ---------- Acciones ----------
+  $('copy').onclick = async () => { try { await navigator.clipboard.writeText(current.md); toast('Copiado'); } catch(e){ toast('No se pudo copiar'); } };
+  const fname = ext => (current.titulo || 'documento').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^\w]+/g,'-').replace(/^-|-$/g,'').slice(0,60) + '.' + ext;
+  $('dlMd').onclick = async () => { try { await Engine.download(fname('md'), current.md); } catch(e){ if (e && e.code !== 'declined') toast('Descarga no disponible'); } };
+  $('dlDocx').onclick = async () => {
+    try { const blob = await toDocx(current.md, current.titulo); await Engine.download(fname('docx'), blob); }
+    catch(e){ if (e && e.code === 'declined') return; toast('No se pudo crear el Word'); }
+  };
+  $('save').onclick = async () => {
+    try { await Engine.saveDoc(current); toast('Guardado en Mis documentos'); $('save').disabled = true; }
+    catch(e){ toast('No se pudo guardar'); }
+  };
+
+  // ---------- Historial ----------
+  async function renderHistory(){
+    const list = $('histList'); list.innerHTML = '<li class="m">Cargando…</li>';
+    let docs = [];
+    try { docs = await Engine.listDocs(); } catch(e){ list.innerHTML = ''; $('histEmpty').textContent = 'El historial no está disponible en esta vista.'; $('histEmpty').classList.remove('hidden'); return; }
+    list.innerHTML = '';
+    $('histEmpty').classList.toggle('hidden', docs.length > 0);
+    docs.sort((a,b) => b.createdAt - a.createdAt).forEach(d => {
+      const li = document.createElement('li');
+      const info = document.createElement('div'); info.style.flex = '1';
+      const t = document.createElement('div'); t.className = 't'; t.textContent = d.titulo;
+      const m = document.createElement('div'); m.className = 'm';
+      m.textContent = `${TIPO[d.tipo] || ''} · ${d.curso} · ${d.area} · ${new Date(d.createdAt).toLocaleDateString('es-ES')}`;
+      info.append(t, m);
+      const del = document.createElement('button'); del.className = 'del'; del.title = 'Borrar'; del.textContent = '×';
+      del.onclick = async ev => { ev.stopPropagation(); try { await Engine.deleteDoc(d.id); renderHistory(); } catch(e){ toast('No se pudo borrar'); } };
+      li.onclick = () => { current = d; $('doc').innerHTML = md(d.md); $('status').textContent = d.titulo; setBusy(false); $('save').disabled = true; };
+      li.append(info, del); list.append(li);
+    });
+  }
+
+  async function refreshUsage(){
+    try { const u = await Engine.usage(); $('usage').textContent = u.label || ''; $('planPill').textContent = u.plan || 'Plan Gratis'; } catch(e){}
+  }
+
+  Engine.init().then(info => {
+    if (!info.storage) $('save').classList.add('hidden');
+    if (!info.downloads) { $('dlDocx').classList.add('hidden'); $('dlMd').classList.add('hidden'); }
+    if (!info.ai) { $('status').textContent = info.message || 'El motor de IA no está disponible en esta vista'; $('go').disabled = true; }
+    refreshUsage();
+  });
+})();
+</script>
+</body>
+</html>

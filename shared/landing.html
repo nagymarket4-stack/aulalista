@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AulaLista · Situaciones de aprendizaje de tu comunidad en 5 minutos</title>
+<meta name="description" content="Genera situaciones de aprendizaje, rúbricas y adaptaciones DUA alineadas con el currículo LOMLOE de tu comunidad autónoma. Para docentes de Primaria.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f7f5f0;--ink:#1f2a2e;--muted:#5d6b70;--line:#e4e0d6;--brand:#0f6e6a;--brand-2:#e8f3f2;--accent:#e07a3f;--card:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
+  a{color:var(--brand)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+  .logo{font-family:Fraunces,serif;font-weight:700;font-size:24px;color:var(--brand)}
+  .logo span{color:var(--accent)}
+  .navcta{font-weight:600;text-decoration:none;border:1px solid var(--line);padding:8px 14px;border-radius:10px;background:#fff}
+  h1,h2,h3{font-family:Fraunces,serif;line-height:1.15;letter-spacing:-.4px}
+  .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:40px 0 70px}
+  @media(max-width:860px){.hero{grid-template-columns:1fr}}
+  .hero h1{font-size:clamp(34px,5vw,54px);margin:0 0 16px}
+  .hero h1 em{font-style:normal;color:var(--brand);background:linear-gradient(transparent 62%,#ffd9c2 62%)}
+  .lead{font-size:18.5px;color:var(--muted);max-width:540px}
+  .btn{display:inline-block;border:0;border-radius:12px;padding:14px 22px;font:600 16px Inter;cursor:pointer;background:var(--brand);color:#fff;text-decoration:none}
+  .btn.alt{background:var(--accent)}
+  .btn:disabled{opacity:.6}
+  .sub{font-size:13.5px;color:var(--muted);margin-top:10px}
+  .mock{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 20px 60px rgba(15,110,106,.12);padding:20px;font-size:13px}
+  .mock .bar{display:flex;gap:6px;margin-bottom:12px}.mock .bar i{width:10px;height:10px;border-radius:50%;background:var(--line);display:block}
+  .mock h4{font-family:Fraunces,serif;font-size:17px;margin:4px 0 8px}
+  .mock table{width:100%;border-collapse:collapse;font-size:12px;margin-top:8px}
+  .mock th,.mock td{border:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
+  .mock th{background:var(--brand-2);color:var(--brand)}
+  .tag{display:inline-block;background:var(--brand-2);color:var(--brand);font-weight:600;font-size:11.5px;padding:2px 8px;border-radius:99px;margin-right:4px}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  section h2{font-size:clamp(28px,3.6vw,38px);margin:0 0 12px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+  @media(max-width:860px){.grid3{grid-template-columns:1fr}}
+  .box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+  .box h3{margin:6px 0 6px;font-size:19px}
+  .box p{margin:0;color:var(--muted);font-size:15px}
+  .num{font-family:Fraunces,serif;color:var(--accent);font-size:28px;font-weight:700}
+  .pain{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+  @media(max-width:860px){.pain{grid-template-columns:1fr}}
+  .pain ul{padding-left:18px;color:var(--muted)}
+  .prices{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+  @media(max-width:860px){.prices{grid-template-columns:1fr}}
+  .price{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;display:flex;flex-direction:column;gap:10px}
+  .price.hot{border:2px solid var(--accent);position:relative}
+  .price.hot::before{content:"Solo 80 plazas";position:absolute;top:-12px;left:22px;background:var(--accent);color:#fff;font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px}
+  .price .amt{font-family:Fraunces,serif;font-size:40px;font-weight:700}
+  .price .amt small{font-size:16px;color:var(--muted);font-family:Inter}
+  .price ul{padding-left:18px;margin:0;color:var(--muted);font-size:14.5px;flex:1}
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+  summary{font-weight:600;cursor:pointer}
+  details p{color:var(--muted);margin:10px 0 0}
+  .signup{background:var(--brand);color:#fff;border-radius:22px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+  @media(max-width:860px){.signup{grid-template-columns:1fr;padding:26px}}
+  .signup h2{color:#fff}
+  .signup p{color:#cfe7e5}
+  .signup form{display:flex;flex-direction:column;gap:10px}
+  .signup input,.signup select{font:15px Inter;padding:12px 14px;border-radius:10px;border:0;width:100%}
+  .signup label.chk{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:#e6f2f1}
+  .signup label.chk input{width:auto;margin-top:4px}
+  .msg{font-size:14px;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.12)}
+  footer{padding:30px 0 50px;color:var(--muted);font-size:13.5px;text-align:center}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav><div class="logo">Aula<span>Lista</span></div><a class="navcta" href="#acceso">Acceso anticipado</a></nav>
+
+  <div class="hero">
+    <div>
+      <h1>Tu situación de aprendizaje, <em>alineada con tu comunidad</em>, en 5 minutos.</h1>
+      <p class="lead">AulaLista genera situaciones de aprendizaje, rúbricas y adaptaciones DUA con los criterios, competencias específicas y saberes del currículo LOMLOE de tu comunidad autónoma. Tú revisas, ajustas y entregas.</p>
+      <p><a class="btn" href="#acceso">Quiero probarlo gratis</a></p>
+      <p class="sub">Para docentes de Educación Primaria. Empezamos por Canarias, Andalucía y Madrid; el resto de comunidades, en camino.</p>
+    </div>
+    <div class="mock" aria-hidden="true">
+      <div class="bar"><i></i><i></i><i></i></div>
+      <span class="tag">Canarias</span><span class="tag">3º Primaria</span><span class="tag">Conocimiento del Medio</span>
+      <h4>Guardianes del charco: la vida en la costa</h4>
+      <table>
+        <tr><th>Competencia específica</th><th>Criterios</th><th>Saberes</th></tr>
+        <tr><td>CE 1 · CE 3</td><td>1.1 · 3.2</td><td>Seres vivos y ecosistemas del entorno</td></tr>
+        <tr><td>CE 5</td><td>5.1</td><td>Sostenibilidad y cuidado del medio</td></tr>
+      </table>
+      <p style="margin:10px 0 0;color:var(--muted)">6 sesiones · producto final: guía ilustrada para visitantes · medidas DUA · rúbrica de 4 niveles</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="pain">
+      <div>
+        <h2>Menos papeles, más clase.</h2>
+        <p class="lead">Las herramientas genéricas de IA escriben textos bonitos, pero no conocen el decreto de tu comunidad ni el formato que te piden en tu centro.</p>
+      </div>
+      <ul>
+        <li>Situaciones de aprendizaje que citan criterios y competencias reales, no inventadas.</li>
+        <li>Lo que no se puede asegurar se marca para que lo revises: nada de errores escondidos.</li>
+        <li>Exportación a Word lista para entregar a jefatura o subir al aula virtual.</li>
+        <li>Sin datos de tu alumnado: trabajamos solo con perfiles anónimos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cómo funciona</h2>
+    <div class="grid3">
+      <div class="box"><div class="num">1</div><h3>Elige</h3><p>Comunidad, curso, área y el reto que quieres trabajar.</p></div>
+      <div class="box"><div class="num">2</div><h3>Genera</h3><p>En menos de un minuto: justificación, fundamentación curricular, sesiones, DUA y evaluación.</p></div>
+      <div class="box"><div class="num">3</div><h3>Revisa y entrega</h3><p>Ajusta lo que quieras, descárgalo en Word y guárdalo en tu biblioteca.</p></div>
+    </div>
+    <div class="grid3">
+      <div class="box"><h3>Situaciones de aprendizaje</h3><p>Completas, con secuencia de sesiones y producto final con difusión.</p></div>
+      <div class="box"><h3>Rúbricas</h3><p>Descriptores observables por nivel de logro, con versión para el alumnado.</p></div>
+      <div class="box"><h3>Adaptaciones DUA</h3><p>Medidas ordinarias concretas para cada perfil, aplicables mañana.</p></div>
+    </div>
+  </section>
+
+  <section id="precios">
+    <h2>Precios sencillos</h2>
+    <p class="lead">Empieza gratis. Si te ahorra tiempo, quédate.</p>
+    <div class="prices">
+      <div class="price"><h3>Gratis</h3><div class="amt">0 €</div><ul><li>3 documentos al mes</li><li>Todas las herramientas</li><li>Exportación a Word</li></ul><a class="btn" style="background:#fff;color:var(--brand);border:1px solid var(--line)" href="#acceso">Empezar</a></div>
+      <div class="price hot"><h3>Fundador</h3><div class="amt">49 € <small>pago único</small></div><ul><li><b>Pro de por vida</b></li><li>Acceso antes que nadie</li><li>Votas qué comunidades y funciones llegan primero</li></ul><a class="btn alt" href="#acceso" data-fundador="1">Reservar plaza</a></div>
+      <div class="price"><h3>Pro</h3><div class="amt">9 € <small>/mes</small></div><ul><li>Documentos ilimitados</li><li>Biblioteca y banco de rúbricas</li><li>69 €/año en septiembre (ahorras un 36%)</li></ul><a class="btn" href="#acceso">Avísame del lanzamiento</a></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Lo que genera es válido para entregar?</summary><p>Es un borrador profesional basado en el Real Decreto 157/2022 y en el decreto de tu comunidad. Lo que la herramienta no puede asegurar al pie de la letra lo marca como «verificar». Tú tienes siempre la última palabra.</p></details>
+    <details><summary>¿Qué comunidades incluye?</summary><p>Ya puedes elegir cualquiera. Canarias, Andalucía y Madrid son las primeras con revisión docente específica; el resto se va incorporando según lo votan los fundadores.</p></details>
+    <details><summary>¿Qué hacéis con los datos de mi alumnado?</summary><p>Nada, porque no los pedimos. Las adaptaciones funcionan con perfiles anónimos («alumno con dislexia, 4º»). No escribas nombres en la herramienta.</p></details>
+    <details><summary>¿Puedo cancelar?</summary><p>Sí, en cualquier momento y sin permanencia. El plan Fundador es un pago único: no hay nada que cancelar.</p></details>
+  </section>
+
+  <section id="acceso">
+    <div class="signup">
+      <div>
+        <h2>Acceso anticipado</h2>
+        <p>Déjanos tu email y te avisamos en cuanto abra tu comunidad. Si reservas plaza de Fundador, pagas una vez y es tuyo para siempre.</p>
+      </div>
+      <form id="lead">
+        <input id="email" type="email" required placeholder="tu@email.com" aria-label="Email">
+        <select id="comunidad" aria-label="Comunidad"></select>
+        <select id="rol" aria-label="Situación"><option>Docente en activo</option><option>Docente interino/a</option><option>Opositor/a</option><option>Equipo directivo</option><option>Otro</option></select>
+        <label class="chk"><input type="checkbox" id="fundador"> Quiero reservar una plaza de Fundador (49 €, pago único)</label>
+        <label class="chk"><input type="checkbox" id="rgpd" required> Acepto recibir emails de AulaLista y la <a href="#privacidad" style="color:#fff">política de privacidad</a>.</label>
+        <button class="btn alt" id="send" type="submit">Quiero acceso</button>
+        <div class="msg hidden" id="msg" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer id="privacidad">
+    <p>AulaLista · Hecho por docentes, para docentes.</p>
+    <p>Responsable del tratamiento: [TU NOMBRE O SOCIEDAD] · Finalidad: enviarte información sobre AulaLista · Puedes darte de baja en cualquier email.</p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const CCAA = ['Canarias','Andalucía','Aragón','Asturias','Illes Balears','Cantabria','Castilla y León','Castilla-La Mancha','Cataluña','Comunitat Valenciana','Extremadura','Galicia','Comunidad de Madrid','Región de Murcia','Navarra','País Vasco','La Rioja','Ceuta y Melilla'];
+  const sel = document.getElementById('comunidad');
+  CCAA.forEach(c => sel.add(new Option(c, c)));
+  document.querySelectorAll('[data-fundador]').forEach(a => a.addEventListener('click', () => { document.getElementById('fundador').checked = true; }));
+
+  const form = document.getElementById('lead'), msg = document.getElementById('msg'), btn = document.getElementById('send');
+  const say = t => { msg.textContent = t; msg.classList.remove('hidden'); };
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    btn.disabled = true;
+    const body = {
+      email: document.getElementById('email').value,
+      comunidad: sel.value,
+      rol: document.getElementById('rol').value,
+      fundador: document.getElementById('fundador').checked,
+      origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo'
+    };
+    try {
+      const r = await fetch('/api/lead', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(j.message || 'Error');
+      if (j.checkout) { say('¡Apuntado! Te llevamos al pago seguro para reservar tu plaza…'); setTimeout(() => { location.href = j.checkout; }, 900); }
+      else say('¡Listo! Revisa tu correo: te escribiremos en cuanto abra tu comunidad.');
+      form.reset();
+    } catch (err) {
+      say(err instanceof TypeError
+        ? 'Vista previa: el formulario se activa cuando la web está publicada con su servidor.'
+        : 'No se ha podido enviar: ' + err.message);
+    } finally { btn.disabled = false; }
+  });
+})();
+</script>
+</body>
+</html>
