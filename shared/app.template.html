@@ -6,7 +6,7 @@
 <title>AulaLista · Generador de situaciones de aprendizaje</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
 <style>
   :root{
     --bg:#f7f5f0; --card:#fff; --ink:#1f2a2e; --muted:#5d6b70; --line:#e4e0d6;
@@ -61,6 +61,7 @@
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:13.5px;opacity:0;transition:.25s;pointer-events:none}
   .toast.on{opacity:1}
   .hidden{display:none!important}
+  .tab:focus-visible,.btn:focus-visible,.hist li:focus-visible,.hist .del:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 </style>
 </head>
 <body>
@@ -72,11 +73,11 @@
 <main>
   <section class="card">
     <div class="tabs" role="tablist">
-      <button class="tab on" data-mode="sa">Situación de aprendizaje</button>
-      <button class="tab" data-mode="rubrica">Rúbrica</button>
-      <button class="tab" data-mode="adaptacion">Adaptación DUA</button>
-      <button class="tab" data-mode="pd">Programación</button>
-      <button class="tab" data-mode="historial">Mis documentos</button>
+      <button class="tab on" type="button" role="tab" aria-selected="true" aria-controls="form" data-mode="sa">Situación de aprendizaje</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="rubrica">Rúbrica</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="adaptacion">Adaptación DUA</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="pd">Programación</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="historial" data-mode="historial">Mis documentos</button>
     </div>
 
     <form id="form" autocomplete="off">
@@ -86,20 +87,21 @@
       </div>
       <label>Área<select id="area"></select></label>
 
-      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
+      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required maxlength="3000" placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
 
       <div class="row f-sa">
         <label>Sesiones<input id="sesiones" type="number" min="1" max="20" value="6"></label>
         <label>Minutos/sesión<input id="duracion" type="number" min="30" max="120" step="15" value="45"></label>
       </div>
-      <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" placeholder="Ej.: Matemáticas, Educación Artística"></label>
-      <label class="f-sa">Producto final (opcional)<input id="producto" placeholder="Ej.: guía ilustrada para visitantes"></label>
+      <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" maxlength="200" placeholder="Ej.: Matemáticas, Educación Artística"></label>
+      <label class="f-sa">Producto final (opcional)<input id="producto" maxlength="300" placeholder="Ej.: guía ilustrada para visitantes"></label>
 
       <label class="f-pd hidden">Número de situaciones de aprendizaje<select id="numSA"><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>12</option></select></label>
-      <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
+      <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" maxlength="200" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
       <label class="f-rubrica hidden">Niveles de logro<select id="niveles"><option value="4">4 niveles (En inicio → Avanzado)</option><option value="5">5 niveles (IN, SU, BI, NT, SB)</option></select></label>
 
       <label class="f-adaptacion hidden">Perfil (anónimo)<select id="perfil">
+        <option selected>Sin NEAE identificada (dificultad observada en el aula)</option>
         <option>TDAH (predominio inatento)</option><option>TDAH (predominio hiperactivo-impulsivo)</option>
         <option>TEA (necesita apoyo en comunicación social)</option><option>Dislexia / dificultad específica de lectura</option>
         <option>Discalculia / dificultad específica en matemáticas</option><option>Altas capacidades intelectuales</option>
@@ -107,7 +109,7 @@
         <option>Discapacidad visual</option><option>Discapacidad motora</option><option>Desfase curricular de 2 o más cursos</option>
       </select></label>
 
-      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
+      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" maxlength="1500" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
 
       <p class="notice">No escribas nombres ni datos personales del alumnado. Usa perfiles anónimos.</p>
       <button class="btn" id="go" type="submit">Generar</button>
@@ -122,7 +124,7 @@
 
   <section class="card out">
     <div class="toolbar">
-      <span class="status" id="status">Listo</span>
+      <span class="status" id="status" role="status" aria-live="polite">Listo</span>
       <span class="spacer"></span>
       <button class="btn small ghost hidden" id="stop">Detener</button>
       <button class="btn small ghost" id="copy" disabled>Copiar</button>
@@ -130,7 +132,7 @@
       <button class="btn small ghost" id="dlMd" disabled>Markdown</button>
       <button class="btn small" id="save" disabled>Guardar</button>
     </div>
-    <div class="doc" id="doc">
+    <div class="doc" id="doc" aria-label="Documento generado" tabindex="-1">
       <div class="empty">
         <h2>Tu documento aparecerá aquí</h2>
         <p>Elige comunidad, curso y área, describe el reto y pulsa <b>Generar</b>. En menos de un minuto tendrás una situación de aprendizaje completa, alineada con el currículo de tu comunidad.</p>
@@ -138,13 +140,62 @@
     </div>
   </section>
 </main>
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 /*__PROMPTS__*/
 </script>
 <script>
 /*__ENGINE__*/
+</script>
+<script id="al-md">
+// Renderizador Markdown mínimo. El contenido viene del modelo (no confiable): TODO se escapa
+// antes de añadir las únicas etiquetas permitidas (h1-h4, p, ul/ol/li, table, b, i, br, hr, span.verif).
+// No genera atributos a partir del contenido ni enlaces. Probado en tests/markdown.test.mjs.
+const AulaMD = (() => {
+  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  function inline(s){
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+      .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g,'$1<i>$2</i>')
+      .replace(/\[VERIFICAR CON DECRETO\]/g,'<span class="verif">VERIFICAR</span>');
+  }
+  const BLOCK = /^(#{1,4}\s|\s*[-*]\s|\s*\d+[.)]\s|\s*\||\s*(---|\*\*\*)\s*$)/;
+  function md(src){
+    const lines = String(src == null ? '' : src).replace(/\r/g,'').split('\n');
+    let html = '', i = 0;
+    while (i < lines.length){
+      const l = lines[i];
+      if (/^\s*\|/.test(l)){
+        const rows = [];
+        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
+        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim());
+        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
+        if (!body.length) continue;
+        html += '<table><thead><tr>' + cells(body[0]).map(c => '<th>'+inline(c)+'</th>').join('') + '</tr></thead><tbody>';
+        body.slice(1).forEach(r => html += '<tr>' + cells(r).map(c => '<td>'+inline(c).replace(/&lt;br\s*\/?&gt;/g,'<br>')+'</td>').join('') + '</tr>');
+        html += '</tbody></table>';
+        continue;
+      }
+      let m;
+      if ((m = l.match(/^(#{1,4})\s+(.*)/))){ const n = m[1].length; html += `<h${n}>${inline(m[2])}</h${n}>`; i++; continue; }
+      if (/^\s*[-*]\s+/.test(l)){
+        html += '<ul>'; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*[-*]\s+/,''))+'</li>'; html += '</ul>'; continue;
+      }
+      if (/^\s*\d+[.)]\s+/.test(l)){
+        html += '<ol>'; while (i < lines.length && /^\s*\d+[.)]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*\d+[.)]\s+/,''))+'</li>'; html += '</ol>'; continue;
+      }
+      if (/^\s*(---|\*\*\*)\s*$/.test(l)){ html += '<hr>'; i++; continue; }
+      if (!l.trim()){ i++; continue; }
+      const para = [l]; i++;   // la primera línea siempre avanza: imposible un bucle infinito
+      while (i < lines.length && lines[i].trim() && !BLOCK.test(lines[i])) para.push(lines[i++]);
+      html += '<p>' + inline(para.join(' ')) + '</p>';
+    }
+    return html;
+  }
+  return { md, esc, inline };
+})();
+if (typeof module !== 'undefined') module.exports = AulaMD;
 </script>
 <script>
 (() => {
@@ -170,12 +221,23 @@
   function remember(){ try{ localStorage.setItem('al-prefs', JSON.stringify({ccaa:$('ccaa').value,curso:$('curso').value,area:$('area').value})); }catch(e){} }
   try{ const p = JSON.parse(localStorage.getItem('al-prefs')||'null'); if(p){ $('ccaa').value=p.ccaa; $('curso').value=p.curso; fillAreas(); $('area').value=p.area; } else { $('curso').value='3º'; fillAreas(); } }catch(e){ fillAreas(); }
   $('duracion').value = sesionPorDefecto($('ccaa').value);
+  // ---------- Prellenado desde la URL (?ccaa=&curso=&area=&tema=), p. ej. desde /recursos ----------
+  // Solo afecta a esta visita: no llama a remember(), así que no sobrescribe la preferencia guardada.
+  try{
+    const q = new URLSearchParams(location.search);
+    const qc = q.get('ccaa'), qn = parseInt(q.get('curso') || '', 10), qa = q.get('area'), qt = q.get('tema');
+    if (qc && CCAA.some(c => c.id === qc)) { $('ccaa').value = qc; $('duracion').value = sesionPorDefecto(qc); }
+    if (CURSOS[qn - 1]) $('curso').value = CURSOS[qn - 1];
+    if (qc || qn) fillAreas();
+    if (qa && [...$('area').options].some(o => o.value === qa)) $('area').value = qa;
+    if (qt && $('tema')) $('tema').value = qt.slice(0, 600);
+  }catch(e){}
 
   // ---------- Tabs ----------
   const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar', pd:'Hilo conductor (opcional)' };
   const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela', pd:'Ej.: Exploradores de las islas: un viaje por Canarias' };
   document.querySelectorAll('.tab').forEach(b => b.onclick = () => {
-    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === b));
+    document.querySelectorAll('.tab').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-selected', String(x === b)); });
     mode = b.dataset.mode;
     const hist = mode === 'historial';
     $('form').classList.toggle('hidden', hist);
@@ -187,46 +249,7 @@
     $('tema').required = mode !== 'pd';
   });
 
-  // ---------- Markdown ----------
-  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  function inline(s){
-    return esc(s)
-      .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
-      .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g,'$1<i>$2</i>')
-      .replace(/\[VERIFICAR CON DECRETO\]/g,'<span class="verif">VERIFICAR</span>');
-  }
-  function md(src){
-    const lines = src.replace(/\r/g,'').split('\n');
-    let html = '', i = 0;
-    while (i < lines.length){
-      const l = lines[i];
-      if (/^\s*\|/.test(l)){
-        const rows = [];
-        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
-        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim());
-        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
-        if (!body.length) continue;
-        html += '<table><thead><tr>' + cells(body[0]).map(c => '<th>'+inline(c)+'</th>').join('') + '</tr></thead><tbody>';
-        body.slice(1).forEach(r => html += '<tr>' + cells(r).map(c => '<td>'+inline(c).replace(/&lt;br\s*\/?&gt;/g,'<br>')+'</td>').join('') + '</tr>');
-        html += '</tbody></table>';
-        continue;
-      }
-      let m;
-      if ((m = l.match(/^(#{1,4})\s+(.*)/))){ const n = Math.min(m[1].length+0,4); html += `<h${n}>${inline(m[2])}</h${n}>`; i++; continue; }
-      if (/^\s*[-*]\s+/.test(l)){
-        html += '<ul>'; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*[-*]\s+/,''))+'</li>'; html += '</ul>'; continue;
-      }
-      if (/^\s*\d+[.)]\s+/.test(l)){
-        html += '<ol>'; while (i < lines.length && /^\s*\d+[.)]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*\d+[.)]\s+/,''))+'</li>'; html += '</ol>'; continue;
-      }
-      if (/^\s*(---|\*\*\*)\s*$/.test(l)){ html += '<hr>'; i++; continue; }
-      if (!l.trim()){ i++; continue; }
-      const para = [];
-      while (i < lines.length && lines[i].trim() && !/^(#{1,4}\s|\s*[-*]\s|\s*\d+[.)]\s|\s*\|)/.test(lines[i])) para.push(lines[i++]);
-      html += '<p>' + inline(para.join(' ')) + '</p>';
-    }
-    return html;
-  }
+  const md = AulaMD.md;
 
   // ---------- Word (.docx) ----------
   function runs(text){
@@ -293,7 +316,7 @@
   let raf = 0;
   function show(text){ cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { $('doc').innerHTML = md(text); }); }
   function setBusy(b){
-    busy = b; $('go').disabled = b; $('stop').classList.toggle('hidden', !b);
+    busy = b; $('go').disabled = b; $('stop').classList.toggle('hidden', !b); $('doc').setAttribute('aria-busy', String(b));
     ['copy','dlDocx','dlMd','save'].forEach(id => $(id).disabled = b || !current);
   }
 
@@ -353,9 +376,11 @@
       const m = document.createElement('div'); m.className = 'm';
       m.textContent = `${TIPO[d.tipo] || ''} · ${d.curso} · ${d.area} · ${new Date(d.createdAt).toLocaleDateString('es-ES')}`;
       info.append(t, m);
-      const del = document.createElement('button'); del.className = 'del'; del.title = 'Borrar'; del.textContent = '×';
+      const del = document.createElement('button'); del.type = 'button'; del.className = 'del'; del.title = 'Borrar'; del.setAttribute('aria-label', 'Borrar «' + (d.titulo || 'documento') + '»'); del.textContent = '×';
       del.onclick = async ev => { ev.stopPropagation(); try { await Engine.deleteDoc(d.id); renderHistory(); } catch(e){ toast('No se pudo borrar'); } };
-      li.onclick = () => { current = d; $('doc').innerHTML = md(d.md); $('status').textContent = d.titulo; setBusy(false); $('save').disabled = true; };
+      li.tabIndex = 0; li.setAttribute('role', 'button');
+      li.onclick = () => { current = d; $('doc').innerHTML = md(d.md); $('status').textContent = d.titulo; setBusy(false); $('save').disabled = true; $('doc').focus(); };
+      li.onkeydown = ev => { if (ev.target === li && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); li.onclick(); } };
       li.append(info, del); list.append(li);
     });
   }

@@ -1,0 +1,133 @@
+{
+  "_nota": "nombre = nombre EXACTO del área en shared/prompts.js (se usa para prellenar la app). bloques = bloques de saberes básicos del Real Decreto 157/2022 (enseñanzas mínimas); la concreción autonómica puede reorganizarlos. ciclos = enfoque didáctico por ciclo, redactado sin citar números de criterio.",
+  "areas": [
+    {
+      "slug": "matematicas",
+      "nombre": "Matemáticas",
+      "corto": "Matemáticas",
+      "bloques": {
+        "numerico": "Sentido numérico",
+        "medida": "Sentido de la medida",
+        "espacial": "Sentido espacial",
+        "algebraico": "Sentido algebraico",
+        "estocastico": "Sentido estocástico",
+        "socioafectivo": "Sentido socioafectivo"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo el razonamiento matemático nace de la manipulación: contar, agrupar, comparar y medir con materiales concretos y unidades no convencionales antes de pasar a las convencionales. El alumnado verbaliza cómo lo ha resuelto y representa con dibujos y esquemas sencillos.",
+        "2": "En el segundo ciclo se consolidan el cálculo mental y escrito, las unidades convencionales de medida y la lectura de tablas y gráficos sencillos. Los problemas se resuelven siguiendo fases (comprender, planificar, ejecutar y comprobar) y se empieza a justificar si un resultado es razonable.",
+        "3": "En el tercer ciclo el alumnado trabaja con números decimales, fracciones y porcentajes en contextos reales, estima y argumenta sus decisiones con datos, y modeliza situaciones con herramientas digitales (hojas de cálculo, programas de geometría dinámica)."
+      },
+      "evidencias": ["registro de estrategias de resolución", "tabla o gráfico elaborado por el grupo", "explicación oral del razonamiento", "diario matemático"]
+    },
+    {
+      "slug": "lengua-castellana",
+      "nombre": "Lengua Castellana y Literatura",
+      "corto": "Lengua Castellana",
+      "bloques": {
+        "hablantes": "Las lenguas y sus hablantes",
+        "comunicacion": "Comunicación",
+        "literaria": "Educación literaria",
+        "reflexion": "Reflexión sobre la lengua"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo la prioridad es el acceso al código escrito y la oralidad: escuchar y contar, leer en voz alta textos breves y escribir frases y textos cortos con apoyo de modelos, en situaciones con un destinatario real.",
+        "2": "En el segundo ciclo el alumnado planifica, escribe y revisa textos de distintos géneros (narrativos, descriptivos, instructivos, noticias), busca información guiada en fuentes variadas y amplía su repertorio de lecturas con un itinerario lector propio.",
+        "3": "En el tercer ciclo se trabaja la comprensión crítica (distinguir hechos de opiniones, detectar información poco fiable), la producción de textos expositivos y argumentativos, la oralidad formal y la reflexión sistemática sobre la lengua aplicada a la revisión de los propios textos."
+      },
+      "evidencias": ["borradores y versión final del texto", "grabación de la exposición oral", "lista de control de revisión", "portafolio lector"]
+    },
+    {
+      "slug": "conocimiento-del-medio",
+      "nombre": "Conocimiento del Medio Natural, Social y Cultural",
+      "corto": "Conocimiento del Medio",
+      "bloques": {
+        "cientifica": "Cultura científica",
+        "tecnologia": "Tecnología y digitalización",
+        "sociedades": "Sociedades y territorios"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se parte de la observación directa del entorno cercano (el cuerpo, la familia, el aula, el barrio) y de preguntas sencillas que el alumnado investiga con la ayuda del docente, registrando con dibujos, fotos y palabras clave.",
+        "2": "En el segundo ciclo el alumnado aplica pasos de la indagación científica: formular preguntas, hacer predicciones, experimentar de forma guiada, registrar datos y comunicar conclusiones. Se introduce el trabajo con mapas, líneas del tiempo y fuentes del entorno.",
+        "3": "En el tercer ciclo se abordan problemas más complejos que relacionan ciencia, tecnología y sociedad: el alumnado diseña pequeñas investigaciones, contrasta fuentes, construye prototipos sencillos y propone acciones de mejora del entorno vinculadas a los ODS."
+      },
+      "evidencias": ["cuaderno de campo", "registro de experimentos", "mapa o línea del tiempo", "prototipo y su ficha técnica"]
+    },
+    {
+      "slug": "educacion-artistica",
+      "nombre": "Educación Artística",
+      "corto": "Educación Artística",
+      "bloques": {
+        "recepcion": "Recepción y análisis",
+        "creacion": "Creación e interpretación"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se explora con todos los sentidos: experimentar con materiales, sonidos, el cuerpo y la voz, y expresar sensaciones ante obras e imágenes con vocabulario sencillo.",
+        "2": "En el segundo ciclo el alumnado conoce manifestaciones artísticas de su entorno y de otras culturas, usa técnicas plásticas y musicales básicas con intención expresiva y participa en producciones colectivas planificadas.",
+        "3": "En el tercer ciclo se diseñan proyectos artísticos completos (idea, boceto, producción, difusión), se analizan obras con criterio propio y se integran medios digitales de creación, respetando la autoría."
+      },
+      "evidencias": ["bocetos y proceso documentado", "obra o interpretación final", "comentario de una obra", "autoevaluación del proceso creativo"]
+    },
+    {
+      "slug": "educacion-fisica",
+      "nombre": "Educación Física",
+      "corto": "Educación Física",
+      "bloques": {
+        "vida": "Vida activa y saludable",
+        "organizacion": "Organización y gestión de la actividad física",
+        "problemas": "Resolución de problemas en situaciones motrices",
+        "autorregulacion": "Autorregulación emocional e interacción social en situaciones motrices",
+        "cultura": "Manifestaciones de la cultura motriz",
+        "entorno": "Interacción eficiente y sostenible con el entorno"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se trabajan las habilidades motrices básicas (desplazamientos, saltos, giros, lanzamientos) a través del juego, con normas sencillas y atención a la seguridad y la higiene.",
+        "2": "En el segundo ciclo el alumnado aplica las habilidades en juegos y deportes adaptados, coopera y se opone con estrategias básicas, y empieza a gestionar su propia actividad física y su recuperación.",
+        "3": "En el tercer ciclo se planifican retos motrices, se organizan actividades para otros (recreos, jornadas) y se reflexiona sobre la práctica saludable, el juego limpio y el uso sostenible de los espacios naturales."
+      },
+      "evidencias": ["hoja de observación en sesión", "diario de actividad física", "organización de un juego o reto para otros", "autoevaluación de la participación"]
+    },
+    {
+      "slug": "ingles",
+      "nombre": "Lengua Extranjera (Inglés)",
+      "corto": "Inglés",
+      "bloques": {
+        "comunicacion": "Comunicación",
+        "plurilinguismo": "Plurilingüismo",
+        "interculturalidad": "Interculturalidad"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo predomina la comprensión oral con apoyo visual y gestual (canciones, cuentos, rutinas) y la producción de palabras y expresiones muy sencillas en situaciones de juego.",
+        "2": "En el segundo ciclo el alumnado interactúa en intercambios breves y predecibles, lee textos cortos ilustrados y escribe frases y textos sencillos a partir de modelos.",
+        "3": "En el tercer ciclo se producen textos orales y escritos breves con una finalidad comunicativa real (presentaciones, mensajes a otros centros, guías), usando estrategias para resolver dificultades de comunicación."
+      },
+      "evidencias": ["grabación de la interacción oral", "producción escrita a partir de un modelo", "lista de comprobación (can-do)", "portfolio de lenguas"]
+    },
+    {
+      "slug": "valores-civicos",
+      "nombre": "Educación en Valores Cívicos y Éticos",
+      "corto": "Valores Cívicos y Éticos",
+      "bloques": {
+        "autoconocimiento": "Autoconocimiento y autonomía moral",
+        "sociedad": "Sociedad, justicia y democracia",
+        "sostenible": "Desarrollo sostenible y ética ambiental"
+      },
+      "ciclos": {
+        "3": "Esta área se imparte en uno de los cursos del tercer ciclo. Se trabaja a partir del diálogo argumentado, el análisis de dilemas cercanos y la participación real en la vida del centro y del municipio."
+      },
+      "evidencias": ["acta de asamblea o debate", "texto de opinión argumentado", "propuesta de mejora presentada a otros", "autoevaluación de la participación"]
+    },
+    {
+      "slug": "educacion-emocional",
+      "nombre": "Educación Emocional y para la Creatividad",
+      "corto": "Educación Emocional y Creatividad",
+      "bloques": {},
+      "ciclos": {
+        "1": "En el primer ciclo se aprende a reconocer y nombrar emociones básicas en uno mismo y en los demás, y a jugar con la imaginación a través del cuerpo, el dibujo y el cuento.",
+        "2": "En el segundo ciclo el alumnado ensaya estrategias de regulación (respiración, pausa, diálogo), amplía su vocabulario emocional y aplica técnicas sencillas de pensamiento creativo en retos de grupo.",
+        "3": "En el tercer ciclo se trabaja la gestión de conflictos, la autoestima y la toma de decisiones responsable, y se desarrollan proyectos creativos con impacto en el centro."
+      },
+      "evidencias": ["diario emocional", "registro de técnicas de regulación practicadas", "producto creativo del grupo", "autoevaluación y coevaluación"]
+    }
+  ]
+}

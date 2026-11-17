@@ -17,6 +17,7 @@ const Engine = (() => {
   }
 
   async function generate(prompt, onText, signal) {
+    if (!sample) throw new Error('El motor de IA no está disponible en esta vista');
     const res = await sample(prompt, { onText: ({ text }) => onText(text), signal, modelTier: 'complex', cache: false });
     return res.text;
   }
@@ -41,13 +42,13 @@ const Engine = (() => {
     return { plan: ENFORCE_LIMIT ? 'Plan Gratis' : 'Prototipo', label: n + (ENFORCE_LIMIT ? '/' + FREE_LIMIT : '') + ' documentos este mes' };
   }
 
-  async function saveDoc(d) { await col().doc(d.id).set({ kind: 'doc', ...d }); }
+  async function saveDoc(d) { if (!db) throw new Error('sin almacenamiento'); await col().doc(d.id).set({ kind: 'doc', ...d }); }
   async function listDocs() {
     if (!db) throw new Error('sin almacenamiento');
     const snap = await col().where('kind', '==', 'doc').limit(200).get();
     return snap.docs.map(x => x.data());
   }
-  async function deleteDoc(id) { await col().doc(id).delete(); }
+  async function deleteDoc(id) { if (!db) throw new Error('sin almacenamiento'); await col().doc(id).delete(); }
   async function download(filename, data) { if (!dl) throw { code: 'unavailable' }; await dl.save({ filename, data }); }
 
   return { init, generate, canGenerate, countUsage, usage, saveDoc, listDocs, deleteDoc, download };

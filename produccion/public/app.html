@@ -6,7 +6,7 @@
 <title>AulaLista · Generador de situaciones de aprendizaje</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/docx@8.5.0/build/index.umd.js"></script>
 <style>
   :root{
     --bg:#f7f5f0; --card:#fff; --ink:#1f2a2e; --muted:#5d6b70; --line:#e4e0d6;
@@ -61,6 +61,7 @@
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:13.5px;opacity:0;transition:.25s;pointer-events:none}
   .toast.on{opacity:1}
   .hidden{display:none!important}
+  .tab:focus-visible,.btn:focus-visible,.hist li:focus-visible,.hist .del:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 </style>
 </head>
 <body>
@@ -72,11 +73,11 @@
 <main>
   <section class="card">
     <div class="tabs" role="tablist">
-      <button class="tab on" data-mode="sa">Situación de aprendizaje</button>
-      <button class="tab" data-mode="rubrica">Rúbrica</button>
-      <button class="tab" data-mode="adaptacion">Adaptación DUA</button>
-      <button class="tab" data-mode="pd">Programación</button>
-      <button class="tab" data-mode="historial">Mis documentos</button>
+      <button class="tab on" type="button" role="tab" aria-selected="true" aria-controls="form" data-mode="sa">Situación de aprendizaje</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="rubrica">Rúbrica</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="adaptacion">Adaptación DUA</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="pd">Programación</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="historial" data-mode="historial">Mis documentos</button>
     </div>
 
     <form id="form" autocomplete="off">
@@ -86,20 +87,21 @@
       </div>
       <label>Área<select id="area"></select></label>
 
-      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
+      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required maxlength="3000" placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
 
       <div class="row f-sa">
         <label>Sesiones<input id="sesiones" type="number" min="1" max="20" value="6"></label>
         <label>Minutos/sesión<input id="duracion" type="number" min="30" max="120" step="15" value="45"></label>
       </div>
-      <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" placeholder="Ej.: Matemáticas, Educación Artística"></label>
-      <label class="f-sa">Producto final (opcional)<input id="producto" placeholder="Ej.: guía ilustrada para visitantes"></label>
+      <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" maxlength="200" placeholder="Ej.: Matemáticas, Educación Artística"></label>
+      <label class="f-sa">Producto final (opcional)<input id="producto" maxlength="300" placeholder="Ej.: guía ilustrada para visitantes"></label>
 
       <label class="f-pd hidden">Número de situaciones de aprendizaje<select id="numSA"><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>12</option></select></label>
-      <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
+      <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" maxlength="200" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
       <label class="f-rubrica hidden">Niveles de logro<select id="niveles"><option value="4">4 niveles (En inicio → Avanzado)</option><option value="5">5 niveles (IN, SU, BI, NT, SB)</option></select></label>
 
       <label class="f-adaptacion hidden">Perfil (anónimo)<select id="perfil">
+        <option selected>Sin NEAE identificada (dificultad observada en el aula)</option>
         <option>TDAH (predominio inatento)</option><option>TDAH (predominio hiperactivo-impulsivo)</option>
         <option>TEA (necesita apoyo en comunicación social)</option><option>Dislexia / dificultad específica de lectura</option>
         <option>Discalculia / dificultad específica en matemáticas</option><option>Altas capacidades intelectuales</option>
@@ -107,7 +109,7 @@
         <option>Discapacidad visual</option><option>Discapacidad motora</option><option>Desfase curricular de 2 o más cursos</option>
       </select></label>
 
-      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
+      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" maxlength="1500" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
 
       <p class="notice">No escribas nombres ni datos personales del alumnado. Usa perfiles anónimos.</p>
       <button class="btn" id="go" type="submit">Generar</button>
@@ -122,7 +124,7 @@
 
   <section class="card out">
     <div class="toolbar">
-      <span class="status" id="status">Listo</span>
+      <span class="status" id="status" role="status" aria-live="polite">Listo</span>
       <span class="spacer"></span>
       <button class="btn small ghost hidden" id="stop">Detener</button>
       <button class="btn small ghost" id="copy" disabled>Copiar</button>
@@ -130,7 +132,7 @@
       <button class="btn small ghost" id="dlMd" disabled>Markdown</button>
       <button class="btn small" id="save" disabled>Guardar</button>
     </div>
-    <div class="doc" id="doc">
+    <div class="doc" id="doc" aria-label="Documento generado" tabindex="-1">
       <div class="empty">
         <h2>Tu documento aparecerá aquí</h2>
         <p>Elige comunidad, curso y área, describe el reto y pulsa <b>Generar</b>. En menos de un minuto tendrás una situación de aprendizaje completa, alineada con el currículo de tu comunidad.</p>
@@ -138,7 +140,7 @@
     </div>
   </section>
 </main>
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script>
 // AulaLista — datos curriculares y construcción de prompts (compartido entre prototipo y producción)
@@ -155,13 +157,17 @@ const AREAS_BASE = [
   'Educación en Valores Cívicos y Éticos'
 ];
 
+// Datos verificados por el agente cartógrafo (data/ccaa.json). build.py rellena este bloque: no editar a mano.
+const CCAA_DATA = /*CCAA_DATA*/[{"id": "canarias", "decreto": "Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias", "verificado": true, "escala": "Insuficiente, Suficiente, Bien, Notable, Sobresaliente", "evaluacion": "Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado (incluye Primaria). Número de BOC y fecha de publicación pendientes de comprobar", "sesionMin": 55, "areasPropias": [{"name": "Educación Emocional y para la Creatividad"}, {"name": "Segunda Lengua Extranjera", "desde": 5}]}, {"id": "andalucia", "decreto": "Decreto 101/2023, de 9 de mayo, por el que se establece la ordenación y el currículo de la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía", "verificado": true, "escala": "IN, SU, BI, NT, SB en las actas; en el boletín, numérica (IN 1-4, SU 5, BI 6, NT 7-8, SB 9-10)", "evaluacion": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales, se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado y se determina el proceso de tránsito entre etapas (BOJA n.º 104, de 2 de junio de 2023). La evaluación y la promoción están en su capítulo III (arts. 9-25)", "sesionMin": 60, "areasPropias": [{"name": "Segunda Lengua Extranjera", "desde": 5}]}, {"id": "aragon", "decreto": "Orden ECD/1112/2022, de 18 de julio, por la que se aprueban el currículo y las características de la evaluación de la Educación Primaria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón; modificada por la Orden ECD/866/2024, de 25 de julio (BOA de 7 de agosto de 2024)", "verificado": true, "escala": "IN, SU, BI, NT, SB. Competencias clave en el informe de ciclo: Iniciado, En desarrollo, Adquirido, Adquirido plenamente", "evaluacion": "La misma Orden ECD/1112/2022 (currículo y evaluación), modificada por la Orden ECD/866/2024, de 25 de julio", "sesionMin": 45, "areasPropias": [{"name": "Ciencias de la Naturaleza"}, {"name": "Ciencias Sociales"}, {"name": "Educación Plástica y Visual"}, {"name": "Música y Danza"}, {"name": "Segunda Lengua Extranjera", "desde": 5}, {"name": "Lenguas Propias de Aragón (Aragonés o Catalán)"}, {"name": "Atención educativa"}]}, {"id": "asturias", "decreto": "Decreto 57/2022, de 5 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Primaria en el Principado de Asturias", "verificado": true, "escala": "Insuficiente (IN); Suficiente (Su), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Evaluación regulada en el propio Decreto 57/2022 (art. 16). Resolución autonómica de desarrollo de la evaluación pendiente de localizar", "sesionMin": 45, "areasPropias": [{"name": "Lengua Asturiana y Literatura"}, {"name": "Cultura Asturiana"}]}, {"id": "baleares", "decreto": "Decreto 41/2025, de 1 de agosto, por el que se establecen la ordenación y el currículo de la Educación Primaria de las Illes Balears", "verificado": true, "escala": "Insuficiente (IN), Suficiente (SU), Bien (BIEN), Notable (NT), Excelente (EX). Los criterios no se califican de forma numérica ni porcentual", "evaluacion": "Orden 28/2025, de 21 de octubre, del consejero de Educación y Universidades, sobre la evaluación del aprendizaje de los alumnos de la Educación Primaria en las Illes Balears (BOIB de 23 de octubre de 2025)", "areasPropias": [{"name": "Llengua Catalana i Literatura"}]}, {"id": "cantabria", "decreto": "Decreto 66/2022, de 7 de julio, por el que se establece el currículo de la Educación Infantil y de la Educación Primaria en la Comunidad Autónoma de Cantabria", "verificado": true, "escala": "No figura en el decreto. Pendiente de comprobar en la orden de evaluación", "evaluacion": "Evaluación en el propio Decreto 66/2022. Orden EDU/7/2023, de 23 de marzo, por la que se regula el derecho del alumnado a una evaluación objetiva (reclamaciones). Orden específica LOMLOE de evaluación de Primaria pendiente de localizar", "areasPropias": []}, {"id": "castillaleon", "decreto": "Decreto 38/2022, de 29 de septiembre, por el que se establece la ordenación y el currículo de la educación primaria en la Comunidad de Castilla y León", "verificado": true, "escala": "Numérica de 0 a 10 con equivalencia: 0-4 IN, 5 SU, 6 BI, 7-8 NT, 9-10 SB", "evaluacion": "Orden EDU/423/2024, de 9 de mayo, por la que se desarrolla la evaluación y la promoción en la Educación Primaria en la Comunidad de Castilla y León (BOCYL de 17 de mayo de 2024)", "areasPropias": [{"name": "Ciencias de la Naturaleza"}, {"name": "Ciencias Sociales"}, {"name": "Educación Plástica y Visual"}, {"name": "Música y Danza"}, {"name": "Segunda Lengua Extranjera", "desde": 5}]}, {"id": "clm", "decreto": "Decreto 81/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Primaria en la comunidad autónoma de Castilla-La Mancha", "verificado": true, "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Orden 185/2022, de 27 de septiembre, de la Consejería de Educación, Cultura y Deportes, por la que se regula la evaluación en la etapa de Educación Primaria en la comunidad autónoma de Castilla-La Mancha (DOCM de 30 de septiembre de 2022)", "areasPropias": []}, {"id": "cataluna", "decreto": "Decret 175/2022, de 27 de setembre, d'ordenació dels ensenyaments de l'educació bàsica (Decreto 175/2022, de 27 de septiembre, de ordenación de las enseñanzas de la educación básica); modificado por el Decret 480/2024, de 17 de desembre (DOGC de 19/12/2024)", "verificado": true, "escala": "Nivel de adquisición: Adquisición sobresaliente (AE), notable (AN), satisfactoria (AS), No adquisición (NA). En las actas: sobresaliente, notable, bien, insuficiente", "evaluacion": "Evaluación regulada en el propio Decret 175/2022 (arts. 24-32)", "areasPropias": [{"name": "Llengua Catalana i Literatura"}, {"name": "Aranès i Literatura (Aran)"}]}, {"id": "valencia", "decreto": "Decreto 106/2022, de 5 de agosto, del Consell, de ordenación y currículo de la etapa de Educación Primaria; modificado por el Decreto 96/2026, de 19 de junio, del Consell (DOGV de 25 de junio de 2026), aplicable desde el curso 2026-2027", "verificado": true, "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Evaluación regulada en el propio Decreto 106/2022 (art. 29), modificado por el Decreto 96/2026. Orden autonómica de desarrollo pendiente de localizar", "sesionMin": 45, "areasPropias": [{"name": "Valenciano: Lengua y Literatura"}, {"name": "Plástica y Visual"}, {"name": "Música y Danza"}]}, {"id": "extremadura", "decreto": "Decreto 107/2022, de 28 de julio, por el que se establecen la ordenación y el currículo de la Educación Primaria para la Comunidad Autónoma de Extremadura; arts. 13 y 15 modificados por el Decreto 241/2023, de 12 de septiembre (DOE de 19/09/2023)", "verificado": true, "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Orden de 9 de diciembre de 2022 por la que se regula la evaluación del alumnado en la Educación Infantil, Educación Primaria, ESO y Bachillerato en la Comunidad Autónoma de Extremadura (DOE de 15 de diciembre de 2022)", "areasPropias": [{"name": "Segunda Lengua Extranjera (opcional de centro; atención especial al portugués)"}]}, {"id": "galicia", "decreto": "Decreto 155/2022, de 15 de septiembre, por el que se establecen la ordenación y el currículo de la educación primaria en la Comunidad Autónoma de Galicia", "verificado": true, "escala": "Insuficiente (IN, 1-4), Suficiente (SU, 5), Ben (BE, 6), Notable (NT, 7-8), Sobresaliente (SB, 9-10)", "evaluacion": "Orden de 26 de mayo de 2023 por la que se desarrolla el Decreto 155/2022 y se regula el régimen de evaluación en la educación primaria (DOG de 13 de junio de 2023), aplicable desde 2023-24", "areasPropias": [{"name": "Lingua Galega e Literatura"}]}, {"id": "madrid", "decreto": "Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid la ordenación y el currículo de la etapa de Educación Primaria", "verificado": true, "escala": "IN (<5), SU (5 a <6), BI (6 a <7), NT (7 a <9), SB (≥9)", "evaluacion": "Orden 130/2023, de 23 de enero, de la Vicepresidencia, Consejería de Educación y Universidades, por la que se regulan aspectos de organización y funcionamiento, evaluación y autonomía pedagógica de la Educación Primaria (BOCM n.º 25, de 30 de enero de 2023)", "sesionMin": 45, "areasPropias": [{"name": "Ciencias de la Naturaleza"}, {"name": "Ciencias Sociales"}, {"name": "Tecnología y Robótica"}, {"name": "Segunda Lengua Extranjera"}]}, {"id": "murcia", "decreto": "Decreto n.º 209/2022, de 17 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de la Región de Murcia", "verificado": true, "escala": "IN (1-4), SU (5), BI (6), NT (7-8), SB (9-10); Mención Honorífica (ME)", "evaluacion": "Escala y evaluación recogidas en el propio Decreto 209/2022. Orden autonómica de desarrollo pendiente de localizar", "sesionMin": 45, "areasPropias": [{"name": "Ciencias de la Naturaleza"}, {"name": "Ciencias Sociales"}, {"name": "Educación Plástica y Visual"}, {"name": "Música y Danza"}, {"name": "Profundización Educativa"}, {"name": "Segunda Lengua Extranjera (Francés)", "desde": 5}]}, {"id": "navarra", "decreto": "Decreto Foral 67/2022, de 22 de junio, por el que se establece el currículo de las enseñanzas de la etapa de Educación Primaria en la Comunidad Foral de Navarra", "verificado": true, "escala": "Insuficiente (IN); Suficiente (SF), Bien (BI), Notable (NT), Sobresaliente (SB). PS (pendiente de superar) cuenta como negativa en algunos casos", "evaluacion": "Orden Foral 52/2023, de 12 de junio, del consejero de Educación, por la que se regula la evaluación y promoción del alumnado que cursa las enseñanzas de Educación Primaria en la Comunidad Foral de Navarra (BON de 29 de junio de 2023)", "areasPropias": [{"name": "Lengua Vasca y Literatura"}]}, {"id": "paisvasco", "decreto": "Decreto 77/2023, de 30 de mayo, de establecimiento del currículo de Educación Básica e implantación en la Comunidad Autónoma de Euskadi", "verificado": true, "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Orden de 22 de enero de 2024, del consejero de Educación, por la que se regula la evaluación en Educación Infantil y la evaluación, promoción y certificación en Educación Básica y Bachillerato (BOPV n.º 23, de 31 de enero de 2024)", "areasPropias": [{"name": "Lengua Vasca y Literatura"}]}, {"id": "rioja", "decreto": "Decreto 41/2022, de 13 de julio, por el que se establece el currículo de Educación Primaria y se regulan determinados aspectos sobre su organización, evaluación y promoción en la Comunidad Autónoma de La Rioja (título redactado a partir de la cita de una resolución del BOR; cotejar)", "verificado": false, "escala": "Pendiente de comprobar", "evaluacion": "Organización, evaluación y promoción reguladas en el propio Decreto 41/2022. Orden específica no localizada", "areasPropias": []}, {"id": "mefp", "decreto": "Orden EFP/678/2022, de 15 de julio, por la que se establece el currículo y se regula la ordenación de la Educación Primaria en el ámbito de gestión del Ministerio de Educación y Formación Profesional", "verificado": true, "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)", "evaluacion": "Evaluación y promoción reguladas en la propia Orden EFP/678/2022 (arts. 20-23 y 27-30)", "areasPropias": [{"name": "Segunda Lengua Extranjera (opcional de centro)"}]}]/*END_CCAA_DATA*/;
+
 const CCAA = [
   { id: 'canarias', name: 'Canarias', decreto: 'Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias', verificado: true,
     evaluacion: 'Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado (Canarias)',
-    diversidad: 'Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en las enseñanzas no universitarias de Canarias',
+    diversidad: 'Decreto 25/2018, de 26 de febrero, por el que se regula la atención a la diversidad en las enseñanzas no universitarias de Canarias (con la Orden de 13 de diciembre de 2010 y la Resolución de 9 de febrero de 2011, vigentes de forma transitoria)',
+    convivencia: 'Decreto 169/2026, de 30 de octubre, por el que se regula la convivencia escolar y se promueve el bienestar en el ámbito educativo de Canarias',
     sesionMin: 55,
     extra: ['Educación Emocional y para la Creatividad', { name: 'Segunda Lengua Extranjera (Francés)', desde: 5 }],
-    nota: `Sigue la estructura de los modelos de la Consejería de Educación del Gobierno de Canarias (Programa Brújula20). En el Decreto 211/2022 cada área organiza su currículo en BLOQUES COMPETENCIALES que vinculan cada competencia específica (numeradas C1, C2, C3…) con sus criterios de evaluación, descriptores operativos y saberes básicos por ciclo. Datos de numeración verificados: Conocimiento del Medio Natural, Social y Cultural tiene 9 competencias específicas (C1–C9) y 24 criterios; Educación Artística, 4 competencias y 10 criterios; Educación Emocional y para la Creatividad, 4 competencias (8 criterios en 1.º y 2.º ciclo, 7 en 3.º); Educación Física, 5 competencias y 9 criterios. La evaluación es global, continua y formativa, con las áreas evaluadas de forma conjunta y calificación Insuficiente, Suficiente, Bien, Notable o Sobresaliente. La promoción se decide al final de cada ciclo. Las sesiones de referencia duran 55 minutos. Contextualiza en la realidad canaria (patrimonio natural y cultural, insularidad, biodiversidad y especies endémicas, ODS, silbo gomero cuando encaje) e implica a las familias.` },
+    nota: `Sigue la estructura de los modelos de la Consejería de Educación del Gobierno de Canarias (Programa Brújula20). En el Decreto 211/2022 cada área organiza su currículo en BLOQUES COMPETENCIALES que vinculan cada competencia específica (numeradas C1, C2, C3…) con sus criterios de evaluación, descriptores operativos y saberes básicos por ciclo. Datos de numeración verificados: Conocimiento del Medio Natural, Social y Cultural tiene 9 competencias específicas (C1–C9) y 24 criterios; Educación Artística, 4 competencias y 10 criterios; Educación Emocional y para la Creatividad, 4 competencias (8 criterios en 1.º y 2.º ciclo, 7 en 3.º); Educación Física, 5 competencias y 9 criterios. La evaluación es global, continua y formativa, con las áreas evaluadas de forma conjunta. Las áreas se califican con Insuficiente, Suficiente, Bien, Notable o Sobresaliente, SIN nota numérica (Orden de 31/05/2023, art. 11.3); las competencias clave se califican aparte con PA, AD, MA o EX (art. 11.4). Las rúbricas oficiales de referencia son las de la Consejería (Resolución de 15/05/2025). Las normas de aula se pactan con el alumnado (Decreto 169/2026). La promoción se decide al final de cada ciclo. Las sesiones de referencia duran 55 minutos. Contextualiza en la realidad canaria (patrimonio natural y cultural, insularidad, biodiversidad y especies endémicas, ODS, silbo gomero cuando encaje) e implica a las familias.` },
   { id: 'andalucia', name: 'Andalucía', decreto: 'Decreto 101/2023, de 9 de mayo, por el que se establece la ordenación y el currículo de la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía, desarrollado por la Orden de 30 de mayo de 2023', verificado: true, extra: [] },
   { id: 'aragon', name: 'Aragón', decreto: 'Orden ECD/1112/2022, de 18 de julio, por la que se aprueban el currículo y las características de la evaluación de la Educación Primaria en Aragón (modificada por la Orden ECD/866/2024)', verificado: true, extra: [] },
   { id: 'asturias', name: 'Asturias', extra: [] },
@@ -181,6 +187,18 @@ const CCAA = [
   { id: 'mefp', name: 'Ceuta y Melilla (MEFP)', extra: [] }
 ];
 
+for (const c of CCAA) {
+  const x = CCAA_DATA.find(y => y.id === c.id);
+  if (!x || !x.verificado) continue;
+  c.decreto = x.decreto; c.verificado = true;
+  if (x.escala) c.escala = x.escala;
+  if (x.evaluacion && !c.evaluacion) c.evaluacion = x.evaluacion;
+  if (x.sesionMin && !c.sesionMin) c.sesionMin = x.sesionMin;
+  if (c.id !== 'canarias' && Array.isArray(x.areasPropias) && x.areasPropias.length) {
+    c.extra = x.areasPropias.filter(a => !/Atención educativa/i.test(a.name)).map(a => a.desde ? { name: a.name, desde: a.desde } : a.name);
+  }
+}
+
 const CURSOS = ['1º', '2º', '3º', '4º', '5º', '6º'];
 
 function cicloDe(curso) {
@@ -195,6 +213,8 @@ function areasDe(ccaaId, curso) {
   const n = parseInt(curso, 10);
   const extra = (c.extra || []).filter(a => typeof a === 'string' || n >= (a.desde || 1)).map(a => typeof a === 'string' ? a : a.name);
   let areas = AREAS_BASE.concat(extra);
+  if (extra.some(a => /^Ciencias de la Naturaleza/.test(a))) areas = areas.filter(a => a !== 'Conocimiento del Medio Natural, Social y Cultural');
+  if (extra.some(a => /Plástica/.test(a))) areas = areas.filter(a => a !== 'Educación Artística');
   if (n < 5) areas = areas.filter(a => a !== 'Educación en Valores Cívicos y Éticos');
   return areas;
 }
@@ -209,6 +229,8 @@ function marcoNormativo(c) {
   let m = `LOMLOE (Ley Orgánica 3/2020), Real Decreto 157/2022, de 1 de marzo, de enseñanzas mínimas de Educación Primaria, y ${dec}.`;
   if (c.evaluacion) m += ` Evaluación: ${c.evaluacion}.`;
   if (c.diversidad) m += ` Atención a la diversidad: ${c.diversidad}.`;
+  if (c.convivencia) m += ` Convivencia: ${c.convivencia}.`;
+  if (c.escala) m += ` Escala de calificación oficial: ${c.escala}.`;
   return m;
 }
 
@@ -259,8 +281,8 @@ ${REGLAS_COMUNES}`;
 function promptRubrica(d) {
   const c = ccaaPorId(d.ccaa);
   const niveles = d.niveles === '5'
-    ? 'Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT) y Sobresaliente (SB)'
-    : 'En inicio, En proceso, Adquirido y Avanzado';
+    ? (c.escala ? `la escala oficial de calificación de ${c.name}: ${c.escala}` : 'Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT) y Sobresaliente (SB)')
+    : 'En inicio, En proceso, Adquirido y Avanzado (rúbrica de aula; indica en una nota cómo se corresponde con la escala oficial de calificación' + (c.escala ? ': ' + c.escala : '') + ')';
   return `Eres un/a maestro/a de Educación Primaria experto/a en evaluación competencial LOMLOE en ${c.name}.
 Crea una RÚBRICA DE EVALUACIÓN analítica.
 
@@ -280,7 +302,7 @@ Lista de los criterios con su número y redacción.
 ## Rúbrica
 Tabla: primera columna "Criterio / indicador", una columna por nivel de logro. Descriptores observables, graduados, redactados en positivo, sin adjetivos vagos ("bien", "adecuado") sin concretar qué se observa.
 ## Ponderación y calificación
-Peso de cada criterio y cómo se traduce a calificación.
+Peso de cada criterio y cómo se traduce a la calificación oficial. Si la normativa de la comunidad no usa nota numérica (p. ej. Canarias), no conviertas a 0-10.
 ## Versión para el alumnado
 La misma rúbrica en lenguaje sencillo, en primera persona ("Yo..."), adaptada a la edad del curso.
 ${REGLAS_COMUNES}`;
@@ -312,6 +334,7 @@ Reescribe la actividad paso a paso con los ajustes aplicados, manteniendo los mi
 Instrumentos y formatos alternativos para recoger evidencias, sin rebajar el criterio.
 ## Coordinación
 Con quién coordinarse (orientación, especialistas, familia) y qué registrar.
+LÍMITES: no diagnostiques ni atribuyas una categoría de NEAE; no redactes adaptaciones curriculares (AC/ACUS), que corresponden a los procedimientos de orientación; limítate a medidas ordinarias.${c.id === 'canarias' ? ' En Canarias, etiqueta cada medida con la letra del art. 5.2 del Decreto 25/2018 que le corresponda (a apoyo en el grupo clase, b agrupamientos flexibles, c atención individualizada, d refuerzo para la recuperación curricular, e apoyo idiomático, f participación de la comunidad) y usa la terminología canaria (NEAE, NEE, DEA, TDAH, ECOPHE, INTARSE, ALCAIN; medidas ordinarias, extraordinarias y excepcionales; barreras para el aprendizaje y la participación).' : ''}
 Nota final: estas son medidas ordinarias y no sustituyen la evaluación psicopedagógica ni las medidas que esta determine.
 ${REGLAS_COMUNES}`;
 }
@@ -348,7 +371,7 @@ Modelos de enseñanza, agrupamientos, espacios, recursos (competencia digital in
 ## 8. Atención a las diferencias individuales
 Medidas ordinarias concretas, coordinación con orientación y referencia a la normativa de atención a la diversidad.
 ## 9. Evaluación
-Referentes, procedimientos e instrumentos, momentos, agentes, calificación y criterios de promoción.
+Referentes, procedimientos e instrumentos, momentos, agentes, calificación, criterios de calificación que se comunicarán a las familias y criterios de promoción.
 ## 10. Elementos transversales y planes del centro
 ## 11. Actividades complementarias
 ## 12. Evaluación de la programación y de la práctica docente
@@ -369,18 +392,23 @@ const Engine = (() => {
     get(k, def) { try { return JSON.parse(localStorage.getItem(k)) ?? def; } catch (e) { return def; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   };
-  const license = () => store.get(KEY, null);
+  const LICENSE_RE = /^al_[0-9a-f]{36}$/;
+  const license = () => { const l = store.get(KEY, null); return typeof l === 'string' && LICENSE_RE.test(l) ? l : null; };
   let lastUsage = null;
 
   async function init() {
     // Vuelta desde Stripe Checkout: ?session_id=cs_...
-    const sid = new URLSearchParams(location.search).get('session_id');
+    const params = new URLSearchParams(location.search);
+    const sid = params.get('session_id');
     if (sid) {
       try {
         const r = await fetch(API + '/api/license?session_id=' + encodeURIComponent(sid));
-        if (r.ok) { const j = await r.json(); store.set(KEY, j.license); }
+        if (r.ok) { const j = await r.json(); if (LICENSE_RE.test(j.license || '')) store.set(KEY, j.license); }
       } catch (e) {}
-      history.replaceState(null, '', location.pathname);
+      // Solo se retira session_id; se conservan los demás parámetros de la URL
+      params.delete('session_id');
+      const qs = params.toString();
+      history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
     }
     return { ai: true, storage: true, downloads: true };
   }
@@ -389,32 +417,42 @@ const Engine = (() => {
     const headers = { 'content-type': 'application/json' };
     const lic = license(); if (lic) headers['authorization'] = 'Bearer ' + lic;
     const r = await fetch(API + '/api/generate', { method: 'POST', headers, body: JSON.stringify(meta), signal });
-    if (r.status === 402 || r.status === 429) { const j = await r.json().catch(() => ({})); throw new Error(j.message || 'Límite del plan gratuito alcanzado'); }
-    if (!r.ok || !r.body) throw new Error('El servicio no responde (' + r.status + ')');
+    // Licencia caducada, dada de baja o no reconocida: se olvida y se pasa al plan gratuito
+    if (r.headers.get('x-license') === 'invalid') { try { localStorage.removeItem(KEY); } catch (e) {} }
+    if (!r.ok || !r.body) {
+      const j = await r.json().catch(() => ({}));
+      throw new Error(j.message || (r.status === 402 ? 'Límite del plan gratuito alcanzado' : 'El servicio no responde (' + r.status + ')'));
+    }
     lastUsage = { used: +r.headers.get('x-usage-used') || 0, limit: +r.headers.get('x-usage-limit') || 0, pro: r.headers.get('x-plan') === 'pro' };
     const reader = r.body.getReader(), dec = new TextDecoder();
-    let text = '', buf = '';
+    let text = '', buf = '', stopReason = null, finished = false;
+    const handle = evt => {
+      const line = evt.split('\n').find(l => l.startsWith('data:'));
+      if (!line) return;
+      let j; try { j = JSON.parse(line.slice(5).trim()); } catch (e) { return; }
+      if (j.type === 'content_block_delta' && j.delta && j.delta.type === 'text_delta' && typeof j.delta.text === 'string') { text += j.delta.text; onText(text); }
+      else if (j.type === 'message_delta' && j.delta && j.delta.stop_reason) stopReason = j.delta.stop_reason;
+      else if (j.type === 'message_stop') finished = true;
+      else if (j.type === 'error') throw new Error((j.error && j.error.type === 'overloaded_error') ? 'El motor de IA está saturado. Inténtalo en unos minutos.' : 'Error del motor de IA. Inténtalo de nuevo.');
+    };
     for (;;) {
       const { value, done } = await reader.read();
       if (done) break;
-      buf += dec.decode(value, { stream: true });
+      buf += dec.decode(value, { stream: true }).replace(/\r\n/g, '\n');
       let i;
-      while ((i = buf.indexOf('\n\n')) >= 0) {
-        const evt = buf.slice(0, i); buf = buf.slice(i + 2);
-        const line = evt.split('\n').find(l => l.startsWith('data: '));
-        if (!line) continue;
-        let j; try { j = JSON.parse(line.slice(6)); } catch (e) { continue; }
-        if (j.type === 'content_block_delta' && j.delta && j.delta.type === 'text_delta') { text += j.delta.text; onText(text); }
-        if (j.type === 'error') throw new Error((j.error && j.error.message) || 'Error del modelo');
-      }
+      while ((i = buf.indexOf('\n\n')) >= 0) { const evt = buf.slice(0, i); buf = buf.slice(i + 2); handle(evt); }
     }
+    buf += dec.decode();
+    if (buf.trim()) handle(buf);
+    if (!finished) throw new Error('La conexión se cortó antes de terminar. El documento puede estar incompleto.');
+    if (stopReason === 'max_tokens') throw new Error('El documento alcanzó la longitud máxima y puede estar incompleto. Revísalo antes de usarlo.');
     return text;
   }
 
   async function canGenerate() { return { ok: true }; } // el servidor decide (402 si no hay cupo)
   async function countUsage() {}
   async function usage() {
-    if (license()) return { plan: 'Pro', label: '' };
+    if (license() && !(lastUsage && lastUsage.pro === false)) return { plan: 'Pro', label: '' };
     if (!lastUsage) { try { const r = await fetch(API + '/api/usage'); if (r.ok) lastUsage = await r.json(); } catch (e) {} }
     return { plan: 'Plan Gratis', label: lastUsage ? `${lastUsage.used}/${lastUsage.limit} este mes` : '' };
   }
@@ -431,6 +469,55 @@ const Engine = (() => {
   return { init, generate, canGenerate, countUsage, usage, saveDoc, listDocs, deleteDoc, download };
 })();
 
+</script>
+<script id="al-md">
+// Renderizador Markdown mínimo. El contenido viene del modelo (no confiable): TODO se escapa
+// antes de añadir las únicas etiquetas permitidas (h1-h4, p, ul/ol/li, table, b, i, br, hr, span.verif).
+// No genera atributos a partir del contenido ni enlaces. Probado en tests/markdown.test.mjs.
+const AulaMD = (() => {
+  const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  function inline(s){
+    return esc(s)
+      .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
+      .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g,'$1<i>$2</i>')
+      .replace(/\[VERIFICAR CON DECRETO\]/g,'<span class="verif">VERIFICAR</span>');
+  }
+  const BLOCK = /^(#{1,4}\s|\s*[-*]\s|\s*\d+[.)]\s|\s*\||\s*(---|\*\*\*)\s*$)/;
+  function md(src){
+    const lines = String(src == null ? '' : src).replace(/\r/g,'').split('\n');
+    let html = '', i = 0;
+    while (i < lines.length){
+      const l = lines[i];
+      if (/^\s*\|/.test(l)){
+        const rows = [];
+        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
+        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim());
+        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
+        if (!body.length) continue;
+        html += '<table><thead><tr>' + cells(body[0]).map(c => '<th>'+inline(c)+'</th>').join('') + '</tr></thead><tbody>';
+        body.slice(1).forEach(r => html += '<tr>' + cells(r).map(c => '<td>'+inline(c).replace(/&lt;br\s*\/?&gt;/g,'<br>')+'</td>').join('') + '</tr>');
+        html += '</tbody></table>';
+        continue;
+      }
+      let m;
+      if ((m = l.match(/^(#{1,4})\s+(.*)/))){ const n = m[1].length; html += `<h${n}>${inline(m[2])}</h${n}>`; i++; continue; }
+      if (/^\s*[-*]\s+/.test(l)){
+        html += '<ul>'; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*[-*]\s+/,''))+'</li>'; html += '</ul>'; continue;
+      }
+      if (/^\s*\d+[.)]\s+/.test(l)){
+        html += '<ol>'; while (i < lines.length && /^\s*\d+[.)]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*\d+[.)]\s+/,''))+'</li>'; html += '</ol>'; continue;
+      }
+      if (/^\s*(---|\*\*\*)\s*$/.test(l)){ html += '<hr>'; i++; continue; }
+      if (!l.trim()){ i++; continue; }
+      const para = [l]; i++;   // la primera línea siempre avanza: imposible un bucle infinito
+      while (i < lines.length && lines[i].trim() && !BLOCK.test(lines[i])) para.push(lines[i++]);
+      html += '<p>' + inline(para.join(' ')) + '</p>';
+    }
+    return html;
+  }
+  return { md, esc, inline };
+})();
+if (typeof module !== 'undefined') module.exports = AulaMD;
 </script>
 <script>
 (() => {
@@ -456,12 +543,23 @@ const Engine = (() => {
   function remember(){ try{ localStorage.setItem('al-prefs', JSON.stringify({ccaa:$('ccaa').value,curso:$('curso').value,area:$('area').value})); }catch(e){} }
   try{ const p = JSON.parse(localStorage.getItem('al-prefs')||'null'); if(p){ $('ccaa').value=p.ccaa; $('curso').value=p.curso; fillAreas(); $('area').value=p.area; } else { $('curso').value='3º'; fillAreas(); } }catch(e){ fillAreas(); }
   $('duracion').value = sesionPorDefecto($('ccaa').value);
+  // ---------- Prellenado desde la URL (?ccaa=&curso=&area=&tema=), p. ej. desde /recursos ----------
+  // Solo afecta a esta visita: no llama a remember(), así que no sobrescribe la preferencia guardada.
+  try{
+    const q = new URLSearchParams(location.search);
+    const qc = q.get('ccaa'), qn = parseInt(q.get('curso') || '', 10), qa = q.get('area'), qt = q.get('tema');
+    if (qc && CCAA.some(c => c.id === qc)) { $('ccaa').value = qc; $('duracion').value = sesionPorDefecto(qc); }
+    if (CURSOS[qn - 1]) $('curso').value = CURSOS[qn - 1];
+    if (qc || qn) fillAreas();
+    if (qa && [...$('area').options].some(o => o.value === qa)) $('area').value = qa;
+    if (qt && $('tema')) $('tema').value = qt.slice(0, 600);
+  }catch(e){}
 
   // ---------- Tabs ----------
   const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar', pd:'Hilo conductor (opcional)' };
   const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela', pd:'Ej.: Exploradores de las islas: un viaje por Canarias' };
   document.querySelectorAll('.tab').forEach(b => b.onclick = () => {
-    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === b));
+    document.querySelectorAll('.tab').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-selected', String(x === b)); });
     mode = b.dataset.mode;
     const hist = mode === 'historial';
     $('form').classList.toggle('hidden', hist);
@@ -473,46 +571,7 @@ const Engine = (() => {
     $('tema').required = mode !== 'pd';
   });
 
-  // ---------- Markdown ----------
-  const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  function inline(s){
-    return esc(s)
-      .replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')
-      .replace(/(^|[^*])\*(?!\s)(.+?)\*(?!\*)/g,'$1<i>$2</i>')
-      .replace(/\[VERIFICAR CON DECRETO\]/g,'<span class="verif">VERIFICAR</span>');
-  }
-  function md(src){
-    const lines = src.replace(/\r/g,'').split('\n');
-    let html = '', i = 0;
-    while (i < lines.length){
-      const l = lines[i];
-      if (/^\s*\|/.test(l)){
-        const rows = [];
-        while (i < lines.length && /^\s*\|/.test(lines[i])) rows.push(lines[i++]);
-        const cells = r => r.trim().replace(/^\||\|$/g,'').split('|').map(c => c.trim());
-        const body = rows.filter(r => !/^\s*\|?\s*:?-{2,}/.test(r));
-        if (!body.length) continue;
-        html += '<table><thead><tr>' + cells(body[0]).map(c => '<th>'+inline(c)+'</th>').join('') + '</tr></thead><tbody>';
-        body.slice(1).forEach(r => html += '<tr>' + cells(r).map(c => '<td>'+inline(c).replace(/&lt;br\s*\/?&gt;/g,'<br>')+'</td>').join('') + '</tr>');
-        html += '</tbody></table>';
-        continue;
-      }
-      let m;
-      if ((m = l.match(/^(#{1,4})\s+(.*)/))){ const n = Math.min(m[1].length+0,4); html += `<h${n}>${inline(m[2])}</h${n}>`; i++; continue; }
-      if (/^\s*[-*]\s+/.test(l)){
-        html += '<ul>'; while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*[-*]\s+/,''))+'</li>'; html += '</ul>'; continue;
-      }
-      if (/^\s*\d+[.)]\s+/.test(l)){
-        html += '<ol>'; while (i < lines.length && /^\s*\d+[.)]\s+/.test(lines[i])) html += '<li>'+inline(lines[i++].replace(/^\s*\d+[.)]\s+/,''))+'</li>'; html += '</ol>'; continue;
-      }
-      if (/^\s*(---|\*\*\*)\s*$/.test(l)){ html += '<hr>'; i++; continue; }
-      if (!l.trim()){ i++; continue; }
-      const para = [];
-      while (i < lines.length && lines[i].trim() && !/^(#{1,4}\s|\s*[-*]\s|\s*\d+[.)]\s|\s*\|)/.test(lines[i])) para.push(lines[i++]);
-      html += '<p>' + inline(para.join(' ')) + '</p>';
-    }
-    return html;
-  }
+  const md = AulaMD.md;
 
   // ---------- Word (.docx) ----------
   function runs(text){
@@ -579,7 +638,7 @@ const Engine = (() => {
   let raf = 0;
   function show(text){ cancelAnimationFrame(raf); raf = requestAnimationFrame(() => { $('doc').innerHTML = md(text); }); }
   function setBusy(b){
-    busy = b; $('go').disabled = b; $('stop').classList.toggle('hidden', !b);
+    busy = b; $('go').disabled = b; $('stop').classList.toggle('hidden', !b); $('doc').setAttribute('aria-busy', String(b));
     ['copy','dlDocx','dlMd','save'].forEach(id => $(id).disabled = b || !current);
   }
 
@@ -639,9 +698,11 @@ const Engine = (() => {
       const m = document.createElement('div'); m.className = 'm';
       m.textContent = `${TIPO[d.tipo] || ''} · ${d.curso} · ${d.area} · ${new Date(d.createdAt).toLocaleDateString('es-ES')}`;
       info.append(t, m);
-      const del = document.createElement('button'); del.className = 'del'; del.title = 'Borrar'; del.textContent = '×';
+      const del = document.createElement('button'); del.type = 'button'; del.className = 'del'; del.title = 'Borrar'; del.setAttribute('aria-label', 'Borrar «' + (d.titulo || 'documento') + '»'); del.textContent = '×';
       del.onclick = async ev => { ev.stopPropagation(); try { await Engine.deleteDoc(d.id); renderHistory(); } catch(e){ toast('No se pudo borrar'); } };
-      li.onclick = () => { current = d; $('doc').innerHTML = md(d.md); $('status').textContent = d.titulo; setBusy(false); $('save').disabled = true; };
+      li.tabIndex = 0; li.setAttribute('role', 'button');
+      li.onclick = () => { current = d; $('doc').innerHTML = md(d.md); $('status').textContent = d.titulo; setBusy(false); $('save').disabled = true; $('doc').focus(); };
+      li.onkeydown = ev => { if (ev.target === li && (ev.key === 'Enter' || ev.key === ' ')) { ev.preventDefault(); li.onclick(); } };
       li.append(info, del); list.append(li);
     });
   }

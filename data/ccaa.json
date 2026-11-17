@@ -1,0 +1,386 @@
+[
+  {
+    "id": "canarias",
+    "name": "Canarias",
+    "decreto": "Decreto 211/2022, de 10 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de Canarias",
+    "decretoUrl": "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+    "boletin": "BOC n.º 231, de 23 de noviembre de 2022 (BOC-A-2022-231-3533)",
+    "evaluacion": "Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado (incluye Primaria). Número de BOC y fecha de publicación pendientes de comprobar",
+    "evaluacionUrl": "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/",
+    "areasPropias": [
+      { "name": "Educación Emocional y para la Creatividad" },
+      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+    ],
+    "sesionMin": 55,
+    "escala": "Insuficiente, Suficiente, Bien, Notable, Sobresaliente",
+    "notas": "Área propia EMOCREA en todos los cursos. Segunda Lengua Extranjera obligatoria al menos en el tercer ciclo. Sesiones de 55 o 45 minutos (prioridad a 55; los centros pueden usar entre 30 y 60). Anexo 3 con orientaciones de situaciones de aprendizaje (carácter orientativo). Áreas y sesiones tomadas de docs/normativa/02-canarias-decreto-211-2022.md. En el BOC solo se ha comprobado número, fecha y publicación del decreto.",
+    "verificado": true,
+    "fuentes": [
+      "https://www.gobiernodecanarias.org/boc/2022/231/001.html",
+      "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/"
+    ]
+  },
+  {
+    "id": "andalucia",
+    "name": "Andalucía",
+    "decreto": "Decreto 101/2023, de 9 de mayo, por el que se establece la ordenación y el currículo de la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía",
+    "decretoUrl": "https://cdn.juntadeandalucia.es/boja/2023/90/BOJA23-090-00026-8470-01_00283499.pdf",
+    "boletin": "BOJA n.º 90, de 15 de mayo de 2023",
+    "evaluacion": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales, se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado y se determina el proceso de tránsito entre etapas (BOJA n.º 104, de 2 de junio de 2023). La evaluación y la promoción están en su capítulo III (arts. 9-25)",
+    "evaluacionUrl": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
+    "areasPropias": [
+      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+    ],
+    "sesionMin": 60,
+    "escala": "IN, SU, BI, NT, SB en las actas; en el boletín, numérica (IN 1-4, SU 5, BI 6, NT 7-8, SB 9-10)",
+    "notas": "Sesiones de 60 minutos, y de forma excepcional de 30 o 45, respetando el horario mínimo por área. 25 sesiones semanales. Segunda Lengua Extranjera en 5.º y 6.º (1 h semanal); el Área Lingüística de carácter transversal es su alternativa. Los centros plurilingües pueden ofrecer la segunda lengua extranjera en 1.º y 2.º ciclo dentro del horario de autonomía. Educación en Valores Cívicos y Éticos en 6.º. Orientaciones de situaciones de aprendizaje en el anexo IV de la Orden. El título completo de la Orden se ha redactado a partir del sumario y conviene cotejarlo con el BOJA.",
+    "verificado": true,
+    "fuentes": [
+      "https://cdn.juntadeandalucia.es/boja/2023/90/BOJA23-090-00026-8470-01_00283499.pdf",
+      "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf"
+    ]
+  },
+  {
+    "id": "aragon",
+    "name": "Aragón",
+    "decreto": "Orden ECD/1112/2022, de 18 de julio, por la que se aprueban el currículo y las características de la evaluación de la Educación Primaria y se autoriza su aplicación en los centros docentes de la Comunidad Autónoma de Aragón; modificada por la Orden ECD/866/2024, de 25 de julio (BOA de 7 de agosto de 2024)",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1224892",
+    "boletin": "BOA de 27 de julio de 2022",
+    "evaluacion": "La misma Orden ECD/1112/2022 (currículo y evaluación), modificada por la Orden ECD/866/2024, de 25 de julio",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1246863",
+    "areasPropias": [
+      { "name": "Ciencias de la Naturaleza" },
+      { "name": "Ciencias Sociales" },
+      { "name": "Educación Plástica y Visual" },
+      { "name": "Música y Danza" },
+      { "name": "Segunda Lengua Extranjera", "desde": 5 },
+      { "name": "Lenguas Propias de Aragón (Aragonés o Catalán)" },
+      { "name": "Atención educativa" }
+    ],
+    "sesionMin": 45,
+    "escala": "IN, SU, BI, NT, SB. Competencias clave en el informe de ciclo: Iniciado, En desarrollo, Adquirido, Adquirido plenamente",
+    "notas": "Aragón no separa decreto y orden: la orden aprueba el currículo. Conocimiento del Medio se divide en Ciencias de la Naturaleza y Ciencias Sociales, y Educación Artística en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en 5.º y 6.º. Segunda Lengua Extranjera optativa desde 5.º, con consejo orientador determinante. Lenguas Propias de Aragón (aragonés o catalán) solo en centros autorizados. Lengua extranjera en proyectos bilingües hasta 135 min semanales. Sesiones de 45 a 60 minutos dentro de 25 horas semanales con recreos. La Orden ECD/866/2024 (aplicable desde 2024-25) añade Atención educativa como alternativa a Religión, pide ponderar los criterios de calificación y revisa los currículos de Ciencias Sociales, Lengua Castellana y Música y Danza.",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1224892",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1246863"
+    ]
+  },
+  {
+    "id": "asturias",
+    "name": "Asturias",
+    "decreto": "Decreto 57/2022, de 5 de agosto, por el que se regula la ordenación y se establece el currículo de la Educación Primaria en el Principado de Asturias",
+    "decretoUrl": "https://redined.educacion.gob.es/xmlui/bitstream/handle/11162/255867/LOMLOE-curriculo-educacion-primaria.pdf?sequence=1",
+    "boletin": "BOPA de 12 de agosto de 2022 (n.º de boletín pendiente de comprobar)",
+    "evaluacion": "Evaluación regulada en el propio Decreto 57/2022 (art. 16). Resolución autonómica de desarrollo de la evaluación pendiente de localizar",
+    "evaluacionUrl": null,
+    "areasPropias": [
+      { "name": "Lengua Asturiana y Literatura" },
+      { "name": "Cultura Asturiana" }
+    ],
+    "sesionMin": 45,
+    "escala": "Insuficiente (IN); Suficiente (Su), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Las familias eligen entre Lengua Asturiana y Literatura y Cultura Asturiana (art. 8.1.g). Sesiones de 45 a 60 minutos; pueden unirse dos periodos de 45 minutos de la misma área (art. 15.2). Anexo 5 sobre situaciones de aprendizaje. En el texto consultado no aparece una segunda lengua extranjera. El texto del decreto se ha consultado en REDINED (Ministerio) y la fecha de publicación en el INAP; no se ha abierto el BOPA.",
+    "verificado": true,
+    "fuentes": [
+      "https://redined.educacion.gob.es/xmlui/bitstream/handle/11162/255867/LOMLOE-curriculo-educacion-primaria.pdf?sequence=1",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1225346"
+    ]
+  },
+  {
+    "id": "baleares",
+    "name": "Illes Balears",
+    "decreto": "Decreto 41/2025, de 1 de agosto, por el que se establecen la ordenación y el currículo de la Educación Primaria de las Illes Balears",
+    "decretoUrl": "https://www.caib.es/webgoib/es/-/decret-41/2025-d-1-d-agost-pel-qual-s-estableixen-l-ordenaci%C3%B3-i-el-curr%C3%ADculum-de-l-educaci%C3%B3-prim%C3%A0ria-de-les-illes-balears",
+    "boletin": "BOIB n.º 103, de 4 de agosto de 2025",
+    "evaluacion": "Orden 28/2025, de 21 de octubre, del consejero de Educación y Universidades, sobre la evaluación del aprendizaje de los alumnos de la Educación Primaria en las Illes Balears (BOIB de 23 de octubre de 2025)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1259734",
+    "areasPropias": [
+      { "name": "Llengua Catalana i Literatura" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN), Suficiente (SU), Bien (BIEN), Notable (NT), Excelente (EX). Los criterios no se califican de forma numérica ni porcentual",
+    "notas": "Sustituye al Decreto 31/2022, de 1 de agosto (BOIB n.º 101, de 2 de agosto de 2022). Cambios: une los términos «contenidos» y «saberes básicos»; secuenciación orientativa de saberes; las situaciones de aprendizaje dejan de ser la única forma de organizar el currículo; la programación didáctica es obligatoria y distinta de la propuesta pedagógica; limita el uso de dispositivos digitales por curso. Escala con «Excelente», no «Sobresaliente». La promoción se decide por ciclo. En abril de 2026 el TSJIB anuló el art. 8 del decreto de currículo de Primaria (regulación de Religión). La noticia no dice si es el 31/2022 o el 41/2025: hay que comprobarlo. El nombre «Llengua Catalana i Literatura» procede del decreto de 2014 y del producto; no se ha podido abrir el PDF del 41/2025 para confirmar áreas ni sesiones.",
+    "verificado": true,
+    "fuentes": [
+      "https://www.caib.es/webgoib/es/-/decret-41/2025-d-1-d-agost-pel-qual-s-estableixen-l-ordenaci%C3%B3-i-el-curr%C3%ADculum-de-l-educaci%C3%B3-prim%C3%A0ria-de-les-illes-balears",
+      "https://caib.es/sites/lomloe/ca/prim_normativa/",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1257695",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1259734",
+      "https://intranet.caib.es/eboibfront/pdf/es/2022/118/1118627",
+      "https://www.menorca.info/balears/noticias/2026/04/20/2612775/tribunal-superior-justicia-baleares-anula-parte-del-curriculo-primaria-obliga-govern-cambiar-religion.html"
+    ]
+  },
+  {
+    "id": "cantabria",
+    "name": "Cantabria",
+    "decreto": "Decreto 66/2022, de 7 de julio, por el que se establece el currículo de la Educación Infantil y de la Educación Primaria en la Comunidad Autónoma de Cantabria",
+    "decretoUrl": "https://personales.unican.es/van-vaerenbe/doc/legal/BOC-2022-5545.pdf",
+    "boletin": "BOC n.º 135, de 13 de julio de 2022 (CVE-2022-5545)",
+    "evaluacion": "Evaluación en el propio Decreto 66/2022. Orden EDU/7/2023, de 23 de marzo, por la que se regula el derecho del alumnado a una evaluación objetiva (reclamaciones). Orden específica LOMLOE de evaluación de Primaria pendiente de localizar",
+    "evaluacionUrl": null,
+    "areasPropias": [],
+    "sesionMin": null,
+    "escala": "No figura en el decreto. Pendiente de comprobar en la orden de evaluación",
+    "notas": "Un solo decreto para Infantil y Primaria. Conocimiento del Medio puede dividirse en Ciencias de la Naturaleza y Ciencias Sociales, y Educación Artística en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en 5.º, no en 6.º. Los centros pueden agrupar áreas en ámbitos y añadir otra área con autorización. El decreto no fija la duración de la sesión. Usa «situaciones de aprendizaje» (art. 2.1.f). Atención a la diversidad: Decreto 78/2019. El PDF consultado es copia del BOC oficial alojada en unican.es.",
+    "verificado": true,
+    "fuentes": [
+      "https://personales.unican.es/van-vaerenbe/doc/legal/BOC-2022-5545.pdf",
+      "https://vlex.es/vid/orden-edu-7-2023-927434283"
+    ]
+  },
+  {
+    "id": "castillaleon",
+    "name": "Castilla y León",
+    "decreto": "Decreto 38/2022, de 29 de septiembre, por el que se establece la ordenación y el currículo de la educación primaria en la Comunidad de Castilla y León",
+    "decretoUrl": "https://www.educa.jcyl.es/es/informacion/sistema-educativo/educacion-primaria/educacion-primaria-ordenacion-curriculo.ficheros/1644986-Decreto%2038_2022%2Cde%2029%20de%20septiembre.pdf",
+    "boletin": "BOCYL n.º 190, de 30 de septiembre de 2022",
+    "evaluacion": "Orden EDU/423/2024, de 9 de mayo, por la que se desarrolla la evaluación y la promoción en la Educación Primaria en la Comunidad de Castilla y León (BOCYL de 17 de mayo de 2024)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1244168",
+    "areasPropias": [
+      { "name": "Ciencias de la Naturaleza" },
+      { "name": "Ciencias Sociales" },
+      { "name": "Educación Plástica y Visual" },
+      { "name": "Música y Danza" },
+      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+    ],
+    "sesionMin": null,
+    "escala": "Numérica de 0 a 10 con equivalencia: 0-4 IN, 5 SU, 6 BI, 7-8 NT, 9-10 SB",
+    "notas": "Las áreas comunes van separadas: Ciencias de la Naturaleza, Ciencias Sociales, Educación Plástica y Visual, y Música y Danza (art. 15.1). Educación en Valores Cívicos y Éticos solo en 6.º. Cada centro puede ofrecer Segunda Lengua Extranjera en 5.º y 6.º, un área de profundización y otra de refuerzo. Quien no curse Religión trabaja en proyectos significativos sobre los valores, tradiciones y cultura de Castilla y León. Sesiones de 30 a 90 minutos (art. 17.5). Usa «situaciones de aprendizaje» (art. 14). La calificación usa rúbricas, escalas o dianas ligadas a los criterios.",
+    "verificado": true,
+    "fuentes": [
+      "https://www.educa.jcyl.es/es/informacion/sistema-educativo/educacion-primaria/educacion-primaria-ordenacion-curriculo.ficheros/1644986-Decreto%2038_2022%2Cde%2029%20de%20septiembre.pdf",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1244168"
+    ]
+  },
+  {
+    "id": "clm",
+    "name": "Castilla-La Mancha",
+    "decreto": "Decreto 81/2022, de 12 de julio, por el que se establece la ordenación y el currículo de Educación Primaria en la comunidad autónoma de Castilla-La Mancha",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1224514",
+    "boletin": "DOCM de 14 de julio de 2022",
+    "evaluacion": "Orden 185/2022, de 27 de septiembre, de la Consejería de Educación, Cultura y Deportes, por la que se regula la evaluación en la etapa de Educación Primaria en la comunidad autónoma de Castilla-La Mancha (DOCM de 30 de septiembre de 2022)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1226427",
+    "areasPropias": [],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Áreas del RD 157/2022. Educación Artística puede dividirse en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en 5.º. Segunda lengua extranjera con autorización previa de la Administración. Horario en el anexo IV (no consultado). Situaciones de aprendizaje en el anexo III. Inclusión educativa: Decreto 85/2018.",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1224514",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1226427"
+    ]
+  },
+  {
+    "id": "cataluna",
+    "name": "Cataluña",
+    "decreto": "Decret 175/2022, de 27 de setembre, d'ordenació dels ensenyaments de l'educació bàsica (Decreto 175/2022, de 27 de septiembre, de ordenación de las enseñanzas de la educación básica); modificado por el Decret 480/2024, de 17 de desembre (DOGC de 19/12/2024)",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1226360",
+    "boletin": "DOGC de 29 de septiembre de 2022 (n.º pendiente de comprobar)",
+    "evaluacion": "Evaluación regulada en el propio Decret 175/2022 (arts. 24-32)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1226360",
+    "areasPropias": [
+      { "name": "Llengua Catalana i Literatura" },
+      { "name": "Aranès i Literatura (Aran)" }
+    ],
+    "sesionMin": null,
+    "escala": "Nivel de adquisición: Adquisición sobresaliente (AE), notable (AN), satisfactoria (AS), No adquisición (NA). En las actas: sobresaliente, notable, bien, insuficiente",
+    "notas": "Un solo decreto para Primaria y ESO («educació bàsica»). Áreas: Llengua Catalana i Literatura, Lengua Castellana y Literatura, Aranés y Literatura (solo en Arán), Conocimiento del Medio, Educación Artística (Educación Plástica, Visual y Audiovisual; Música y Artes Escénicas y Performativas), Educación Física, Lengua Extranjera y Matemáticas. Educación en Valores Cívicos y Éticos en 5.º o 6.º. Segunda lengua extranjera opcional según el proyecto lingüístico del centro. Al menos 30 minutos diarios de lectura. Usa «situacions d'aprenentatge»; el anexo 5 habla de aprendizaje basado en situaciones. El Decret 480/2024 recalcula desde 2025-26 las horas de Catalán, Castellano y Aranés a costa de las horas de gestión autónoma. El decreto no fija la duración de la sesión. El nombre catalán del área de aranés debe cotejarse con el DOGC.",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1226360",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1250693"
+    ]
+  },
+  {
+    "id": "valencia",
+    "name": "Comunitat Valenciana",
+    "decreto": "Decreto 106/2022, de 5 de agosto, del Consell, de ordenación y currículo de la etapa de Educación Primaria; modificado por el Decreto 96/2026, de 19 de junio, del Consell (DOGV de 25 de junio de 2026), aplicable desde el curso 2026-2027",
+    "decretoUrl": "https://portal.edu.gva.es/noucurriculum/wp-content/uploads/sites/1918/2023/03/Decreto-Primaria-GVA.pdf",
+    "boletin": "DOGV (n.º y fecha de 2022 pendientes de comprobar). Modificación: DOGV de 25/06/2026",
+    "evaluacion": "Evaluación regulada en el propio Decreto 106/2022 (art. 29), modificado por el Decreto 96/2026. Orden autonómica de desarrollo pendiente de localizar",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1267138",
+    "areasPropias": [
+      { "name": "Valenciano: Lengua y Literatura" },
+      { "name": "Plástica y Visual" },
+      { "name": "Música y Danza" }
+    ],
+    "sesionMin": 45,
+    "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Educación Artística dividida en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en el tercer ciclo. Sesiones de 45 o 60 minutos (art. 16.5). Situaciones de aprendizaje en el anexo III. El Decreto 96/2026 (desde 2026-27) quita del horario el tiempo de «Proyectos Interdisciplinarios» y lo da a Matemáticas, Lengua Castellana y Valenciano, a lectura en el segundo ciclo y a libre disposición en el tercero. También impide crear grupos nuevos con dispositivos digitales individuales. Desde 2026-27 no deben generarse SA con horario de Proyectos Interdisciplinarios.",
+    "verificado": true,
+    "fuentes": [
+      "https://portal.edu.gva.es/noucurriculum/wp-content/uploads/sites/1918/2023/03/Decreto-Primaria-GVA.pdf",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1267138"
+    ]
+  },
+  {
+    "id": "extremadura",
+    "name": "Extremadura",
+    "decreto": "Decreto 107/2022, de 28 de julio, por el que se establecen la ordenación y el currículo de la Educación Primaria para la Comunidad Autónoma de Extremadura; arts. 13 y 15 modificados por el Decreto 241/2023, de 12 de septiembre (DOE de 19/09/2023)",
+    "decretoUrl": "https://doe.juntaex.es/pdfs/doe/2022/1510o/22040159C.pdf",
+    "boletin": "DOE de 5 de agosto de 2022 (n.º 151 según la ruta del PDF; pendiente de confirmar)",
+    "evaluacion": "Orden de 9 de diciembre de 2022 por la que se regula la evaluación del alumnado en la Educación Infantil, Educación Primaria, ESO y Bachillerato en la Comunidad Autónoma de Extremadura (DOE de 15 de diciembre de 2022)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1228630",
+    "areasPropias": [
+      { "name": "Segunda Lengua Extranjera (opcional de centro; atención especial al portugués)" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Áreas del RD 157/2022. Educación en Valores Cívicos y Éticos en 6.º. Los centros pueden ofrecer Segunda Lengua Extranjera o dedicar ese tiempo a un área transversal; el preámbulo da prioridad al portugués. 25 periodos lectivos semanales con 30 min diarios de recreo computables. No se fija la duración en minutos. El TSJEx anuló los arts. 13 (horario) y 15 (tutoría) en su sentencia 62/2023, y el Decreto 241/2023 los redactó de nuevo (horario por ciclos en el anexo IV). Usa «situaciones de aprendizaje».",
+    "verificado": true,
+    "fuentes": [
+      "https://doe.juntaex.es/pdfs/doe/2022/1510o/22040159C.pdf",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1225201",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1237059",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1228630"
+    ]
+  },
+  {
+    "id": "galicia",
+    "name": "Galicia",
+    "decreto": "Decreto 155/2022, de 15 de septiembre, por el que se establecen la ordenación y el currículo de la educación primaria en la Comunidad Autónoma de Galicia",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1226257",
+    "boletin": "DOG de 26 de septiembre de 2022 (n.º pendiente de comprobar)",
+    "evaluacion": "Orden de 26 de mayo de 2023 por la que se desarrolla el Decreto 155/2022 y se regula el régimen de evaluación en la educación primaria (DOG de 13 de junio de 2023), aplicable desde 2023-24",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1234318",
+    "areasPropias": [
+      { "name": "Lingua Galega e Literatura" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN, 1-4), Suficiente (SU, 5), Ben (BE, 6), Notable (NT, 7-8), Sobresaliente (SB, 9-10)",
+    "notas": "Área propia: Lingua Galega e Literatura (en castellano, «Lengua Gallega y Literatura», art. 9.1.g). Mínimo de 25 horas lectivas semanales en sesiones o medias sesiones. Horario en el anexo III. El decreto no cita una segunda lengua extranjera. El preámbulo habla de «tarefas ou situacións de aprendizaxe». La abreviatura BE corresponde a «Ben».",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1226257",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1234318"
+    ]
+  },
+  {
+    "id": "madrid",
+    "name": "Comunidad de Madrid",
+    "decreto": "Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid la ordenación y el currículo de la etapa de Educación Primaria",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1224594",
+    "boletin": "BOCM de 18 de julio de 2022",
+    "evaluacion": "Orden 130/2023, de 23 de enero, de la Vicepresidencia, Consejería de Educación y Universidades, por la que se regulan aspectos de organización y funcionamiento, evaluación y autonomía pedagógica de la Educación Primaria (BOCM n.º 25, de 30 de enero de 2023)",
+    "evaluacionUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2023/01/30/BOCM-20230130-23.PDF",
+    "areasPropias": [
+      { "name": "Ciencias de la Naturaleza" },
+      { "name": "Ciencias Sociales" },
+      { "name": "Tecnología y Robótica" },
+      { "name": "Segunda Lengua Extranjera" }
+    ],
+    "sesionMin": 45,
+    "escala": "IN (<5), SU (5 a <6), BI (6 a <7), NT (7 a <9), SB (≥9)",
+    "notas": "Conocimiento del Medio se divide en Ciencias de la Naturaleza y Ciencias Sociales. Lengua Extranjera: Inglés. Educación en Valores Cívicos y Éticos en 5.º. Los centros pueden ofrecer Segunda Lengua Extranjera y Tecnología y Robótica en uno o varios cursos (art. 7.4). Sesiones de 0,75 a 1 hora (art. 12.5). La nota de Educación Artística es la media de sus bloques. El decreto no da nombre propio a las situaciones de aprendizaje; habla de proyectos integrados.",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1224594",
+      "https://www.bocm.es/boletin/CM_Orden_BOCM/2023/01/30/BOCM-20230130-23.PDF"
+    ]
+  },
+  {
+    "id": "murcia",
+    "name": "Región de Murcia",
+    "decreto": "Decreto n.º 209/2022, de 17 de noviembre, por el que se establece la ordenación y el currículo de la Educación Primaria en la Comunidad Autónoma de la Región de Murcia",
+    "decretoUrl": "https://borm.es/services/anuncio/ano/2022/numero/5907/pdf",
+    "boletin": "BORM n.º 267, de 18 de noviembre de 2022 (pág. 39896)",
+    "evaluacion": "Escala y evaluación recogidas en el propio Decreto 209/2022. Orden autonómica de desarrollo pendiente de localizar",
+    "evaluacionUrl": null,
+    "areasPropias": [
+      { "name": "Ciencias de la Naturaleza" },
+      { "name": "Ciencias Sociales" },
+      { "name": "Educación Plástica y Visual" },
+      { "name": "Música y Danza" },
+      { "name": "Profundización Educativa" },
+      { "name": "Segunda Lengua Extranjera (Francés)", "desde": 5 }
+    ],
+    "sesionMin": 45,
+    "escala": "IN (1-4), SU (5), BI (6), NT (7-8), SB (9-10); Mención Honorífica (ME)",
+    "notas": "Áreas separadas: Ciencias de la Naturaleza, Ciencias Sociales, Plástica y Visual, y Música y Danza. Profundización Educativa de 1.º a 5.º. Segunda Lengua Extranjera en 5.º y 6.º, francés por defecto. Educación en Valores Cívicos y Éticos en 6.º. Sesiones de 45 a 90 minutos, y de 30 para apoyo o refuerzo en grupo reducido. Orientaciones de situaciones de aprendizaje en el anexo IV. Calendario y jornada: Orden de 15 de febrero de 2023 (BORM n.º 42).",
+    "verificado": true,
+    "fuentes": [
+      "https://borm.es/services/anuncio/ano/2022/numero/5907/pdf",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1227846",
+      "https://borm.es/services/anuncio/ano/2023/numero/1020/pdf?id=816107"
+    ]
+  },
+  {
+    "id": "navarra",
+    "name": "Navarra",
+    "decreto": "Decreto Foral 67/2022, de 22 de junio, por el que se establece el currículo de las enseñanzas de la etapa de Educación Primaria en la Comunidad Foral de Navarra",
+    "decretoUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1224086",
+    "boletin": "BON de 1 de julio de 2022 (n.º pendiente de comprobar)",
+    "evaluacion": "Orden Foral 52/2023, de 12 de junio, del consejero de Educación, por la que se regula la evaluación y promoción del alumnado que cursa las enseñanzas de Educación Primaria en la Comunidad Foral de Navarra (BON de 29 de junio de 2023)",
+    "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1234847",
+    "areasPropias": [
+      { "name": "Lengua Vasca y Literatura" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN); Suficiente (SF), Bien (BI), Notable (NT), Sobresaliente (SB). PS (pendiente de superar) cuenta como negativa en algunos casos",
+    "notas": "Lengua Vasca y Literatura «en su caso», según modelo lingüístico y zona; se puede eximir de cursarla o de ser evaluado en ella. Conocimiento del Medio puede dividirse en Ciencias de la Naturaleza y Ciencias Sociales, y Educación Artística en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en algún curso del tercer ciclo. Los centros pueden ofrecer una segunda lengua extranjera o un área transversal. Abreviatura propia «SF» para Suficiente. Usa «situaciones de aprendizaje». El decreto no fija la duración de la sesión.",
+    "verificado": true,
+    "fuentes": [
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1224086",
+      "https://laadministracionaldia.inap.es/noticia.asp?id=1234847"
+    ]
+  },
+  {
+    "id": "paisvasco",
+    "name": "País Vasco",
+    "decreto": "Decreto 77/2023, de 30 de mayo, de establecimiento del currículo de Educación Básica e implantación en la Comunidad Autónoma de Euskadi",
+    "decretoUrl": "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2023/06/2302729a.shtml",
+    "boletin": "BOPV n.º 109, de 9 de junio de 2023 (documento 2023/2729)",
+    "evaluacion": "Orden de 22 de enero de 2024, del consejero de Educación, por la que se regula la evaluación en Educación Infantil y la evaluación, promoción y certificación en Educación Básica y Bachillerato (BOPV n.º 23, de 31 de enero de 2024)",
+    "evaluacionUrl": "https://euskadi.eus/bopv2/datos/2024/01/2400509a.pdf",
+    "areasPropias": [
+      { "name": "Lengua Vasca y Literatura" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Un solo decreto de Educación Básica (Primaria y ESO). Áreas de Primaria (art. 11.1): Lengua Vasca y Literatura, Lengua Castellana y Literatura, Primera Lengua Extranjera, Matemáticas, Conocimiento del Medio, Educación Artística (puede dividirse en Música y Plástica), Educación Física y Valores Cívicos y Éticos (6.º). Los centros pueden ofrecer una segunda lengua extranjera en su Proyecto Lingüístico. Tres sesiones semanales de Educación Física en el primer ciclo y 1 h semanal de tutoría. Mínimo de 25 horas semanales. Todas las áreas incluyen la dimensión de la cultura y la lengua vascas. Usa «situaciones de aprendizaje».",
+    "verificado": true,
+    "fuentes": [
+      "https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2023/06/2302729a.shtml",
+      "https://www.euskadi.eus:443/bopv2/datos/2023/06/2302729a.pdf",
+      "https://euskadi.eus/bopv2/datos/2024/01/2400509a.pdf"
+    ]
+  },
+  {
+    "id": "rioja",
+    "name": "La Rioja",
+    "decreto": "Decreto 41/2022, de 13 de julio, por el que se establece el currículo de Educación Primaria y se regulan determinados aspectos sobre su organización, evaluación y promoción en la Comunidad Autónoma de La Rioja (título redactado a partir de la cita de una resolución del BOR; cotejar)",
+    "decretoUrl": null,
+    "boletin": "BOR (fecha de publicación pendiente de comprobar)",
+    "evaluacion": "Organización, evaluación y promoción reguladas en el propio Decreto 41/2022. Orden específica no localizada",
+    "evaluacionUrl": null,
+    "areasPropias": [],
+    "sesionMin": null,
+    "escala": "Pendiente de comprobar",
+    "notas": "Número y fecha (41/2022, de 13 de julio) confirmados en una resolución publicada en el BOR, alojada en larioja.org, que cita el decreto. No se ha podido abrir el texto del decreto (web.larioja.org fuera de la lista permitida y larioja.org con error), así que las áreas, la sesión y la escala siguen pendientes. Sin referencia oficial completa no se debe citar el título literal en los documentos generados.",
+    "verificado": false,
+    "fuentes": [
+      "https://larioja.org/educarioja-centros/en/evaluaciones/nacionales/evaluacion-4-educacion-primaria.files/1548078-1%20BOR_Evaluacion%20de%20diagnostico%202%C2%BA%20y%204%C2%BA.pdf",
+      "https://www.csif.es/es/articulo/larioja/educacion/65290"
+    ]
+  },
+  {
+    "id": "mefp",
+    "name": "Ceuta y Melilla (MEFP)",
+    "decreto": "Orden EFP/678/2022, de 15 de julio, por la que se establece el currículo y se regula la ordenación de la Educación Primaria en el ámbito de gestión del Ministerio de Educación y Formación Profesional",
+    "decretoUrl": "https://www.boe.es/boe/dias/2022/07/21/pdfs/BOE-A-2022-12066.pdf",
+    "boletin": "BOE n.º 174, de 21 de julio de 2022 (BOE-A-2022-12066)",
+    "evaluacion": "Evaluación y promoción reguladas en la propia Orden EFP/678/2022 (arts. 20-23 y 27-30)",
+    "evaluacionUrl": "https://www.boe.es/boe/dias/2022/07/21/pdfs/BOE-A-2022-12066.pdf",
+    "areasPropias": [
+      { "name": "Segunda Lengua Extranjera (opcional de centro)" }
+    ],
+    "sesionMin": null,
+    "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Áreas del RD 157/2022; Educación en Valores Cívicos y Éticos en 6.º. Los centros pueden añadir una segunda lengua extranjera en el horario de libre disposición, en cualquier ciclo y manteniéndola en los cursos siguientes, o un área transversal con autorización. Pueden agrupar áreas en ámbitos. Mínimo de 25 horas semanales con recreo. Horario en el anexo IV. Situaciones de aprendizaje con orientaciones en el anexo III. El final del título («en el ámbito de gestión del MEFP») debe cotejarse con el BOE.",
+    "verificado": true,
+    "fuentes": [
+      "https://www.boe.es/boe/dias/2022/07/21/pdfs/BOE-A-2022-12066.pdf"
+    ]
+  }
+]

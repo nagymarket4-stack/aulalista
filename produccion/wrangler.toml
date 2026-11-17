@@ -22,5 +22,16 @@ PUBLIC_URL = "https://aulalista.es"
 #   npx wrangler secret put ANTHROPIC_API_KEY
 #   npx wrangler secret put STRIPE_SECRET_KEY
 #   npx wrangler secret put STRIPE_WEBHOOK_SECRET
-#   npx wrangler secret put ADMIN_TOKEN
+#   npx wrangler secret put ADMIN_TOKEN             (mínimo 24 caracteres aleatorios)
+#   npx wrangler secret put IP_SALT                 (cadena aleatoria larga: seudonimiza las IP del cupo gratuito)
+#   npx wrangler secret put LICENSE_SECRET          (opcional, recomendado: deriva las licencias de forma idempotente)
 #   npx wrangler secret put MAILERLITE_API_KEY      (opcional)
+
+# Rate limiting nativo (recomendado). Limita generación, leads, /api/license y fallos de admin por IP o licencia.
+# Comprueba la sintaxis vigente en la documentación de Cloudflare ("Rate Limiting" binding) antes de activarlo.
+# [[ratelimits]]
+# name = "RATE_LIMITER"
+# namespace_id = "1001"
+#   [ratelimits.simple]
+#   limit = 10
+#   period = 60

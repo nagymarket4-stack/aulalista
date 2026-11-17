@@ -159,7 +159,7 @@
   </section>
 
   <footer id="privacidad">
-    <p>AulaLista · Hecho por docentes, para docentes.</p>
+    <p>AulaLista · Hecho por docentes, para docentes. · <a href="/recursos/">Ejemplos de situaciones de aprendizaje por comunidad, curso y área</a></p>
     <p>Responsable del tratamiento: [TU NOMBRE O SOCIEDAD] · Finalidad: enviarte información sobre AulaLista · Puedes darte de baja en cualquier email.</p>
   </footer>
 </div>
@@ -181,6 +181,7 @@
       comunidad: sel.value,
       rol: document.getElementById('rol').value,
       fundador: document.getElementById('fundador').checked,
+      rgpd: document.getElementById('rgpd').checked,
       origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo'
     };
     try {

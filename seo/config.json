@@ -1,0 +1,18 @@
+{
+  "_nota": "Configuración del generador. Ver seo/README.md (estrategia de indexación por lotes).",
+  "baseUrl": "https://aulalista.es",
+  "ccaa": [
+    "canarias",
+    "andalucia",
+    "madrid"
+  ],
+  "indexacion": {
+    "_nota": "Una ficha de tema se indexa (entra en sitemap y lleva robots index) si su comunidad está en 'ccaa', su prioridad <= 'prioridadMax' y (con 'unoPorCiclo') es el primer curso del tema dentro de su ciclo; o, siempre, si tiene un ejemplo revisado propio y 'siempreConEjemplo' es true. El resto se publica con noindex,follow. Los índices (comunidad, curso, área) se indexan siempre.",
+    "ccaa": [
+      "canarias"
+    ],
+    "prioridadMax": 1,
+    "siempreConEjemplo": true,
+    "unoPorCiclo": true
+  }
+}

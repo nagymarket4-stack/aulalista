@@ -1,0 +1,57 @@
+/* AulaLista · estilos de /recursos (mismas fuentes y colores que la landing) */
+:root{--bg:#f7f5f0;--ink:#1f2a2e;--muted:#5d6b70;--line:#e4e0d6;--brand:#0f6e6a;--brand-2:#e8f3f2;--accent:#e07a3f;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
+a{color:var(--brand)}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+nav.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-family:Fraunces,serif;font-weight:700;font-size:24px;color:var(--brand);text-decoration:none}
+.logo span{color:var(--accent)}
+.navcta{font-weight:600;text-decoration:none;border:1px solid var(--line);padding:8px 14px;border-radius:10px;background:#fff}
+.crumbs{font-size:13px;color:var(--muted);margin:4px 0 8px}
+.crumbs a{color:var(--muted)}
+.crumbs .sep{opacity:.5;margin:0 2px}
+h1,h2,h3{font-family:Fraunces,serif;line-height:1.15;letter-spacing:-.4px}
+h1{font-size:clamp(28px,4.2vw,42px);margin:14px 0 14px}
+h2{font-size:clamp(22px,2.8vw,28px);margin:0 0 12px}
+h3{font-size:18px;margin:0 0 6px}
+.lead{font-size:18px;color:var(--muted)}
+.note{font-size:13.5px;color:var(--muted)}
+.note.warn{background:#fff4ec;border:1px solid #f3c9ad;border-radius:10px;padding:8px 12px;color:#8a4a1f}
+.tags{margin:0}
+.tag{display:inline-block;background:var(--brand-2);color:var(--brand);font-weight:600;font-size:12px;padding:3px 10px;border-radius:99px;margin:0 6px 6px 0}
+section{padding:34px 0;border-top:1px solid var(--line)}
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:22px 0}
+@media(max-width:720px){.facts{grid-template-columns:1fr}}
+.facts>div,.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+.facts p{margin:0;color:var(--muted);font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:18px 0}
+.card{text-decoration:none;color:inherit;transition:box-shadow .15s,border-color .15s}
+.card:hover{border-color:var(--brand);box-shadow:0 10px 30px rgba(15,110,106,.10)}
+.card h3{color:var(--brand)}
+.card p{margin:4px 0 0;color:var(--muted);font-size:14.5px}
+.btn{display:inline-block;border:0;border-radius:12px;padding:14px 22px;font:600 16px Inter,system-ui,sans-serif;cursor:pointer;background:var(--brand);color:#fff;text-decoration:none;text-align:center}
+.btn.alt{background:var(--accent)}
+.sub{font-size:13px;margin:8px 0 0}
+.cta{background:var(--brand);color:#fff;border-radius:20px;padding:26px;display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:center;margin:26px 0}
+@media(max-width:720px){.cta{grid-template-columns:1fr}}
+.cta h2{color:#fff;margin:0 0 6px}
+.cta p{color:#cfe7e5;margin:0}
+.cta .sub{color:#cfe7e5}
+ol.estructura li,ol.fases li{margin:0 0 10px}
+.links{padding-left:18px;margin:0 0 10px}
+.links li{margin:4px 0}
+.rel{display:grid;grid-template-columns:1fr 1fr;gap:10px 30px}
+@media(max-width:720px){.rel{grid-template-columns:1fr}}
+.rel h2{font-size:20px}
+.tbl{overflow-x:auto;margin:14px 0}
+table{width:100%;border-collapse:collapse;font-size:14px;background:#fff}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--brand-2);color:var(--brand)}
+.matriz td{text-align:center}.matriz td:first-child{text-align:left}
+.ejemplo{background:#fff;border:1px solid var(--line);border-radius:16px;padding:6px 22px 14px}
+.ejemplo h2,.ejemplo h3{margin-top:18px}
+.verif{display:inline-block;background:#fff1c2;color:#7a5b00;font-size:11px;font-weight:600;padding:1px 6px;border-radius:6px}
+blockquote{border-left:3px solid var(--accent);margin:12px 0;padding:4px 14px;color:var(--muted)}
+footer{padding:30px 0 50px;color:var(--muted);font-size:13.5px;text-align:center;border-top:1px solid var(--line)}
+footer a{color:var(--muted)}
