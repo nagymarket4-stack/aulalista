@@ -7,6 +7,19 @@ data = json.loads((R/'data/ccaa.json').read_text())
 keep = ['id','decreto','verificado','escala','evaluacion','sesionMin','areasPropias']
 compact = json.dumps([{k: c.get(k) for k in keep if c.get(k) is not None} for c in data], ensure_ascii=False)
 src = re.sub(r"/\*CCAA_DATA\*/.*?/\*END_CCAA_DATA\*/", lambda m: "/*CCAA_DATA*/" + compact + "/*END_CCAA_DATA*/", src, flags=re.S)
+cur = {}
+for d in sorted((R/'data').glob('*/primaria')):
+    areas = {}
+    for f in sorted(d.glob('*.json')):
+        j = json.loads(f.read_text())
+        key = re.sub(r'\s*\(.*?\)\s*', '', j['area']).strip().lower()
+        c = {}
+        for ciclo, v in (j.get('ciclos') or {}).items():
+            crit = [[x['id'], x.get('competencia'), x['texto'], x.get('descriptores') or []] for x in ((v or {}).get('criterios') or []) if x.get('texto')]
+            if crit: c[ciclo] = crit
+        areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c}
+    cur[d.parent.name] = areas
+src = re.sub(r"/\*CURRICULO\*/.*?/\*END_CURRICULO\*/", lambda m: "/*CURRICULO*/" + json.dumps(cur, ensure_ascii=False) + "/*END_CURRICULO*/", src, flags=re.S)
 (sh/'prompts.js').write_text(src)
 prompts = src
 tpl = (sh/'app.template.html').read_text()
@@ -17,7 +30,7 @@ def app(engine):
 pub = R/'produccion/public'; pub.mkdir(parents=True, exist_ok=True)
 (pub/'app.html').write_text(app('engine.web.js'))
 (pub/'index.html').write_text((sh/'landing.html').read_text())
-esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD };\n"
+esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { curriculoDe, CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD };\n"
 (R/'produccion/src/prompts.mjs').write_text(esm)
 
 # ---------- Cabeceras de seguridad de los estáticos (Cloudflare Workers Static Assets: public/_headers) ----------
