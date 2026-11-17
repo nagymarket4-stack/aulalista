@@ -8,6 +8,12 @@
     "Notable",
     "Sobresaliente"
   ],
+  "niveles_cabecera_tabla": [
+    "INSUFICIENTE",
+    "SUFICIENTE/BIEN",
+    "NOTABLE",
+    "SOBRESALIENTE"
+  ],
   "equivalencias": {
     "Insuficiente": "IN",
     "Suficiente/Bien": "SU/BI",
@@ -16,6 +22,8 @@
   },
   "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
   "ciclos": {
+    "primer": [],
+    "segundo": [],
     "tercer": [
       {
         "criterio": "1.1",

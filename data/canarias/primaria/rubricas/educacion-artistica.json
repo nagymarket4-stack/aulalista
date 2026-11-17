@@ -8,6 +8,12 @@
     "Notable",
     "Sobresaliente"
   ],
+  "niveles_cabecera_tabla": [
+    "INSUFICIENTE",
+    "SUFICIENTE/BIEN",
+    "NOTABLE",
+    "SOBRESALIENTE"
+  ],
   "equivalencias": {
     "Insuficiente": "IN",
     "Suficiente/Bien": "SU/BI",
@@ -178,7 +184,7 @@
       {
         "criterio": "4.2",
         "competencia_especifica": "4",
-        "enunciado_criterio": "Tomar parte en el proceso cooperativo de producciones culturales y art ísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
+        "enunciado_criterio": "Tomar parte en el proceso cooperativo de producciones culturales y artísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
         "descriptores_operativos": [
           "CCL1",
           "CCL5",
@@ -395,7 +401,7 @@
       {
         "criterio": "4.2",
         "competencia_especifica": "4",
-        "enunciado_criterio": "Participar en el proceso cooperativo de producciones culturales y art ísticas, con actitud abierta y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
+        "enunciado_criterio": "Participar en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
         "descriptores_operativos": [
           "CCL1",
           "CCL5",

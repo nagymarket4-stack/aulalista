@@ -8,6 +8,12 @@
     "Notable",
     "Sobresaliente"
   ],
+  "niveles_cabecera_tabla": [
+    "INSUFICIENTE",
+    "SUFICIENTE/BIEN",
+    "NOTABLE",
+    "SOBRESALIENTE"
+  ],
   "equivalencias": {
     "Insuficiente": "IN",
     "Suficiente/Bien": "SU/BI",
@@ -587,7 +593,7 @@
         ],
         "pagina_pdf": 333,
         "descriptores": {
-          "Insuficiente": "Elige de forma poco autónoma y poco adecuada alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica de manera guiada y con problemas significativos para obtener las posibles soluciones, crea de forma superficial ideas y soluciones originales, planifica con errores destacables tareas y coopera con desinterés con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias de manera inadecuada y con mínima iniciativa , si la elegida no lleva a la solución.",
+          "Insuficiente": "Elige de forma poco autónoma y poco adecuada alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica de manera guiada y con problemas significativos para obtener las posibles soluciones, crea de forma superficial ideas y soluciones originales, planifica con errores destacables tareas y coopera con desinterés con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias de manera inadecuada y con mínima iniciativa, si la elegida no lleva a la solución.",
           "Suficiente/Bien": "Elige de forma autónoma alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica para obtener las posibles soluciones, crea ideas y soluciones originales, planifica tareas y coopera con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias si la elegida no lleva a la solución.",
           "Notable": "Elige de forma autónoma alguna estrategia muy adecuada que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con autonomía para obtener las posibles soluciones, crea con profundidad ideas y soluciones originales, planifica con corrección tareas y coopera con interés y dedicación constantes con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias con alta adecuación e iniciativa propia, si la elegida no lleva a la solución.",
           "Sobresaliente": "Elige de forma autónoma alguna estrategia con un alto nivel de adecuación que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con excelente autonomía para obtener las posibles soluciones, crea con apreciable profundidad ideas y soluciones originales, planifica con excepcional corrección tareas y coopera con pasión y dedicación constantes con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias con excelente adecuación y con constante iniciativa propia, si la elegida no lleva a la solución."

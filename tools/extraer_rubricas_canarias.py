@@ -18,8 +18,8 @@ Genera data/canarias/primaria/rubricas/<slug>.json y un informe JSON del cotejo 
 data/canarias/primaria/rubricas/_cotejo.json. Requiere pdfplumber y pdftotext.
 No completa ni corrige texto: lo que no se puede leer se informa como discrepancia.
 """
-import argparse, json, os, re, subprocess, sys, tempfile, unicodedata
-from collections import defaultdict
+import argparse, difflib, json, os, re, subprocess, sys, tempfile, unicodedata
+from collections import Counter, defaultdict
 
 import pdfplumber
 
@@ -106,6 +106,9 @@ def celdas_pagina(page):
     for b in range(len(bandas)):
         ncols = len(cols_banda[b])
         celdas = [texto_de(contenido.get((b, i), [])) for i in range(ncols)]
+        for i, t in enumerate(celdas):  # caja de la celda (vista girada), para el cotejo 2
+            if t:
+                CAJAS.setdefault(t, [(PAG[0], bandas[b], cols_banda[b][i])])
         if any(celdas):
             filas.append(celdas)
     return filas, lineas_de(fuera)
@@ -169,8 +172,12 @@ def texto_de(chars):
         return ""
     ls = _lineas(chars)
     t = unir(ls)
-    LINEAS.setdefault(t, ls)
+    LINEAS.setdefault(t, [(l, PAG[0]) for l in ls])
     return t
+
+
+PAG = [0]  # página en curso
+CAJAS = {}  # texto de celda -> [(página, (Y0, Y1), (X0, X1))]
 
 
 # ---------------------------------------------------------------- estructura
@@ -189,6 +196,7 @@ def extraer(pdf_path):
     competencia = None
     for pn in range(PRIMERA, ULTIMA + 1):
         page = pdf.pages[pn - 1]
+        PAG[0] = pn
         filas, fuera = celdas_pagina(page)
         # tokens de la página tal como los ha leído el extractor (para el cotejo)
         horiz = page.filter(lambda o: o.get("object_type") != "char" or o.get("upright"))
@@ -252,7 +260,8 @@ def extraer(pdf_path):
                     for i, t in enumerate(fila):
                         if t:
                             nuevo = unir([ultima_fila_niv[i], t]) if ultima_fila_niv[i] else t
-                            LINEAS[nuevo] = LINEAS.get(ultima_fila_niv[i], []) + LINEAS.get(t, [t])
+                            LINEAS[nuevo] = LINEAS.get(ultima_fila_niv[i], []) + LINEAS.get(t, [])
+                            CAJAS[nuevo] = CAJAS.get(ultima_fila_niv[i], []) + CAJAS.get(t, [])
                             ultima_fila_niv[i] = nuevo
                     crit["_continuaciones"] = crit.get("_continuaciones", 0) + 1
                 else:
@@ -265,10 +274,68 @@ def extraer(pdf_path):
 
 
 TOKENS_PAGINA = {}
+NIVEL_COTEJO = Counter()
+DIF_POPPLER = []
 
 
 def tokens(s):
     return re.findall(r"[^\s\-\u00ad]+", unicodedata.normalize("NFC", s))
+
+
+def en_orden(tl, tp, ventana=80):
+    """¿Aparecen los tokens tl en orden dentro de tp, en un tramo de <= ventana tokens?"""
+    if not tl:
+        return True
+    for i, x in enumerate(tp):
+        if x != tl[0]:
+            continue
+        j, k = i + 1, 1
+        while k < len(tl) and j < len(tp) and j - i <= ventana:
+            if tp[j] == tl[k]:
+                k += 1
+            j += 1
+        if k == len(tl):
+            return True
+    return False
+
+
+def palabras_bbox(pdf_path):
+    """Palabras con coordenadas según poppler (pdftotext -bbox), extractor independiente."""
+    import html
+    with tempfile.TemporaryDirectory() as d:
+        out = os.path.join(d, "bbox.html")
+        subprocess.run(["pdftotext", "-bbox", "-f", str(PRIMERA), "-l", str(ULTIMA), pdf_path, out], check=True)
+        txt = open(out, encoding="utf-8").read()
+    pags = {}
+    for i, bloque in enumerate(txt.split("<page ")[1:]):
+        pn = PRIMERA + i
+        H = float(re.search(r'height="([\d.]+)"', bloque).group(1))
+        ws = []
+        for m in re.finditer(r'<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">(.*?)</word>', bloque):
+            x0, y0, x1, y1 = map(float, m.groups()[:4])
+            ws.append(dict(t=html.unescape(m.group(5)), Y=(x0 + x1) / 2, X0=H - y1, X=(2 * H - y0 - y1) / 2))
+        pags[pn] = ws
+    return pags
+
+
+def texto_poppler(cajas, pags):
+    """Reconstruye el texto de una celda con las palabras de poppler que caen en sus cajas."""
+    lineas = []
+    for pn, (ya, yb), (xa, xb) in cajas:
+        ws = [w for w in pags.get(pn, []) if ya <= w["Y"] <= yb and xa <= w["X"] <= xb]
+        grupos = defaultdict(list)
+        for w in ws:
+            grupos[round(w["Y"])].append(w)
+        ys = sorted(grupos)
+        merged = []
+        for y in ys:
+            if merged and y - merged[-1][0] < 3:
+                merged[-1][1].extend(grupos[y])
+            else:
+                merged.append([y, list(grupos[y])])
+        for _, g in merged:
+            lineas.append(" ".join(w["t"] for w in sorted(g, key=lambda w: w["X0"])))
+    return unir(lineas)
 
 
 def nombre_nivel(c):
@@ -306,6 +373,8 @@ def main():
         paginas = plano.split("\f")
     plano = "\f".join(paginas[PRIMERA - 1:ULTIMA])
     plano_n = norm(plano)
+    pags_bbox = palabras_bbox(a.pdf)
+    tokens_plano = {pn: tokens(paginas[pn - 1]) for pn in range(PRIMERA, ULTIMA + 1)}
     # 1) conservación de palabras por página: lo leído por el extractor frente al texto plano
     from collections import Counter
     conservacion = []
@@ -326,6 +395,7 @@ def main():
         salida = {"area": area_json["area"], "fuente": FUENTE,
                   "titulo_en_fuente": f"RÚBRICA – {r['titulo']}",
                   "niveles": niveles,
+                  "niveles_cabecera_tabla": r["niveles"],
                   "equivalencias": {"Insuficiente": "IN", "Suficiente/Bien": "SU/BI", "Notable": "NT", "Sobresaliente": "SB"},
                   "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; "
                           "los demás niveles lo gradúan (apartado introductorio del anexo 1).",
@@ -336,7 +406,9 @@ def main():
             esperados = [c["id"] for c in area_json["ciclos"].get(ciclo, {}).get("criterios", [])]
             if lista is None:
                 rep[ciclo] = {"rubricas": 0, "esperados": len(esperados),
-                              "estado": "sin rúbrica en la fuente" if not esperados else "FALTA"}
+                              "estado": "sin rúbrica en la fuente (el área no tiene criterios en este ciclo)"
+                              if not esperados else "FALTA"}
+                salida["ciclos"][ciclo] = []
                 continue
             items, no_encontrados, multi = [], [], []
             for c in lista:
@@ -357,16 +429,59 @@ def main():
                 for f in filas:
                     for n, t in zip(c["_niveles"], f):
                         # 2) cada línea de la celda, tal como está en el PDF, debe estar en el texto plano
-                        malas = [l for l in LINEAS.get(t, [t]) if norm(l) not in plano_n]
-                        if not t or malas or unir(LINEAS.get(t, [t])) != t:
+                        # (si pdftotext ha intercalado palabras de columnas vecinas, se acepta
+                        # que las palabras de la línea estén en orden en esa página, con huecos).
+                        # Nivel 3: pdftotext a veces reordena palabras de líneas justificadas;
+                        # entonces solo se exige que las palabras estén en esa página.
+                        ls = LINEAS.get(t, [])
+                        malas = []
+                        for l, pn in ls:
+                            if norm(l) in plano_n:
+                                NIVEL_COTEJO["literal"] += 1
+                            elif en_orden(tokens(l), tokens_plano[pn]):
+                                NIVEL_COTEJO["en_orden"] += 1
+                            elif not (Counter(tokens(l)) - Counter(tokens_plano[pn])):
+                                NIVEL_COTEJO["palabras_en_pagina"] += 1
+                            else:
+                                malas.append(l)
+                        # Cotejo 2: el descriptor completo, rehecho con las palabras de poppler
+                        # (pdftotext -bbox) dentro de la misma celda, debe coincidir.
+                        pop = texto_poppler(CAJAS.get(t, []), pags_bbox)
+                        if norm(pop) == norm(t):
+                            NIVEL_COTEJO["descriptor_completo_igual_poppler"] += 1
+                        else:
+                            NIVEL_COTEJO["descriptor_distinto_poppler"] += 1
+                            DIF_POPPLER.append({"criterio": c["criterio"], "nivel": nombre_nivel(n),
+                                                "extraido": t, "poppler": pop})
+                        if not t or not ls or malas or unir([l for l, _ in ls]) != t:
                             no_encontrados.append({"criterio": c["criterio"], "nivel": nombre_nivel(n),
                                                    "inicio": t[:80], "lineas_no_encontradas": malas})
                 items.append(it)
             ids = [i["criterio"] for i in items]
             # enunciado del criterio frente al JSON del área
             textos_area = {c["id"]: c["texto"] for c in area_json["ciclos"][ciclo]["criterios"]}
-            enun_dif = [i["criterio"] for i in items if i["criterio"] in textos_area
-                        and norm(textos_area[i["criterio"]]) != norm(i["enunciado_criterio"])]
+            enun_dif = []
+            for i in items:
+                ta = textos_area.get(i["criterio"])
+                if ta is None or norm(ta) == norm(i["enunciado_criterio"]):
+                    continue
+                wa, wr = ta.split(), i["enunciado_criterio"].split()
+                cambios = [{"decreto": " ".join(wa[i1:i2]), "rubrica": " ".join(wr[j1:j2])}
+                           for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, wa, wr, autojunk=False).get_opcodes()
+                           if op != "equal"]
+                enun_dif.append({"criterio": i["criterio"], "cambios": cambios})
+            # descriptores operativos y competencia frente al JSON del área
+            crit_area = {c["id"]: c for c in area_json["ciclos"][ciclo]["criterios"]}
+            dop_dif, comp_dif = [], []
+            for i in items:
+                ca = crit_area.get(i["criterio"])
+                if not ca:
+                    continue
+                if sorted(ca.get("descriptores", [])) != sorted(i["descriptores_operativos"]):
+                    dop_dif.append({"criterio": i["criterio"], "decreto": ca.get("descriptores"),
+                                    "rubrica": i["descriptores_operativos"]})
+                if ca.get("competencia") != "C" + str(i["competencia_especifica"]):
+                    comp_dif.append(i["criterio"])
             salida["ciclos"][ciclo] = items
             rep[ciclo] = {"rubricas": len(items), "esperados": len(esperados),
                           "ids_coinciden": ids == esperados,
@@ -376,10 +491,14 @@ def main():
                           "descriptores_cotejados": sum(len(c["_filas"]) * len(c["_niveles"]) for c in lista),
                           "no_encontrados_en_texto_plano": no_encontrados,
                           "criterios_con_varias_filas": multi,
-                          "enunciado_distinto_del_json_area": enun_dif}
+                          "enunciado_distinto_del_json_area": enun_dif,
+                          "descriptores_operativos_distintos_del_json_area": dop_dif,
+                          "competencia_distinta_del_json_area": comp_dif}
         with open(os.path.join(outdir, slug + ".json"), "w", encoding="utf-8") as f:
             json.dump(salida, f, ensure_ascii=False, indent=2); f.write("\n")
         cotejo["areas"][slug] = rep
+    cotejo["lineas_de_descriptor_cotejadas"] = dict(NIVEL_COTEJO)
+    cotejo["descriptores_distintos_de_poppler"] = DIF_POPPLER
     with open(os.path.join(outdir, "_cotejo.json"), "w", encoding="utf-8") as f:
         json.dump(cotejo, f, ensure_ascii=False, indent=2); f.write("\n")
     # resumen por pantalla
@@ -387,7 +506,10 @@ def main():
         for ciclo, x in rep.items():
             print(f"{slug:50s} {ciclo:8s} {x.get('rubricas')}/{x.get('esperados')} "
                   f"ids_ok={x.get('ids_coinciden')} no_enc={len(x.get('no_encontrados_en_texto_plano', []))} "
-                  f"multi={x.get('criterios_con_varias_filas')} enun_dif={x.get('enunciado_distinto_del_json_area')}")
+                  f"multi={len(x.get('criterios_con_varias_filas') or [])} enun_dif={len(x.get('enunciado_distinto_del_json_area') or [])} "
+                  f"dop_dif={len(x.get('descriptores_operativos_distintos_del_json_area') or [])} "
+                  f"comp_dif={x.get('competencia_distinta_del_json_area')}")
+    print("líneas cotejadas:", dict(NIVEL_COTEJO))
     print("avisos:", len(avisos)); [print(" ", v) for v in avisos[:40]]
     print("guiones de compuesto:", cotejo["guiones_de_compuesto_a_final_de_linea"])
     print("páginas con diferencias de palabras:", len(conservacion))

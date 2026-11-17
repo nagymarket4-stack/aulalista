@@ -32,6 +32,15 @@ for d in sorted((R/'data').glob('*/primaria')):
             out = [[x.get('competencias') or [], x.get('criterios') or [], x.get('explicacion') or ''] for x in (bl or []) if x.get('explicacion')]
             if out: blq[ciclo] = out
         areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c, 's': sab, 'b': blq}
+    rub_dir = d/'rubricas'
+    if rub_dir.exists():
+        for f in sorted(rub_dir.glob('*.json')):
+            if f.name.startswith('_'): continue
+            j = json.loads(f.read_text())
+            key = re.sub(r'\s*\(.*?\)\s*', '', j['area']).strip().lower()
+            if key not in areas: continue
+            niv = j.get('niveles') or []
+            areas[key]['r'] = {'n': niv, 'c': {ciclo: {x['criterio']: [x['descriptores'].get(n, '') for n in niv] for x in (lst or [])} for ciclo, lst in (j.get('ciclos') or {}).items()}}
     cur[d.parent.name] = areas
 src = re.sub(r"/\*CURRICULO\*/.*?/\*END_CURRICULO\*/", lambda m: "/*CURRICULO*/" + json.dumps(cur, ensure_ascii=False) + "/*END_CURRICULO*/", src, flags=re.S)
 (sh/'prompts.js').write_text(src)

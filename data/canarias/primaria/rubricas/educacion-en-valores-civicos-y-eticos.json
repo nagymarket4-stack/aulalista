@@ -8,6 +8,12 @@
     "Notable",
     "Sobresaliente"
   ],
+  "niveles_cabecera_tabla": [
+    "INSUFICIENTE",
+    "SUFICIENTE/BIEN",
+    "NOTABLE",
+    "SOBRESALIENTE"
+  ],
   "equivalencias": {
     "Insuficiente": "IN",
     "Suficiente/Bien": "SU/BI",
@@ -16,6 +22,8 @@
   },
   "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
   "ciclos": {
+    "primer": [],
+    "segundo": [],
     "tercer": [
       {
         "criterio": "1.1",
@@ -100,7 +108,7 @@
           "Insuficiente": "Reflexiona con conciencia mínima, dialoga mostrando desinterés y asume con escasa frecuencia un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con mínima motivación y sin autonomía, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando de manera inadecuada estrategias cooperativas dirigidas a la consecución de objetivos compartidos, lo que dificulta fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
           "Suficiente/Bien": "Reflexiona, dialoga y asume un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando, de forma motivada y autónoma, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
           "Notable": "Reflexiona con deliberación, dialoga con interés y dedicación constantes y asume frecuentemente un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con alta motivación y autonomía, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando con alta adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
-          "Sobresaliente": "Reflexiona con conciencia crítica, dialoga con pasión y dedicación constantes y asume siempre un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con plena motivación y autonomía , conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando con excelente adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado."
+          "Sobresaliente": "Reflexiona con conciencia crítica, dialoga con pasión y dedicación constantes y asume siempre un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con plena motivación y autonomía, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando con excelente adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado."
         }
       },
       {

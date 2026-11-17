@@ -20,6 +20,10 @@ Cada agente es dueño de sus ficheros: nadie edita los de otro. El coordinador i
 | Módulo opositor | Programación conforme a las bases de Canarias, guion de exposición y validador de formato | `shared/prompts.js` (solo su parte), template, engines, `shared/validador-oposicion.js`, worker, tests |
 | Legal y cumplimiento | Aviso legal, privacidad, condiciones, cookies, compatibilidad docente, fiscalidad canaria, RGPD | `produccion/public/legal/**`, `docs/legal/**`, pie de la landing |
 
+Ronda 2, completada el 17/11/2026, más dos encargos añadidos:
+- **Rubricista:** 308 rúbricas oficiales.
+- **Analista normativo:** Resolución 73/2026.
+
 ## Agentes previstos para fases siguientes
 
 | Agente | Cuándo | Misión |

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BORRADOR: quita "noindex" cuando el texto esté revisado. -->
+<meta name="robots" content="noindex">
+<title>Condiciones de contratación y uso · AulaLista</title>
+<meta name="description" content="Condiciones de contratación y uso de AulaLista: planes y precios, impuestos, desistimiento, cancelación, licencia del contenido generado y responsabilidad.">
+<link rel="stylesheet" href="/legal/legal.css">
+</head>
+<body>
+<div class="borrador">BORRADOR pendiente de revisión profesional. No es asesoramiento jurídico. Rellena los marcadores <span class="ph">[ASÍ]</span> y borra las notas antes de publicar.</div>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">Aula<span>Lista</span></a>
+    <div class="links">
+      <a href="/legal/aviso-legal.html">Aviso legal</a>
+      <a href="/legal/privacidad.html">Privacidad</a>
+      <a href="/legal/condiciones.html" aria-current="page">Condiciones</a>
+      <a href="/legal/cookies.html">Cookies</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Condiciones de contratación y uso</h1>
+    <p class="meta">Versión <span class="ph">[VERSIÓN]</span> · Última actualización: <span class="ph">[FECHA]</span></p>
+
+    <h2>1. Quiénes somos y a qué se aplican</h2>
+    <p>Estas condiciones regulan el uso de AulaLista y la contratación de sus planes de pago. El prestador es <span class="ph">[TITULAR]</span>, NIF <span class="ph">[NIF]</span>, con domicilio en <span class="ph">[DOMICILIO]</span> y email <span class="ph">[EMAIL]</span> (más datos en el <a href="/legal/aviso-legal.html">Aviso legal</a>).</p>
+    <p>AulaLista es una herramienta en línea que, con ayuda de un modelo de inteligencia artificial, redacta <strong>borradores</strong> de situaciones de aprendizaje, rúbricas, adaptaciones DUA y programaciones didácticas a partir de los datos que indicas. Va dirigida a docentes.</p>
+    <p>Si contratas como consumidor (para fines ajenos a una actividad empresarial o profesional propia), tienes además todos los derechos que te reconoce la normativa de consumo, en particular el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios (Real Decreto Legislativo 1/2007, TRLGDCU). Nada de lo aquí escrito los limita.</p>
+    <p class="nota">Un docente que compra AulaLista para preparar sus clases en un centro público suele actuar como consumidor: sus obligaciones con la Administración no son una actividad empresarial propia. Una academia o un centro privado que compra para su plantilla, no. Si vas a vender a centros o academias, pide a tu abogado unas condiciones B2B aparte.</p>
+
+    <h2>2. Planes y precios</h2>
+    <div class="table-scroll"><table>
+      <tr><th>Plan</th><th>Qué incluye</th><th>Precio</th><th>Duración</th></tr>
+      <tr><td>Gratis</td><td>3 documentos al mes por conexión, con todas las herramientas y exportación a Word</td><td>0 €</td><td>Sin plazo</td></tr>
+      <tr><td>Pro mensual</td><td>Documentos sin límite mensual, con un límite diario de uso razonable de <strong>60 documentos al día</strong></td><td>9 € al mes <span class="ph">[IMPUESTOS: ver 3]</span></td><td>Se renueva cada mes hasta que canceles</td></tr>
+      <tr><td>Pro anual</td><td>Igual que Pro mensual</td><td>69 € al año <span class="ph">[IMPUESTOS: ver 3]</span></td><td>Se renueva cada año hasta que canceles</td></tr>
+      <tr><td>Fundador</td><td>Funciones del plan Pro mientras AulaLista se preste, acceso anticipado y voto sobre las siguientes comunidades y funciones</td><td>49 € en un único pago <span class="ph">[IMPUESTOS: ver 3]</span></td><td>Pago único, sin renovación</td></tr>
+    </table></div>
+    <p class="nota">(1) La landing anuncia «Documentos ilimitados» y el servidor aplica un máximo de 60 al día (<code>PRO_DAILY_LIMIT</code>). Ese límite tiene que estar en la información previa a la compra; mejor aún, cambia el texto de la landing por «sin límite mensual (uso razonable: hasta 60 al día)». (2) «Pro de por vida» (Fundador) debe definirse: aquí se propone «mientras AulaLista se preste», con un preaviso y una alternativa en caso de cierre (ver 9). Decide si quieres comprometerte a algo más, como un plazo mínimo o un reembolso proporcional si cierras antes. (3) La landing dice que el plan anual llegará «en septiembre»: pon aquí la fecha real o quítalo hasta que exista.</p>
+    <p>Los límites se aplican por conexión (plan gratuito) o por licencia (planes de pago). Los precios que ves antes de pagar en la página de pago son los que se aplican a tu compra.</p>
+
+    <h2>3. Impuestos</h2>
+    <p>Los precios se muestran <span class="ph">[con todos los impuestos indirectos incluidos / más impuestos: DECIDIR]</span>. El impuesto aplicable depende de dónde residas: IGIC si resides en Canarias, IVA si resides en la Península o en Baleares, o el IVA de tu país si resides en otro Estado de la UE. En la página de pago se indica el importe final.</p>
+    <p class="nota">Fiscalidad pendiente de verificar con tu gestor (ver docs/legal/fiscalidad-canarias.md). A consumidores hay que mostrar el precio final con impuestos incluidos. Si el impuesto varía según el país, o fijas un precio único y absorbes la diferencia, o calculas el impuesto en el pago (Stripe Tax o un «merchant of record»). Si te acoges al régimen especial del pequeño empresario del IGIC (franquicia), tus ventas a residentes en Canarias van sin IGIC, pero eso no resuelve el IVA de las ventas fuera de Canarias. No publiques este apartado hasta tenerlo claro.</p>
+
+    <h2>4. Cómo se contrata</h2>
+    <ol>
+      <li>Eliges un plan en la web y pulsas el botón de compra.</li>
+      <li>Te llevamos a la página de pago segura de Stripe, donde ves el precio final, introduces tus datos y puedes corregirlos antes de confirmar.</li>
+      <li>Antes de pagar, lees y aceptas estas condiciones. Si quieres empezar a usar el servicio ya, lo pides expresamente (ver 6).</li>
+      <li>Al confirmar el pago, vuelves a la app, que activa tu licencia en ese navegador. Te enviamos la confirmación de la compra, con estas condiciones, en un soporte duradero (email con PDF o enlace a la versión archivada) <span class="ph">[VERIFICAR que se envía]</span>.</li>
+    </ol>
+    <p>El contrato se celebra en español. Archivamos una copia de cada versión de estas condiciones y puedes pedirnos la que aceptaste.</p>
+    <p class="nota">Stripe envía un recibo, pero no el texto de las condiciones ni la confirmación del consentimiento previo del punto 6. Hay que enviar un email propio de confirmación tras el pago, o usar los campos de Stripe Checkout para casillas personalizadas y el texto de condiciones. Hoy el código no lo hace: es una tarea técnica pendiente.</p>
+
+    <h2>5. Tu licencia de uso del servicio</h2>
+    <p>Mientras tu plan esté activo, te concedemos una licencia personal, no exclusiva e intransferible para usar AulaLista. La clave de licencia es personal: no puedes compartirla, cederla ni revenderla. Podemos desactivarla si detectamos un uso compartido o abusivo, avisándote antes salvo urgencia por seguridad.</p>
+    <p>No está permitido usar el servicio como asistente general de IA ni para fines ajenos a la planificación docente, eludir los límites técnicos, extraer datos de forma automatizada ni hacer ingeniería inversa.</p>
+
+    <h2 id="desistimiento">6. Derecho de desistimiento (14 días)</h2>
+    <p>Si eres consumidor, puedes desistir del contrato en un plazo de <strong>14 días naturales</strong> desde el día en que lo celebraste, sin dar ningún motivo y sin penalización (arts. 102 y 104 TRLGDCU).</p>
+    <h3>Cómo desistir</h3>
+    <ul>
+      <li>Escríbenos a <span class="ph">[EMAIL]</span> con una declaración clara de que desistes. Puedes usar el modelo de abajo, aunque no es obligatorio.</li>
+      <li><span class="ph">[Cuando exista: usa el botón «Desistir del contrato aquí» de la app o de esta página.]</span></li>
+    </ul>
+    <p>Para cumplir el plazo basta con que envíes tu comunicación antes de que termine. Te confirmaremos la recepción en un soporte duradero.</p>
+    <h3>Consecuencias</h3>
+    <p>Te devolveremos todos los pagos recibidos sin demoras indebidas y, en cualquier caso, antes de 14 días naturales desde que nos informes de tu decisión, por el mismo medio de pago que usaste, salvo que acuerdes otro, y sin ningún gasto para ti (art. 107 TRLGDCU). Tu licencia se desactivará.</p>
+    <h3>Si pides empezar a usarlo durante los 14 días</h3>
+    <p>AulaLista es un <strong>servicio digital</strong>: te permite crear y tratar datos en formato digital. Si al contratar nos pides expresamente que empiece a prestarse durante el plazo de desistimiento, y después desistes, nos abonarás un importe proporcional a la parte del servicio ya prestada hasta que nos comuniques el desistimiento, en relación con el precio total (art. 108.3 TRLGDCU). Calculamos ese importe así: <span class="ph">[FÓRMULA: p. ej., días transcurridos sobre la duración del periodo pagado; o documentos generados sobre un número de referencia. DECIDIR con el abogado]</span>.</p>
+    <p class="nota">Por qué no se aplica, sin más, la «excepción del contenido digital». El art. 103.m) TRLGDCU excluye el desistimiento en el «suministro de contenido digital que no se preste en un soporte material» cuando la ejecución ha empezado con el consentimiento expreso previo del consumidor, este sabe que pierde el derecho y el empresario le ha enviado la confirmación. La normativa de consumo distingue, sin embargo, el <i>contenido digital</i> («datos que se producen y se suministran en formato digital») del <i>servicio digital</i> (el que permite «crear, tratar, almacenar o consultar datos en formato digital»). Una suscripción a un generador en línea encaja mejor en el servicio digital, y para los servicios la excepción (art. 103.a) solo opera cuando el servicio se ha ejecutado por completo. Un análisis de Cuatrecasas sobre el asunto del TJUE C-324/25 (Sky Österreich) llega a la misma conclusión para una suscripción de streaming. Por eso el texto propuesto aplica el art. 108.3 (pago proporcional) y no la pérdida total del derecho. Alternativa más sencilla y comercialmente atractiva: devolución íntegra durante 14 días («garantía de satisfacción»). Siempre es lícita, porque es más favorable al consumidor. Si tu abogado concluye que algún producto es contenido digital (p. ej., un paquete descargable), la casilla de Checkout debería decir: «Solicito que el suministro comience de inmediato y reconozco que, una vez comenzado, pierdo mi derecho de desistimiento». Después hay que enviar la confirmación en soporte duradero. Sin esa casilla y esa confirmación, el plazo de desistimiento puede ampliarse hasta 12 meses (art. 105 TRLGDCU).</p>
+    <p class="nota">Botón de desistimiento. La Directiva (UE) 2023/2673 exige, para contratos celebrados en interfaces en línea desde el 19 de junio de 2026, una función de desistimiento visible («desistir del contrato aquí» o equivalente) durante todo el plazo, un segundo paso de confirmación y un acuse de recibo. Según la OCU, a 19/06/2026 España no la había transpuesto, pero el folleto del Ministerio de Consumo (julio de 2026) ya la describe. Comprueba si ya hay norma española (pendiente de verificar) e implementa la función: por ejemplo, un formulario en <code>/legal/desistir</code> que envíe email y acuse.</p>
+    <h3>Modelo de formulario de desistimiento</h3>
+    <div class="form-model">
+      <p>A la atención de <span class="ph">[TITULAR]</span>, <span class="ph">[DOMICILIO]</span>, <span class="ph">[EMAIL]</span>:</p>
+      <p>Por la presente le comunico que desisto de mi contrato de prestación del siguiente servicio: AulaLista, plan ______________.</p>
+      <p>Contratado el: ____________ · Email usado en la compra: ____________</p>
+      <p>Nombre del consumidor: ____________ · Domicilio: ____________</p>
+      <p>Firma (solo si se envía en papel) · Fecha: ____________</p>
+    </div>
+    <p class="nota">Compara este modelo con el formulario oficial del anexo del TRLGDCU (anexo B, pendiente de verificar la letra en el texto consolidado vigente) y ajusta la redacción si difiere.</p>
+
+    <h2 id="cancelacion">7. Cancelación de la suscripción</h2>
+    <p>Puedes cancelar el plan Pro en cualquier momento, sin permanencia y sin penalización, de una de estas formas: <span class="ph">[enlace al portal de cliente de Stripe]</span> o escribiendo a <span class="ph">[EMAIL]</span>. La cancelación surte efecto al final del periodo ya pagado: hasta entonces mantienes el acceso Pro y después no se te cobrará más. Salvo lo previsto para el desistimiento (6) y para las faltas de conformidad (8), no se reembolsan los periodos ya iniciados.</p>
+    <p>El plan Fundador es un pago único: no hay renovaciones que cancelar.</p>
+    <p class="nota">Hoy no hay portal de cliente: el único camino sería el email. Activa el Customer Portal de Stripe (cancelar, cambiar tarjeta, descargar facturas) y enlázalo aquí y en la app. Cancelar debe ser al menos tan fácil como contratar. Si se te pasa un cobro de renovación tras una cancelación pedida a tiempo, devuélvelo de inmediato.</p>
+
+    <h2>8. Funcionamiento y conformidad del servicio</h2>
+    <p>Respondemos de que el servicio sea conforme con lo contratado durante todo el periodo en que te lo prestamos, conforme al régimen legal de conformidad de contenidos y servicios digitales del TRLGDCU. Si algo no funciona, escríbenos y lo corregiremos en un plazo razonable; si no es posible, tendrás derecho a una reducción del precio o a resolver el contrato en los términos legales.</p>
+    <p>Podemos actualizar o mejorar el servicio (por ejemplo, el modelo de IA o el formato de los documentos) sin coste para ti. Si un cambio te perjudica de forma más que menor, te lo avisaremos con antelación en un soporte duradero y podrás resolver el contrato en los términos legales.</p>
+    <p>Puede haber interrupciones breves por mantenimiento o por fallos de nuestros proveedores (alojamiento, pagos o IA). Si una interrupción prolongada te impide usar un servicio de pago, escríbenos.</p>
+
+    <h2 id="licencia">9. Licencia y uso del contenido generado</h2>
+    <ul>
+      <li><strong>Lo que generas es para ti.</strong> Puedes usar, modificar, imprimir, entregar a tu centro o a la Administración, publicar en tu aula virtual y compartir con tus compañeros los documentos que generes, sin pagar nada más. AulaLista no reclama derechos sobre ellos.</li>
+      <li><strong>Lo que aportas sigue siendo tuyo.</strong> Nos das solo el permiso necesario para procesar tus textos y generar el documento que pides. No usamos tus textos para entrenar modelos ni los publicamos.</li>
+      <li><strong>Sin exclusividad.</strong> Otros docentes pueden obtener documentos parecidos si piden cosas parecidas. Un texto generado por IA puede no estar protegido por derechos de autor, y la normativa curricular que cita es pública.</li>
+      <li><strong>Reventa.</strong> No puedes vender en bloque ni ofrecer como servicio a terceros los documentos generados de forma automatizada (por ejemplo, montar un banco de pago con ellos) <span class="ph">[DECIDIR si quieres esta restricción]</span>.</li>
+      <li><strong>Lo nuestro sigue siendo nuestro.</strong> El software, los prompts, la base curricular estructurada y la marca no se te transmiten.</li>
+    </ul>
+    <p><strong>Cierre del servicio:</strong> si AulaLista deja de prestarse, te avisaremos con al menos <span class="ph">[PLAZO, p. ej. 60 días]</span> de antelación para que exportes tus documentos. Tu biblioteca está en tu navegador y puedes descargarla en Word en cualquier momento.</p>
+
+    <h2 id="responsabilidad">10. Tu responsabilidad como docente y la nuestra</h2>
+    <div class="box">
+      <p><strong>Los documentos son borradores generados con IA.</strong> Pueden contener errores, omisiones o referencias normativas desactualizadas o inexactas, aunque la herramienta marca para revisar lo que no puede asegurar. <strong>Tú revisas, adaptas y decides lo que entregas</strong>, y eres responsable profesional del documento final que presentes a tu centro, a la inspección, a un tribunal de oposición o a tu alumnado y sus familias.</p>
+    </div>
+    <ul>
+      <li>Comprueba siempre los criterios, competencias y saberes en el decreto y en la normativa vigente de tu comunidad, y adapta el documento a tu centro y a tu alumnado.</li>
+      <li>Las adaptaciones DUA son orientaciones pedagógicas generales. No son diagnósticos ni sustituyen la valoración de los equipos de orientación ni las medidas que se acuerden formalmente.</li>
+      <li><strong>No introduzcas datos personales del alumnado</strong> ni de terceros (nombres, iniciales identificables, DNI, diagnósticos, datos de salud). Si lo haces, eres tú quien decide ese tratamiento y respondes de él.</li>
+      <li>Si usas AulaLista para preparar una oposición, revisa lo que dicen las bases de tu convocatoria sobre la autoría y la originalidad de la programación. El documento que defiendas debe ser tuyo.</li>
+    </ul>
+    <p>Respondemos de los daños causados por incumplir estas condiciones o la ley, en los términos legales. Salvo en caso de dolo o culpa grave, de daños personales o cuando la ley no lo permita, no respondemos de los daños indirectos ni de los que se deriven de usar un documento sin la revisión del apartado anterior. Esta cláusula no limita los derechos que la normativa de consumo te reconoce.</p>
+    <p class="nota">En contratos con consumidores son nulas las cláusulas que limitan de forma inadecuada los derechos legales o la responsabilidad del empresario (cláusulas abusivas, TRLGDCU). Que un abogado revise la redacción de este apartado.</p>
+
+    <h2>11. Duración, suspensión y baja</h2>
+    <p>El plan gratuito no tiene duración. Los planes Pro duran mientras no los canceles, y el plan Fundador mientras AulaLista se preste. Podemos suspender o dar de baja una licencia si hay un incumplimiento grave de estas condiciones (por ejemplo, compartir la clave o usos abusivos), avisándote y dándote la oportunidad de explicarte, salvo urgencia. Si la baja no se debe a un incumplimiento tuyo, te devolveremos la parte proporcional no disfrutada.</p>
+
+    <h2>12. Cambios en estas condiciones</h2>
+    <p>Si cambiamos estas condiciones, publicaremos la nueva versión con su fecha. Los cambios relevantes para las suscripciones en curso se avisarán por email con <span class="ph">[30]</span> días de antelación, y podrás cancelar antes de que se apliquen. Las compras ya hechas se rigen por la versión que aceptaste.</p>
+
+    <h2 id="reclamaciones">13. Atención al cliente, reclamaciones y ley aplicable</h2>
+    <ul>
+      <li><strong>Atención al cliente:</strong> <span class="ph">[EMAIL]</span>. Respondemos a las reclamaciones lo antes posible y, como máximo, en el plazo legal <span class="ph">[PLAZO: verificar en el TRLGDCU y en el Decreto 90/2023 de Canarias]</span>.</li>
+      <li><strong>Hojas de reclamaciones:</strong> <span class="ph">[Indicar cómo obtenerlas si el Decreto 90/2023, de 25 de mayo, de Canarias (servicios de atención a la clientela y hojas de reclamaciones) se aplica a la actividad en línea: pendiente de verificar]</span>.</li>
+      <li><strong>Resolución alternativa de litigios:</strong> no estamos adheridos a ninguna entidad de resolución alternativa de litigios de consumo <span class="ph">[o indicar cuál, si te adhieres]</span>. También puedes acudir a los servicios de consumo de tu comunidad autónoma o ayuntamiento.</li>
+      <li><strong>Ley y tribunales:</strong> se aplica la ley española. Si eres consumidor, puedes reclamar ante los juzgados de tu domicilio, y si resides en otro Estado de la UE conservas la protección de las normas imperativas de tu país.</li>
+    </ul>
+    <p class="nota">La plataforma europea de resolución de litigios en línea (ODR) dejó de funcionar el 20 de julio de 2025 (Reglamento (UE) 2024/3228; nota del Centro Europeo del Consumidor en España): no la enlaces. Verifica si la Ley 7/2017 te obliga a informar sobre entidades de resolución alternativa aunque no estés adherido.</p>
+  </main>
+
+  <footer>
+    <p>AulaLista · <a href="/legal/aviso-legal.html">Aviso legal</a><a href="/legal/privacidad.html">Privacidad</a><a href="/legal/condiciones.html">Condiciones</a><a href="/legal/cookies.html">Cookies</a></p>
+    <p>Este texto no constituye asesoramiento jurídico. Revísalo con un profesional antes de publicarlo.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -131,3 +131,7 @@ La calificación refleja el desempeño en los **criterios de evaluación**, vinc
 - CEP Tenerife Sur, entrada sobre las rúbricas (16/05/2025): https://www3.gobiernodecanarias.org/medusa/edublog/cprofestenerifesur/2025/05/16/rubricas-de-los-criterios-de-evaluacion-de-educacion-primaria-y-secundaria-obligatoria/
 - IES Alonso Quesada, procedimiento de reclamación (cita BOC n.º 110 y arts. 46–47): https://www3.gobiernodecanarias.org/medusa/edublog/iesalonsoquesada/2026/06/21/procedimiento-de-reclamacion-a-las-calificaciones/
 - CSIF Canarias, 29/10/2026 (cita el art. 45.2): https://www.csif.es/ca/articulo/canarias/educacion/99193
+
+## Actualización (17/11/2026): rúbricas oficiales integradas
+
+Las rúbricas de la Resolución de 15/05/2025 (BOC 107) ya están extraídas y cotejadas en `data/canarias/primaria/rubricas/`: 308 criterios y 1.232 descriptores. Tienen cuatro niveles: Insuficiente, Suficiente/Bien, Notable y Sobresaliente. En competencias equivalen a PA, AD, MA y EX. Cuando la comunidad es Canarias, el generador de rúbricas inyecta los descriptores oficiales literales de los criterios pedidos. Detalle en `09-rubricas-oficiales-canarias.md`.

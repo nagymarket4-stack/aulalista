@@ -8,6 +8,12 @@
     "Notable",
     "Sobresaliente"
   ],
+  "niveles_cabecera_tabla": [
+    "INSUFICIENTE",
+    "SUFICIENTE/BIEN",
+    "NOTABLE",
+    "SOBRESALIENTE"
+  ],
   "equivalencias": {
     "Insuficiente": "IN",
     "Suficiente/Bien": "SU/BI",
@@ -1213,7 +1219,7 @@
         ],
         "pagina_pdf": 71,
         "descriptores": {
-          "Insuficiente": "Comunicar el diseño de un producto final explicando los pasos seguidos con escasa claridad y adecuación , adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con incorrecciones relevantes, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con limitada iniciativa emprendedora.",
+          "Insuficiente": "Comunicar el diseño de un producto final explicando los pasos seguidos con escasa claridad y adecuación, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con incorrecciones relevantes, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con limitada iniciativa emprendedora.",
           "Suficiente/Bien": "Comunicar el diseño de un producto final explicando los pasos seguidos, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con iniciativa emprendedora.",
           "Notable": "Comunicar el diseño de un producto final explicando los pasos seguidos con apropiada claridad y adecuación, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con alto grado de corrección, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con destacada iniciativa emprendedora.",
           "Sobresaliente": "Comunicar el diseño de un producto final explicando los pasos seguidos con excelente claridad y adecuación, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con corrección destacable, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con alta y coherente iniciativa emprendedora."
