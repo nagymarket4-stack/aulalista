@@ -747,15 +747,816 @@
       ]
     }
   },
-  "pendiente": [
-    "Saberes básicos (bloques I. Las lenguas y sus hablantes; II. Comunicación; III. Educación literaria; IV. Reflexión sobre la lengua) por ciclo: no transcritos; el decreto no los vincula criterio a criterio.",
-    "Enunciados de competencias tomados del bloque competencial del primer ciclo; comprobar que coinciden en los tres ciclos.",
-    "Saberes básicos por bloque y ciclo sin extraer",
-    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
-  ],
+  "pendiente": [],
   "cotejo": {
     "fecha": "2026-11-17",
     "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
-    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)",
+    "fase2": {
+      "fecha": "2026-11-17",
+      "metodo": "tools/extraer_saberes_canarias.py sobre pdftotext -layout del PDF oficial",
+      "saberes": "literales, por ciclo y bloque, con la numeración del BOC",
+      "bloques": "explicación del bloque competencial literal, por ciclo",
+      "descriptores": "0 corregidos; el resto coincide con la columna de descriptores del PDF",
+      "enunciados": "cada enunciado de competencia coincide con el del bloque competencial de cada ciclo",
+      "descriptores_corregidos": []
+    }
+  },
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "I. Las lenguas y sus hablantes.",
+        "items": [
+          "1. Reconocimiento de la biografía lingüística personal y mapa lingüístico del aula.",
+          "2. Identificación, de manera acompañada, de la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión interlingüística, con especial atención a las características propias del español hablado en Canarias y en América.",
+          "3. Aproximación a la lengua de signos a través de la identificación del alfabeto dactilológico, expresiones y vocabulario de uso cotidiano, así como a algunos SAAC.",
+          "4. Identificación, de manera acompañada, de prejuicios y estereotipos lingüísticos.",
+          "5. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "II. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "1. Contexto",
+            "items": [
+              "1.1. Identificación, de manera acompañada, de los componentes del acto comunicativo (situación, participantes, intención) y su adecuación a los diferentes contextos."
+            ]
+          },
+          {
+            "apartado": "2. Géneros discursivos",
+            "items": [
+              "2.1. Empleo de textos pertenecientes a géneros discursivos propios del ámbito personal y educativo, atendiendo al contenido y a la forma, y adaptados a su nivel madurativo.",
+              "2.2. Identificación y uso, de manera acompañada, de diferentes tipologías textuales en situaciones comunicativas.",
+              "2.3. Aplicación de manera acompañada de estrategias sencillas para la coherencia, la cohesión y la adecuación en diferentes tipos de textos."
+            ]
+          },
+          {
+            "apartado": "3. Procesos",
+            "items": [
+              "3.1. Interacción oral adecuada en contextos espontáneos y reglados, a través de la escucha activa, la asertividad y la cortesía lingüística en la resolución dialogada de conflictos. Expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+              "3.2. Interacción escrita adecuada en contextos reglados. Expresión y lectura empática de información y opiniones propias y ajenas.",
+              "3.3. Comprensión de textos orales mediante la identificación de las ideas más relevantes y la interpretación del sentido global para dar opiniones razonadas. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal.",
+              "3.4. Producción de textos orales y multimodales atendiendo a la pronunciación, la entonación y la actitud postural, y utilizando las características de pronunciación, gramaticales y léxicas del español de Canarias si es la variante dialectal normalmente usada. Construcción y comunicación de conocimiento, de manera acompañada, mediante la planificación y producción de diferentes tipos de textos.",
+              "3.5. Comprensión lectora a través de la aplicación de estrategias elementales antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global, emitiendo opiniones razonadas de manera acompañada. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Iniciación a las habilidades lectoras (ritmo, entonación, pausas, timbres de voz…) mediante la lectura compartida. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal.",
+              "3.6. Producción, de manera acompañada, de textos escritos y multimodales en distintos soportes, incluyendo los digitales, aplicando las convenciones del código escrito y la ortografía natural, con la debida atención a las características gramaticales y léxicas del español de Canarias. Elaboración, de manera acompañada, de textos creativos con coherencia, cohesión y adecuación, utilizando estrategias, individuales o grupales, de planificación, textualización, revisión y autocorrección, realizando una opinión razonada de los mismos. Uso de elementos gráficos para favorecer la comprensión.",
+              "3.7. Iniciación en la alfabetización mediática e informacional, aplicando estrategias para la búsqueda guiada de información en fuentes documentales variadas y con distintos soportes y formatos. Comunicación y opinión razonada, de manera acompañada, de la información. Reconocimiento de la autoría y respeto por la propiedad intelectual. Uso guiado de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Educación literaria.",
+        "items": [
+          "1. Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil, adaptados a su nivel madurativo y organizados en itinerarios lectores, con la debida atención a muestras de la literatura canaria.",
+          "2. Uso de estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "3. Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, personajes, argumento, espacio) y la construcción del sentido de la obra.",
+          "4. Identificación acompañada de algunos recursos literarios.",
+          "5. Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+          "6. Inicio de la construcción de los itinerarios lectores individuales. Uso de estrategias para la expresión de gustos e intereses.",
+          "7. Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "8. Creación de textos de intención literaria, de manera acompañada, partiendo de modelos dados.",
+          "9. Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas."
+        ]
+      },
+      {
+        "bloque": "IV. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados, prestando especial atención a la existencia de distintos tipos de palabras y sus relaciones de concordancia, con la debida consideración al español de Canarias.",
+          "2. Aproximación a la lengua como sistema con distintos niveles a partir de la identificación de sonidos y letras, palabras, enunciados y textos.",
+          "3. Adquisición de vocabulario a través de la reflexión contextualizada sobre la relación de significado entre unas palabras y otras.",
+          "4. Aplicación, de manera acompañada, de los signos de puntuación, teniendo en cuenta la modalidad oracional, tanto para organizar el texto escrito como para expresar la intención comunicativa.",
+          "5. Aplicación de mecanismos de coherencia y cohesión textual, con especial atención a los conectores temporales.",
+          "6. Iniciación en el uso del diccionario en distintos formatos como herramienta para favorecer el conocimiento alfabético y enriquecer su vocabulario."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "I. Las lenguas y sus hablantes.",
+        "items": [
+          "1. Reconocimiento de la biografía lingüística personal y mapa lingüístico del entorno.",
+          "2. Identificación de manera autónoma de la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión interlingüística, con especial atención a las características propias del español hablado en Canarias y en América.",
+          "3. Aproximación a la lengua de signos a través del reconocimiento del alfabeto dactilológico, expresiones y vocabulario de uso cotidiano, así como a algunos SAAC.",
+          "4. Identificación de prejuicios y estereotipos lingüísticos.",
+          "5. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "II. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "1. Contexto",
+            "items": [
+              "1.1. Identificación autónoma de los componentes del hecho comunicativo (situación, participantes, propósito comunicativo, canal, registro) y su adecuación a los diferentes contextos."
+            ]
+          },
+          {
+            "apartado": "2. Géneros discursivos",
+            "items": [
+              "2.1. Empleo de géneros discursivos propios del ámbito personal, social y educativo, atendiendo al contenido y la forma. Uso de redes sociales educativas.",
+              "2.2. Identificación y uso, de manera autónoma, de la estructura de diferentes tipologías textuales en situaciones comunicativas.",
+              "2.3. Aplicación de manera autónoma de estrategias sencillas para la coherencia, la cohesión y la adecuación en diferentes tipos de textos."
+            ]
+          },
+          {
+            "apartado": "3. Procesos",
+            "items": [
+              "3.1. Interacción oral adecuada en contextos espontáneos y reglados, a través de la escucha activa, la asertividad y la cortesía lingüística en la resolución dialogada de conflictos. Expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+              "3.2. Interacción escrita adecuada en contextos reglados. Expresión y lectura empática de información y opiniones propias y ajenas.",
+              "3.3. Comprensión de textos orales mediante la identificación de las ideas más relevantes, la interpretación del sentido global, la realización de las inferencias necesarias y el reconocimiento de elementos no verbales y formales para llevar a cabo una valoración crítica. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "3.4. Producción de textos orales y multimodales atendiendo a los elementos de la prosodia y de la comunicación no verbal, con la debida atención a las características de pronunciación, gramaticales y léxicas del español de Canarias si es la variante dialectal normalmente usada. Construcción y comunicación de conocimiento mediante la planificación y producción de diferentes tipos de textos.",
+              "3.5. Comprensión lectora a través de la aplicación de estrategias antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias y llevando a cabo una valoración crítica de manera autónoma. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Perfeccionamiento de las habilidades lectoras (ritmo, entonación, pausas, timbres de voz…) mediante la lectura compartida. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "3.6. Producción autónoma de textos escritos y multimodales en distintos soportes, incluyendo los digitales, aplicando la ortografía reglada en la textualización y la autocorrección, con la debida atención a las características gramaticales y léxicas del español de Canarias. Elaboración, de manera autónoma, de textos creativos con coherencia, cohesión y adecuación, utilizando estrategias, individuales o grupales, de planificación, textualización, revisión y autocorrección realizando una valoración crítica de los mismos. Uso de elementos gráficos y paratextuales para favorecer la comprensión.",
+              "3.7. Afianzamiento de la alfabetización mediática e informacional, aplicando estrategias para la búsqueda libre pautada de información en fuentes documentales variadas y con distintos soportes y formatos. Reconocimiento de la autoría y respeto por la propiedad intelectual. Comparación, organización, valoración crítica y comunicación creativa de la información. Uso progresivamente autónomo de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Educación literaria.",
+        "items": [
+          "1. Lectura de obras o fragmentos variados y diversos de la literatura adaptados a su nivel madurativo y organizados en itinerarios lectores, con la debida atención a muestras de la literatura canaria.",
+          "2. Uso de estrategia para la interpretación autónoma y compartida de las obras a través de conversaciones literarias.",
+          "3. Relación, de manera autónoma, entre los elementos constitutivos de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+          "4. Identificación y análisis acompañado de los recursos literarios y su contribución al texto.",
+          "5. Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+          "6. Afianzamiento en la construcción de la identidad lectora. Uso de estrategias para la expresión de gustos e intereses y para la valoración crítica de las obras.",
+          "7. Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "8. Creación de textos de intención literaria de manera creativa y autónoma, partiendo de modelos dados y recreando textos literarios.",
+          "9. Uso autónomo de la biblioteca de aula o de centro como escenario de actividades literarias compartidas."
+        ]
+      },
+      {
+        "bloque": "IV. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados, prestando especial atención a las relaciones que se establecen entre los distintos tipos de palabras, con la debida consideración al español de Canarias.",
+          "2. Profundización en la lengua como sistema con distintos niveles: palabras, enunciados (oraciones y frases) y textos, a partir de la observación y comparación de estas unidades comunicativas.",
+          "3. Adquisición de vocabulario a través de mecanismos léxicos (derivación, composición, préstamos, extranjerismos, siglas y acrónimos) para la formación de palabras.",
+          "4. Aplicación autónoma de los signos de puntuación, teniendo en cuenta la modalidad oracional, tanto para organizar el texto escrito como para expresar la intención comunicativa.",
+          "5. Aplicación de mecanismos de coherencia y cohesión textual, con especial atención a las sustituciones pronominales, a la correlación temporal establecida mediante los distintos tiempos verbales y a los conectores textuales.",
+          "6. Utilización del diccionario en distintos formatos como herramienta para afianzar el conocimiento de la lengua, enriquecer su vocabulario y fijar la ortografía.",
+          "7. Uso autónomo de estrategias de observación y formulación de generalizaciones sobre la acentuación y otras normas ortográficas."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "I. Las lenguas y sus hablantes.",
+        "items": [
+          "1. Reconocimiento de la biografía lingüística personal y mapa lingüístico del entorno.",
+          "2. Identificación, de manera autónoma, de la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión interlingüística, con especial atención a las características propias del español hablado en Canarias y en América.",
+          "3. Aproximación a la lengua de signos a través del reconocimiento del alfabeto dactilológico, expresiones y vocabulario de uso cotidiano, así como a algunos SAAC.",
+          "4. Identificación de prejuicios y estereotipos lingüísticos.",
+          "5. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "II. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "1. Contexto",
+            "items": [
+              "1.1. Identificación autónoma de los componentes del hecho comunicativo (situación, participantes, propósito comunicativo, canal, registro) y su adecuación a los diferentes contextos."
+            ]
+          },
+          {
+            "apartado": "2. Géneros discursivos",
+            "items": [
+              "2.1. Empleo de géneros discursivos propios del ámbito personal, social y educativo, atendiendo al contenido y la forma. Uso de redes sociales educativas.",
+              "2.2. Identificación y uso, de manera autónoma, de la estructura de diferentes tipologías textuales en situaciones comunicativas.",
+              "2.3. Aplicación, de manera autónoma, de estrategias sencillas para la coherencia, la cohesión y la adecuación en diferentes tipos de textos."
+            ]
+          },
+          {
+            "apartado": "3. Procesos",
+            "items": [
+              "3.1. Interacción oral adecuada en contextos espontáneos y reglados, a través de la escucha activa, la asertividad y la cortesía lingüística en la resolución dialogada de conflictos. Expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+              "3.2. Interacción escrita adecuada en contextos reglados. Expresión y lectura empática de información y opiniones propias y ajenas.",
+              "3.3. Comprensión de textos orales mediante la identificación de las ideas más relevantes, la interpretación del sentido global, la realización de las inferencias necesarias y el reconocimiento de elementos no verbales y formales para llevar a cabo una valoración crítica. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "3.4. Producción de textos orales y multimodales, atendiendo a los elementos de la prosodia y de la comunicación no verbal, y utilizando las características de pronunciación, gramaticales y léxicas del español de Canarias, si esta es la variante dialectal normalmente usada. Construcción y comunicación de conocimiento mediante la planificación y producción de diferentes tipos de textos.",
+              "3.5. Comprensión lectora a través de la aplicación de estrategias antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global, realizando las inferencias necesarias y llevando a cabo una valoración crítica de manera autónoma. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Perfeccionamiento de las habilidades lectoras (ritmo, entonación, pausas, timbres de voz…) mediante la lectura compartida. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "3.6. Producción autónoma de textos escritos y multimodales en distintos soportes, incluyendo los digitales, y aplicando la ortografía reglada en la textualización y la autocorrección, con la debida atención a las características gramaticales y léxicas del español de Canarias. Elaboración, de manera autónoma, de textos creativos con coherencia, cohesión y adecuación, utilizando estrategias, individuales o grupales, de planificación, textualización, revisión y autocorrección, y realizando una valoración crítica de los mismos. Uso de elementos gráficos y paratextuales para favorecer la comprensión.",
+              "3.7. Afianzamiento de la alfabetización mediática e informacional, aplicando estrategias para la búsqueda libre pautada de información en fuentes documentales variadas y con distintos soportes y formatos. Reconocimiento de la autoría y respeto por la propiedad intelectual. Comparación, organización, valoración crítica y comunicación creativa de la información. Uso progresivamente autónomo de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Educación literaria.",
+        "items": [
+          "1. Lectura de obras o fragmentos variados y diversos de la literatura, adaptados a su nivel madurativo y organizados en itinerarios lectores, con la debida atención a muestras de la literatura canaria.",
+          "2. Uso de estrategia para la interpretación autónoma y compartida de las obras a través de conversaciones literarias.",
+          "3. Relación, de manera autónoma, entre los elementos constitutivos de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+          "4. Identificación y análisis guiado de los recursos literarios y su contribución al texto.",
+          "5. Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+          "6. Afianzamiento en la construcción de la identidad lectora. Uso de estrategias para la expresión de gustos e intereses y para la valoración crítica de las obras.",
+          "7. Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "8. Creación de textos de intención literaria de manera creativa y autónoma, partiendo de modelos dados y recreando textos literarios.",
+          "9. Uso autónomo de la biblioteca de aula o de centro como escenario de actividades literarias compartidas."
+        ]
+      },
+      {
+        "bloque": "IV. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados, prestando especial atención a las relaciones que se establecen entre los distintos tipos de palabras, con la debida consideración al español de Canarias.",
+          "2. Profundización en la lengua como sistema con distintos niveles: palabras, enunciados (oraciones y frases) y textos, a partir de la observación y comparación de estas unidades comunicativas.",
+          "3. Adquisición de vocabulario a través de mecanismos léxicos (derivación, composición, préstamos, extranjerismos, siglas y acrónimos) para la formación de palabras. Aplicación autónoma de los signos de puntuación, teniendo en cuenta la modalidad oracional, tanto para organizar el texto escrito como para expresar la intención comunicativa.",
+          "4. Aplicación de mecanismos de coherencia y cohesión textual, con especial atención a las sustituciones pronominales, a la correlación temporal establecida mediante los distintos tiempos verbales y a los conectores textuales.",
+          "5. Utilización del diccionario en distintos formatos como herramienta para afianzar el conocimiento de la lengua, enriquecer su vocabulario y fijar la ortografía.",
+          "6. Uso autónomo de estrategias de observación y formulación de generalizaciones sobre la acentuación y otras normas ortográficas."
+        ]
+      }
+    ]
+  },
+  "bloques": {
+    "primer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado reconoce la diversidad lingüística presente en su entorno más cercano y es capaz de valorar la realidad plurilingüe existente en el aula, incluyendo los distintos Sistemas Alternativos y Aumentativos de Comunicación (SAAC) y la lengua de signos. Para ello, se comprobará que puede realizar, de manera acompañada, una reflexión interlingüística para identificar las características propias del español de Canarias comparándolas con otras variantes de habla y otros dialectos, tanto peninsulares como de la América hispanohablante, efectuando transferencias sencillas entre ellos, construyendo su biografía lingüística personal, realizando una aproximación a la lengua de signos y a los SAAC, y apreciando la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión. Asimismo, se comprobará que el alumnado desarrolla, en contextos cotidianos de comunicación, estrategias de identificación de prejuicios y estereotipos lingüísticos con actitud cooperativa, inclusiva y respetuosa, y detectando los abusos de poder a través de la palabra, lo que le permitirá resolver conflictos de manera dialogada y justa. Todo ello con la finalidad última de promover el ejercicio de una ciudadanía mundial sensibilizada, informada y comprometida con los derechos lingüísticos individuales y colectivos, en un marco de interculturalidad y respeto a los derechos humanos."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado adquiere las destrezas necesarias para obtener, seleccionar y relacionar informaciones procedentes tanto del propio contexto escolar como de los medios de comunicación, en el marco del progreso de su vida académica y de su ciudadanía. Para ello, se comprobará que comprende de manera individual y cooperativa el sentido de textos orales y multimodales del ámbito personal, social y educativo en contextos informales y de diferentes tipologías, aplicando de manera acompañada estrategias de escucha activa, identificando las ideas más relevantes y opinando de forma razonada sobre el contenido, para construir conocimiento y responder a diferentes necesidades comunicativas. Se valorará asimismo que para alcanzar estos aprendizajes, el alumnado sea capaz de reconocer y respetar las emociones y experiencias de los demás, participando en actividades o proyectos escolares que aborden temas de relevancia ecosocial y cultural, mediante el uso, de manera guiada, de herramientas o plataformas virtuales, en entornos digitales restringidos y supervisados de forma segura, que le permitan ampliar su repertorio lingüístico individual, asumiendo algunas responsabilidades individuales y empleando estrategias cooperativas sencillas, dirigidas a la comprensión de los mensajes orales."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2",
+          "CE1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir textos orales de manera autónoma, iniciándose, como hablante funcional, en el uso de la palabra como herramienta de construcción del pensamiento; siendo capaz de cubrir necesidades comunicativas; desenvolviéndose en diferentes contextos de discurso oral adecuados a su nivel madurativo, tanto espontáneos (planteamiento de preguntas, expresión de emociones u opiniones, aclaración de dudas…) como planificados (entrevistas, exposiciones individuales y grupales, narraciones, noticias…); y teniendo en cuenta las características del español de Canarias. Para ello, se valorará si el alumno o la alumna planifica y organiza el discurso de manera acompañada, utilizando herramientas digitales como apoyo visual o guión, controlando el tiempo y empleando el vocabulario adecuado a la situación comunicativa. Asimismo, se verificará que utiliza estrategias de interpretación durante las interacciones, superando el sentido literal y haciendo uso de elementos de la comunicación no verbal. Se pretende constatar que el alumnado aplica estrategias para hablar en público (dicción, entonación, volumen, pausas, vista al público, ritmo, turno de palabra…), validando los rasgos del español de Canarias como modalidad lingüística propia del entorno. Finalmente, atendiendo a la diversidad de perfiles lingüísticos, el alumnado debe tener en cuenta el contexto que lo rodea y adecuarse a la persona interlocutora, así como el mensaje y su finalidad, utilizando un lenguaje respetuoso, que fomente la asertividad y la cohesión social, y que permita la resolución de conflictos de manera dialogada."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se valorará que el alumnado sea capaz de interpretar diferentes textos escritos y multimodales del ámbito personal, social o escolar con diferente tipología, diversidad de géneros discursivos y en diferentes formatos (hipertextos, gráficos, tablas estadísticas, mapas conceptuales…), analizando y valorando, de manera acompañada, su contenido y sus características. Asimismo, se comprobará que responde a distintas estrategias antes de la lectura (activación de conocimientos previos, inferencias a partir del título, realización de hipótesis, análisis de ilustraciones…), durante la lectura (leer en voz alta, releer, identificar palabras confusas, palabras clave o de otras lenguas, uso del diccionario…) y después de ella (localización y obtención de información explícita, integración de la información a sus conocimientos para transformarla en aprendizaje, comprensión de significados de manera global o particular, interpretación de elementos del lenguaje verbal y no verbal, evaluación del contenido, del lenguaje y de los elementos textuales…). De este modo, se verificará que la interpretación de los textos favorece el acceso al conocimiento del mundo y a la adquisición de nuevos aprendizajes, a través de la ampliación de su vocabulario y la fijación de la ortografía, siendo un incentivo motivacional que fomenta el placer por la lectura."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir, de manera creativa, textos escritos y multimodales ajustados a su nivel madurativo con coherencia, cohesión y adecuación, aplicando estrategias para las distintas fases del proceso: de planificación, a partir de pautas o de la lectura de modelos específicos para cada tipología textual; de redacción, secuenciando correctamente los contenidos y empleando las normas gramaticales y ortográficas naturales con la debida observación a los rasgos del español de Canarias); de revisión individual o compartida y haciendo un uso acompañado de fuentes documentales y participando en procesos de auto y coevaluación, reconociendo sus limitaciones y sabiendo buscar ayuda en el proceso; de edición, empleando elementos gráficos que faciliten la presentación, la organización y la comprensión del texto, y respetando la propiedad intelectual y los derechos de autor de los contenidos que reutiliza; y de difusión, participando así en actividades o proyectos, escolares o comunitarios, mediante el uso acompañado de herramientas o entornos digitales restringidos y supervisados de manera segura, con una actitud responsable ante su uso. Todo ello con el propósito de construir conocimiento y dar respuesta a demandas comunicativas concretas, como intercambiar o transmitir información, conocimientos, pensamientos, experiencias, emociones o sentimientos, así como construir vínculos personales con actitud cooperativa y respetuosa, poniendo las prácticas comunicativas al servicio de la convivencia democrática."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de realizar un tratamiento adecuado de la información en un proceso de investigación acompañado, a través de un método de trabajo realizado preferentemente de manera cooperativa en torno a temas relacionados con el propio currículo escolar o con los retos y desafíos del siglo XXI. Para ello, se verificará que puede localizar información de su interés, realizando búsquedas acompañadas en diferentes soportes, iniciándose en hábitos de uso crítico, seguro y saludable; seleccionar dicha información a través de estrategias de comprensión lectora, tales como la identificación de las ideas más relevantes y la interpretación del sentido global; contrastarla, opinando de manera razonada sobre su fiabilidad e iniciándose en la distinción entre hechos y opiniones; con la finalidad de compartirla adoptando un punto de vista creativo y personal mediante el uso de diferentes herramientas digitales con una actitud ética, responsable y respetando la propiedad intelectual."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado lee obras de manera acompañada y comparte las experiencias de lectura. Para ello, se comprobará que se inicia en el uso de estrategias para seleccionar textos ajustados a sus gustos e intereses, partiendo de sus experiencias emocionales y realizando indagaciones que le ayuden a leer con progresiva autonomía, obras o fragmentos variados y equilibrados, adecuados a su nivel madurativo y organizados en itinerarios lectores temáticos, de género o de cualquier otra naturaleza. Asimismo, se valorará que es capaz de compartir su experiencia y sus preferencias en comunidades lectoras, a través de la expresión acompañada de hechos y el intercambio de conceptos, pensamientos, opiniones y sentimientos de forma oral escrita, artística o multimodal, con actitud cooperativa y respetuosa, estableciendo vínculos emocionales y valiéndose de la biblioteca y del contexto social, cultural y familiar, así como de herramientas o plataformas virtuales. También se comprobará que el alumnado es capaz de identificar elementos del patrimonio literario, construyendo y compartiendo su interpretación de las obras, así como reflexionar de manera acompañada sobre valores como la cultura de paz, el desarrollo sostenible, los derechos de la infancia, la igualdad de género y el respeto hacia la diversidad familiar, funcional y étnico-cultural, entre otros, a través del reflejo que estos tienen en la literatura. Todo ello con la finalidad última de disfrutar, tanto del acto de leer como del intercambio cultural de experiencias en torno a la lectura, en un proceso de creación progresivo de su hábito lector para construir de manera positiva su identidad lectora."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "Con este bloque competencial se comprobará que el alumnado, a través de su participación en itinerarios lectores, es capaz de escuchar textos literarios y realizar lecturas guiadas, acompañadas y autónomas, con especial atención a la literatura canaria, de manera silenciosa o en voz alta, empleando la entonación y el ritmo adecuados. Para ello, se constatará que establece relaciones elementales entre los diferentes textos literarios y otras manifestaciones culturales o artísticas. Asimismo, se verificará que comunica ideas, pensamientos, sentimientos y emociones empleando distintos lenguajes artísticos y culturales, integrando su propio cuerpo y que usa estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias. Por último, se verificará que produce, de manera acompañada, textos literarios, a partir de la observación de modelos dados, que incluyan otros lenguajes artísticos, experimentando, tanto en la creación como en la difusión, con diferentes medios y soportes, y con diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para percibir su sensibilidad estética, disfrutar de la experiencia y, en consecuencia, mejorar su expresión oral y escrita en la producción de diversos textos con intención lúdica, artística y creativa."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se favorecerá la reflexión continuada en torno a la lengua y sus condiciones de uso, de manera ajustada a las posibilidades de abstracción de estas edades, para lo que se comprobará que el alumnado es capaz de obtener conclusiones, utilizando métodos inductivos sobre aspectos lingüísticos elementales (formulando generalizaciones, observando, comparando, estableciendo contrastes, creando y transformando palabras, enunciados o textos, formulando hipótesis, buscando ejemplos y contraejemplos…) y haciendo especial hincapié en el español hablado en Canarias, siempre en procesos de producción y comprensión de diferentes tipos de textos y géneros discursivos, mediante la búsqueda de diferencias entre la lengua oral y escrita, y la observación de relaciones de forma, función y significado entre palabras o grupos de palabras, y la iniciación en la reflexión interlingüística, realizando transferencias sencillas entre distintas lenguas; todo ello para contribuir a ampliar su repertorio lingüístico. Por último, se verificará que el alumnado participa en procesos de auto y coevaluación, a través de interacciones comunicativas, con actitud cooperativa y respetuosa, donde, de manera acompañada, revisa y mejora los textos propios y ajenos iniciándose en la reflexión metalingüística con la finalidad de subsanar algunos problemas de comprensión y expresión oral y escrita, atendiendo a mecanismos básicos de coherencia y cohesión y normas ortográficas naturales."
+      },
+      {
+        "competencias": [
+          "C10"
+        ],
+        "criterios": [
+          "10.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial se pretende formar personas capaces de comunicarse desde la empatía y el respeto, y para ello se comprobará que el alumnado es capaz de planificar y utilizar estrategias de manera acompañada, para para iniciarse en la resolución de conflictos a través del consenso y el uso del lenguaje, teniendo en cuenta aspectos verbales y no verbales, y favoreciendo la utilización, no solo eficaz, sino también ética de los diferentes sistemas de comunicación (verbal, no verbal, signado…). Asimismo, se constatará que el alumnado es capaz de escuchar activamente, identificando tanto sus propias emociones, ideas y comportamientos como las de las demás personas, reflejando lo que el otro dice, parafraseando, aclarando, sintetizando, preguntando o reformulando; de comunicarse de forma asertiva expresando hechos, conceptos, pensamientos, opiniones o sentimientos; y de participar tanto en interacciones comunicativas en las que muestra una actitud abierta y respetuosa, rechazando prejuicios y estereotipos lingüísticos, y reconociendo el valor del diálogo para mejorar la convivencia, como en actividades cooperativas en las que emplea un lenguaje no discriminatorio y respetuoso con las diferencias, y en las que comprende el valor de respetar las diferentes culturas y creencias, y dialoga sobre problemas éticos, sociales y ecológicos próximos a su realidad, defendiendo los principios y valores que rigen los derechos humanos, con el fin último de formar personas preparadas para la gestión dialogada de los conflictos y para construir una sociedad respetuosa e inclusiva."
+      }
+    ],
+    "segundo": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado reconoce la diversidad lingüística presente en su entorno más cercano y es capaz de valorar la realidad plurilingüe existente en el centro educativo, incluyendo los SAAC y la lengua de signos. Para ello, se comprobará que puede realizar, de manera guiada, una reflexión interlingüística para comparar las características propias del español de Canarias con otras variedades y otros dialectos, tanto peninsulares como de la América hispanohablante, efectuando transferencias sencillas entre ellos, construyendo su biografía lingüística personal, realizando una aproximación a la lengua de signos y a los SAAC, y apreciando la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión. Asimismo, se comprobará que el alumnado desarrolla, en contextos cotidianos de comunicación, estrategias de identificación de prejuicios y estereotipos lingüísticos con actitud cooperativa, inclusiva y respetuosa, y detectando los abusos de poder a través de la palabra, lo que le permitirá resolver conflictos de manera dialogada y justa. Todo ello con la finalidad última de promover el ejercicio de una ciudadanía mundial sensibilizada, informada y comprometida con los derechos lingüísticos individuales y colectivos, en un marco de interculturalidad y respeto a los derechos humanos."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado adquiere las destrezas necesarias para obtener, seleccionar, valorar y relacionar informaciones procedentes tanto del propio contexto escolar como de los medios de comunicación, en el marco del progreso de su vida académica y de su ciudadanía. Para ello, se comprobará que comprende de manera individual y cooperativa el sentido de textos orales y multimodales del ámbito personal, social y educativo en contextos formales e informales y de diferentes tipologías, aplicando de manera guiada estrategias de escucha activa, identificando las ideas más relevantes, realizando las inferencias y deducciones necesarias (especialmente en relación con informaciones de tipo espacial, temporal y de secuencia lógica), opinando de manera razonada sobre el contenido e identificando elementos no verbales y formales para construir conocimiento y responder a diferentes necesidades comunicativas. Se valorará asimismo que para alcanzar estos aprendizajes, el alumnado sea capaz de reconocer y respetar las emociones y experiencias de los demás, participando en actividades o proyectos escolares que aborden temas de relevancia ecosocial y cultural, mediante el uso, de manera guiada, de herramientas o plataformas virtuales, en entornos digitales restringidos y supervisados de manera segura, que le permitan ampliar su repertorio lingüístico individual, asumiendo las responsabilidades individuales asignadas y empleando estrategias cooperativas sencillas, dirigidas a la comprensión de los mensajes orales."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2",
+          "CE1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir textos orales de manera autónoma, utilizando la palabra como herramienta de construcción del pensamiento, formándose como hablante funcional y siendo capaz de cubrir necesidades comunicativas desenvolviéndose, en diferentes contextos de discurso oral, adecuados a su nivel madurativo, tanto espontáneos (planteamiento de preguntas, expresión de emociones u opiniones, aclaración de dudas…) como planificados (entrevistas, exposiciones individuales y grupales, narraciones, noticias…) teniendo en cuenta las características del español de Canarias. Para ello, se valorará si el alumno o la alumna planifica y organiza el discurso de manera guiada, utilizando herramientas digitales como apoyo visual o guión, controlando el tiempo y empleando el vocabulario adecuado a la situación comunicativa. Asimismo, se verificará que utiliza estrategias de interpretación durante las interacciones, superando el sentido literal y haciendo uso de elementos de la comunicación no verbal. Se pretende constatar que el alumnado aplica estrategias para hablar en público (dicción, entonación, volumen, pausas, vista al público, ritmo, turno de palabra…), validando los rasgos del español de Canarias como modalidad lingüística propia del entorno. Finalmente, atendiendo a la diversidad de perfiles lingüísticos, el alumnado debe tener en cuenta el contexto que lo rodea y adecuarse a la persona interlocutora, el mensaje y su finalidad, utilizando un lenguaje respetuoso, que fomente la asertividad y la cohesión social, y que permita la resolución de conflictos de manera dialogada."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se valorará que el alumnado sea capaz de interpretar diferentes textos escritos y multimodales del ámbito personal, social o escolar con diferente tipología, diversidad de géneros discursivos y en diferentes formatos (hipertextos, gráficos, tablas estadísticas, mapas conceptuales…), analizando y valorando de manera guiada su contenido y sus características. Asimismo, se comprobará que responde a distintas estrategias antes de la lectura (activación de conocimientos previos, inferencias a partir del título, realización de hipótesis, análisis de ilustraciones…), durante la lectura (leer en voz alta, releer, identificar palabras confusas, palabras clave o de otras lenguas, uso del diccionario…) y después de ella (localización y obtención de información explícita, integración de la información a sus conocimientos para transformarla en aprendizaje, realización de inferencias directas e indirectas para ir más allá de la interpretación literal, comprensión de significados de manera global o particular, interpretación de elementos del lenguaje verbal y no verbal, evaluación del contenido, del lenguaje y de los elementos textuales…). De este modo, se verificará que la interpretación de los textos favorece el acceso al conocimiento del mundo y la adquisición de nuevos aprendizajes, a través de la ampliación de su vocabulario y la fijación de la ortografía, siendo un incentivo motivacional que fomenta el placer por la lectura."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir, de manera creativa, textos escritos y multimodales ajustados a su nivel madurativo, con coherencia, cohesión y adecuación, aplicando estrategias para las distintas fases del proceso: de planificación, a partir de pautas o de la lectura de modelos específicos para cada tipología textual; de redacción, secuenciando correctamente los contenidos y empleando normas gramaticales y ortográficas básicas con la debida observación a los rasgos del español de Canarias; de revisión individual o compartida, haciendo un uso guiado de fuentes documentales diversas, tanto en papel como digitales y participando en procesos de auto y coevaluación, reconociendo sus limitaciones y sabiendo buscar ayuda en el proceso; de edición, empleando elementos gráficos y paratextuales sencillos que faciliten la presentación, la organización y la comprensión del texto, y respetando la propiedad intelectual y los derechos de autor de los contenidos que reutiliza; y de difusión, participando así en actividades o proyectos, escolares o comunitarios, mediante el uso guiado de herramientas o entornos digitales restringidos y supervisados de manera segura, con una actitud responsable ante su uso. Todo ello con el propósito de construir conocimiento y dar respuesta a demandas comunicativas concretas, como intercambiar o transmitir información, conocimientos, pensamientos, experiencias, emociones o sentimientos, así como construir vínculos personales con actitud cooperativa y respetuosa, poniendo las prácticas comunicativas al servicio de la convivencia democrática."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de realizar un tratamiento adecuado de la información en un proceso de investigación guiado, a través de un método de trabajo realizado preferentemente de manera cooperativa en torno a temas relacionados con el propio currículo escolar o con los retos y desafíos del siglo XXI. Para ello, se verificará que puede localizar información determinada, realizando búsquedas guiadas en diferentes soportes y poniendo en práctica hábitos de uso crítico, seguro, sostenible y saludable; seleccionar dicha información a través de estrategias de comprensión lectora, tales como la identificación de las ideas más relevantes y la interpretación del sentido global, realizando las inferencias necesarias; contrastarla en distintas fuentes documentales conociendo los riesgos de los entornos digitales; evaluar su utilidad, opinando de manera razonada sobre su fiabilidad y pertinencia en función de los objetivos de lectura, distinguiendo entre hechos y opiniones; con la finalidad de estructurarla y compartirla adoptando un punto de vista creativo y personal mediante el uso de diferentes herramientas digitales con una actitud ética, responsable y respetando la propiedad intelectual."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado lee obras de manera autónoma y comparte las experiencias de lectura. Para ello se comprobará que afianza el uso de estrategias para seleccionar, con criterio propio, textos ajustados a sus gustos e intereses, partiendo de sus experiencias emocionales y realizando indagaciones que le ayuden a leer con progresiva autonomía, obras o fragmentos variados y equilibrados, adecuados a su nivel madurativo y organizados en itinerarios lectores temáticos, de género o de cualquier otra naturaleza. Asimismo, se valorará que es capaz de compartir su experiencia y sus preferencias en comunidades lectoras, a través de la expresión guiada de hechos y el intercambio de conceptos, pensamientos, opiniones y sentimientos de forma oral escrita, artística o multimodal, con actitud cooperativa y respetuosa, estableciendo vínculos emocionales y valiéndose de la biblioteca y del contexto social, cultural y familiar, así como de herramientas o plataformas virtuales. También se comprobará que el alumnado es capaz de identificar elementos del patrimonio literario, con la debida atención a muestras de textos canarios, construyendo y compartiendo su interpretación de las obras, así como reflexionar de manera guiada sobre valores como la cultura de paz, el desarrollo sostenible, los derechos de la infancia, la igualdad de género y el respeto hacia la diversidad familiar, funcional y étnico-cultural, entre otros, a través del reflejo que estos tienen en la literatura. Todo ello con la finalidad última de disfrutar, tanto del acto de leer como del intercambio cultural de experiencias en torno a la lectura, en un proceso de creación progresivo de su hábito lector para construir de manera positiva su identidad lectora."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "Con este bloque competencial se comprobará que el alumnado, a través de su participación en itinerarios lectores, es capaz de escuchar textos literarios y realizar lecturas guiadas, acompañadas y autónomas, con especial atención a la literatura canaria, silenciosas o en voz alta, empleando la entonación y el ritmo adecuados. De la misma manera, se constatará que relaciona los elementos básicos constitutivos de la obra literaria atendiendo a las especificidades de cada género, y que construye y reconoce el sentido de los textos y los valores proyectados en los mismos. Asimismo, se verificará que comunica, de manera guiada, ideas, pensamientos, sentimientos y emociones de forma creativa y con una actitud abierta e inclusiva empleando distintos lenguajes artísticos y culturales, integrando su propio cuerpo y que usa estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias. Por último, se verificará que produce textos literarios, de manera guiada y a partir de modelos dados, que incluyan otros lenguajes artísticos, experimentando, tanto en la creación como en la difusión, con diferentes medios y soportes, y con diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para percibir su sensibilidad estética, disfrutar de la experiencia y, en consecuencia, mejorar su expresión oral y escrita en la producción de diversos textos con intención lúdica, artística y creativa."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se favorecerá la reflexión continuada en torno a la lengua y sus condiciones de uso, de manera ajustada a las posibilidades de abstracción de estas edades, para ello se comprobará que el alumnado es capaz de obtener conclusiones, utilizando métodos tanto inductivos como deductivos, sobre aspectos lingüísticos elementales (formulando generalizaciones, observando, comparando, estableciendo contrastes, creando y transformando palabras, enunciados o textos, formulando hipótesis, buscando ejemplos y contraejemplos…) haciendo especial hincapié en el español hablado en Canarias, siempre en procesos de producción y comprensión de diferentes tipos de textos y géneros discursivos, mediante la búsqueda de diferencias entre la lengua oral y escrita, y la observación de relaciones de forma, función y significado entre palabras o grupos de palabras, y la iniciación en la reflexión interlingüística realizando transferencias sencillas entre distintas lenguas, todo ello para contribuir a ampliar su repertorio lingüístico. Por último se verificará que el alumnado participa en procesos de auto y coevaluación, a través de interacciones comunicativas, con actitud cooperativa y respetuosa, donde, de manera guiada revisa y mejora los textos propios y ajenos, progresando en la reflexión metalingüística, con la finalidad de subsanar algunos problemas de comprensión y expresión oral y escrita, atendiendo a mecanismos básicos de coherencia y cohesión, con especial atención a las sustituciones pronominales y a la correlación temporal establecida mediante los distintos tiempos verbales, a las normas de acentuación o a los signos de puntuación, y recurriendo cuando sea preciso a la consulta en diccionarios en diferentes formatos."
+      },
+      {
+        "competencias": [
+          "C10"
+        ],
+        "criterios": [
+          "10.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se pretende formar personas capaces de comunicarse desde la empatía y el respeto, para ello se comprobará que el alumnado es capaz de planificar y utilizar estrategias de manera guiada para la resolución de conflictos a través del consenso y el uso del lenguaje, teniendo en cuenta aspectos verbales y no verbales, favoreciendo la utilización, no solo eficaz, sino también ética de los diferentes sistemas de comunicación (verbal, no verbal, signado…). Asimismo, se constatará que el alumnado es capaz de escuchar activamente, identificando tanto sus propias emociones, ideas y comportamientos como las de las demás personas, reflejando lo que el otro dice, parafraseando, aclarando, sintetizando, preguntando o reformulando; de comunicarse de forma asertiva expresando hechos, conceptos, pensamientos, opiniones o sentimientos; y de participar tanto en interacciones comunicativas mostrando una actitud abierta y respetuosa, rechazando prejuicios y estereotipos lingüísticos, y reconociendo el valor del diálogo para mejorar la convivencia, como en actividades cooperativas en las que emplea un lenguaje no discriminatorio y respetuoso con las diferencias, hace uso de herramientas o plataformas virtuales de manera segura y responsable, comprende el valor de respetar las diferentes culturas y creencias, y dialoga sobre problemas éticos sociales, económicos y ecológicos de la actualidad, defendiendo los principios y valores que rigen los derechos humanos, con el fin último de formar personas preparadas para la gestión dialogada de los conflictos y para construir una sociedad respetuosa e inclusiva."
+      }
+    ],
+    "tercer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado reconoce la diversidad lingüística presente en su entorno más cercano y es capaz de valorar la realidad plurilingüe existente en el mundo, incluyendo los distintos SAAC y la lengua de signos. Para ello, se comprobará que puede realizar, de manera autónoma, una reflexión interlingüística para comparar y relacionar las características propias del español de Canarias con otras variedades y otros dialectos, tanto peninsulares como de la América hispanohablante, efectuando transferencias sencillas entre ellos, entendiendo la vinculación existente entre el acervo histórico-cultural y el desarrollo lingüístico de cada lengua y cada dialecto, construyendo su biografía lingüística personal, realizando una aproximación a la lengua de signos y a los SAAC, y apreciando la diversidad etnocultural y lingüística como riqueza y herramienta de reflexión. Asimismo, se comprobará que el alumnado desarrolla, en contextos cotidianos de comunicación, estrategias de identificación de prejuicios y estereotipos lingüísticos con actitud cooperativa, inclusiva y respetuosa, y detectando los abusos de poder a través de la palabra, lo que le permitirá resolver conflictos de manera dialogada y justa. Todo ello con la finalidad última de promover el ejercicio de una ciudadanía mundial sensibilizada, informada y comprometida con los derechos lingüísticos individuales y colectivos, en un marco de interculturalidad y respeto a los derechos humanos."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado adquiere las destrezas necesarias para obtener, seleccionar, valorar y relacionar informaciones procedentes tanto del propio contexto escolar como de los medios de comunicación, en el marco del progreso de su vida académica y de su ciudadanía. Para ello se comprobará que comprende de manera individual y cooperativa el sentido de textos orales y multimodales del ámbito personal, social y educativo en contextos formales e informales y de diferentes tipologías, aplicando estrategias de escucha activa, identificando las ideas más relevantes y realizando las inferencias y deducciones necesarias (especialmente en relación con informaciones de tipo espacial, temporal y de secuencia lógica) realizando una valoración crítica sobre el contenido e identificando elementos no verbales y formales para construir conocimiento y responder a diferentes necesidades comunicativas. Se valorará asimismo que para alcanzar estos aprendizajes, el alumnado sea capaz de reconocer y respetar las emociones y experiencias de las demás personas, participando en actividades o proyectos escolares que aborden temas de relevancia ecosocial y cultural, mediante el uso de herramientas o plataformas virtuales en entornos digitales restringidos y supervisados de manera segura, que le permitan ampliar su repertorio lingüístico personal, asumiendo las responsabilidades individuales asignadas y empleando estrategias cooperativas sencillas, dirigidas a la comprensión de los mensajes orales."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2",
+          "CE1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir textos orales de manera autónoma, utilizando la palabra como herramienta de construcción del pensamiento, profundizando como hablante funcional y siendo capaz de cubrir necesidades comunicativas desenvolviéndose en diversos contextos de discurso oral, tanto espontáneo (planteamiento de preguntas, expresión de emociones u opiniones, aclaración de dudas…) como planificado (entrevistas, exposiciones individuales y grupales, narraciones, noticias…) teniendo en cuenta las características del español de Canarias. Para ello se valorará si el alumno o la alumna planifica y organiza el discurso, utilizando herramientas digitales como apoyo visual o guión, controlando el tiempo y empleando el vocabulario adecuado a la situación comunicativa. Asimismo, se verificará que utiliza estrategias de interpretación durante las interacciones, superando el sentido literal y haciendo uso de elementos de la comunicación no verbal. Se pretende constatar que el alumnado aplica estrategias para hablar en público (dicción, entonación, volumen, pausas, vista al público, ritmo, turno de palabra…), validando las características del español de Canarias como modalidad lingüística propia del entorno. Finalmente, atendiendo a la diversidad de perfiles lingüísticos, el alumnado debe tener en cuenta el contexto que lo rodea y adecuarse al interlocutor, el mensaje y su finalidad, utilizando un lenguaje respetuoso, que fomente la asertividad y la cohesión social, y que permita la resolución de conflictos de manera dialogada."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se valorará que el alumnado sea capaz de interpretar diferentes textos escritos y multimodales del ámbito personal, social o escolar con diferente tipología, diversidad de géneros discursivos y en diferentes formatos (hipertextos, gráficos, tablas estadísticas, mapas conceptuales…), analizando y valorando su contenido y sus características. Asimismo, se comprobará que responde a distintas estrategias antes de la lectura (activación de conocimientos previos, inferencias a partir del título, realización de hipótesis, análisis de ilustraciones…), durante la lectura (leer en voz alta, releer, identificar palabras confusas, palabras clave o de otras lenguas, uso del diccionario…) y después de ella (localización y obtención de información explícita, integración de la información a sus conocimientos para transformarla en aprendizaje, realización de inferencias directas e indirectas para ir más allá de la interpretación literal, comprensión de significados de manera global o particular, interpretación de elementos del lenguaje verbal y no verbal, evaluación del contenido, del lenguaje y de los elementos textuales…). De este modo se verificará que la interpretación de los textos favorece el acceso al conocimiento del mundo y la adquisición de nuevos aprendizajes, a través de la ampliación de su vocabulario y la fijación de la ortografía, todo ello como incentivo motivacional que fomenta el placer por la lectura."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de producir, de manera creativa, textos escritos y multimodales con coherencia, cohesión y adecuación, aplicando estrategias para las distintas fases del proceso: de planificación, a partir de pautas o de la lectura de modelos específicos para cada tipología textual; de redacción, secuenciando correctamente los contenidos y empleando normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias; de revisión haciendo un uso progresivamente autónomo de diccionarios y otras fuentes de consulta, participando en procesos de auto y coevaluación, y reconociendo sus limitaciones y sabiendo buscar ayuda; de edición, empleando elementos gráficos y paratextuales sencillos que faciliten la presentación, la organización y la comprensión del texto, y respetando la propiedad intelectual y los derechos de autor de los contenidos que reutiliza; y de difusión, participando así en actividades o proyectos, escolares o comunitarios, mediante el uso de herramientas o entornos digitales restringidos y supervisados de manera segura, con una actitud responsable ante su uso. Todo ello con el propósito de construir conocimiento y dar respuesta a demandas comunicativas concretas, como intercambiar o transmitir información, conocimientos, pensamientos, experiencias, emociones o sentimientos, así como construir vínculos personales con actitud cooperativa y respetuosa, poniendo las prácticas comunicativas al servicio de la convivencia democrática."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de realizar un tratamiento adecuado de la información en un proceso de investigación sencillo, a través de un método de trabajo realizado preferentemente de manera cooperativa en torno a temas relacionados con el propio currículo escolar o con los retos y desafíos del siglo XXI. Para ello, se verificará que puede localizar información determinada, realizando búsquedas pautadas en diferentes soportes y poniendo en práctica hábitos de uso crítico, seguro, sostenible y saludable; seleccionar dicha información a través de estrategias de comprensión lectora, tales como la identificación de las ideas más relevantes, la interpretación del sentido global y la realizando las inferencias necesarias; contrastarla en distintas fuentes documentales conociendo los riesgos de los entornos digitales; evaluar su utilidad, fiabilidad y pertinencia en función de los objetivos de lectura, reconociendo algunos peligros de la manipulación y la desinformación, distinguiendo entre hechos y opiniones; con la finalidad de estructurarla y compartirla adoptando un punto de vista creativo y personal mediante el uso de diferentes herramientas digitales con una actitud ética, responsable y respetando la propiedad intelectual."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado lee obras de manera autónoma y comparte las experiencias de lectura. Para ello se comprobará que puede usar estrategias para seleccionar, con criterio propio, textos ajustados a sus gustos e intereses, partiendo de sus experiencias emocionales y realizando indagaciones que le ayuden a leer con autonomía creciente, obras o fragmentos variados y equilibrados, adecuados a su nivel madurativo y organizados en itinerarios lectores temáticos, de género o de cualquier otra naturaleza. Asimismo, se valorará que es capaz de compartir su experiencia y sus preferencias en comunidades lectoras, a través de la expresión de hechos y el intercambio de conceptos, pensamientos, opiniones, sentimientos de forma oral escrita, artística o multimodal, con actitud cooperativa y respetuosa, estableciendo vínculos emocionales y valiéndose de la biblioteca y del contexto social, cultural y familiar, así como de herramientas o plataformas virtuales. También se comprobará que el alumnado es capaz de identificar elementos del patrimonio literario, con la debida atención a muestras de textos canarios, construyendo y compartiendo su interpretación de las obras, así como reflexionar sobre valores como la cultura de paz, el desarrollo sostenible, los derechos de la infancia, la igualdad de género y el respeto hacia la diversidad familiar, funcional y étnico-cultural, entre otros, a través del reflejo que estos tienen en la literatura.Todo ello con la finalidad última de disfrutar, tanto del acto de leer como del proceso de intercambio cultural de experiencias en torno a la lectura, en un proceso de creación progresivo de su hábito lector para construir de manera positiva su identidad lectora."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "Con este bloque competencial, se comprobará que el alumnado, a través de su participación en itinerarios lectores, es capaz de escuchar textos literarios y realizar lecturas guiadas, acompañadas y autónomas, con especial atención a la literatura canaria, de manera silenciosa o en voz alta, empleando la entonación y el ritmo adecuados. De la misma manera, se constatará que realiza un análisis de los elementos constitutivos de la obra literaria, atendiendo a las especificidades de cada género, y que construye y reconoce el sentido de los textos y los valores proyectados en los mismos. Asimismo, se verificará que comunica ideas, pensamientos, sentimientos y emociones, de forma creativa y con una actitud abierta e inclusiva, empleando distintos lenguajes artísticos y culturales, e integrando su propio cuerpo; y que usa estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias. Por último, se verificará que produce textos literarios, de manera libre y a partir de la reelaboración de modelos dados, que incluyan otros lenguajes artísticos, experimentando, tanto en la creación como en la difusión, con diferentes medios y soportes, y con diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para percibir su sensibilidad estética, disfrutar de la experiencia y, en consecuencia, mejorar su expresión oral y escrita en la producción de diversos textos con intención lúdica, artística y creativa."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "explicacion": "A través de este bloque competencial, se favorecerá la reflexión continuada en torno a la lengua y sus condiciones de uso, de manera ajustada a las posibilidades de abstracción de estas edades, para lo que se comprobará que el alumnado es capaz de reflexionar, utilizando métodos tanto inductivos como deductivos, sobre aspectos lingüísticos elementales (formulando generalizaciones, observando, comparando, estableciendo contrastes, creando y transformando palabras, enunciados o textos, formulando hipótesis, buscando ejemplos y contraejemplos…) y haciendo especial hincapié en el español hablado en Canarias, siempre en procesos de producción y comprensión de diferentes tipos de textos y géneros discursivos, mediante la búsqueda de diferencias entre la lengua oral y escrita, la observación de relaciones de forma, función y significado entre palabras o grupos de palabras, y la iniciación en la reflexión interlingüística, realizando transferencias sencillas entre distintas lenguas; todo ello para contribuir a ampliar su repertorio lingüístico. Por último, se verificará que el alumnado participa en procesos de auto y coevaluación, a través de interacciones comunicativas, con actitud cooperativa y respetuosa, en los que revisa y mejora los textos propios y ajenos, profundizando en la reflexión metalingüística con la finalidad de subsanar algunos problemas de comprensión y expresión oral y escrita, atendiendo a mecanismos básicos de coherencia y cohesión, con especial atención a las sustituciones pronominales y a la correlación temporal establecida mediante los distintos tiempos verbales, a las normas de acentuación o a los signos de puntuación, y recurriendo cuando sea preciso a la consulta en diccionarios en diferentes formatos."
+      },
+      {
+        "competencias": [
+          "C10"
+        ],
+        "criterios": [
+          "10.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de planificar y utilizar estrategias, de manera autónoma, para la resolución de conflictos, a través de la deliberación argumentada y el uso del lenguaje, teniendo en cuenta aspectos verbales y no verbales, y favoreciendo la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación (verbal, no verbal, signado…). Asimismo, se constatará que el alumnado es capaz de escuchar activamente, identificando tanto sus propias emociones, ideas y comportamientos como las de las demás personas, reflejando lo que la otra persona dice, parafraseando, aclarando, sintetizando, preguntando o reformulando; de comunicarse de forma asertiva expresando hechos, conceptos, pensamientos, opiniones o sentimientos; y de participar tanto en interacciones comunicativas mostrando una actitud abierta y respetuosa, rechazando prejuicios y estereotipos lingüísticos, y reconociendo el valor del diálogo para mejorar la convivencia, como en actividades cooperativas en las que emplea un lenguaje no discriminatorio y respetuoso con las diferencias, hace uso de herramientas o plataformas virtuales de manera segura y responsable, comprende el valor de respetar las diferentes culturas y creencias, y dialoga sobre problemas éticos, sociales, económicos y ecológicos de la actualidad, defendiendo los principios y valores que rigen los derechos humanos, con el fin último de formar personas preparadas para la gestión dialogada de los conflictos y para construir una sociedad respetuosa e inclusiva."
+      }
+    ]
   }
 }

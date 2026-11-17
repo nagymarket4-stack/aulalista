@@ -1,0 +1,974 @@
+{
+  "area": "Lengua Castellana y Literatura",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – LENGUA CASTELLANA Y LITERATURA",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "pagina_pdf": 189,
+        "descriptores": {
+          "Insuficiente": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos con escasa claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con dificultad especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando con poca precisión prejuicios y estereotipos lingüísticos frecuentes, participando sin iniciativa en actividades comunitarias y en la toma de decisiones de forma dialogada, entendiendo con dificultad y sin detalle las situaciones históricas y sociales e identificando superficialmente y con errores las diferencias entre distintas culturas lo que impide alcanzar la finalidad de valorar, explorar y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Suficiente/Bien": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes, participando en actividades comunitarias y en la toma de decisiones de forma dialogada, entendiendo las situaciones históricas y sociales e identificando las diferencias entre distintas culturas con la finalidad de valorar, explorar y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Notable": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos con apropiada claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con facilidad especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante y detectando con precisión prejuicios y estereotipos lingüísticos frecuentes, participando con iniciativa en actividades comunitarias y en la toma de decisiones de forma dialogada, entendiendo con detalle las situaciones históricas y sociales e identificando debidamente las diferencias entre distintas culturas con la finalidad de valorar, explorar y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Sobresaliente": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos con gran claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con facilidad destacable especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante y detectando con total precisión prejuicios y estereotipos lingüísticos frecuentes, participando con iniciativa propia en actividades comunitarias y en la toma de decisiones de forma dialogada, entendiendo con gran detalle las situaciones históricas y sociales e identificando con profundidad destacable las diferencias entre distintas culturas con la finalidad de valorar, explorar y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos de manera individual y cooperativa dando una opinión razonada sobre el contenido, para responder a diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "pagina_pdf": 191,
+        "descriptores": {
+          "Insuficiente": "Comprende de manera poco precisa y con errores el sentido de textos orales y multimodales sencillos reconociendo con dificultad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con desinterés y con nula iniciativa propia las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales con dificultad, y una limitada opinión razonada y dialogada sobre el contenido, para responder a diferentes necesidades comunicativas.",
+          "Suficiente/Bien": "Comprende el sentido de textos orales y multimodales sencillos reconociendo las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales, y da una opinión razonada y dialogada sobre el contenido, para responder a diferentes necesidades comunicativas.",
+          "Notable": "Comprende con precisión el sentido de textos orales y multimodales sencillos reconociendo con facilidad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con interés y dedicación las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales, con facilidad y una buena opinión razonada y dialogada sobre el contenido, para responder a diferentes necesidades comunicativas.",
+          "Sobresaliente": "Comprende con un alto grado de precisión el sentido de textos orales y multimodales sencillos reconociendo con gran facilidad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con interés y dedicación constantes las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales, con gran facilidad y una muy buena opinión razonada y dialogada sobre el contenido, para responder a diferentes necesidades comunicativas."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir textos orales y multimodales, utilizando recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera acompañada y coherente, ajustándose a la intencionalidad comunicativa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CC2",
+          "CE1"
+        ],
+        "pagina_pdf": 192,
+        "descriptores": {
+          "Insuficiente": "Produce textos orales y multimodales, utilizando con escasa claridad y adecuación el vocabulario apropiado al contexto próximo y los recursos verbales y no verbales, respetando los rasgos del español de Canaria e identificando con dificultad los perfiles lingüístico, utilizando con escaso sentido y funcionalidad estrategias y destrezas alternativas y tomando poca conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo lo que lo limita para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa participando con iniciativa propia en actividades comunitarias y en la toma de decisiones e iniciándose en la gestión dialogada de conflictos.",
+          "Suficiente/Bien": "Produce textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias e identificando los perfiles lingüístico, utilizando estrategias y destrezas alternativas y tomando conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones e iniciándose en la gestión dialogada de conflictos.",
+          "Notable": "Produce textos orales y multimodales, utilizando con claridad y adecuación tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias e identificando con facilidad los perfiles lingüístico, utilizando con un sentido y una funcionalidad relevantes estrategias y destrezas alternativas y tomando gran conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones e iniciándose en la gestión dialogada de conflictos.",
+          "Sobresaliente": "Produce textos orales y multimodales, utilizando con gran claridad y adecuación tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias e identificando con facilidad destacable los perfiles lingüístico, utilizando con un sentido y una funcionalidad excelentes estrategias y destrezas alternativas y tomando una destacada conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones e iniciándose en la gestión dialogada de conflictos."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar en interacciones orales espontáneas o planificadas, iniciándose en estrategias de cortesía lingüística y escucha activa para satisfacer diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2"
+        ],
+        "pagina_pdf": 193,
+        "descriptores": {
+          "Insuficiente": "Participa en interacciones orales espontáneas o planificadas con escasa claridad y adecuación a diferentes contextos cotidianos próximos, utilizando de forma irreflexiva métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con limitaciones en estrategias de cortesía lingüística y de escucha activa aún de manera guiada, identificando con dificultad la diversidad de perfiles lingüísticos y con escasa iniciativa para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Suficiente/Bien": "Participa en interacciones orales espontáneas o planificadas en diferentes contextos cotidianos próximos, utilizando métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose en estrategias de cortesía lingüística y de escucha activa de manera guiada, identificando la diversidad de perfiles lingüísticos e iniciativa para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Notable": "Participa en interacciones orales espontáneas o planificadas con claridad y adecuación a diferentes contextos cotidianos próximos, utilizando de forma consciente métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con habilidad en estrategias de cortesía lingüística y de escucha activa de manera guiada, identificando con facilidad la diversidad de perfiles lingüísticos y con iniciativa propia para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Sobresaliente": "Participa en interacciones orales espontáneas o planificadas con gran claridad y adecuación a diferentes contextos cotidianos próximos, utilizando de forma plenamente consciente métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con destacada habilidad en estrategias de cortesía lingüística y de escucha activa de manera guiada , identificando con gran facilidad la diversidad de perfiles lingüísticos y con total iniciativa propia para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura para alcanzar la interpretación literal en la comprensión lectora.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 194,
+        "descriptores": {
+          "Insuficiente": "Lee con dificultad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma imprecisa y con errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con problemas significativos para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Suficiente/Bien": "Lee textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Notable": "Lee con facilidad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma precisa y sin apenas errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con facilidad para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Sobresaliente": "Lee con destacada facilidad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma muy precisa y sin errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con gran facilidad para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, con el fin de formar personas competentes y autónomas en la lectura.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 195,
+        "descriptores": {
+          "Insuficiente": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera poco precisa y con errores significativos, empleando de manera inadecuada algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose pero, de forma ineficaz, a pesar de la ayuda, en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Suficiente/Bien": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales empleando algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda, en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Notable": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera precisa y sin apenas errores, empleando de manera adecuada algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda de forma eficaz en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Sobresaliente": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera bastante precisa y sin errores, empleando de manera muy adecuada algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda de forma altamente eficaz en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Producir, de manera acompañada, textos escritos y multimodales coherentes, de manera creativa y en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación del ámbito personal y educativo, aplicando las normas gramaticales y de ortografía natural con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "pagina_pdf": 196,
+        "descriptores": {
+          "Insuficiente": "Produce textos escritos y multimodales incoherentes, con escasa claridad y adecuación de manera creativa y respetuosa con la propiedad intelectual de forma limitada y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas sin la debida observación a los rasgos del español de Canarias y utilizando de manera poco adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con limitaciones por tanto para alcanzar el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Produce textos escritos y multimodales coherentes de manera creativa y respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Notable": "Produce textos escritos y multimodales con destacada coherencia, claridad y adecuación, de manera creativa y muy respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de manera adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce textos escritos y multimodales con total coherencia, gran claridad y adecuación, de manera creativa y plenamente respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de manera muy adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Compartir, utilizando diferentes lenguajes, los resultados de un proceso acompañado de búsqueda de información sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, opinando sobre su fiabilidad de manera razonada, recreando la información de forma personal y creativa, y adoptando un punto de vista respetuoso con la propiedad intelectual para construir su propio conocimiento.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "pagina_pdf": 198,
+        "descriptores": {
+          "Insuficiente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guiado y pautado de búsqueda de información, tratando rara vez de reconocer sus limitaciones y de buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, respetando rara vez los procedimientos democráticos y sin revisar el proceso realizado y el resultado obtenido, que implique la localización y la selección, con dificultad, de manera pautada y con el debido acompañamiento de información sencilla procedente de al menos una fuente, incluidas las digitales. Para ello hace uso de manera inadecuada de estrategias muy sencillas para el tratamiento digital de la información, sin iniciarse en la adopción de hábitos de uso seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa, su utilidad y fiabilidad, de manera ineficazmente razonada, recreando en escasas ocasiones la información de forma personal y creativa, y adoptando un punto de vista respetuoso e iniciándose con dificultades en la comprensión de la propiedad intelectual.",
+          "Suficiente/Bien": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guiado y pautado de búsqueda de información, tratando de reconocer sus limitaciones y de buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, respetando los procedimientos democráticos y revisando el proceso realizado y el resultado obtenido, que implique la localización y la selección de manera pautada y con el debido acompañamiento de información sencilla procedente de al menos una fuente, incluidas las digitales. Para ello hace uso de estrategias muy sencillas para el tratamiento digital de la información, iniciándose en la adopción de hábitos de uso seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa su utilidad y fiabilidad, de manera razonada, recreando la información de forma personal y creativa, y adoptando un punto de vista respetuoso e iniciándose en la comprensión de la propiedad intelectual.",
+          "Notable": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guiado y pautado de búsqueda de información, tratando de reconocer sus limitaciones y de buscar ayuda regularmente para construir su propio conocimiento, sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, respetando frecuentemente los procedimientos democráticos y revisando el proceso realizado y el resultado obtenido, que implique la localización y la selección, con facilidad, de manera pautada y con el debido acompañamiento de información sencilla procedente de al menos una fuente, incluidas las digitales. Para ello hace uso de manera segura de estrategias muy sencillas para el tratamiento digital de la información, iniciándose con compromiso en la adopción de hábitos de uso seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa, su utilidad y fiabilidad, de manera eficazmente razonada, recreando de forma frecuente la información de forma personal y creativa, y adoptando un punto de vista respetuoso y comprendiendo la importancia de la propiedad intelectual.",
+          "Sobresaliente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guiado y pautado de búsqueda de información, tratando de reconocer sus limitaciones y de buscar ayuda de forma continua para construir su propio conocimiento, sobre diferentes temas de interés personal, realizado de manera individual y cooperativa, respetando siempre los procedimientos democráticos y revisando el proceso realizado y el resultado obtenido, que implique la localización y la selección, con mucha facilidad, de manera pautada y con el debido acompañamiento de información sencilla procedente de al menos una fuente, incluidas las digitales. Para ello hace uso de manera segura y con confianza de estrategias muy sencillas para el tratamiento digital de la información, iniciándose con compromiso y constancia en la adopción de hábitos de uso seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa, su utilidad y fiabilidad, de manera razonada y destacada eficacia, recreando siempre la información de forma personal y creativa, y adoptando un punto de vista respetuoso y valorando la importancia en la comprensión de la propiedad intelectual."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Leer con progresiva autonomía textos de diversa índole, iniciándose, de manera acompañada, en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses y necesidades con criterio propio, para comenzar la construcción y enriquecimiento de su identidad lectora.",
+        "descriptores_operativos": [
+          "CCL4",
+          "CPSAA1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 200,
+        "descriptores": {
+          "Insuficiente": "Lee sin iniciativa propia textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario de Canarias, reconociendo con ciertas dificultades las especificidades e intencionalidades, iniciándose, de manera acompañada y con dificultad en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, identificando de manera totalmente inconsciente, las propias emociones, ideas y comportamientos personales, para comenzar la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Suficiente/Bien": "Lee con progresiva autonomía textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario de Canarias, reconociendo las especificidades e intencionalidades, iniciándose, de manera acompañada, en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, identificando las propias emociones, ideas y comportamientos personales, para comenzar la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Notable": "Lee con progresiva autonomía textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario de Canarias, reconociendo con corrección en los elementos relevantes las especificidades e intencionalidades, iniciándose, de manera acompañada y con facilidad en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, identificando de forma consciente las propias emociones, ideas y comportamientos personales, para comenzar la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Sobresaliente": "Lee de manera autónoma textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario de Canarias, reconociendo con total corrección y precisión las especificidades e intencionalidades, iniciándose, de manera acompañada y con facilidad destacable en el uso de estrategias que favorezcan una selección que se ajuste a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, identificando de forma plenamente consciente las propias emociones, ideas y comportamientos personales, para comenzar la construcción y enriquecimiento de su identidad personal y experiencia lectora."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Compartir de manera acompañada la experiencia de lectura, a través de diferentes técnicas y soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar para disfrutar de la dimensión social de la lectura.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 201,
+        "descriptores": {
+          "Insuficiente": "Comparte de manera acompañada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio de Canarias, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, relacionándola y vinculándola de forma confusa a la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello aprovecha de manera ineficaz y limitada los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar, con una actitud abierta, cooperativa y respetuosa, pero de manera ocasional tanto para intercambiar información sencilla y breve y crear conocimiento como para construir vínculos personales, identificando las propias emociones, ideas y comportamientos personales y poniendo en práctica estrategias para gestionarlas en situaciones de desacuerdo.",
+          "Suficiente/Bien": "Comparte de manera acompañada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio de Canarias, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, relacionándola y vinculándola a la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello aprovecha los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar, con una actitud abierta, cooperativa y respetuosa, tanto para intercambiar información sencilla y breve y crear conocimiento como para construir vínculos personales, siendo capaz de identificar las propias emociones, ideas y comportamientos personales y poner en práctica estrategias para gestionarlas en situaciones de desacuerdo.",
+          "Notable": "Comparte de manera acompañada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio de Canarias, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, relacionándola y vinculándola con claridad a la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello aprovecha de manera eficaz los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar, con una actitud abierta, cooperativa y respetuosa, de forma constante tanto para intercambiar información sencilla y breve y crear conocimiento como para construir vínculos personales, identificando las propias emociones, ideas y comportamientos personales y poniendo en práctica estrategias para gestionarlas en situaciones de desacuerdo.",
+          "Sobresaliente": "Comparte de manera acompañada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio de Canarias, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, relacionándola y vinculándola con lucidez a la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello aprovecha con gran eficacia los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar, con una actitud abierta, cooperativa y respetuosa, con máxima constancia tanto para intercambiar información sencilla y breve y crear conocimiento como para construir vínculos personales, identificando las propias emociones, ideas y comportamientos personales y poniendo en práctica estrategias para gestionarlas en situaciones de desacuerdo."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Escuchar y leer textos literarios orales y escritos, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 203,
+        "descriptores": {
+          "Insuficiente": "Escucha, lee y comprende, de manera poco precisa y con errores significativos, textos literarios orales, escritos, signados o multimodales sencillos adecuados a su progreso madurativo, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, experimentando y explorando, con dudas importantes, con el entorno más cercano y comenzando a desarrollar sus capacidades afectivas y reconociendo, con ciertas dificultades, sus especificidades e intencionalidades y estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales identificando, con errores, las diferencias entre distintas culturas en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+          "Suficiente/Bien": "Escucha, lee y comprende textos literarios orales, escritos, signados o multimodales sencillos adecuados a su progreso madurativo, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, experimentando y explorando con el entorno más cercano y comenzando a desarrollar sus capacidades afectivas y reconociendo sus especificidades e intencionalidades y estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales identificando las diferencias entre distintas culturas en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+          "Notable": "Escucha, lee y comprende, con precisión, textos literarios orales, escritos, signados o multimodales sencillos adecuados a su progreso madurativo, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, experimentando y explorando, de manera segura y confiada, con el entorno más cercano y comenzando a desarrollar sus capacidades afectivas y reconociendo, con corrección en los elementos relevantes, sus especificidades e intencionalidades y estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales identificando, con corrección, las diferencias entre distintas culturas en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+          "Sobresaliente": "Escucha, lee y comprende, con un alto grado de precisión, textos literarios orales, escritos, signados o multimodales sencillos adecuados a su progreso madurativo, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria experimentando y explorando, con total confianza, con el entorno más cercano y comenzando a desarrollar sus capacidades afectivas y reconociendo, con total corrección y precisión, sus especificidades e intencionalidades y estableciendo de manera acompañada relaciones elementales entre ellos y otras manifestaciones artísticas o culturales identificando, con precisión, las diferencias entre distintas culturas en la búsqueda del reconocimiento de la lectura literaria como fuente de placer."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Producir, de manera acompañada, textos individuales o colectivos con intención literaria, ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 205,
+        "descriptores": {
+          "Insuficiente": "Produce, expresando, con escasa claridad, hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal de manera acompañada, textos individuales o colectivos con intención literaria, reconociendo y descubriendo, con desinterés, el patrimonio cultural y artístico como fuente de disfrute y aprendizaje individual y colectivo, reconociendo, con ciertas dificultades, sus especificidades e intencionalidades ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con una actitud abierta, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios y experimentando de forma guiada para elaborar con apoyo propuestas artísticas y culturales básicas.",
+          "Suficiente/Bien": "Produce, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal de manera acompañada, textos individuales o colectivos con intención literaria, reconociendo y descubriendo el patrimonio cultural y artístico como fuente de disfrute y aprendizaje individual y colectivo, reconociendo sus especificidades e intencionalidades ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con una actitud abierta, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios y experimentando de forma guiada para elaborar con apoyo propuestas artísticas y culturales básicas.",
+          "Notable": "Produce, expresando, con apropiada claridad, hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal de manera acompañada, textos individuales o colectivos con intención literaria, reconociendo y descubriendo, con interés constante, el patrimonio cultural y artístico como fuente de disfrute y aprendizaje individual y colectivo, reconociendo, con corrección en los elementos relevantes, sus especificidades e intencionalidades ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con una actitud abierta, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios y experimentando de forma guiada para elaborar con apoyo propuestas artísticas y culturales básicas.",
+          "Sobresaliente": "Produce, expresando, con gran claridad, hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal de manera acompañada, textos individuales o colectivos con intención literaria, reconociendo y descubriendo, con interés y dedicación constantes, el patrimonio cultural y artístico como fuente de disfrute y aprendizaje individual y colectivo, reconociendo, con total corrección y precisión, sus especificidades e intencionalidades ajustándose a los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con una actitud abierta, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios y experimentando de forma guiada para elaborar con apoyo propuestas artísticas y culturales básicas."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Formular, de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, a partir de la observación, comparación y manipulación de palabras y enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 206,
+        "descriptores": {
+          "Insuficiente": "Formula, con incorrecciones, incluso de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, percibiendo, con dificultad, la diversidad de perfiles lingüísticos seleccionando y empleando, de manera inadecuada, algunas estrategias para resolver problemas planteándose preguntas sencillas, observando pero reproduciendo con errores experimentos simples de forma pautada y con apoyos, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva y se inicia en la participación de manera ocasional en interacciones comunicativas en contextos cotidianos cercanos con actitud cooperativa y respetuosa, tratando, rara vez, de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento.",
+          "Suficiente/Bien": "Formula, de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias percibiendo la diversidad de perfiles lingüísticos seleccionando y empleando algunas estrategias para resolver problemas planteándose preguntas sencillas, observando y reproduciendo experimentos simples de forma pautada y con apoyos, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva y se inicia en la participación en interacciones comunicativas en contextos cotidianos cercanos con actitud cooperativa y respetuosa, tratando de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento.",
+          "Notable": "Formula, con corrección, de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias percibiendo, con facilidad, la diversidad de perfiles lingüísticos seleccionando y empleando algunas estrategias para resolver problemas planteándose preguntas sencillas, observando y reproduciendo, de manera segura, experimentos simples de forma pautada y con apoyos, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva y se inicia en la participación de forma constante en interacciones comunicativas en contextos cotidianos cercanos con actitud cooperativa y respetuosa, tratando de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento.",
+          "Sobresaliente": "Formula, con corrección y precisión, de manera acompañada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias percibiendo, con facilidad destacable, la diversidad de perfiles lingüísticos seleccionando y empleando algunas estrategias para resolver problemas planteándose preguntas sencillas, observando y reproduciendo experimentos muy sencillos de forma pautada y con apoyos, a partir de la observación, comparación y manipulación de palabras, enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva y se inicia en la participación con máxima constancia en interacciones comunicativas en contextos cotidianos cercanos con actitud cooperativa y respetuosa, tratando de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Revisar y mejorar, de manera acompañada, los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 208,
+        "descriptores": {
+          "Insuficiente": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo, con dificultad, la diversidad de perfiles lingüísticos e iniciándose en la participación en interacciones comunicativas cotidianas cercanas con actitud cooperativa y respetuosa, de manera ocasional, utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, seleccionando y empleando, de manera inadecuada, algunas estrategias para resolver problemas y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando, con incorrecciones, la terminología adecuada, y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, y comunicarse de manera eficaz y competencial, identificando, con inseguridad, el valor del esfuerzo y el involucramiento personal tratando, rara vez, de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento.",
+          "Suficiente/Bien": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo la diversidad de perfiles lingüísticos e iniciándose en la participación en interacciones comunicativas cotidianas cercanas con actitud cooperativa y respetuosa utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, seleccionando y empleando algunas estrategias para resolver problemas y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando la terminología adecuada, y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, y comunicarse de manera eficaz y competencial, identificando el valor del esfuerzo y el involucramiento personal tratando de reconocer sus limitaciones y de buscar ayuda en el proceso de construcción del conocimiento.",
+          "Notable": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo, con facilidad, la diversidad de perfiles lingüísticos e iniciándose en la participación en interacciones comunicativas cotidianas cercanas con actitud cooperativa y respetuosa, de forma constante, utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, seleccionando y empleando, de manera destacada, algunas estrategias para resolver problemas y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando, con corrección, la terminología adecuada, y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, y comunicarse de manera eficaz y competencial, identificando, con seguridad, el valor del esfuerzo y el involucramiento personal tratando de reconocer sus limitaciones y de buscar ayuda, regularmente, en el proceso de construcción del conocimiento.",
+          "Sobresaliente": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo, con facilidad destacable, la diversidad de perfiles lingüísticos e iniciándose en la participación en interacciones comunicativas cotidianas cercanas con actitud cooperativa y respetuosa, con máxima constancia, utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, seleccionando y empleando, de forma excelente, algunas estrategias para resolver problemas y subsanando algunos problemas de comprensión lectora y oral, iniciándose en la reflexión metalingüística, usando, con corrección y precisión, la terminología adecuada, y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, y comunicarse de manera eficaz y competencial, identificando, con seguridad y plena confianza, el valor del esfuerzo y el involucramiento personal tratando de reconocer sus limitaciones y de buscar ayuda, de forma continua, en el proceso de construcción del conocimiento."
+        }
+      },
+      {
+        "criterio": "10.1",
+        "competencia_especifica": "10",
+        "enunciado_criterio": "Planificar y utilizar estrategias, de manera acompañada, para el consenso, e iniciarse en la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 210,
+        "descriptores": {
+          "Insuficiente": "Planifica y utiliza estrategias con dificultad, de manera acompañada, para el consenso, e iniciación en la gestión guiada y dialogada de conflictos, de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello detecta y respeta con conciencia mínima las emociones de las demás personas, rechazando los usos lingüísticos discriminatorios, aplicando y reflexionando de manera cooperativa y respetuosa de manera ocasional sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas básicas de convivencia, aplicándolas rara vez de forma respetuosa en cualquier contexto próximo. Asimismo tiene en cuenta rara vez la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno más inmediato, sin percibir su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Suficiente/Bien": "Planifica y utiliza estrategias, de manera acompañada, para el consenso, e iniciación en la gestión guiada y dialogada de conflictos, de forma oral, escrita, signada o multimodal, con claridad y adecuación, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello detecta y respeta las emociones de las demás personas, rechazando los usos lingüísticos discriminatorios, aplicando y reflexionando de manera cooperativa y respetuosa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas básicas de convivencia, aplicándolas de forma respetuosa en cualquier contexto próximo. Asimismo tiene en cuenta la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno más inmediato, percibiendo su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Notable": "Planifica y utiliza estrategias con facilidad, de manera acompañada, para el consenso, e iniciación en la gestión guiada y dialogada de conflictos, de forma oral, escrita, signada o multimodal con apropiada claridad y adecuación, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello detecta y respeta con alta conciencia las emociones de las demás personas, rechazando los usos lingüísticos discriminatorios, aplicando y reflexionando de manera cooperativa y respetuosa de forma constante sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas básicas de convivencia, aplicándolas frecuentemente de forma respetuosa en cualquier contexto próximo. Asimismo tiene en cuenta frecuentemente la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno más inmediato, percibiendo con claridad su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Sobresaliente": "Planifica y utiliza estrategias con facilidad destacable, de manera acompañada, para el consenso, e iniciación en la gestión guiada y dialogada de conflictos, de forma oral, escrita, signada o multimodal con gran claridad y adecuación, incluyendo el uso básico de herramientas o plataformas virtuales sencillas. Para ello detecta y respeta con muy alta y plena conciencia las emociones de las demás personas, rechazando los usos lingüísticos discriminatorios, aplicando y reflexionando de manera cooperativa y respetuosa con máxima constancia sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas básicas de convivencia, aplicándolas siempre de forma respetuosa en cualquier contexto próximo. Asimismo tiene en cuenta siempre la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno más inmediato, percibiendo con gran claridad su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Identificar distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias y estableciendo comparaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "pagina_pdf": 212,
+        "descriptores": {
+          "Insuficiente": "1.1 Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos con escasa claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con dificultad especialmente características propias del español de Canarias estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando con poca precisión prejuicios y estereotipos lingüísticos frecuentes lo que lo limita para participar en actividades comunitarias en la toma de decisiones de forma dialogada, entendiendo con dificultad y sin detalle las situaciones históricas y sociales e identificando superficialmente y con errores las diferencias entre distintas culturas con la finalidad de valorar, explora y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Suficiente/Bien": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo especialmente características propias del español de Canarias estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes para participar en actividades comunitarias en la toma de decisiones de forma dialogada, entendiendo las situaciones históricas y sociales e identificando las diferencias entre distintas culturas con la finalidad de valorar, explora y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Notable": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos con claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con facilidad especialmente características propias del español de Canarias estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando con precisión prejuicios y estereotipos lingüísticos frecuentes para participar en actividades comunitarias en la toma de decisiones de forma dialogada, entendiendo con facilidad y detalle las situaciones históricas y sociales e identificando con precisión y sin errores las diferencias entre distintas culturas con la finalidad de valorar, explora y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural.",
+          "Sobresaliente": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos con gran claridad y adecuación sobre distintas lenguas y variedades dialectales presentes en su entorno, reconociendo con destacada facilidad especialmente características propias del español de Canarias estableciendo transferencias sencillas y comparaciones con otras variedades o dialectos, tanto peninsulares como de la América hispanohablante, detectando con mucha precisión prejuicios y estereotipos lingüísticos frecuentes para participar en actividades comunitarias en la toma de decisiones de forma dialogada, entendiendo con bastante facilidad y detalle las situaciones históricas y sociales e identificando con profundidad y sin errores las diferencias entre distintas culturas con la finalidad de valorar, explora y respetar la pluralidad lingüística del entorno como una fuente de riqueza cultural."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos e implícitos de manera individual y cooperativa, dando una opinión razonada sobre el contenido, para responder a diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "pagina_pdf": 214,
+        "descriptores": {
+          "Insuficiente": "Comprende de manera poco precisa y con errores el sentido de textos orales y multimodales sencillos reconociendo con dificultad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con desinterés y con nula iniciativa propia las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales con dificultad, y dando reducida opinión razonada y dialogada sobre el contenido, lo que lo limita para responder a diferentes necesidades comunicativas.",
+          "Suficiente/Bien": "2.1 Comprende el sentido de textos orales y multimodales sencillos reconociendo las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales, y dando una opinión razonada y dialogada sobre el contenido para responder a diferentes necesidades comunicativas.",
+          "Notable": "Comprende de manera precisa y sin errores el sentido de textos orales y multimodales sencillos reconociendo con facilidad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con interés y dedicación las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales con facilidad, y dando detallada opinión razonada y dialogada sobre el contenido para responder a diferentes necesidades comunicativas.",
+          "Sobresaliente": "Comprende de manera muy precisa y sin errores el sentido de textos orales y multimodales sencillos reconociendo con gran facilidad las ideas principales y los mensajes explícitos e implícitos a través de transferencias entre lenguas y utilizando métodos inductivos y deductivos, tanto de manera individual y cooperativa, asumiendo con alto interés y dedicación las responsabilidades individuales asignadas y haciendo uso de herramientas o plataformas virtuales con bastante facilidad, y dando amplia y detallada opinión razonada y dialogada sobre el contenido para responder a diferentes necesidades comunicativas."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto como recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera guiada y coherente, ajustándose a la intencionalidad comunicativa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CC2",
+          "CE1"
+        ],
+        "pagina_pdf": 215,
+        "descriptores": {
+          "Insuficiente": "Produce textos orales y multimodales, utilizando con dificultad tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias, con escasa claridad y adecuación e identificando con dificultad los perfiles lingüístico, utilizando sin sentido ni funcionalidad estrategias y destrezas alternativas y tomando conciencia limitada de las consecuencias que las ideas pudieran generar en el entorno próximo, lo que le impide para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones, iniciándose en la gestión dialogada de conflictos.",
+          "Suficiente/Bien": "Produce textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias, e identificando los perfiles lingüístico, utilizando estrategias y destrezas alternativas y tomando conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias, en la toma de decisiones e iniciándose en la gestión dialogada de conflictos.",
+          "Notable": "Produce textos orales y multimodales, utilizando con facilidad tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias, con claridad y adecuación e identificando con facilidad los perfiles lingüístico, utilizando con sentido y funcionalidad relevantes estrategias y destrezas alternativas y tomando conciencia clara de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones, iniciándose en la gestión dialogada de conflictos.",
+          "Sobresaliente": "Produce textos orales y multimodales, utilizando con destacada facilidad tanto el vocabulario apropiado al contexto próximo como recursos verbales y no verbales, respetando los rasgos del español de Canarias, con gran claridad y adecuación e identificando con facilidad y precisión los perfiles lingüístico, utilizando con sentido y funcionalidad excelentes estrategias y destrezas alternativas y tomando conciencia plena de las consecuencias que las ideas pudieran generar en el entorno próximo para transmitir información sencilla de manera guiada y coherente, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias y en la toma de decisiones, iniciándose en la gestión dialogada de conflictos."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar en interacciones orales espontáneas o planificadas, utilizando métodos y estrategias acordes a cada situación comunicativa, respetando las normas de la cortesía lingüística y desarrollando estrategias de escucha activa para satisfacer diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2"
+        ],
+        "pagina_pdf": 216,
+        "descriptores": {
+          "Insuficiente": "Participa en interacciones orales espontáneas o planificadas con escasa claridad y adecuación en diferentes contextos cotidianos próximos, utilizando de forma irreflexiva métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con limitaciones en estrategias de cortesía lingüística y de escucha activa aún de manera guiada, identificando con dificultad la diversidad de perfiles lingüísticos y con escasa iniciativa para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Suficiente/Bien": "Participa en interacciones orales espontáneas o planificadas en diferentes contextos cotidianos próximos, utilizando métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose en estrategias de cortesía lingüística y de escucha activa de manera guiada, identificando la diversidad de perfiles lingüísticos para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Notable": "Participa en interacciones orales espontáneas o planificadas con claridad y adecuación en diferentes contextos cotidianos próximos, utilizando de forma consciente métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con habilidad en estrategias de cortesía lingüística y de escucha activa de manera guiada, identificando con facilidad la diversidad de perfiles lingüísticos y con iniciativa propia para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Sobresaliente": "Participa en interacciones orales espontáneas o planificadas con gran claridad y adecuación en diferentes contextos cotidianos próximos, utilizando de forma plenamente consciente métodos y estrategias y algunas herramientas digitales, para resolver problemas acordes a cada situación comunicativa, iniciándose con destacada habilidad en estrategias de cortesía lingüística y de escucha activa de manera guiada, identificando con gran facilidad la diversidad de perfiles lingüísticos y con total iniciativa propia para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, y en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura y realizando inferencias para superar la interpretación literal en la comprensión lectora.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 217,
+        "descriptores": {
+          "Insuficiente": "Lee con dificultad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma imprecisa y con errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con problemas significativos lo que lo limita para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Suficiente/Bien": "Lee textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Notable": "Lee con facilidad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma precisa y sin apenas errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con facilidad para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado.",
+          "Sobresaliente": "Lee con destacada facilidad textos escritos y multimodales de manera silenciosa o en voz alta, identificando de forma muy precisa y sin errores el sentido global y la información relevante, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera pautada y transferencias sencillas con gran facilidad para superar la interpretación literal en la comprensión lectora y utilizar métodos de aprendizaje autorregulado."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, iniciándose en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 218,
+        "descriptores": {
+          "Insuficiente": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera poco precisa y con errores significativos, empleando de manera inadecuada algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose pero de forma ineficaz a pesar de la ayuda en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Suficiente/Bien": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales empleando algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Notable": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera precisa y sin apenas errores, empleando de manera efectiva algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda de forma eficaz en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal.",
+          "Sobresaliente": "Analiza y valora el contenido y aspectos no verbales y formales elementales e identifica la diversidad lingüística de textos escritos y multimodales, de manera bastante precisa y sin errores, empleando de manera muy efectiva algunas estrategias sencillas de aprendizaje para resolver problemas, incluidas las digitales, e iniciándose con ayuda de forma altamente eficaz en la evaluación de su calidad y fiabilidad, con el fin de formar personas competentes y autónomas en la lectura y adoptar un punto de vista creativo, y personal."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Producir, de manera guiada, textos escritos y multimodales coherentes, de manera creativa y en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "pagina_pdf": 219,
+        "descriptores": {
+          "Insuficiente": "Produce textos escritos y multimodales incoherentes, con escasa claridad y adecuación de manera creativa y respetuosa con la propiedad intelectual de forma limitada y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas sin la debida observación a los rasgos del español de Canarias y utilizando de manera poco adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con limitaciones para alcanzar el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Produce textos escritos y multimodales coherentes con claridad y adecuación de manera creativa y respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Notable": "Produce textos escritos y multimodales con gran coherencia, claridad y adecuación, de manera creativa y plenamente respetuosa con la propiedad intelectual con frecuencia y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de manera muy adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce textos escritos y multimodales con total coherencia, gran claridad y adecuación, de manera creativa y plenamente respetuosa con la propiedad intelectual siempre y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de manera plenamente adecuada algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Compartir, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, opinando sobre su fiabilidad y pertinencia de manera razonada, así como respetando la propiedad intelectual, recreando la información de manera personal y creativa para construir su propio conocimiento.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "pagina_pdf": 221,
+        "descriptores": {
+          "Insuficiente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado y pautado de búsqueda de información, sin reconocer sus limitaciones y sin saber buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con nula iniciativa propia en la toma de decisiones de forma dialogada y respetuosa y sin analizar el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con dificultad, con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso, de manera ocasional, de estrategias muy sencillas para el tratamiento digital de la información, iniciándose con desinterés, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa su fiabilidad y pertinencia, de manera ineficazmente razonada, recreando en escasas ocasiones la información de manera, crítica, personal y creativa, y sin valorar adecuadamente la propiedad intelectual y los derechos de autoría.",
+          "Suficiente/Bien": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado y pautado de búsqueda de información, comenzando a reconocer sus limitaciones y a saber buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando en la toma de decisiones de forma dialogada y respetuosa y analizando el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso de estrategias sencillas para el tratamiento digital de la información, iniciándose en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo, opina y evalúa su fiabilidad y pertinencia, de manera razonada, recreando la información de manera, crítica, personal y creativa, y valorando la propiedad intelectual y los derechos de autoría.",
+          "Notable": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado y pautado de búsqueda de información, comenzando a reconocer sus limitaciones y sabiendo buscar ayuda regularmente para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con iniciativa propia y motivación en la toma de decisiones de forma dialogada y respetuosa y analizando el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con facilidad, con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso, de manera segura, de estrategias sencillas para el tratamiento digital de la información, iniciándose con compromiso constante, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa, con eficacia, su fiabilidad y pertinencia, de manera razonada, recreando de forma frecuente la información de manera, crítica, personal y creativa, y valorando la propiedad intelectual y los derechos de autoría.",
+          "Sobresaliente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado y pautado de búsqueda de información, comenzando a reconocer sus limitaciones y sabiendo buscar ayuda de forma continua para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con constante iniciativa propia y motivación destacable en la toma de decisiones de forma dialogada y respetuosa y analizando el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con mucha facilidad, con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso, de manera segura y con confianza, de estrategias sencillas para el tratamiento digital de la información, iniciándose con total compromiso, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo opina y evalúa, con destacada eficacia, su fiabilidad y pertinencia, de manera razonada, recreando siempre la información de manera, crítica, personal y creativa, y respetando la propiedad intelectual y los derechos de autoría."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Leer con progresiva autonomía textos de diversa índole, afianzando el uso de estrategias que favorezcan una selección, de manera guiada, que se ajuste a sus gustos, intereses y necesidades con criterio propio, para la construcción y enriquecimiento de su identidad lectora.",
+        "descriptores_operativos": [
+          "CCL4",
+          "CPSAA1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 223,
+        "descriptores": {
+          "Insuficiente": "Lee sin iniciativa propia textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo con ciertas dificultades y mostrando interés de manera ocasional por sus especificidades e intencionalidades, afianzando el uso con dificultad de estrategias que favorezcan una selección, de manera guiada y ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, explicando con consciencia mínima las propias emociones, ideas y comportamientos personales, para la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Suficiente/Bien": "Lee con progresiva autonomía textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo y mostrando interés por sus especificidades e intencionalidades, afianzando el uso de estrategias que favorezcan una selección, de manera guiada y ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, explicando las propias emociones, ideas y comportamientos personales, para la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Notable": "Lee de manera autónoma textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo con corrección en los elementos relevantes y mostrando interés de manera regular y constante por sus especificidades e intencionalidades, afianzando el uso con facilidad de estrategias que favorezcan una selección, de manera guiada y ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, explicando de forma consciente las propias emociones, ideas y comportamientos personales, para la construcción y enriquecimiento de su identidad personal y experiencia lectora.",
+          "Sobresaliente": "Lee de manera autónoma y motivación sostenida textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo con total corrección y precisión y mostrando interés con máxima constancia y determinación por sus especificidades e intencionalidades, afianzando el uso con facilidad destacable de estrategias que favorezcan una selección, de manera guiada y ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, explicando de forma plenamente consciente las propias emociones, ideas y comportamientos personales, para la construcción y enriquecimiento de su identidad personal y experiencia lectora."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Compartir de manera guiada la experiencia de lectura, a través de diferentes técnicas y soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar para disfrutar de la dimensión social de la lectura.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 224,
+        "descriptores": {
+          "Insuficiente": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo de manera superficial la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso de solo ciertas funcionalidades básicas de herramientas o plataformas virtuales. Para ello aprovecha de manera ineficaz y limitada los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar con una actitud abierta e inclusiva, cooperativa y respetuosa, pero de manera ocasional tanto para intercambiar información sencilla y crear conocimiento como para construir vínculos personales, explicando con consciencia mínima las propias emociones, ideas y comportamientos personales y usando, sin precisar el sentido y su funcionalidad, estrategias para gestionarlas en situaciones de tensión.",
+          "Suficiente/Bien": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso de herramientas o plataformas virtuales. Para ello aprovecha los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar con una actitud abierta e inclusiva, cooperativa y respetuosa, tanto para intercambiar información sencilla y crear conocimiento como para construir vínculos personales, explicando las propias emociones, ideas y comportamientos personales y usando estrategias para gestionarlas en situaciones de tensión.",
+          "Notable": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo con profundidad la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso de herramientas o plataformas virtuales de forma progresivamente autónoma. Para ello aprovecha de manera eficaz los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar con una actitud abierta e inclusiva, cooperativa y respetuosa, de forma constante tanto para intercambiar información sencilla y crear conocimiento como para construir vínculos personales, explicando de forma consciente las propias emociones, ideas y comportamientos personales y usando, con sentido y funcionalidad relevantes, estrategias para gestionarlas en situaciones de tensión.",
+          "Sobresaliente": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo con destacable profundidad la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso notablemente autónomo, de herramientas o plataformas virtuales. Para ello aprovecha con gran eficacia los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar con una actitud abierta e inclusiva, cooperativa y respetuosa, con máxima constancia tanto para intercambiar información sencilla y crear conocimiento como para construir vínculos personales, explicando de forma plenamente consciente las propias emociones, ideas y comportamientos personales y usando, con sentido y funcionalidad excelentes, estrategias para gestionarlas en situaciones de tensión."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Escuchar y leer textos literarios, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, relacionándolos, de manera guiada, en función de los temas y los aspectos elementales de cada género literario para interpretarlos y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 226,
+        "descriptores": {
+          "Insuficiente": "Escucha, lee, comprende e interpreta, de manera poco precisa, textos literarios, que abarquen diversidad de autores y autoras, adecuados a su progreso madurativo, seleccionando aquellos que mejor se ajustan a sus gustos e intereses, con la debida atención a muestras de la literatura canaria, relacionándolos, sin coherencia, de manera guiada, en función de los temas y de aspectos elementales de cada género literario para interpretarlos, con dificultad significativa, y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer., interactuando con el entorno y desarrollando sus capacidades afectivas.",
+          "Suficiente/Bien": "Escucha, lee, comprende e interpreta textos literarios, que abarquen diversidad de autores y autoras, adecuados a su progreso madurativo, seleccionando aquellos que mejor se ajustan a sus gustos e intereses, con la debida atención a muestras de la literatura canaria, relacionándolos, de manera guiada, en función de los temas y de aspectos elementales de cada género literario para interpretarlos y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, interactuando con el entorno y desarrollando sus capacidades afectivas.",
+          "Notable": "Escucha, lee, comprende e interpreta, con precisión, textos literarios, que abarquen diversidad de autores y autoras, adecuados a su progreso madurativo, seleccionando aquellos que mejor se ajustan a sus gustos e intereses, con la debida atención a muestras de la literatura canaria, relacionándolos, con coherencia y precisión, de manera guiada, en función de los temas y de aspectos elementales de cada género literario para interpretarlos, con facilidad y corrección, y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, interactuando con el entorno y desarrollando sus capacidades afectivas.",
+          "Sobresaliente": "Escucha, lee, comprende e interpreta, con un alto grado de precisión, textos literarios, que abarquen diversidad de autores y autoras, adecuados a su progreso madurativo, seleccionando aquellos que mejor se ajustan a sus gustos e intereses, con la debida atención a muestras de la literatura canaria, relacionándolos, con máxima coherencia y precisión, de manera guiada, en función de los temas y de aspectos elementales de cada género literario para interpretarlos, con facilidad destacable y total corrección, y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, interactuando con el entorno y desarrollando sus capacidades afectivas."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Producir, de manera guiada, textos individuales o colectivos con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 228,
+        "descriptores": {
+          "Insuficiente": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal, con escasa claridad, de forma creativa, de manera individual o colectiva con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, e indicando y mostrando interés, con ciertas dificultades, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos con limitaciones.",
+          "Suficiente/Bien": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal de forma creativa, de manera individual o colectiva con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando e interesándose por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos.",
+          "Notable": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal, con apropiada claridad, de forma creativa, de manera individual o colectiva con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando e interesándose, con claridad y corrección, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos.",
+          "Sobresaliente": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal, con gran claridad, de forma creativa, de manera individual o colectiva con intención literaria, recreando de manera personal los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando e interesándose, con total corrección y precisión, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir y compartir su interpretación de las obras y para crear textos de intención literaria a partir de modelos sencillos."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Formular, de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras y enunciados, para producir o comprender textos en contextos significativos de manera individual o colectiva.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 229,
+        "descriptores": {
+          "Insuficiente": "Formula, con dificultad significativa, incluso de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias identificando con dificultad la diversidad de perfiles lingüísticos, desarrollando el uso del pensamiento científico para entender y explicar, generando hipótesis, utilizando, de manera pautada, con apoyos y con problemas significativos, algunos métodos inductivos y deductivos y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados, para participar, de manera ocasional, en interacciones comunicativas en contextos cotidianos y para construir conocimiento con actitud cooperativa y respetuosa y producir o comprender textos, con escasa claridad, en contextos significativos de manera individual o colectiva, sin saber buscar ayuda en el proceso de construcción del conocimiento.",
+          "Suficiente/Bien": "Formula, de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias identificando la diversidad de perfiles lingüísticos, desarrollando el uso del pensamiento científico para entender y explicar, generando hipótesis, utilizando, de manera pautada, algunos métodos inductivos y deductivos y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados, para participar en interacciones comunicativas en contextos cotidianos y para construir conocimiento con actitud cooperativa y respetuosa y producir o comprender textos en contextos significativos de manera individual o colectiva, sabiendo buscar ayuda en el proceso de construcción del conocimiento.",
+          "Notable": "Formula, con adecuación, de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias identificando, con facilidad, la diversidad de perfiles lingüísticos, desarrollando el uso del pensamiento científico para entender y explicar, generando hipótesis, utilizando, con ciertas pautas, algunos métodos inductivos y deductivos y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados, para participar, de forma constante, en interacciones comunicativas en contextos cotidianos y para construir conocimiento con actitud cooperativa y respetuosa y producir o comprender textos, con apropiada claridad, en contextos significativos de manera individual o colectiva, sabiendo buscar ayuda, regularmente, en el proceso de construcción del conocimiento.",
+          "Sobresaliente": "Formula, eficientemente, de manera guiada, conclusiones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias identificando, con facilidad destacable, la diversidad de perfiles lingüísticos, desarrollando el uso del pensamiento científico para entender y explicar, generando hipótesis, utilizando, de manera guiada, algunos métodos inductivos y deductivos y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados, para participar, con máxima constancia, en interacciones comunicativas en contextos cotidianos y para construir conocimiento con actitud cooperativa y respetuosa y producir o comprender textos, con gran claridad, en contextos significativos de manera individual o colectiva, sabiendo buscar ayuda, de forma continua, en el proceso de construcción del conocimiento."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Revisar y mejorar, de manera guiada, los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, progresando en la reflexión metalingüística, la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 231,
+        "descriptores": {
+          "Insuficiente": "Revisa y mejora, mostrando inseguridad, incluso de manera guiada, los textos propios y ajenos, desarrollando la participación, de manera ocasional, en interacciones comunicativas cotidianas con actitud cooperativa y respetuosa utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, empleando, de manera inadecuada, algunas estrategias para resolver problemas reflexionando sobre las soluciones obtenidas y subsanando algunos problemas de comprensión lectora y oral, adoptando posturas analíticas, con conciencia mínima, en procesos de reflexión guiados, progresando en la reflexión metalingüística, la terminología adecuada, utilizando, de manera inadecuada, métodos de aprendizaje autorregulado y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, realizar transferencias incoherentes y sencillas entre distintas lenguas para comunicarse en contextos cotidianos de su entorno próximo y ampliar su repertorio lingüístico individual y comunicarse de manera eficaz y competencial.",
+          "Suficiente/Bien": "Revisa y mejora de manera guiada, los textos propios y ajenos, desarrollando la participación en interacciones comunicativas cotidianas con actitud cooperativa y respetuosa, utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, empleando algunas estrategias para resolver problemas reflexionando sobre las soluciones obtenidas y subsanando algunos problemas de comprensión lectora y oral, adoptando posturas analíticas en procesos de reflexión guiados, progresando en la reflexión metalingüística, la terminología adecuada, utilizando métodos de aprendizaje autorregulado y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, realizar transferencias sencillas entre distintas lenguas para comunicarse en contextos cotidianos de su entorno próximo y ampliar su repertorio lingüístico individual y comunicarse de manera eficaz y competencial.",
+          "Notable": "Revisa y mejora, con seguridad y de manera guiada, los textos propios y ajenos, desarrollando la participación, de forma constante, en interacciones comunicativas cotidianas con actitud cooperativa y respetuosa utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, empleando, de forma muy adecuada, algunas estrategias para resolver problemas reflexionando sobre las soluciones obtenidas y subsanando algunos problemas de comprensión lectora y oral, adoptando posturas analíticas, con alta conciencia, en procesos de reflexión guiados, progresando en la reflexión metalingüística, la terminología adecuada, utilizando, con alta adecuación, métodos de aprendizaje autorregulado y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, realizar transferencias coherentes sencillas entre distintas lenguas para comunicarse en contextos cotidianos de su entorno próximo y ampliar su repertorio lingüístico individual y comunicarse de manera eficaz y competencial.",
+          "Sobresaliente": "Revisa y mejora, con seguridad, plena confianza y de manera guiada, los textos propios y ajenos, desarrollando la participación, con plena constancia, en interacciones comunicativas cotidianas con actitud cooperativa y respetuosa utilizando herramientas e instrumentos adecuados, identificando fortalezas y debilidades, empleando, con un alto nivel de adecuación, algunas estrategias para resolver problemas reflexionando sobre las soluciones obtenidas y subsanando algunos problemas de comprensión lectora y oral, adoptando posturas analíticas, con plena conciencia, en procesos de reflexión guiados, progresando en la reflexión metalingüística, la terminología adecuada, utilizando, con excelente adecuación, métodos de aprendizaje autorregulado y apoyándose en los recursos a su alcance para mejorar el uso de la lengua, realizar transferencias coherentes y precisas sencillas, entre distintas lenguas para comunicarse en contextos cotidianos de su entorno próximo y ampliar su repertorio lingüístico individual y comunicarse de manera eficaz y competencial."
+        }
+      },
+      {
+        "criterio": "10.1",
+        "competencia_especifica": "10",
+        "enunciado_criterio": "Planificar y utilizar estrategias, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 233,
+        "descriptores": {
+          "Insuficiente": "Planifica y utiliza estrategias con dificultad, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, incluyendo el uso de solo ciertas funcionalidades básicas de herramientas o plataformas virtuales. Para ello reconoce y respeta aunque con conciencia mínima las emociones de las demás personas, detectando y rechazando con limitaciones los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa y respetuosa de manera ocasional sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas de convivencia, aplicándolas rara vez de forma respetuosa en cualquier contexto. Asimismo tiene en cuenta de manera totalmente inconsciente la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno próximo, sin reconocer su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Suficiente/Bien": "Planifica y utiliza estrategias, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, de forma oral, escrita, signada o multimodal con claridad y adecuación, incluyendo el uso de herramientas o plataformas virtuales. Para ello reconoce y respeta las emociones de las demás personas, detectando y rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa y respetuosa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas de convivencia, aplicándolas de forma respetuosa en cualquier contexto. Asimismo tiene en cuenta la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno próximo, reconociendo su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Notable": "Planifica y utiliza estrategias con facilidad, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, de forma oral, escrita, signada o multimodal con apropiada claridad y adecuación, incluyendo el uso progresivamente autónomo de herramientas o plataformas virtuales. Para ello reconoce y respeta con alta conciencia las emociones de las demás personas, detectando y rechazando con progresiva autonomía los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa y respetuosa de forma constante sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas de convivencia, aplicándolas frecuentemente de forma respetuosa en cualquier contexto. Asimismo tiene en cuenta de manera consciente la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno próximo, reconociendo con claridad y consciencia su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa.",
+          "Sobresaliente": "Planifica y utiliza estrategias con facilidad destacable, de manera guiada, para el consenso y la progresión en la gestión dialogada de conflictos, de forma oral, escrita, signada o multimodal con gran claridad y adecuación, incluyendo el uso notablemente autónomo de herramientas o plataformas virtuales. Para ello reconoce y respeta con muy alta y plena conciencia las emociones de las demás personas, detectando y rechazando con autonomía los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa y respetuosa con máxima constancia sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las reglas de convivencia, aplicándolas siempre de forma respetuosa en cualquier contexto. Asimismo tiene en cuenta con deliberación la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno próximo, reconociendo con gran claridad y consciencia su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad respetuosa."
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Identificar las lenguas de España y distintas variedades dialectales del español, reconociendo especialmente características propias del español de Canarias y estableciendo comparaciones y relaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos frecuentes y entendiendo la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto, con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo como una fuente de riqueza cultural.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP2",
+          "CP3",
+          "CC1",
+          "CC2",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 235,
+        "descriptores": {
+          "Insuficiente": "Identifica y expresa con escasa claridad y adecuación hechos, conceptos, pensamientos, opiniones o sentimientos sobre las lenguas de España y distintas variedades dialectales del español, reconociendo con dificultad especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones y relaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando con poca precisión prejuicios y estereotipos lingüísticos, así como los abusos de poder frecuentes, participando sin iniciativa en actividades comunitarias y en la resolución de los conflictos de forma dialogada y respetuosa, entendiendo con dificultad y sin detalle la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto y comprendiendo superficialmente y con errores las diferencias entre distintas culturas lo que lo limita para alcanzar la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo.",
+          "Suficiente/Bien": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos sobre las lenguas de España y distintas variedades dialectales del español, reconociendo especialmente características propias del español de Canarias estableciendo y transferencias sencillas, comparaciones y relaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando prejuicios y estereotipos lingüísticos, así como los abusos de poder frecuentes, participando en actividades comunitarias y en la resolución de los conflictos de forma dialogada y respetuosa, entendiendo la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto y comprendiendo las diferencias entre distintas culturas con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo.",
+          "Notable": "Identifica y expresa con apropiada claridad y adecuación hechos, conceptos, pensamientos, opiniones o sentimientos sobre las lenguas de España y distintas variedades dialectales del español, reconociendo con facilidad especialmente características propias del español de Canarias, estableciendo transferencias sencillas y comparaciones y relaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando con precisión prejuicios y estereotipos lingüísticos, así como los abusos de poder frecuentes, participando con iniciativa, en actividades comunitarias y en la resolución de los conflictos de forma dialogada y respetuosa, entendiendo con facilidad y con un significativo grado de detalle la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto y comprendiendo con profundidad las diferencias entre distintas culturas con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo.",
+          "Sobresaliente": "Identifica y expresa con gran claridad y adecuación hechos, conceptos, pensamientos, opiniones o sentimientos sobre las lenguas de España y distintas variedades dialectales del español, reconociendo con facilidad destacable especialmente características propias del español de Canarias, y estableciendo transferencias sencillas y comparaciones y relaciones con otros dialectos, tanto peninsulares como de la América hispanohablante, detectando con total precisión prejuicios y estereotipos lingüísticos, así como los abusos de poder frecuentes, participando con constante iniciativa propia en actividades comunitarias y en la resolución de los conflictos de forma dialogada y respetuosa, entendiendo con facilidad destacable y de manera amplia y detallada la vinculación existente entre el acervo histórico y cultural y el desarrollo lingüístico de cada lengua y cada dialecto y comprendiendo con destacable profundidad las diferencias entre distintas culturas con la finalidad de valorar y respetar la pluralidad lingüística del entorno y del mundo."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comprender el sentido de textos orales y multimodales, reconociendo las ideas principales y los mensajes explícitos e implícitos de manera individual y cooperativa, realizando una valoración crítica sobre el contenido e identificando elementos no verbales y formales para responder a diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3",
+          "CC3"
+        ],
+        "pagina_pdf": 237,
+        "descriptores": {
+          "Insuficiente": "Comprende de manera poco precisa y con errores el sentido de textos orales y multimodales sencillos, reconociendo con dificultad las ideas principales y los mensajes explícitos e implícitos, a través de transferencias sencillas entre distintas lenguas y mediante métodos inductivos y deductivos, de manera individual y cooperativa, asumiendo con desinterés y con nula iniciativa propia las responsabilidades asignadas y haciendo uso de herramientas o plataformas virtuales con dificultad, realizando con limitaciones una valoración crítica sobre el contenido, atendiendo con escaso interés a los valores y problemas éticos, e identificando con dificultad elementos no verbales y formales para responder a diferentes necesidades comunicativas en contextos cotidianos y construir conocimiento.",
+          "Suficiente/Bien": "Comprende el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos e implícitos, a través de transferencias sencillas entre distintas lenguas y mediante métodos inductivos y deductivos, de manera individual y cooperativa, asumiendo las responsabilidades asignadas y haciendo uso de herramientas o plataformas virtuales, realizando una valoración crítica sobre el contenido, atendiendo a los valores y problemas éticos, e identificando elementos no verbales y formales, para responder a diferentes necesidades comunicativas en contextos cotidianos y construir conocimiento.",
+          "Notable": "Comprende con precisión el sentido de textos orales y multimodales sencillos, reconociendo con facilidad las ideas principales y los mensajes explícitos e implícitos, a través de transferencias sencillas entre distintas lenguas y mediante métodos inductivos y deductivos, de manera individual y cooperativa, asumiendo con interés y dedicación las responsabilidades asignadas y haciendo uso de herramientas o plataformas virtuales con facilidad, realizando una buena valoración crítica sobre el contenido, atendiendo con interés y dedicación a los valores y problemas éticos, e identificando con facilidad elementos no verbales y formales para responder a diferentes necesidades comunicativas en contextos cotidianos y construir conocimiento.",
+          "Sobresaliente": "Comprende con un alto grado de precisión el sentido de textos orales y multimodales sencillos, reconociendo con gran facilidad las ideas principales y los mensajes explícitos e implícitos, a través de transferencias sencillas entre distintas lenguas y mediante métodos inductivos y deductivos, de manera individual y cooperativa, asumiendo con interés y dedicación constantes las responsabilidades asignadas y haciendo uso de herramientas o plataformas virtuales con gran facilidad, realizando una muy buena valoración crítica sobre el contenido, atendiendo con gran interés y dedicación a los valores y problemas éticos, e identificando con gran facilidad elementos no verbales y formales para responder a diferentes necesidades comunicativas en contextos cotidianos y construir conocimiento."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto como recursos verbales y no verbales, y respetando los rasgos del español de Canarias, para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CC2",
+          "CE1"
+        ],
+        "pagina_pdf": 239,
+        "descriptores": {
+          "Insuficiente": "Produce textos orales y multimodales utilizando con escasa frecuencia, claridad y adecuación el vocabulario apropiado al contexto cotidiano y los recursos verbales y no verbales, respetando los rasgos del español de Canarias y reconociendo con dificultad los perfiles lingüísticos, utilizando con escaso sentido y funcionalidad estrategias y destrezas creativas y sin tomar conciencia de las consecuencias y efectos que las ideas pudieran generar en su entorno personal social y educativo, por lo que tiene limitaciones para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa, y le impide su participación en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Suficiente/Bien": "Produce textos orales y multimodales, utilizando tanto el vocabulario apropiado al contexto cotidiano como recursos verbales y no verbales, respetando los rasgos del español de Canarias y reconociendo los perfiles lingüísticos, utilizando estrategias y destrezas creativas y tomando conciencia de las consecuencias y efectos que las ideas pudieran generar en su entorno personal social y educativo, para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Notable": "Produce textos orales y multimodales, utilizando con frecuencia, claridad y adecuación tanto el vocabulario apropiado al contexto cotidiano como recursos verbales y no verbales, respetando los rasgos del español de Canarias y reconociendo con facilidad los perfiles lingüísticos, utilizando con un sentido y una funcionalidad relevantes estrategias y destrezas creativas y tomando conciencia de las consecuencias y efectos que las ideas pudieran generar en su entorno personal social y educativo, para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Sobresaliente": "Produce textos orales y multimodales, utilizando siempre, y con gran claridad y adecuación tanto el vocabulario apropiado al contexto cotidiano como recursos verbales y no verbales, respetando los rasgos del español de Canarias y reconociendo con facilidad destacable los perfiles lingüísticos, utilizando con un sentido y una funcionalidad excelentes estrategias y destrezas creativas y tomando conciencia de las consecuencias y efectos que las ideas pudieran generar en su entorno personal social y educativo, para transmitir información de manera autónoma, coherente y fluida, ajustándose a la intencionalidad comunicativa y participando en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar en interacciones orales espontáneas o planificadas utilizando métodos y estrategias acordes a cada situación comunicativa, respetando las normas de la cortesía lingüística y desarrollando estrategias de escucha activa y de cooperación conversacional para satisfacer diferentes necesidades comunicativas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CC2"
+        ],
+        "pagina_pdf": 240,
+        "descriptores": {
+          "Insuficiente": "Participa en interacciones orales espontáneas o planificadas con escasa claridad y adecuación, utilizando de forma irreflexiva métodos, estrategias y herramientas y contenidos digitales en distintos formatos para resolver problemas acordes a cada situación comunicativa, respetando de manera ocasional las normas de la cortesía lingüística y con limitaciones en el desarrollo de estrategias de escucha activa y de cooperación conversacional, reconociendo con dificultad la diversidad de perfiles lingüísticos lo que le impide para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Suficiente/Bien": "Participa en interacciones orales espontáneas o planificadas con claridad y adecuación utilizando métodos, estrategias, herramientas y contenidos digitales en distintos formatos para resolver problemas acordes a cada situación comunicativa, respetando las normas de la cortesía lingüística y desarrollando estrategias de escucha activa y de cooperación conversacional, reconociendo la diversidad de perfiles lingüísticos para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Notable": "Participa en interacciones orales espontáneas o planificadas con gran claridad y adecuación, utilizando de forma consciente métodos, estrategias, herramientas y contenidos digitales en distintos formatos para resolver problemas acordes a cada situación comunicativa, respetando de forma frecuente las normas de la cortesía lingüística y desarrollando con progresiva autonomía estrategias de escucha activa y de cooperación conversacional, reconociendo con facilidad la diversidad de perfiles lingüísticos para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa.",
+          "Sobresaliente": "Participa en interacciones orales espontáneas o planificadas con total claridad y adecuación, utilizando de forma plenamente consciente métodos, estrategias, herramientas y contenidos digitales en distintos formatos para resolver problemas acordes a cada situación comunicativa, respetando siempre las normas de la cortesía lingüística y desarrollando con autonomía estrategias de escucha activa y de cooperación conversacional, reconociendo con destacada facilidad la diversidad de perfiles lingüísticos para satisfacer diferentes necesidades comunicativas y participar en actividades comunitarias, en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Leer textos escritos y multimodales de manera silenciosa o en voz alta, identificando el sentido global y la información relevante, utilizando estrategias de comprensión antes, durante y después de la lectura y realizando inferencias para superar la interpretación literal en la comprensión lectora.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 241,
+        "descriptores": {
+          "Insuficiente": "Lee sin iniciativa textos escritos y multimodales sencillos de manera silenciosa o en voz alta, procedentes de dos o más fuentes, identificando el sentido global y seleccionando y contrastando la información relevante, con dificultad, aun con el debido acompañamiento, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias de manera guiada y transferencias sencillas entre distintas lenguas con problemas significativos, lo que lo limita para superar la interpretación literal en la comprensión lectora y utilizar de manera adecuada estrategias de aprendizaje autorregulado.",
+          "Suficiente/Bien": "Lee textos escritos y multimodales sencillos de manera silenciosa o en voz alta, procedentes de dos o más fuentes, identificando el sentido global y seleccionando y contrastando la información relevante, con el debido acompañamiento, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias y transferencias sencillas entre distintas lenguas para superar la interpretación literal en la comprensión lectora y utilizar estrategias de aprendizaje autorregulado.",
+          "Notable": "Lee con iniciativa textos escritos y multimodales sencillos de manera silenciosa o en voz alta, procedentes de dos o más fuentes; identificando el sentido global y seleccionando y contrastando la información relevante, con facilidad, con el debido acompañamiento, utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias y transferencias sencillas entre distintas lenguas de forma correcta para superar la interpretación literal en la comprensión lectora y utilizar estrategias de aprendizaje autorregulado.",
+          "Sobresaliente": "Lee con iniciativa y autonomía textos escritos y multimodales sencillos de manera silenciosa o en voz alta, procedentes de dos o más fuentes, identificando, el sentido global y seleccionando y contrastando la información relevante, con mucha facilidad y solvencia, con el debido acompañamiento, y utilizando estrategias sencillas, incluidas las digitales, de comprensión antes, durante y después de la lectura y realizando inferencias y transferencias sencillas entre distintas lenguas con gran corrección para superar la interpretación literal en la comprensión lectora y utilizar estrategias de aprendizaje autorregulado."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Analizar y valorar el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, evaluando su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con el fin de formar personas competentes y autónomas en la lectura.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CCL5",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 242,
+        "descriptores": {
+          "Insuficiente": "Analiza y valora con imprecisión el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, y reconoce con dificultad la diversidad lingüística de textos escritos y multimodales, aun con acompañamiento puntual, empleando de forma poco adecuada algunas estrategias de aprendizaje para resolver problemas, incluidas las digitales, evaluando de manera ineficaz su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con un punto de vista creativo y personal a la par que respetuoso con la propiedad intelectual.",
+          "Suficiente/Bien": "Analiza y valora el contenido y aspectos no verbales y formales elementales, y reconoce la diversidad lingüística de textos escritos y multimodales, con acompañamiento puntual, empleando algunas estrategias de aprendizaje para resolver problemas, incluidas las digitales, evaluando su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con el fin de formar personas competentes y autónomas en la lectura con un punto de vista creativo y personal a la par que respetuoso con la propiedad intelectual.",
+          "Notable": "Analiza y valora con precisión el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, y reconoce con facilidad la diversidad lingüística de textos escritos y multimodales, con acompañamiento puntual, empleando de forma muy adecuada estrategias variadas de aprendizaje para resolver problemas, incluidas las digitales, evaluando con eficacia su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con el fin de formar personas competentes y autónomas en la lectura con un punto de vista creativo y personal a la par que respetuoso con la propiedad intelectual.",
+          "Sobresaliente": "Analiza y valora con un alto grando de precisión el contenido y aspectos no verbales y formales elementales de textos escritos y multimodales, y reconoce con facilidad destacable la diversidad lingüística de textos escritos y multimodales, con acompañamiento puntual, empleando de forma plenamente adecuada diferentes estrategias de aprendizaje para resolver problemas, incluidas las digitales, evaluando con destacada eficacia su calidad, su fiabilidad y su idoneidad en función del propósito de lectura, con el fin de formar personas competentes y autónomas en la lectura con un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Producir textos escritos y multimodales coherentes, de manera creativa y en distintos soportes, conociendo los riesgos de la difusión del contenido en entornos digitales, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias, y utilizando estrategias de planificación, redacción, revisión y edición, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CCL5",
+          "STEM1",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2"
+        ],
+        "pagina_pdf": 243,
+        "descriptores": {
+          "Insuficiente": "Produce textos escritos y multimodales incoherentes, con escasa claridad y adecuación de manera creativa y respetuosa con la propiedad intelectual de forma limitada y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma básica, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas sin la debida observación a los rasgos del español de Canarias y utilizando de manera irreflexiva algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando con escasa iniciativa en procesos de auto y coevaluación, y sin el reconociendo de sus limitaciones, lo que impide alcanzar el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emocion al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Produce textos escritos y multimodales coherentes, con claridad y adecuación de manera creativa y respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando algunas estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando en procesos de auto y coevaluación, reconociendo sus limitaciones, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emociones, y poner sus prácticas comunicativas al servicio de la convivencia democrática, participando así en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Notable": "Produce textos escritos y multimodales coherentes, con apropiada claridad y adecuación y de manera creativa y respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma puntual, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de forma consciente algunas estrategias variadas de resolución de problemas de planificación, redacción, revisión y edición, participando con iniciativa propia en procesos de auto y coevaluación, reconociendo sus limitaciones, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emocion al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce textos escritos y multimodales coherentes, con gran claridad y adecuación y de manera creativa y respetuosa con la propiedad intelectual y en distintos soportes, y formatos, conociendo los riesgos de la difusión del contenido en entornos digitales de forma autónoma, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, aplicando las normas gramaticales y ortográficas con la debida observación a los rasgos del español de Canarias y utilizando de forma plenamente consciente diferentes estrategias de resolución de problemas de planificación, redacción, revisión y edición, participando con constante iniciativa propia en procesos de auto y coevaluación, reconociendo sus limitaciones, con el objetivo de transmitir información y comunicar conocimientos, pensamientos, experiencias y emocion al servicio de la convivencia democrática, participando en actividades o proyectos, escolares o comunitarios, con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Compartir, utilizando diferentes lenguajes, los resultados de un proceso pautado de búsqueda de información sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa, que implique la localización, la selección y el contraste de información procedente de distintas fuentes, incluidas las digitales, evaluando su fiabilidad y pertinencia, recreando la información de manera creativa, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico, así como respetuoso con la propiedad intelectual para construir su propio conocimiento.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC2",
+          "CE3"
+        ],
+        "pagina_pdf": 245,
+        "descriptores": {
+          "Insuficiente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información, con escaso o nulo reconocimiento de sus limitaciones y sin saber buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con escasa iniciativa propia en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa y sin valorar el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con dificultades incluso con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso con escasa seguridad de estrategias sencillas para el tratamiento digital de la información, iniciándose de manera intermitente o con desinterés en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo evalúa, de manera ineficaz su fiabilidad y pertinencia, recreando, en escasas ocasiones la información de manera creativa, crítica y personal, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico, poco reflexivo o pasivo sobre los contenidos obtenidos, siendo parcialmente y de manera ocasional respetuoso con la propiedad intelectual y los derechos de autoría de los contenidos que reutiliza.",
+          "Suficiente/Bien": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información, reconociendo sus limitaciones y sabiendo buscar ayuda para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa y valorando el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso de estrategias sencillas para el tratamiento digital de la información, iniciándose en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo evalúa su fiabilidad y pertinencia, recreando la información de manera creativa, crítica y personal, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico sobre los contenidos obtenidos, siendo respetuoso con la propiedad intelectual y los derechos de autoría de los contenidos que reutiliza.",
+          "Notable": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información, reconociendo sus limitaciones y buscando ayuda, regularmente, para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con iniciativa propia y motivación sostenida en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa y valorando de manera coherente el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con facilidad, aunque con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso con seguridad de estrategias sencillas para el tratamiento digital de la información, iniciándose, con compromiso sostenido, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo evalúa, con eficacia su fiabilidad y pertinencia, recreando, de forma frecuente la información de manera creativa, crítica y personal, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico, sobre los contenidos obtenidos, así como respetuoso, de manera consciente, con la propiedad intelectual y los derechos de autoría de los contenidos que reutiliza.",
+          "Sobresaliente": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado de búsqueda de información, reconociendo sus limitaciones y saber buscar ayuda, de forma continua, para construir su propio conocimiento, sobre diferentes temas de interés personal o ecosocial, realizado de manera individual y cooperativa participando con iniciativa propia y motivación sostenida y destacable en la toma de decisiones y en la resolución de los conflictos de forma dialogada y respetuosa y valorando de manera coherente y consistente el proceso realizado y el resultado obtenido, que implique la localización, la selección y el contraste, con mucha facilidad y solvencia, aunque con el debido acompañamiento, de información sencilla procedente de dos o más fuentes, incluidas las digitales. Para ello hace uso con alta seguridad de estrategias sencillas para el tratamiento digital de la información, iniciándose con notable compromiso en la adopción de hábitos de uso crítico, seguro, saludable y sostenible de dichas tecnologías. Asimismo evalúa, con destacada eficacia su fiabilidad y pertinencia, recreando, siempre la información de manera creativa, crítica y personal, reconociendo y evitando los riesgos de la manipulación y la desinformación, y adoptando un punto de vista crítico, sobre los contenidos obtenidos, fomentando el respeto de la propiedad intelectual y los derechos de autoría de los contenidos que reutiliza."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Leer textos de diversa índole, usando estrategias que favorezcan una selección ajustada a sus gustos, intereses y necesidades con criterio propio, para progresar en la construcción y enriquecimiento de su identidad lectora.",
+        "descriptores_operativos": [
+          "CCL4",
+          "CPSAA1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 247,
+        "descriptores": {
+          "Insuficiente": "Lee, sin iniciativa propia, textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario reconociendo con ciertas dificultades e interesándose de manera ocasional por sus especificidades e intencionalidades, usando con dificultad estrategias que favorezcan una selección ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, siendo mínimamente consciente de las propias emociones, ideas y comportamientos personales, para progresar en la construcción y enriquecimiento de su identidad personal y lectora.",
+          "Suficiente/Bien": "Lee textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario reconociendo e interesándose por sus especificidades e intencionalidades usando, estrategias que favorezcan una selección ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, siendo consciente de las propias emociones, ideas y comportamientos personales para progresar en la construcción y enriquecimiento de su identidad personal y lectora.",
+          "Notable": "Lee, con iniciativa propia y motivación sostenida, textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo con corrección e interesándose, de manera regular y constante, por sus especificidades e intencionalidades, usando con facilidad estrategias que favorezcan una selección ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, siendo altamente consciente de las propias emociones, ideas y comportamientos personales, para progresar en la construcción y enriquecimiento de su identidad personal y lectora.",
+          "Sobresaliente": "Lee, con iniciativa propia y motivación sostenida y destacable, textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio cultural, artístico y literario, reconociendo con total corrección y precisión e interesándose con máxima constancia y determinación por sus especificidades e intencionalidades, usando con facilidad destacable estrategias que favorezcan una selección ajustada a sus gustos, intereses, progreso madurativo y necesidades con criterio propio, siendo plenamente consciente de las propias emociones, ideas y comportamientos personales, para progresar en la construcción y enriquecimiento de su identidad personal y lectora."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Compartir la experiencia de lectura, a través de diferentes técnicas y soportes, aprovechando los recursos que tiene a su alcance y participando en comunidades lectoras en el ámbito escolar o social para disfrutar de la dimensión social de la lectura.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL4",
+          "CD3",
+          "CPSAA1",
+          "CC3",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 248,
+        "descriptores": {
+          "Insuficiente": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo con escasa profundidad la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso básico de herramientas o plataformas virtuales. Para ello aprovecha de manera ineficaz y limitada los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar o social con una actitud abierta e inclusiva, cooperativa y respetuosa, pero de manera ocasional, tanto para intercambiar información y crear conocimiento como para construir vínculos personales, siendo mínimamente consciente de las propias emociones, ideas y comportamientos personales y empleando, sin precisar el sentido y su funcionalidad, estrategias para gestionarlas en situaciones de tensión o conflicto.",
+          "Suficiente/Bien": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso de herramientas o plataformas virtuales. Para ello aprovecha los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar o social con una actitud abierta e inclusiva, cooperativa y respetuosa, tanto para intercambiar información y crear conocimiento como para construir vínculos personales, siendo consciente de las propias emociones, ideas y comportamientos personales y empleando estrategias para gestionarlas en situaciones de tensión o conflicto.",
+          "Notable": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo con destacable profundidad la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso avanzado de herramientas o plataformas virtuales. Para ello aprovecha de manera regular y constante los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar o social con una actitud abierta e inclusiva, cooperativa y respetuosa de forma habitual y activa, tanto para intercambiar información y crear conocimiento como para construir vínculos personales, siendo altamente consciente de las propias emociones, ideas y comportamientos personales y empleando con un sentido y una funcionalidad relevantes estrategias para gestionarlas en situaciones de tensión o conflicto.",
+          "Sobresaliente": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaciones artísticas y culturales más destacadas del patrimonio, para disfrutar de la dimensión social de la lectura y como fuente de aprendizaje individual y colectivo, comprendiendo con destacable profundidad y aplicando un elevado pensamiento abstracto la necesidad de respetar diferentes culturas y creencias, a través de diferentes técnicas y soportes, y el uso avanzado y notablemente autónomo de herramientas o plataformas virtuales. Para ello aprovecha con máxima constancia y determinación los recursos que tiene a su alcance y participa en comunidades lectoras en el ámbito escolar o social con una actitud abierta e inclusiva, cooperativa y respetuosa, de forma constante y activamente, tanto para intercambiar información y crear conocimiento como para construir vínculos personales, siendo plenamente consciente de las propias emociones, ideas y comportamientos personales y empleando con un sentido y una funcionalidad excelentes estrategias para gestionarlas en situaciones de tensión o conflicto."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Escuchar y leer textos literarios, que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria, relacionándolos, de manera autónoma, en función de los temas y los aspectos elementales de cada género literario para interpretarlos, valorarlos y relacionarlos con otras manifestaciones artísticas o culturales en la búsqueda del reconocimiento de la lectura literaria como fuente de placer.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 250,
+        "descriptores": {
+          "Insuficiente": "Escucha y lee, sin iniciativa propia, textos literarios, adecuados a su progreso madurativo, para interpretarlos, comprenderlos, valorarlos, de manera poco precisa y con errores significativos, y relacionarlos de manera autónoma, pero con incoherencias y dificultad significativa, con otras manifestaciones artísticas o culturales en función de los temas y de aspectos elementales de cada género literario, seleccionando aquellas que mejor se ajustan a sus gustos e intereses y que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria. Reconoce, con ciertas dificultades, y se interesa, de manera ocasional, por sus especificidades e intencionalidades, en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, comprendiendo, superficialmente, las diferencias entre las distintas culturas y la necesidad de respetarlas y como aprendizaje individual y colectivo, desarrollando, con dificultades, sus capacidades afectivas e interactuando, con dudas importantes, con el entorno.",
+          "Suficiente/Bien": "Escucha y lee, textos literarios, adecuados a su progreso madurativo, para interpretarlos, comprenderlos, valorarlos, y relacionarlos de manera autónoma con otras manifestaciones artísticas o culturales en función de los temas y de aspectos elementales de cada género literario, seleccionando aquellas que mejor se ajustan a sus gustos e intereses y que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria. Reconoce y se interesa, por sus especificidades e intencionalidades, en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, comprendiendo, las diferencias entre las distintas culturas y la necesidad de respetarlas y como aprendizaje individual y colectivo, desarrollando sus capacidades afectivas e interactuando con el entorno.",
+          "Notable": "Escucha y lee, textos literarios, adecuados a su progreso madurativo, para interpretarlos, comprenderlos, valorarlos, con precisión, y relacionarlos de manera autónoma, con coherencia, corrección y precisión, con otras manifestaciones artísticas o culturales en función de los temas y de aspectos elementales de cada género literario, seleccionando aquellas que mejor se ajustan a sus gustos e intereses y que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria. Reconoce, con corrección, y se interesa, de manera regular y constante, por sus especificidades e intencionalidades, en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, comprendiendo, de manera clara, las diferencias entre las distintas culturas y la necesidad de respetarlas y como aprendizaje individual y colectivo, desarrollando, con fluidez, sus capacidades afectivas e interactuando, de manera segura y confiada, con el entorno.",
+          "Sobresaliente": "Escucha y lee, con cierto grado de autonomía, textos literarios, adecuados a su progreso madurativo, para interpretarlos, comprenderlos, valorarlos, con un alto grado de precisión, y relacionarlos de manera autónoma, con máxima coherencia, total corrección y precisión, con otras manifestaciones artísticas o culturales en función de los temas y de aspectos elementales de cada género literario, seleccionando aquellas que mejor se ajustan a sus gustos e intereses y que abarquen diversidad de autores y autoras, con la debida atención a muestras de la literatura canaria. Reconoce, con total corrección y precisión, y se interesa, de máxima constancia y determinación, por sus especificidades e intencionalidades, en la búsqueda del reconocimiento de la lectura literaria como fuente de placer, comprendiendo, con destacable profundidad, las diferencias entre las distintas culturas y la necesidad de respetarlas y como aprendizaje individual y colectivo, desarrollando con constante fluidez sus capacidades afectivas e interactuando, con total confianza, con el entorno."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Producir, de manera autónoma, textos individuales o colectivos, con intención literaria, reelaborando con creatividad los modelos dados en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL4",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 252,
+        "descriptores": {
+          "Insuficiente": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando, con ciertas dificultades, e interesándose, de manera ocasional, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir conocimiento y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos, con limitaciones.",
+          "Suficiente/Bien": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal con claridad y adecuación, con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando e interesándose por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir conocimiento y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos.",
+          "Notable": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal con apropiada claridad y adecuación, con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando, con claridad y corrección, e interesándose, de manera regular y constante, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir conocimiento y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos.",
+          "Sobresaliente": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos, conceptos, pensamientos, opiniones o sentimientos de forma oral, escrita, signada o multimodal con gran claridad y adecuación, con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos, con la finalidad de mejorar la capacidad expresiva a través de recursos literarios, y reconociendo, apreciando, con total corrección y precisión, e interesándose, con máxima constancia y determinación, por los aspectos fundamentales del patrimonio cultural y artístico y sus especificidades e intencionalidades para construir conocimiento y compartir su interpretación de las obras y para crear textos breves de intención literaria a partir de modelos sencillos."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Establecer generalizaciones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para producir o comprender textos en contextos significativos de manera individual o colectiva.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 253,
+        "descriptores": {
+          "Insuficiente": "Establece generalizaciones, con escasa precisión, sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, utilizando, de manera guiada, y con problemas significativos, el pensamiento científico y algunos métodos inductivos y deductivos, que le limitan la realización de transferencias sencillas entre distintas lenguas para comunicarse, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para expresar hechos, conceptos, pensamientos, opiniones o sentimientos, con escasa claridad, y producir o comprender textos de forma oral, escrita, signada o multimodal, con claridad y adecuación en contextos significativos de manera individual o colectiva y participar activamente en contextos cotidianos, sin saber buscar ayuda en el proceso de construcción del conocimiento.",
+          "Suficiente/Bien": "Establece generalizaciones sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, utilizando, de manera guiada, el pensamiento científico y algunos métodos inductivos y deductivos, realizando transferencias sencillas entre distintas lenguas para comunicarse, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para expresar hechos, conceptos, pensamientos, opiniones o sentimientos y producir o comprender textos de forma oral, escrita, signada o multimodal, con claridad y adecuación en contextos significativos de manera individual o colectiva y participar activamente en contextos cotidianos, sabiendo buscar ayuda en el proceso de construcción del conocimiento.",
+          "Notable": "Establece generalizaciones, con corrección y precisión, sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, utilizando, con guías puntuales, el pensamiento científico y algunos métodos inductivos y deductivos, realizando transferencias sencillas entre distintas lenguas para comunicarse, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para expresar hechos, conceptos, pensamientos, opiniones o sentimientos, con apropiada claridad, y producir o comprender textos de forma oral, escrita, signada o multimodal, con claridad y adecuación en contextos significativos de manera individual o colectiva y participar activamente en contextos cotidianos, sabiendo buscar ayuda regularmente en el proceso de construcción del conocimiento.",
+          "Sobresaliente": "Establece generalizaciones, con alta precisión y corrección, sobre aspectos del funcionamiento de la lengua, con la debida atención al español de Canarias, utilizando, de manera autónoma, de manera guiada, el pensamiento científico y algunos métodos inductivos y deductivos, realizando transferencias sencillas entre distintas lenguas para comunicarse, generando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, para expresar hechos, conceptos, pensamientos, opiniones o sentimientos, con gran claridad, y producir o comprender textos de forma oral, escrita, signada o multimodal, con claridad y adecuación en contextos significativos de manera individual o colectiva y participar activamente en contextos cotidianos, sabiendo buscar ayuda, de forma continua, en el proceso de construcción del conocimiento."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Revisar y mejorar los textos propios y ajenos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, profundizando en la reflexión metalingüística, usando la terminología adecuada y apoyándose en los recursos a su alcance para mejorar el uso de la lengua y comunicarse de manera eficaz y competencial.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 255,
+        "descriptores": {
+          "Insuficiente": "Revisa y mejora comprendiendo, interpretando y valorando, de manera poco precisa y con errores significativos, textos orales, escritos, signados o multimodales sencillos propios y ajenos, planteándose preguntas de forma guiada, con errores significativos, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, empleando, de manera poco adecuada, algunas estrategias para resolver problema, profundizando en la reflexión metalingüística, adoptando posturas críticas, con conciencia mínima, en procesos de auto y coevaluación y de reflexión guiados usando la terminología adecuada y apoyándose en los recursos a su alcance para intercambiar información y crear conocimiento mejorar el uso de la lengua y comunicarse en contextos cotidianos y ampliar su repertorio lingüístico individual, de manera eficaz y competencial.",
+          "Suficiente/Bien": "Revisa y mejora comprendiendo, interpretando y valorando textos orales, escritos, signados o multimodales sencillos propios y ajenos, planteándose preguntas de forma guiada, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, empleando algunas estrategias para resolver problemas profundizando en la reflexión metalingüística, adoptando posturas críticas en procesos de auto y coevaluación y de reflexión guiados usando la terminología adecuada y apoyándose en los recursos a su alcance para intercambiar información y crear conocimiento mejorar el uso de la lengua y comunicarse en contextos cotidianos y ampliar su repertorio lingüístico individual. de manera eficaz y competencial.",
+          "Notable": "Revisa y mejora comprendiendo, interpretando y valorando, con precisión, textos orales, escritos, signados o multimodales sencillos propios y ajenos, planteándose preguntas de complejidad creciente de forma guiada, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, empleando algunas estrategias variadas para resolver problemas, profundizando en la reflexión metalingüística, adoptando posturas críticas, con alta conciencia, en procesos de auto y coevaluación y de reflexión guiados usando la terminología adecuada y apoyándose en los recursos a su alcance para intercambiar información y crear conocimiento mejorar el uso de la lengua y comunicarse en contextos cotidianos y ampliar su repertorio lingüístico individual. de manera eficaz y competencial.",
+          "Sobresaliente": "Revisa y mejora comprendiendo, interpretando y valorando, con un alto grado de precisión, textos orales, escritos, signados o multimodales sencillos propios y ajenos, planteándose preguntas más específicas y complejas de forma guiada, identificando fortalezas y debilidades, y subsanando algunos problemas de comprensión lectora y oral, empleando diferentes estrategias para resolver problemas,, profundizando en la reflexión metalingüística, adoptando posturas críticas, con plena conciencia, en procesos de auto y coevaluación y de reflexión guiados usando la terminología adecuada y apoyándose en los recursos a su alcance para intercambiar información y crear conocimiento mejorar el uso de la lengua y comunicarse en contextos cotidianos y ampliar su repertorio lingüístico individual. de manera eficaz y competencial."
+        }
+      },
+      {
+        "criterio": "10.1",
+        "competencia_especifica": "10",
+        "enunciado_criterio": "Planificar y utilizar estrategias, de manera autónoma, para la deliberación argumentada y la gestión dialogada de conflictos, rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa sobre distintos aspectos verbales y no verbales que rigen la comunicación, teniendo en cuenta la perspectiva de género y las diferencias culturales para contribuir a una sociedad respetuosa.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 256,
+        "descriptores": {
+          "Insuficiente": "Planifica y utiliza, con dificultad, estrategias básicas para la deliberación argumentada y la gestión dialogada y respetuosa de conflictos, de forma oral, escrita, signada o multimodal, con escasa claridad y adecuación , incluyendo el uso, con dificultad, de herramientas o plataformas virtuales. Para ello reconoce y respeta, pero con conciencia mínima las emociones y experiencias de las demás personas, detectando y rechazando con limitaciones los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando ineficaz y limitadamente de manera cooperativa y de manera ocasional de forma respetuosa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las normas de convivencia, aplicándolas rara vez de manera constructiva, dialogante e inclusiva en cualquier contexto. Asimismo tiene en cuenta con conciencia mínima la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno, sin reconocer y comprender en profundidad su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad tolerante y respetuosa.",
+          "Suficiente/Bien": "Planifica y utiliza estrategias básicas para la deliberación argumentada y la gestión dialogada y respetuosa de conflictos, de forma oral, escrita, signada o multimodal, con claridad y adecuación, incluyendo el uso de herramientas o plataformas virtuales. Para ello reconoce y respeta las emociones y experiencias de las demás personas, detectando y rechazando los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa y respetuosa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las normas de convivencia, aplicándolas de manera constructiva, dialogante e inclusiva en cualquier contexto. Asimismo tiene en cuenta la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno, reconociendo y comprendiendo su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad tolerante y respetuosa.",
+          "Notable": "Planifica y utiliza, con facilidad, estrategias básicas para la deliberación argumentada y la gestión dialogada y respetuosa de conflictos, de forma oral, escrita, signada o multimodal, con apropiada claridad y adecuación, incluyendo el uso avanzado de herramientas o plataformas virtuales. Para ello reconoce y respeta con alta conciencia las emociones y experiencias de las demás personas, detectando y rechazando con precisión los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando de manera cooperativa de forma activa y respetuosa de forma constante sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las normas de convivencia, aplicándolas frecuentemente de manera constructiva, dialogante e inclusiva en cualquier contexto. Asimismo tiene en cuenta con deliberación la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno, reconociendo y comprendiendo de forma consciente su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad tolerante y respetuosa.",
+          "Sobresaliente": "Planifica y utiliza, con facilidad destacable, estrategias básicas para la deliberación argumentada y la gestión dialogada y respetuosa de conflictos, de forma oral, escrita, signada o multimodal, con gran claridad y adecuación, incluyendo el uso avanzado de herramientas o plataformas virtuales. Para ello reconoce y respeta con muy alta y plena conciencia las emociones y experiencias de las demás personas, detectando y rechazando con total precisión los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, reflexionando activamente de manera cooperativa y con máxima constancia de forma respetuosa sobre distintos aspectos verbales y no verbales que rigen la comunicación, y sobre las normas de convivencia, aplicándolas siempre de manera constructiva, dialogante e inclusiva en cualquier contexto. Asimismo tiene en cuenta con conciencia crítica la perspectiva e igualdad de género, la cohesión social, los Objetivos de Desarrollo Sostenible y las diferencias lingüísticas, culturales y creencias presentes en su entorno, reconociendo y comprendiendo con plena consciencia su valor como factor de diálogo y la necesidad de respetarlas, para contribuir a una sociedad tolerante y respetuosa."
+        }
+      }
+    ]
+  }
+}

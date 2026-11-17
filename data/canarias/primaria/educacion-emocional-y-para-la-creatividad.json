@@ -341,14 +341,476 @@
     }
   },
   "pendiente": [
-    "Enunciado de C4: la extracción dice \"la utilización múltiples lenguajes\" (sin \"de\"); comprobar si es así en el BOC.",
-    "Saberes básicos por ciclo (bloques I a V): no transcritos; el decreto no los vincula criterio a criterio.",
-    "Saberes básicos por bloque y ciclo sin extraer",
-    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
+    "Enunciado de C4: la extracción dice \"la utilización múltiples lenguajes\" (sin \"de\"); comprobar si es así en el BOC."
   ],
   "cotejo": {
     "fecha": "2026-11-17",
     "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
-    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)",
+    "fase2": {
+      "fecha": "2026-11-17",
+      "metodo": "tools/extraer_saberes_canarias.py sobre pdftotext -layout del PDF oficial",
+      "saberes": "literales, por ciclo y bloque, con la numeración del BOC",
+      "bloques": "explicación del bloque competencial literal, por ciclo",
+      "descriptores": "0 corregidos; el resto coincide con la columna de descriptores del PDF",
+      "enunciados": "cada enunciado de competencia coincide con el del bloque competencial de cada ciclo",
+      "descriptores_corregidos": []
+    }
+  },
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones.",
+        "items": [
+          "1. Percepción de sensaciones y emociones propias, según diversas cualidades de estas (agradables o desagradables; duración mantenida…), a través de lenguajes multimodales.",
+          "2. Observación e identificación, con acompañamiento, a partir de gestos, miradas, respiración, desplazamiento…, en relación con determinadas situaciones espontáneas.",
+          "3. Identificación de sus emociones en relación con el suceso desencadenante en contextos de su vida diaria, a través de experiencias vivenciadas en el aula con diferentes juegos y lenguajes multimodales.",
+          "4. Adquisición de vocabulario relacionado con sensaciones: respiración pausada-agitada, gestos faciales tensos-relajados, manos sudorosas-secas, agitación-relajación corporal, mirada serena-inquieta…, con la finalidad de expresarnos.",
+          "5. Comunicación de las propias sensaciones, a través de la utilización de la expresión lingüística, cultural, artística creativa, corporal…, proporcionando múltiples formas de implicación, representación y expresión, con el fin de tener una mayor conciencia de nuestras sensaciones.",
+          "6. Experimentación con herramientas y estrategias de autoconocimiento emocional que faciliten habilidades que permitan al alumnado (mediante la simulación y el juego en diferentes contextos de la vida escolar), reconocer eficazmente sus emociones.",
+          "7. Vivenciar sus emociones de manera efectiva y adaptativa, a través de experiencias de juego en el ámbito escolar con la finalidad de reconocerlas y aceptarlas."
+        ]
+      },
+      {
+        "bloque": "II. Autorregulación emocional responsable y resiliencia educativa.",
+        "items": [
+          "1. Actuación con responsabilidad en contextos cercanos adquiriendo compromiso personal en el trabajo grupal.",
+          "2. Representación de las emociones para acercarnos a su sensación y reconocimiento, y dar una respuesta ajustada que favorezca un desarrollo afectivo adecuado, a través de: el juego de roles simbólicos y dramáticos, las adivinanzas mímicas, la lectura de caricaturas, las imágenes en películas y el modelaje.",
+          "3. Iniciación en el desarrollo del pensamiento alternativo generando el mayor número de posibilidades, con la finalidad de establecer una relación entre las experiencias emocionales para uno mismo, los demás o el entorno.",
+          "4. Observación y reconocimiento de los elementos conformadores de una norma y una regla en situaciones de juego y en la vida escolar y social (p. ej.: reglas en el juego del parchís, normas de tráfico…), para una convivencia organizada y pacífica propiciadora de emociones agradables.",
+          "5. Entrenamiento y estrategias de regulación emocional: toma de conciencia de los movimientos respiratorios: inspiración, pausa, espiración, pausa, de manera guiada, mindfulness…",
+          "6. Introducción a la regulación de la impulsividad, la ansiedad y el estrés desde la comunicación y expresión gestual, oral y artística, y desde el silencio y la quietud.",
+          "7. Tolerancia a la frustración: iniciación al aprendizaje en la afirmación personal (planteamiento y aceptación del “sí” y del “no”) y petición de ayuda a personas adultas.",
+          "8. Introducción a la visualización de imágenes portadoras de vitalidad y dinamismo.",
+          "9. Descubrimiento de la motivación con perseverancia en los actos, utilizando el esfuerzo como un valor de superación.",
+          "10. Observación de hechos y realidades positivas que existen a nuestro alrededor para superar la negatividad, aplicando la alegría y el sentido del humor como estrategia de afrontamiento de la adversidad para adaptarse a las situaciones adversas y favorecer una actitud positiva ante la vida."
+        ]
+      },
+      {
+        "bloque": "III. Empatía, comunicación e interacción socioemocional.",
+        "items": [
+          "1. Comunicación de los efectos en sus emociones a partir de su interacción e interdependencia con las demás personas, el medio y los objetos, identificando y comprendiendo las señales emociones en las otras personas para desarrollar una relación interpersonal que favorezca el respeto a la convivencia.",
+          "2. Identificación y expresión de las emociones propias y de las otras personas ante un hecho que las produce, y de sus consecuencias responsables, haciendo uso de herramientas múltiples y lenguajes diversos en el contexto escolar.",
+          "3. Exploración, de manera guiada, de diversos recursos y estrategias favorecedoras del diálogo reflexivo (mensajes-yo) y de la comunicación interpersonal sin estilos agresivos, que propicien una escucha afectiva que permita la aceptación de las emociones de la otra persona.",
+          "4. Reconocimiento en otras personas de señales corporales asociadas a experiencias emocionales.",
+          "5. Manifestación de apertura sensible hacia los sentimientos que experimentan las demás personas."
+        ]
+      },
+      {
+        "bloque": "IV. Autoconfianza creativa: técnicas creativas aplicadas a múltiples lenguajes expresivos y estimulación multisensorial.",
+        "items": [
+          "1. Identificación y experimentación de diferentes técnicas con utilización de múltiples formas de expresión como herramienta de trabajo individual y grupal para generar ideas creativas.",
+          "2. Iniciación en el entrenamiento creativo a partir de la búsqueda de ideas alternativas, diferentes e inusuales y la asociación novedosa y extraña entre ideas.",
+          "3. Descubrimiento y combinación de múltiples lenguajes expresivos y representativos, utilizando diferentes soportes para comunicarse de manera creativa en diferentes contextos.",
+          "4. Autoafirmación del propio potencial creativo, a partir de la expresión oral y artística de las frustraciones, sensaciones, opiniones…, valorando positivamente las producciones originales e innovadoras propias y de otras personas.",
+          "5. Observación de sus emociones ante las creaciones y producciones propias y de las de otras personas.",
+          "6. Percepción de los obstáculos sociales que limitan la propia capacidad creativa, a partir de la vivencia corporal u otros recursos asistenciales; e identificación de los aspectos afectivos implicados: el miedo, el conformismo, la vergüenza, la obediencia…",
+          "7. Estimulación multisensorial para el desarrollo de la sensibilidad, a partir del conocimiento y uso del juego libre con objetos y la exploración a través de los sentidos.",
+          "8. Expresión multimodal (representación gráfica, artística, verbalización, tecnologías o herramientas asistenciales…) de las emociones experimentadas a través del juego y la experiencia sensorial.",
+          "9. Interés por las experiencias e ideas comunes y receptividad frente a lo diferente, lo nuevo o lo alternativo, que rompan estereotipos y fomenten la actitud crítica."
+        ]
+      },
+      {
+        "bloque": "V. Emprendeduría social: compromiso y vínculo con las personas como recurso de la creatividad emocional",
+        "items": [
+          "1. Capacidad de compromiso con un objetivo o proyecto común con las otras personas e identificación de diversas conductas prosociales.",
+          "2. Identificación de las consecuencias y los efectos de los vínculos emocionales establecidos con las demás personas, evitando la procrastinación en el cumplimiento de los compromisos adquiridos en relación con proyectos personales y colectivos.",
+          "3. Descubrimiento de las fases de creación: motivación, preparación y recogida de información, incubación, inspiración o iluminación, evaluación y elaboración.",
+          "4. Planteamiento de preguntas curiosas, alternativas y complejas en la búsqueda de temas de trabajo: fomento de la “mirada curiosa”.",
+          "5. Identificación de habilidades de trabajo cooperativo: elaboración de propuestas, aceptación de las de otras personas, logro de consensos y concreción de procesos de ejecución.",
+          "6. Fomento de la autonomía y capacidad para tomar decisiones, con la finalidad de crear proyectos sociales innovadores sencillos con objetivos compartidos."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones.",
+        "items": [
+          "1. Iniciación en la toma de conciencia de sus propios estados para favorecer el descubrimiento del diálogo interno.",
+          "2. Reconocimiento de sensaciones y emociones propias, según diversas cualidades de estas (agradables o desagradables; duración mantenida…), a través de lenguajes multimodales, así como de las causas y las consecuencias de las mismas e identificación de las propias virtudes, limitaciones y capacidades.",
+          "3. Observación e identificación a partir de gestos, mirada, respiración, desplazamiento…, en relación con determinadas situaciones propuestas o experimentadas.",
+          "4. Identificación y explicación de las emociones ante los hechos y las consecuencias responsables, comunicándolos a través de lenguajes multimodales.",
+          "5. Adquisición y utilización de vocabulario relacionado con sensaciones: respiración pausada-agitada, gestos faciales tensos-relajados, manos sudorosas-secas, agitación-relajación corporal, mirada serena-inquieta…, con la finalidad de expresarnos y desarrollar el autoconocimiento.",
+          "6. Comunicación de las propias sensaciones a través de la utilización de la expresión lingüística, cultural, artística creativa, corporal, proporcionando múltiples formas de implicación, representación y expresión…, con el fin de percibir las emociones adecuadas a través de lenguajes multimodales.",
+          "7. Experimentación con herramientas y estrategias de autoconocimiento emocional que faciliten habilidades que permitan al alumnado reconocer eficazmente sus emociones en los diferentes contextos de la vida escolar.",
+          "8. Vivenciar sus emociones de manera efectiva y adaptativa, a través de múltiples experiencias en el ámbito escolar, con la finalidad de reconocer y comenzar a comprenderlas."
+        ]
+      },
+      {
+        "bloque": "II. Autorregulación emocional responsable y resiliencia educativa.",
+        "items": [
+          "1. Reconocimiento del sentido de responsabilidad respecto a las consecuencias de la propia conducta, en contraposición al sentimiento de culpa, dañino hacia la propia persona o hacia las demás.",
+          "2. Actuación responsable y comprometida en actividades del contexto escolar y social, valorando el cumplimiento de las normas de convivencia en distintos contextos para una convivencia organizada y pacífica, y propiciadora de emociones adaptativas.",
+          "3. Expresión y control de las propias emociones, en pro de una convivencia positiva con el resto de personas, aplicando habilidades del pensamiento y de rutinas como: “comparto, agradezco y me comprometo”, para ejercitar el sentido crítico y la autonomía e iniciativa en la toma de decisiones en el grupo de iguales y con las personas adultas.",
+          "4. Aplicación de habilidades cognitivas tales como el pensamiento causal, alternativo, consecuencial y medio-fin, como estrategia para establecer una relación entre las experiencias emocionales, las consecuencias de ellas y los efectos dañinos para la propia persona, las demás o el entorno.",
+          "5. Gestionar las propias emociones: reconocer las sensaciones que producen y proporcionar una respuesta ajustada a las mismas, que favorezca un desarrollo afectivo adecuado a través de múltiples formas de representación y expresión, aplicando diferentes estrategias para la prevención y solución pacífica de conflictos.",
+          "6. Entrenamiento en estrategias para la regulación emocional: toma de conciencia de manera autónoma de los movimientos respiratorios (inspiración, pausa, espiración, pausa) y manejo del propio cuerpo utilizando la relajación como estrategia de regulación emocional (relajación muscular progresiva, entrenamiento autógeno, técnicas de meditación, mindfulness…).",
+          "7. Regulación de la impulsividad, la ansiedad y el estrés desde la comunicación y expresión gestual, oral y artística, y desde el silencio y la quietud.",
+          "8. Tolerancia a la frustración mediante la integración de habilidades que permitan el desarrollo de la afirmación personal: planteamiento y aceptación del “sí” y del “no”. Petición de ayuda y acompañamiento a sus iguales y a personas adultas.",
+          "9. Utilización del error como recurso de aprendizaje y del perdón como recurso emocional en relación con uno mismo o una misma, y con las demás personas.",
+          "10. Reflexión sobre los cambios emocionales producidos y regulados con la visualización de imágenes generadoras de vitalidad y dinamismo para producir una mejora en el clima de convivencia en diferentes contextos.",
+          "11. Interpretación de hechos y realidades positivas que existen a nuestro alrededor para superar la negatividad, utilizando la alegría y el sentido del humor como estrategias para afrontar la adversidad, favorecer una actitud positiva ante la vida y adaptarse a las situaciones adversas."
+        ]
+      },
+      {
+        "bloque": "III. Empatía, comunicación e interacción socioemocional.",
+        "items": [
+          "1. Comunicación de los efectos en sus emociones a partir de su interacción e interdependencia con las demás personas y el medio y los objetos, identificando, comprendiendo e interpretando, de manera empática, las señales emocionales en las otras personas para desarrollar una relación interpersonal que favorezca el respeto a la convivencia.",
+          "2. Observación y valoración de las emociones propias y de las otras personas ante un hecho que las produce y sus consecuencias responsables, haciendo uso de herramientas múltiples, lenguajes diversos y tecnologías asistenciales en el contexto escolar.",
+          "3. Experimentación de diversos recursos y estrategias favorecedoras del diálogo reflexivo (mensajes-yo) y de la comunicación asertiva sin estilos agresivos y pasivos, que permitan la escucha activa y el uso de un lenguaje emocional que favorezca un diálogo ágil y efectivo.",
+          "4. Iniciarse en el desarrollo de la habilidad cognitiva de perspectiva, desde el punto de vista de la otra persona, para situarse en su lugar en diversos contextos sociales.",
+          "5. Identificación en los demás e interpretación de señales corporales asociadas a experiencias emocionales.",
+          "6. Manifestación de apertura sensible hacia los sentimientos que experimentan las demás personas.",
+          "7. Descubrimiento de estrategias personales para evitar el estrés empático."
+        ]
+      },
+      {
+        "bloque": "IV. Autoconfianza creativa: técnicas creativas aplicadas a múltiples lenguajes expresivos y estimulación multisensorial.",
+        "items": [
+          "1. Experimentación de diferentes técnicas y utilización de múltiples formas de expresión como herramientas de trabajo individual y grupal para generar ideas creativas.",
+          "2. Desarrollo de técnicas aplicadas al entrenamiento creativo a partir de la búsqueda de ideas alternativas, diferentes e inusuales, y de la asociación novedosa y extraña entre ideas.",
+          "3. Experimentación y combinación de múltiples lenguajes expresivos y representativos utilizando diferentes soportes, para comunicarse de manera creativa en diferentes contextos.",
+          "4. Autoafirmación del propio potencial creativo comenzando a transmitir una actitud abierta hacia lo original y lo diferente, y valorando positivamente las producciones individuales y grupales.",
+          "5. Observación y reflexión de sus emociones ante las creaciones y producciones propias y de otras personas.",
+          "6. Descubrimiento de los obstáculos sociales que limitan la capacidad creativa, tomando conciencia de los aspectos afectivos implicados.",
+          "7. Desarrollo de la sensibilidad, la investigación y la búsqueda de formas alternativas de pensamiento, a través de la estimulación sensorial, el juego libre con objetos y el desarrollo y la investigación a través de los sentidos.",
+          "8. Expresión multimodal de las emociones experimentadas a través del juego y de la experiencia sensorial.",
+          "9. Interés por las experiencias e ideas comunes y receptividad frente a lo diferente, lo nuevo o lo alternativo, que rompan estereotipos y fomenten la actitud crítica."
+        ]
+      },
+      {
+        "bloque": "V. Emprendeduría social: compromiso y vínculo con las personas como recurso de la creatividad emocional.",
+        "items": [
+          "1. Capacidad de compromiso con un objetivo o proyecto común y desarrollo de diversas conductas prosociales (ayuda, solidaridad, altruismo…).",
+          "2. Asunción de las consecuencias y los efectos de los vínculos emocionales establecidos con las demás personas; y evitación de la procrastinación en el cumplimiento de los compromisos adquiridos en relación con proyectos personales y colectivos.",
+          "3. Experimentación con las fases de creación: motivación, preparación y recogida de información, incubación, inspiración o iluminación, evaluación y elaboración.",
+          "4. Elaboración de preguntas curiosas, alternativas y complejas en la búsqueda de temas de trabajo: fomento de la “mirada curiosa”.",
+          "5. Desarrollo de habilidades de trabajo cooperativo. Elaboración de propuestas, aceptación de las de otras personas, logro de consensos y concreción de procesos de ejecución.",
+          "6. Fomento de la autonomía e implicación en la toma de decisiones, para lograr la creación de proyectos sociales innovadores con objetivos compartidos."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones.",
+        "items": [
+          "1. Iniciación en los elementos básicos de la comunicación asertiva para favorecer el diálogo, evitando actitudes agresivas o pasivas.",
+          "2. Aceptación de sus propios estados para favorecer el descubrimiento del diálogo interno en la toma de conciencia.",
+          "3. Comprensión de sensaciones y emociones propias, según diversas cualidades de estas (agradables o desagradables, duración mantenida…), a través de lenguajes multimodales, así como de las causas y consecuencias de las mismas, e identificación de las propias virtudes, limitaciones y capacidades.",
+          "4. Observación e identificación de respuestas emocionales a determinadas situaciones espontáneas (gestos, mirada, respiración, desplazamiento…).",
+          "5. Identificación, comprensión, razonamiento, descripción y evaluación de las emociones originadas en relación con los sucesos desencadenantes en contextos de su vida diaria, a través de experiencias vivenciadas en el aula con diferentes lenguajes multimodales.",
+          "6. Conocimiento de recursos y estrategias favorecedoras del diálogo reflexivo (su yo y el mundo y la conexión con las otras personas, escucha activa, mensajes-yo…), a través del modelaje o role play en diferentes situaciones escolares.",
+          "7. Utilización de vocabulario relacionado con sensaciones: respiración pausada-agitada, gestos faciales tensos-relajados, manos sudorosas-secas, agitación-relajación corporal, mirada serena-inquieta….",
+          "8. Comunicación de las propias sensaciones y emociones a través de la utilización de la expresión lingüística, cultural, artística creativa o corporal, proporcionando múltiples formas de implicación, representación y expresión…, con el fin de comprender las emociones adecuadas mediante el empleo de lenguajes multimodales.",
+          "9. Manejo de herramientas y estrategias de autoconocimiento emocional que faciliten la gestión eficaz de sus emociones en los diferentes contextos de la vida escolar o social.",
+          "10. Vivenciar sus emociones de manera efectiva y adaptativa, a través de múltiples experiencias en el ámbito escolar, con la finalidad de comprenderlas y comenzar a responsabilizarse de la gestión de las mismas."
+        ]
+      },
+      {
+        "bloque": "II. Autorregulación emocional responsable y resiliencia educativa.",
+        "items": [
+          "1. Reconocimiento del sentido de responsabilidad respecto a las consecuencias de la propia conducta, en contraposición al sentimiento de culpa, dañino hacia la propia persona o hacia las demás personas.",
+          "2. Actuación responsable y comprometida en actividades del contexto escolar y social, valorando el cumplimiento de las normas de convivencia en distintos contextos para una convivencia organizada y pacífica, propiciadora de emociones adaptativas.",
+          "3. Expresión y control de las propias emociones, en pro de una convivencia positiva con el resto de personas, aplicando habilidades del pensamiento y de rutinas como: “comparto, agradezco y me comprometo”, para ejercitar el sentido crítico y la autonomía e iniciativa en la toma de decisiones en el grupo de iguales y con las personas adultas.",
+          "4. Aplicación de habilidades cognitivas tales como el pensamiento causal, alternativo, consecuencial y medio-fin, como estrategia para establecer una relación entre las experiencias emocionales, las consecuencias de ellas y los efectos dañinos para las propias personas, las demás o el entorno.",
+          "5. Gestionar las propias emociones: reconocer las sensaciones que producen y proporcionar una respuesta ajustada a las mismas, que favorezca un desarrollo afectivo adecuado a través de múltiples formas de representación y expresión, aplicando diferentes estrategias para la prevención y solución pacífica de conflictos.",
+          "6. Entrenamiento en estrategias para la regulación emocional: toma de conciencia de manera autónoma de los movimientos respiratorios (inspiración, pausa, espiración, pausa) y manejo del propio cuerpo utilizando la relajación como estrategia de regulación emocional (relajación muscular progresiva, entrenamiento autógeno, técnicas de meditación, mindfulness…).",
+          "7. Regulación de la impulsividad, de la ansiedad y del estrés desde la comunicación y expresión gestual, oral y artística, y desde el silencio y la quietud.",
+          "8. Tolerancia a la frustración mediante la integración de habilidades que permitan el desarrollo de la afirmación personal.",
+          "9. Utilización del error como recurso de aprendizaje y del perdón como recurso emocional en relación con uno mismo o una misma, y a las demás personas.",
+          "10. Reflexión sobre los cambios emocionales producidos y regulados con la visualización de imágenes generadoras de vitalidad y dinamismo para producir una mejora en el clima de convivencia en diferentes contextos.",
+          "11. Reconocimiento de emociones adaptativas y desadaptativas a través de la toma de conciencia, la reflexión, el uso de estrategias de regulación… Aceptación de las emociones desadaptativas y empleo de emociones transformadoras (el amor, la compasión, el perdón….) como respuesta a estas, usando estrategias de sustitución/compensación emocional (contracondicionamiento, imaginación, modificación corporal, visualización positiva o sugestión afectiva).",
+          "12. Valoración de hechos y realidades positivas que existen a nuestro alrededor para superar la negatividad, sirviéndose de la alegría y el sentido del humor como estrategias para afrontar la adversidad, favorecer una actitud positiva ante la vida y adaptarse a las situaciones adversas."
+        ]
+      },
+      {
+        "bloque": "III. Empatía, comunicación e interacción socioemocional.",
+        "items": [
+          "1. Comunicación de los efectos en sus emociones a partir de su interacción e interdependencia con las demás personas, el medio y los objetos, identificando, comprendiendo, interpretando y evaluando, de manera empática, las señales emocionales en las otras personas para desarrollar una relación interpersonal que posibilite el respeto a la convivencia.",
+          "2. Incorporación y selección de diversos recursos y estrategias favorecedoras del diálogo reflexivo (mensajes-yo) y de la comunicación asertiva sin estilos agresivos y pasivos, favoreciendo la escucha activa y el uso de un lenguaje emocional que facilite un diálogo ágil y efectivo.",
+          "3. Reproducción de habilidades y estrategias que permitan el desarrollo de la comunicación afectiva: atención conjunta, comprensión de las expresiones emocionales, la escucha activa (aceptación y validación emocional) en contextos sociales, para propiciar la apertura emocional y la autenticidad.",
+          "4. Uso de la habilidad cognitiva de perspectiva, desde el punto de vista de la otra persona, para situarse en su lugar en diversos contextos sociales.",
+          "5. Detección en los demás de señales corporales asociadas a experiencias emocionales y su interpretación.",
+          "6. Manifestación de apertura sensible hacia los sentimientos que experimentan las demás personas.",
+          "7. Utilización de estrategias personales para evitar el estrés empático."
+        ]
+      },
+      {
+        "bloque": "IV. Autoconfianza creativa: técnicas creativas aplicadas a múltiples lenguajes expresivos y estimulación multisensorial.",
+        "items": [
+          "1. Aplicación de las técnicas y destrezas para la producción de ideas o soluciones innovadoras y utilización de múltiples formas de expresión como herramientas de trabajo individual y grupal para generar ideas creativas.",
+          "2. Empleo de técnicas aplicadas al entrenamiento creativo, a partir de la búsqueda de ideas alternativas, diferentes e inusuales, y a la asociación novedosa y extraña entre ideas.",
+          "3. Aplicación y combinación de múltiples lenguajes expresivos y representativos, utilizando diferentes soportes para comunicarse de manera creativa en diferentes contextos.",
+          "4. Autoafirmación del propio potencial creativo, manifestando, de forma asertiva, una actitud abierta hacia lo original, lo diferente…, y valorando positivamente las producciones individuales y grupales.",
+          "5. Observación y reflexión de sus emociones ante las creaciones y producciones propias y de otras personas.",
+          "6. Análisis de los obstáculos sociales que limitan la capacidad creativa referentes a los tópicos y prejuicios vinculados a la creatividad.",
+          "7. Estimulación multisensorial para el desarrollo de la sensibilidad, la investigación y la búsqueda de formas alternativas de pensamiento: juego libre, exploración, desarrollo e investigación de los sentidos.",
+          "8. Expresión multimodal (verbalización, representación gráfica, escrita, artística, tecnologías o herramientas asistenciales…) de las emociones experimentadas a través del juego y la experiencia sensorial.",
+          "9. Creación de ideas innovadoras que den respuesta al cambio, utilizando destrezas creativas para identificar y proponer ideas o soluciones originales, y tomando conciencia de las consecuencias y efectos que estas ideas puedan generar en el entorno.",
+          "10. Interés por las experiencias e ideas comunes, y receptividad frente a lo diferente, lo nuevo o lo alternativo, rompiendo estereotipos y fomentando la actitud crítica."
+        ]
+      },
+      {
+        "bloque": "V. Emprendeduría social: compromiso y vínculo con las personas como recurso de la creatividad emocional.",
+        "items": [
+          "1. Capacidad de compromiso con un objetivo o proyecto común, y puesta en acción de diversas conductas prosociales (ayuda, solidaridad, altruismo…).",
+          "2. Asunción de las consecuencias y los efectos de los vínculos emocionales; y evitación de la procrastinación en el cumplimiento de los compromisos adquiridos en relación a proyectos personales y colectivos.",
+          "3. Aplicación de las fases de creación: motivación, preparación y recogida de información, incubación, inspiración o iluminación, evaluación y elaboración.",
+          "4. Creación de preguntas curiosas, alternativas y complejas en la búsqueda de temas de trabajo: fomento de la “mirada curiosa”.",
+          "5. Adquisición de habilidades de trabajo cooperativo: elaboración de propuestas, aceptación de las de otras personas, logro de consensos y concreción de procesos de ejecución.",
+          "6. Desarrollo de la autonomía e implicación en la toma de decisiones.",
+          "7. Iniciación en el planteamiento de un proyecto de marketing personal creativo, a partir de la reflexión de las fortalezas personales (asertividad, disponibilidad para el trabajo en equipo, liderazgo, versatilidad, valor ético, autenticidad…), para ponerse al servicio de la sociedad."
+        ]
+      }
+    ]
+  },
+  "bloques": {
+    "primer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CCEC3"
+        ],
+        "explicacion": "Por medio de este bloque competencial, se comprobará que el alumnado puede percibir y comprender sus propias emociones, para poder ajustarlas a diferentes contextos y situaciones cotidianas. En este sentido, se constatará que el alumnado es capaz de percibir las respuestas corporales a estas emociones y de asociarlas a sus propias experiencias emocionales. Se verificará, asimismo, que es capaz de expresar sensaciones, mediante el uso de lenguajes multimodales, y de adquirir vocabulario emocional, favoreciendo una comunicación al servicio de la convivencia positiva, a través del uso eficaz y ético del lenguaje. Se verificará, además, que se inicia en la utilización recursos para identificar los desencadenantes de determinadas emociones y anticipar las consecuencias, poniendo en práctica, como hábitos saludables para su bienestar físico y mental, la utilización de estrategias de autoconciencia emocional (respiración, relajación, conexión con el aquí y el ahora…), a través de experiencias vivenciadas en el aula, de actividades guiadas de autodescubrimiento, de la aplicación de herramientas y tecnologías asistenciales, de la práctica de juegos de movimiento y de percepción sensorial, desarrollando así sus capacidades afectivas con actitud abierta e inclusiva, como forma de alcanzar su bienestar emocional y propiciar el autoconocimiento personal."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de actuar con responsabilidad e iniciarse en la regulación de las propias emociones, en particular, de aquellas que se manifiesten de forma desajustada y que provoquen malestar, adecuando su intensidad y duración, a través de la puesta en práctica de diferentes recursos tales como técnicas de respiración y relajación, estrategias corporales (movimiento, biodanza…), atención plena, técnicas artístico-expresivas (dramatizaciones, expresión corporal, canto...), en contextos escolares. Además, se constatará si el alumnado actúa con responsabilidad emocional, ofreciendo disculpas y llevando a cabo rectificaciones en beneficio de las personas afectadas. Todo ello con la finalidad de crear una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales, asumiendo la responsabilidad en lo que se refiere a la gestión de las propias emociones y favoreciendo una convivencia democrática positiva con el resto de personas de su entorno próximo."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de vincularse emocionalmente con las demás personas, expresando lo que siente de manera clara y adecuada. Se comprobará que el alumnado puede identificar y comprender las señales corporales y emocionales en las otras personas, escuchando de manera afectiva (sin interrumpir, mirando a los ojos, utilizando algunas expresiones que ayuden a seguir la conversación…), para desarrollar una relación interpersonal que favorezca el respeto a la convivencia y los comportamientos solidarios. Para ello, se valorará si el alumnado es capaz de identificar y expresar las propias emociones, necesidades y vivencias a las demás personas, tanto de forma verbal como a través de otros lenguajes expresivos (dibujos, gestos, movimientos, música…) y favoreciendo la comunicación digital. Se pretende comprobar que participa en interacciones comunicativas con actitud respetuosa, tanto para intercambiar información como para construir vínculos personales. Para ello, se propiciarán ambientes, actividades, dinámicas… que permitan que el alumnado pueda comunicarse, de manera afectiva, sobre las normas de convivencia, la resolución dialogada y justa de los conflictos…; todo ello de forma consciente, respetuosa, constructiva, dialogante e inclusiva para propiciar el vínculo emocional y el desarrollo de unas relaciones interpersonales auténticas."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado se inicia en la apertura y sensibilidad al mundo que lo rodea, así como en el compromiso emocional con las personas y la sociedad, aceptando y asumiendo compromisos afectivos con las demás personas y con la sociedad. Para ello, se comprobará que puede identificar y experimentar, de manera guiada, proyectos emprendedores, novedosos, genuinos y éticos, en el centro educativo y en otros contextos; y si participa en iniciativas sociales, altruistas y sostenibles, o en acciones fundamentadas científicamente, que beneficien a toda la comunidad o que repercutan positivamente en el bienestar personal y social desde las diferentes vertientes de la emprendeduría (profesional, científica, social, artística, emocional y vital), para preservar la salud, el medio ambiente…, aplicando sostenibilidad. Se verificará que se inicia en el conocimiento de procesos de pensamiento generadores de propuestas originales y alternativas, así como de técnicas y destrezas creativas (lluvia de ideas, analogías, ideart, rutinas y destrezas de pensamientos…) y recursos de múltiples lenguajes (audio, vídeo, impresión, digital, tecnología, o herramientas asistenciales…) para trazar y llevar a término dichos proyectos e iniciativas, de manera que exprese su creatividad en todas sus dimensiones y actitudes innovadoras, iniciándose con ello en la autoconfianza en las propias capacidades creativas. Se valorará que muestran interés por las experiencias e ideas comunes y receptividad frente a lo diferente, lo nuevo o lo alternativo, para generar y comunicar historias, darle nuevo uso a objetos, realizar composiciones plásticas, danzas, proyectos innovadores u otras formas de representación y expresión… que sirvan para romper estereotipos. También se comprobará si el alumnado es capaz de colaborar en favor de otras personas para alcanzar un objetivo común; o de vincularse emocionalmente manifestando actitudes abiertas e innovadoras. Todo ello con la finalidad de promover la autoafirmación y autoconfianza creativa en las propias capacidades, comprometiéndose emocionalmente con otras personas y la sociedad a través de la puesta en marcha de proyectos emprendedores e innovadores que aporten beneficios para la comunidad."
+      }
+    ],
+    "segundo": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CCEC3"
+        ],
+        "explicacion": "Por medio de este bloque competencial, se comprobará que el alumnado puede identificar, comprender y analizar sus propias emociones, para poder ajustarlas a diferentes contextos y situaciones cotidianas, identificando sus fortalezas y debilidades. En este sentido, se constatará que el alumnado es capaz de percibir y reconocer las respuestas corporales a estas emociones y de asociarlas a sus propias experiencias emocionales. Se verificará, asimismo, que es capaz de expresar sensaciones y emociones, mediante el uso de lenguajes multimodales, y de adquirir vocabulario emocional, utilizando fuentes diversas para ampliar su propios conocimientos sobre las emociones y favoreciendo una comunicación al servicio de la convivencia positiva, a través del uso eficaz y ético del lenguaje. Se verificará, asimismo, que experimenta con recursos para identificar los desencadenantes de determinadas emociones y anticipar las consecuencias, poniendo en práctica, como hábitos saludables para su bienestar físico y mental, la utilización de estrategias de autoconciencia emocional (respiración, relajación, conexión con el aquí y el ahora…), a través de experiencias vivenciadas en el aula, de actividades guiadas de autodescubrimiento, de la aplicación de herramientas y tecnologías asistenciales, y de la práctica de juegos de movimiento y de percepción sensorial, desarrollando así sus capacidades afectivas con actitud abierta e inclusiva, como forma de alcanzar su bienestar emocional y propiciar el autoconocimiento personal."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de asumir la responsabilidad de aprender a regular las propias emociones, en particular aquellas que se manifiesten de forma desajustada y que provoquen malestar, adecuando su intensidad y duración, a través de la puesta en práctica de diferentes recursos tales como técnicas de respiración y relajación, estrategias corporales (movimiento, biodanza…), atención plena, técnicas artístico-expresivas (dramatizaciones, expresión corporal, canto...), en contextos tanto escolares como de la vida cotidiana, cuando se presentan situaciones de tensión o conflicto. Además, se constatará si el alumnado asume su responsabilidad emocional ante las demandas de compensación o satisfacción de perjuicios a otras personas por conductas emocionales inadecuadas, mostrando asertividad, ofreciendo disculpas y llevando a cabo rectificaciones en beneficio de las personas afectadas, y evitando la humillación, la valoración negativa y el castigo a sí mismo o a sí misma. Todo ello con la finalidad de crear una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales, asumiendo la responsabilidad en lo que se refiere a la gestión de las propias emociones y favoreciendo una convivencia democrática positiva con el resto de personas de su entorno próximo."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de vincularse emocionalmente con las demás personas, expresando lo que siente de manera clara, adecuada y asertiva. Se comprobará que el alumnado puede, además de identificar, comprender, interpretar, de manera empática, las señales corporales y emocionales en las otras personas, para desarrollar una relación interpersonal que favorezca el respeto a la convivencia, escuchando de manera activa (sin interrumpir, mirando a los ojos, utilizando algunas expresiones que ayuden a seguir la conversación…) y conectando con los sentimientos de las demás personas. Del mismo modo, se busca verificar si observa y valora sus emociones y las de las otras personas, escuchándolas y conectando con sus sentimientos, con el fin de promover comportamientos solidarios y altruistas. Para ello, se valorará si el alumnado es capaz de identificar y expresar las propias emociones, necesidades y vivencias a las demás personas, tanto de forma verbal como a través de otros lenguajes expresivos (dibujos, gestos, movimientos, música…). Además, se pretende comprobar que participa en interacciones comunicativas con actitud cooperativa y respetuosa, tanto para intercambiar información como para construir vínculos personales. Asimismo, se iniciará en el desarrollo del pensamiento en perspectiva y la comprensión de las emociones que experimentan otras personas, manifestando una tendencia a apreciar y conmoverse ante dichos estados emocionales agradables y desagradables, sin que lleve consigo sufrimiento personal (estrés empático). Para ello, se propiciarán ambientes, actividades, dinámicas…, que permitan que el alumnado pueda comunicarse de manera afectiva, reflexionar sobre las normas de convivencia, la resolución dialogada y justa de los conflictos, los valores y problemas éticos de actualidad…; todo ello, de forma consciente, respetuosa, constructiva, dialogante e inclusiva para propiciar el vínculo emocional y el desarrollo de unas relaciones interpersonales auténticas."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado muestra apertura y sensibilidad al mundo que lo rodea, así como en el compromiso emocional con las personas y la sociedad, aceptando la incertidumbre y lo nuevo como una oportunidad de mejora a nivel personal y comunitario, y asumiendo compromisos afectivos con las demás personas y con la sociedad. Para ello, se comprobará que puede experimentar y desarrollar, de manera guiada, proyectos emprendedores, novedosos, genuinos y éticos, en el centro educativo y en otros contextos; y sí participa en iniciativas sociales, altruistas y sostenibles, o en acciones fundamentadas científicamente, que beneficien a toda la comunidad o que repercutan positivamente en el bienestar personal y social desde las diferentes vertientes de la emprendeduría (profesional, científica, social, artística, emocional y vital), para preservar la salud, el medio ambiente, la sostenibilidad y la seguridad. Se comprobará que conoce y ejecuta procesos de pensamiento generadores de propuestas originales y alternativas, así como técnicas y destrezas creativas (lluvia de ideas, analogías, ideart, rutinas y destrezas de pensamientos…) y recursos de múltiples lenguajes (audio, vídeo, impresión, digital, tecnología, o herramientas asistenciales…), para trazar y llevar a término dichos proyectos e iniciativas, de manera que exprese y desarrolle su creatividad en todas sus dimensiones y sus actitudes innovadoras, adquiriendo con ello la autoconfianza en las propias capacidades creativas. Se valorará que muestran interés por las experiencias e ideas comunes, y la receptividad frente a lo diferente, lo nuevo o lo alternativo, para generar y comunicar historias, dar un nuevo uso a los objetos, realizar composiciones plásticas, danzas, proyectos innovadores u otras formas de representación y expresión…, que rompan estereotipos y se inicien en la actitud crítica. También se comprobará si el alumnado es capaz de movilizarse en favor de otras personas para alcanzar un objetivo común, o de vincularse emocionalmente manifestando actitudes abiertas e innovadoras. Todo ello con la finalidad de promover la autoafirmación y autoconfianza creativa en las propias capacidades, comprometiéndose emocionalmente con otras personas y la sociedad, a través de la puesta en marcha de proyectos emprendedores e innovadores que aporten beneficios para la comunidad."
+      }
+    ],
+    "tercer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL5",
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CCEC3"
+        ],
+        "explicacion": "Por medio de este bloque competencial, se comprobará que el alumnado puede percibir, analizar y comprender sus propias emociones, para poder ajustarlas a diferentes contextos y situaciones cotidianas, identificando sus fortalezas y debilidades. En este sentido, se constatará que el alumnado es capaz de percibir e identificar las respuestas corporales a estas emociones y de asociarlas a sus propias experiencias emocionales. Se verificará, asimismo, que es capaz de expresar sensaciones y emociones de forma clara y asertiva, mediante el uso de lenguajes multimodales, y de usar el vocabulario emocional, utilizando fuentes diversas para ampliar su propios conocimientos sobre las emociones, favoreciendo una comunicación al servicio de la convivencia positiva, a través del uso eficaz y ético del lenguaje. Se verificará, asimismo, que utiliza recursos para identificar los desencadenantes de determinadas emociones y anticipar las consecuencias, poniendo en práctica, como hábitos saludables para su bienestar físico y mental, la utilización de estrategias de autoconciencia emocional (respiración, relajación, conexión con el aquí y el ahora…), a través de experiencias vivenciadas en el aula, de actividades guiadas de autodescubrimiento, de la aplicación de herramientas y tecnologías asistenciales, de la práctica de juegos de movimiento y de percepción sensorial, desarrollando así sus capacidades afectivas con actitud abierta e inclusiva como forma de alcanzar su bienestar emocional y propiciar el autoconocimiento personal."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de asumir la responsabilidad de aprender a regular las propias emociones, en particular, aquellas que se manifiesten de forma desajustada y que provoquen malestar, adecuando su intensidad y duración, a través de la puesta en práctica de diferentes recursos tales como técnicas de respiración y relajación, estrategias corporales (movimiento, biodanza…), atención plena, técnicas artístico-expresivas (dramatizaciones, expresión corporal, canto…), en contextos tanto escolares como de la vida cotidiana, cuando se presentan situaciones de tensión o conflicto, para adaptarse a los cambios. Además, se constatará si el alumnado asume su responsabilidad emocional ante las demandas de compensación o satisfacción de perjuicios a otras personas por conductas emocionales inadecuadas, mostrando asertividad, ofreciendo disculpas, llevando a cabo rectificaciones en beneficio de las personas afectadas y evitando la humillación, la valoración negativa y el castigo a sí mismo o a sí misma. Se verificará, por último, que el alumnado es capaz de provocar emociones adaptativas y estados de seguridad afectiva, a través de los cuales poder desplazar o sustituir las emociones que experimenta y son desadaptativas por intensidad, durabilidad o porque la experiencia subjetiva no se corresponde con el estímulo que la provoca. Todo ello con la finalidad de crear una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales, asumiendo la responsabilidad en lo que se refiere a la gestión de las propias emociones y posibilitando una convivencia democrática positiva con el resto de personas de su entorno próximo."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de vincularse emocionalmente con las demás personas, expresando lo que siente de manera clara, adecuada y asertiva. Se comprobará que el alumnado puede, además de identificar, comprender, interpretar y evaluar, de manera empática, las señales emocionales en las otras personas, con el propósito de desarrollar una relación interpersonal que favorezca el respeto a la convivencia, escuchando de manera activa (sin interrumpir, mirando a los ojos, utilizando algunas expresiones que ayuden a seguir la conversación…) y conectando con los sentimientos de las demás personas. Del mismo modo, se busca verificar si desarrolla la empatía, que se manifiesta como la capacidad de escuchar y conectar con los sentimientos de las demás personas (en su doble vertiente: cognitiva, al reconocer lo que siente otra persona, y afectiva, al sentir algo por lo que la otra persona siente), con el fin de promover comportamientos solidarios y altruistas. Para ello, se valorará si el alumnado es capaz de identificar las propias emociones, necesidades y vivencias, y de expresarlas sin incomodidad a las demás personas, demostrando autenticidad y cercanía, tanto de forma verbal como a través de otros lenguajes expresivos (dibujos, gestos, movimientos, música…). y utilizando la comunicación. Se pretende comprobar que participa en interacciones comunicativas con actitud cooperativa y respetuosa, tanto para intercambiar información como para construir vínculos personales. Asimismo, se verificará que puede desarrollar el pensamiento en perspectiva y la comprensión de las emociones que experimentan otras personas, manifestando una tendencia a apreciar y conmoverse ante dichos estados emocionales, agradables y desagradables, sin que lleve consigo sufrimiento personal (estrés empático). Para ello, se propiciarán ambientes, actividades, dinámicas…que permitan que el alumnado pueda comunicarse de manera afectiva, reflexionar sobre las normas de convivencia, la resolución dialogada y justa de los conflictos, valores y problemas éticos de actualidad…todo ello de forma consciente, respetuosa, constructiva, dialogante e inclusiva para propiciar el vínculo emocional y el desarrollo de unas relaciones interpersonales auténticas."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM3",
+          "STEM5",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de demostrar apertura y sensibilidad al mundo que le rodea, así como compromiso emocional con las personas y la sociedad, afrontando la incertidumbre y lo nuevo como una oportunidad de mejora a nivel personal y comunitario, y asumiendo compromisos afectivos con las demás personas y con la sociedad. Para ello, se comprobará que puede diseñar e implementar, de manera guiada, proyectos emprendedores, novedosos, genuinos y éticos, en el centro educativo y en otros contextos; y participar en iniciativas sociales, altruistas y sostenibles, o en acciones fundamentadas científicamente, que beneficien a toda la comunidad o que repercutan positivamente en el bienestar personal y social desde las diferentes vertientes de la emprendeduría (profesional, científica, social, artística, emocional y vital), para preservar la salud, el medio ambiente…, aplicando principios de ética, sostenibilidad y seguridad. Se verificará que aplica procesos de pensamiento generadores de propuestas originales y alternativas, así como técnicas y destrezas creativas (lluvia de ideas, analogías, ideart, rutinas y destrezas de pensamientos…) y recursos de múltiples lenguajes (audio, vídeo, impresión, digital, tecnología, o herramientas asistenciales…), para trazar y llevar a término dichos proyectos e iniciativas, de manera que exprese, desarrolle y afiance su creatividad en todas sus dimensiones y sus actitudes innovadoras, consolidando con ello la autoconfianza en las propias capacidades creativas. Se valorará que muestran interés por las experiencias e ideas comunes y receptividad frente a lo diferente, lo nuevo o lo alternativo, para generar y comunicar historias, darle nuevo uso a objetos, realizar composiciones plásticas, danzas, proyectos innovadores u otras formas de representación y expresión… que rompan estereotipos y fomenten la actitud crítica.También se comprobará si el alumnado es capaz de movilizarse en favor de otras personas para alcanzar un objetivo común cuando estas necesitan ayuda y apoyo emocional o de vincularse emocionalmente, manifestando actitudes abiertas, críticas, de liderazgo e innovadoras, así como la capacidad de diálogo, de aportación constructiva de propuestas…Todo ello con la finalidad de promover la autoafirmación y autoconfianza creativa en las propias capacidades, comprometiéndose emocionalmente con otras personas y la sociedad a través de la puesta en marcha de proyectos emprendedores e innovadores que aporten beneficios para la comunidad."
+      }
+    ]
   }
 }

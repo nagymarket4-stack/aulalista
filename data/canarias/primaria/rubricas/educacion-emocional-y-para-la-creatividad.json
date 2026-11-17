@@ -1,0 +1,464 @@
+{
+  "area": "Educación Emocional y para la Creatividad",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – EDUCACIÓN EMOCIONAL Y PARA LA CREATIVIDAD",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CCEC3"
+        ],
+        "pagina_pdf": 128,
+        "descriptores": {
+          "Insuficiente": "Percibe mostrando inseguridad las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias,rara vezde forma creativa y con una actitud abierta, sin que favorezca el desarrollo paulatino de la conciencia emocional.",
+          "Suficiente/Bien": "Percibe las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional.",
+          "Notable": "Percibe con seguridad las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, frecuentemente de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional.",
+          "Sobresaliente": "Percibe con seguridad y plena confianza las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, siempre de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CPSAA1",
+          "CPSAA2"
+        ],
+        "pagina_pdf": 129,
+        "descriptores": {
+          "Insuficiente": "Comprende con mínima conciencia las emociones que experimenta, estableciendo con escasa claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada",
+          "Suficiente/Bien": "Comprende las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada.",
+          "Notable": "Comprende de forma consciente las emociones que experimenta, estableciendo con claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada.",
+          "Sobresaliente": "Comprende de forma plenamente consciente las emociones que experimenta, estableciendo con gran claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Actuar con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones y asumiendo las consecuencias de sus actos, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "pagina_pdf": 130,
+        "descriptores": {
+          "Insuficiente": "Actúa sin responsabilidad en el contexto escolar, tomando decisiones poco conscientes a partir de sus emociones, sin mostrar interés por asumir las consecuencias de sus actos, usando con errores significativos estrategias de aprendizaje autorregulado para su gestión en situaciones de desacuerdo como vía para su bienestar personal, y poniendo con nula conciencia sus prácticas comunicativas al servicio de la convivencia democrática, sin desarrollar un ajuste afectivo satisfactorio ni mejorar las relaciones interpersonales",
+          "Suficiente/Bien": "Actúa con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones, asumiendo las consecuencias de sus actos, usando estrategias de aprendizaje autorregulado para su gestión en situaciones de desacuerdo como vía para su bienestar personal, y poniendo sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+          "Notable": "Actúa con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones, asumiendo con interés las consecuencias de sus actos, usando con corrección estrategias de aprendizaje autorregulado para su gestión en situaciones de desacuerdo como vía para su bienestar personal, y poniendo de forma consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+          "Sobresaliente": "Actúa con responsabilidad en el contexto escolar, tomando decisiones conscientes a partir de sus emociones, asumiendo con mucho interés las consecuencias de sus actos, usando con corrección destacable estrategias de aprendizaje autorregulado para su gestión en situaciones de desacuerdo como vía para su bienestar personal, y poniendo de forma plenamente consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales"
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA2"
+        ],
+        "pagina_pdf": 131,
+        "descriptores": {
+          "Insuficiente": "Regula con dificultad las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, lo que limita desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas.",
+          "Suficiente/Bien": "Regula las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables.",
+          "Notable": "Regula con facilidad las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables.",
+          "Sobresaliente": "Regula con facilidad destacable las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolos y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA3",
+          "CC1",
+          "CC3"
+        ],
+        "pagina_pdf": 132,
+        "descriptores": {
+          "Insuficiente": "Comunica con imprecisiones, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con dificultad sus sentimientos, aplicando rara vez reglas básicas de convivencia de forma respetuosa en su contexto próximo y sin reflexionar sobre situaciones de la vida diaria, lo que impide establecer relaciones positivas con las personas con las que interactúa.",
+          "Suficiente/Bien": "Comunica, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, aplicando reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa.",
+          "Notable": "Comunica con precisión, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con facilidad sus sentimientos, aplicando frecuentemente reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa.",
+          "Sobresaliente": "Comunica con total precisión, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con facilidad destacable sus sentimientos, aplicando siempre reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Reconocer las emociones en las demás personas expresando sentimientos hacia ellas, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y la vínculos emocionales.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD3",
+          "CC2",
+          "CE3"
+        ],
+        "pagina_pdf": 133,
+        "descriptores": {
+          "Insuficiente": "Reconoce con imprecisiones las emociones en las demás personas expresando sentimientos hacia ellas, rara vez respetando el valor de la diversidad durante la participación en actividades donde comparte datos y contenidos en entornos como los digitales, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales",
+          "Suficiente/Bien": "Reconoce las emociones en las demás personas expresando sentimientos hacia ellas, respetando el valor de la diversidad durante la participación en actividades donde comparte datos y contenidos en entornos como los digitales, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales.",
+          "Notable": "Reconoce con precisión las emociones en las demás personas expresando sentimientos hacia ellas, frecuentemente respetando el valor de la diversidad durante la participación en actividades donde comparte datos y contenidos en entornos como los digitales, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales.",
+          "Sobresaliente": "Reconoce con total precisión las emociones en las demás personas expresando sentimientos hacia ellas, siempre respetando el valor de la diversidad durante la participación en actividades donde comparte datos y contenidos en entornos como los digitales, observando modelos empáticos y promoviendo la conciencia emocional, como medio para desarrollar la empatía y los vínculos emocionales."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Identificar principios y estrategias de pensamiento creativo, iniciándose en la utilización de múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CPSAA5",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 134,
+        "descriptores": {
+          "Insuficiente": "Identifica con inseguridad los principios y las estrategias de pensamiento creativo, utilizando mecanismos de autoconocimiento y de aprendizaje autorregulado, revisando de manera superficial el proceso realizado y el resultado obtenido e iniciándose en la utilización de múltiples lenguajes, y sin percibir ni interpretar la realidad a través de la estimulación multisensorial, detectando con dificultad aquellos recursos que puedan llevar a la elaboración de ideas predecibles conducentes a la acción, así como los obstáculos sociales y emocionales que bloquean el potencial creativo, lo que impide la promoción de la expresión de la creatividad y la autoconfianza en las propias capacidades creativas",
+          "Suficiente/Bien": "Identifica los principios y las estrategias de pensamiento creativo, utilizando mecanismos de autoconocimiento y de aprendizaje autorregulado, revisando el proceso realizado y el resultado obtenido e iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando aquellos recursos que puedan llevar a la elaboración de ideas predecibles conducentes a la acción, así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Notable": "Identifica con seguridad los principios y las estrategias de pensamiento creativo, utilizando mecanismos de autoconocimiento y de aprendizaje autorregulado, revisando con profundidad el proceso realizado y el resultado obtenido e iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando con facilidad aquellos recursos que puedan llevar a la elaboración de ideas predecibles conducentes a la acción, así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Sobresaliente": "Identifica con total seguridad los principios y las estrategias de pensamiento creativo, utilizando mecanismos de autoconocimiento y de aprendizaje autorregulado, revisando con destacable profundidad el proceso realizado y el resultado obtenido e iniciándose en la utilización de múltiples lenguajes, y percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando con gran facilidad aquellos recursos que puedan llevar a la elaboración de ideas predecibles conducentes a la acción, así como los obstáculos sociales y emocionales que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas"
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Favorecer el compromiso emocional con las demás personas, a través de la participación, la elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+        "descriptores_operativos": [
+          "STEM3",
+          "STEM5",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 135,
+        "descriptores": {
+          "Insuficiente": "Rara vez favorece el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando de forma básica herramientas o plataformas virtuales sencillas y estrategias muy sencillas para el tratamiento digital de la información, desarrollando de manera pautada soluciones sencillas y sostenibles de manera ineficiente, indicando objetivos poco viables a muy corto plazo y usando muy pocas veces sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Suficiente/Bien": "Favorece el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando de forma básica herramientas o plataformas virtuales sencillas y estrategias muy sencillas para el tratamiento digital de la información, desarrollando de manera pautada soluciones sencillas y sostenibles, indicando objetivos a muy corto plazo y usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Notable": "De forma regular favorece el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando de forma básica herramientas o plataformas virtuales sencillas y estrategias muy sencillas para el tratamiento digital de la información, desarrollando de manera pautada soluciones sencillas y sostenibles con incipiente eficiencia, indicando objetivos viables a muy corto plazo y usando frecuentemente sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Sobresaliente": "De forma continua favorece el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando de forma básica herramientas o plataformas virtuales sencillas y estrategias muy sencillas para el tratamiento digital de la información, desarrollando de manera pautada soluciones sencillas y sostenibles con eficiencia, indicando objetivos plenamente viables a muy corto plazo y usando siempre sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Identificar las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas y reconociéndolas como propias, para favorecer el autodescubrimiento personal y la conciencia emocional.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CCEC3"
+        ],
+        "pagina_pdf": 136,
+        "descriptores": {
+          "Insuficiente": "Identifica mostrando inseguridad las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas de manera escasamente eficaz y ética y reconociéndolas como propias, rara vez de forma creativa y con una actitud abierta e inclusiva, sin que favorezca el autodescubrimiento personal y la conciencia emocional.",
+          "Suficiente/Bien": "Identifica las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas de manera eficaz y ética y reconociéndolas como propias de forma creativa y con una actitud abierta e inclusiva, para favorecer el autodescubrimiento personal y la conciencia emocional.",
+          "Notable": "Identifica con seguridad las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas de manera eficaz y ética y reconociéndolas como propias, frecuentemente de forma creativa y con una actitud abierta e inclusiva, para favorecer el autodescubrimiento personal y la conciencia emocional.",
+          "Sobresaliente": "Identifica con seguridad y plena confianza las experiencias emocionales percibidas mediante las sensaciones corporales, validándolas de manera eficaz y ética y reconociéndolas como propias, siempre de forma creativa y con una actitud abierta e inclusiva, para favorecer el autodescubrimiento personal y la conciencia emocional."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Comprender y analizar las emociones que experimenta, reflexionando y estableciendo relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, para adecuar sus reacciones y favorecer su autoconocimiento emocional.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CPSAA1",
+          "CPSAA2"
+        ],
+        "pagina_pdf": 137,
+        "descriptores": {
+          "Insuficiente": "Comprende y analiza con mínima conciencia las emociones que experimenta, reflexionando y estableciendo con escasa claridad relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, e incorporando rutinas saludables en su vida para adecuar sus reacciones en contextos cotidianos y favorecer su autoconocimiento emocional.",
+          "Suficiente/Bien": "Comprende y analiza las emociones que experimenta, reflexionando y estableciendo relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, e incorporando rutinas saludables en su vida para adecuar sus reacciones en contextos cotidianos y favorecer su autoconocimiento emocional.",
+          "Notable": "Comprende y analiza de forma consciente las emociones que experimenta, reflexionando y estableciendo con claridad relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, e incorporando rutinas saludables en su vida para adecuar sus reacciones en contextos cotidianos y favorecer su autoconocimiento emocional.",
+          "Sobresaliente": "Comprende y analiza de forma plenamente consciente las emociones que experimenta, reflexionando y estableciendo con gran claridad relaciones entre ellas y los sucesos que las originan, así como las consecuencias derivadas de las mismas, e incorporando rutinas saludables en su vida para adecuar sus reacciones en contextos cotidianos y favorecer su autoconocimiento emocional."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Actuar en diferentes contextos, asumiendo la responsabilidad de sus propia decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "pagina_pdf": 138,
+        "descriptores": {
+          "Insuficiente": "Actúa en diferentes contextos, sin mostrar interés por asumir la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, usando con errores significativos estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión como vía para su bienestar personal, y poniendo con nula conciencia sus prácticas comunicativas al servicio de la convivencia democrática, sin desarrollar progresivamente un ajuste afectivo satisfactorio ni mejorar las relaciones interpersonales",
+          "Suficiente/Bien": "Actúa en diferentes contextos, asumiendo la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, usando estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión como vía para su bienestar personal, y poniendo sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales",
+          "Notable": "Actúa en diferentes contextos, asumiendo con interés la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, usando con corrección estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión como vía para su bienestar personal, y poniendo de forma consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales.",
+          "Sobresaliente": "Actúa en diferentes contextos, asumiendo con mucho interés la responsabilidad de sus propias decisiones, a partir de sus experiencias emocionales y los efectos de estas en la propia conducta, usando con corrección destacable estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión como vía para su bienestar personal, y poniendo de forma plenamente consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar progresivamente un ajuste afectivo satisfactorio y mejorar las relaciones interpersonales."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Regular las experiencias emocionales desajustadas, ajustando su intensidad, duración y vivencia desagradable, utilizando estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA2"
+        ],
+        "pagina_pdf": 139,
+        "descriptores": {
+          "Insuficiente": "Regula con dificultad las experiencias emocionales desajustadas, adecuando rara vez su intensidad, duración y vivencia desagradable, utilizando con nula iniciativa propia estrategias de respiración y de relajación corporal, lo que limita desarrollar, de manera paulatina, un ajuste afectivo satisfactorio e incorporar rutinas de vida saludable.",
+          "Suficiente/Bien": "Regula las experiencias emocionales desajustadas, adecuando su intensidad, duración y vivencia desagradable, utilizando estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio e incorporar rutinas de vida saludable.",
+          "Notable": "Regula con facilidad las experiencias emocionales desajustadas, adecuando frecuentemente su intensidad, duración y vivencia desagradable, utilizando con iniciativa propia estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio e incorporar rutinas de vida saludable.",
+          "Sobresaliente": "Regula con facilidad destacable las experiencias emocionales desajustadas, adecuando constantemente su intensidad, duración y vivencia desagradable, utilizando con iniciativa propia y determinación estrategias de respiración y de relajación corporal, para desarrollar, de manera paulatina, un ajuste afectivo satisfactorio e incorporar rutinas de vida saludable."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo los sentimientos de los otros y demostrando una actitud de respeto y de apertura hacia ellos, para establecer vínculos con sus compañeros/as y con las demás personas con las que interactúa.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA3",
+          "CC1",
+          "CC3"
+        ],
+        "pagina_pdf": 140,
+        "descriptores": {
+          "Insuficiente": "Comunica con imprecisiones, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo con dificultad los sentimientos de las demás personas, demostrando una actitud de respeto y de apertura hacia ellas, aplicando rara vez reglas de convivencia de forma respetuosa en cualquier contexto y sin reflexionar sobre situaciones de su vida diaria, lo que obstaculiza establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.",
+          "Suficiente/Bien": "Comunica, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo los sentimientos de las demás personas, demostrando una actitud de respeto y de apertura hacia ellas, aplicando reglas de convivencia de forma respetuosa en cualquier contexto y reflexionando sobre situaciones de su vida diaria, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.",
+          "Notable": "Comunica con precisión, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo con facilidad los sentimientos de las demás personas, demostrando una actitud de respeto y de apertura hacia ellas, aplicando frecuentemente reglas de convivencia de forma respetuosa en cualquier contexto y reflexionando sobre situaciones de su vida diaria, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa.",
+          "Sobresaliente": "Comunica con total precisión, de manera asertiva, las experiencias emocionales propias, utilizando un lenguaje verbal y no verbal, escuchando y comprendiendo con facilidad destacable los sentimientos de las demás personas, demostrando una actitud de respeto y de apertura hacia ellas, aplicando siempre reglas de convivencia de forma respetuosa en cualquier contexto y reflexionando sobre situaciones de su vida diaria, para establecer vínculos con sus compañeros o compañeras, y con las demás personas con las que interactúa."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Reconocer las emociones en las demás personas, expresando sentimientos hacia ellas, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD3",
+          "CC2",
+          "CE3"
+        ],
+        "pagina_pdf": 141,
+        "descriptores": {
+          "Insuficiente": "Reconoce con imprecisiones las emociones en las demás personas, expresando sentimientos hacia ellas, rara vez respetando el valor de la diversidad durante la participación cooperativa en actividades en entornos como los digitales, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.",
+          "Suficiente/Bien": "Reconoce las emociones en las demás personas, expresando sentimientos hacia ellas, respetando el valor de la diversidad durante la participación cooperativa en actividades en entornos como los digitales, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.",
+          "Notable": "Reconoce las emociones con precisión en las demás personas, expresando sentimientos hacia ellas, frecuentemente respetando el valor de la diversidad durante la participación cooperativa en actividades en entornos como los digitales, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional.",
+          "Sobresaliente": "Reconoce las emociones con total precisión en las demás personas, expresando sentimientos hacia ellas, siempre respetando el valor de la diversidad durante la participación cooperativa en actividades en entornos como los digitales, experimentando con modelos empáticos y promoviendo la conciencia emocional, como medio para fomentar la empatía y la vinculación emocional."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Experimentar los principios y estrategias de pensamiento creativo, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, comprendiendo las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CPSAA5",
+          "CE1",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 142,
+        "descriptores": {
+          "Insuficiente": "Experimenta con inseguridad los principios y las estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, analizando de manera superficial el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, sin percibir ni interpretar la realidad a través de la estimulación multisensorial, detectando con dificultad aquellos recursos que puedan llevar a la elaboración de ideas adaptativas conducentes a la acción, y sin comprender las causas que bloquean el potencial creativo, lo que impide la promoción de la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Suficiente/Bien": "Experimenta los principios y las estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, analizando el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando aquellos recursos que puedan llevar a la elaboración de ideas adaptativas conducentes a la acción, y comprendiendo las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Notable": "Experimenta con seguridad los principios y las estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, analizando con profundidad el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando con facilidad aquellos recursos que puedan llevar a la elaboración de ideas adaptativas conducentes a la acción, y comprendiendo frecuentemente las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Sobresaliente": "Experimenta con total seguridad y confianza los principios y las estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, analizando con destacable profundidad el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, percibiendo e interpretando la realidad a través de la estimulación multisensorial, detectando con gran facilidad aquellos recursos que puedan llevar a la elaboración de ideas adaptativas conducentes a la acción, y comprendiendo siempre las causas que bloquean el potencial creativo, con el fin de promover la expresión de la creatividad y la autoconfianza en las propias capacidades creativas."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Desarrollar el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+        "descriptores_operativos": [
+          "STEM3",
+          "STEM5",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 143,
+        "descriptores": {
+          "Insuficiente": "Rara vez desarrolla el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales y estrategias sencillas para el tratamiento digital de la información, desarrollando de manera guiada soluciones sencillas y sostenibles de manera ineficiente, seleccionando objetivos poco viables a corto plazo y usando muy pocas veces sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Suficiente/Bien": "Desarrolla el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales y estrategias sencillas para el tratamiento digital de la información, desarrollando de manera guiada soluciones sencillas y sostenibles, seleccionando objetivos a corto plazo y usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Notable": "De forma regular desarrolla el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales y estrategias sencillas para el tratamiento digital de la información, desarrollando de manera guiada soluciones sencillas y sostenibles con incipiente eficiencia, seleccionando objetivos viables a corto plazo y usando frecuentemente sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Sobresaliente": "De forma continua desarrolla el compromiso emocional con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales y estrategias sencillas para el tratamiento digital de la información, desarrollando de manera guiada soluciones sencillas y sostenibles con eficiencia, seleccionando objetivos plenamente viables a corto plazo y usando siempre sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad"
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Analizar y asumir las propias experiencias emocionales a partir de la percepción corporal de estas, su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL5",
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 144,
+        "descriptores": {
+          "Insuficiente": "Analiza, comprende, expresa y asume mostrando inseguridad, de manera escasamente eficaz y ética, las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia sin precisar su sentido y su funcionalidad, rara vez de forma creativa y con una actitud abierta e inclusiva, que le permitan adoptar estilos de vida saludables para su bienestar, sin que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.",
+          "Suficiente/Bien": "Analiza, comprende, expresa y asume, de manera eficaz y ética, las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia, de forma creativa y con una actitud abierta e inclusiva, que le permitan adoptar estilos de vida saludables para su bienestar, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.",
+          "Notable": "Analiza, comprende, expresa y asume con seguridad, de manera eficaz y ética, las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia con sentido y funcionalidad relevante, frecuentemente de forma creativa y con una actitud abierta e inclusiva, que le permitan adoptar estilos de vida saludables para su bienestar, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal.",
+          "Sobresaliente": "Analiza, comprende, expresa y asume con seguridad y plena confianza, de manera eficaz y ética, las propias experiencias emocionales, a partir de la percepción corporal de estas, y su reconocimiento en situaciones de su vida cotidiana, utilizando estrategias de autoconciencia con un sentido y una funcionalidad excelentes, siempre de forma creativa y con una actitud abierta e inclusiva, que le permitan adoptar estilos de vida saludables para su bienestar, de modo que todo ello favorezca el desarrollo de la conciencia emocional y el autoconocimiento personal."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Actuar en diferentes contextos, asumiendo la responsabilidad emocional y su influencia en la propia conducta, y reparando, si fuera necesario, los daños causados, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA5",
+          "CCEC3"
+        ],
+        "pagina_pdf": 145,
+        "descriptores": {
+          "Insuficiente": "Actúa en diferentes contextos, expresando rara vez sentimientos con adecuación y emociones con una actitud abierta e inclusiva, sin mostrar interés por asumir la responsabilidad emocional y su influencia en la propia conducta, empleando con errores significativos estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión o conflicto como vía para su bienestar físico y mental, reparando, si fuera necesario, los daños causados y poniendo con nula conciencia sus prácticas comunicativas al servicio de la convivencia democrática, sin desarrollar un ajuste afectivo satisfactorio ni las relaciones interpersonales.",
+          "Suficiente/Bien": "Actúa en diferentes contextos, expresando sentimientos con adecuación y emociones con una actitud abierta e inclusiva, asumiendo la responsabilidad emocional y su influencia en la propia conducta, empleando estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión o conflicto como vía para su bienestar físico y mental, reparando, si fuera necesario, los daños causados y poniendo sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.",
+          "Notable": "Actúa en diferentes contextos, expresando frecuentemente sentimientos con adecuación y emociones con una actitud abierta e inclusiva, asumiendo con interés la responsabilidad emocional y su influencia en la propia conducta, empleando con corrección estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión o conflicto como vía para su bienestar físico y mental, reparando, si fuera necesario, los daños causados y poniendo de forma consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales.",
+          "Sobresaliente": "Actúa en diferentes contextos, expresando constantemente sentimientos con adecuación y emociones con una actitud abierta e inclusiva, asumiendo con mucho interés la responsabilidad emocional y su influencia en la propia conducta, empleando con corrección destacable estrategias de aprendizaje autorregulado para su gestión en situaciones de tensión o conflicto como vía para su bienestar físico y mental, reparando, si fuera necesario, los daños causados y poniendo de forma plenamente consciente sus prácticas comunicativas al servicio de la convivencia democrática, para desarrollar un ajuste afectivo satisfactorio y las relaciones interpersonales."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Cambiar, de manera consciente, las experiencias emocionales desajustadas sustituyéndolas o compensándolas por otras emociones adaptativas, para desarrollar la capacidad de modificación afectiva.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CPSAA1",
+          "CPSAA2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 146,
+        "descriptores": {
+          "Insuficiente": "Cambia, de manera mínimamente consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas con dificultad por otras emociones adaptativas, rara vez las expresa con una actitud abierta e inclusiva y las pone al servicio de la convivencia positiva, lo que limita desarrollar la capacidad de modificación afectiva y adoptar estilos de vida saludable.",
+          "Suficiente/Bien": "Cambia, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas por otras emociones adaptativas, las expresa con una actitud abierta e inclusiva y las pone al servicio de la convivencia positiva, para desarrollar la capacidad de modificación afectiva y adoptar estilos de vida saludable.",
+          "Notable": "Cambia, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas con facilidad por otras emociones adaptativas, frecuentemente las expresa con una actitud abierta e inclusiva y las pone al servicio de la convivencia positiva, para desarrollar la capacidad de modificación afectiva y adoptar estilos de vida saludable.",
+          "Sobresaliente": "Cambia, de manera consciente, las experiencias emocionales desajustadas, sustituyéndolas o compensándolas con facilidad destacable por otras emociones adaptativas, constantemente las expresa con una actitud abierta e inclusiva y las pone al servicio de la convivencia positiva, para desarrollar la capacidad de modificación afectiva y adoptar estilos de vida saludable."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, abriéndose a conocerlas y a dejarse conocer, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA3",
+          "CC1",
+          "CC3"
+        ],
+        "pagina_pdf": 147,
+        "descriptores": {
+          "Insuficiente": "Comunica con imprecisiones, de manera poco asertiva y sin integrar contenidos digitales en distintos formatos, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal en su diversidad, abriéndose con dificultad a conocerlas y a dejarse conocer, a reconocer y respetar sus emociones durante la participación cooperativa en actividades en entornos como los digitales, aplicando rara vez normas de convivencia con carácter constructivo, dialogante e inclusivo y sin reflexionar sobre ellas, así como sobre valores y problemas éticos de actualidad, lo que limita establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.",
+          "Suficiente/Bien": "Comunica, de manera asertiva e integrando contenidos digitales en distintos formatos, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal en su diversidad, abriéndose a conocerlas y a dejarse conocer, a reconocer y respetar sus emociones durante la participación cooperativa en actividades en entornos como los digitales, aplicando normas de convivencia con carácter constructivo, dialogante e inclusivo y reflexionando sobre ellas, así como sobre valores y problemas éticos de actualidad, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.",
+          "Notable": "Comunica con precisión, de manera asertiva e integrando contenidos digitales en distintos formatos, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal en su diversidad, abriéndose con facilidad a conocerlas y a dejarse conocer, a reconocer y respetar sus emociones durante la participación cooperativa en actividades en entornos como los digitales, aplicando frecuentemente normas de convivencia con carácter constructivo, dialogante e inclusivo y reflexionando sobre ellas, así como sobre valores y problemas éticos de actualidad, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica.",
+          "Sobresaliente": "Comunica con total precisión, de manera asertiva e integrando contenidos digitales en distintos formatos, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal en su diversidad, abriéndose con facilidad destacable a conocerlas y a dejarse conocer, a reconocer y respetar sus emociones durante la participación cooperativa en actividades en entornos como los digitales, aplicando siempre normas de convivencia con carácter constructivo, dialogante e inclusivo y reflexionando sobre ellas, así como sobre valores y problemas éticos de actualidad, para establecer vínculos afectivos y desarrollar una sociabilidad emocional auténtica."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Reconocer las emociones en las demás personas y experimentar sentimientos hacia ellas, a través del desarrollo de escucha activa, aplicando modelos empáticos y promoviendo la conciencia emocional, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "pagina_pdf": 148,
+        "descriptores": {
+          "Insuficiente": "Reconoce con imprecisiones las emociones en las demás personas y experimenta sentimientos hacia ellas, a través del desarrollo de escucha activa, rara vez respetando su diversidad cultural durante la participación cooperativa en actividades donde integra entornos y contenidos digitales en distintos formatos, aplicando modelos empáticos y promoviendo la conciencia emocional, como una oportunidad para aprender, en situaciones de relación interpersonal de manera que se desarrolle la solidaridad y el altruismo.",
+          "Suficiente/Bien": "Reconoce las emociones en las demás personas y experimenta sentimientos hacia ellas, a través del desarrollo de escucha activa, respetando su diversidad cultural durante la participación cooperativa en actividades donde integra entornos y contenidos digitales en distintos formatos, aplicando modelos empáticos y promoviendo la conciencia emocional, como una oportunidad para aprender, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.",
+          "Notable": "Reconoce con precisión las emociones en las demás personas y experimenta sentimientos hacia ellas, a través del desarrollo de escucha activa, frecuentemente respetando su diversidad cultural durante la participación cooperativa en actividades donde integra entornos y contenidos digitales en distintos formatos, aplicando modelos empáticos y promoviendo la conciencia emocional, como una oportunidad para aprender, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo.",
+          "Sobresaliente": "Reconoce con total precisión las emociones en las demás personas y experimenta sentimientos hacia ellas, a través del desarrollo de escucha activa, siempre respetando su diversidad cultural durante la participación cooperativa en actividades donde integra entornos y contenidos digitales en distintos formatos, aplicando modelos empáticos y promoviendo la conciencia emocional, como una oportunidad para aprender, en situaciones de relación interpersonal, de manera que se desarrolle la solidaridad y el altruismo"
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Aplicar principios y estrategias de pensamiento creativo, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, y superando los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.",
+        "descriptores_operativos": [
+          "CPSAA5",
+          "CE2",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 149,
+        "descriptores": {
+          "Insuficiente": "Aplica de manera inadecuada principios y estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, valorando de manera superficial el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, sin experimentar de forma consciente nuevas maneras de percibir e interpretar la realidad, detectando con dificultad aquellos recursos que puedan llevar las ideas originales y valiosas a la acción, y sin superar los obstáculos sociales y emocionales que limitan su potencial creativo, lo que bloquea la promoción de la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Suficiente/Bien": "Aplica principios y estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, valorando el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, detectando aquellos recursos que puedan llevar las ideas originales y valiosas a la acción, y superando los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Notable": "Aplica con adecuación principios y estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, valorando con profundidad el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, detectando con facilidad aquellos recursos que puedan llevar las ideas originales y valiosas a la acción, y superando frecuentemente los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas.",
+          "Sobresaliente": "Aplica con excelente adecuación principios y estrategias de pensamiento creativo, de autoconocimiento y de aprendizaje autorregulado, valorando con destacable profundidad el proceso realizado y el resultado obtenido, utilizando múltiples lenguajes, experimentando de forma consciente nuevas maneras de percibir e interpretar la realidad, detectando con gran facilidad aquellos recursos que puedan llevar las ideas originales y valiosas a la acción, y superando siempre los obstáculos sociales y emocionales que limitan su potencial creativo, con el fin de promover la expresión de la propia creatividad y la autoconfianza en las propias capacidades creativas."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Comprometerse emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+        "descriptores_operativos": [
+          "STEM3",
+          "STEM5",
+          "CD2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA5",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 150,
+        "descriptores": {
+          "Insuficiente": "Rara vez se compromete emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales, desarrollando soluciones digitales originales sencillas y sostenibles de manera ineficiente, planeando objetivos poco viables a corto plazo y usando muy pocas veces sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Suficiente/Bien": "Se compromete emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales, desarrollando soluciones digitales originales sencillas y sostenibles, planeando objetivos a corto plazo y usando sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad",
+          "Notable": "De forma regular se compromete emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales, desarrollando soluciones digitales originales sencillas y sostenibles con incipiente eficiencia, planeando objetivos viables a corto plazo y usando frecuentemente sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad.",
+          "Sobresaliente": "De forma continua se compromete emocionalmente con las demás personas, a través de la participación, elaboración e implementación de proyectos colectivos de carácter emprendedor, empleando diferentes herramientas o plataformas virtuales, desarrollando soluciones digitales originales sencillas y sostenibles con eficiencia, planeando objetivos plenamente viables a corto plazo y usando siempre sus capacidades creativas y actitudes innovadoras para proporcionar beneficios a la comunidad."
+        }
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@
 | Norma | Datos | Enlace oficial | Estado |
 | --- | --- | --- | --- |
 | **Decreto 25/2018**, de 26 de febrero, por el que se regula la atención a la diversidad en el ámbito de las enseñanzas no universitarias de la Comunidad Autónoma de Canarias | BOC n.º 46, de 06/03/2018. Vigor: día siguiente a su publicación (disp. final tercera) | http://www.gobcan.es/boc/2018/046/001.html | Vigente. Deroga el Decreto 104/2010, de 29 de julio |
-| **Orden de 13 de diciembre de 2010**, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias | BOC n.º 250 de 2010 (el número se deduce del nombre del PDF oficial; fecha de publicación: pendiente de verificar) | http://sede.gobcan.es/boc/boc-a-2010-250-7036.pdf | **Vigente de forma transitoria** en lo que no contradiga al decreto (disp. transitoria segunda del D. 25/2018) |
+| **Orden de 13 de diciembre de 2010**, por la que se regula la atención al alumnado con necesidades específicas de apoyo educativo en la Comunidad Autónoma de Canarias | **BOC n.º 250, de 22/12/2010** (verificado en la cita de la Resolución 73/2026, anexo II, nota 36, p. 35) | http://sede.gobcan.es/boc/boc-a-2010-250-7036.pdf | **Vigente de forma transitoria** en lo que no contradiga al decreto (disp. transitoria segunda del D. 25/2018) |
 | **Resolución de 9 de febrero de 2011**, de la DG de Ordenación, Innovación y Promoción Educativa, por la que se dictan instrucciones sobre los procedimientos y los plazos para la atención educativa del alumnado con NEAE | BOC n.º 40, de 24/02/2011 (BOC-A-2011-040-910) | https://www.gobiernodecanarias.org/boc/2011/040/005.html | **Vigente de forma transitoria** (misma disposición) |
 | Decreto 211/2022 (currículo de Primaria), arts. 14–15 | BOC n.º 231/2022 | Ver `02-canarias-decreto-211-2022.md` | Vigente |
 | Orden de 31/05/2023 (evaluación), arts. 42–43 | BOC n.º 110/2023 | Ver `04-evaluacion-canarias-orden-31-05-2023.md` | Vigente |
@@ -83,11 +83,21 @@ Evaluación (Orden de 31/05/2023, arts. 42–43): los referentes son los criteri
 | Docente de aula y tutoría | Detección temprana, medidas ordinarias, solicitud de evaluación psicopedagógica a través de la dirección, elaboración de la AC/ACUS con el resto del equipo |
 | Equipo docente o de ciclo | Coordinación de medidas, propuesta de agrupamientos y refuerzos |
 | EOEP (zona y específicos) | Evaluación e identificación de NEAE (art. 12.1), informe psicopedagógico, dictamen de escolarización (art. 13.1) |
-| Profesorado especialista | PT, AL y otros apoyos a las NEAE. Siglas MAI, PT y PAL según la ULL (fuente secundaria; pendiente de verificar la denominación oficial vigente) |
+| Profesorado especialista | Denominación oficial en las instrucciones 2026-2027: **profesorado especialista de apoyo a las NEAE** y **profesorado de audición y lenguaje** (Resolución 73/2026, anexo II, 1.8 y 1.11). PT y AL son abreviaturas habituales. Las siglas MAI y PAL proceden de la ULL (fuente secundaria) y no aparecen en la resolución: no usarlas en los prompts |
 | Familia | Es informada y opina en el dictamen (art. 14.2) |
 | Consejería | Regula procedimientos, autoriza medidas excepcionales y la permanencia extraordinaria |
 
 Permanencia (art. 15): el alumnado con NEE puede prolongar un año la escolarización en Primaria si favorece su integración socioeducativa, salvo si ya la prolongó en Infantil.
+
+## Concreción para el curso 2026-2027 (Resolución 73/2026)
+
+- **Prevención y detección temprana**, con atención al alumnado vulnerable y actuación en cuanto se detecten las dificultades (anexo II, 1.1, p. 28).
+- El **plan de atención a la diversidad** recoge las medidas **organizativas, metodológicas y curriculares por niveles**, con prioridad en el último curso de Infantil y en **1.º y 2.º de Primaria**. Las medidas "se regirán por los principios del **DUA**" (art. 3 del D. 211/2022).
+- **Horas de apoyo:** preferentemente para la desventaja educativa, **incluida la brecha digital**, y el riesgo de abandono, con prioridad en el último curso de Infantil, el **primer ciclo y 6.º**. Se admite una organización flexible y se concentran en **el menor número posible de docentes por grupo**. En la **PGA** deben constar los criterios de asignación y los **indicadores de impacto** de cada medida (anexo II, 1.2, p. 28).
+- **NEAE:** "el profesorado prestará especial atención a las orientaciones, propuestas y recomendaciones pedagógicas" de los informes de orientación (anexo I, 2.2, p. 20). La resolución remite al art. 29.3 de la Orden de 1/09/2010 de los EOEP (BOC n.º 181, de 14/09/2010).
+- Los centros con limitaciones de espacio pueden recibir **horas lectivas adicionales** para docencia compartida, desdobles en áreas instrumentales y refuerzo con profesorado de apoyo (anexo I, 1.12, p. 17).
+- Solicitud de medidas: la referencia citada es la Resolución 317/2025, de 23/04/2025, de la DGOEII (curso 2025-2026). La equivalente para 2026-2027 está pendiente de verificar.
+- La tutoría del aula enclave tiene un descuento que no se acumula con el del art. 26 de la Orden de 13/12/2010 (anexo II, nota 36).
 
 ## Qué puede proponer el generador como "medida ordinaria" sin invadir competencias
 
@@ -113,8 +123,12 @@ Permanencia (art. 15): el alumnado con NEE puede prolongar un año la escolariza
 3. El selector de "perfil" de `promptAdaptacion` puede ofrecer las siete categorías del art. 11.1 más una opción "sin NEAE identificada (dificultad observada en el aula)", que debe ser la opción por defecto.
 4. Mantener la nota final actual del prompt y reforzarla con esta frase: "Si el alumno o la alumna tiene AC o ACUS, los referentes son los criterios de su adaptación (Orden de 31/05/2023, art. 42); coordínate con orientación."
 5. Las medidas propuestas deben poder etiquetarse con la letra del art. 5.2 (a–f), lo que facilita su traslado al plan de atención a la diversidad del centro.
+6. En `promptAdaptacion`, apartado "Coordinación": "Ten en cuenta las orientaciones y propuestas del informe psicopedagógico, si existe (Resolución 73/2026, anexo I, 2.2), y coordina con el profesorado especialista de apoyo a las NEAE, el de audición y lenguaje y orientación."
+7. En `promptAdaptacion` y en `promptPD`: considerar la **brecha digital** como barrera, porque las horas de apoyo la priorizan (anexo II, 1.2), y proponer siempre alternativas sin dispositivo.
 
 ## Fuentes
+
+- Resolución n.º 73/2026, texto íntegro y anexo II aportados por el usuario (ver `07-instrucciones-curso-2026-2027.md`)
 
 - Decreto 25/2018, texto en el dossier del Parlamento de Canarias: https://www.parcan.es/files/documentacion/dosieres/DOSS0288/DOSS0288DOC7150.pdf
 - Consejería, normativa de otras NEAE (enlaces al BOC del decreto, de la orden y de la resolución): https://www.gobiernodecanarias.org/educacion/web/servicios/necesidades_apoyo_educativo/otras_neae/normativa/index.html

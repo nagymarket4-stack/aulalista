@@ -1,0 +1,2753 @@
+{
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "paginas_pdf": [
+    6,
+    361
+  ],
+  "areas": {
+    "conocimiento-del-medio-natural-social-y-cultural": {
+      "primer": {
+        "rubricas": 24,
+        "esperados": 24,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 96,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "2.5",
+            "nivel": "Notable",
+            "inicio": "Comunica el resultado de las investigaciones con apropiada claridad y adecuación",
+            "lineas_no_encontradas": [
+              "investigaciones con apropiada"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce y aprecia las características, la organización y las propiedades básica",
+            "lineas_no_encontradas": [
+              "Reconoce y aprecia las"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Demuestra estilos de vida sostenibles y muestra interés por el respeto, el cuida",
+            "lineas_no_encontradas": [
+              "respeto, el cuidado, la",
+              "iniciándose en el uso del"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Recoge información, empleando estrategias cooperativas, acerca de manifestacione",
+            "lineas_no_encontradas": [
+              "canaria, y descubriéndolas,"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica instituciones cercanas, descubriendo los aspectos básicos del patrimo",
+            "lineas_no_encontradas": [
+              "reconoce en sus prácticas"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "2.3",
+          "2.5",
+          "3.1",
+          "3.3",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6.1",
+          "7.1",
+          "7.2",
+          "8.1",
+          "8.2",
+          "9.1",
+          "9.2",
+          "9.3"
+        ]
+      },
+      "segundo": {
+        "rubricas": 24,
+        "esperados": 24,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 96,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Construye, en equipo, de forma empática e inclusiva, un producto final sencillo ",
+            "lineas_no_encontradas": [
+              "básicos, adoptando posturas"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Construye, con alta corrección y facilidad destacable, en equipo, de forma empát",
+            "lineas_no_encontradas": [
+              "proponiendo siempre posibles"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Desarrolla, de forma guiada, actitudes que fomentan el bienestar físico, emocion",
+            "lineas_no_encontradas": [
+              "corresponsables, detectando y"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Desarrolla muy adecuadamente, de forma guiada, actitudes que fomentan el bienest",
+            "lineas_no_encontradas": [
+              "corresponsables con destacada"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Desarrolla con excelente adecuación, de forma guiada, actitudes que fomentan el ",
+            "lineas_no_encontradas": [
+              "fomentan el bienestar físico,"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica las características, la organización y las propiedades fundamentales ",
+            "lineas_no_encontradas": [
+              "obtenidas, y utilizando las"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Notable",
+            "inicio": "Conoce con destacada corrección personas, grupos sociales relevantes y formas de",
+            "lineas_no_encontradas": [
+              "comprendiendo con moderada"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Analiza y entiende de manera amplia, detallada y solvente la importancia demográ",
+            "lineas_no_encontradas": [
+              "actualidad, explorando con"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Notable",
+            "inicio": "Valora con profundidad las acciones y actividades comunitarias que fomentan la i",
+            "lineas_no_encontradas": [
+              "empleando con compromiso"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.3",
+          "3.1",
+          "3.2",
+          "3.3",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.2",
+          "6.1",
+          "6.2",
+          "7.1",
+          "7.2",
+          "8.1",
+          "8.2",
+          "9.1",
+          "9.2",
+          "9.3"
+        ]
+      },
+      "tercer": {
+        "rubricas": 24,
+        "esperados": 24,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 96,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.2",
+            "nivel": "Notable",
+            "inicio": "Reelabora y crea con facilidad contenidos digitales sencillos, experimentando en",
+            "lineas_no_encontradas": [
+              "experimentando en diferentes"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Formula preguntas y realiza predicciones muy adecuadamente razonadas sobre cuest",
+            "lineas_no_encontradas": [
+              "manteniendo alta curiosidad,",
+              "continuada en interacciones"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Formula preguntas y realiza predicciones excelentemente razonadas sobre cuestion",
+            "lineas_no_encontradas": [
+              "persistente en interacciones"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Busca, selecciona y contrasta con destacada solvencia y corrección información d",
+            "lineas_no_encontradas": [
+              "precisión y la utiliza en"
+            ]
+          },
+          {
+            "criterio": "2.4",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Propone posibles respuestas a las preguntas planteadas, en diversos textos, a tr",
+            "lineas_no_encontradas": [
+              "interpretación de información"
+            ]
+          },
+          {
+            "criterio": "2.4",
+            "nivel": "Notable",
+            "inicio": "Propone, con alta adecuación, posibles respuestas a las preguntas planteadas, en",
+            "lineas_no_encontradas": [
+              "obtenidos, valorando con un"
+            ]
+          },
+          {
+            "criterio": "2.4",
+            "nivel": "Sobresaliente",
+            "inicio": "Propone, con excelente adecuación, posibles respuestas a las preguntas planteada",
+            "lineas_no_encontradas": [
+              "mediante el uso totalmente"
+            ]
+          },
+          {
+            "criterio": "2.5",
+            "nivel": "Notable",
+            "inicio": "Comunica los resultados de las investigaciones con apropiada claridad y adecuaci",
+            "lineas_no_encontradas": [
+              "investigaciones con apropiada"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Plantea, cooperativamente, problemas de diseño que se resuelvan con la creación ",
+            "lineas_no_encontradas": [
+              "Plantea, cooperativamente,"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Notable",
+            "inicio": "Plantea con alta corrección, cooperativamente, problemas de diseño que se resuel",
+            "lineas_no_encontradas": [
+              "Plantea con alta corrección,",
+              "frecuentemente herramientas e"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Plantea con alta corrección y facilidad destacable, cooperativamente, problemas ",
+            "lineas_no_encontradas": [
+              "excelente adecuación objetivos"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Diseña con total corrección y autonomía posibles soluciones, creativas y sosteni",
+            "lineas_no_encontradas": [
+              "autonomía posibles soluciones,"
+            ]
+          },
+          {
+            "criterio": "3.3",
+            "nivel": "Notable",
+            "inicio": "Desarrolla, un producto final, destacadamente creativo e innovador, que da soluc",
+            "lineas_no_encontradas": [
+              "destacadamente creativo e",
+              "segura, las herramientas, los"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Promueve, de manera muy adecuada, actitudes que fomentan el bienestar físico, em",
+            "lineas_no_encontradas": [
+              "Promueve, de manera muy",
+              "comunicación emocional con"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Promueve, con excelente adecuación, actitudes que fomentan el bienestar físico, ",
+            "lineas_no_encontradas": [
+              "comunicación emocional con"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "Adopta de manera regular y constante estilos de vida saludables, aplicando con i",
+            "lineas_no_encontradas": [
+              "estrategias cooperativas muy"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Establece con total precisión conexiones sencillas entre diferentes elementos de",
+            "lineas_no_encontradas": [
+              "Establece con total precisión"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Notable",
+            "inicio": "Valora, protege y muestra, con iniciativa propia y entusiasmo, actitudes de cons",
+            "lineas_no_encontradas": [
+              "habitualmente sus aspectos"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Analiza con solvencia y destreza, con el debido acompañamiento y adoptando una p",
+            "lineas_no_encontradas": [
+              "el debido acompañamiento y"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Analiza de manera amplia, detallada y solvente los procesos geográficos, históri",
+            "lineas_no_encontradas": [
+              "Analiza de manera amplia,"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Notable",
+            "inicio": "Promueve habitualmente con iniciativa propia acciones para la igualdad efectiva ",
+            "lineas_no_encontradas": [
+              "Promueve habitualmente con"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Promueve con constante iniciativa propia y alta motivación acciones para la igua",
+            "lineas_no_encontradas": [
+              "con claridad y profundidad"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Resuelve de forma pacífica, comunicativa y dialogada los conflictos, siendo cons",
+            "lineas_no_encontradas": [
+              "empleando estrategias para",
+              "gestionarlos; promoviendo una",
+              "violento; comprendiendo las",
+              "la necesidad de respetarlas;"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Notable",
+            "inicio": "Resuelve regular y constantemente de forma pacífica, comunicativa y dialogada lo",
+            "lineas_no_encontradas": [
+              "relevantes para gestionarlos;",
+              "violento; comprendiendo con",
+              "destacable y ejercitando con"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Resuelve con máxima constancia y determinación de forma pacífica, comunicativa y",
+            "lineas_no_encontradas": [
+              "funcionalidad excelentes para",
+              "gestionarlos; promoviendo con",
+              "compromiso una interacción"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "3.1",
+          "3.2",
+          "3.3",
+          "4.1",
+          "5.2",
+          "5.3",
+          "6.2",
+          "7.1",
+          "7.2",
+          "8.1",
+          "8.2",
+          "9.1"
+        ]
+      }
+    },
+    "educacion-artistica": {
+      "primer": {
+        "rubricas": 10,
+        "esperados": 10,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 40,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Descubre, con interés constante, propuestas artísticas de su entorno próximo, de",
+            "lineas_no_encontradas": [
+              "y épocas, reconociendo, con"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Selecciona y aplica estrategias elementales para la búsqueda guiada de informaci",
+            "lineas_no_encontradas": [
+              "Canarias, reconociendo sus"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Descubre, reconoce y respeta, con amplia corrección, elementos característicos b",
+            "lineas_no_encontradas": [
+              "amplia corrección, elementos"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Insuficiente",
+            "inicio": "Descubre y reconoce, mostrando desinterés, los aspectos fundamentales del patrim",
+            "lineas_no_encontradas": [
+              "desinterés, los aspectos"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Experimenta de manera guiada, con total confianza, con algunos elementos básicos",
+            "lineas_no_encontradas": [
+              "total confianza, con algunos"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Produce obras propias, utilizando las posibilidades expresivas del cuerpo, el so",
+            "lineas_no_encontradas": [
+              "confianza al asumir las"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Participa de manera pautada y con orientaciones en el diseño de producciones cul",
+            "lineas_no_encontradas": [
+              "coherente diferentes lenguajes,"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "3.2"
+        ]
+      },
+      "segundo": {
+        "rubricas": 10,
+        "esperados": 10,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 40,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce e indica propuestas artísticas de diferentes géneros, estilos, épocas y",
+            "lineas_no_encontradas": [
+              "entendiendo las situaciones",
+              "mostrando interés por sus"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Selecciona y aplica estrategias para la búsqueda guiada de información, para loc",
+            "lineas_no_encontradas": [
+              "contrastar, con el debido"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Distingue, con total facilidad y precisión, elementos característicos básicos de",
+            "lineas_no_encontradas": [
+              "facilidad para comunicarlo,"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Distingue las sensaciones y emociones producidas por diferentes manifestaciones ",
+            "lineas_no_encontradas": [
+              "comprensión, para participar"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Notable",
+            "inicio": "Distingue, con corrección en los elementos relevantes, las sensaciones y emocion",
+            "lineas_no_encontradas": [
+              "progresivamente autónoma, y"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Distingue, con total corrección y precisión, las sensaciones y emociones produci",
+            "lineas_no_encontradas": [
+              "precisión, las sensaciones y"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Experimenta con los elementos básicos de los distintos lenguajes e instrumentos ",
+            "lineas_no_encontradas": [
+              "explorando y respetando la",
+              "limitaciones, detectando sus"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Experimenta, con total confianza, con los elementos básicos de los distintos len",
+            "lineas_no_encontradas": [
+              "limitaciones, detectando, con"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Insuficiente",
+            "inicio": "Produce obras propias, utilizando y perfeccionando la ejecución, con incoherenci",
+            "lineas_no_encontradas": [
+              "significativa, las posibilidades"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Participa de manera guiada y pautada en el diseño de producciones culturales y a",
+            "lineas_no_encontradas": [
+              "funciones, desarrollando la",
+              "adaptativas, desarrollar la"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del tr",
+            "lineas_no_encontradas": [
+              "todo el grupo, resolviendo"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del tr",
+            "lineas_no_encontradas": [
+              "buscando ayuda regularmente,"
+            ]
+          },
+          {
+            "criterio": "4.3",
+            "nivel": "Insuficiente",
+            "inicio": "Comparte, como estrategia para el desarrollo de la creatividad, la noción de aut",
+            "lineas_no_encontradas": [
+              "precisión, necesidades y retos,"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "2.2",
+          "3.2"
+        ]
+      },
+      "tercer": {
+        "rubricas": 10,
+        "esperados": 10,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 40,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Distingue, con corrección y precisión, propuestas artísticas de diferentes géner",
+            "lineas_no_encontradas": [
+              "Distingue, con corrección y"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos,",
+            "lineas_no_encontradas": [
+              "con claridad y adecuación,",
+              "técnicos, mediante búsquedas"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Notable",
+            "inicio": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos,",
+            "lineas_no_encontradas": [
+              "frecuente, estableciendo, con"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos,",
+            "lineas_no_encontradas": [
+              "explorando, activamente, sus"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Selecciona y aplica estrategias para la búsqueda localización, selección y contr",
+            "lineas_no_encontradas": [
+              "sencilla sobre manifestaciones"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Selecciona y aplica, con eficacia, estrategias para la búsqueda localización, se",
+            "lineas_no_encontradas": [
+              "iniciándose, con compromiso"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Compara el significado y los elementos característicos de distintas manifestacio",
+            "lineas_no_encontradas": [
+              "identidad, adoptando posturas"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Notable",
+            "inicio": "Compara, con facilidad, el significado y los elementos característicos de distin",
+            "lineas_no_encontradas": [
+              "Compara, con facilidad, el",
+              "contrastando, con facilidad,",
+              "reflexión guiados, con alta"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Compara, con gran facilidad, el significado y los elementos característicos de d",
+            "lineas_no_encontradas": [
+              "reflexión guiados, con plena"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Valora las sensaciones y emociones producidas por diferentes manifestaciones cul",
+            "lineas_no_encontradas": [
+              "artísticas, comprendiendo y",
+              "sensibilidad artística propia,"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Notable",
+            "inicio": "Valora, de forma consciente, las sensaciones y emociones producidas por diferent",
+            "lineas_no_encontradas": [
+              "de manera fundamental, y"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Valora, de modo plenamente consciente, las sensaciones y emociones producidas po",
+            "lineas_no_encontradas": [
+              "consciente, las sensaciones y",
+              "comprendiendo, con destacable",
+              "deliberación, prejuicios y"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Produce obras propias, utilizando con total coherencia las posibilidades expresi",
+            "lineas_no_encontradas": [
+              "y dedicación constantes las"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Planifica y diseña producciones culturales y artísticas, utilizando distintos le",
+            "lineas_no_encontradas": [
+              "distintos lenguajes, soportes,"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Planifica y diseña producciones culturales y artísticas de forma muy adecuada, e",
+            "lineas_no_encontradas": [
+              "coherente distintos lenguajes,"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Planifica y diseña producciones culturales y artísticas con gran adecuación, emp",
+            "lineas_no_encontradas": [
+              "coherencia distintos lenguajes,",
+              "plenamente activa diferentes",
+              "entorno, para, desarrollar la"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Participa activamente en el proceso cooperativo de producciones culturales y art",
+            "lineas_no_encontradas": [
+              "también el uso diferentes"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "Participa con interés y dedicación constantes en el proceso cooperativo de produ",
+            "lineas_no_encontradas": [
+              "regularmente, procurando"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": []
+      }
+    },
+    "educacion-emocional-y-para-la-creatividad": {
+      "primer": {
+        "rubricas": 8,
+        "esperados": 8,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 32,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Percibe con seguridad las sensaciones corporales asociadas a experiencias emocio",
+            "lineas_no_encontradas": [
+              "Percibe con seguridad las"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Actúa con responsabilidad en el contexto escolar, tomando decisiones conscientes",
+            "lineas_no_encontradas": [
+              "emociones, asumiendo las"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Actúa con responsabilidad en el contexto escolar, tomando decisiones conscientes",
+            "lineas_no_encontradas": [
+              "asumiendo con interés las"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Comunica, de manera sincera, las experiencias emocionales propias a las demás pe",
+            "lineas_no_encontradas": [
+              "sentimientos, aplicando reglas",
+              "vida diaria, para establecer"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Reconoce con precisión las emociones en las demás personas expresando sentimient",
+            "lineas_no_encontradas": [
+              "Reconoce con precisión las"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "3.1",
+          "3.2",
+          "4.1",
+          "4.2"
+        ]
+      },
+      "segundo": {
+        "rubricas": 8,
+        "esperados": 8,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 32,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Identifica con seguridad las experiencias emocionales percibidas mediante las se",
+            "lineas_no_encontradas": [
+              "Identifica con seguridad las"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Identifica con seguridad y plena confianza las experiencias emocionales percibid",
+            "lineas_no_encontradas": [
+              "confianza las experiencias"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Comprende y analiza las emociones que experimenta, reflexionando y estableciendo",
+            "lineas_no_encontradas": [
+              "sus reacciones en contextos"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Regula con facilidad destacable las experiencias emocionales desajustadas, adecu",
+            "lineas_no_encontradas": [
+              "constantemente su intensidad,",
+              "determinación estrategias de"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Notable",
+            "inicio": "Comunica con precisión, de manera asertiva, las experiencias emocionales propias",
+            "lineas_no_encontradas": [
+              "y no verbal, escuchando y"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce las emociones en las demás personas, expresando sentimientos hacia ella",
+            "lineas_no_encontradas": [
+              "digitales, experimentando con"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Reconoce las emociones con precisión en las demás personas, expresando sentimien",
+            "lineas_no_encontradas": [
+              "digitales, experimentando con"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "De forma regular desarrolla el compromiso emocional con las demás personas, a tr",
+            "lineas_no_encontradas": [
+              "usando frecuentemente sus"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "2.1",
+          "2.2",
+          "3.1",
+          "4.1"
+        ]
+      },
+      "tercer": {
+        "rubricas": 7,
+        "esperados": 7,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 28,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Analiza, comprende, expresa y asume con seguridad, de manera eficaz y ética, las",
+            "lineas_no_encontradas": [
+              "funcionalidad relevante,"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Analiza, comprende, expresa y asume con seguridad y plena confianza, de manera e",
+            "lineas_no_encontradas": [
+              "una funcionalidad excelentes,"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Actúa en diferentes contextos, expresando sentimientos con adecuación y emocione",
+            "lineas_no_encontradas": [
+              "propia conducta, empleando"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Actúa en diferentes contextos, expresando frecuentemente sentimientos con adecua",
+            "lineas_no_encontradas": [
+              "expresando frecuentemente"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Actúa en diferentes contextos, expresando constantemente sentimientos con adecua",
+            "lineas_no_encontradas": [
+              "expresando constantemente"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Cambia, de manera consciente, las experiencias emocionales desajustadas, sustitu",
+            "lineas_no_encontradas": [
+              "adaptativas, constantemente las"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Comunica con total precisión, de manera asertiva e integrando contenidos digital",
+            "lineas_no_encontradas": [
+              "manera asertiva e integrando"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce las emociones en las demás personas y experimenta sentimientos hacia el",
+            "lineas_no_encontradas": [
+              "distintos formatos, aplicando"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Reconoce con precisión las emociones en las demás personas y experimenta sentimi",
+            "lineas_no_encontradas": [
+              "Reconoce con precisión las"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Se compromete emocionalmente con las demás personas, a través de la participació",
+            "lineas_no_encontradas": [
+              "soluciones digitales originales"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "De forma regular se compromete emocionalmente con las demás personas, a través d",
+            "lineas_no_encontradas": [
+              "usando frecuentemente sus"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Sobresaliente",
+            "inicio": "De forma continua se compromete emocionalmente con las demás personas, a través ",
+            "lineas_no_encontradas": [
+              "eficiencia, planeando objetivos"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "2.2"
+        ]
+      }
+    },
+    "educacion-fisica": {
+      "primer": {
+        "rubricas": 9,
+        "esperados": 9,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 36,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Explora con iniciativa propia y motivación sostenida las posibilidades de la mot",
+            "lineas_no_encontradas": [
+              "motivación sostenida las"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Notable",
+            "inicio": "Experimenta de forma muy adecuada diferentes medidas de seguridad aplicables a d",
+            "lineas_no_encontradas": [
+              "Experimenta de forma muy"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Experimenta con destacada adecuación diferentes medidas de seguridad aplicables ",
+            "lineas_no_encontradas": [
+              "Experimenta con destacada"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Experimenta con total confianza con el propio cuerpo, descubriendo los component",
+            "lineas_no_encontradas": [
+              "desarrollando con destacada"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Respeta con determinación y compromiso las normas y reglas del juego, actuando s",
+            "lineas_no_encontradas": [
+              "juego, actuando siempre con",
+              "aprendizaje autorregulado, e"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Participa en composiciones con o sin soporte musical con total corrección, al ig",
+            "lineas_no_encontradas": [
+              "total coherencia sensaciones,"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": []
+      },
+      "segundo": {
+        "rubricas": 9,
+        "esperados": 9,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 36,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Utiliza la actividad física como alternativa de ocio saludable y sostenible, adq",
+            "lineas_no_encontradas": [
+              "higiene, y de alimentación,",
+              "científico, y comenzando a"
+            ]
+          },
+          {
+            "criterio": "1.2",
+            "nivel": "Notable",
+            "inicio": "Interioriza con facilidad medidas de seguridad antes, durante y después de la pr",
+            "lineas_no_encontradas": [
+              "detalle, adquiriendo actitudes"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Adquiere un progresivo control y dominio corporal, empleando los componentes cua",
+            "lineas_no_encontradas": [
+              "componentes cualitativos, y",
+              "adaptando los componentes"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Notable",
+            "inicio": "Adquiere con autonomía un progresivo control y dominio corporal, empleando los c",
+            "lineas_no_encontradas": [
+              "Adquiere con autonomía un"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Demuestra con gran claridad, durante la práctica de actividades motrices, respet",
+            "lineas_no_encontradas": [
+              "limpio con determinación y",
+              "cooperativas con excelente"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "2.2"
+        ]
+      },
+      "tercer": {
+        "rubricas": 9,
+        "esperados": 9,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 36,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Integra con excelente adecuación, los procesos de activación corporal, autorregu",
+            "lineas_no_encontradas": [
+              "alimentación natural, para su"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Interviene en situaciones motrices lúdicas, con predisposición, esfuerzo, persev",
+            "lineas_no_encontradas": [
+              "cooperativas y participando"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2"
+        ]
+      }
+    },
+    "educacion-en-valores-civicos-y-eticos": {
+      "primer": {
+        "rubricas": 0,
+        "esperados": 0,
+        "estado": "sin rúbrica en la fuente"
+      },
+      "segundo": {
+        "rubricas": 0,
+        "esperados": 0,
+        "estado": "sin rúbrica en la fuente"
+      },
+      "tercer": {
+        "rubricas": 9,
+        "esperados": 9,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 36,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Construye un adecuado concepto de sí mismo o sí misma en relación con otras pers",
+            "lineas_no_encontradas": [
+              "saludable de las tecnologías"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Notable",
+            "inicio": "Reflexiona con deliberación, dialoga con interés y dedicación constantes y asume",
+            "lineas_no_encontradas": [
+              "y asume frecuentemente un"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Notable",
+            "inicio": "Contribuye de forma activa y consciente a generar una convivencia positiva respe",
+            "lineas_no_encontradas": [
+              "discriminatorio de la lengua,"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Contribuye de forma activa y plenamente consciente a generar una convivencia pos",
+            "lineas_no_encontradas": [
+              "discriminatorio de la lengua,",
+              "conociendo con destacable"
+            ]
+          },
+          {
+            "criterio": "2.4",
+            "nivel": "Sobresaliente",
+            "inicio": "Comprende y valora de forma profundamente reflexiva los principios de justicia, ",
+            "lineas_no_encontradas": [
+              "profundamente reflexiva los"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Evalúa diferentes alternativas creativas con que frenar el cambio climático y lo",
+            "lineas_no_encontradas": [
+              "comprendiendo textos para"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Expresa y gestiona equilibradamente las emociones, y desarrolla una actitud de e",
+            "lineas_no_encontradas": [
+              "personas y del entorno,"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad re",
+            "lineas_no_encontradas": [
+              "funcionalidad relevantes, y",
+              "frecuentemente, identificando,"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad ex",
+            "lineas_no_encontradas": [
+              "funcionalidad excelentes, y",
+              "alta frecuencia, identificando,"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.2",
+          "2.3",
+          "2.4",
+          "3.2",
+          "4.1"
+        ]
+      }
+    },
+    "lengua-castellana-y-literatura": {
+      "primer": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos sobre disti",
+            "lineas_no_encontradas": [
+              "frecuentes, participando en",
+              "dialogada, entendiendo las"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos con apropia",
+            "lineas_no_encontradas": [
+              "con iniciativa en actividades",
+              "entendiendo con detalle las",
+              "identificando debidamente las"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Identifica hechos, conceptos, pensamientos, opiniones o sentimientos con gran cl",
+            "lineas_no_encontradas": [
+              "destacable especialmente",
+              "total precisión prejuicios y"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Notable",
+            "inicio": "Produce textos orales y multimodales, utilizando con claridad y adecuación tanto",
+            "lineas_no_encontradas": [
+              "alternativas y tomando gran"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas en diferentes conte",
+            "lineas_no_encontradas": [
+              "comunicativa, iniciándose en"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas con gran claridad y",
+            "lineas_no_encontradas": [
+              "con destacada habilidad en"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Notable",
+            "inicio": "Produce textos escritos y multimodales con destacada coherencia, claridad y adec",
+            "lineas_no_encontradas": [
+              "multimodales con destacada"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guia",
+            "lineas_no_encontradas": [
+              "cooperativa, respetando los"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Notable",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guia",
+            "lineas_no_encontradas": [
+              "respetando frecuentemente los"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso muy guia",
+            "lineas_no_encontradas": [
+              "siempre los procedimientos"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Notable",
+            "inicio": "Lee con progresiva autonomía textos de diversa índole, incluyendo aquellos que p",
+            "lineas_no_encontradas": [
+              "elementos relevantes las"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Notable",
+            "inicio": "Produce, expresando, con apropiada claridad, hechos, conceptos, pensamientos, op",
+            "lineas_no_encontradas": [
+              "colectivo, reconociendo, con"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Formula, de manera acompañada, conclusiones sobre aspectos del funcionamiento de",
+            "lineas_no_encontradas": [
+              "observando y reproduciendo"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Notable",
+            "inicio": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo,",
+            "lineas_no_encontradas": [
+              "manera destacada, algunas"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Revisa y mejora, de manera acompañada, los textos propios y ajenos, percibiendo,",
+            "lineas_no_encontradas": [
+              "máxima constancia, utilizando",
+              "corrección y precisión, la"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "2.1",
+          "5.1",
+          "9.1",
+          "10.1"
+        ]
+      },
+      "segundo": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos s",
+            "lineas_no_encontradas": [
+              "lingüísticos frecuentes para",
+              "entendiendo las situaciones"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos c",
+            "lineas_no_encontradas": [
+              "sentimientos con claridad y",
+              "para participar en actividades"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos c",
+            "lineas_no_encontradas": [
+              "para participar en actividades"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas en diferentes conte",
+            "lineas_no_encontradas": [
+              "comunicativa, iniciándose en"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas con gran claridad y",
+            "lineas_no_encontradas": [
+              "con destacada habilidad en"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Produce textos escritos y multimodales coherentes con claridad y adecuación de m",
+            "lineas_no_encontradas": [
+              "multimodales coherentes con"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Notable",
+            "inicio": "Produce textos escritos y multimodales con gran coherencia, claridad y adecuació",
+            "lineas_no_encontradas": [
+              "la propiedad intelectual con"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Produce textos escritos y multimodales con total coherencia, gran claridad y ade",
+            "lineas_no_encontradas": [
+              "manera plenamente adecuada"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Notable",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado y",
+            "lineas_no_encontradas": [
+              "iniciándose con compromiso"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Notable",
+            "inicio": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyend",
+            "lineas_no_encontradas": [
+              "forma constante tanto para"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Comparte de manera guiada la experiencia de lectura de obras diversas, incluyend",
+            "lineas_no_encontradas": [
+              "notablemente autónomo, de",
+              "excelentes, estrategias para"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Notable",
+            "inicio": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, op",
+            "lineas_no_encontradas": [
+              "corrección, por los aspectos"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Produce, de manera guiada, textos expresando hechos, conceptos, pensamientos, op",
+            "lineas_no_encontradas": [
+              "precisión, por los aspectos"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Formula, eficientemente, de manera guiada, conclusiones sobre aspectos del funci",
+            "lineas_no_encontradas": [
+              "para participar, con máxima",
+              "gran claridad, en contextos"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Revisa y mejora de manera guiada, los textos propios y ajenos, desarrollando la ",
+            "lineas_no_encontradas": [
+              "lengua, realizar transferencias"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Notable",
+            "inicio": "Revisa y mejora, con seguridad y de manera guiada, los textos propios y ajenos, ",
+            "lineas_no_encontradas": [
+              "posturas analíticas, con alta"
+            ]
+          },
+          {
+            "criterio": "9.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Revisa y mejora, con seguridad, plena confianza y de manera guiada, los textos p",
+            "lineas_no_encontradas": [
+              "nivel de adecuación, algunas",
+              "lengua, realizar transferencias"
+            ]
+          },
+          {
+            "criterio": "10.1",
+            "nivel": "Notable",
+            "inicio": "Planifica y utiliza estrategias con facilidad, de manera guiada, para el consens",
+            "lineas_no_encontradas": [
+              "autónomo de herramientas o",
+              "rechazando con progresiva"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "5.1",
+          "8.1",
+          "9.1"
+        ]
+      },
+      "tercer": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica y expresa hechos, conceptos, pensamientos, opiniones o sentimientos s",
+            "lineas_no_encontradas": [
+              "estableciendo y transferencias",
+              "sencillas, comparaciones y",
+              "frecuentes, participando en"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Identifica y expresa con gran claridad y adecuación hechos, conceptos, pensamien",
+            "lineas_no_encontradas": [
+              "detectando con total precisión",
+              "frecuentes, participando con",
+              "destacable profundidad las"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Comprende con precisión el sentido de textos orales y multimodales sencillos, re",
+            "lineas_no_encontradas": [
+              "lenguas y mediante métodos"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas con gran claridad y",
+            "lineas_no_encontradas": [
+              "forma consciente métodos,",
+              "cooperación conversacional,"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Participa en interacciones orales espontáneas o planificadas con total claridad ",
+            "lineas_no_encontradas": [
+              "desarrollando con autonomía",
+              "cooperación conversacional,"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Lee textos escritos y multimodales sencillos de manera silenciosa o en voz alta,",
+            "lineas_no_encontradas": [
+              "relevante, con el debido"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Analiza y valora el contenido y aspectos no verbales y formales elementales, y r",
+            "lineas_no_encontradas": [
+              "elementales, y reconoce la"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Notable",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado d",
+            "lineas_no_encontradas": [
+              "cooperativa participando con",
+              "información, iniciándose, con"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Comparte, utilizando diferentes lenguajes, los resultados de un proceso guiado d",
+            "lineas_no_encontradas": [
+              "cooperativa participando con"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Lee textos de diversa índole, incluyendo aquellos que pertenecen al patrimonio c",
+            "lineas_no_encontradas": [
+              "literario reconociendo e"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Lee, con iniciativa propia y motivación sostenida y destacable, textos de divers",
+            "lineas_no_encontradas": [
+              "cultural, artístico y literario,",
+              "intencionalidades, usando con"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaci",
+            "lineas_no_encontradas": [
+              "empleando estrategias para"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Notable",
+            "inicio": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaci",
+            "lineas_no_encontradas": [
+              "avanzado de herramientas o",
+              "habitual y activa, tanto para"
+            ]
+          },
+          {
+            "criterio": "7.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Comparte la experiencia de lectura de obras diversas, incluyendo las manifestaci",
+            "lineas_no_encontradas": [
+              "personales, siendo plenamente"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Escucha y lee, textos literarios, adecuados a su progreso madurativo, para inter",
+            "lineas_no_encontradas": [
+              "placer, comprendiendo, las",
+              "colectivo, desarrollando sus"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Notable",
+            "inicio": "Escucha y lee, textos literarios, adecuados a su progreso madurativo, para inter",
+            "lineas_no_encontradas": [
+              "valorarlos, con precisión, y"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Escucha y lee, con cierto grado de autonomía, textos literarios, adecuados a su ",
+            "lineas_no_encontradas": [
+              "autonomía, textos literarios,",
+              "de máxima constancia y",
+              "comprendiendo, con destacable"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Notable",
+            "inicio": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos",
+            "lineas_no_encontradas": [
+              "claridad y corrección, e",
+              "constante, por los aspectos"
+            ]
+          },
+          {
+            "criterio": "8.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Produce, de manera autónoma, textos individuales o colectivos, expresando hechos",
+            "lineas_no_encontradas": [
+              "interesándose, con máxima"
+            ]
+          },
+          {
+            "criterio": "9.1",
+            "nivel": "Notable",
+            "inicio": "Establece generalizaciones, con corrección y precisión, sobre aspectos del funci",
+            "lineas_no_encontradas": [
+              "sentimientos, con apropiada"
+            ]
+          },
+          {
+            "criterio": "10.1",
+            "nivel": "Notable",
+            "inicio": "Planifica y utiliza, con facilidad, estrategias básicas para la deliberación arg",
+            "lineas_no_encontradas": [
+              "frecuentemente de manera",
+              "cuenta con deliberación la"
+            ]
+          },
+          {
+            "criterio": "10.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Planifica y utiliza, con facilidad destacable, estrategias básicas para la delib",
+            "lineas_no_encontradas": [
+              "avanzado de herramientas o",
+              "comprendiendo con plena"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "8.1"
+        ]
+      }
+    },
+    "lengua-extranjera": {
+      "primer": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona y aplica, de forma guiada y con adecuación, algún método inductivo y ",
+            "lineas_no_encontradas": [
+              "con adecuación, algún método"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona y aplica con facilidad destacable, de forma guiada, conocimientos, té",
+            "lineas_no_encontradas": [
+              "destacable, de forma guiada,"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona y utiliza con pertinencia, participando con frecuencia enérgicamente ",
+            "lineas_no_encontradas": [
+              "participando con frecuencia"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Notable",
+            "inicio": "Identifica y explica con conciencia, de forma guiada, los progresos y las dificu",
+            "lineas_no_encontradas": [
+              "incipiente profundidad,"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Identifica y explica con plena conciencia, de forma guiada, los progresos y las ",
+            "lineas_no_encontradas": [
+              "profundidad, reconociendo las"
+            ]
+          },
+          {
+            "criterio": "6.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Siempre muestra empatía y comprensión por las producciones ajenas, diferenciando",
+            "lineas_no_encontradas": [
+              "Siempre muestra empatía y"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.1",
+          "2.2",
+          "3.2",
+          "4.1",
+          "4.2",
+          "5.1",
+          "5.3",
+          "5.4",
+          "6.1",
+          "6.2"
+        ]
+      },
+      "segundo": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona y aplica con facilidad destacable, de forma codirigida, conocimientos",
+            "lineas_no_encontradas": [
+              "conocimientos, métodos de"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona y utiliza con pertinencia, participando con frecuencia entusiastament",
+            "lineas_no_encontradas": [
+              "participando con frecuencia"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona e implementa con coherencia, de forma codirigida, estrategias básicas",
+            "lineas_no_encontradas": [
+              "entusiastamente en situaciones"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona e implementa con total coherencia, de forma codirigida, estrategias b",
+            "lineas_no_encontradas": [
+              "entusiastamente en situaciones"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Notable",
+            "inicio": "Registra y reflexiona con conciencia, de forma codirigida, sobre los progresos y",
+            "lineas_no_encontradas": [
+              "profundidad, reconociendo y"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Registra y reflexiona con plena conciencia, de forma codirigida, sobre los progr",
+            "lineas_no_encontradas": [
+              "profundidad, reconociendo y"
+            ]
+          },
+          {
+            "criterio": "6.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Siempre muestra empatía y comprensión por las producciones ajenas, identificando",
+            "lineas_no_encontradas": [
+              "Siempre muestra empatía y",
+              "con claridad destacable las"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.2",
+          "3.1",
+          "3.2",
+          "4.2",
+          "5.1",
+          "5.3",
+          "5.4",
+          "6.1",
+          "6.2",
+          "6.3"
+        ]
+      },
+      "tercer": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona, organiza y aplica con excelente adecuación, de forma progresivamente",
+            "lineas_no_encontradas": [
+              "adecuados resultantes de su"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona, planifica y aplica con facilidad destacable, de forma progresivament",
+            "lineas_no_encontradas": [
+              "ayuda de diferentes recursos"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona, organiza y utiliza con pertinencia, asumiendo con frecuencia de form",
+            "lineas_no_encontradas": [
+              "pertinencia, asumiendo con"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona, organiza y utiliza con gran pertinencia, asumiendo siempre de forma ",
+            "lineas_no_encontradas": [
+              "gran pertinencia, asumiendo"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Experimenta, utiliza y diferencia con corrección destacable, de forma progresiva",
+            "lineas_no_encontradas": [
+              "las experiencias comunicativas,"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Registra y reflexiona, de forma progresivamente autónoma, sobre los progresos y ",
+            "lineas_no_encontradas": [
+              "comunicativas, y haciendo"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Notable",
+            "inicio": "Registra y reflexiona con conciencia, de forma progresivamente autónoma, sobre l",
+            "lineas_no_encontradas": [
+              "críticas de profundidad,"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Registra y reflexiona con plena conciencia, de forma progresivamente autónoma, s",
+            "lineas_no_encontradas": [
+              "profundidad, reconociendo y",
+              "comunicativas con constante"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Reconoce, se interesa, aprecia y respeta, con constante iniciativa propia, la di",
+            "lineas_no_encontradas": [
+              "forma continua rechazo ante"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Selecciona y aplica estrategias adecuadas, en situaciones comunicativas guiadas,",
+            "lineas_no_encontradas": [
+              "Canarias y gestionando las"
+            ]
+          },
+          {
+            "criterio": "6.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Siempre muestra empatía y comprensión por las producciones ajenas, entendiendo c",
+            "lineas_no_encontradas": [
+              "Siempre muestra empatía y"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.2",
+          "3.1",
+          "3.2",
+          "5.3",
+          "5.4",
+          "6.1",
+          "6.2",
+          "6.3"
+        ]
+      }
+    },
+    "matematicas": {
+      "primer": {
+        "rubricas": 14,
+        "esperados": 14,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 56,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Entiende y describe la situación planteada, utilizando terminología científica b",
+            "lineas_no_encontradas": [
+              "sencillos, discriminando la"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Entiende y describe con apropiada claridad la situación planteada, utilizando te",
+            "lineas_no_encontradas": [
+              "discriminando, con notable"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Entiende y describe con gran claridad la situación planteada, utilizando termino",
+            "lineas_no_encontradas": [
+              "discriminando, con corrección"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce alguna estrategia que resuelva problemas aritméticos, geométricos, lógi",
+            "lineas_no_encontradas": [
+              "plantea ideas y soluciones"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Realiza conjeturas matemáticas sencillas con apoyos puntuales , investigando pat",
+            "lineas_no_encontradas": [
+              "adecuación, materiales"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Notable",
+            "inicio": "Describe rutinas sencillas de la vida cotidiana que se realizan paso a paso, ide",
+            "lineas_no_encontradas": [
+              "identificando con autonomía",
+              "sencillos, planteando con"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Resuelve problemas que implican secuencias o patrones, de forma autónoma, utiliz",
+            "lineas_no_encontradas": [
+              "autónoma, utilizando las",
+              "tecnológicas, iniciándose con"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Notable",
+            "inicio": "Reconoce, con facilidad y corrección, algunas conexiones entre las matemáticas, ",
+            "lineas_no_encontradas": [
+              "Reconoce, con facilidad y",
+              "guiada proyectos sencillos,",
+              "digitales sencillas, mostrando"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Reconoce, con facilidad destacable y total corrección, algunas conexiones entre ",
+            "lineas_no_encontradas": [
+              "puntuales proyectos sencillos,",
+              "digitales sencillas, mostrando"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Notable",
+            "inicio": "Comunica de forma verbal o gráfica con apropiada claridad y adecuación a los con",
+            "lineas_no_encontradas": [
+              "adecuación, experimentando de",
+              "intercambiando información, de"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Reconoce las emociones propias y pone en práctica estrategias para gestionarlas,",
+            "lineas_no_encontradas": [
+              "gestionarlas, participando en",
+              "involucramiento personal, ante"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Notable",
+            "inicio": "Reconoce con facilidad las emociones propias y pone en práctica con corrección d",
+            "lineas_no_encontradas": [
+              "Reconoce con facilidad las"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Reconoce con destacable facilidad las emociones propias y pone en práctica con c",
+            "lineas_no_encontradas": [
+              "las fortalezas y debilidades,"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Participa con pasión constante en el trabajo en equipo, desarrollando de forma p",
+            "lineas_no_encontradas": [
+              "prejuicios y estereotipos, y",
+              "cumpliendo siempre las"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "3.1",
+          "5.1",
+          "7.1"
+        ]
+      },
+      "segundo": {
+        "rubricas": 14,
+        "esperados": 14,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 56,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Interpreta y describe con gran claridad, de forma verbal y gráfica, utilizando l",
+            "lineas_no_encontradas": [
+              "corrección destacable, datos,"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Elige alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos",
+            "lineas_no_encontradas": [
+              "diseña ideas y soluciones"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Elige alguna estrategia muy adecuada, que resuelva problemas aritméticos, geomét",
+            "lineas_no_encontradas": [
+              "Elige alguna estrategia muy"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Notable",
+            "inicio": "Analiza conjeturas matemáticas sencillas con ciertas pautas, investigando patron",
+            "lineas_no_encontradas": [
+              "con ciertas pautas, investigando"
+            ]
+          },
+          {
+            "criterio": "3.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Analiza conjeturas matemáticas sencillas de manera guiada, investigando patrones",
+            "lineas_no_encontradas": [
+              "de manera guiada, investigando"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Automatiza rutinas sencillas en contextos cotidianos identificando patrones a pa",
+            "lineas_no_encontradas": [
+              "diseñando ideas y soluciones"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Automatiza rutinas sencillas en contextos cotidianos identificando con autonomía",
+            "lineas_no_encontradas": [
+              "diseñando con apreciable",
+              "adaptativas, organizando con"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Explica las conexiones entre las matemáticas, otras áreas, la vida cotidiana y l",
+            "lineas_no_encontradas": [
+              "guiada proyectos sencillos,"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Notable",
+            "inicio": "Explica con facilidad y corrección las conexiones entre las matemáticas, otras á",
+            "lineas_no_encontradas": [
+              "ayudas puntuales proyectos"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Notable",
+            "inicio": "Reconoce y comprende con creciente autonomía el lenguaje matemático sencillo pre",
+            "lineas_no_encontradas": [
+              "la información adquiriendo"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Notable",
+            "inicio": "Comunica en diferentes formatos, con apropiada claridad y adecuación a diferente",
+            "lineas_no_encontradas": [
+              "con autonomía y confianza"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Comunica en diferentes formatos, con gran claridad y adecuación a diferentes con",
+            "lineas_no_encontradas": [
+              "matemático con destacable",
+              "intercambiando, con máxima"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Identifica y describe las emociones propias, usa estrategias para gestionarlas, ",
+            "lineas_no_encontradas": [
+              "gestionarlas, participando en"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Notable",
+            "inicio": "Identifica y describe de forma consciente las emociones propias, usa con sentido",
+            "lineas_no_encontradas": [
+              "relevantes estrategias para",
+              "coevaluación, reconociendo de"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "3.1",
+          "3.2",
+          "4.1",
+          "5.1"
+        ]
+      },
+      "tercer": {
+        "rubricas": 14,
+        "esperados": 14,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 56,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "1.1",
+            "nivel": "Notable",
+            "inicio": "Interpreta y reformula con claridad y veracidad, de forma verbal y gráfica, util",
+            "lineas_no_encontradas": [
+              "discriminando con notable"
+            ]
+          },
+          {
+            "criterio": "1.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Interpreta y reformula con gran claridad y veracidad, de forma verbal y gráfica,",
+            "lineas_no_encontradas": [
+              "corrección destacable datos,",
+              "uso altamente pertinente de"
+            ]
+          },
+          {
+            "criterio": "2.1",
+            "nivel": "Notable",
+            "inicio": "Elige de forma autónoma alguna estrategia muy adecuada que resuelva problemas ar",
+            "lineas_no_encontradas": [
+              "posibles soluciones, crea con"
+            ]
+          },
+          {
+            "criterio": "2.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Elige y utiliza con excelente autonomía las operaciones pertinentes para la reso",
+            "lineas_no_encontradas": [
+              "autonomía las operaciones"
+            ]
+          },
+          {
+            "criterio": "2.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Comprueba con alta autonomía la validez de las soluciones del problema y su cohe",
+            "lineas_no_encontradas": [
+              "complejas y expresando sus"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Plantea problemas sobre situaciones cotidianas relacionadas con los sentidos num",
+            "lineas_no_encontradas": [
+              "matemáticas; emplea algunas"
+            ]
+          },
+          {
+            "criterio": "4.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Modeliza rutinas en contextos diversos, identificando patrones a partir de regul",
+            "lineas_no_encontradas": [
+              "gráficas; hace predicciones"
+            ]
+          },
+          {
+            "criterio": "4.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Resuelve problemas empleando diferentes estrategias y realiza pequeñas investiga",
+            "lineas_no_encontradas": [
+              "utilizando con precisión las"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Notable",
+            "inicio": "Utiliza con profundidad las conexiones entre las matemáticas, otras áreas y la v",
+            "lineas_no_encontradas": [
+              "Utiliza con profundidad las"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Utiliza con destacable profundidad las conexiones entre las matemáticas, otras á",
+            "lineas_no_encontradas": [
+              "realizar proyectos con alta"
+            ]
+          },
+          {
+            "criterio": "6.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Reconoce y comprende con excelente autonomía el lenguaje matemático presente en ",
+            "lineas_no_encontradas": [
+              "la información, adquiriendo"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Notable",
+            "inicio": "Comunica en diferentes formatos, incluido el digital con veracidad, apropiada cl",
+            "lineas_no_encontradas": [
+              "gran adecuación, planificando"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Comunica en diferentes formatos, incluido el digital con veracidad, gran clarida",
+            "lineas_no_encontradas": [
+              "lenguaje matemático altamente"
+            ]
+          },
+          {
+            "criterio": "7.1",
+            "nivel": "Notable",
+            "inicio": "Identifica, de forma altamente consciente, y autorregula, con sentido y funciona",
+            "lineas_no_encontradas": [
+              "autoconfianza, empleando con"
+            ]
+          },
+          {
+            "criterio": "8.1",
+            "nivel": "Suficiente/Bien",
+            "inicio": "Colabora en el trabajo en equipo, mostrando iniciativa, desarrollando la escucha",
+            "lineas_no_encontradas": [
+              "entorno, comprendiendo la",
+              "estereotipos, planificando y"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "3.1",
+          "3.2",
+          "7.1"
+        ]
+      }
+    },
+    "segunda-lengua-extranjera": {
+      "primer": {
+        "rubricas": 0,
+        "esperados": 0,
+        "estado": "sin rúbrica en la fuente"
+      },
+      "segundo": {
+        "rubricas": 0,
+        "esperados": 0,
+        "estado": "sin rúbrica en la fuente"
+      },
+      "tercer": {
+        "rubricas": 15,
+        "esperados": 15,
+        "ids_coinciden": true,
+        "faltan": [],
+        "sobran": [],
+        "duplicados": [],
+        "descriptores_cotejados": 60,
+        "no_encontrados_en_texto_plano": [
+          {
+            "criterio": "3.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona, organiza y utiliza con pertinencia, asumiendo con frecuencia de form",
+            "lineas_no_encontradas": [
+              "pertinencia, asumiendo con"
+            ]
+          },
+          {
+            "criterio": "3.2",
+            "nivel": "Sobresaliente",
+            "inicio": "Selecciona, organiza y utiliza con gran pertinencia, asumiendo siempre de forma ",
+            "lineas_no_encontradas": [
+              "gran pertinencia, asumiendo"
+            ]
+          },
+          {
+            "criterio": "5.1",
+            "nivel": "Sobresaliente",
+            "inicio": "Compara y contrasta con destacada coherencia, de forma progresivamente autónoma ",
+            "lineas_no_encontradas": [
+              "y reflexionando con gran"
+            ]
+          },
+          {
+            "criterio": "5.2",
+            "nivel": "Notable",
+            "inicio": "Utiliza y diferencia con corrección, de forma progresivamente autónoma y coopera",
+            "lineas_no_encontradas": [
+              "cooperativa, estrategias muy"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Notable",
+            "inicio": "Registra y reflexiona con conciencia, de manera guiada, sobre los progresos y di",
+            "lineas_no_encontradas": [
+              "críticas de profundidad,",
+              "posibilidades y estrategias"
+            ]
+          },
+          {
+            "criterio": "5.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Registra y reflexiona con plena conciencia, de manera guiada, sobre los progreso",
+            "lineas_no_encontradas": [
+              "posibilidades y estrategias",
+              "comunicativas con constante"
+            ]
+          },
+          {
+            "criterio": "6.2",
+            "nivel": "Notable",
+            "inicio": "Selecciona y aplica con facilidad y precisando su funcionalidad estrategias adec",
+            "lineas_no_encontradas": [
+              "comunicativas guiadas, con"
+            ]
+          },
+          {
+            "criterio": "6.3",
+            "nivel": "Sobresaliente",
+            "inicio": "Siempre muestra empatía y comprensión por las producciones ajenas, entendiendo c",
+            "lineas_no_encontradas": [
+              "Siempre muestra empatía y"
+            ]
+          }
+        ],
+        "criterios_con_varias_filas": [],
+        "enunciado_distinto_del_json_area": [
+          "1.1",
+          "1.2",
+          "2.2",
+          "4.1",
+          "4.2",
+          "5.3",
+          "5.4",
+          "6.1",
+          "6.3"
+        ]
+      }
+    }
+  },
+  "avisos": [],
+  "guiones_de_compuesto_a_final_de_linea": [
+    "afectivo-sexual,",
+    "artístico-expresivas",
+    "socio-económica"
+  ],
+  "conservacion_de_palabras_por_pagina": {
+    "paginas": 356,
+    "paginas_con_diferencias": [
+      {
+        "pagina": 71,
+        "solo_extractor": {
+          "adecuación": 1,
+          ",": 1
+        },
+        "solo_texto_plano": {
+          "adecuación,": 1
+        }
+      },
+      {
+        "pagina": 98,
+        "solo_extractor": {
+          "art": 1,
+          "ísticas": 1
+        },
+        "solo_texto_plano": {
+          "artísticas": 1
+        }
+      },
+      {
+        "pagina": 110,
+        "solo_extractor": {
+          "art": 1,
+          "ísticas,": 1
+        },
+        "solo_texto_plano": {
+          "artísticas,": 1
+        }
+      },
+      {
+        "pagina": 134,
+        "solo_extractor": {
+          "superficial": 1
+        },
+        "solo_texto_plano": {
+          "superficia": 1,
+          "l": 1
+        }
+      },
+      {
+        "pagina": 158,
+        "solo_extractor": {
+          "musical,": 1,
+          "total": 1
+        },
+        "solo_texto_plano": {
+          "musical": 1,
+          "l": 1,
+          "tota": 1,
+          ",": 1
+        }
+      },
+      {
+        "pagina": 167,
+        "solo_extractor": {
+          "igual": 1,
+          "artístico": 1
+        },
+        "solo_texto_plano": {
+          "artísticoigual": 1
+        }
+      },
+      {
+        "pagina": 174,
+        "solo_extractor": {
+          "de": 1,
+          "afectivo": 1,
+          "étnico,": 1,
+          "socio": 1
+        },
+        "solo_texto_plano": {
+          "afectivoétnico,": 1,
+          "sociode": 1
+        }
+      },
+      {
+        "pagina": 176,
+        "solo_extractor": {
+          "reproducirlas,": 1
+        },
+        "solo_texto_plano": {
+          "reproducirl": 1,
+          "as,": 1
+        }
+      },
+      {
+        "pagina": 183,
+        "solo_extractor": {
+          "autonomía": 1,
+          ",": 1
+        },
+        "solo_texto_plano": {
+          "autonomía,": 1
+        }
+      },
+      {
+        "pagina": 193,
+        "solo_extractor": {
+          "guiada": 1,
+          ",": 1
+        },
+        "solo_texto_plano": {
+          "guiada,": 1
+        }
+      },
+      {
+        "pagina": 256,
+        "solo_extractor": {
+          "adecuación": 1,
+          ",": 1
+        },
+        "solo_texto_plano": {
+          "adecuación,": 1
+        }
+      },
+      {
+        "pagina": 333,
+        "solo_extractor": {
+          "iniciativa": 1,
+          ",": 1
+        },
+        "solo_texto_plano": {
+          "iniciativa,": 1
+        }
+      }
+    ]
+  }
+}

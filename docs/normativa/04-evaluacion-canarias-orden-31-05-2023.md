@@ -41,6 +41,7 @@
 - **Sesión de evaluación inicial** al comienzo de cada curso (5.3). En Infantil y Primaria asiste el tutor o tutora del curso anterior si sigue en el centro.
 - **Al menos tres sesiones más, una por trimestre** (5.4). La última del curso es la **evaluación final** (5.6).
 - Los acuerdos se recogen en **acta**, incluida la decisión de promoción al final de cada ciclo (5.5 y 5.8).
+- **Curso 2026-2027:** por acuerdo del claustro, las sesiones de evaluación pueden hacerse **a distancia**, salvo **la última del curso, que es presencial obligatoria**. No pueden grabarse y deben levantar acta (Resolución 73/2026, anexo VI, 1.2, p. 79).
 
 ## Calificación (art. 11)
 
@@ -92,22 +93,36 @@ La calificación refleja el desempeño en los **criterios de evaluación**, vinc
 - Norma vigente: **Resolución de 15 de mayo de 2025**, BOC n.º 107, de 02/06/2025, que establece las rúbricas de los criterios de evaluación de Primaria (anexo I) y ESO (anexo II). Ficha BOC: https://www.gobiernodecanarias.org/boc/2025/107/2005.html
 - Organización: una rúbrica por **área y ciclo**, en PDF y ODT. Cubre todas las áreas, incluida EMOCREA, y Segunda Lengua Extranjera en tercer ciclo.
 - Según la web de la Consejería, orientan la evaluación y calificación de los criterios **y de las competencias clave**, y gradúan "procesos, saberes, contextos, recursos y finalidades".
-- **Número y nombre de los niveles de las rúbricas oficiales y su traducción a IN–SB: (pendiente de verificar).** Los PDF no se pudieron abrir (bloqueo por robots). Tarea: descargarlos manualmente y anotarlo aquí.
+- **Niveles de las rúbricas oficiales (verificado en el texto del BOC n.º 107/2025, anexo 1, p. 21897):** son **cuatro calificadores: INSUFICIENTE, SUFICIENTE/BIEN, NOTABLE y SOBRESALIENTE**. SU y BI comparten columna.
+  - Premisa de construcción: la concreción del Perfil de salida en Primaria equivale a **Adecuado (AD)**. Por analogía, lo descrito en el criterio de evaluación equivale a **SU/BI**.
+  - **SU/BI** contiene el texto literal del criterio, a menudo enriquecido con fragmentos de los descriptores operativos, que se secuenciaron por ciclo. IN, NT y SB **reutilizan ese texto** con graduaciones de logro inferior o superior. Ejemplo (CMNSC, primer ciclo, criterio 1.1): IN "de manera intermitente y con desinterés"; NT "con destacado interés"; SB "con compromiso sostenido".
+  - **Equivalencia oficial:** IN ↔ **PA**, SU/BI ↔ **AD**, NT ↔ **MA**, SB ↔ **EX**.
+  - Estructura de cada ficha: área y ciclo → competencia específica con sus descriptores operativos → criterio de evaluación con sus descriptores → fila de cuatro calificadores. Gradúan "procesos, saberes, contextos, recursos y finalidades" y favorecen la autoevaluación, la coevaluación y la metacognición.
+  - **Distinguir SU de BI** dentro de la columna compartida queda a criterio del profesorado. Las *Instrucciones de evaluación y calificación 2026-2027* podrían precisarlo (pendiente de verificar).
+  - **Valor para el RAG:** el texto del BOC n.º 107/2025 incluye, por área y ciclo, la **redacción literal de competencias específicas, criterios y descriptores operativos**, con su numeración. Es una fuente directa para la prioridad 1 (`data/canarias/primaria/*.json`) y para validar la numeración de `02-canarias-decreto-211-2022.md`.
 
 ## Implicaciones para AulaLista
 
-1. **Escala por defecto en Canarias:** IN, SU, BI, NT, SB para áreas. En el prompt de rúbrica, la opción de 4 niveles ("En inicio… Avanzado") solo debe ofrecerse como **rúbrica de aula**, avisando de que la calificación oficial se expresa en IN–SB.
-2. **Competencias clave:** cualquier informe o "registro de competencias" que generemos debe usar **PA, AD, MA, EX**, nunca IN–SB.
+1. **Escala por defecto en Canarias:** en las rúbricas, **cuatro columnas, como las oficiales: IN | SU/BI | NT | SB**. La columna SU/BI debe reproducir el criterio (es el logro esperado) y las demás, graduarlo. Las calificaciones de área se expresan en IN, SU, BI, NT o SB. La opción "En inicio… Avanzado" solo puede ofrecerse como **rúbrica de aula**, avisando de que la calificación oficial se expresa en IN–SB.
+2. **Competencias clave:** cualquier informe o "registro de competencias" que generemos debe usar **PA, AD, MA, EX**, nunca IN–SB. Equivalencia oficial con las rúbricas: IN↔PA, SU/BI↔AD, NT↔MA, SB↔EX (Resolución de 15/05/2025, anexo 1).
 3. **No hay notas numéricas** en Primaria canaria. El apartado "Ponderación y calificación" no debe convertir a nota de 0 a 10 como resultado oficial; si se usan pesos, presentarlos como ayuda interna para decidir el nivel IN–SB.
 4. **Trazabilidad criterio → instrumento → evidencia** en cada rúbrica: es lo que protege frente a los motivos de reclamación del art. 46.2.
 5. **Variedad de instrumentos y DUA** (art. 4): el generador debe proponer al menos dos instrumentos distintos y formatos accesibles.
 6. **Aviso fijo en rúbricas de Canarias:** "Las rúbricas oficiales de la Consejería (Resolución de 15/05/2025) son el referente para calificar los criterios; esta rúbrica de tarea las concreta, no las sustituye."
-7. **Informes a familias:** se pueden ofrecer plantillas de boletín trimestral, informe de final de ciclo (anexo 2) e informe final de etapa (anexo 3), **sin datos personales** del alumnado y advirtiendo de que los oficiales se emiten en Pincel Ekade (pendiente de verificar que sea la vía obligatoria para cada documento).
+7. **Informes a familias:** se pueden ofrecer plantillas de boletín trimestral, informe de final de ciclo (anexo 2) e informe final de etapa (anexo 3), **sin datos personales** del alumnado. Hay que advertir de que los documentos oficiales y la comunicación con las familias van por los sistemas de la Consejería:
+   - Solo pueden usarse sistemas de información de la Consejería (Orden de 21/05/2019, art. 15.4).
+   - Las comunicaciones con datos personales van solo por cuentas @gobiernodecanarias.org.
+   - Para comunicarse con las familias se usan Pincel Ekade y la App Pincel alumnado y familias (Resolución 73/2026, anexo I, 1.7, pp. 12–13).
+   - El expediente electrónico se mantiene actualizado (anexo I, 2.4, p. 20).
+   Qué documento concreto se emite desde Pincel Ekade: pendiente de verificar.
 8. **Promoción:** nunca escribir "repetir curso" fuera de final de ciclo, ni más de una vez en la etapa; añadir siempre el "plan específico de apoyo y refuerzo".
 9. **NEAE:** en adaptaciones, los referentes son los criterios de la propia adaptación (art. 42) y la adaptación no impide promocionar. Ver `05-atencion-diversidad-decreto-25-2018.md`.
 10. **Información al inicio de curso (art. 45):** la programación generada debe incluir un apartado de "criterios de calificación e instrumentos que se comunican a las familias".
 
 ## Fuentes
+
+- Texto del BOC n.º 107/2025 (Resolución de 15/05/2025, rúbricas; anexo 1, pp. 21897 y ss.), aportado por el usuario: `/home/claude/docs-in/2b984767-boc-a-2025-107-2005.txt`
+- Resolución n.º 73/2026 (instrucciones de organización y funcionamiento 2026-2027), texto íntegro aportado por el usuario. Ver `07-instrucciones-curso-2026-2027.md`
 
 - BOC n.º 110/2023, ficha de la orden: https://www.gobiernodecanarias.org/boc/2023/110/001.html (consultada; texto truncado a partir del art. 46.1)
 - INAP, *La Administración al Día*, reseña con el texto de la orden: https://laadministracionaldia.inap.es/noticia.asp?id=1234165 (arts. 9–13, 42–53 y disposiciones)

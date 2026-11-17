@@ -609,15 +609,1025 @@
       ]
     }
   },
-  "pendiente": [
-    "Saberes básicos: el decreto no vincula saberes concretos a cada criterio; se organizan por sentidos (numérico, medida, espacial, algebraico, estocástico, socioafectivo) en cada ciclo y no se han transcrito todavía.",
-    "Los enunciados de competencias se tomaron del bloque competencial del primer ciclo; falta comprobar que son idénticos en los tres ciclos.",
-    "Saberes básicos por bloque y ciclo sin extraer",
-    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
-  ],
+  "pendiente": [],
   "cotejo": {
     "fecha": "2026-11-17",
     "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
-    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)",
+    "fase2": {
+      "fecha": "2026-11-17",
+      "metodo": "tools/extraer_saberes_canarias.py sobre pdftotext -layout del PDF oficial",
+      "saberes": "literales, por ciclo y bloque, con la numeración del BOC",
+      "bloques": "explicación del bloque competencial literal, por ciclo",
+      "descriptores": "0 corregidos; el resto coincide con la columna de descriptores del PDF",
+      "enunciados": "cada enunciado de competencia coincide con el del bloque competencial de cada ciclo",
+      "descriptores_corregidos": []
+    }
+  },
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "I. Sentido numérico.",
+        "apartados": [
+          {
+            "apartado": "1. Conteo y cantidad",
+            "items": [
+              "1.1. Elección y puesta en práctica de estrategias variadas de conteo y recuento sistemático en situaciones de la vida cotidiana en cantidades hasta el 999.",
+              "1.2. Construcción y comprensión de los órdenes de unidades (agrupamientos de 10 elementos) del sistema de numeración decimal mediante la composición y descomposición, con materiales manipulativos, hasta 999.",
+              "1.3. Uso comprensivo de la decena y la centena como agrupación de 10 unidades del orden anterior.",
+              "1.4. Lectura y escritura de los números hasta el 999 e interpretación del valor posicional de sus cifras.",
+              "1.5. Representación de números naturales hasta el 999 de distintas formas (manipulativa, gráfica y simbólica con la recta numérica y otros materiales). Elección de la representación adecuada para cada situación o problema.",
+              "1.6. Estimación razonada de cantidades en contextos de resolución de problemas."
+            ]
+          },
+          {
+            "apartado": "2. Sentido de las operaciones",
+            "items": [
+              "2.1. Uso de la estructura aditiva en la resolución de problemas aritméticos, organizando la información para elegir la operación adecuada.",
+              "2.2. Comprensión y utilización de estrategias flexibles de cálculo para la suma con números naturales hasta 999 (al menos dos algoritmos diferentes).",
+              "2.3. Composición y descomposición de los 10 primeros números y su generalización al 100.",
+              "2.4. Uso de los dobles hasta el 10+10 y su generalización al 100 para las sumas.",
+              "2.5. Suma de números de una o dos cifras, descomponiendo, componiendo o completando a la decena o centena, y en la recta numérica.",
+              "2.6. Análisis de las relaciones entre los sumandos (dobles más 1, doble menos 1, parejas de sumandos que sumen 10, agrupar decenas completas, etc.).",
+              "2.7. Comprensión y utilización de estrategias flexibles de cálculo para la resta con números naturales hasta 999: resta de una unidad, dos unidades y decenas completas a números de dos y tres cifras.",
+              "2.8. Uso de la resta como acción de quitar de manera sucesiva, descomponiendo de manera conveniente tanto el minuendo como el sustraendo.",
+              "2.9. Uso de la resta como acción de completar a los órdenes de unidades desde el sustraendo hasta el minuendo.",
+              "2.10. Uso de la resta en modelos manipulativos: recta de cuentas, recta numérica, tabla del 100.",
+              "2.11. Uso de la resta de números naturales, con flexibilidad, comprensión y sentido, con al menos dos algoritmos basados en las propiedades del sistema de numeración decimal.",
+              "2.12. Redondeo a la decena más cercana para el cálculo estimativo posterior.",
+              "2.13. Obtención y memorización de los dobles y mitades de las decenas completas hasta el 100, utilizando materiales manipulativos.",
+              "2.14. Cálculo de la mitad de números por descomposición, primero con decenas y unidades pares, con materiales manipulativos y hasta el 100.",
+              "2.15. Utilización de la calculadora en la investigación, el cálculo del resultado exacto cuando las cantidades lo precisen y en la comprobación de resultados."
+            ]
+          },
+          {
+            "apartado": "3. Relaciones",
+            "items": [
+              "3.1. Conocimiento del sistema de numeración de base 10 y aplicación de las relaciones (10 elementos de un orden generan un elemento de un orden superior).",
+              "3.2. Uso de números naturales en contextos de la vida cotidiana: comparación y ordenación.",
+              "3.3. Comprensión y aplicación de la estructura aditiva: relaciones entre las partes y el todo en la suma y la resta, y aplicación en contextos cotidianos."
+            ]
+          },
+          {
+            "apartado": "4. Educación financiera",
+            "items": [
+              "4.1. Conocimiento del sistema monetario europeo: monedas (1 y 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Sentido de la medida.",
+        "apartados": [
+          {
+            "apartado": "1. Magnitud",
+            "items": [
+              "1. Identificación de los atributos mensurables de los objetos (longitud, masa, capacidad), distancias y tiempos. Percepción de la magnitud por comparación directa con una unidad.",
+              "2. Reconocimiento y utilización de las unidades no convencionales y convencionales (cm, m, g, kg y l) en situaciones de la vida cotidiana.",
+              "3. Uso de las unidades de medida del tiempo (año, mes, semana, día, hora y minuto) en situaciones de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "2. Estimación, medición y relaciones",
+            "items": [
+              "1. Conocimiento y aplicación de procesos para medir mediante repetición de una unidad no convencional o convencional, y mediante la utilización de instrumentos convencionales (reglas, cintas métricas, balanzas, calendarios, etc.) en contextos familiares.",
+              "2. Aplicación de estrategias de comparación directa e indirecta, y ordenación de medidas de la misma magnitud: cuál es mayor y cuántas veces mayor.",
+              "3. Estimación de medidas (distancias, tamaños, masas, capacidades…) por comparación directa con otras medidas."
+            ]
+          }
+        ],
+        "nota": "En el BOC los ítems de este bloque reinician la numeración en cada apartado (1., 2., 3.); se respeta tal cual."
+      },
+      {
+        "bloque": "III. Sentido espacial.",
+        "apartados": [
+          {
+            "apartado": "1. Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "1.1. Reconocimiento de las figuras planas sencillas contenidas en objetos de la vida cotidiana: identificación y enumeración de cualidades, semejanzas y diferencias, representación y clasificación atendiendo a sus elementos (vértices y lados).",
+              "1.2. Utilización de estrategias y técnicas de construcción de figuras geométricas sencillas de dos o tres dimensiones de forma manipulativa. Composición y descomposición de figuras planas para formar otras diferentes con material manipulativo (tangram, mosaicos, policubos, etc.).",
+              "1.3. Adquisición de vocabulario geométrico básico: descripción verbal de los elementos (vértice, lado, arista, cara)."
+            ]
+          },
+          {
+            "apartado": "2. Localización y sistemas de representación",
+            "items": [
+              "2.1. Identificación de la posición relativa de objetos en el espacio e interpretación de movimientos.",
+              "2.2. Descripción de la posición en referencia a uno mismo a través de vocabulario adecuado (arriba, abajo, delante, detrás, entre, más cerca que, menos cerca que, más lejos que, menos lejos que, etc.)."
+            ]
+          },
+          {
+            "apartado": "3. Movimientos y transformaciones",
+            "items": [
+              "3.1. Apreciar la simetría y la regularidad en dibujos sencillos."
+            ]
+          },
+          {
+            "apartado": "4. Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "4.1. Utilización de modelos geométricos en la resolución de problemas relacionados con los otros sentidos (diagramas de barras, distribuciones rectangulares, etc.).",
+              "4.2. Reconocimiento de relaciones geométricas presentes en el entorno."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "IV. Sentido algebraico.",
+        "apartados": [
+          {
+            "apartado": "1. Patrones",
+            "items": [
+              "1.1. Empleo de estrategias para la identificación, descripción oral, descubrimiento de elementos ocultos o secuencias a partir de las regularidades en una colección de números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "2. Modelo matemático",
+            "items": [
+              "2.1. Ejecución de un proceso guiado de modelización (dibujos, esquemas, diagramas, objetos manipulables, etc.) en la comprensión y resolución de problemas de la vida cotidiana.",
+              "2.2. Planificación en cuatro fases de la resolución de problemas: comprender la situación, pensar y seleccionar una estrategia, ejecutar la estrategia elegida y responder, comprobando previamente las soluciones obtenidas.",
+              "2.3. Resolución de problemas aritméticos (acciones de componer, descomponer, completar y comparar), geométricos, lógicos, de patrones; y planteamiento de nuevos problemas.",
+              "2.4. Conocimiento y uso de estrategias de resolución de problemas (modelización, ensayo y error, organización de la información, búsqueda de patrones).",
+              "2.5. Empleo de diagramas partes-todo, tablas simples, diagramas de barras, diagramas en árbol."
+            ]
+          },
+          {
+            "apartado": "3. Relaciones y funciones",
+            "items": [
+              "3.1. Expresión de relaciones de igualdad y desigualdad mediante los signos = y ≠ entre expresiones que incluyan operaciones.",
+              "3.2. Representación de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+              "3.3. Expresión matemática de las relaciones establecidas y deducidas del trabajo manipulativo o de situaciones problemáticas, haciendo uso de símbolos numéricos y no numéricos.",
+              "3.4. Discusión sobre la veracidad o falsedad entre expresiones que incluyan operaciones, valorando si se puede afirmar o negar que una es mayor, menor o igual que otra."
+            ]
+          },
+          {
+            "apartado": "4. Pensamiento computacional",
+            "items": [
+              "4.1. Reconocimiento de algoritmos sencillos (rutinas, instrucciones con pasos ordenados, etc.).",
+              "4.2. Resolución de retos con actividades desenchufadas y manipulativas para el desarrollo del pensamiento computacional."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "V. Sentido estocástico.",
+        "apartados": [
+          {
+            "apartado": "1. Organización y análisis de datos",
+            "items": [
+              "1.1. Reconocimiento de los principales elementos y extracción de la información relevante de gráficos estadísticos sencillos de la vida cotidiana (pictogramas y gráficas de barras).",
+              "1.2. Uso de estrategias sencillas para la recogida, clasificación y recuento de datos cualitativos y cuantitativos en muestras pequeñas.",
+              "1.3. Representación de datos obtenidos a través de recuentos mediante diagrama de barras y recursos manipulativos."
+            ]
+          },
+          {
+            "apartado": "2. Incertidumbre",
+            "items": [
+              "2.1. Acercamiento intuitivo al azar y la probabilidad.",
+              "2.2. Desarrollo de lenguaje de uso común para expresar incertidumbre."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "VI. Sentido socioafectivo.",
+        "apartados": [
+          {
+            "apartado": "1. Creencias, actitudes y emociones",
+            "items": [
+              "1.1. Gestión emocional: identificación y expresión de las propias emociones ante las matemáticas. Curiosidad e iniciativa en el aprendizaje de las matemáticas."
+            ]
+          },
+          {
+            "apartado": "2. Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "2.1. Identificación y rechazo de actitudes discriminatorias ante las diferencias individuales presentes en el aula. Actitudes inclusivas y aceptación de la diversidad del grupo.",
+              "2.2. Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de las demás personas.",
+              "2.3. Contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+            ]
+          }
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "I. Sentido numérico.",
+        "apartados": [
+          {
+            "apartado": "1. Conteo y cantidad",
+            "items": [
+              "1.1. Elección y puesta en práctica de estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta 9999.",
+              "1.2. Conocimiento e interpretación del valor posicional de las cifras en el sistema de numeración decimal y sus equivalencias (decenas, centenas y millares).",
+              "1.3. Realización de estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+              "1.4. Lectura, escritura de números naturales hasta 9999.",
+              "1.5. Representación, composición y descomposición de números naturales hasta 9999. utilizando materiales manipulativos (incluida la recta numérica).",
+              "1.6. Construcción y comprensión de números decimales (décimas y centésimas), utilizando materiales manipulativos, relacionándolos con sus fracciones de denominador 10 y denominador 100, en contextos cotidianos como el sistema monetario o la medida.",
+              "1.7. Construcción y comprensión del concepto de fracción haciendo uso de materiales manipulativos con denominador hasta 12. Sus términos y representación. Equivalencias entre fracciones a partir de su representación gráfica."
+            ]
+          },
+          {
+            "apartado": "2. Sentido de las operaciones",
+            "items": [
+              "2.1. Uso de la estructura aditiva o multiplicativa en la resolución de problemas aritméticos de operación única, organizando la información para elegir la operación adecuada.",
+              "2.2. Empleo de estrategias de cálculo para la suma.",
+              "2.2.1. Uso de la suma mediante redondeo a la decena más cercana para el cálculo estimativo obteniendo el cálculo exacto previa compensación.",
+              "2.2.2. Uso de la suma mediante descomposición de forma exacta, con números naturales y decimales hasta la décima.",
+              "2.3. Empleo de estrategias de cálculo para la resta.",
+              "2.3.1. Uso de la resta utilizando sumar o restar el mismo número al minuendo y sustraendo.",
+              "2.3.2. Uso de estrategias basadas en la compensación.",
+              "2.3.3. Uso de estrategias basadas en las descomposiciones más adecuadas de los números.",
+              "2.4. Uso de la suma y de la resta de números naturales, con flexibilidad, comprensión y sentido, con al menos dos algoritmos basados en las propiedades del sistema de numeración decimal.",
+              "2.5. Construcción y memorización de las tablas de multiplicar a partir de la propiedad conmutativa, de establecer relaciones entre ellas (dobles y mitades) y de buscar regularidades y patrones numéricos (secuencia de las tablas: 1-10, 2-4, 10-5, 3-6, 4-8, 9-10, 7) apoyándose en número de veces, disposición en cuadrículas o suma repetida, y con ayuda de la calculadora mediante el uso del factor constante.",
+              "2.6. Construcción y comprensión del concepto de múltiplo mediante material manipulativo y en relación a las tablas de multiplicar, estableciendo relaciones entre múltiplo y divisor.",
+              "2.7. Relación de la multiplicación con la división (división como inversa de la multiplicación).",
+              "2.8. Descubrimiento y uso posterior de la propiedad distributiva de la multiplicación respecto de la suma para el cálculo.",
+              "2.9. Empleo de la multiplicación de números naturales con flexibilidad y sentido, basada en las propiedades del sistema de numeración (al menos dos algoritmos): aplicando la propiedad distributiva en disposiciones rectangulares, composición y descomposición; y algoritmo expandido.",
+              "2.10. Empleo de estrategias de cálculo mental.",
+              "2.10.1. Uso de la multiplicación de números naturales por la unidad seguida de cero (establecer relaciones: generalización).",
+              "2.10.2. Uso de la multiplicación utilizando dobles y mitades.",
+              "2.11. Aplicación del redondeo a la decena, centena y millares, y en los decimales a la unidad o décima más cercana para el cálculo estimativo en la multiplicación.",
+              "2.12. Interpretación de la división como reparto y como agrupamiento de números naturales, con flexibilidad y sentido, contextualizados (al menos dos algoritmos diferentes para la división).",
+              "2.12.1. Uso de la división usando la descomposición con múltiplos del divisor y repartos sucesivos.",
+              "2.12.2. Uso de la división con repartos proporcionales (basándose en los múltiplos de 10, dobles y mitades).",
+              "2.13. Utilización de la calculadora en la investigación, el cálculo del resultado exacto cuando las cantidades lo precisen y la comprobación de resultados.",
+              "2.14. Resolución de suma y resta de fracciones con el mismo denominador, usando materiales manipulativos previo a la simbolización.",
+              "2.15. Representación con materiales manipulativos, ordenación y cálculo de porcentajes: 50% como mitad, 25% como la mitad de la mitad, y 75% como el 100% menos el 25%, y como la mitad más la mitad de la mitad."
+            ]
+          },
+          {
+            "apartado": "3. Relaciones",
+            "items": [
+              "3.1. Conocimiento del sistema de numeración de base 10 (hasta el 9999): aplicación de las relaciones que genera en las operaciones.",
+              "3.2. Empleo de números naturales, decimales y fracciones en contextos de la vida cotidiana: equivalencias, comparación y ordenación.",
+              "3.3. Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos."
+            ]
+          },
+          {
+            "apartado": "4. Educación financiera",
+            "items": [
+              "4.1. Cálculo y estimación de cantidades y cambios (euros y céntimos de euro) en problemas de la vida cotidiana: ingresos, gastos y ahorro. Decisiones de compra responsable."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Sentido de la medida.",
+        "apartados": [
+          {
+            "apartado": "1. Magnitud",
+            "items": [
+              "1.1. Percepción de la magnitud. Medida de longitud, masa, capacidad, superficie, y amplitud del ángulo por comparación directa con una unidad.",
+              "1.2. Conocimiento y uso de las unidades no convencionales y convencionales (km, m, cm, dm, mm; kg, g; l y ml; cm² y m²) en situaciones de la vida cotidiana.",
+              "1.3. Uso de la medida del tiempo (año, mes, semana, día, hora, minutos y segundos) y determinación de la duración de periodos de tiempo."
+            ]
+          },
+          {
+            "apartado": "2. Estimación, medición y relaciones",
+            "items": [
+              "2.1. Empleo de estrategias para realizar mediciones con instrumentos y unidades no convencionales (repetición de una unidad, uso de cuadrículas y materiales manipulativos) y convencionales. Comparación: cuál es mayor y cuántas veces mayor.",
+              "2.2. Procesos de medición mediante instrumentos convencionales (regla, cinta métrica, balanzas, recipientes graduados, reloj analógico y digital).",
+              "2.3. Estrategias de comparación directa e indirecta y ordenación de medidas de la misma magnitud, aplicando las equivalencias entre unidades de uso habitual del sistema métrico decimal en problemas de la vida cotidiana.",
+              "2.4. Elección de las unidades adecuadas en función de la magnitud.",
+              "2.5. Elección del instrumento de medida adecuado en función de la magnitud y precisión requerida.",
+              "2.6. Estimación de medidas de longitud, masa, superficie y capacidad por comparación.",
+              "2.7. Valoración y control del error y precisión de la medida en función del objeto, unidad e instrumento a utilizar.",
+              "2.8. Deducción de las fórmulas para los cálculos de áreas de cuadrados y rectángulos.",
+              "2.9. Cálculo de superficies de triángulos y rectángulos estableciendo relaciones de composición y descomposición.",
+              "2.10. Comprensión de la amplitud del ángulo como medida de una abertura. Clasificación en ángulos rectos, agudos y obtusos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Sentido espacial.",
+        "apartados": [
+          {
+            "apartado": "1. Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "1.1. Identificación y clasificación de figuras geométricas de dos o tres dimensiones (polígonos hasta 10 lados, círculo, prismas, pirámides, cono, cilindro, esfera) en objetos de la vida cotidiana, atendiendo a sus elementos y a las relaciones entre ellos.",
+              "1.2. Empleo de técnicas de construcción de figuras geométricas de dos dimensiones por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla, escuadra y compás) y aplicaciones informáticas.",
+              "1.3. Adquisición de vocabulario: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas (vértice, lado, diagonal, arista, caras, bases, ángulos, radio).",
+              "1.4. Discriminación de las propiedades en figuras geométricas de dos y tres dimensiones: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y el manejo de herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.).",
+              "1.5. Reconocimiento y utilización del punto, la recta, la semirrecta, el segmento, líneas poligonales abiertas y cerradas.",
+              "1.6. Representación de objetos geométricos con propiedades dadas, como longitudes, ángulos o áreas."
+            ]
+          },
+          {
+            "apartado": "2. Localización y sistemas de representación",
+            "items": [
+              "2.1. Descripción de la posición relativa de objetos en el espacio o de sus representaciones, utilizando vocabulario geométrico adecuado (paralelo, perpendicular, oblicuo, derecha, izquierda, etc.).",
+              "2.2. Descripción verbal e interpretación de movimientos, en relación a uno mismo o a otros puntos de referencia, utilizando vocabulario geométrico adecuado.",
+              "2.3. Interpretación de itinerarios en planos, utilizando soportes físicos y virtuales."
+            ]
+          },
+          {
+            "apartado": "3. Movimientos y transformaciones",
+            "items": [
+              "3.1. Identificación de figuras transformadas mediante traslaciones y simetrías.",
+              "3.2. Generación de figuras transformadas a partir de simetrías y traslaciones de un patrón inicial y predicción del resultado utilizando materiales manipulativos (tangram, geoplano, mosaicos, etc.)."
+            ]
+          },
+          {
+            "apartado": "4. Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "4.1. Empleo de estrategias para el cálculo de perímetros de figuras planas y utilización en la resolución de problemas de la vida cotidiana.",
+              "4.2. Utilización de modelos geométricos en la resolución de problemas relacionados con los otros sentidos. Disposiciones rectangulares, diagrama partes-todo, diagramas lineales, diagramas en árbol, diagramas de sectores, etc.",
+              "4.3. Reconocimiento de relaciones geométricas en campos ajenos a la clase de matemáticas, como el arte, las ciencias y la vida cotidiana."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "IV. Sentido algebraico.",
+        "apartados": [
+          {
+            "apartado": "1. Patrones",
+            "items": [
+              "1.1. Identificación, descripción verbal, representación y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "2. Modelo matemático",
+            "items": [
+              "2.1. Ejecución de un proceso pautado de modelización usando materiales manipulativos o representaciones diversas (gráficas, tablas, etc.) para facilitar la comprensión y la resolución de problemas de la vida cotidiana.",
+              "2.2. Planificación en cuatro fases de la resolución de problemas: comprender, pensar, ejecutar y responder.",
+              "2.3. Resolución de problemas aritméticos (de razón, conversión, comparación), geométricos, lógicos, de patrones. Resolución y planteamiento de nuevos problemas.",
+              "2.4. Conocimiento y uso de estrategias de resolución de problemas básicas (modelización, ensayo y error, organización de la información), auxiliares (analogía y simplificar), específicas (búsqueda de patrones, eliminar).",
+              "2.5. Construcción y empleo de diagramas partes-todo, tablas simples, tablas de doble entrada, diagramas de barras, diagramas en árbol."
+            ]
+          },
+          {
+            "apartado": "3. Relaciones y funciones",
+            "items": [
+              "3.1. Establecimiento de relaciones de igualdad y desigualdad, y uso de los signos = , ≠ y ≈ entre expresiones que incluyan operaciones y sus propiedades.",
+              "3.2. Reconocimiento de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+              "3.3. Representación de la relación “mayor que” y “menor que”, y uso de los signos.",
+              "3.4. Expresión matemática de las relaciones establecidas y deducidas del trabajo manipulativo o de situaciones problemáticas haciendo uso de símbolos numéricos y no numéricos."
+            ]
+          },
+          {
+            "apartado": "4. Pensamiento computacional",
+            "items": [
+              "4.1. Reconocimiento y modificación de algoritmos sencillos (reglas de juegos, instrucciones secuenciales, bucles, patrones repetitivos, programación por bloques, robótica educativa, etc.).",
+              "4.2. Resolución de retos con actividades desenchufadas y manipulativas para el desarrollo del pensamiento computacional."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "V. Sentido estocástico.",
+        "apartados": [
+          {
+            "apartado": "1. Organización y análisis de datos",
+            "items": [
+              "1.1. Lectura e interpretación de gráficos estadísticos de la vida cotidiana (pictogramas, gráficas de barras, de sectores e histogramas).",
+              "1.2. Conocimiento y uso de estrategias sencillas para la recogida, clasificación y organización de datos cualitativos o cuantitativos discretos en muestras pequeñas, mediante calculadora y aplicaciones informáticas sencillas. Frecuencia absoluta: interpretación.",
+              "1.3. Elaboración de gráficos estadísticos básicos (diagrama de barras, diagrama lineal y pictogramas) para representar datos, seleccionando el más conveniente, mediante recursos tradicionales y aplicaciones informáticas sencillas.",
+              "1.4. Interpretación de la moda como el dato más frecuente y de la media como el valor promedio de un conjunto de datos numéricos.",
+              "1.5. Comparación gráfica de dos conjuntos de datos para establecer relaciones y extraer conclusiones.",
+              "1.6. Diferenciación entre variable cualitativa y cuantitativa."
+            ]
+          },
+          {
+            "apartado": "2. Incertidumbre",
+            "items": [
+              "2.1. Reconocimiento de la incertidumbre en situaciones de la vida cotidiana y mediante la realización de experimentos.",
+              "2.2. Identificación de suceso seguro, suceso posible y suceso imposible.",
+              "2.3. Comparación de la probabilidad de dos sucesos de forma intuitiva y a través de su relación con las fracciones.",
+              "2.4. Uso de la calculadora para obtener la probabilidad de un suceso."
+            ]
+          },
+          {
+            "apartado": "3. Inferencia",
+            "items": [
+              "3.1. Extracción de conclusiones a partir del análisis de los datos recogidos, dándoles sentido en el contexto de estudio."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "VI. Sentido socioafectivo.",
+        "apartados": [
+          {
+            "apartado": "1. Creencias, actitudes y emociones",
+            "items": [
+              "1.1. Gestión emocional: identificación y manifestación de las propias emociones ante las matemáticas. Iniciativa y tolerancia ante la frustración en el aprendizaje de las matemáticas.",
+              "1.2. Fomento de la autonomía y estrategias para la toma de decisiones en situaciones de resolución de problemas."
+            ]
+          },
+          {
+            "apartado": "2. Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "2.1. Mostrar sensibilidad y respeto ante las diferencias individuales presentes en el aula: identificación y rechazo de actitudes discriminatorias.",
+              "2.2. Participación activa en el trabajo en equipo, escucha activa y respeto por el trabajo de los demás.",
+              "2.3. Reconocimiento y comprensión de las emociones y experiencias de los demás.",
+              "2.4. Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+            ]
+          }
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "I. Sentido numérico.",
+        "apartados": [
+          {
+            "apartado": "1 Conteo y cantidad",
+            "items": [
+              "1.1. Construcción y uso de estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana.",
+              "1.2. Conocimiento del valor posicional de las cifras en el sistema de numeración decimal y sus equivalencias.",
+              "1.3. Estimación y aproximación razonadas de cantidades en contextos de resolución de problemas.",
+              "1.4. Lectura y escritura de números naturales y decimales hasta las milésimas.",
+              "1.5. Representación, composición y descomposición de números naturales y decimales hasta las milésimas (incluida la recta numérica y con materiales manipulativos).",
+              "1.6. Interpretación de números negativos significativos en contextos reales y familiares, y representación y ubicación en una recta numérica.",
+              "1.7. Descubrimiento de relaciones entre fracciones (½, ⅓, ¼, ⅕, ¾, 1/10, 1/100), decimales (0,50; 0,25; 0,20; 0,75; 0,10; 0,01;) y porcentajes (50%, 25%, 20%, 75%, 10%. 1%, 100%) para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema.",
+              "1.8. Interpretación de fracciones propias e impropias.",
+              "1.9. Construcción y comprensión del concepto de potencia utilizando materiales manipulativos."
+            ]
+          },
+          {
+            "apartado": "2. Sentido de las operaciones",
+            "items": [
+              "2.1. Uso de las estructuras aditiva y multiplicativa en la resolución de problemas aritméticos, organizando la información para elegir la operación adecuada.",
+              "2.2. Comprensión y uso de estrategias de cálculo con números naturales y decimales en contextos multiplicativos (al menos dos algoritmos diferentes para la multiplicación).",
+              "2.2.1. Uso de la propiedad distributiva de la multiplicación respecto de la suma para el cálculo.",
+              "2.2.2. Uso de la multiplicación usando doble y mitad.",
+              "2.2.3. Uso de la multiplicación por 0,5 como calcular la mitad; por 0,25 como equivalente a la mitad de la mitad o a dividir entre 4; por 0,1 y 0,01, como equivalente a la división por 10 y por 100; por 0,20 como equivalente a dividir por 5.",
+              "2.3. Utilización de algoritmos flexibles para la división, usando al menos dos diferentes, analizando el significado del resto en situaciones contextualizadas.",
+              "2.3.1. Uso de la división mediante la descomposición con múltiplos del divisor y repartos sucesivos.",
+              "2.3.2. Uso de la división mediante repartos proporcionales (basándose en la multiplicación por la unidad seguida de cero, dobles y mitades).",
+              "2.4. Empleo de estrategias de cálculo mental: división por 4 como mitad de la mitad, dividir por 0,5 como equivalente a multiplicar por 2 y por 0,25 como equivalente a multiplicar por 4, dividir por 5 como equivalente a calcular su doble y dividirlo por 10, o multiplicar por 0,20 o por ⅕.",
+              "2.5. Aplicación del redondeo para el cálculo estimativo y compensación para el cálculo exacto posterior.",
+              "2.6. Uso de la multiplicación y división con decimales en contextos de dinero o medida, realizando la estimación previa y utilizando la calculadora, para buscar regularidades, realizar hipótesis y comprobar u obtener el resultado exacto.",
+              "2.7. Utilización de la calculadora en la investigación, el cálculo del resultado exacto, cuando las cantidades lo precisen, y la comprobación de resultados.",
+              "2.8. Construcción y aplicación del concepto de fracción equivalente.",
+              "2.9. Resolución de suma y resta de fracciones sencillas con diferente denominador, siendo múltiplos/divisores unos denominadores de otros.",
+              "2.10. Comprensión del significado y aplicación de la multiplicación de un natural por una fracción y de una fracción por un natural.",
+              "2.11. Cálculo de porcentajes multiplicando por el decimal equivalente con la calculadora.",
+              "2.12. Comparación de fracciones en relación a la unidad, utilizando la equivalencia con la expresión decimal, de forma mental o con la calculadora."
+            ]
+          },
+          {
+            "apartado": "3. Relaciones",
+            "items": [
+              "3.1. Construcción del sistema de numeración de base 10 (números naturales y decimales hasta las milésimas): aplicación de las relaciones que genera en las operaciones.",
+              "3.2. Comparación y ordenación de números naturales, fracciones y decimales hasta las milésimas en contextos de la vida cotidiana.",
+              "3.3. Aplicación de números enteros en contextos cercanos (niveles de un edificio, temperaturas, etc.).",
+              "3.4. Aplicación en contextos cotidianos de las relaciones entre las operaciones aritméticas.",
+              "3.5. Identificación de la división como reparto y como agrupamiento o cuántas veces cabe el divisor en el dividendo.",
+              "3.6. Relación de divisibilidad: múltiplos y divisores. Obtención de los primeros múltiplos de un número dado, de divisores de cualquier número menor que 100, en primer lugar con materiales manipulativos. Utilización de las tablas de multiplicar para múltiplos y divisores.",
+              "3.7. Comprensión del mínimo común múltiplo y el máximo común divisor de dos o tres números de hasta dos cifras, con materiales manipulativos, y obtención de ambos en situaciones contextualizadas.",
+              "3.8. Investigación y enunciación de los criterios de divisibilidad estableciendo relaciones entre ellos (2 y 4; 5 y 10; 3 y 9). Números primos y compuestos."
+            ]
+          },
+          {
+            "apartado": "4. Razonamiento proporcional",
+            "items": [
+              "4.1. Identificación de situaciones proporcionales y no proporcionales en problemas de la vida cotidiana como comparación multiplicativa entre magnitudes.",
+              "4.2. Resolución de problemas de proporcionalidad, porcentajes y escalas de la vida cotidiana, mediante la igualdad entre razones, la reducción a la unidad o el uso de constante de proporcionalidad."
+            ]
+          },
+          {
+            "apartado": "5. Educación financiera",
+            "items": [
+              "5.1. Interpretación y resolución de problemas relacionados con el consumo responsable (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas.",
+              "5.2. Empleo de aumentos y disminuciones porcentuales en contextos cotidianos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Sentido de la medida.",
+        "apartados": [
+          {
+            "apartado": "1. Magnitud",
+            "items": [
+              "1.1. Percepción de la magnitud. Medida de superficies y volúmenes por comparación directa con una unidad.",
+              "1.2. Conocimiento, selección y uso de las unidades convencionales del Sistema Métrico Decimal: longitud (mm, cm, dm, m, Km), masa (g, Kg), capacidad (ml, cl, dl, l), volumen (cm³ y m³) superficie (cm², dm² y m²), tiempo (desde milenio hasta segundo), grado (ángulos) y sus equivalencias, en contextos de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "2. Estimación, medición y relaciones",
+            "items": [
+              "2.1. Selección de instrumentos (analógicos o digitales) y unidades adecuadas para medir longitudes, masa, capacidad, ángulos y tiempos.",
+              "2.2. Valoración y control del error, precisión en función del objeto, unidad e instrumento.",
+              "2.3. Utilización de estrategias de comparación y ordenación de medidas de la misma magnitud, aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana.",
+              "2.4. Elección de las unidades adecuadas en función de la magnitud.",
+              "2.5. Elección del instrumento de medida adecuado en función de la magnitud y precisión requerida.",
+              "2.6. Estimación de medidas por comparación.",
+              "2.7. Deducción de las fórmulas y cálculo de áreas y volúmenes de figuras sencillas (rectángulo-triángulo, prisma-pirámide, círculo-cilindro).",
+              "2.8. Cálculo de superficies de polígonos sencillos y su desarrollo plano 2D.",
+              "2.9. Exploración de la relación área-perímetro en figuras planas.",
+              "2.10. Comprensión del ángulo como porción del plano delimitado por dos semirrectas con el mismo punto de origen. El ángulo como medida de un giro o abertura. Composición y descomposición manipulativa de los ángulos más habituales. Estimación de ángulos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Sentido espacial.",
+        "apartados": [
+          {
+            "apartado": "1. Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "1.1. Identificación y clasificación de figuras geométricas en objetos de la vida cotidiana, atendiendo a sus elementos y a las relaciones entre ellos.",
+              "1.2. Técnicas de construcción de figuras geométricas por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo y aplicaciones informáticas.",
+              "1.3. Adquisición y uso de vocabulario geométrico: propiedades de figuras geométricas (figuras regulares e irregulares, cóncavas y convexas, simetrías, etc.) y descripción verbal de los elementos (vértice, lado, diagonal, arista, cara, base, apotema, radio, diámetro, cuerda, sector circular, arco, etc.).",
+              "1.4. Descubrimiento, generalización y uso de propiedades de figuras geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.).",
+              "1.5. Relación entre la longitud de la circunferencia y el diámetro. Número π.",
+              "1.6. Representación de objetos geométricos con propiedades dadas, como longitudes, ángulos, áreas o volúmenes."
+            ]
+          },
+          {
+            "apartado": "2. Localización y sistemas de representación",
+            "items": [
+              "2.1. Localización y desplazamientos en planos y mapas, entre ellos los de entornos cercanos, a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas): descripción, interpretación y representación con el vocabulario adecuado en soportes físicos y virtuales.",
+              "2.2. Descripción de la posición relativa de objetos en el plano o en un sistema de coordenadas cartesianas, utilizando vocabulario geométrico adecuado (paralelo, perpendicular, secante, tangente).",
+              "2.3. Interpretación y descripción de itinerarios en planos, utilizando soportes físicos y virtuales."
+            ]
+          },
+          {
+            "apartado": "3. Movimientos y transformaciones",
+            "items": [
+              "3.1. Identificación de figuras transformadas, generación a partir de patrones iniciales y predicción del resultado a partir de experiencias manipulativas de transformaciones mediante giros, traslaciones y simetrías en situaciones de la vida cotidiana.",
+              "3.2. Identificación de figuras semejantes, generación a partir de modelos iniciales y predicción del resultado. Semejanza en situaciones de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "4. Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "4.1. Empleo de estrategias para la comparación, estimación y cálculo de áreas y perímetros de figuras planas en situaciones de la vida cotidiana.",
+              "4.2. Construcción de modelos geométricos en la resolución de problemas relacionados con los otros sentidos matemáticos.",
+              "4.3. Elaboración de conjeturas sobre propiedades geométricas, utilizando instrumentos de dibujo (compás y transportador de ángulos) y programas de geometría dinámica.",
+              "4.4. Descubrimiento de las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "IV. Sentido algebraico.",
+        "apartados": [
+          {
+            "apartado": "1. Patrones",
+            "items": [
+              "1.1. Desarrollo de estrategias de identificación, representación (verbal o mediante tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes.",
+              "1.2. Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "2. Modelo matemático",
+            "items": [
+              "2.1. Modelización de problemas de la vida cotidiana, usando materiales manipulativos o representaciones diversas.",
+              "2.2. Planificación en cuatro fases de la resolución de problemas: comprender, pensar, ejecutar y responder.",
+              "2.3. Resolución de problemas aritméticos (de razón, conversión, comparación y combinación), geométricos, lógicos, de patrones. Resolución y planteamiento de nuevos problemas.",
+              "2.4. Conocimiento, selección y uso de estrategias de resolución de problemas básicas (modelización, ensayo error, organización de la información), auxiliares (analogía y simplificar), específicas (ir hacia atrás, búsqueda de patrones, eliminar, iniciación a la generalización).",
+              "2.5. Construcción y utilización de diagramas partes-todo, tablas simples, tablas de doble entrada, diagramas de barras, lineales y en árbol, diagramas de sectores, diagrama de Venn…"
+            ]
+          },
+          {
+            "apartado": "3. Relaciones y funciones",
+            "items": [
+              "3.1. Establecimiento de relaciones de igualdad y desigualdad, y uso de los signos menor que, ≤, mayor que, y ≥.",
+              "3.2. Determinación de datos desconocidos, representados por medio de una letra o un símbolo, en expresiones sencillas relacionadas mediante estos signos y los signos =, ≠ , ≈.",
+              "3.3. Expresión matemática de las relaciones establecidas y deducidas del trabajo manipulativo o de situaciones problemáticas haciendo uso de símbolos numéricos y no numéricos."
+            ]
+          },
+          {
+            "apartado": "4. Pensamiento computacional",
+            "items": [
+              "4.1. Modificación y creación de algoritmos sencillos (secuencias de pasos ordenados, esquemas, simulaciones, patrones repetitivos, bucles, instrucciones anidadas y condicionales, programación por bloques, robótica educativa, etc.) haciendo uso de recursos tecnológicos.",
+              "4.2. Resolución de retos con actividades desenchufadas y aplicaciones informáticas para el desarrollo del pensamiento computacional."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "V. Sentido estocástico.",
+        "apartados": [
+          {
+            "apartado": "1. Organización y análisis de datos",
+            "items": [
+              "1.1. Descripción, interpretación y análisis crítico de conjuntos de datos y gráficos estadísticos de la vida cotidiana. Sesgo estadístico.",
+              "1.2. Planificación de estrategias para la realización de un estudio estadístico sencillo de la realidad cercana: formulación de preguntas, y recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones, etc.).",
+              "1.3. Diferenciación entre tipos de variables (cualitativa y cuantitativa) y preguntas a realizar en una encuesta.",
+              "1.4. Interpretación y construcción de tablas de frecuencias absolutas y relativas.",
+              "1.5. Elaboración de gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma y lineal, gráficos con doble información), representación de datos mediante recursos tradicionales y tecnológicos, y selección del más conveniente.",
+              "1.6. Interpretación, cálculo y aplicación de medidas de centralización (media, mediana y moda).",
+              "1.7. Significado e interpretación de las medidas de dispersión (rango).",
+              "1.8. Empleo de la calculadora y otros recursos digitales, como la hoja de cálculo, para organizar la información estadística y realizar diferentes visualizaciones de los datos.",
+              "1.9. Relación y comparación de dos conjuntos de datos a partir de su representación gráfica: formulación de conjeturas, análisis y obtención de conclusiones.",
+              "1.10. Análisis crítico de informaciones estadísticas.",
+              "1.11. Comprobación de conjeturas a partir del análisis de los datos de un gráfico."
+            ]
+          },
+          {
+            "apartado": "2. Incertidumbre",
+            "items": [
+              "2.1. Relación de la probabilidad de un suceso (comprendida entre 0 y 1) con las fracciones y los porcentajes.",
+              "2.2. Cuantificación y comprobación de la estabilización de las frecuencias relativas en experimentos aleatorios repetitivos. La incertidumbre en situaciones de la vida cotidiana.",
+              "2.3. Uso de la regla de Laplace en el cálculo de probabilidades en experimentos aleatorios.",
+              "2.4. Uso de la calculadora y otros recursos digitales para conocer la tendencia de que ocurra un suceso.",
+              "2.5. Comprensión del experimento aleatorio, impredecible, pero sabiendo los posibles resultados que se pueden obtener. Experimentos aleatorios y deterministas."
+            ]
+          },
+          {
+            "apartado": "3. Inferencia",
+            "items": [
+              "3.1. Identificación de un conjunto de datos como muestra de un conjunto más grande y reflexión sobre la población a la que es posible aplicar las conclusiones de investigaciones estadísticas sencillas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "VI. Sentido socioafectivo.",
+        "apartados": [
+          {
+            "apartado": "1. Creencias, actitudes y emociones propias",
+            "items": [
+              "1.1. Autorregulación emocional: autoconcepto y aprendizaje de las matemáticas desde una perspectiva de género. Mejora de la perseverancia y el sentido de la responsabilidad hacia el aprendizaje de las matemáticas.",
+              "1.2. Flexibilidad cognitiva: adaptación a las situaciones, valoración del error como oportunidad de aprendizaje y focalización en los aciertos y fortalezas."
+            ]
+          },
+          {
+            "apartado": "2. Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "2.1. Mostrar respeto por las emociones y experiencias de los demás ante las matemáticas.",
+              "2.2. Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estrategias para la gestión de conflictos, promoción de conductas empáticas e inclusivas, y aceptación de la diversidad presente en el aula y en la sociedad.",
+              "2.3. Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bloques": {
+    "primer": [
+      {
+        "competencias": [
+          "C1",
+          "C2"
+        ],
+        "criterios": [
+          "1.1",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial se comprobará que el alumnado es capaz de comprender, resolver y enunciar problemas matemáticos sencillos, siguiendo una secuencia ordenada. Se constatará que puede analizar y comprender la situación planteada en los problema, de manera que interpreta la información que se le proporciona, ordena su pensamiento y encauza la búsqueda de posibles soluciones, empleando las estrategias más adecuadas para resolver el problema planteado. Para ello, se comprobará que es capaz de identificar la información relevante y de organizar y estructurar estos elementos en diagramas u otras representaciones matemáticas sencillas, que le permitan visualizar las conexiones entre lo que le dan y lo que le piden, y le orienten en el camino a seguir para abordar el reto que se le plantea, de forma que pueda elegir y ejecutar una estrategia básica para la resolución del problema planteado, utilizando para todo ello herramientas y recursos diversos (manipulación de materiales, diseño de diagramas y representaciones gráficas sencillas, e inicio de explicaciones verbales de su pensamiento). Se valorará, además, que sea capaz de comprobar las soluciones a los problemas, de forma que revise el proceso seguido y evalúe su corrección, transformando el error en una oportunidad para el aprendizaje. Se valorará, además, que sea capaz de expresar el proceso seguido y de comunicar sus conclusiones. Se comprobará, asimismo, que acepta los retos que se le planteen con compromiso y que realiza las tareas planificadas, cooperando en equipo para llevarlas a cabo y valorando el proceso realizado."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CE3"
+        ],
+        "explicacion": "En este bloque competencial se comprobará si el alumnado realiza conjeturas elementales, se plantea preguntas y si pone en funcionamiento su razonamiento, su pensamiento analítico y crítico. Además, deberá ser capaz de observar e identificar elementos matemáticos, tanto en contextos cotidianos como en situaciones propias del área relacionadas con los saberes básicos. Se constatará que el alumnado investiga sobre patrones, propiedades y relaciones, de forma guiada, con la ayuda de materiales manipulativos o calculadora, para extraer conclusiones; que comunica de forma verbal o gráfica, adquiriendo nuevo conocimiento; y que desarrolla una actitud activa ante el trabajo y proactiva ante el aprendizaje. Se verificará también que identifica problemas que conectan las matemáticas con la realidad, comprobando la validez de los pasos seguidos en dicha conexión y su coherencia en el contexto."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD5",
+          "CE3"
+        ],
+        "explicacion": "En este bloque competencial se constatará que el alumnado describe rutinas siguiendo todos los pasos con orden e identifica patrones a partir de regularidades en secuencias numéricas, figuras o imágenes. Se evaluará si hace predicciones en el proceso de comprensión y resolución de problemas sencillos que impliquen establecer una secuencia ordenada de pasos, es decir, mediante un algoritmo, de forma individual o en equipo. Todo ello con la finalidad de identificar los aspectos más relevantes de la tarea a resolver y descomponerlos en tareas más simples para el desarrollo de la abstracción."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado reconoce y utiliza conexiones entre los objetos matemáticos de los diferentes sentidos, entre los objetos matemáticos y las diferentes áreas para construir y consolidar sus aprendizajes. Se comprobará también que identifica las matemáticas implicadas en la vida cotidiana, facilitando el desarrollo de la capacidad de comprensión del entorno y de los sucesos que en él acontecen; que participa en proyectos que hagan visibles todas estas conexiones; y que se inicie en la adquisición de hábitos de vida sostenible."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "En este bloque competencial se evaluará que el alumnado reconoce el lenguaje matemático presente en la vida cotidiana y lo utiliza para comunicar e intercambiar ideas, conceptos, procedimientos y resultados matemáticos, de forma guiada, y lo adecua con ayuda al canal de comunicación y al oyente en diferentes formatos, entre ellos el digital, tanto individualmente como en grupo, con el objetivo de dar significado, afianzar las ideas trabajadas y generar nuevos conocimientos. Se constatará, a través de debates, presentación de resultados, extracción de conclusiones a partir de situaciones que supongan un reto o un problema, que el alumnado moviliza sus recursos lingüísticos y matemáticos con la intención de comunicar de la forma más adecuada posible sus ideas."
+      },
+      {
+        "competencias": [
+          "C7",
+          "C8"
+        ],
+        "criterios": [
+          "7.1",
+          "8.1"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CC3",
+          "CE2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado se enfrenta positivamente a los retos que se le plantean, identifica sus emociones y muestra interés y actitud positiva en la tarea, siendo capaz de reconocer sus fortalezas y debilidades durante el proceso del trabajo matemático y entendiendo el error como una oportunidad de aprendizaje. Se comprobará que el alumnado trabaja colaborativamente, usando la escucha activa y la comunicación asertiva, valorando el respeto, la igualdad y la resolución pacífica de conflictos, y asumiendo las responsabilidades individuales orientadas hacia la consecución de objetivos compartidos, con un lenguaje inclusivo y no violento. Asimismo, se constatará que el alumnado va adquiriendo las destrezas emocionales que fomentan su bienestar, interés e implicación."
+      }
+    ],
+    "segundo": [
+      {
+        "competencias": [
+          "C1",
+          "C2"
+        ],
+        "criterios": [
+          "1.1",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD2",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado comprende, resuelve y enuncia problemas matemáticos de distinto tipo, que sigue una secuencia ordenada: comprensión de la situación, en la que identifica la información relevante de un problema, y estructura estos elementos en diagramas u otras representaciones matemáticas que orienten en el camino a seguir para abordar el reto que se le plantea, utilizando herramientas y recursos variados; y que comprende y reformula la situación planteada en contextos diversos, movilizando sus conocimientos y experiencias previos. Se comprobará, también, que es capaz de elegir y ejecutar la estrategia más adecuada y revisarla tomando decisiones, anticipando la respuesta y transformando el error en una oportunidad de aprendizaje; y que sabe comprobar las soluciones obtenidas para dar una respuesta coherente con el objetivo, explicando el proceso seguido y comunicando sus conclusiones. Se evaluará asimismo que realiza las tareas planificadas con responsabilidad, cooperando en equipo para llevarlas a cabo y valorando el proceso realizado."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "explicacion": "En este bloque competencial, se comprobará si el alumnado analiza conjeturas sencillas y si para ello pone en funcionamiento su razonamiento, su pensamiento analítico y crítico. Se constatará que investiga sobre patrones, propiedades y relaciones, de forma pautada, con la ayuda de materiales manipulativos o calculadora, tanto en contextos cotidianos como en situaciones propias del área relacionadas con los saberes básicos, para extraer conclusiones; si comunica y argumenta de forma verbal, gráfica o a través de medios tecnológicos, generando nuevo conocimiento; y si desarrolla una actitud activa ante el trabajo y proactiva ante el aprendizaje. Se verificará, además, que identifica y analiza problemas que conectan las matemáticas con la realidad, comprobando la validez de las soluciones que se obtengan y su coherencia en el contexto."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado describe rutinas teniendo en cuenta las acciones necesarias y el orden de aplicación, descompone tareas en otras más simples, identifica patrones sencillos a partir de regularidades; utiliza secuencias numéricas, figuras o imágenes; hace predicciones y las explica; y crea o modifica algoritmos sencillos en el proceso de comprensión y resolución de problemas que se resuelvan mediante una secuencia ordenada de pasos, es decir, mediante un algoritmo, de forma individual o en equipo, y relaciona los aspectos fundamentales de la informática con actividades cotidianas."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "explicacion": "En este bloque competencial se comprobará que el alumnado establece relaciones entre los diferentes objetos matemáticos, con otras áreas y en otros contextos para adquirir y consolidar aprendizajes, de forma que le permitan tomar decisiones sostenibles y respetuosas con el entorno mostrando hábitos de vida sostenible. Se evaluará asimismo si el alumnado realiza de forma guiada proyectos que hagan visibles estas conexiones para generar en equipo productos creativos, en entornos digitales, cuando sea necesario."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD5",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "En este bloque competencial se evaluará que el alumnado reconozca que el lenguaje matemático está presente en la vida cotidiana y en otros contextos cercanos, y lo utilice para comunicar e intercambiar ideas, conceptos, procedimientos y resultados matemáticos, de forma pautada y adecuada al canal de comunicación y al oyente, en diferentes formatos, entre ellos el digital, tanto individualmente como en grupo, con el objetivo de dar significado, afianzar las ideas trabajadas y generar nuevos conocimientos. Se constatará, a través de debates, presentación de resultados, extracción de conclusiones, a partir de situaciones que supongan un reto o un problema, que el alumnado moviliza sus recursos lingüísticos y matemáticos con la intención de comunicar de la forma más precisa posible sus ideas."
+      },
+      {
+        "competencias": [
+          "C7",
+          "C8"
+        ],
+        "criterios": [
+          "7.1",
+          "8.1"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CC3",
+          "CE2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado se enfrenta a los retos que se le plantean, autorregula sus emociones, valora el error como una oportunidad de aprendizaje y persevera en la tarea, siendo capaz de reconocer sus fortalezas y debilidades durante todo el proceso del trabajo matemático, desarrollando la motivación y la autoconfianza. También se comprobará que trabaja colaborativamente con iniciativa, fomentando la escucha activa y la comunicación asertiva, cooperando de manera creativa y responsable, y abordando la resolución de conflictos de manera positiva, con un lenguaje inclusivo y no violento, valorando la diversidad, estableciendo relaciones saludables basadas en la tolerancia, la igualdad, la empatía y el consenso, así como, asumiendo las responsabilidades individuales orientadas hacia la consecución de objetivos compartidos."
+      }
+    ],
+    "tercer": [
+      {
+        "competencias": [
+          "C1",
+          "C2"
+        ],
+        "criterios": [
+          "1.1",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD2",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial se comprobará que el alumnado comprende, resuelve y enuncia problemas matemáticos de distinto tipo, que sigue una secuencia ordenada. De esta manera, se constatará que comprende la situación la situación, que identifica datos, objetivos y relaciones; y estructura estos elementos en diagramas u otras representaciones matemáticas más complejas que orienten en el camino a seguir para abordar el reto que se le plantea, utilizando herramientas y recursos variados, entre ellos los tecnológicos; y que comprende y reformula la situación planteada en contextos diversos, movilizando sus conocimientos y experiencias previos. Se comprobará que es capaz de elegir y ejecutar varias estrategias, básicas, auxiliares o específicas, y revisarlas tomando decisiones, anticipando la respuesta y transformando el error en una oportunidad de aprendizaje; y que sabe comprobar las soluciones obtenidas para dar una respuesta coherente con el objetivo, explicando el proceso seguido y comunicando de forma argumentada sus conclusiones. Se evaluará asimismo que realiza las tareas planificadas con responsabilidad, cooperando en equipo, para llevarlas a cabo y valorando el proceso realizado."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "explicacion": "En este bloque competencial se comprobará, si el alumnado formula conjeturas sencillas y si para ello pone en funcionamiento su razonamiento y su pensamiento analítico y crítico. Se constatará también si investiga sobre patrones, propiedades y relaciones con la ayuda de materiales manipulativos o calculadora, tanto en contextos cotidianos como en situaciones propias del área relacionadas con los saberes básicos, para extraer conclusiones; si comunica y argumenta de forma verbal, gráfica, o a través de medios tecnológicos, generando nuevo conocimiento; y si desarrolla una actitud activa ante el trabajo y proactiva ante el aprendizaje. Por último, se evaluará si plantea problemas que conectan las matemáticas con la realidad y con otras áreas del currículo, comprobando y analizando de forma crítica la validez de las soluciones que se obtengan y su coherencia en el contexto."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "explicacion": "En este bloque competencial se comprobará que el alumnado describe rutinas teniendo en cuenta las acciones necesarias y el orden de aplicación; descompone tareas complejas en otras más simples; identifica patrones a partir de regularidades; utiliza secuencias numéricas, figuras o imágenes. También se constatará que es capaz de realizar un proceso de abstracción para identificar los aspectos más relevantes de la situación a resolver; hace predicciones razonadas; y modifica y crea algoritmos sencillos. Asimismo, se valorará que emplea herramientas tecnológicas en el proceso de comprensión y resolución de problemas, de forma individual o en equipo, aportando ideas y soluciones originales; y relaciona los aspectos fundamentales de la informática con actividades cotidianas."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2"
+        ],
+        "descriptores": [
+          "STEM1",
+          "STEM3",
+          "CD3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "explicacion": "En este bloque competencial, se comprobará que el alumnado identifica, establece y utiliza relaciones entre los sentidos matemáticos y los conecta con otras áreas y en otros contextos para consolidar y adquirir aprendizajes, de forma que le permitan tomar decisiones sostenibles y respetuosas con el entorno mostrando hábitos de vida sostenible. Se evaluará, asimismo, si el alumnado realiza de forma pautada proyectos que hagan visibles estas conexiones para generar en equipo productos creativos, utilizando, entre otros recursos, los entornos digitales, y que sean el resultado de la reflexión sobre las posibles soluciones."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD5",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "En este bloque competencial se evaluará que el alumnado reconoce el lenguaje matemático presente en múltiples contextos y lo utiliza para comunicar e intercambiar ideas, conceptos, procedimientos y resultados matemáticos, de forma pautada y adecuada al canal de comunicación y al oyente, en diferentes formatos, entre ellos el digital, tanto individualmente como en grupo, con el objetivo de dar significado, afianzar las ideas trabajadas y generar nuevos conocimientos. Asimismo, se constatará, a través de debates, presentación de resultados y extracción de conclusiones a partir de situaciones que supongan un reto o un problema, que el alumnado moviliza sus recursos lingüísticos y matemáticos con la intención de comunicar con cierto rigor matemático sus ideas."
+      },
+      {
+        "competencias": [
+          "C7",
+          "C8"
+        ],
+        "criterios": [
+          "7.1",
+          "8.1"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CC3",
+          "CE2",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado se enfrenta a los retos que se le plantean, autorregula sus emociones, valora el error como una oportunidad de aprendizaje y persevera en la tarea, siendo capaz de reconocer sus fortalezas y debilidades durante todo el proceso del trabajo matemático, desarrollando la motivación y la autoconfianza, entendiendo la variedad de emociones como una ocasión para crecer de manera personal. Además, se comprobará que trabaja colaborativamente con iniciativa, fomentando la escucha activa y la comunicación asertiva, cooperando de manera creativa y responsable, abordando la resolución de conflictos de manera positiva, con un lenguaje inclusivo y no violento, valorando la diversidad, incluyendo una perspectiva de género, estableciendo relaciones saludables basadas en la tolerancia, la igualdad, la empatía y el consenso, asumiendo las responsabilidades individuales orientadas hacia la consecución de objetivos compartidos y desarrollando la planificación, indagación, motivación y confianza, para crear relaciones y entornos saludables de trabajo."
+      }
+    ]
   }
 }

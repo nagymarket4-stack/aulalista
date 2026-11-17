@@ -1,0 +1,829 @@
+{
+  "area": "Matemáticas",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – MATEMÁTICAS",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Entender y describir la situación planteada, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayuden en la búsqueda de estrategias para su resolución.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 304,
+        "descriptores": {
+          "Insuficiente": "Entiende con dificultad y describe con escasa claridad la situación planteada, utilizando terminología científica básica de forma poco adecuada en algunos formatos sencillos, discriminando, con incorrecciones, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución.",
+          "Suficiente/Bien": "Entiende y describe la situación planteada, utilizando terminología científica básica en algunos formatos sencillos, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución.",
+          "Notable": "Entiende y describe con apropiada claridad la situación planteada, utilizando terminología científica básica con notable adecuación en algunos formatos sencillos, discriminando, con notable corrección, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución.",
+          "Sobresaliente": "Entiende y describe con gran claridad la situación planteada, utilizando terminología científica básica con máxima adecuación en algunos formatos sencillos, discriminando, con corrección destacable, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Reconocer alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos y aplicarla para obtener las posibles soluciones.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 305,
+        "descriptores": {
+          "Insuficiente": "Reconoce alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, y la aplica de manera inadecuada para obtener las posibles soluciones, plantea de forma superficial ideas y soluciones predecibles y mostrando nulo interés en cooperar con otros en equipo, revisando el proceso realizado y el resultado obtenido, buscando otras estrategias de manera inadecuada y sin interés, si la elegida no lleva a la solución.",
+          "Suficiente/Bien": "Reconoce alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos y la aplica para obtener las posibles soluciones, plantea ideas y soluciones predecibles y coopera con otros en equipo, revisando el proceso realizado y el resultado obtenido, buscando otras estrategias si la elegida no lleva a la solución.",
+          "Notable": "Reconoce alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, y la aplica de forma muy adecuada para obtener las posibles soluciones, plantea con profundidad ideas y soluciones predecibles y coopera con interés constante con otros en equipo, revisando el proceso realizado y el resultado obtenido, buscando otras estrategias con notable adecuación e interés, si la elegida no lleva a la solución.",
+          "Sobresaliente": "Reconoce alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, y la aplica con destacado nivel de adecuación para obtener las posibles soluciones, plantea con apreciable profundidad ideas y soluciones predecibles y coopera con pasión constante con otros en equipo, revisando el proceso realizado y el resultado obtenido, buscando otras estrategias con excelente adecuación e interés constante, si la elegida no lleva a la solución."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Elegir y utilizar las operaciones pertinentes para la resolución de problemas que involucren la estructura aditiva; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y explicarlas con un vocabulario matemático apropiado a su nivel.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 306,
+        "descriptores": {
+          "Insuficiente": "Elige y utiliza de manera pautada y con dificultad las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia con poco interés y curiosidad en el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas poco adecuadas y explicaciones con un vocabulario matemático poco apropiado a su nivel.",
+          "Suficiente/Bien": "Elige y utiliza, las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas adecuadas y explicaciones con un vocabulario matemático apropiado a su nivel.",
+          "Notable": "Elige y utiliza con autonomía creciente las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico con interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con gran adecuación y explicaciones con un vocabulario matemático apropiado a su nivel.",
+          "Sobresaliente": "Elige y utiliza con autonomía las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico con gran interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con destacada adecuación y explicaciones con un vocabulario matemático apropiado a su nivel."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Revisar la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CE3"
+        ],
+        "pagina_pdf": 307,
+        "descriptores": {
+          "Insuficiente": "Omite la revisión de la validez de las soluciones del problema y su coherencia con la pregunta o lo hace de manera muy guiada, expresando oralmente el proceso seguido con escasa claridad y adecuación.",
+          "Suficiente/Bien": "Revisa la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido con claridad y adecuación.",
+          "Notable": "Revisa con creciente autonomía la validez de las soluciones del problema y su coherencia con la pregunta, expresando oralmente el proceso seguido con apropiada claridad y adecuación.",
+          "Sobresaliente": "Revisa de forma autónoma la validez de las soluciones del problema y su coherencia con la pregunta, expresando oralmente el proceso seguido con gran claridad y adecuación."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Realizar conjeturas matemáticas sencillas de forma guiada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o la calculadora para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CE3"
+        ],
+        "pagina_pdf": 308,
+        "descriptores": {
+          "Insuficiente": "Realiza conjeturas matemáticas sencillas de forma pautada y con muchos apoyos, investigando patrones, propiedades y relaciones, utilizando de forma poco adecuada materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica con escasa claridad y adecuación a los contextos cotidianos más próximos de su entorno, sin revisar el proceso realizado y el resultado obtenido.",
+          "Suficiente/Bien": "Realiza conjeturas matemáticas sencillas de forma guiada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica, con claridad y adecuación a los contextos cotidianos más próximos de su entorno, revisando el proceso realizado y el resultado obtenido.",
+          "Notable": "Realiza conjeturas matemáticas sencillas de forma guiada con autonomía creciente, investigando patrones, propiedades y relaciones, utilizando con gran adecuación materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica, con apropiada claridad y adecuación a los contextos cotidianos más próximos de su entorno, revisando el proceso realizado y el resultado obtenido.",
+          "Sobresaliente": "Realiza conjeturas matemáticas sencillas con apoyos puntuales , investigando patrones, propiedades y relaciones, utilizando, con alta adecuación, materiales manipulativos, representaciones gráficas o la calculadora, para extraer conclusiones, comunicarlas de forma verbal, manipulativa o gráfica, con gran claridad y adecuación a los contextos cotidianos más próximos de su entorno, revisando el proceso realizado y el resultado obtenido."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Identificar problemas en situaciones cotidianas que se resuelven matemáticamente, revisar la adecuación de los pasos seguidos para ver las conexiones entre las matemáticas y las situaciones cercanas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CE3"
+        ],
+        "pagina_pdf": 309,
+        "descriptores": {
+          "Insuficiente": "Identifica con dificultad problemas simples en situaciones cotidianas que se resuelven matemáticamente, revisando la adecuación de los pasos seguidos de forma muy guiada y pautada para ver las conexiones entre las matemáticas y las situaciones cercanas, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Suficiente/Bien": "Identifica problemas en situaciones cotidianas que se resuelven matemáticamente, revisando la adecuación de los pasos seguidos para ver las conexiones entre las matemáticas y las situaciones cercanas, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Notable": "Identifica con facilidad problemas en situaciones cotidianas que se resuelven matemáticamente, revisando la adecuación de los pasos seguidos con autonomía creciente para ver las conexiones entre las matemáticas y las situaciones cercanas, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Sobresaliente": "Identifica con destacable facilidad problemas en situaciones cotidianas que se resuelven matemáticamente, revisando la adecuación de los pasos seguidos con alta autonomía para ver las conexiones entre las matemáticas y las situaciones cercanas, valorando la experiencia como una oportunidad para enriquecer el aprendizaje"
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Describir rutinas sencillas de la vida cotidiana que se realicen paso a paso, identificando patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando algoritmos sencillos.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CE3"
+        ],
+        "pagina_pdf": 310,
+        "descriptores": {
+          "Insuficiente": "Describe rutinas sencillas de la vida cotidiana que se realizan paso a paso, identificando de manera pautada y con dificultad patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando de forma pautada y muy guiada modelos o algoritmos sencillos con dificultad y errores, planteando de forma superficial ideas y soluciones predecibles y mostrando nulo interés en cooperar con otros en equipo.",
+          "Suficiente/Bien": "Describe rutinas sencillas de la vida cotidiana que se realizan paso a paso, identificando patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando, algoritmos sencillos, planteando ideas y soluciones predecibles y cooperando con otros en equipo.",
+          "Notable": "Describe rutinas sencillas de la vida cotidiana que se realizan paso a paso, identificando con autonomía creciente patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando de forma autónoma algoritmos sencillos, planteando con profundidad ideas y soluciones predecibles y cooperando con interés constante con otros en equipo.",
+          "Sobresaliente": "Describe rutinas sencillas de la vida cotidiana que se realizan paso a paso, identificando de forma autónoma patrones a partir de regularidades, utilizando secuencias numéricas o gráficas y reorganizando con gran autonomía algoritmos sencillos, planteando con apreciable profundidad ideas y soluciones predecibles y cooperando con pasión constante con otros en equipo."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Resolver problemas que impliquen secuencias o patrones, de forma guiada, utilizando las herramientas adecuadas, entre ellas las tecnológicas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD5",
+          "CE3"
+        ],
+        "pagina_pdf": 311,
+        "descriptores": {
+          "Insuficiente": "Resuelve problemas que implican secuencias o patrones, de forma muy guiada y con dificultad, utilizando las herramientas adecuadas, entre ellas las tecnológicas, iniciándose de manera pautada y con guía en el desarrollo de algunas soluciones digitales sencillas con inseguridad y dificultades significativas.",
+          "Suficiente/Bien": "Resuelve problemas que implican secuencias o patrones, de forma guiada, utilizando las herramientas adecuadas, entre ellas las tecnológicas, iniciándose de manera pautada y con ayuda en el desarrollo de algunas soluciones digitales sencillas.",
+          "Notable": "Resuelve problemas que implican secuencias o patrones, de forma progresivamente autónoma, utilizando las herramientas adecuadas, entre ellas las tecnológicas, iniciándose de manera guiada en el desarrollo de algunas soluciones digitales sencillas.",
+          "Sobresaliente": "Resuelve problemas que implican secuencias o patrones, de forma autónoma, utilizando las herramientas adecuadas, entre ellas las tecnológicas, iniciándose con autonomía y confianza crecientes en el desarrollo de algunas soluciones digitales sencillas."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias para una mejor comprensión de los aprendizajes adquiridos.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CC4",
+          "CCEC1"
+        ],
+        "pagina_pdf": 312,
+        "descriptores": {
+          "Insuficiente": "Reconoce con dificultad significativa y de manera equivocada conexiones entre los sentidos y entre las matemáticas implicadas en las diferentes áreas, sin movilizar conocimientos y experiencias propias, lo que dificulta una mejor comprensión de los aprendizajes adquiridos, utilizando de manera pautada y con apoyos frecuentes algún método inductivo y deductivo propio del razonamiento matemático.",
+          "Suficiente/Bien": "Reconoce conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una mejor comprensión de los aprendizajes adquiridos, utilizando de manera pautada y con apoyos algún método inductivo y deductivo propio del razonamiento matemático.",
+          "Notable": "Reconoce con facilidad y corrección conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una mejor comprensión de los aprendizajes adquiridos, utilizando de manera pautada y con apoyos puntuales algún método inductivo y deductivo propio del razonamiento matemático.",
+          "Sobresaliente": "Reconoce con facilidad destacable y total corrección conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una mejor comprensión de los aprendizajes adquiridos, utilizando de manera pautada algún método inductivo y deductivo propio del razonamiento matemático."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer algunas conexiones entre las matemáticas y la vida cotidiana para interpretar problemas en contextos no matemáticos, mostrando actitudes que favorezcan su resolución desde un punto de vista sostenible.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "pagina_pdf": 313,
+        "descriptores": {
+          "Insuficiente": "Reconoce con dificultad significativa y de manera incorrecta algunas conexiones entre las matemáticas, la vida cotidiana y los aspectos básicos del patrimonio cultural y artístico, para interpretar problemas en contextos no matemáticos y realiza de forma pautada y muy guiada proyectos sencillos, iniciándose en el desarrollo de algunas soluciones digitales sencillas con inseguridad y dificultades significativas, sin mostrar actitudes que favorezcan su resolución desde un punto de vista sostenible.",
+          "Suficiente/Bien": "Reconoce algunas conexiones entre las matemáticas, la vida cotidiana y los aspectos básicos del patrimonio cultural y artístico para interpretar problemas en contextos no matemáticos y realiza de forma pautada proyectos sencillos, iniciándose en el desarrollo de algunas soluciones digitales sencillas, mostrando actitudes que favorezcan su resolución desde un punto de vista sostenible.",
+          "Notable": "Reconoce, con facilidad y corrección, algunas conexiones entre las matemáticas, la vida cotidiana y los aspectos básicos del patrimonio cultural y artístico, para interpretar problemas en contextos no matemáticos y realiza de forma guiada proyectos sencillos, iniciándose con confianza creciente en el desarrollo de algunas soluciones digitales sencillas, mostrando actitudes que favorezcan su resolución desde un punto de vista sostenible.",
+          "Sobresaliente": "Reconoce, con facilidad destacable y total corrección, algunas conexiones entre las matemáticas, la vida cotidiana y los aspectos básicos del patrimonio cultural y artístico, para interpretar problemas en contextos no matemáticos y realiza con ayudas puntuales proyectos sencillos, iniciándose con notable confianza en el desarrollo de algunas soluciones digitales sencillas, mostrando actitudes que favorezcan su resolución desde un punto de vista sostenible."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4"
+        ],
+        "pagina_pdf": 314,
+        "descriptores": {
+          "Insuficiente": "Reconoce y comprende con dificultades y de manera guiada el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática.",
+          "Suficiente/Bien": "Reconoce y comprende el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática.",
+          "Notable": "Reconoce y comprende con creciente autonomía el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática.",
+          "Sobresaliente": "Reconoce y comprende de forma autónoma el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario básico, para transmitir información matemática."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando información, para dar significado y permanencia a las ideas matemáticas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 315,
+        "descriptores": {
+          "Insuficiente": "Comunica de forma verbal o gráfica con escasa claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático poco adecuado, experimentando con dudas importantes con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, de manera poco frecuente para dar significado y permanencia a las ideas matemáticas.",
+          "Suficiente/Bien": "Comunica de forma verbal o gráfica con claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático adecuado, experimentando de forma guiada con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, para dar significado y permanencia a las ideas matemáticas.",
+          "Notable": "Comunica de forma verbal o gráfica con apropiada claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático con gran adecuación, experimentando de manera segura y confiada con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, de forma frecuente, para dar significado y permanencia a las ideas matemáticas.",
+          "Sobresaliente": "Comunica de forma verbal o gráfica con gran claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático altamente adecuado, experimentando con total confianza con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información de forma continuada, para dar significado y permanencia a las ideas matemáticas."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Reconocer las emociones propias, desarrollando así la autoconfianza, empleando actitudes positivas, tales como la responsabilidad ante nuevos retos matemáticos y valorando el error como una oportunidad de aprendizaje.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE2"
+        ],
+        "pagina_pdf": 316,
+        "descriptores": {
+          "Insuficiente": "Reconoce con dificultad las emociones propias y pone en práctica de manera errónea estrategias para gestionarlas, participando sin interés en procesos de autoevaluación, identificando de manera inconsciente las fortalezas y debilidades, lo que dificulta desarrollar la autoconfianza, mostrando inseguridad en la identificación y el empleo actitudes positivas, tales como la responsabilidad y el involucramiento personal, ante nuevos retos matemáticos; utiliza de manera inadecuada técnicas de aprendizaje autorregulado, sin valorar el error como una oportunidad de aprendizaje.",
+          "Suficiente/Bien": "Reconoce las emociones propias y pone en práctica estrategias para gestionarlas, participando en procesos de autoevaluación, identificando las fortalezas y debilidades, desarrollando así la autoconfianza e identificando y empleando actitudes positivas, tales como la responsabilidad y el involucramiento personal, ante nuevos retos matemáticos; utiliza técnicas de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje.",
+          "Notable": "Reconoce con facilidad las emociones propias y pone en práctica con corrección destacable estrategias para gestionarlas, participando con interés en procesos de autoevaluación, identificando con incipiente conciencia las fortalezas y debilidades, desarrollando así la autoconfianza e identificando con seguridad y empleando actitudes positivas, tales como la responsabilidad y el involucramiento personal, ante nuevos retos matemáticos; utiliza con alta adecuación técnicas de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje.",
+          "Sobresaliente": "Reconoce con destacable facilidad las emociones propias y pone en práctica con corrección excepcional estrategias para gestionarlas, participando con interés constante en procesos de autoevaluación, identificando de manera consciente las fortalezas y debilidades, desarrollando así la autoconfianza e identificando con seguridad y plena confianza y empleando actitudes positivas, tales como la responsabilidad y el involucramiento personal, ante nuevos retos matemáticos; utiliza con excelente adecuación técnicas de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Participar en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos y cumpliendo las responsabilidades individuales para la consecución de objetivos compartidos.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "pagina_pdf": 317,
+        "descriptores": {
+          "Insuficiente": "Participa mostrando nulo interés en el trabajo en equipo, sin desarrollar la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando rara vez la diversidad cultural presente en su entorno más inmediato, relacionándolo de forma confusa con la necesidad de rechazar prejuicios y estereotipos y cumpliendo ocasionalmente, sin iniciativa las responsabilidades individuales, sin procurar la participación de todo el grupo y sin identificar los conflictos que puedan surgir para la consecución de objetivos compartidos.",
+          "Suficiente/Bien": "Participa en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando la diversidad cultural presente en su entorno más inmediato, relacionándolo con la necesidad de rechazar prejuicios y estereotipos y cumpliendo las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartidos.",
+          "Notable": "Participa con interés constante en el trabajo en equipo, desarrollando de forma consciente la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando frecuentemente la diversidad cultural presente en su entorno más inmediato, relacionándolo con claridad con la necesidad de rechazar prejuicios y estereotipos, y cumpliendo con regularidad las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartido.",
+          "Sobresaliente": "Participa con pasión constante en el trabajo en equipo, desarrollando de forma plenamente consciente la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando siempre la diversidad cultural presente en su entorno más inmediato, relacionándolo con lucidez con la necesidad de rechazar prejuicios y estereotipos, y cumpliendo siempre las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartidos."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Interpretar de forma verbal y gráfica problemas de la vida cotidiana, discriminando datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas que ayuden en la búsqueda y elección de estrategias para la comprensión de la situación planteada.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD2",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 318,
+        "descriptores": {
+          "Insuficiente": "Interpreta con dificultad y describe con escasa claridad, de forma verbal y gráfica, utilizando la terminología científica básica de manera poco adecuada en algunos formatos, problemas de la vida cotidiana, discriminando con incorrecciones datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, pudiendo usar algunas herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la comprensión y resolución de la situación planteada.",
+          "Suficiente/Bien": "Interpreta y describe de forma verbal y gráfica, utilizando la terminología científica básica en algunos formatos, problemas de la vida cotidiana, discriminando datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, pudiendo usar algunas herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la comprensión y resolución de la situación planteada.",
+          "Notable": "Interpreta y describe con apropiada claridad, de forma verbal y gráfica, utilizando la terminología científica básica con gran adecuación en algunos formatos, problemas de la vida cotidiana, discriminando, con notable corrección, datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, pudiendo usar algunas herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la comprensión y resolución de la situación planteada.",
+          "Sobresaliente": "Interpreta y describe con gran claridad, de forma verbal y gráfica, utilizando la terminología científica básica con excelente adecuación en algunos formatos, problemas de la vida cotidiana, discriminando, con corrección destacable, datos, relaciones y objetivo para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas , pudiendo usar algunas herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la comprensión y resolución de la situación planteada."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Elegir alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y aplicarla para obtener las posibles soluciones, utilizando otras estrategias si la elegida no lleva a la solución.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 319,
+        "descriptores": {
+          "Insuficiente": "Elige alguna estrategia poco adecuada que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica de manera pautada y con problemas significativos para obtener las posibles soluciones, diseña de forma superficial ideas y soluciones adaptativas, organiza erróneamente tareas y coopera con desinterés con otros en equipo, analizando el proceso realizado y el resultado obtenido, utilizando otras estrategias de manera inadecuada y con mínimo interés, si la elegida no lleva a la solución.",
+          "Suficiente/Bien": "Elige alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica para obtener las posibles soluciones, diseña ideas y soluciones adaptativas, organiza tareas y coopera con otros en equipo, analizando el proceso realizado y el resultado obtenido, utilizando otras estrategias si la elegida no lleva a la solución.",
+          "Notable": "Elige alguna estrategia muy adecuada, que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con creciente autonomía para obtener las posibles soluciones, diseña con profundidad ideas y soluciones adaptativas, organiza con corrección tareas y coopera con interés constantes y dedicación con otros en equipo, analizando el proceso realizado y el resultado obtenido, utilizando otras estrategias con notable adecuación e interés, si la elegida no lleva a la solución.",
+          "Sobresaliente": "Elige alguna estrategia con un alto nivel de adecuación, que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con autonomía para obtener las posibles soluciones, diseña con apreciable profundidad ideas y soluciones adaptativas, organiza con excepcional corrección tareas y coopera con pasión constante y dedicación con otros en equipo, analizando el proceso realizado y el resultado obtenido, utilizando otras estrategias con excelente adecuación e interés constantes, si la elegida no lleva a la solución."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Elegir y utilizar las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y argumentarlas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 320,
+        "descriptores": {
+          "Insuficiente": "Elige y utiliza, de manera pautada y con problemas significativos, las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; desarrolla con poco interés y curiosidad el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora, cuando las cantidades lo precisan y ofreciendo representaciones gráficas poco adecuadas y argumentadas.",
+          "Suficiente/Bien": "Elige y utiliza, las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; desarrolla el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora, cuando las cantidades lo precisan y ofreciendo representaciones gráficas adecuadas y argumentadas.",
+          "Notable": "Elige y utiliza con autonomía creciente las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; desarrolla el uso del pensamiento científico con interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora, cuando las cantidades lo precisan y ofreciendo representaciones gráficas con gran adecuación y argumentación.",
+          "Sobresaliente": "Elige y utiliza con alta autonomía las operaciones pertinentes para la resolución de problemas aritméticos con las estructuras aditiva o multiplicativa; desarrolla el uso del pensamiento científico con gran interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora, cuando las cantidades lo precisan y ofreciendo representaciones gráficas con destacada adecuación y argumentación."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Confirmar la validez de las soluciones del problema y su coherencia en el contexto planteado, explicando el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CE3"
+        ],
+        "pagina_pdf": 321,
+        "descriptores": {
+          "Insuficiente": "Omite confirmar la validez de las soluciones del problema y su coherencia en el contexto planteado o lo hace de manera muy guiada, explicando superficialmente el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito con escasa claridad y adecuación.",
+          "Suficiente/Bien": "Confirma la validez de las soluciones del problema y su coherencia en el contexto planteado, explicando el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito.",
+          "Notable": "Confirma con autonomía creciente la validez de las soluciones del problema y su coherencia en el contexto planteado, explicando con detalle el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito con apropiada claridad y adecuación.",
+          "Sobresaliente": "Confirma con alta autonomía la validez de las soluciones del problema y su coherencia en el contexto planteado, explicando exhaustivamente el proceso seguido, planteándose preguntas y expresando sus reflexiones verbalmente o por escrito con gran claridad y adecuación."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Analizar conjeturas matemáticas sencillas de forma pautada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o la calculadora para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "pagina_pdf": 322,
+        "descriptores": {
+          "Insuficiente": "Analiza conjeturas matemáticas sencillas de forma pautada y con necesidad de apoyos, investigando patrones, propiedades y relaciones, utilizando de forma poco adecuada materiales manipulativos, representaciones gráficas, la calculadora o estrategias sencillas del tratamiento digital de la información, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o de forma guiada pero con grandes inseguridades a través de medios tecnológicos como plataformas virtuales, con escasa claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, tanto de forma individual como de manera grupal, organizando tareas y cooperando con otros en equipo.",
+          "Suficiente/Bien": "Analiza conjeturas matemáticas sencillas de forma pautada, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas, la calculadora o estrategias sencillas del tratamiento digital de la información, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o de manera guiada, a través de medios tecnológicos como plataformas virtuales, con claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, tanto de forma individual como de manera grupal, organizando tareas y cooperando con otros en equipo.",
+          "Notable": "Analiza conjeturas matemáticas sencillas con ciertas pautas, investigando patrones, propiedades y relaciones, utilizando con gran adecuación materiales manipulativos, representaciones gráficas, la calculadora o estrategias sencillas del tratamiento digital de la información, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o con autonomía y confianza crecientes a través de medios tecnológicos como plataformas virtuales, con apropiada claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, tanto de forma individual como de manera grupal, organizando tareas y cooperando con otros en equipo.",
+          "Sobresaliente": "Analiza conjeturas matemáticas sencillas de manera guiada, investigando patrones, propiedades y relaciones, utilizando con alta adecuación materiales manipulativos, representaciones gráficas, la calculadora o estrategias sencillas del tratamiento digital de la información, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o con notable autonomía a través de medios tecnológicos como plataformas virtuales, con gran claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, tanto de forma individual como de manera grupal, organizando tareas y cooperando con otros en equipo."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Identificar y analizar problemas sobre situaciones cotidianas que puedan resolverse mediante las matemáticas, comprobar la validez de las soluciones obtenidas y su coherencia en el contexto, para establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CE3"
+        ],
+        "pagina_pdf": 323,
+        "descriptores": {
+          "Insuficiente": "Identifica y analiza con dificultad problemas sobre situaciones cotidianas que pueden resolverse mediante las matemáticas, empleando de manera inadecuada algunas estrategias dirigidas a comprobar la validez de las soluciones obtenidas y su coherencia en el contexto lo que dificulta establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor y valorar la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Suficiente/Bien": "Identifica y analiza problemas sobre situaciones cotidianas que pueden resolverse mediante las matemáticas, empleando algunas estrategias dirigidas a comprobar la validez de las soluciones obtenidas y su coherencia en el contexto, para establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Notable": "Identifica y analiza con facilidad problemas sobre situaciones cotidianas que pueden resolverse mediante las matemáticas, empleando con gran adecuación algunas estrategias dirigidas a comprobar la validez de las soluciones obtenidas y su coherencia en el contexto, para establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Sobresaliente": "Identifica y analiza con destacable facilidad problemas sobre situaciones cotidianas que pueden resolverse mediante las matemáticas, empleando con destacada adecuación algunas estrategias dirigidas a comprobar la validez de las soluciones obtenidas y su coherencia en el contexto, para establecer conexiones entre las matemáticas y los fenómenos que ocurren a su alrededor, valorando la experiencia como una oportunidad para enriquecer el aprendizaje."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Automatizar rutinas sencillas en contextos cotidianos identificando patrones a partir de regularidades; utilizando secuencias numéricas, geométricas o gráficas; haciendo predicciones razonadas; comprobando la validez de las mismas; y modificando algoritmos dados.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CE3"
+        ],
+        "pagina_pdf": 324,
+        "descriptores": {
+          "Insuficiente": "Automatiza rutinas sencillas en contextos cotidianos identificando de manera pautada y con apoyos patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas, haciendo predicciones razonadas, sin comprobar la validez de las mismas y modificando de forma pautada y con dificultades significativas modelos o algoritmos dados, diseñando de forma superficial ideas y soluciones adaptativas, organizando erróneamente tareas y mostrando desinterés en cooperar con otros en equipo.",
+          "Suficiente/Bien": "Automatiza rutinas sencillas en contextos cotidianos identificando patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas, haciendo predicciones razonadas, comprobando la validez de las mismas y modificando de forma pautada modelos o algoritmos dados, diseñando ideas y soluciones adaptativas, organizando tareas y cooperando con otros en equipo.",
+          "Notable": "Automatiza rutinas sencillas en contextos cotidianos identificando con autonomía creciente patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas, haciendo predicciones razonadas, comprobando la validez de las mismas y modificando de forma pautada modelos o algoritmos dados, diseñando con profundidad ideas y soluciones adaptativas, organizando con corrección tareas y cooperando con interés constante y dedicación con otros en equipo.",
+          "Sobresaliente": "Automatiza rutinas sencillas en contextos cotidianos identificando con autonomía patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas, haciendo predicciones razonadas, comprobando la validez de las mismas y modificando de forma pautada modelos o algoritmos dados, diseñando con apreciable profundidad ideas y soluciones adaptativas, organizando con excepcional corrección tareas y cooperando con pasión constante y dedicación con otros en equipo."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Resolver problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos de forma guiada, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "pagina_pdf": 325,
+        "descriptores": {
+          "Insuficiente": "Resuelve problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos de forma muy guiada y con dificultad, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas, para comunicarse, trabajar cooperativamente, y compartir datos y contenidos, cuando es preciso, iniciándose de manera guiada y con grandes inseguridades en el desarrollo de soluciones digitales sencillas.",
+          "Suficiente/Bien": "Resuelve problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos de forma guiada, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas, para comunicarse, trabajar cooperativamente, y compartir datos y contenidos cuando es preciso, iniciándose de manera guiada, en el desarrollo de soluciones digitales sencillas.",
+          "Notable": "Resuelve problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos con apoyos puntuales, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas, para comunicarse, trabajar cooperativamente, y compartir datos y contenidos cuando es preciso, iniciándose con autonomía y confianza crecientes en el desarrollo de soluciones digitales sencillas.",
+          "Sobresaliente": "Resuelve problemas organizando la información, descomponiendo en partes más simples, modificando y creando algoritmos con progresiva autonomía, así como utilizando las herramientas adecuadas, entre ellas las tecnológicas, para comunicarse, trabajar cooperativamente, y compartir datos y contenidos cuando es preciso, iniciándose con notable confianza y autonomía en el desarrollo de soluciones digitales sencillas."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Explicar las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, y afrontar nuevos retos.",
+        "descriptores_operativos": [
+          "STEM1"
+        ],
+        "pagina_pdf": 326,
+        "descriptores": {
+          "Insuficiente": "Explica con dificultad significativa y de manera incorrecta las conexiones entre los sentidos y entre las matemáticas implicadas en las diferentes áreas, sin movilizar conocimientos y experiencias propias, lo que dificulta una comprensión más profunda de los aprendizajes adquiridos y afrontar nuevos retos, utilizando de manera pautada y con apoyos frecuentes algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Suficiente/Bien": "Explica las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y utilizando de manera pautada algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Notable": "Explica con facilidad y corrección las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y utilizando con ciertas pautas algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Sobresaliente": "Explica con facilidad destacable y total corrección las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y utilizando de manera guiada algunos métodos inductivos y deductivos propios del razonamiento matemático."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Explicar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para interpretar y resolver problemas en contextos no matemáticos y tomar decisiones desde una perspectiva sostenible y respetuosa.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "pagina_pdf": 327,
+        "descriptores": {
+          "Insuficiente": "Explica con dificultad significativa y de manera incorrecta las conexiones entre las matemáticas, otras áreas, la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico, para interpretar y resolver problemas en contextos no matemáticos; realiza de forma pautada proyectos sencillos, iniciándose con grandes inseguridades en el desarrollo de soluciones digitales sencillas, y tomando decisiones, siempre con ayuda, desde una perspectiva sostenible y respetuosa.",
+          "Suficiente/Bien": "Explica las conexiones entre las matemáticas, otras áreas, la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico, para interpretar y resolver problemas en contextos no matemáticos; realiza de forma guiada proyectos sencillos, iniciándose, en el desarrollo de soluciones digitales sencillas, y tomando decisiones desde una perspectiva sostenible y respetuosa.",
+          "Notable": "Explica con facilidad y corrección las conexiones entre las matemáticas, otras áreas, la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico, para interpretar y resolver problemas en contextos no matemáticos; realiza con ayudas puntuales proyectos sencillos, iniciándose con confianza creciente en el desarrollo de soluciones digitales sencillas y tomando decisiones, con autonomía, desde una perspectiva sostenible y respetuosa.",
+          "Sobresaliente": "Explica con facilidad destacable y total corrección las conexiones entre las matemáticas, otras áreas, la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico, para interpretar y resolver problemas en contextos no matemáticos; realiza con autonomía proyectos sencillos, iniciándose con notable confianza, en el desarrollo de soluciones digitales sencillas y tomando decisiones, con gran autonomía, desde una perspectiva sostenible y respetuosa."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Reconocer y comprender el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, adquiriendo vocabulario para transmitir mensajes con información matemática.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1"
+        ],
+        "pagina_pdf": 328,
+        "descriptores": {
+          "Insuficiente": "Reconoce y comprende con dificultades y de manera guiada el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, haciendo uso con inseguridad de estrategias sencillas para el tratamiento digital de la información adquiriendo vocabulario para transmitir, mensajes con información matemática.",
+          "Suficiente/Bien": "Reconoce y comprende el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, haciendo uso de estrategias sencillas para el tratamiento digital de la información adquiriendo vocabulario para transmitir mensajes con información matemática.",
+          "Notable": "Reconoce y comprende con creciente autonomía el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, haciendo uso de manera segura de estrategias sencillas para el tratamiento digital de la información adquiriendo vocabulario para transmitir mensajes con información matemática.",
+          "Sobresaliente": "Reconoce y comprende con alta autonomía el lenguaje matemático sencillo presente en la vida cotidiana, en diferentes formatos, haciendo uso de manera segura y con confianza de estrategias sencillas para el tratamiento digital de la información adquiriendo vocabulario para transmitir mensajes con información matemática."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Comunicar en diferentes formatos los procesos e ideas matemáticas utilizando lenguaje matemático adecuado, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD5",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 329,
+        "descriptores": {
+          "Insuficiente": "Comunica en diferentes formatos con escasa claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, los procesos e ideas matemáticas sobre algunos de los fenómenos conocidos que ocurren a su alrededor utilizando lenguaje matemático poco adecuado, organizando tareas a través de la experimentación, con dudas importantes, de forma creativa con medios y soportes básicos, incluido iniciándose, de forma guiada pero con grandes inseguridades, en el desarrollo de soluciones digitales sencillas, y cooperando con otros en equipo, argumentando e intercambiando, de manera poco frecuente, información de forma poco crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+          "Suficiente/Bien": "Comunica en diferentes formatos, con claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, los procesos e ideas matemáticas sobre algunos de los fenómenos conocidos que ocurren a su alrededor utilizando lenguaje matemático adecuado, organizando tareas a través de la experimentación de forma creativa con medios y soportes básicos, incluido iniciándose, de manera guiada, en el desarrollo de soluciones digitales sencillas, y cooperando con otros en equipo, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+          "Notable": "Comunica en diferentes formatos, con apropiada claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, los procesos e ideas matemáticas sobre algunos de los fenómenos conocidos que ocurren a su alrededor utilizando lenguaje matemático con gran adecuación, organizando tareas a través de la experimentación, de manera segura y confiada, de forma creativa con medios y soportes básicos, incluido iniciándose, de manera guiada, pero con autonomía y confianza crecientes, en el desarrollo de soluciones digitales sencillas, y cooperando con otros en equipo, argumentando e intercambiando de forma continuada información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+          "Sobresaliente": "Comunica en diferentes formatos, con gran claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, los procesos e ideas matemáticas sobre algunos de los fenómenos conocidos que ocurren a su alrededor utilizando lenguaje matemático con destacable adecuación, organizando tareas a través de la experimentación, con total confianza, de forma creativa con medios y soportes básicos, incluido iniciándose, con notable autonomía, en el desarrollo de soluciones digitales sencillas, y cooperando con otros en equipo, argumentando e intercambiando, con máxima constancia, información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Identificar y describir las emociones propias, y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando actitudes positivas, tales como la perseverancia y la responsabilidad ante nuevos retos matemáticos, y valorando el error como una oportunidad de aprendizaje.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE2"
+        ],
+        "pagina_pdf": 330,
+        "descriptores": {
+          "Insuficiente": "Identifica y describe con consciencia mínima las emociones propias, usa sin precisar el sentido y sin funcionalidad estrategias para gestionarlas, participando con mínimo interés en procesos de auto y coevaluación, reconociendo ocasionalmente algunas fortalezas y debilidades, lo que dificulta desarrollar la autoconfianza, mostrando inseguridad en el empleo de actitudes positivas tales como la perseverancia y la responsabilidad y el involucramiento personal ante nuevos retos matemáticos, utiliza de manera inadecuada métodos de aprendizaje autorregulado sin valorar el error como una oportunidad de aprendizaje.",
+          "Suficiente/Bien": "Identifica y describe las emociones propias, usa estrategias para gestionarlas, participando en procesos de auto y coevaluación, reconociendo algunas fortalezas y debilidades, desarrollando así la autoconfianza y empleando actitudes positivas tales como la perseverancia y la responsabilidad y el involucramiento personal ante nuevos retos matemáticos, utiliza métodos de aprendizaje autorregulado valorando el error como una oportunidad de aprendizaje.",
+          "Notable": "Identifica y describe de forma consciente las emociones propias, usa con sentido y funcionalidad relevantes estrategias para gestionarlas, participando con interés constante en procesos de auto y coevaluación, reconociendo de manera consciente algunas fortalezas y debilidades, desarrollando así la autoconfianza y empleando con seguridad, actitudes positivas tales como la perseverancia y la responsabilidad y el involucramiento personal ante nuevos retos matemáticos, utiliza con alta adecuación métodos de aprendizaje autorregulado valorando el error como una oportunidad de aprendizaje.",
+          "Sobresaliente": "Identifica y describe de forma plenamente consciente las emociones propias, usa con sentido y funcionalidad excelentes estrategias para gestionarlas, participando con interés y dedicación constantes en procesos de auto y coevaluación, reconociendo, con deliberación, algunas fortalezas y debilidades, desarrollando así la autoconfianza y empleando con seguridad y plena confianza, actitudes positivas tales como la perseverancia y la responsabilidad y el involucramiento personal ante nuevos retos matemáticos, utiliza con excelente adecuación métodos de aprendizaje autorregulado valorando el error como una oportunidad de aprendizaje."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Colaborar en el trabajo en equipo mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, valorando la diversidad, asumiendo las responsabilidades individuales y empleando estrategias cooperativas para la consecución de objetivos compartidos.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "pagina_pdf": 331,
+        "descriptores": {
+          "Insuficiente": "Colabora con desinterés en el trabajo en equipo mostrando falta de iniciativa, sin desarrollar la escucha activa y la comunicación asertiva, respetando y valorando de manera totalmente inconsciente la diversidad, incluida la cultural presente en su entorno próximo, comprendiendo de manera superficial la necesidad de rechazar prejuicios y estereotipos, organizando erróneamente tareas, asumiendo esporádicamente, sin iniciativa las responsabilidades individuales y empleando de manera inadecuada estrategias cooperativas, sin procurar la participación de todo el grupo y sin valorar la necesidad de resolución pacífica de los conflictos que puedan surgir para la consecución de objetivos compartidos.",
+          "Suficiente/Bien": "Colabora en el trabajo en equipo mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, respetando y valorando la diversidad, incluida la cultural presente en su entorno próximo, comprendiendo la necesidad de rechazar prejuicios y estereotipos, organizando tareas, asumiendo las responsabilidades individuales y empleando estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir para la consecución de objetivos compartidos.",
+          "Notable": "Colabora con interés constante y dedicación en el trabajo en equipo mostrando iniciativa, desarrollando de forma consciente la escucha activa y la comunicación asertiva, respetando y valorando de manera consciente la diversidad, incluida la cultural presente en su entorno próximo, comprendiendo con profundidad la necesidad de rechazar prejuicios y estereotipos, organizando con corrección tareas, asumiendo con regularidad las responsabilidades individuales y empleando con alta adecuación estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir para la consecución de objetivos compartidos.",
+          "Sobresaliente": "Colabora con pasión constante y dedicación en el trabajo en equipo mostrando iniciativa, desarrollando de forma plenamente consciente la escucha activa y la comunicación asertiva, respetando y valorando con deliberación la diversidad, incluida la cultural presente en su entorno próximo, comprendiendo con destacable profundidad la necesidad de rechazar prejuicios y estereotipos, organizando con excepcional corrección tareas, asumiendo siempre las responsabilidades individuales y empleando con excelente adecuación estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir para la consecución de objetivos compartidos."
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Interpretar y reformular, de forma verbal y gráfica, problemas de la vida cotidiana, discriminando datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD2",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 332,
+        "descriptores": {
+          "Insuficiente": "Interpreta con dificultad y reformula, con escasa claridad y veracidad, de forma verbal y gráfica, utilizando la terminología científica en diferentes formatos de manera poco apropiada, problemas de la vida cotidiana, discriminando con incorrecciones datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas, mediante el uso poco pertinente de herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas.",
+          "Suficiente/Bien": "Interpreta y reformula, de forma verbal y gráfica, utilizando la terminología científica apropiada en diferentes formatos, problemas de la vida cotidiana, discriminando datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas mediante el uso de herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas.",
+          "Notable": "Interpreta y reformula con claridad y veracidad, de forma verbal y gráfica, utilizando la terminología científica apropiada en diferentes formatos, problemas de la vida cotidiana, discriminando con notable corrección datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas mediante el uso pertinente de herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas.",
+          "Sobresaliente": "Interpreta y reformula con gran claridad y veracidad, de forma verbal y gráfica, utilizando la terminología científica apropiada en diferentes formatos, problemas de la vida cotidiana, discriminando con corrección destacable datos, relaciones y objetivo, para lograr la comprensión del problema, elaborando diagramas u otras representaciones matemáticas, incluidas las tecnológicas mediante el uso altamente pertinente de herramientas digitales, que ayuden en la búsqueda y elección de estrategias para la resolución de problemas."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Elegir de forma autónoma alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección y aplicarla para obtener las posibles soluciones, perseverando en otras estrategias si la elegida no lleva a la solución.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 333,
+        "descriptores": {
+          "Insuficiente": "Elige de forma poco autónoma y poco adecuada alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica de manera guiada y con problemas significativos para obtener las posibles soluciones, crea de forma superficial ideas y soluciones originales, planifica con errores destacables tareas y coopera con desinterés con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias de manera inadecuada y con mínima iniciativa , si la elegida no lleva a la solución.",
+          "Suficiente/Bien": "Elige de forma autónoma alguna estrategia que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica para obtener las posibles soluciones, crea ideas y soluciones originales, planifica tareas y coopera con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias si la elegida no lleva a la solución.",
+          "Notable": "Elige de forma autónoma alguna estrategia muy adecuada que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con autonomía para obtener las posibles soluciones, crea con profundidad ideas y soluciones originales, planifica con corrección tareas y coopera con interés y dedicación constantes con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias con alta adecuación e iniciativa propia, si la elegida no lleva a la solución.",
+          "Sobresaliente": "Elige de forma autónoma alguna estrategia con un alto nivel de adecuación que resuelva problemas aritméticos, geométricos, lógicos, de patrones, justificando dicha elección, y la aplica con excelente autonomía para obtener las posibles soluciones, crea con apreciable profundidad ideas y soluciones originales, planifica con excepcional corrección tareas y coopera con pasión y dedicación constantes con otros en equipo, valorando el proceso realizado y el resultado obtenido, perseverando en otras estrategias con excelente adecuación y con constante iniciativa propia, si la elegida no lleva a la solución."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Elegir y utilizar las operaciones pertinentes para la resolución de problemas que combinen las estructuras aditiva y multiplicativa; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; y ofrecer representaciones gráficas adecuadas y argumentarlas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 334,
+        "descriptores": {
+          "Insuficiente": "Elige y utiliza, de manera guiada y con problemas significativos, las operaciones pertinentes para la resolución de problemas que combinan las estructuras aditiva y multiplicativa; utiliza con mucha dificultad el pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora, cuando las cantidades lo precisan y ofreciendo representaciones gráficas poco adecuadas y argumentadas.",
+          "Suficiente/Bien": "Elige y utiliza, las operaciones pertinentes para la resolución de problemas que combinan las estructuras aditiva y multiplicativa; utiliza el pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas adecuadas y argumentadas.",
+          "Notable": "Elige y utiliza con alta autonomía las operaciones pertinentes para la resolución de problemas que combinan las estructuras aditiva y multiplicativa; utiliza con facilidad el pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con gran adecuación y argumentación.",
+          "Sobresaliente": "Elige y utiliza con excelente autonomía las operaciones pertinentes para la resolución de problemas que combinan las estructuras aditiva y multiplicativa; utiliza con gran facilidad el pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con destacada adecuación y argumentación."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comprobar la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando sobre el proceso seguido, planteándose preguntas y expresando sus conclusiones verbalmente o por escrito.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM1",
+          "STEM2",
+          "CPSAA4",
+          "CE3"
+        ],
+        "pagina_pdf": 335,
+        "descriptores": {
+          "Insuficiente": "Omite comprobar la validez de las soluciones del problema y/o su coherencia en el contexto planteado o lo hace de manera muy guiada, reflexionando superficialmente sobre el proceso seguido, planteándose preguntas simples o inespecíficas y expresando sus conclusiones verbalmente o por escrito con escasa claridad y adecuación.",
+          "Suficiente/Bien": "Comprueba la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando sobre el proceso seguido, planteándose preguntas y expresando sus conclusiones verbalmente o por escrito.",
+          "Notable": "Comprueba con autonomía creciente la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando con profundidad sobre el proceso seguido, planteándose preguntas de complejidad creciente y expresando sus conclusiones verbalmente o por escrito con apropiada claridad y adecuación.",
+          "Sobresaliente": "Comprueba con alta autonomía la validez de las soluciones del problema y su coherencia en el contexto planteado, reflexionando con profundidad destacable sobre el proceso seguido, planteándose preguntas más específicas y complejas y expresando sus conclusiones verbalmente o por escrito con gran claridad y adecuación."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Formular conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o herramientas digitales para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "pagina_pdf": 336,
+        "descriptores": {
+          "Insuficiente": "Formula conjeturas matemáticas sencillas, investigando, de manera guiada y con muchos apoyos, patrones, propiedades y relaciones, utilizando, de forma poco adecuada materiales manipulativos, representaciones gráficas o herramientas digitales para el tratamiento de la información, con una actitud crítica sobre los contenidos obtenidos, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos como plataformas virtuales con escasa claridad y adecuación a diferentes contextos cotidianos de su entorno, tanto de forma individual como de manera grupal, planificando tareas con errores destacables y cooperando con desinterés.",
+          "Suficiente/Bien": "Formula conjeturas matemáticas sencillas, investigando, patrones, propiedades y relaciones, utilizando materiales manipulativos, representaciones gráficas o herramientas digitales para el tratamiento de la información, con una actitud crítica sobre los contenidos obtenidos, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos como plataformas virtuales con claridad y adecuación a diferentes contextos cotidianos de su entorno, tanto de forma individual como de manera grupal, planificando tareas y cooperando.",
+          "Notable": "Formula conjeturas matemáticas sencillas, investigando con alta autonomía, patrones, propiedades y relaciones, utilizando, con gran adecuación materiales manipulativos, representaciones gráficas o herramientas digitales para el tratamiento de la información, con una actitud crítica sobre los contenidos obtenidos, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos como plataformas virtuales con apropiada claridad y adecuación a diferentes contextos cotidianos de su entorno, tanto de forma individual como de manera grupal, planificando con corrección tareas y cooperando con interés y dedicación constantes.",
+          "Sobresaliente": "Formula conjeturas matemáticas sencillas, investigando con excelente autonomía, patrones, propiedades y relaciones, utilizando con alta adecuación materiales manipulativos, representaciones gráficas o herramientas digitales para el tratamiento de la información, con una actitud crítica sobre los contenidos obtenidos, para extraer conclusiones, comunicarlas y argumentarlas de forma verbal, manipulativa, gráfica o a través de medios tecnológicos como plataformas virtuales con gran claridad y adecuación a diferentes contextos cotidianos de su entorno, tanto de forma individual como de manera grupal, planificando con excepcional corrección tareas y cooperando con pasión y dedicación constantes."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Plantear problemas sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que puedan resolverse mediante las matemáticas, comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto para establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CE3"
+        ],
+        "pagina_pdf": 337,
+        "descriptores": {
+          "Insuficiente": "Plantea con dificultad problemas sencillos, sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que pueden resolverse mediante las matemáticas; sin emplear, o haciéndolo de manera poco adecuada, estrategias dirigidas a comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto, lo que dificulta establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Suficiente/Bien": "Plantea problemas sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que pueden resolverse mediante las matemáticas; emplea algunas estrategias dirigidas a comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto para establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Notable": "Plantea con facilidad problemas sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que pueden resolverse mediante las matemáticas; empleando con gran adecuación algunas estrategias dirigidas a comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto para establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo, valorando la experiencia como una oportunidad para enriquecer el aprendizaje.",
+          "Sobresaliente": "Plantea con destacable facilidad problemas sobre situaciones cotidianas relacionadas con los sentidos numérico, de la medida, espacial, algebraico y estocástico que pueden resolverse mediante las matemáticas; empleando con destacada adecuación algunas estrategias dirigidas a comprobar y analizar de forma crítica la validez de las soluciones obtenidas y su coherencia en el contexto para establecer conexiones entre las matemáticas, su entorno cercano y otras áreas del currículo, valorando la experiencia como una oportunidad para enriquecer el aprendizaje."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Modelizar rutinas en contextos diversos, identificando patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hacer predicciones razonadas comprobando la validez de las mismas; y crear algoritmos sencillos.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CE3"
+        ],
+        "pagina_pdf": 338,
+        "descriptores": {
+          "Insuficiente": "Modeliza rutinas en contextos diversos, identificando de manera guiada patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hace predicciones razonadas sin comprobar o reflexionar sobre la validez de las mismas; y crea de forma guiada y dificultades significativas modelos o algoritmos sencillos, generando de forma superficial ideas y soluciones originales, planificando con errores destacables tareas y mostrando desinterés en cooperar con otros en equipo.",
+          "Suficiente/Bien": "Modeliza rutinas en contextos diversos, identificando patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hace predicciones razonadas comprobando la validez de las mismas; y crea de forma guiada modelos o algoritmos sencillos, con ideas y soluciones originales, planificando tareas y cooperando con otros en equipo.",
+          "Notable": "Modeliza rutinas en contextos diversos, identificando con alta autonomía patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hace predicciones razonadas comprobando y reflexionando sobre la validez de las mismas; y crea con apoyos modelos o algoritmos sencillos, generando con profundidad ideas y soluciones originales, planificando con corrección tareas y cooperando con interés y dedicación constantes con otros en equipo.",
+          "Sobresaliente": "Modeliza rutinas en contextos diversos, identificando con excelente autonomía patrones a partir de regularidades, utilizando secuencias numéricas, geométricas o gráficas; hace predicciones razonadas comprobando y analizando la validez de las mismas; y crea con apoyos puntuales modelos o algoritmos sencillos, generando con apreciable profundidad ideas y soluciones originales, planificando con excepcional corrección tareas y cooperando con pasión y dedicación constantes con otros en equipo."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Resolver problemas y realizar pequeñas investigaciones, utilizando las herramientas adecuadas, entre ellas las tecnológicas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD1",
+          "CD3",
+          "CD5",
+          "CE3"
+        ],
+        "pagina_pdf": 339,
+        "descriptores": {
+          "Insuficiente": "Resuelve problemas empleando excepcionalmente alguna estrategia y realiza pequeñas investigaciones, haciendo uso con inseguridad de estrategias sencillas para el tratamiento digital de la información, utilizando con errores significativos las herramientas adecuadas, entre ellas las tecnológicas, y se inicia de manera ineficaz en el desarrollo de soluciones digitales sencillas para construir nuevo conocimiento, comunicarse, trabajar cooperativamente, y compartir datos y contenidos, cuando es preciso.",
+          "Suficiente/Bien": "Resuelve problemas empleando algunas estrategias y realiza pequeñas investigaciones, haciendo uso de estrategias sencillas para el tratamiento digital de la información, utilizando las herramientas adecuadas, entre ellas las tecnológicas, y se inicia en el desarrollo de soluciones digitales sencillas para construir nuevo conocimiento, comunicarse, trabajar cooperativamente, y compartir datos y contenidos, cuando es preciso",
+          "Notable": "Resuelve problemas empleando estrategias variadas y realiza pequeñas investigaciones, haciendo uso con progresiva seguridad y confianza de estrategias sencillas para el tratamiento digital de la información, utilizando con precisión creciente las herramientas adecuadas, entre ellas las tecnológicas, y se inicia de manera eficiente en el desarrollo de soluciones digitales sencillas para construir nuevo conocimiento, comunicarse, trabajar cooperativamente, y compartir datos y contenidos, cuando es preciso",
+          "Sobresaliente": "Resuelve problemas empleando diferentes estrategias y realiza pequeñas investigaciones, haciendo uso con seguridad y confianza de estrategias sencillas para el tratamiento digital de la información, utilizando con precisión las herramientas adecuadas, entre ellas las tecnológicas, y se inicia de manera eficiente en el desarrollo de soluciones digitales sencillas para construir nuevo conocimiento, comunicarse, trabajar cooperativamente, y compartir datos y contenidos, cuando es preciso."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Utilizar las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontar nuevos retos y adoptar decisiones informadas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CD3",
+          "CC4"
+        ],
+        "pagina_pdf": 340,
+        "descriptores": {
+          "Insuficiente": "Utiliza de manera inadecuada las conexiones entre los sentidos y entre las matemáticas implicadas en las diferentes áreas, sin movilizar conocimientos y experiencias propias, lo que dificulta una comprensión más profunda de los aprendizajes adquiridos y afrontar nuevos retos, adoptando decisiones informadas, participando en proyectos escolares mediante el uso básico de herramientas y plataformas virtuales y empleando de manera guiada y con problemas significativos algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Suficiente/Bien": "Utiliza las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y adoptando decisiones informadas, participando en proyectos escolares mediante el uso de herramientas y plataformas virtuales y empleando de manera guiada algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Notable": "Utiliza con gran adecuación las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y adoptando decisiones informadas, participando en proyectos escolares mediante el uso de diferentes herramientas y plataformas virtuales para construir nuevo conocimiento y empleando con guías puntuales algunos métodos inductivos y deductivos propios del razonamiento matemático.",
+          "Sobresaliente": "Utiliza con excelente adecuación las conexiones entre todos los sentidos y entre las matemáticas implicadas en las diferentes áreas, movilizando conocimientos y experiencias propias, para una comprensión más profunda de los aprendizajes adquiridos, afrontando nuevos retos y adoptando decisiones informadas, participando en proyectos escolares mediante el uso avanzado de herramientas y plataformas virtuales para construir nuevo conocimiento y empleando de manera autónoma algunos métodos inductivos y deductivos propios del razonamiento matemático."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para realizar proyectos, empleando, entre otros, recursos digitales; y resolver problemas en contextos no matemáticos que permitan tomar decisiones desde una perspectiva crítica, sostenible y respetuosa.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM3",
+          "CD5",
+          "CC4",
+          "CCEC1"
+        ],
+        "pagina_pdf": 341,
+        "descriptores": {
+          "Insuficiente": "Utiliza de manera superficial las conexiones entre las matemáticas, otras áreas y la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico para realizar de forma guiada y con errores significativos proyectos, empleando, entre otros, recursos digitales, iniciándose con dificultad en el desarrollo de soluciones digitales sencillas; y resolviendo problemas en contextos no matemáticos que permitan tomar decisiones, con ayuda continua, desde una perspectiva crítica, sostenible y respetuosa.",
+          "Suficiente/Bien": "Utiliza las conexiones entre las matemáticas, otras áreas y la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico para realizar proyectos, empleando, entre otros, recursos digitales, iniciándose en el desarrollo de soluciones digitales sencillas; y resolviendo problemas en contextos no matemáticos que permitan tomar decisiones desde una perspectiva crítica, sostenible y respetuosa.",
+          "Notable": "Utiliza con profundidad las conexiones entre las matemáticas, otras áreas y la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico para realizar proyectos con progresiva autonomía, empleando, entre otros, recursos digitales, iniciándose con progresiva eficiencia en el desarrollo de soluciones digitales sencillas; y resolviendo problemas en contextos no matemáticos que permitan tomar decisiones con gran autonomía desde una perspectiva crítica, sostenible y respetuosa.",
+          "Sobresaliente": "Utiliza con destacable profundidad las conexiones entre las matemáticas, otras áreas y la vida cotidiana y los aspectos fundamentales del patrimonio cultural y artístico para realizar proyectos con alta autonomía, empleando, entre otros, recursos digitales, iniciándose de manera eficiente en el desarrollo de soluciones digitales sencillas; y resolviendo problemas en contextos no matemáticos que permitan tomar decisiones de manera totalmente autónoma y con iniciativa propia desde una perspectiva crítica, sostenible y respetuosa."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Reconocer y comprender el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, adquiriendo vocabulario preciso para transmitir mensajes con información matemática.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1"
+        ],
+        "pagina_pdf": 342,
+        "descriptores": {
+          "Insuficiente": "Reconoce y comprende con dificultad y de manera guiada el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, haciendo uso, con inseguridad, de estrategias sencillas para el tratamiento digital de la información, adquiriendo vocabulario preciso en escasas situaciones para transmitir mensajes con información matemática.",
+          "Suficiente/Bien": "Reconoce y comprende el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, haciendo uso de estrategias sencillas para el tratamiento digital de la información, adquiriendo vocabulario preciso para transmitir mensajes con información matemática.",
+          "Notable": "Reconoce y comprende de forma autónoma el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, haciendo uso con seguridad de estrategias sencillas para el tratamiento digital de la información, adquiriendo vocabulario preciso de forma frecuente para transmitir mensajes con información matemática.",
+          "Sobresaliente": "Reconoce y comprende con excelente autonomía el lenguaje matemático presente en la vida cotidiana y en otros contextos, en diferentes formatos, haciendo uso con seguridad y confianza de estrategias sencillas para el tratamiento digital de la información, adquiriendo vocabulario preciso de forma habitual para transmitir mensajes con información matemática."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Comunicar en diferentes formatos, incluido el digital, las conjeturas y procesos matemáticos utilizando lenguaje matemático adecuado, planificando previamente su exposición, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD5",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 343,
+        "descriptores": {
+          "Insuficiente": "Comunica en diferentes formatos, incluido el digital, con escasa claridad, veracidad y adecuación a diferentes contextos cotidianos de su entorno, las conjeturas y procesos matemáticos sobre algunos de los fenómenos que ocurren a su alrededor utilizando, lenguaje matemático poco adecuado, planificando previamente su exposición a través de la experimentación con dudas importantes de forma creativa con diferentes medios y soportes, iniciándose ineficazmente en el desarrollo de soluciones digitales sencillas y cooperando con otros en equipo, argumentando e intercambiando de manera poco frecuente información de forma crítica y creativa lo que dificulta dar significado y permanencia a las ideas matemáticas.",
+          "Suficiente/Bien": "Comunica en diferentes formatos, incluido el digital con veracidad, claridad y adecuación a diferentes contextos cotidianos de su entorno, las conjeturas y procesos matemáticos sobre algunos de los fenómenos que ocurren a su alrededor utilizando lenguaje matemático adecuado, planificando previamente su exposición a través de la experimentación de forma creativa con diferentes medios y soportes, iniciándose en el desarrollo de soluciones digitales sencillas y cooperando con otros en equipo, argumentando e intercambiando información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+          "Notable": "Comunica en diferentes formatos, incluido el digital con veracidad, apropiada claridad y adecuación a diferentes contextos cotidianos de su entorno, las conjeturas y procesos matemáticos sobre algunos de los fenómenos que ocurren a su alrededor utilizando lenguaje matemático con gran adecuación, planificando previamente su exposición a través de la experimentación de manera segura y confiada de forma creativa con diferentes medios y soportes, iniciándose de manera eficiente en el desarrollo de soluciones digitales sencillas y cooperando con otros en equipo, argumentando e intercambiando de manera regular y constante información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas.",
+          "Sobresaliente": "Comunica en diferentes formatos, incluido el digital con veracidad, gran claridad y adecuación a diferentes contextos cotidianos de su entorno, las conjeturas y procesos matemáticos sobre algunos de los fenómenos que ocurren a su alrededor utilizando lenguaje matemático altamente adecuado, planificando previamente su exposición a través de la experimentación con total confianza de forma creativa con diferentes medios y soportes, iniciándose de manera eficiente en el desarrollo de soluciones digitales sencillas y cooperando con otros en equipo, argumentando e intercambiando con máxima constancia y determinación información de forma crítica y creativa para dar significado y permanencia a las ideas matemáticas."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Identificar y autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando actitudes positivas, tales como el esfuerzo, la perseverancia y la responsabilidad ante nuevos retos matemáticos, y valorar el error como una oportunidad de aprendizaje.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE2"
+        ],
+        "pagina_pdf": 344,
+        "descriptores": {
+          "Insuficiente": "Identifica de forma mínimamente consciente y autorregula, sin precisar el sentido y sin funcionalidad las emociones propias y participa con mínima iniciativa en procesos de auto y coevaluación reconociendo con ingenuidad algunas fortalezas y debilidades, lo que dificulta desarrollar la autoconfianza, mostrando inseguridad en el empleo de actitudes positivas tales como el esfuerzo, la perseverancia y la responsabilidad y dedicación personal ante nuevos retos matemáticos, utiliza de manera inadecuada estrategias de aprendizaje autorregulado, sin valorar el error como una oportunidad de aprendizaje.",
+          "Suficiente/Bien": "Identifica y autorregula las emociones propias y participa en procesos de auto y coevaluación reconociendo algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando actitudes positivas tales como el esfuerzo, la perseverancia y la responsabilidad y dedicación personal ante nuevos retos matemáticos utiliza estrategias de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje.",
+          "Notable": "Identifica, de forma altamente consciente, y autorregula, con sentido y funcionalidad relevantes, las emociones propias y participa, con iniciativa propia, en procesos de auto y coevaluación reconociendo con deliberación algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando con seguridad actitudes positivas tales como el esfuerzo, la perseverancia y la responsabilidad y dedicación personal ante nuevos retos matemáticos; utiliza con alta adecuación estrategias de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje.",
+          "Sobresaliente": "Identifica, de forma plenamente consciente, y autorregula, con un sentido y funcionalidad excelentes, las emociones propias y participa, con constante iniciativa propia, en procesos de auto y coevaluación reconociendo, con conciencia crítica, algunas fortalezas y debilidades, desarrollando así la autoconfianza, empleando con seguridad y plena confianza actitudes positivas tales como el esfuerzo, la perseverancia y la responsabilidad y dedicación personal ante nuevos retos matemáticos; utiliza con excelente adecuación estrategias de aprendizaje autorregulado, valorando el error como una oportunidad de aprendizaje."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Colaborar en el trabajo en equipo, mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, valorando la diversidad, participando en el reparto de tareas, asumiendo las responsabilidades individuales y empleando estrategias cooperativas, para la consecución de objetivos compartidos.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CE3"
+        ],
+        "pagina_pdf": 345,
+        "descriptores": {
+          "Insuficiente": "Colabora con desinterés en el trabajo en equipo, mostrando falta de iniciativa, sin desarrollar la escucha activa y la comunicación asertiva, respetando y valorando con conciencia mínima la diversidad cultural presente en su entorno, comprendiendo con escasa profundidad la necesidad de rechazar prejuicios y estereotipos, planificando y participando con errores destacables en el reparto de tareas, asumiendo ocasionalmente, sin iniciativa las responsabilidades individuales y empleando de manera inadecuada estrategias cooperativas, sin procurar la participación de todo el grupo y sin participar en la resolución pacífica los conflictos que puedan surgir, para la consecución de objetivos compartidos.",
+          "Suficiente/Bien": "Colabora en el trabajo en equipo, mostrando iniciativa, desarrollando la escucha activa y la comunicación asertiva, respetando y valorando la diversidad cultural presente en su entorno, comprendiendo la necesidad de rechazar prejuicios y estereotipos, planificando y participando en el reparto de tareas, asumiendo las responsabilidades individuales y empleando estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir, para la consecución de objetivos compartidos.",
+          "Notable": "Colabora con interés y dedicación constantes en el trabajo en equipo, mostrando iniciativa, desarrollando de forma consciente la escucha activa y la comunicación asertiva, respetando y valorando con deliberación la diversidad cultural presente en su entorno, comprendiendo con destacable profundidad la necesidad de rechazar prejuicios y estereotipos, planificando y participando con corrección en el reparto de tareas, asumiendo con regularidad las responsabilidades individuales y empleando con alta adecuación estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir, para la consecución de objetivos compartidos.",
+          "Sobresaliente": "Colabora con pasión y dedicación constantes en el trabajo en equipo, mostrando iniciativa, desarrollando de forma plenamente consciente la escucha activa y la comunicación asertiva, respetando y valorando con conciencia crítica la diversidad cultural presente en su entorno, comprendiendo con destacable profundidad y aplicando un elevado pensamiento abstracto la necesidad de rechazar prejuicios y estereotipos, planificando y participando con excepcional corrección en el reparto de tareas, asumiendo siempre las responsabilidades individuales y empleando con excelente adecuación estrategias cooperativas, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir, para la consecución de objetivos compartidos."
+        }
+      }
+    ]
+  }
+}

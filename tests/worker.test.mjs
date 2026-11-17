@@ -1,7 +1,8 @@
 // Tests del Worker (produccion/src/worker.js) con KV, ASSETS y fetch simulados.
 import { test, describe, beforeEach, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
-import worker, { FREE_LIMIT, PRO_DAILY_LIMIT, sanitizeRequest, csvCell, safeEqual, ipBucket, verifyStripe, issueLicense } from '../produccion/src/worker.js';
+import worker, { FREE_LIMIT, PRO_DAILY_LIMIT, MODES, MAX_TOKENS, sanitizeRequest, csvCell, safeEqual, ipBucket, verifyStripe, issueLicense } from '../produccion/src/worker.js';
+import { TIPOS_CENTRO } from '../produccion/src/prompts.mjs';
 import { makeEnv, ctx, req, sseBody, mockFetch, stripeSig, validSA, ADMIN_TOKEN, WEBHOOK_SECRET } from './helpers.mjs';
 
 const call = (env, r) => worker.fetch(r, env, ctx());
@@ -398,5 +399,106 @@ describe('rate limiting opcional (binding RATE_LIMITER)', () => {
     const env = makeEnv({ RATE_LIMITER: limiter(2) });
     for (let i = 0; i < 5; i++) await call(env, req('/api/license?session_id=cs_test_inventado' + i + 'xxxxxxx'));
     assert.equal(calls.length, 2);
+  });
+});
+
+describe('módulo opositor (Canarias)', () => {
+  const op = (mode, over = {}) => ({ mode, d: { ...validSA().d, tema: mode === 'exposicion' ? 'Guardianes de la laurisilva' : '', isla: 'La Gomera', tipoCentro: TIPOS_CENTRO[0], numSA: '8', ...over } });
+
+  test('MODES incluye los modos nuevos con max_tokens propios', () => {
+    assert.ok(MODES.includes('oposicion') && MODES.includes('exposicion'));
+    for (const m of MODES) assert.ok(Number.isInteger(MAX_TOKENS[m]) && MAX_TOKENS[m] > 0, m);
+    assert.ok(MAX_TOKENS.oposicion > MAX_TOKENS.pd, 'la programación de oposición (25–50 págs.) necesita más tokens que la PD');
+    assert.ok(MAX_TOKENS.exposicion >= MAX_TOKENS.sa);
+  });
+
+  test('oposicion: genera con el prompt de las bases y max_tokens de oposición', async () => {
+    calls = anthropicOK();
+    const r = await call(makeEnv(), req('/api/generate', { method: 'POST', body: op('oposicion', { contexto: 'zona de medianías, conectividad irregular' }) }));
+    assert.equal(r.status, 200);
+    const body = JSON.parse(calls[0].init.body);
+    assert.equal(body.max_tokens, MAX_TOKENS.oposicion);
+    const p = body.messages[0].content;
+    assert.match(p, /Orden de 18 de marzo de 2026/);
+    assert.match(p, /entre 25 y 50 páginas/);
+    assert.match(p, /\[TELEMÁTICA\]/);
+    assert.match(p, /30 %/);
+    assert.match(p, /CLARAMENTE FICTICIO/);
+    assert.match(p, /La Gomera/);
+    assert.match(p, /zona de medianías/);
+    assert.match(p, /Decreto 211\/2022/);
+    assert.match(p, /Orden de 31 de mayo de 2023/);
+    assert.match(p, /Decreto 25\/2018/);
+    assert.match(p, /Decreto 81\/2010/);
+    assert.match(p, /Criterio 2\.1 /, 'inyecta los criterios literales del ciclo (curriculoDe)');
+    assert.match(p, /8 \(las bases exigen entre 6 y 12/);
+    assert.match(p, /Brújula20/, 'alineada con la plantilla oficial de PD de la Consejería');
+    for (const h of ['## 2. Punto de partida y contextualización', '### A. Orientaciones metodológicas', '### E. Adaptación a un modelo de enseñanza no presencial', '## 5. Concreción de los objetivos de etapa al curso', '## 7. Aspectos del artículo 44.3 del ROC', '**Periodo de implementación**', '**Valoración del ajuste**']) assert.ok(p.includes(h), h);
+    assert.match(p, /Decreto 169\/2026/);
+    assert.match(p, /Resolución de 15 de mayo de 2025/);
+    assert.match(p, /Orden de 9 de octubre de 2013/);
+  });
+
+  test('exposicion: guion de 30 min y 10 preguntas, max_tokens propio', async () => {
+    calls = anthropicOK();
+    const r = await call(makeEnv(), req('/api/generate', { method: 'POST', body: op('exposicion') }));
+    assert.equal(r.status, 200);
+    const body = JSON.parse(calls[0].init.body);
+    assert.equal(body.max_tokens, MAX_TOKENS.exposicion);
+    const p = body.messages[0].content;
+    assert.match(p, /Guion de exposición cronometrado \(30 minutos\)/);
+    assert.match(p, /terminar exactamente en 30:00/);
+    assert.match(p, /Exactamente 10 preguntas/);
+    assert.match(p, /Respuesta breve/);
+    assert.match(p, /Guardianes de la laurisilva/);
+    assert.match(p, /SIN contenido curricular/);
+    assert.match(p, /no exceda de un folio/);
+  });
+
+  test('validación: solo Canarias, isla y tipo de centro de la lista blanca, 6–12 SA, tema obligatorio en exposición', async () => {
+    calls = anthropicOK();
+    const env = makeEnv();
+    const bad = [
+      op('oposicion', { ccaa: 'madrid', area: 'Matemáticas' }),
+      op('exposicion', { ccaa: 'andalucia' }),
+      op('oposicion', { isla: 'Mallorca' }),
+      op('oposicion', { isla: undefined }),
+      op('oposicion', { tipoCentro: 'Colegio concertado' }),
+      op('oposicion', { numSA: '5' }),
+      op('oposicion', { numSA: '13' }),
+      op('oposicion', { numSA: 'ocho' }),
+      op('exposicion', { tema: '' }),
+      op('exposicion', { sesiones: '99' }),
+      op('exposicion', { tema: 'x'.repeat(3001) })
+    ];
+    for (const b of bad) {
+      const r = await call(env, req('/api/generate', { method: 'POST', body: b }));
+      assert.equal(r.status, 400, JSON.stringify(b.d).slice(0, 120));
+    }
+    assert.equal(calls.length, 0);
+    assert.equal(env.KV.keys('u:').length, 0);
+  });
+
+  test('sanitizeRequest: el hilo conductor es opcional en oposicion y no pasan campos ajenos', () => {
+    const s = sanitizeRequest(op('oposicion', { tema: '', producto: 'no debe pasar', perfil: 'TDAH (predominio inatento)' }));
+    assert.equal(s.error, undefined);
+    assert.equal(s.d.tema, '');
+    assert.equal(s.d.numSA, 8);
+    assert.equal(s.d.isla, 'La Gomera');
+    assert.equal(s.d.producto, undefined);
+    assert.equal(s.d.perfil, undefined);
+    const e = sanitizeRequest(op('exposicion'));
+    assert.equal(e.d.sesiones, 6);
+    assert.equal(e.d.duracion, 55);
+    assert.equal(e.d.numSA, undefined);
+    // Los modos existentes no reciben campos del módulo opositor
+    assert.equal(sanitizeRequest(validSA({ isla: 'Tenerife' })).d.isla, undefined);
+  });
+
+  test('cuentan para el cupo gratuito como cualquier documento', async () => {
+    calls = anthropicOK();
+    const env = makeEnv();
+    for (let i = 0; i < FREE_LIMIT; i++) assert.equal((await call(env, req('/api/generate', { method: 'POST', body: op('exposicion') }))).status, 200);
+    assert.equal((await call(env, req('/api/generate', { method: 'POST', body: op('oposicion') }))).status, 402);
   });
 });

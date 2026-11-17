@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BORRADOR: quita "noindex" cuando el texto esté revisado. Si cambias esta política, sube PRIVACY_VERSION en produccion/src/worker.js. -->
+<meta name="robots" content="noindex">
+<title>Política de privacidad · AulaLista</title>
+<meta name="description" content="Cómo trata AulaLista tus datos personales: responsable, finalidades, bases jurídicas, encargados, transferencias internacionales, plazos y derechos.">
+<link rel="stylesheet" href="/legal/legal.css">
+</head>
+<body>
+<div class="borrador">BORRADOR pendiente de revisión profesional. No es asesoramiento jurídico. Rellena los marcadores <span class="ph">[ASÍ]</span> y borra las notas antes de publicar.</div>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">Aula<span>Lista</span></a>
+    <div class="links">
+      <a href="/legal/aviso-legal.html">Aviso legal</a>
+      <a href="/legal/privacidad.html" aria-current="page">Privacidad</a>
+      <a href="/legal/condiciones.html">Condiciones</a>
+      <a href="/legal/cookies.html">Cookies</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Versión 2026-11 · Última actualización: <span class="ph">[FECHA]</span></p>
+
+    <div class="box">
+      <p><strong>Resumen.</strong> AulaLista solo trata los datos necesarios para avisarte del lanzamiento (si te apuntas), venderte y gestionar tu licencia, y limitar el uso gratuito. <strong>No pedimos ni queremos datos de tu alumnado</strong>: no escribas nombres ni datos personales de alumnos en la herramienta. No vendemos tus datos ni hacemos perfiles publicitarios.</p>
+    </div>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <div class="table-scroll"><table>
+      <tr><th scope="row">Responsable</th><td><span class="ph">[TITULAR]</span>, que opera con el nombre comercial AulaLista</td></tr>
+      <tr><th scope="row">NIF</th><td><span class="ph">[NIF]</span></td></tr>
+      <tr><th scope="row">Domicilio</th><td><span class="ph">[DOMICILIO]</span></td></tr>
+      <tr><th scope="row">Contacto para privacidad</th><td><span class="ph">[EMAIL]</span></td></tr>
+      <tr><th scope="row">Delegado de protección de datos</th><td>No se ha designado: con la actividad actual no parece obligatorio (art. 37 RGPD y art. 34 LOPDGDD).</td></tr>
+    </table></div>
+    <p class="nota">Confirma con tu asesor que no necesitas DPD. Si en el futuro tratas datos a gran escala, o añades cuentas de usuario con historial en el servidor, revisa esta conclusión.</p>
+
+    <h2>2. Qué datos tratamos, para qué y con qué base jurídica</h2>
+
+    <h3>2.1. Lista de acceso anticipado y comunicaciones</h3>
+    <ul>
+      <li><strong>Datos:</strong> email, comunidad autónoma, situación profesional que eliges (docente en activo, interino/a, opositor/a…), si quieres reservar plaza de Fundador, el dominio desde el que llegaste o la etiqueta de campaña (<code>utm_source</code>, nunca la URL completa), la fecha de alta, la fecha de tu consentimiento y la versión de esta política que aceptaste.</li>
+      <li><strong>Finalidad:</strong> avisarte cuando abra tu comunidad y enviarte información sobre AulaLista.</li>
+      <li><strong>Base jurídica:</strong> tu consentimiento (art. 6.1.a RGPD; y art. 21 LSSI para las comunicaciones comerciales electrónicas). Puedes retirarlo en cualquier momento con el enlace de baja de cada email o escribiendo a <span class="ph">[EMAIL]</span>, sin que afecte a la licitud del tratamiento anterior.</li>
+      <li><strong>Conservación:</strong> hasta que te des de baja, o <span class="ph">[PLAZO, p. ej. 24 meses]</span> sin abrir ningún email, lo que ocurra antes. Guardamos la prueba del consentimiento durante el plazo de prescripción de las posibles reclamaciones.</li>
+    </ul>
+    <p class="nota">El formulario actual une en una sola casilla «recibir emails» y «aceptar la política de privacidad». Lo recomendable es separar: informar de la política (sin casilla de «aceptar») y pedir el consentimiento para los emails en una casilla propia y no premarcada. Activa también el doble opt-in en MailerLite (ver docs/legal/rgpd-checklist.md).</p>
+
+    <h3>2.2. Clientes: compra, licencia y facturación</h3>
+    <ul>
+      <li><strong>Datos:</strong> email y datos de facturación que facilitas a Stripe al pagar; identificadores técnicos de la sesión de pago, de la suscripción y del pago; plan (Fundador o Pro); fechas de alta y de baja y su motivo (baja, impago, reembolso); y la clave de licencia. <strong>Nunca vemos ni guardamos el número completo de tu tarjeta</strong>: lo trata Stripe.</li>
+      <li><strong>Finalidad:</strong> cobrar, activar y desactivar tu licencia, atenderte y cumplir las obligaciones fiscales y contables.</li>
+      <li><strong>Base jurídica:</strong> la ejecución del contrato (art. 6.1.b RGPD) y el cumplimiento de obligaciones legales (art. 6.1.c RGPD), como la facturación y la conservación de documentación tributaria y contable.</li>
+      <li><strong>Conservación:</strong> mientras dure la relación y, después, bloqueados durante los plazos legales de conservación tributaria y mercantil <span class="ph">[PLAZOS: confirmar con el gestor]</span>.</li>
+    </ul>
+
+    <h3>2.3. Uso del generador y control del cupo gratuito</h3>
+    <ul>
+      <li><strong>Datos:</strong> lo que escribes en el formulario (comunidad, curso, área, tema, contexto…) y, para el plan gratuito, un <strong>seudónimo de tu dirección IP</strong> (un código HMAC irreversible sin una clave secreta; la IP en claro no se guarda) con un contador de documentos del mes. Para el plan Pro, un contador diario asociado a tu licencia.</li>
+      <li><strong>Finalidad:</strong> generar el documento que pides, aplicar los límites de uso (3 documentos/mes gratis y el límite diario de uso razonable del plan Pro) y prevenir abusos.</li>
+      <li><strong>Base jurídica:</strong> la prestación del servicio que solicitas (art. 6.1.b RGPD) y nuestro interés legítimo en evitar abusos y en ofrecer un cupo gratuito sostenible (art. 6.1.f RGPD). Puedes oponerte escribiendo a <span class="ph">[EMAIL]</span>, aunque sin este control no podemos ofrecerte el plan gratuito.</li>
+      <li><strong>Conservación:</strong> el contador gratuito se borra automáticamente a los 40 días y el diario de Pro a las 48 horas. <strong>AulaLista no guarda en su servidor el texto que escribes ni el documento generado</strong>: se envían al proveedor de IA para generar la respuesta y el resultado solo se guarda en tu navegador (ver 2.5).</li>
+    </ul>
+    <p class="nota">Comprueba y describe aquí cuánto tiempo conserva Anthropic las entradas y salidas de la API y si las usa para entrenar modelos según tus condiciones comerciales vigentes (pendiente de verificar en su documentación).</p>
+
+    <h3>2.4. Seguridad y registros técnicos</h3>
+    <ul>
+      <li><strong>Datos:</strong> dirección IP, fecha y hora, navegador y datos técnicos de la petición, que trata nuestro proveedor de alojamiento y red (Cloudflare) para servir la web y protegerla frente a ataques; y registros de errores sin el contenido de tus documentos.</li>
+      <li><strong>Base jurídica:</strong> interés legítimo en la seguridad de la red y del servicio (art. 6.1.f RGPD; considerando 49).</li>
+      <li><strong>Conservación:</strong> la que aplique Cloudflare en sus registros <span class="ph">[PLAZO: verificar]</span>.</li>
+    </ul>
+
+    <h3>2.5. Datos guardados solo en tu navegador</h3>
+    <p>La app guarda en el almacenamiento local de tu navegador tu clave de licencia, tus preferencias (comunidad, curso…) y tu biblioteca de documentos. Estos datos <strong>no se envían a nuestro servidor</strong> salvo la clave de licencia, que viaja con cada petición para comprobar tu plan. Puedes borrarlos desde la app o desde la configuración del navegador. Más detalles en la <a href="/legal/cookies.html">Política de cookies</a>.</p>
+
+    <h3>2.6. Consultas y ejercicio de derechos</h3>
+    <p>Si nos escribes, usamos tus datos para responderte (interés legítimo o, si eres cliente, ejecución del contrato) y para acreditar que atendimos tu solicitud de derechos (obligación legal). Conservamos esas comunicaciones el tiempo necesario para atenderlas y durante el plazo de prescripción de posibles responsabilidades.</p>
+
+    <h3>2.7. Lo que no hacemos</h3>
+    <ul>
+      <li>No pedimos ni tratamos datos del alumnado. Si los introduces pese al aviso, eres tú quien decide ese tratamiento; te pedimos que no lo hagas.</li>
+      <li>No tomamos decisiones automatizadas con efectos jurídicos sobre ti ni elaboramos perfiles (art. 22 RGPD).</li>
+      <li>No usamos cookies publicitarias ni de analítica.</li>
+      <li>No vendemos ni cedemos tus datos a terceros, salvo obligación legal.</li>
+    </ul>
+
+    <h2>3. Destinatarios: proveedores (encargados del tratamiento)</h2>
+    <p>Para prestar el servicio usamos proveedores que tratan datos por nuestra cuenta, con contrato de encargo conforme al art. 28 RGPD:</p>
+    <div class="table-scroll"><table>
+      <tr><th>Proveedor</th><th>Para qué</th><th>Datos</th><th>Ubicación y garantías de transferencia</th></tr>
+      <tr><td>Cloudflare, Inc. (EE. UU.)</td><td>Alojamiento de la web y del servidor, red y seguridad; base de datos clave-valor (leads, licencias, contadores)</td><td>Todos los de los apartados 2.1 a 2.4</td><td>EE. UU. y red mundial. Cloudflare declara estar adherida al Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación) y su contrato incluye cláusulas contractuales tipo como respaldo.</td></tr>
+      <tr><td>Stripe (Stripe Payments Europe, Ltd., Irlanda, y sociedades de su grupo)</td><td>Cobro de pagos y suscripciones</td><td>Datos de pago, email y facturación</td><td>UE, con posibles transferencias a EE. UU. <span class="ph">[MECANISMO: verificar en el DPA de Stripe]</span>. Stripe actúa además como responsable independiente para algunos fines propios (p. ej., prevención del fraude y cumplimiento normativo); consulta su política de privacidad.</td></tr>
+      <tr><td>Anthropic <span class="ph">[ENTIDAD CONTRATANTE: verificar]</span></td><td>Modelo de IA que redacta el documento</td><td>Lo que escribes en el formulario (sin datos de alumnado)</td><td>EE. UU. Cláusulas contractuales tipo de la Comisión Europea incluidas en su anexo de tratamiento de datos (DPA).</td></tr>
+      <tr><td>MailerLite <span class="ph">[ENTIDAD: verificar]</span></td><td>Envío de emails de la lista</td><td>Email, comunidad y situación profesional</td><td>Almacenamiento en la UE según su DPA; su DPA cita como importador a MailerLite, Inc. (EE. UU.) con cláusulas contractuales tipo.</td></tr>
+      <tr><td>Google Fonts (Google)</td><td>Tipografías de la landing y de la app</td><td>Dirección IP y datos técnicos del navegador al descargar las fuentes</td><td>EE. UU. <span class="ph">[ELIMINAR esta fila cuando las fuentes estén alojadas en nuestro propio servidor]</span></td></tr>
+    </table></div>
+    <p class="nota">Google Fonts transmite la IP del visitante a Google al cargar la página. Lo correcto es alojar las fuentes en <code>public/fonts/</code> (pendiente F11 del informe de QA) y quitar esta fila. Mientras no se haga, la transferencia debe informarse aquí. Verifica en cada proveedor: entidad contratante, DPA aceptado (en Cloudflare y Anthropic el DPA se incorpora a las condiciones que lo referencian, según sus propios textos), lista de subencargados y mecanismo de transferencia vigente.</p>
+    <p>También podremos comunicar datos a la Agencia Tributaria, a la Agencia Tributaria Canaria, a juzgados y a otras autoridades cuando una ley lo exija, y a tu asesoría fiscal y contable <span class="ph">[NOMBRE DE LA GESTORÍA, si trata datos de clientes]</span> como encargada del tratamiento.</p>
+
+    <h2>4. Tus derechos</h2>
+    <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar tu consentimiento, escribiendo a <span class="ph">[EMAIL]</span> desde el email afectado o indicando cuál es. Si hay dudas razonables sobre tu identidad, podremos pedirte información adicional para confirmarla. Responderemos en el plazo de un mes, prorrogable en los casos previstos en el art. 12.3 RGPD.</p>
+    <p>Si consideras que no hemos atendido bien tu solicitud, puedes reclamar ante la <strong>Agencia Española de Protección de Datos</strong> (<a href="https://www.aepd.es" rel="noopener">www.aepd.es</a>).</p>
+
+    <h2>5. Seguridad</h2>
+    <p>Aplicamos medidas técnicas y organizativas adecuadas al riesgo (art. 32 RGPD): conexión cifrada (HTTPS), seudonimización de las direcciones IP, claves secretas fuera del código, control de acceso a la exportación de datos, cabeceras de seguridad y validación de las peticiones. Si se produce una violación de seguridad que afecte a tus datos, actuaremos conforme a los arts. 33 y 34 RGPD.</p>
+
+    <h2>6. Menores</h2>
+    <p>AulaLista está dirigido a docentes y profesionales adultos. No está destinado a menores ni recogemos conscientemente sus datos.</p>
+
+    <h2>7. Cambios en esta política</h2>
+    <p>Si cambiamos esta política de forma relevante, lo indicaremos en esta página con una nueva versión y fecha y, si afecta a tu consentimiento, te lo pediremos de nuevo.</p>
+
+    <h2>8. Normativa</h2>
+    <p>Reglamento (UE) 2016/679 (RGPD); Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD); Ley 34/2002 (LSSI).</p>
+  </main>
+
+  <footer>
+    <p>AulaLista · <a href="/legal/aviso-legal.html">Aviso legal</a><a href="/legal/privacidad.html">Privacidad</a><a href="/legal/condiciones.html">Condiciones</a><a href="/legal/cookies.html">Cookies</a></p>
+    <p>Este texto no constituye asesoramiento jurídico. Revísalo con un profesional antes de publicarlo.</p>
+  </footer>
+</div>
+</body>
+</html>

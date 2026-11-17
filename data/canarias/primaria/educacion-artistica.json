@@ -515,14 +515,451 @@
       ]
     }
   },
-  "pendiente": [
-    "Saberes básicos por ciclo (bloques I a IV): no transcritos; el decreto no los vincula criterio a criterio.",
-    "Saberes básicos por bloque y ciclo sin extraer",
-    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
-  ],
+  "pendiente": [],
   "cotejo": {
     "fecha": "2026-11-17",
     "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
-    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)",
+    "fase2": {
+      "fecha": "2026-11-17",
+      "metodo": "tools/extraer_saberes_canarias.py sobre pdftotext -layout del PDF oficial",
+      "saberes": "literales, por ciclo y bloque, con la numeración del BOC",
+      "bloques": "explicación del bloque competencial literal, por ciclo",
+      "descriptores": "0 corregidos; el resto coincide con la columna de descriptores del PDF",
+      "enunciados": "cada enunciado de competencia coincide con el del bloque competencial de cada ciclo",
+      "descriptores_corregidos": []
+    }
+  },
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "I. Recepción y análisis.",
+        "items": [
+          "1. Aproximación a las principales propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+          "2. Iniciación en la adquisición de estrategias básicas de recepción activa.",
+          "3. Asimilación de las normas elementales de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
+          "4. Empleo de vocabulario específico básico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
+          "5. Utilización de recursos digitales básicos para las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas."
+        ]
+      },
+      {
+        "bloque": "II. Creación e interpretación.",
+        "items": [
+          "1. Aproximación a las fases del proceso creativo: planificación guiada y experimentación.",
+          "2. Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
+          "3. Interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas."
+        ]
+      },
+      {
+        "bloque": "III. Artes plásticas, visuales y audiovisuales.",
+        "items": [
+          "1. Acercamiento a las principales manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
+          "2. Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura de la imagen en el mundo actual.",
+          "3. Empleo de elementos configurativos básicos del lenguaje visual: punto, línea, plano, textura, color, forma y espacio.",
+          "4. Uso de materiales, instrumentos, soportes y técnicas elementales utilizados en la expresión plástica y visual.",
+          "5. Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales básicas en dibujos y modelados sencillos.",
+          "6. Utilización de herramientas adecuadas para el registro de imagen y sonido.",
+          "7. Aplicación de estrategias y técnicas básicas de composición de historias audiovisuales sencillas.",
+          "8. Descubrimiento del cine como forma de narración audiovisual."
+        ]
+      },
+      {
+        "bloque": "IV. Música y artes escénicas y performativas.",
+        "items": [
+          "1. Discriminación auditiva, clasificación y representación del sonido, de sus cualidades y de las líneas rítmico-melódicas, a través de grafías convencionales y no convencionales.",
+          "2. Discriminación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en tipos, familias y agrupaciones.",
+          "3. Experimentación y reconocimiento del carácter y el tempo.",
+          "4. Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: aproximación a la experimentación, exploración creativa e interpretación a partir de posibilidades sonoras y expresivas.",
+          "5. Construcción asistida de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
+          "6. Aplicación de conceptos elementales de lenguajes musicales básicos en la interpretación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
+          "7. Experimentación y exploración del cuerpo y sus posibilidades motrices en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
+          "8. Práctica de técnicas dramáticas y dancísticas elementales.",
+          "9. Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
+          "10. Experimentación de las posibilidades expresivas y creativas básicas de la expresión corporal y dramática."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "I. Recepción y análisis.",
+        "items": [
+          "1. Análisis de propuestas del patrimonio cultural y artístico de Canarias, de diferentes corrientes estéticas, procedencias y épocas, producidas por creadores y creadoras locales, regionales y nacionales.",
+          "2. Adquisición de estrategias de recepción activa.",
+          "3. Valoración del silencio como elemento y condición indispensable. Asimilación de las normas comunes de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
+          "4. Empleo de vocabulario específico, de uso común, en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
+          "5. Utilización de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
+          "6. Adquisición de estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género."
+        ]
+      },
+      {
+        "bloque": "II. Creación e interpretación.",
+        "items": [
+          "1. Aplicación de las fases del proceso creativo: planificación, interpretación y experimentación.",
+          "2. Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
+          "3. Valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas."
+        ]
+      },
+      {
+        "bloque": "III. Artes plásticas, visuales y audiovisuales.",
+        "items": [
+          "1. Reconocimiento de las manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
+          "2. Iniciación a la cultura visual. Uso de técnicas y estrategias básicas de lectura e interpretación de la imagen en el mundo actual.",
+          "3. Empleo de elementos configurativos básicos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
+          "4. Utilización de materiales, instrumentos, soportes y técnicas de uso común utilizados en la expresión plástica y visual.",
+          "5. Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados sencillos.",
+          "6. Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos básicos. Aplicación para la captura y manipulación de producciones plásticas y visuales.",
+          "7. Registro y edición básica de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+          "8. Aplicación de estrategias y técnicas de uso común para la composición de historias audiovisuales.",
+          "9. Identificación del cine como forma de narración audiovisual.",
+          "10. Acercamiento a géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
+          "11. Aproximación a las herramientas y técnicas básicas de animación.",
+          "12. Descubrimiento de las características elementales del lenguaje audiovisual multimodal: texto, audio, imagen…",
+          "13. Iniciación a la realización de producciones multimodales con diversas herramientas."
+        ]
+      },
+      {
+        "bloque": "IV. Música y artes escénicas y performativas.",
+        "items": [
+          "1. Identificación visual y auditiva, clasificación y representación elemental del sonido, de sus cualidades y de estructuras rítmico-melódicas, a través de grafías convencionales y no convencionales.",
+          "2. Identificación visual y auditiva de los instrumentos musicales convencionales, objetos sonoros, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
+          "3. Experimentación y reconocimiento del carácter, el tempo, el compás y el género musical.",
+          "4. Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación e improvisación a partir de sus posibilidades sonoras y expresivas.",
+          "5. Construcción guiada de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
+          "6. Aplicación de conceptos básicos de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
+          "7. Utilización de herramientas digitales básicas de grabación y edición de audio en la audición y conocimiento de obras diversas.",
+          "8. Experimentación y exploración del cuerpo y sus posibilidades motrices y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social.",
+          "9. Aplicación de técnicas dramáticas, dancísticas y de elementos básicos de lenguajes expresivos. Experimentación con actos performativos elementales e improvisación guiada.",
+          "10. Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
+          "11. Exploración de las posibilidades expresivas y creativas de uso común de la expresión corporal y dramática.",
+          "12. Reconocimiento de los elementos básicos de la representación escénica: roles, materiales y espacios."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "I. Recepción y análisis.",
+        "items": [
+          "1. Análisis de propuestas del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.",
+          "2. Aplicación de estrategias de recepción activa.",
+          "3. Asimilación de las normas de comportamiento y actitud positiva ante el hecho artístico. Valoración del silencio como condición indispensable para la adecuada recepción de propuestas artísticas.",
+          "4. Empleo de vocabulario específico de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
+          "5. Utilización y selección de recursos digitales en las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas.",
+          "6. Aplicación de estrategias básicas para el análisis de propuestas artísticas desde una perspectiva de género. Identificación de estereotipos sexistas."
+        ]
+      },
+      {
+        "bloque": "II. Creación e interpretación.",
+        "items": [
+          "1. Aplicación de las fases del proceso creativo: planificación, interpretación, experimentación y evaluación.",
+          "2. Reconocimiento de profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas: artesanía, pintura, música, escultura, maquetación, diseño gráfico, iluminación y sonido, realización…",
+          "3. Evaluación, valoración e interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas.",
+          "4. Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso, derechos de autoría y distribución de contenidos generados por otras personas."
+        ]
+      },
+      {
+        "bloque": "III. Artes plásticas, visuales y audiovisuales.",
+        "items": [
+          "1. Reconocimiento de manifestaciones artísticas del patrimonio cultural de Canarias: pintura, escultura, arquitectura, cerámica y artesanía.",
+          "2. Iniciación a la cultura visual. Uso de técnicas y estrategias de lectura, análisis e interpretación de la imagen en el mundo actual. Identificación de estereotipos sexistas.",
+          "3. Empleo de elementos configurativos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color, forma y espacio.",
+          "4. Utilización de materiales, instrumentos, soportes y técnicas en la expresión plástica y visual.",
+          "5. Uso de medios, soportes y materiales de expresión plástica y visual. Empleo de técnicas bidimensionales y tridimensionales en dibujos y modelados.",
+          "6. Reconocimiento de técnicas, materiales y recursos informáticos y tecnológicos. Aplicación para la captura, creación, manipulación y difusión de producciones plásticas y visuales.",
+          "7. Registro y edición de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+          "8. Aplicación de estrategias y técnicas de composición de historias audiovisuales.",
+          "9. Valoración del cine como forma de narración audiovisual.",
+          "10. Identificación de géneros y formatos de producciones audiovisuales: cortometraje, videoclip, documental, spot, reportaje…",
+          "11. Manejo de herramientas y técnicas básicas de animación.",
+          "12. Reconocimiento de las características del lenguaje audiovisual multimodal: texto, audio, imagen…",
+          "13. Realización de producciones multimodales con diversas herramientas."
+        ]
+      },
+      {
+        "bloque": "IV. Música y artes escénicas y performativas.",
+        "items": [
+          "1. Identificación visual y auditiva, clasificación y representación del sonido, de sus cualidades y de estructuras rítmico-melódicas a través de grafías convencionales y no convencionales.",
+          "2. Identificación visual y auditiva de los instrumentos musicales convencionales, no convencionales, digitales, cotidiáfonos, así como de los de la música tradicional y popular canaria. Clasificación de la voz y los instrumentos en familias y agrupaciones.",
+          "3. Experimentación y reconocimiento del carácter, el tempo, el compás, la textura, la armonía, la forma y el género musical.",
+          "4. Práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas: experimentación, exploración creativa, interpretación, improvisación y composición a partir de sus posibilidades sonoras y expresivas.",
+          "5. Construcción de instrumentos musicales con materiales de uso común, reutilizados y del entorno.",
+          "6. Aplicación de conceptos fundamentales de lenguajes musicales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales. Valoración del silencio como elemento indispensable en la música.",
+          "7. Utilización de herramientas digitales de grabación, edición de audio y edición de partituras en la audición, el conocimiento, la interpretación, la grabación, la reproducción, la improvisación y la creación de obras diversas.",
+          "8. Experimentación y exploración del cuerpo y sus posibilidades motrices, dramáticas y creativas en ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión, diversión e interacción social. Fomento de la autoestima y la conciencia corporal positiva.",
+          "9. Aplicación de técnicas dramáticas y dancísticas, de elementos básicos de lenguajes expresivos y de nociones elementales de biomecánica. Introducción a los métodos interpretativos. Experimentación con actos performativos elementales e improvisación guiada y creativa.",
+          "10. Experimentación, exploración e interpretación de danzas tradicionales y populares de Canarias.",
+          "11. Aplicación de las posibilidades expresivas y creativas de la expresión corporal y dramática.",
+          "12. Empleo de los elementos de la representación escénica, la teatralidad y la estructura dramática básica.",
+          "13. Aproximación a los géneros escénicos. Valoración de la importancia de la interpretación dramática en el proceso artístico y del patrimonio vinculado a las artes escénicas."
+        ]
+      }
+    ]
+  },
+  "bloques": {
+    "primer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de descubrir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que aprecian las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas del entorno próximo, comprendiendo la necesidad de respetarlas y conservarlas. Asimismo, esta competencia implica reconocer y apreciar las especificidades e intencionalidades de las manifestaciones del patrimonio cultural y artístico de las islas y de diferentes corrientes estilísticas de su entorno próximo, valorando sus diferencias y la necesidad de respetarlas, teniendo en cuenta la perspectiva de género."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CP3",
+          "CD1",
+          "CPSAA3",
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias elementales de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias, y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso sencillos, reconociendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado reconoce las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CD2",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar, de manera creativa, ideas, sentimientos y emociones mediante la experimentación guiada con elementos de los lenguajes artísticos y la utilización de algunas herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza, de manera creativa, elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal, de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, de manera guiada, atendiendo a las fases del proceso creativo, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y denotando aprecio por las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; se inicie en la percepción de la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2",
+          "4.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CPSAA4",
+          "CC1",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, diseñar y compartir activamente y de manera guiada, mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Se comprobará que puede planificar propuestas para lograr un objetivo final y comunicar la experiencia creativa en espacios y canales sencillos con el fin de desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. De esta manera, se verificará que el alumnado puede realizar, de forma guiada, proyectos sencillos diseñando, fabricando y evaluando diferentes prototipos o modelos, y atendiendo tanto a las fases del proceso creativo como a la evaluación, al interés y a la valoración del proceso y el producto final. Asimismo, se comprobará que el alumnado expresa, de manera elemental, hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas elementales propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa. Finalmente, se constará que el alumnado conoce y respeta la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar, elaborar ideas originales, planificar tareas y cooperar en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes."
+      }
+    ],
+    "segundo": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CP3",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de reconocer y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, mediante experiencias sensoriales, de manera que escuchen, observen, toquen, sientan o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL3",
+          "CP3",
+          "CD1",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda guiada de información de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, distinguiendo sus lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Así mismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado distingue las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda, alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva, y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos básicos de los lenguajes artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos básicos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas sencillas, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales básicas, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones desde una visión informada."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2",
+          "4.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de participar, elaborar y compartir activamente y mediante un proceso cooperativo, en producciones culturales y artísticas creativas. Para ello, se comprobará que planifica propuestas para lograr un objetivo final y comunica la experiencia en diferentes espacios y canales para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. En este sentido, el alumnado deberá poder realizar proyectos, de forma guiada, diseñando, fabricando y evaluando diferentes prototipos o modelos, valorando tanto las fases del proceso creativo como el producto final. Asimismo, se comprobará que puede expresar hechos, conceptos, pensamientos, opiniones o sentimientos de forma creativa y democrática, utilizando elementos, técnicas, materiales y herramientas sencillas propios de la expresión plástica, visual, musical, dramática, dancística, audiovisual y performativa; y de conocer y respetar la diversidad lingüística y cultural presente en las islas y en otros lugares y culturas. De la misma manera, se verificará que es capaz de reconocer necesidades y retos que afrontar y elaborar ideas originales, planificar tareas y cooperar con otros y otras en equipo, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes."
+      }
+    ],
+    "tercer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CP2",
+          "CP3",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de distinguir y describir manifestaciones artísticas del patrimonio cultural y artístico de Canarias y de otras culturas, de diferentes géneros, corrientes estéticas, estilos y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, con especial atención a las obras de mujeres y a la perspectiva de género. Para ello, el alumnado deberá demostrar una recepción activa de las mismas, de manera que las escuchen, observen o visionen, y exploren sus características con actitud abierta e interés, estableciendo relaciones entre ellas y con su contexto histórico y social, y demostrando que comprenden las diferencias; además de con curiosidad, sensibilidad, respeto y valoración hacia la diversidad de las mismas. Se comprobará que el alumnado es capaz de realizar búsquedas guiadas en internet, con el debido acompañamiento, relacionadas con estas manifestaciones artísticas, aplicando estrategias básicas de análisis. Todo ello con la finalidad de que el alumnado descubra, reconozca y aprecie las especificidades en intencionalidades de las diversas manifestaciones culturales y artísticas, comprendiendo la necesidad de respetarlas y conservarlas."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "descriptores": [
+          "CCL2",
+          "CCL3",
+          "CP3",
+          "CD1",
+          "CD4",
+          "CPSAA3",
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de seleccionar y aplicar estrategias sencillas de tratamiento de la información (localizar, seleccionar, contrastar…) para la búsqueda de información, tanto de manera individual como cooperativa, de fuentes diversas, incluyendo las digitales, sobre distintas manifestaciones que forman parte del patrimonio cultural y artístico de Canarias y de diferentes corrientes estéticas, procedencias y épocas, producidas por creadoras y creadores locales, regionales, nacionales e internacionales, de las artes plásticas y visuales, las artes audiovisuales, la música y las artes escénicas y performativas, a través de distintos canales y medios de acceso, comparando su significado, lenguajes y elementos técnicos característicos (vocabulario específico, técnicas, materiales, medios, soportes y profesiones vinculadas). Asimismo, se verificará que el alumnado comprende sus diferencias y similitudes, y valora la diversidad como factor de diálogo y elemento para la mejora de la convivencia. Se comprobará que el alumnado valora las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, de manera que pueda alcanzar y afianzar un sentido progresivo de pertenencia e identidad, siendo capaz de cooperar con sus iguales, con una actitud abierta, dialogante, respetuosa e inclusiva y teniendo en cuenta la perspectiva de género. Todo ello con la finalidad de disfrutar de las mismas, entender su valor, respetar su autoría y empezar a desarrollar una sensibilidad artística propia."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de expresar y comunicar de manera creativa ideas, sentimientos y emociones mediante la experimentación con elementos de los distintos lenguajes e instrumentos artísticos y la utilización de diferentes herramientas (instrumentos artísticos y herramientas digitales), integrando su propio cuerpo, interactuando con el entorno y desarrollando sus capacidades afectivas. Para ello, se comprobará que el alumnado tiene la capacidad de explorar, conocer, descubrir y manejar diferentes códigos, técnicas, materiales, instrumentos, medios y soportes, con actitud abierta e inclusiva y perfeccionando la ejecución. En este sentido, el alumnado deberá demostrar que utiliza de manera creativa elementos configurativos de los lenguajes visual, audiovisual, musical y dramático, en diferentes contextos comunicativos, por medio de la práctica instrumental, vocal y corporal de manifestaciones propias del patrimonio cultural y artístico de Canarias y de diferentes estilos, géneros, épocas y culturas. Del mismo modo, se verificará que el alumnado elabora propuestas artísticas personales, atendiendo a las fases del proceso creativo, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen, herramientas analógicas y tecnologías digitales, mostrando confianza en las propias capacidades, aplicando estrategias de aprendizaje autorregulado y valorando las aportaciones de otras personas del grupo como fuente de conocimiento. Todo ello con la finalidad de que el alumnado muestre interés tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales, musicales, escénicas y performativas; disfrute del arte; comprenda sus posibilidades comunicativas y expresivas; perciba la intencionalidad en las manifestaciones culturales; y llegue a producir obras propias como medio para canalizar sus ideas, sentimientos y emociones, desde una visión crítica e informada."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2",
+          "4.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se constatará que el alumnado es capaz de planificar y diseñar proyectos relacionados con las artes a través de la interacción en grupo, desempeñando funciones asignadas y con el objetivo común de un producto consensuado, como medio para desarrollar la igualdad, el respeto a la diversidad, la creatividad y el sentido emprendedor. De esta manera, el alumnado deberá utilizar elementos de diferentes lenguajes y técnicas artísticas para elaborar sus propuestas. Asimismo, deberá reconocer necesidades y retos que afrontar, planificar tareas y cooperar con el equipo para lograr un objetivo final, haciendo un uso responsable de los recursos y entendiendo las características y funciones de las diferentes profesiones vinculadas con las artes. Finalmente, se verificará que el alumnado es capaz de comunicar la experiencia creativa en diferentes espacios y canales, verbalizando tanto las fases del proceso como el resultado final, desarrollando sus capacidades creativas y sirviéndose de la experiencia para entender la noción de autoría y el sentido de pertenencia."
+      }
+    ]
   }
 }

@@ -11,6 +11,15 @@ Cada agente es dueño de sus ficheros: nadie edita los de otro. El coordinador i
 | Growth / SEO | SEO programático, sitemap, enlazado interno | `seo/**`, `produccion/public/recursos/**`, `sitemap.xml`, `robots.txt` | Cada lote de temas nuevos |
 | QA y seguridad | Revisión independiente, tests y endurecimiento | `tests/**`, `docs/qa/**`, y correcciones en worker, engines y template | En cada versión antes de desplegar |
 
+## Ronda 2 (17/11/2026, en curso)
+
+| Agente | Misión | Ficheros |
+| --- | --- | --- |
+| Curriculista fase 2 | Saberes básicos, explicaciones de los bloques competenciales y cotejo de descriptores desde el PDF oficial | `data/canarias/primaria/*.json`, `tools/extraer_saberes_canarias.py` |
+| Contenido y captación | 10 SA de ejemplo para SEO, lead magnet, 7 emails, carruseles, afiliados | `seo/ejemplos/**`, `marketing/**` |
+| Módulo opositor | Programación conforme a las bases de Canarias, guion de exposición y validador de formato | `shared/prompts.js` (solo su parte), template, engines, `shared/validador-oposicion.js`, worker, tests |
+| Legal y cumplimiento | Aviso legal, privacidad, condiciones, cookies, compatibilidad docente, fiscalidad canaria, RGPD | `produccion/public/legal/**`, `docs/legal/**`, pie de la landing |
+
 ## Agentes previstos para fases siguientes
 
 | Agente | Cuándo | Misión |

@@ -1089,15 +1089,921 @@
       ]
     }
   },
-  "pendiente": [
-    "Saberes básicos por ciclo (bloques Cultura científica; Tecnología y digitalización; Sociedades y territorios): no transcritos; el decreto no los vincula criterio a criterio.",
-    "Enunciados de competencias tomados del apartado general/primer ciclo; comprobar que coinciden en los tres ciclos.",
-    "Saberes básicos por bloque y ciclo sin extraer",
-    "Descriptores operativos no cotejados automáticamente (revisar a mano si se citan en documentos oficiales)"
-  ],
+  "pendiente": [],
   "cotejo": {
     "fecha": "2026-11-17",
     "metodo": "tools/verificar_criterios_canarias.py: comparación palabra a palabra con pdftotext del PDF oficial",
-    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)"
+    "resultado": "criterios y competencias coinciden literalmente (diferencias solo por maquetación del PDF: guiones partidos y celdas de descriptores intercaladas)",
+    "fase2": {
+      "fecha": "2026-11-17",
+      "metodo": "tools/extraer_saberes_canarias.py sobre pdftotext -layout del PDF oficial",
+      "saberes": "literales, por ciclo y bloque, con la numeración del BOC",
+      "bloques": "explicación del bloque competencial literal, por ciclo",
+      "descriptores": "0 corregidos; el resto coincide con la columna de descriptores del PDF",
+      "enunciados": "cada enunciado de competencia coincide con el del bloque competencial de cada ciclo",
+      "descriptores_corregidos": []
+    }
+  },
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "I. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "1. Iniciación en la actividad científica.",
+            "items": [
+              "1.1. Iniciación a los procedimientos de indagación adecuados a las necesidades de la investigación (observación en el tiempo, identificación y clasificación, búsqueda de patrones…).",
+              "1.2. Fomento de la curiosidad y la iniciativa en la realización de las diferentes investigaciones, a partir de estrategias cooperativas contextualizadas en el medio natural, social y cultural de Canarias.",
+              "1.3. Iniciación a la utilización de instrumentos y dispositivos apropiados para realizar observaciones y mediciones guiadas, de acuerdo con las necesidades de las diferentes investigaciones.",
+              "1.4. Acercamiento al vocabulario científico básico relacionado con las diferentes investigaciones para comunicar conocimientos que permitan una aproximación a la ciencia en Canarias.",
+              "1.5. Reconocimiento de las profesiones relacionadas con la ciencia y la tecnología, especialmente las que se desempeñan en el archipiélago canario, evitando estereotipos sexistas y promocionando las vocaciones STEAM en las niñas."
+            ]
+          },
+          {
+            "apartado": "2. La vida en nuestro planeta.",
+            "items": [
+              "2.1. Identificación de las necesidades básicas de los seres vivos, incluido el ser humano, y de las diferencias con los objetos inertes.",
+              "2.2. Identificación de las adaptaciones de los seres vivos, incluido el ser humano, a su hábitat, concebido como el lugar en el que cubren sus necesidades.",
+              "2.3. Clasificación e identificación de los seres vivos, incluido el ser humano, de acuerdo con sus características observables, para reconocer y representar la diversidad corporal humana, y de las especies animales y vegetales más representativas de la biodiversidad del archipiélago canario.",
+              "2.4. Reconocimiento de las relaciones entre los seres humanos, los animales y las plantas.",
+              "2.5. Promoción del cuidado y respeto a los seres vivos y al entorno en el que viven, evitando la degradación del suelo, el aire o el agua en nuestras islas.",
+              "2.6. Reconocimiento de estilos de vida saludables relacionados con el bienestar físico del ser humano: alimentación variada, equilibrada y sostenible, higiene, ejercicio físico, contacto con la naturaleza, descanso y cuidado del cuerpo, como medios para prevenir posibles enfermedades, y uso adecuado de las tecnologías.",
+              "2.7. Reconocimiento de estilos de vida saludables relacionados con el bienestar emocional y social: desarrollo de la conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco y sorpresa), la regulación emocional (autocontrol impulsivo y ajuste afectivo) y la vinculación emocional (empatía). Sensibilidad y aceptación de la diversidad presente en el aula y en la sociedad desde un modelo inclusivo, que incluya la educación afectivo-sexual, adaptada al nivel madurativo del alumnado."
+            ]
+          },
+          {
+            "apartado": "3. Materia, fuerzas y energía.",
+            "items": [
+              "3.1. Identificación de la luz y del sonido. Valoración del uso responsable de las formas de energía necesarias para la vida cotidiana.",
+              "3.2. Reconocimiento de las propiedades observables de los materiales, su procedencia y su uso en objetos de la vida cotidiana, de acuerdo con las necesidades de diseño para los que fueron fabricados.",
+              "3.3. Reconocimiento de las sustancias puras y las mezclas, a través de la identificación de mezclas homogéneas y heterogéneas, y la separación de las mezclas heterogéneas mediante distintos métodos.",
+              "3.4. Identificación de estructuras resistentes, estables y útiles."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "1.1. Iniciación al uso adecuado de dispositivos y recursos del entorno digital de aprendizaje, de acuerdo con las necesidades del contexto educativo.",
+              "1.2. Iniciación pautada en el uso de estrategias de búsqueda guiada de información segura en internet (localización, selección y organización). Reconocimiento de la autoría y respeto por la propiedad intelectual.",
+              "1.3. Acercamiento a los recursos digitales para comunicarse con personas cercanas en entornos conocidos y seguros.",
+              "1.4. Iniciación al conocimiento de las reglas básicas de seguridad y privacidad para navegar por internet."
+            ]
+          },
+          {
+            "apartado": "2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "2.1. Iniciación a las fases de los proyectos de diseño: prototipado, prueba y comunicación, para dar respuestas a retos sencillos y sostenibles.",
+              "2.2. Exploración de materiales adecuados a la consecución de un proyecto de diseño.",
+              "2.3. Iniciación a la programación a través de recursos analógicos o digitales adaptados al nivel lector del alumnado (actividades desenchufadas, plataformas digitales de iniciación en la programación, robótica educativa…).",
+              "2.4. Desarrollo de estrategias básicas de trabajo en equipo."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "1. Retos del mundo actual.",
+            "items": [
+              "1.1. Identificación de la Tierra en el universo. Reconocimiento de elementos, movimientos y dinámicas relacionados con la Tierra y el universo, y sus consecuencias en la vida diaria y en el entorno. Valoración de las secuencias temporales y los cambios estacionales.",
+              "1.2. El origen volcánico de nuestro archipiélago. Aproximación al vulcanismo en Canarias (elementos principales del volcán y medidas de seguridad básicas ante una erupción volcánica).",
+              "1.3. Reconocimiento de la vida en la Tierra a través de la observación de fenómenos atmosféricos y su repercusión en los ciclos biológicos y en la vida diaria, y del registro de datos del tiempo atmosférico en Canarias.",
+              "1.4. Resolución de retos sobre situaciones cotidianas: itinerarios y trayectos, desplazamientos y viajes, a través del reconocimiento de los medios de transportes marítimos y aéreos para conectar el archipiélago. Desarrollo de funciones básicas del pensamiento espacial y temporal para la interacción con el medio."
+            ]
+          },
+          {
+            "apartado": "2. Sociedades en el tiempo.",
+            "items": [
+              "2.1. Desarrollo de la percepción del tiempo por medio del reconocimiento y uso de la medida temporal en la vida cotidiana, en el ciclo vital y en las relaciones intergeneracionales.",
+              "2.2. Uso de objetos y artefactos de la vida cotidiana como fuentes para reflexionar sobre el cambio y la continuidad, las causas y consecuencias.",
+              "2.3. Iniciación al uso de recursos y medios analógicos y digitales, como fuentes de información, de mostrando interés por la importancia de las fuentes orales como memoria colectiva para reconocer la historia local, la biografía familiar, así como el papel de mujeres y hombres como sujetos de la historia.",
+              "2.4. Identificación de las expresiones y producciones artísticas a través del tiempo, para reconocer y apreciar el patrimonio cultural canario (material e inmaterial), a través de la sensibilización hacia la conservación de las costumbres y manifestaciones culturales del entorno cercano.",
+              "2.5. Reconocimiento de algunas de las principales características de los aborígenes canarios y su modo de vida."
+            ]
+          },
+          {
+            "apartado": "3. Alfabetización cívica.",
+            "items": [
+              "3.1. Reconocimiento de la vida en colectividad: pertenencia a la familia y aceptación de la diversidad familiar.",
+              "3.2. Adquisición de compromisos, corresponsabilidad, participación y aceptación de normas en el entorno familiar, vecinal y escolar, para prevenir, gestionar y resolver los conflictos, favoreciendo la convivencia, la cultura de paz y no violencia, y la inclusión, y rechazando las actitudes discriminatorias.",
+              "3.3. Reflexión sobre la vida en sociedad mediante el reconocimiento de los espacios, recursos y servicios del municipio, y la valoración de formas y modos de interacción social en espacios públicos inclusivos e igualitarios.",
+              "3.4. Demostrar compresión de la identidad y la diversidad cultural, mediante el reconocimiento de la existencia de realidades diferentes y la aproximación a las distintas etnoculturas presentes en el entorno, y del hecho de que la cultura canaria es el resultado del mestizaje de nuestra herencia europea, indígena y africana.",
+              "3.5. Reconocimiento de la cultura popular canaria: valores, símbolos, comportamiento y convicciones que caracterizan y distinguen a la sociedad canaria.",
+              "3.6. Diferenciación entre ocupación y trabajo, e identificación de las principales actividades profesionales y laborales de mujeres y hombres en el entorno cercano.",
+              "3.7. Reconocimiento de la importancia de la igualdad de oportunidades entre mujeres y hombres, y valoración de conductas no sexistas.",
+              "3.8. Reconocimiento y aplicación de las normas básicas de seguridad vial en los desplazamientos como peatones o como personas usuarias de los medios de locomoción, entendiendo la ciudad como espacio de convivencia."
+            ]
+          },
+          {
+            "apartado": "4. Conciencia ecosocial.",
+            "items": [
+              "4.1. Reconocimiento e identificación de los efectos principales de la acción humana sobre el medio y sus consecuencias, especialmente en Canarias, diferenciando entre paisajes naturales y paisajes humanizados, y sus elementos.",
+              "4.2. Fomento de la responsabilidad ecosocial a través de la participación en acciones para la conservación, la mejora y el uso sostenible de los bienes comunes.",
+              "4.3. Rechazo del maltrato animal e identificación de acciones para su prevención.",
+              "4.4. Identificación de estilos de vida sostenibles sobre el uso responsable del agua, la movilidad segura, saludable y sostenible, y la prevención y la gestión de los residuos, especialmente en Canarias.",
+              "4.5. Importancia del cuidado del planeta a través del conocimiento científico presente en la vida cotidiana del municipio, de la isla, de la provincia o del archipiélago canario."
+            ]
+          }
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "I. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "1. Iniciación en la actividad científica.",
+            "items": [
+              "1.1. Iniciación a la investigación científica (observación en el tiempo, identificación y clasificación, búsqueda de patrones, creación de modelos, investigación guiada a través de búsqueda de información, experimentos pautados con control de variables…).",
+              "1.2. Fomento de la curiosidad, la iniciativa y la constancia en la realización de las diferentes investigaciones contextualizadas en el medio natural, social y cultural de Canarias, a partir de estrategias cooperativas.",
+              "1.3. Manipulación de instrumentos, dispositivos y herramientas digitales apropiados para realizar observaciones y mediciones, de acuerdo con las necesidades de la investigación.",
+              "1.4. Identificación de vocabulario científico básico relacionado con las diferentes investigaciones para comunicar y construir nuevos conocimientos, reconociendo la importancia de la ciencia en Canarias.",
+              "1.5. Reconocimiento de los avances en el pasado relacionados con la ciencia y la tecnología que han contribuido a transformar nuestra sociedad, visibilizando la aportación histórica de las mujeres.",
+              "1.6. Valoración del uso de la ciencia y la tecnología para ayudar a comprender las causas de las propias acciones, tomar decisiones razonadas y realizar tareas de forma más eficiente."
+            ]
+          },
+          {
+            "apartado": "2. La vida en nuestro planeta.",
+            "items": [
+              "2.1. Reconocimiento de los reinos de la naturaleza desde una perspectiva general e integrada, valorando la biodiversidad, a partir del estudio y análisis de las características de diferentes ecosistemas, sus funciones y servicios como lugar donde intervienen factores bióticos y abióticos, manteniéndose un equilibrio entre los diferentes elementos y recursos.",
+              "2.2. Comprensión del carácter excepcional de la biodiversidad canaria: conceptos básicos (endemismo y autoctonismo) e introducción a los ecosistemas canarios (fondos rocosos, sebadal, matorral costero, termófilo, monteverde, jaral, pinar, matorral de cumbre...).",
+              "2.3. Identificación de las características propias de los animales y de las plantas que permiten su clasificación y diferenciación en subgrupos relacionados con su capacidad adaptativa al medio: obtención de energía, relación con el entorno y perpetuación de la especie. Reconocimiento e identificación de las especies animales y vegetales más representativas de Canarias.",
+              "2.4. Identificación de la relación del ser humano con los ecosistemas para cubrir las necesidades de la sociedad. Ejemplos de buenos y malos usos de los recursos naturales de nuestro planeta, especialmente en nuestro archipiélago canario, y sus consecuencias.",
+              "2.5. Identificación de las formas de relieve más relevantes y clasificación elemental de las rocas. Reconocimiento de las particularidades geológicas de la formación de las islas Canarias con respecto a otros procesos geológico y de los volcanes principales de Canarias.",
+              "2.6. Valoración del agua como elemento imprescindible para la vida: hidrosfera, aguas subterráneas, ciclo del agua, uso, formas de ahorro y consumo responsable, en especial en Canarias.",
+              "2.7. Desarrollo de estilos de vida saludables relacionados con el bienestar físico del ser humano: alimentación variada, equilibrada y sostenible, higiene, ejercicio físico, contacto con la naturaleza, descanso y cuidado del cuerpo, uso adecuado de las tecnologías.",
+              "2.8. Desarrollo de estilos de vida saludables relacionados con el bienestar emocional y social: conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco, sorpresa, culpa y vergüenza), regulación emocional (autocontrol impulsivo, ajuste afectivo y responsabilidad emocional) y vinculación emocional (empatía y comunicación emocional). Relaciones afectivas saludables, cuidados de las personas, corresponsabilidad e inclusión a partir de la educación afectivo-sexual, adaptada a su nivel madurativo."
+            ]
+          },
+          {
+            "apartado": "3. Materia, fuerzas y energía.",
+            "items": [
+              "3.1. Reconocimiento del calor como mecanismo de transferencia de energía. Cambios de estado, materiales conductores y aislantes, instrumentos de medición y aplicaciones en la vida cotidiana, mediante sencillas experiencias.",
+              "3.2. Observación de los cambios reversibles e irreversibles que experimenta la materia, desde un estado inicial a uno final, identificando los procesos y las transformaciones que experimenta en situaciones de la vida cotidiana.",
+              "3.3. Reconocimiento de las fuerzas de contacto y a distancia, y sus efectos, mediante experimentos elementales.",
+              "3.4. Reconocimiento de las propiedades de las máquinas simples, aplicaciones y usos en la vida cotidiana y su efecto sobre las fuerzas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "1.1. Utilización de dispositivos y recursos del entorno digital de aprendizaje, de acuerdo con las necesidades del contexto educativo.",
+              "1.2. Aplicación de las estrategias de búsquedas guiadas de información seguras y responsables en internet (valoración, discriminación, selección y organización). Reconocimiento de la autoría y respeto por la propiedad intelectual.",
+              "1.3. Uso de reglas básicas de seguridad y privacidad para navegar por internet y para proteger el entorno digital personal de aprendizaje.",
+              "1.4. Reconocimiento de recursos y participación en plataformas digitales restringidas y seguras, para comunicarse con otras personas y trabajar cooperativamente, haciendo uso de la etiqueta digital, de las reglas básicas de cortesía y respeto, y de estrategias para resolver problemas en la comunicación digital.",
+              "1.5. Desarrollo de estrategias de actuación para fomentar el bienestar digital, físico y mental, a través del reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, acceso a contenidos inadecuados, publicidad y correos no deseados, etc.)."
+            ]
+          },
+          {
+            "apartado": "2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "2.1. Aplicación de las fases de los proyectos de diseño: diseño, prototipado, prueba y comunicación, para dar respuestas sostenibles a un reto o problema del entorno físico, natural, social, cultural o tecnológico.",
+              "2.2. Utilización de herramientas, técnicas y materiales adecuados a la consecución de un proyecto de diseño.",
+              "2.3. Iniciación a la programación a través de recursos analógicos (actividades desenchufadas) y digitales (plataformas digitales de iniciación en la programación, aplicaciones de programación por bloques, robótica educativa…).",
+              "2.4. Desarrollo de técnicas cooperativas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos y la promoción de conductas empáticas e inclusivas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "1. Retos del mundo actual.",
+            "items": [
+              "1.1. Descripción de la Tierra y las catástrofes naturales: elementos, movimientos, (traslación, rotación y sus consecuencias), dinámicas que ocurren en el universo y su relación con fenómenos físicos que afectan a la Tierra y repercuten en la vida diaria y en el entorno. Reconocimiento de la formación de las islas Canarias, tipos de vulcanismo e impacto en la vida de las personas.",
+              "1.2. Reconocimiento del espacio a partir de la representación de la Tierra a través del globo terráqueo, los mapas y otros recursos digitales, la interpretación de mapas y planos en distintas escalas y las técnicas de orientación mediante la observación de los elementos del medio físico, puntos cardinales y otros medios de localización espacial (GPS).",
+              "1.3. Reconocimiento del clima y el paisaje, los fenómenos atmosféricos, la toma y registro de datos meteorológicos y su representación gráfica y visual, desde las tecnologías de la información geográfica (TIG). Identificación de los tipos de clima en España y en Canarias, relacionando las zonas climáticas con la diversidad de paisajes.",
+              "1.4. Análisis de los principales problemas y retos demográficos mundiales y propios de la Comunidad Autónoma de Canarias, como la fragmentación del territorio por su carácter insular y las implicaciones del aislamiento del archipiélago. Reconocimiento de los factores que modifican la ocupación y distribución de la población en el espacio. Representación gráfica y cartográfica de la población. Reconocimiento de la organización del territorio en Canarias, en España y en Europa.",
+              "1.5. Conciencia de la desigualdad social y diferencias de acceso a los recursos. Usos del espacio por el ser humano y reconocimiento de las actividades productivas y su evolución, con especial atención a los sectores productivos en Canarias. El valor, el control del dinero y los medios de pago, de la supervivencia a la sobreproducción."
+            ]
+          },
+          {
+            "apartado": "2. Sociedades en el tiempo.",
+            "items": [
+              "2.1. Adquisición de nociones básicas de tiempo histórico: temporales y cronología, mediante la ubicación temporal de las grandes etapas históricas.",
+              "2.2. Clasificación y utilización de las distintas fuentes históricas (orales, escritas, patrimoniales y museísticas), como vía para el análisis de los cambios y las permanencias en la localidad a lo largo de la historia. Reconocimiento de las huellas de la historia en lugares, edificios, objetos, oficios o tradiciones del municipio, isla o archipiélago.",
+              "2.3. Iniciación en la investigación y en los métodos de trabajo para la realización de proyectos, que analicen hechos, asuntos y temas de relevancia actual con perspectiva histórica, contextualizándolos en la época correspondiente (Prehistoria y Edad Antigua), como la supervivencia y la alimentación, la vivienda, los intercambios comerciales (de dónde viene el dinero, los trabajos no remunerados), la explotación de bienes comunes y recursos, o los avances técnicos.",
+              "2.4. Valoración de la acción de mujeres y hombres, como sujetos de la historia. Interpretación del papel de las personas individuales y de los distintos grupos sociales: relaciones, conflictos, creencias y condicionantes en la Prehistoria y la Edad Antigua.",
+              "2.5. Reconocimiento de las expresiones artísticas y culturales, en la Prehistoria y la Edad Antigua, su contextualización histórica y su función, visibilizando las aportaciones y la representación de las mujeres en ellas.",
+              "2.6. Valoración del patrimonio cultural y del natural local, insular y estatal. Uso, cuidado y conservación de los espacios protegidos, culturales y naturales, reconociendo los Parques Nacionales de Canarias."
+            ]
+          },
+          {
+            "apartado": "3. Alfabetización cívica.",
+            "items": [
+              "3.1. Reconocimiento de las costumbres, tradiciones y manifestaciones etnoculturales del entorno; así como de la identidad cultural canaria, como resultado de un proceso de diálogo constante entre lo local y foráneo. Respeto por la diversidad y la cohesión social desde la promoción de la cultura de paz y no violencia.",
+              "3.2. Identificación de la organización política y territorial de España, partiendo del reconocimiento de la misma en Canarias.",
+              "3.3. Reconocimiento de la organización y el funcionamiento de la sociedad: las principales instituciones y entidades, la estructura administrativa y los servicios públicos que prestan en el entorno local, autonómico (los cabildos insulares como elemento intermedio entre los ayuntamientos y el gobierno autonómico) y nacional.",
+              "3.4. Fomento de la igualdad de oportunidades entre mujeres y hombres, y de conductas no sexistas. Reconocimiento del valor de mujeres referentes en el contexto del patrimonio social, cultural e histórico canario, y de las mujeres rurales de Canarias.",
+              "3.5. Conciencia de la seguridad vial, valorando la ciudad como espacio de convivencia inclusiva e igualitaria, a través de la adquisición de normas de circulación, la identificación de las señales y las marcas viales, y el desarrollo de la movilidad segura, saludable y sostenible como peatones o como personas usuarias de los medios de locomoción."
+            ]
+          },
+          {
+            "apartado": "4. Conciencia ecosocial.",
+            "items": [
+              "4.1. Introducción a las causas y consecuencias del cambio climático, y su impacto en los paisajes de la Tierra a nivel mundial y a nivel local en nuestro archipiélago. Medidas de mitigación y de adaptación.",
+              "4.2. Fomento de la responsabilidad ecosocial: ecodependencia e interdependencia entre personas, sociedades y medio natural.",
+              "4.3. Valoración de la transformación y la degradación de los ecosistemas naturales por la acción humana, y desarrollo de acciones para la conservación y protección de la naturaleza y la prevención del maltrato animal.",
+              "4.4. Reconocimiento de estilos de vida sostenibles: el consumo y la producción responsables, la alimentación sostenible, el uso eficiente del agua y la energía, y la prevención y la gestión de los residuos en Canarias."
+            ]
+          }
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "I. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "1. Iniciación a la actividad científica.",
+            "items": [
+              "1.1. Iniciación a la investigación científica (observación, formulación de preguntas y predicciones, diseño y realización de experimentos guiados, recogida y análisis de información y datos, comunicación de resultados…) para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural.",
+              "1.2. Fomento de la curiosidad, la iniciativa, la constancia y el sentido de la responsabilidad en la realización de las diferentes investigaciones a partir de estrategias cooperativas.",
+              "1.3. Utilización de instrumentos, dispositivos y herramientas digitales apropiados, para realizar observaciones y mediciones precisas de acuerdo con las necesidades de la investigación.",
+              "1.4. Uso del vocabulario científico apropiado relacionado con las diferentes investigaciones para comunicar, compartir y construir nuevos conocimientos.",
+              "1.5. Valoración de la ciencia, la tecnología y la ingeniería como actividades humanas: las profesiones STEM en la actualidad evitando estereotipos sexistas. Desarrollo de la ciencia en Canarias.",
+              "1.6. Reconocimiento de la relación entre los avances en matemáticas, ciencia, ingeniería y tecnología, y la evolución de la sociedad en el ámbito científico-tecnológico para divulgar esos conocimientos."
+            ]
+          },
+          {
+            "apartado": "2. La vida en nuestro planeta.",
+            "items": [
+              "2.1. Clasificación básica de rocas y minerales. Usos y explotación sostenible de los recursos geológicos, especialmente en Canarias.",
+              "2.2. Identificación de los procesos geológicos básicos de formación y modelado del relieve, aplicando el conocimiento al medio natural canario. Reconocimiento de las particularidades geológicas de formación de las islas Canarias con respecto a otros procesos geológicos (tectónica, sedimentología, etc.).",
+              "2.3. Protección del entorno a partir del reconocimiento y la valoración de los principales ecosistemas y sus paisajes. Acercamiento a la fragilidad de los ecosistemas canarios y el impacto antrópico.",
+              "2.4. Descripción de las funciones vitales básicas del ser humano desde una perspectiva integrada: obtención de energía, relación con el entorno y perpetuación de la especie.",
+              "2.5. Reconocimiento de los cambios físicos, emocionales y sociales que conllevan la pubertad y la adolescencia, para favorecer su aceptación de forma positiva desde la educación afectivo-sexual, adaptada a su nivel madurativo.",
+              "2.6. Desarrollo de pautas para una alimentación saludable y sostenible: diseño de menús saludables, sostenibles y equilibrados. La importancia de la cesta de la compra y del etiquetado de los productos alimenticios para conocer sus nutrientes y su aporte energético.",
+              "2.7. Adopción de estilos de vida saludables a través de pautas que fomenten una salud física, emocional y social adecuadas: higiene del sueño, prevención y consecuencias del consumo de drogas (legales e ilegales), gestión saludable del ocio y del tiempo libre, contacto con la naturaleza, uso adecuado de las tecnologías.",
+              "2.8. Conocimiento de actuaciones básicas de primeros auxilios y pautas para la prevención de riesgos y accidentes.",
+              "2.9. Aplicación de estilos de vida saludables relacionados con el bienestar emocional y social: conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco, sorpresa, culpa, vergüenza, ansiedad, seguridad y amor), regulación emocional (autocontrol impulsivo, ajuste afectivo y responsabilidad emocional), cambio emocional (compensación emocional) y vinculación emocional (empatía y comunicación emocional). Estrategias para el fomento de relaciones afectivas y sociales saludables y de los cuidados de las personas desde la corresponsabilidad e inclusión."
+            ]
+          },
+          {
+            "apartado": "3. Materia, fuerzas y energía.",
+            "items": [
+              "3.1. Utilización de instrumentos para calcular la masa, el volumen y la capacidad de un objeto. El concepto de densidad y su relación con la flotabilidad de un objeto en un líquido.",
+              "3.2. Identificación de las formas de energía, las fuentes y las transformaciones, describiendo las fuentes de energías renovables y no renovables, y su influencia en la contribución al desarrollo sostenible de la sociedad. Reconocimiento del modelo de isla sostenible en Canarias.",
+              "3.3. Uso en la vida cotidiana de la energía eléctrica: fuentes, transformaciones, transferencia, circuitos eléctricos y estructuras robotizadas.",
+              "3.4. Iniciación a los principios básicos del vuelo a través del conocimiento de diferentes artefactos voladores."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "II. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "1.1. Utilización de dispositivos y recursos del entorno digital de aprendizaje de acuerdo con las necesidades del contexto educativo.",
+              "1.2. Aplicación de estrategias de búsqueda de información seguras, responsables y eficientes en internet (valoración, discriminación, selección y organización). Reconocimiento de la autoría y respeto por la propiedad intelectual.",
+              "1.3. Empleo de estrategias de recogida, almacenamiento y representación de datos en diversos formatos, para facilitar su comprensión y análisis.",
+              "1.4. Adopción de reglas básicas de seguridad y privacidad para navegar por internet y para proteger el entorno digital personal de aprendizaje.",
+              "1.5. Reconocimiento de recursos y participación en plataformas digitales restringidas y seguras para comunicarse con otras personas, trabajar cooperativamente, compartir datos y contenidos supervisados de manera segura, a partir del uso de la etiqueta digital, reglas básicas de cortesía y respeto, y estrategias para resolver problemas en la comunicación digital.",
+              "1.6. Desarrollo de estrategias de actuación para fomentar el bienestar digital físico y mental a través del reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, dependencia tecnológica, acceso a contenidos inadecuados, etc.)."
+            ]
+          },
+          {
+            "apartado": "2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "2.1. Aplicación de las fases de los proyectos de diseño: identificación de necesidades, diseño, prototipado, prueba, evaluación y comunicación, para dar respuesta a un reto o problema del entorno físico, natural, social, cultural o tecnológico.",
+              "2.2. Utilización de herramientas, dispositivos, técnicas, materiales y recursos digitales (programación por bloques, sensores, motores, simuladores, impresoras 3D…), seguros y adecuados a la consecución del proyecto.",
+              "2.3. Aplicación de las fases del pensamiento computacional (descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución…) para dar respuesta a un reto o problema del entorno físico, natural, social, cultural o tecnológico, de forma sostenible.",
+              "2.4. Desarrollo de estrategias creativas en situaciones de incertidumbre (detección de necesidades y oportunidades, adaptación y cambio de propuesta cuando sea necesario, valoración del error propio y ajeno como fuente de aprendizaje, valoración de la diversidad como enriquecimiento en el desempeño cooperativo)."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "III. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "1. Retos del mundo actual.",
+            "items": [
+              "1.1. Análisis del futuro de la Tierra y del universo a través de la identificación de los fenómenos físicos y su repercusión en la vida diaria y en el entorno, la exploración espacial, la observación del cielo en Canarias y la contaminación lumínica.",
+              "1.2. Explicación del cambio climático: introducción a la dinámica atmosférica y a las grandes áreas climáticas del mundo.",
+              "1.3. Valoración del entorno natural, de la diversidad geográfica de la España continental e insular, y de Europa. Representación gráfica, visual y cartográfica a través de medios y recursos analógicos y digitales, usando las Tecnologías de la Información Geográfica (TIG).",
+              "1.4. Conocimiento y aprecio de la diversidad cultural, y en especial en el entorno insular, a través del análisis de los movimientos migratorios, teniendo en cuenta particularmente los que afectan a Canarias; las principales variables demográficas y su representación gráfica; los comportamientos de la población y su evolución; el contraste entre zonas urbanas y despoblación rural.",
+              "1.5. Desarrollo de la ciudadanía activa: fundamentos y principios para la organización política y gestión del territorio en España, y para la participación social y ciudadana europea, nacional y local.",
+              "1.6. Promoción de la igualdad y conductas no sexistas, a través del desarrollo del pensamiento crítico de los estereotipos y roles en los distintos ámbitos (académico, profesional, social y cultural), y de acciones para la igualdad efectiva entre mujeres y hombres, valorando las mujeres referentes en el contexto del patrimonio social, cultural e histórico canario, y de las mujeres rurales de Canarias.",
+              "1.7. Identificación y aplicación de estrategias para el desarrollo universal: inclusión, equidad y accesibilidad."
+            ]
+          },
+          {
+            "apartado": "2. Sociedades en el tiempo.",
+            "items": [
+              "2.1. Clasificación y utilización de las distintas fuentes históricas (orales, escritas, patrimoniales y museísticas), para identificar y relacionar las acciones y hechos más destacados en la historia (Edad Media, Edad Moderna y Edad Contemporánea), así como el papel representado por los sujetos históricos (individuales y colectivos), acontecimientos y procesos. La sociedad indígena canaria y su modo de vida y la conquista de las islas Canarias.",
+              "2.2. Valoración de los principales movimientos en defensa de los derechos de las mujeres, analizando la situación actual y los retos de futuro en la igualdad de oportunidades entre mujeres y hombres, a nivel mundial, nacional y en Canarias.",
+              "2.3. Importancia de la memoria democrática: análisis multicausal del proceso de construcción de la democracia en España, la constitución española de 1978 y fórmulas para la participación de la ciudadanía en la vida pública.",
+              "2.4. Identificación de las expresiones artísticas y culturales medievales, modernas y contemporáneas, su contextualización histórica, y su reflejo en Canarias. La función del arte y la cultura en el mundo medieval, moderno y contemporáneo, visibilizando las aportaciones y representación de las mujeres.",
+              "2.5. Valoración del patrimonio cultural y natural de las islas Canarias, como bien y recurso; su uso, cuidado y conservación. Aprecio por la herencia cultural local, nacional y europea."
+            ]
+          },
+          {
+            "apartado": "3. Alfabetización cívica.",
+            "items": [
+              "3.1. Reconocimiento de la diversidad cultural y lingüística de España, valorando especialmente el español de Canarias como variedad de prestigio adecuada a todas las situaciones comunicativas. Respeto y valoración de la historia y cultura de minorías étnicas presentes en nuestro país, particularmente las propias del pueblo gitano.",
+              "3.2. Reflexión y análisis de los principios y valores de los derechos humanos y de la infancia y la Constitución española de 1978, derechos y deberes de la ciudadanía así como de la contribución del Estado y sus instituciones, nacionales y locales, a la paz, la seguridad integral y la cooperación internacional para el desarrollo democrático.",
+              "3.3. Aplicación de la cultura de paz y no violencia a través del pensamiento crítico como herramienta para el análisis de los conflictos de intereses y el reconocimiento de las víctimas de la violencia.",
+              "3.4. Reconocimiento de la organización política: las principales entidades políticas y administrativas del entorno local, autonómico y nacional en España, sistemas de representación y de participación política.",
+              "3.5. Reconocimiento de las principales instituciones de España y de la Unión Europea, de sus valores, de sus funciones, de sus ámbitos de acción y su repercusión en el entorno cercano."
+            ]
+          },
+          {
+            "apartado": "4. Conciencia ecosocial.",
+            "items": [
+              "4.1. Análisis del cambio climático, de Canarias al mundo: causas, consecuencias, medidas de mitigación y adaptación.",
+              "4.2. Fomento de la responsabilidad ecosocial: ecodependencia, interdependencia e interrelación entre personas, sociedades y medio natural.",
+              "4.3. Reflexión sobre el desarrollo sostenible, el impacto de la actividad humana sobre el espacio y la explotación de los recursos, y la actividad económica y la distribución de la riqueza: desigualdad social en el mundo y en España, atendiendo especialmente a la realidad canaria. Promoción de los ODS y los retos de nuestra Comunidad Autónoma.",
+              "4.4. Reconocimiento de la Agenda Urbana Canaria y el desarrollo urbano sostenible y medidas para desarrollar la ciudad como espacio de convivencia, accesible e igualitaria.",
+              "4.5. Análisis de la economía verde, la influencia de los mercados (de bienes, financiero y laboral) en la vida de la ciudadanía, los agentes económicos y los derechos laborales de mujeres y hombres, el valor social de los impuestos, la responsabilidad social y ambiental de las empresas, la publicidad, el consumo responsable (necesidades y deseos) y los derechos del consumo, de los principales sectores económicos en Canarias y de la repercusión de la fragmentación y aislamiento del archipiélago en el comercio canario.",
+              "4.6. Identificación de estilos de vida sostenibles para favorecer un modelo de isla sostenible en Canarias. Análisis de los límites del planeta, el agotamiento de recursos y la huella ecológica."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bloques": {
+    "primer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial se comprobará que el alumnado es capaz de utilizar, con supervisión y de manera segura, saludable y sostenible, dispositivos y recursos del entorno digital de aprendizaje, de forma individual y en equipo, con el debido acompañamiento y pautas, para dar respuesta a las necesidades del contexto educativo. Se verificará, que realiza búsquedas sencillas, guiadas y seguras, en internet, procedente de distintas fuentes, que impliquen la localización, la selección y la organización de la información; que los utiliza para comunicarse con personas cercanas en entornos conocidos y seguros; y que trabaja con los dispositivos y recursos digitales cooperativamente, en el marco de proyectos de investigación, experimentación, acciones, retos, etc., contextualizados en el medio natural, social y cultural canario. Se evaluará, además, que reelabore y cree contenidos digitales sencillos, de manera pautada, para expresar ideas, sentimientos y conocimientos, adoptando un punto de vista creativo y personal, mediante el uso de diferentes herramientas digitales y formatos. Para ello, el alumnado deberá demostrar que respeta la propiedad intelectual y la autoría de los mismos. Por último, se evaluará que se inicia en el conocimiento de las reglas básicas de seguridad y privacidad para navegar por internet, con el fin de tomar conciencia progresivamente de los riesgos, aprender de forma guiada cómo evitarlos o minimizarlos, pidiendo ayuda cuando sea preciso; y para resolver los posibles problemas tecnológicos siempre de forma acompañada."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "explicacion": "A través de este bloque competencial, se aspira a que el alumnado, partiendo de la curiosidad por comprender el mundo que lo rodea, participe, de forma activa y con iniciativa, en los diferentes procesos de indagación y exploración propios del pensamiento científico, con actitud cooperativa. Se evaluará que se inicie en los procedimientos adecuados a las necesidades de la investigación, utilizando modelos propios del pensamiento científico (observación en el tiempo, identificación y clasificación, búsqueda de patrones…); y que comience a utilizar instrumentos y dispositivos apropiados, para realizar observaciones y mediciones guiadas, aprovechando la cultura digital, para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural de Canarias. Para ello, se constatará que, en las investigaciones, se plantea preguntas, busca información sencilla, participa en experimentos pautados, propone respuestas a las preguntas formuladas y comunica los resultados obtenidos, utilizando vocabulario científico básico. Se evaluará, asimismo, el conocimiento de las profesiones relacionadas con la ciencia y la tecnología, especialmente las que se desempeñan en el archipiélago canario, evitando estereotipos sexistas y promocionando las vocaciones STEAM en las niñas."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2",
+          "3.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "STEM4",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se evaluará que el alumnado sea capaz de resolver problemas elementales, de forma pautada, para generar cooperativamente un producto creativo e innovador sencillo. Se comprobará que se inicia en la aplicación de las fases de los proyectos de diseño (prototipado, prueba y comunicación) y del pensamiento computacional, acercándose a la programación a través de recursos analógicos (actividades desenchufadas) o digitales, adaptados al nivel lector del alumnado (plataformas digitales de iniciación en la programación, robótica educativa…). Para ello, el alumnado experimentará, de forma segura y creativa, con diferentes materiales adecuados a la consecución del proyecto. Se evaluará, asimismo, la capacidad del alumnado para desarrollar estrategias básicas de trabajo en equipo y si explica los pasos seguidos con ayuda de un guion y de herramientas digitales, valorando el proceso personal y grupal realizado, y el resultado obtenido."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue que el alumnado toma conciencia del propio cuerpo como vía de expresión de los sentimientos y las emociones, de manera que pueda reconocerlo y controlarlo, así como mejorar la ejecución de los movimientos y su relación con el entorno. Para ello, se evaluará que sea capaz de aplicar el conocimiento científico para reconocer y participar en acciones que favorezcan el bienestar de la persona en todas sus dimensiones; que desarrolla la conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco y sorpresa), la regulación emocional (autocontrol impulsivo y ajuste afectivo) y la vinculación emocional (empatía). Se constatará, además, que reconoce y representa la diversidad corporal, que entiende las relaciones familiares y escolares a las que pertenece, aceptando la diversidad familiar, la diversidad presente en el aula y en la sociedad, desde un modelo inclusivo y la educación afectivo-sexual, adaptada a su nivel madurativo. Se comprobará que reconozca estilos de vida saludables para su bienestar físico y mental, y que participe, en acciones cooperativas y fundamentadas científicamente, para promover la salud, valorando la importancia de una alimentación variada, equilibrada y sostenible, de la higiene, del ejercicio físico, del contacto con la naturaleza, del descanso y del cuidado del cuerpo, como medios para prevenir posibles enfermedades; y de un uso adecuado de las tecnologías."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2",
+          "5.3"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "STEM5",
+          "CD1",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de reconocer, de manera pautada, las características, la organización y las propiedades de los elementos del medio natural, social y cultural; así como las conexiones sencillas y directas entre ellos, de manera que adquiera un conocimiento científico conectado, que movilizará en las investigaciones o los proyectos que realice, y que le ayudará a visibilizar los problemas relacionados con el uso del espacio y sus transformaciones, y con los cambios y las adaptaciones protagonizados por la humanidad a través del tiempo para cubrir sus necesidades, así como las distintas organizaciones sociales que han ido desarrollándose. Se evaluará, asimismo, que demuestre y promueva actitudes de respeto ante el patrimonio cultural y el natural local, cuidando y respetando a los seres vivos y al entorno en el que vive, así como las costumbres y manifestaciones populares de la cultura canaria preservadas del pasado. Para ello, se constatará que emprende acciones originales, creativas, sostenibles y guiadas, para su uso responsable, que permitan su participación en la conservación y la creación de nuevos patrimonios."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se verificará que el alumnado identifica las causas y consecuencias de la intervención humana en el entorno próximo, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, que reconoce estilos de vida sostenibles y que demuestra interés por el respeto, el cuidados, la corresponsabilidad y la protección de los elementos y seres del planeta (el uso responsable del agua, la movilidad sostenible, la prevención y gestión de los residuos…). Se valorará que participe en acciones guiadas, de manera individual y cooperativa, para buscar soluciones valiosas a problemas ecosociales, desde la reflexión pautada y el diálogo. Se evaluará, además, que el alumnado demuestre responsabilidad ecosocial (acciones para la conservación, mejora y uso sostenible de los bienes comunes, rechazo del maltrato animal y su prevención…), de manera que se empodere como agente de cambio ecosocial desde una perspectiva emprendedora y cooperativa, a través de la participación en actividades que permitan avanzar hacia la consecución de los ODS."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "explicacion": "Este bloque competencial tiene como finalidad que el alumnado sea capaz de ordenar temporalmente hechos del entorno social y cultural cercano, empleando nociones básicas de medida y sucesión, así como de reconocer personas y grupos sociales relevantes de la historia y formas de vida del pasado, visibilizando las aportaciones y representación de las mujeres en ellas, y respetando la diversidad lingüística y cultural. Para ello, se evaluará que el alumnado desarrolla la percepción del tiempo y utiliza fuentes orales, reconociendo la importancia de la memoria colectiva, para explicar y valorar las relaciones entre diferentes elementos y acontecimientos (el ciclo vital y las relaciones intergeneracionales, objetos y artefactos de la vida cotidiana como fuentes del cambio y la continuidad, la historia local y la biografía familiar, el patrimonio material e inmaterial local…). El conocimiento y la contextualización de acontecimientos relevantes desde un punto de vista histórico resultan fundamentales para que el alumnado comprenda la forma en la que el pasado contribuye en la configuración del presente y esta en la del futuro."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de recoger información acerca de manifestaciones culturales del propio entorno, respetando la diversidad cultural que enriquece a la sociedad canaria y reconociendo su valor como factor de mejora de la convivencia y contribución al bienestar individual y colectivo de una sociedad en continua transformación. Se evaluará, también, que el alumnado muestra actitudes que fomentan la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas así como el respeto a todo tipo de diversidades; que participa en actividades comunitarias desarrollando estrategias básicas de trabajo en equipo; y que reconoce modelos positivos en el entorno cercano basados en los principios de igualdad y de respeto a los derechos humanos y de la infancia, así como a los valores del europeísmo."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2",
+          "9.3"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de establecer acuerdos democráticamente a través de la adquisición de compromisos, la corresponsabilidad, participación y aceptación de normas en el entorno familiar, vecinal y escolar, haciendo uso de diferentes sistemas de comunicación y empleando un lenguaje inclusivo y no violento, que influya en el bienestar de la comunidad. En este marco de convivencia, se valorará que pueda identificar instituciones cercanas (en especial de los ayuntamientos) y las funciones que realizan en pro de una buena cohesión social, por medio del reconocimiento de los espacios, recursos y servicios del entorno local. Además, se valorará que reconozca e interiorice normas básicas para la convivencia en el uso de los espacios públicos, especialmente como peatones o como personas usuarios de los medios de locomoción, valorando las formas y modos de interacción social en ellos para que sean inclusivos e igualitarios, y tomando conciencia de la importancia de una movilidad segura, saludable y sostenible."
+      }
+    ],
+    "segundo": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de utilizar dispositivos y recursos del entorno digital de aprendizaje, de forma segura, responsable, saludable y sostenible, individualmente y en equipo, con acompañamiento del profesorado, para dar respuesta a las necesidades del contexto educativo. Se verificará que realiza búsquedas guiadas, procedente de dos o más fuentes, a través de estrategias de valoración, discriminación, selección y organización de la información. Se valorará que utilice los dispositivos y recursos digitales para comunicarse en plataformas restringidas y supervisadas, de manera segura, compartiendo datos y haciendo uso de la etiqueta digital, de las reglas básicas de cortesía y respeto, y de estrategias para resolver problemas en la comunicación digital. Asimismo, se constatará que trabaja con esos dispositivos y recursos digitales, de manera cooperativa, en el marco de proyectos de investigación, experimentación, acciones, retos, etc., que parten del conocimiento sobre el medio canario. Se evaluará, además, que reelabore y cree contenidos digitales sencillos, con diferentes formatos (dibujos, diagramas, gráficos, símbolos, texto, tabla, audio, vídeo, programa informático…) y que utilice herramientas digitales, adoptando un punto de vista creativo y personal, y aprovechando, de forma crítica, ética y responsable, la cultura digital para compartir nuevos conocimientos. Para ello, el alumnado deberá mostrar que respeta la propiedad intelectual y los derechos de autoría. Por último, se evaluará que el alumnado desarrolla estrategias de actuación para fomentar el bienestar digital físico y mental (tiempo excesivo de uso, ciberacoso, acceso a contenidos inadecuados, publicidad y correos no deseados, etc.), con el fin de adoptar, con la orientación docente, medidas preventivas para proteger los dispositivos, los datos personales, la salud y el medioambiente, de manera que se desenvuelva en el ambiente digital más allá del mero manejo de dispositivos y la búsqueda de información en la red."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "explicacion": "A través de este bloque competencial, se aspira a que el alumnado utilice el pensamiento científico para entender y explicar algunos de los fenómenos que ocurren a su alrededor, demostrando curiosidad, iniciativa y constancia, en investigaciones contextualizadas en el medio natural, social y cultural de Canarias, a partir de estrategias cooperativas. Se evaluará que se inicie en la investigación científica, utilizando modelos propios del pensamiento científico (observación en el tiempo, identificación y clasificación, búsqueda de patrones, creación de modelos, investigación guiada a través de la búsqueda de información, experimentos pautados con control de variables…) y manipulando instrumentos, dispositivos y herramientas digitales apropiados, para realizar observaciones y mediciones, y para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural. Se comprobará, además, que utiliza el vocabulario científico básico para comunicar y construir nuevos conocimientos. Para ello, se constatará que, en las investigaciones, formula preguntas y realiza predicciones razonadas; busca, selecciona y comprende información de diferentes fuentes; realiza experimentos guiados; interpreta la información y los resultados obtenidos, comparándolos con las predicciones realizadas, y comunica los resultados en diferentes formatos. Se evaluará, asimismo, que reconozca los avances en el pasado relacionados con la ciencia y la tecnología, que han contribuido a transformar nuestra sociedad, así como la aportación histórica de las mujeres, y que reconoce el desarrollo de la ciencia en Canarias. Se comprobará, por último, que valora el uso de la ciencia y la tecnología para ayudar a comprender las causas de las propias acciones, tomar decisiones razonadas y realizar tareas de forma más eficiente."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2",
+          "3.3"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "STEM4",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se evaluará que el alumnado sea capaz de resolver problemas sencillos, de forma guiada, para generar cooperativamente un producto creativo e innovador, aplicando las fases de los proyectos de diseño (diseño, prototipado, prueba y comunicación) y del pensamiento computacional, de manera que se inicie en la programación a través de recursos analógicos (actividades desenchufadas) y digitales (plataformas digitales de iniciación en la programación, aplicaciones de programación por bloques, robótica educativa…). Para ello, el alumnado experimentará, de forma segura y creativa, con diferentes herramientas, técnicas y materiales, adecuados a la consecución del proyecto. Se evaluará, asimismo, la capacidad del alumnado para desarrollar técnicas cooperativas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos y la promoción de conductas empáticas e inclusivas, procurando la participación de todo el grupo en la resolución pacífica de los desacuerdos que puedan surgir. Se constatará, además, que es capaz de explicar los pasos seguidos, autoevaluando y coevaluando el proceso realizado y el resultado obtenido."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue que el alumnado tome conciencia del propio cuerpo y su expresión, para fortalecer el optimismo y la empatía, y permitir la participación constructiva en los retos y los cambios que surgen en su entorno. Se evaluará que sea capaz de aplicar el conocimiento científico para demostrar actitudes que fomenten el bienestar de la persona en todas sus dimensiones, y que desarrolla la conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco, sorpresa, culpa y vergüenza), la regulación emocional (autocontrol impulsivo, ajuste afectivo y responsabilidad emocional) y la vinculación emocional (empatía y comunicación emocional), para establecer relaciones afectivas saludables basadas en el cuidado de las personas. Se constatará, además, que demuestra actitudes inclusivas y de corresponsabilidad, así como una educación afectivo-sexual adaptada a su nivel madurativo. Se valorará, además, que desarrolle estilos de vida saludables para su bienestar físico y mental, y que participe, empleando estrategias cooperativas, en acciones fundamentadas científicamente para promover la salud, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo, así como el uso adecuado de las tecnologías."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2",
+          "5.3"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "STEM5",
+          "CD1",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de identificar, de manera guiada, las características, la organización y las propiedades de los elementos del medio natural, social y cultural; así como las conexiones sencillas entre ellos, de forma que adquiera un conocimiento científico conectado que movilice en las investigaciones o los proyectos que realice, y que le ayude a visibilizar los problemas relacionados con el uso del espacio y sus transformaciones, los cambios y adaptaciones protagonizados por la humanidad a través del tiempo para cubrir sus necesidades, y las distintas organizaciones sociales que han ido desarrollándose. Se evaluará, asimismo, que valore y proteja el patrimonio cultural y el natural, local, insular y estatal; demostrando actitudes en pro del cuidado y la conservación de los espacios protegidos y de los parques nacionales de Canarias, emprendiendo acciones para su uso responsable, a través de propuestas de actuaciones originales y sostenibles, que respondan a los retos planteados y permitan su participación en la conservación y la creación de nuevos patrimonios."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se verificará que el alumnado identifica las causas y consecuencias de la intervención humana en el entorno próximo, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para poner en práctica estilos de vida sostenibles y potenciar un modelo de isla sostenible para Canarias. Se comprobará que reconoce comportamientos respetuosos de cuidado, corresponsabilidad y protección del entorno (consumo y producción responsable, alimentación sostenible, uso eficiente del agua y la energía, movilidad sostenible, prevención y gestión de los residuos…). Se valorará, asimismo, que identifique, de manera individual y cooperativa, problemas ecosociales (cambio climático; desarrollo sostenible; desigualdades sociales y diferencias de acceso a los recursos; usos del espacio por el ser humano; fragmentación del territorio en Canarias por su carácter insular y las implicaciones del aislamiento del archipiélago: el valor, el control del dinero y los medios de pago; el maltrato animal…) y que proponga soluciones valiosas para su resolución, desde la reflexión guiada y la resolución pacífica de los conflictos. Se evaluará, además, el fomento de la responsabilidad ecosocial en el alumnado: ecodependencia (relación que existe entre los seres vivos y los ecosistemas en los que viven) e interdependencia entre personas, sociedades y medio natural, facilitando su empoderamiento como agente de cambio ecosocial desde una perspectiva emprendedora y cooperativa, a través del diseño y la participación en actividades que permitan avanzar hacia la consecución de los ODS."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "explicacion": "Este bloque competencial tiene como finalidad que el alumnado sea capaz de localizar, seleccionar e identificar hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión; así como de reconocer personas, grupos sociales relevantes y formas de vida de dichas sociedades, así como el papel que mujeres y hombres han desempeñado en las mismas como protagonistas individuales y colectivos de la historia, para relacionar las diferentes épocas e identificar las acciones y los hechos más destacados en cada una de ellas, respetando la diversidad lingüística y cultural. Para ello, se evaluará que el alumnado adquiera nociones básicas de tiempo histórico, que clasifique y utilice las distintas fuentes históricas (orales, escritas, patrimoniales y museísticas), para explicar y valorar las relaciones entre diferentes elementos y acontecimientos (los cambios y la permanencia en la localidad a lo largo de la historia; las huellas de la historia en lugares, edificios, objetos, oficios o tradiciones de la localidad; la supervivencia y la alimentación; la vivienda; los intercambios comerciales; la explotación de bienes y recursos; los avances técnicos; las relaciones, los conflictos, las creencias; la función del arte y la cultura; las aportaciones y representación de las mujeres…), para comprender la forma en la que el pasado contribuye en la configuración del presente y del futuro."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de analizar la importancia demográfica, cultural y económica de las migraciones en la actualidad y su reflejo en Canarias (factores que modifican la ocupación y distribución de la población en el espacio, representación gráfica y cartográfica de la población, conocimiento de la organización del territorio en España y Europa, las costumbres, tradiciones y manifestaciones etnoculturales del entorno…), respetando la diversidad cultural presente en su municipio, isla o archipiélago; y reconociendo su valor para mejorar la convivencia y contribuir al bienestar individual y colectivo de una sociedad en continua transformación. Se constatará que el alumnado afronta esta realidad múltiple y diversa desde los principios de igualdad, de respeto a los derechos humanos y de la infancia, y desde los valores del europeísmo, para prevenir prejuicios y actitudes discriminatorias y favorecer la inclusión y la cohesión social, oponiéndose a cualquier forma de discriminación o violencia. Se evaluará, también, que el alumnado reconozca y valore positivamente las acciones que fomentan la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo modelos positivos a lo largo de la historia; y que participe en actividades comunitarias desarrollando técnicas cooperativas sencillas para el trabajo en equipo."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2",
+          "9.3"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de realizar actividades en el contexto de la comunidad escolar, asumiendo responsabilidades y estableciendo acuerdos de forma democrática, a través de la adquisición de compromisos y del respeto a las normas que rigen la vida en sociedad, favoreciendo la utilización eficaz de los diferentes sistemas de comunicación y empleando un lenguaje inclusivo y no violento. En este marco de convivencia, se valorará que pueda reflexionar y valorar la importancia de la gestión de los principales órganos de gobierno para la seguridad integral ciudadana y la participación democrática, por medio del conocimiento de las principales instituciones y entidades del entorno local, autonómico y nacional, y de los servicios públicos que prestan, prestando especial atención al papel de ayuntamiento y cabildos en el contexto de Canarias. Además, se valorará que interioriza normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando las normas de circulación, las señales de tráfico y las marcas viales, valorando la ciudad como un espacio de convivencia inclusiva e igualitaria, y tomando conciencia de la importancia de una movilidad segura, saludable y sostenible."
+      }
+    ],
+    "tercer": [
+      {
+        "competencias": [
+          "C1"
+        ],
+        "criterios": [
+          "1.1",
+          "1.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de utilizar, con supervisión, dispositivos y recursos del entorno digital de aprendizaje, de forma segura, responsable, eficiente, saludable y sostenible, individualmente, en equipo y en red, para dar respuesta a las necesidades del contexto educativo. Se verificará, que realiza búsquedas guiadas, fiables y útiles, con una actitud crítica, sobre los contenidos obtenidos; y que los utiliza para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos en diversos formatos, para facilitar su comprensión y análisis, haciendo uso de la etiqueta digital, de las reglas básicas de cortesía y respeto, y de estrategias para resolver problemas en la comunicación digital. Se valorará que trabaje con los dispositivos y recursos digitales, cooperativamente, en el marco de proyectos de investigación, experimentación, acciones, etc., que se nutran del medio canario para comprender los desafíos del mundo actual, de manera que el alumnado pueda reconocer necesidades para elaborar ideas originales y soluciones valiosas a los mismos. Se evaluará, además, que cree, integre y reelabore contenidos digitales sencillos, experimentando, de forma creativa, con diferentes medios, soportes y técnicas digitales (visuales, audiovisuales, sonoras…), para resolver problemas concretos o retos, solicitando ayuda en caso necesario. Para ello, el alumnado deberá demostrar que respeta la propiedad intelectual y la autoría de los recursos que reutiliza. Por último, se evaluará que el alumnado desarrolle estrategias de actuación para fomentar el bienestar digital físico y mental (tiempo excesivo de uso, ciberacoso, dependencia tecnológica, acceso a contenidos inadecuados, etc.), con el fin de adoptar, con la orientación docente, medidas preventivas para proteger los dispositivos, los datos personales, la salud y el medioambiente, de manera que pueda desenvolverse en un ambiente digital con una actitud abierta, crítica y responsable ante su uso."
+      },
+      {
+        "competencias": [
+          "C2"
+        ],
+        "criterios": [
+          "2.1",
+          "2.2",
+          "2.3",
+          "2.4",
+          "2.5"
+        ],
+        "descriptores": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "explicacion": "A través de este bloque competencial, se aspira a que el alumnado interprete y explique hechos y fenómenos que ocurren en el medio natural, social y cultural, local y global, partiendo de la curiosidad, la iniciativa, la constancia y el sentido de la responsabilidad, en la realización de las diferentes investigaciones cooperativas. Se evaluará que se inicie en la investigación científica, utilizando modelos propios del pensamiento científico (observación, formulación de preguntas y predicciones, diseño y realización de experimentos guiados, recogida y análisis de información y datos, comunicación de resultados…), e instrumentos, dispositivos y herramientas digitales apropiados, para realizar observaciones y mediciones, y para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural, haciendo uso del vocabulario científico apropiado. Se valorará, además, que sea capaz de comunicar, compartir y construir nuevos conocimientos. Para ello, se constatará que, en las investigaciones, formula preguntas y realiza predicciones razonadas; que busca, selecciona y comprende información de diferentes fuentes; que diseña y realiza experimentos guiados; que interpreta la información y los resultados obtenidos, comparándolos con las predicciones realizadas; y que comunica los resultados en diferentes formatos, utilizando vocabulario científico básico. Se evaluará, asimismo, que valore la ciencia, la tecnología y la ingeniería como actividades humanas, a través de las profesiones STEM en la actualidad, evitando estereotipos sexistas y visibilizando la ciencia que se realiza en Canarias, especialmente la llevada a cabo por mujeres científicas. Se constatará, además, que conoce la relación entre los avances en matemáticas, ciencia, ingeniería y tecnología, para comprender la evolución de la sociedad en el ámbito científico-tecnológico y divulgarlos."
+      },
+      {
+        "competencias": [
+          "C3"
+        ],
+        "criterios": [
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4"
+        ],
+        "descriptores": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "STEM4",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "explicacion": "A través de este bloque competencial, se evaluará que el alumnado es capaz de plantear cooperativamente problemas de diseño que se resuelvan con la creación de un producto creativo e innovador (prototipo o solución digital sencilla y sostenible), y de resolver problemas, de forma guiada, a través de la aplicación de las fases de los proyectos de diseño (identificación de necesidades, diseño, prototipado, prueba, evaluación y comunicación) y del pensamiento computacional (descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución…). Para ello, el alumnado experimentará, de forma creativa, con diferentes herramientas, dispositivos, técnicas, materiales y recursos digitales (programación por bloques, sensores, motores, simuladores, impresoras 3D…), seguros y adecuados a la consecución del proyecto. Se evaluará, asimismo, la capacidad del alumnado para desarrollar estrategias creativas en situaciones de incertidumbre (detección de necesidades y oportunidades, adaptación y cambio de propuesta cuando sea necesario, valoración del error propio y ajeno como fuente de aprendizaje y valoración de la diversidad como enriquecimiento en el desempeño cooperativo), procurando la participación de todo el grupo para resolver pacíficamente los conflictos que puedan surgir. Se constatará, además, que es capaz de adoptar posturas críticas en procesos de reflexión guiados y participar en procesos de auto y coevaluación, valorando el proceso realizado y el resultado obtenido."
+      },
+      {
+        "competencias": [
+          "C4"
+        ],
+        "criterios": [
+          "4.1",
+          "4.2"
+        ],
+        "descriptores": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de aplicar el conocimiento científico para promover actitudes que fomenten el bienestar de una persona en todas sus dimensiones, que desarrolla la conciencia emocional (percepción, reconocimiento y comprensión emocional de alegría, tristeza, miedo, enfado, asco, sorpresa, culpa, vergüenza, ansiedad, seguridad y amor), la regulación emocional (autocontrol impulsivo, ajuste afectivo y responsabilidad emocional), el cambio emocional (compensación emocional) y la vinculación emocional (empatía y comunicación emocional), para fomentar relaciones afectivas y sociales saludables basadas en los cuidados de las personas desde la corresponsabilidad e inclusión. Se comprobará que describe las funciones vitales básicas del ser humano desde una perspectiva integrada (obtención de energía, relación con el entorno y perpetuación de la especie), así como que reconoce los cambios físicos, emocionales y sociales que conllevan la pubertad y la adolescencia, para favorecer su aceptación, de forma positiva, a través de la educación afectivo-sexual, adaptada a su nivel madurativo. Se valorará, además, que adopta estilos de vida saludables para su bienestar físico y mental; y que participa, empleando estrategias cooperativas, en acciones fundamentadas científicamente para promover la salud, desarrollando pautas para una alimentación saludable y sostenible y para una salud emocional y social adecuadas (higiene del sueño, prevención y consecuencias del consumo de drogas, gestión saludable del ocio y del tiempo libre, contacto con la naturaleza y uso adecuado de las tecnologías). Asimismo, se evaluará que el alumnado tenga conocimiento de actuaciones básicas de primeros auxilios y pautas para la prevención de riesgos y accidentes."
+      },
+      {
+        "competencias": [
+          "C5"
+        ],
+        "criterios": [
+          "5.1",
+          "5.2",
+          "5.3"
+        ],
+        "descriptores": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "STEM5",
+          "CD1",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se comprobará que el alumnado es capaz de identificar y analizar los elementos del medio natural, social y cultural, así como de establecer conexiones sencillas entre ellos, permitiéndole adquirir un conocimiento científico conectado que movilizará en las investigaciones o los proyectos que realice, y le ayudará a visibilizar los problemas relacionados con el uso del espacio y sus transformaciones, los cambios y adaptaciones protagonizados por la humanidad a través del tiempo para sus necesidades, y las distintas organizaciones sociales que han ido desarrollándose. Se evaluará, asimismo, que valora, protege y muestra actitudes de conservación y mejora del patrimonio natural y del cultural, como bien y recurso, apreciando la herencia cultural a escala local, nacional y europea, y que emprende acciones para su uso responsable, a través de propuestas de actuaciones originales, sostenibles y éticas, que respondan, de forma creativa, a los retos planteados y permitan la participación en la conservación y la creación de nuevos patrimonios."
+      },
+      {
+        "competencias": [
+          "C6"
+        ],
+        "criterios": [
+          "6.1",
+          "6.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "explicacion": "A través de este bloque competencial, se verificará que el alumnado identifica las causas y consecuencias de la intervención humana en el entorno próximo, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para promover estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta. Se valorará que afronta problemas ecosociales (el cambio climático, el desarrollo sostenible, la distribución de la riqueza, la ciudad como espacio de convivencia, la economía verde, los derechos laborales de mujeres y hombres…), propone soluciones valiosas y actúa en su resolución, desde la reflexión y la interacción comunicativa. Se evaluará, además, el fomento de la responsabilidad ecosocial en el alumnado, que comprende la ecodependencia (relación que existe entre los seres vivos y los ecosistemas en los que viven), la interdependencia e interrelación entre las personas, las sociedades y el medio natural, facilitando su empoderamiento como agente de cambio ecosocial, de lo local a lo global, desde una perspectiva emprendedora y cooperativa, a través del diseño y la participación en actividades que permitan avanzar hacia la consecución de los ODS de manera consciente y contextualizada."
+      },
+      {
+        "competencias": [
+          "C7"
+        ],
+        "criterios": [
+          "7.1",
+          "7.2"
+        ],
+        "descriptores": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "explicacion": "Con este bloque competencial se comprobará que el alumnado es capaz de analizar las relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural desde la Edad Media hasta la actualidad, así como conocer personas, grupos sociales relevantes y formas de vida de dichas sociedades, respetando la diversidad lingüística y cultural. Para ello, se evaluará que el alumnado clasifica y utiliza las distintas fuentes históricas (orales, escritas, patrimoniales y museísticas), para explicar y valorar las relaciones entre diferentes elementos y acontecimientos (el papel de la mujer en la historia y los principales movimientos en defensa de sus derechos; la situación actual y los retos de futuro en la igualdad de oportunidades entre mujeres y hombres; la memoria democrática, análisis multicausal del proceso de construcción de la democracia en España, fórmulas para la participación de la ciudadanía en la vida pública; las expresiones artísticas y culturales medievales, modernas y contemporáneas y su contextualización histórica visibilizando las aportaciones y representación de las mujeres en ellas…). Se evaluará, además, que el alumnado comprende que los elementos y las manifestaciones culturales de cada sociedad son la expresión de complejas relaciones económicas, sociales y políticas, así como de los valores, las creencias e ideas que las sustentan, pero también de sus múltiples identidades, del talento de sus integrantes y de las relaciones con otras culturas. Se comprobará, por tanto, que comprende, reflexiona y adopta posturas críticas, de manera constructiva y comunicativa, sobre la forma en la que el pasado contribuye en la configuración del presente y cómo los retos del mundo actual influirán en el futuro de nuestra sociedad y del planeta."
+      },
+      {
+        "competencias": [
+          "C8"
+        ],
+        "criterios": [
+          "8.1",
+          "8.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de analizar los procesos geográficos, históricos y culturales que han conformado la sociedad actual (movimientos migratorios, minorías étnicas presentes en nuestro país, diversidad cultural y lingüística de España…), y su reflejo en Canarias, respetando y valorando la diversidad cultural presente en su entorno, reconociendo y comprendiendo su valor como factor de mejora de la convivencia y del bienestar individual y colectivo de una sociedad en continua transformación. Esta realidad múltiple y diversa debe afrontarse desde los principios de igualdad, de respeto a los derechos humanos y de la infancia, y desde los valores del europeísmo, para prevenir prejuicios y actitudes discriminatorias, y favorecer la inclusión y la cohesión social. Se evaluará, también, que el alumnado promueva acciones, empleando estrategias cooperativas en actividades comunitarias, para la igualdad efectiva entre mujeres y hombres, para evitar las conductas sexistas, a través del desarrollo del pensamiento crítico de los estereotipos y roles, y para respetar la diversidad afectivo-sexual, analizando y contrastando diferentes modelos en nuestra sociedad. Se valorará que el alumnado respete todo tipo de diversidades asociadas a la etnicidad, el género, la edad, las creencias, la identidad, la orientación sexual o la situación funcional de las personas, mostrando actitudes basadas en el respeto y el desarrollo universal, la inclusión, la equidad y la accesibilidad, de manera que se oponga a cualquier forma de discriminación o violencia."
+      },
+      {
+        "competencias": [
+          "C9"
+        ],
+        "criterios": [
+          "9.1",
+          "9.2"
+        ],
+        "descriptores": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "explicacion": "A través de este bloque competencial, se persigue constatar que el alumnado es capaz de resolver los conflictos de forma pacífica y comunicativa, ejercitando las principales normas, derechos, deberes y libertades que forman parte de los principios y valores de los derechos humanos y de la infancia, de la Constitución española de 1978 y de la Unión Europea, favoreciendo la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación. En este marco de convivencia, se valorará que pueda explicar el funcionamiento general de los sistemas de representación y de participación política del entorno local, autonómico y nacional en España, los ámbitos de acción de las instituciones europeas y su repercusión en el entorno, valorando la función que el Estado y sus instituciones desempeñan en el mantenimiento de la seguridad integral, la defensa como un compromiso cívico y solidario al servicio de la paz, el reconocimiento de las víctimas de violencia y la cooperación internacional para el desarrollo, con el fin de preparar al alumnado para afrontar los retos y desafíos del siglo XXI."
+      }
+    ]
   }
 }

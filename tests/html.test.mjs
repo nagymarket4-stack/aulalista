@@ -64,3 +64,27 @@ describe('coherencia UI ↔ Worker', () => {
     assert.match(read('shared/landing.html'), /rgpd:\s*document\.getElementById\('rgpd'\)\.checked/);
   });
 });
+
+describe('UI del módulo opositor', () => {
+  const tpl = read('shared/app.template.html');
+  test('pestaña Opositor y herramientas que coinciden con los modos del Worker', async () => {
+    const { MODES } = await import('../produccion/src/worker.js');
+    assert.match(tpl, /data-mode="opositor"/);
+    const sel = tpl.match(/<select id="opTool">([\s\S]*?)<\/select>/)[1];
+    const vals = [...sel.matchAll(/value="([^"]+)"/g)].map(m => m[1]);
+    assert.deepEqual(vals, ['oposicion', 'exposicion', 'validador']);
+    for (const v of vals.filter(v => v !== 'validador')) assert.ok(MODES.includes(v), v);
+    assert.ok(!MODES.includes('validador'), 'el validador no usa el Worker');
+  });
+  test('el selector de SA para oposición ofrece exactamente 6–12 (lo que acepta el Worker)', () => {
+    const sel = tpl.match(/<select id="numSAop">([\s\S]*?)<\/select>/)[1];
+    assert.deepEqual([...sel.matchAll(/<option[^>]*>(\d+)<\/option>/g)].map(m => +m[1]), [6, 7, 8, 9, 10, 11, 12]);
+  });
+  test('aviso de originalidad visible en el modo opositor', () => {
+    assert.match(tpl, /class="notice f-op[^"]*"[^>]*>[^<]*califican con <b>0<\/b>/);
+  });
+  test('el validador solo acepta .md/.txt (sin dependencias de red)', () => {
+    assert.match(tpl, /id="pdFile" type="file" accept="\.md,\.txt/);
+    assert.doesNotMatch(tpl, /jszip/i);
+  });
+});

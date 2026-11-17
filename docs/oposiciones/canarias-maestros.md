@@ -1,6 +1,7 @@
 # Oposiciones al Cuerpo de Maestros en Canarias: convocatoria 2026 y marco del RD 276/2007
 
 > Ficha interna de AulaLista para el **módulo opositor** y el **validador de formato**. Revisado el 17/11/2026.
+> **Cotejado con el texto oficial completo de la Orden** (BOC n.º 58, de 25/03/2026, 100 páginas) el 17/11/2026: bases 9.1, 15.1.1 y 15.1.2 y anexo IV. Entre paréntesis se cita el apartado de las bases que respalda cada dato.
 > **Lo que manda en el examen son las bases de cada convocatoria.** Este documento recoge la de 2026. Cuando se publique la siguiente, se revisa línea a línea.
 
 ## Identificación
@@ -42,10 +43,12 @@ Las pruebas de 2026 empezaron a finales de mayo de 2026, según el titular de RT
 | --- | --- | --- |
 | A. Defensa de la programación (pública) | Máx. **15 min** | Ninguno, salvo un ejemplar de la programación entregada |
 | B. Preparación de la unidad didáctica o SA | **45 min** | — |
-| B. Exposición de la unidad didáctica o SA | **30 min** | Material propio y un guion de **una página como máximo**, solo con los epígrafes. Dispositivos sin conexión a internet y sin móvil; si se incumple, esa parte vale cero. 5 min para colocar el material |
+| B. Exposición de la unidad didáctica o SA | **30 min** | Material propio y un guion que **no excede de un folio**, solo con los epígrafes y **sin contenido curricular**, que se entrega al tribunal al terminar (15.1.2.B; anexo IV, 3.1.1). Portátil o tableta con internet deshabilitado y sin móvil; si se incumple, esa parte vale cero. 5 min para preparar el material. El tribunal único o la comisión publica antes el material permitido |
 | Preguntas del tribunal | Máx. **10 min** (no se puntúan) | — |
 | **Total** | Máx. **1 h 35 min** | — |
 
+- **30 % a distancia (15.1.2):** la unidad o SA expuesta contempla "al menos, un 30 por ciento de desarrollo de los contenidos mediante la utilización de metodologías, estrategias o técnicas metodológicas que faciliten la educación a distancia, incluso en un escenario presencial". El anexo IV, 3.1.1.f, lo concreta como la adaptación de al menos el 30 % de las actividades a un escenario telemático, junto con la de los instrumentos de evaluación.
+- **Contenido de la unidad (15.1.2.B):** deben concretarse los objetivos, los contenidos, las actividades de enseñanza y aprendizaje y los procedimientos de evaluación.
 - **Elección de la unidad:** si procede de la programación propia, se elige "de entre tres extraídas al azar" por la propia persona aspirante. Si procede del temario oficial, se elige un tema de entre tres extraídos al azar.
 - **Calificación:** programación, **30 %**; unidad didáctica o SA, **70 %**. Cada parte va de 0 a 10 y la prueba se supera con 5.
 - **Cero directo:** programación no original o copiada, o no contextualizada en un centro público de Canarias.
@@ -61,7 +64,7 @@ Las pruebas de 2026 empezaron a finales de mayo de 2026, según el titular de RT
 
 | Requisito | Valor |
 | --- | --- |
-| Carácter | General, anual, referida a **un curso de la etapa** y a la especialidad, con el currículo vigente de Canarias (Decreto 211/2022; el anexo del decreto que cita la convocatoria: pendiente de verificar) |
+| Carácter | General, anual, referida a **un curso de la etapa** y a la especialidad, con el currículo vigente de Canarias (anexo IV, 1.r y 2.1.2.c). Las bases toman como referencia "el **Anexo I** del Decreto 211/2022". Nuestra ficha del decreto sitúa los currículos de las áreas en el anexo 2, así que conviene revisar esa numeración en el PDF del BOC |
 | Contextualización | Centro público de la Consejería, vinculada al proyecto educativo y a la PGA |
 | Extensión | **25 a 50 páginas**, incluidos anexos, apéndices y bibliografía. No cuentan portada, índice ni contraportada |
 | Papel | DIN-A4, preferentemente a doble cara |
@@ -69,8 +72,14 @@ Las pruebas de 2026 empezaron a finales de mayo de 2026, según el titular de RT
 | Tablas | Permitidas, pero no para todo el documento. Mínimo **8 pt** con interlineado 1 |
 | Márgenes | No especificados |
 | N.º de unidades o SA | **Entre 6 y 12**, numeradas y tituladas, con un guion, esquema o tabla para cada una. PT y AL: entre 6 y 8 programas |
+| Área (2.1.2.a) | Al menos un área de la especialidad, nunca una optativa autonómica. La integración de todas las áreas, por el carácter globalizado de la etapa, debe verse en las actividades y en la metodología |
+| Contexto y documentos de centro (2.1.2.b) | Características del centro, del alumnado y del entorno. Relación con el proyecto educativo y la PGA, que son su marco de referencia, y contribución a sus metas: convivencia, plan de comunicación lingüística (lectura y biblioteca), TIC y familias |
 | Contenido mínimo (2.1.2 g) | Contribución a los objetivos de etapa; competencias específicas, saberes básicos, criterios e instrumentos de evaluación; tratamiento de las competencias; metodología; propuesta inclusiva de atención a la diversidad con principios **DUA**, con referencia especial al alumnado NEAE |
-| Otros contenidos | **Adaptación a un escenario no presencial** (metodología, diversidad, agrupamientos, recursos y evaluación telemática); referencias a Canarias; aspectos del **art. 44.3 del ROC** (Decreto 81/2010) |
+| Otros contenidos | **Adaptación a un modelo no presencial** (metodología, diversidad, agrupamientos, recursos) y mecanismos de **evaluación telemática** (2.1.2.e); **todos los aspectos del art. 44.3 del ROC** (Decreto 81/2010) (2.1.2.f); tipos de evaluación según el momento, la finalidad y el agente, y procedimientos para los criterios de calificación (2.1.2.h); programación centrada en las competencias, con los criterios de evaluación como referencia (Orden de 31/05/2023) (2.1.2.i); aprendizajes, recursos o contextos canarios (2.1.2.j). El texto literal del art. 44.3 del ROC no está en `docs/`: pendiente de transcribir |
+| Exenciones tipográficas (1.j) | Pies de gráficas, tablas, fotos o dibujos, y encabezados y pies de página |
+| Enlaces y QR (1.k) | El contenido enlazado **suma** al cómputo de páginas y se penaliza si se supera el máximo |
+| Originalidad (1.n, 1.o; 15.1.2.A) | Original, individual e inédita: no puede haberse publicado ni difundido antes de la prueba. Si no lo es, o si es copiada, vale **0** |
+| Ortografía (1.m) | También en la programación: −0,2 por falta y −0,2 por cada tres tildes omitidas, con un máximo de **1 punto** (aparte del tope de 2 por formato). Lo de las tildes no se aplica en Inglés |
 
 ### Penalizaciones (máximo acumulado: 2 puntos)
 
@@ -81,12 +90,18 @@ Las pruebas de 2026 empezaron a finales de mayo de 2026, según el titular de RT
 | Cada página por encima de 50 | −0,25 |
 | Sin portada | −0,2 |
 | Sin índice | −0,2 |
-| Tipo o tamaño de letra no conforme | −0,5 más un descuento proporcional según una tabla del anexo (tabla pendiente de transcribir) |
+| Tipo o tamaño de letra no conforme (ñ.6) | −0,5 y, además, por cada página que exceda el máximo de su tamaño: 8 pt, 34 págs., −0,37; 9 pt, 39 págs., −0,32; 10 pt, 45 págs., −0,28; 11 pt, 50 págs., −0,25 |
 | No original, copiada o no contextualizada en un centro público canario | **Calificación 0** |
 
 ### Elementos de cada unidad didáctica o SA (anexo IV, 3.1.1)
 
-a) Identificación: título y justificación, con contextualización. b) Datos técnicos: curso y áreas. c) **Enfoque globalizador**. d) Fundamentación curricular: criterios de evaluación, competencias y contenidos relacionados. e) Metodología y concreción: principios, estrategias y secuencia de actividades (sesiones, agrupamientos, recursos, espacios, instrumentos de evaluación). f) **Al menos el 30 % de las actividades adaptadas a un escenario telemático**, con instrumentos de evaluación adaptados. g) Tipos de evaluación y procedimientos de calificación (rúbricas, indicadores de logro, escalas). h) Atención a la diversidad con principios DUA. i) Elementos transversales, incluida la educación en valores. j) **Referencias a Canarias**. k) Referencias bibliográficas y digitales.
+a) Identificación: título y justificación, con contextualización. b) Datos técnicos: curso y áreas. c) **Enfoque globalizador**. d) Fundamentación curricular: criterios de evaluación, competencias y contenidos relacionados. e) Fundamentación metodológica y concreción: principios, estrategias, modelos de enseñanza, relación con otras áreas y secuencia de actividades (temporalización o sesiones, agrupamientos, recursos, espacios e instrumentos de evaluación). f) **Al menos el 30 % de las actividades adaptadas a un escenario telemático**, con instrumentos de evaluación adaptados. g) Tipos de evaluación y procedimientos de calificación (rúbricas, indicadores de logro, escalas). h) Atención a la diversidad con principios DUA. i) Elementos transversales, incluida la educación en valores. j) **Referencias a Canarias**. k) Referencias bibliográficas y digitales: fuentes consultadas y utilizadas para el diseño.
+
+La unidad expuesta se valora con los criterios del anexo IV, 3.1.2 (a–l), que siguen a los elementos anteriores, más la competencia comunicativa oral.
+
+### Normativa de referencia de la programación (anexo IV, 2.1.1, Educación Primaria)
+
+a) Decreto 81/2010, de 8 de julio (ROC). b) Orden de 9 de octubre de 2013, que desarrolla el ROC. c) Orden de 28 de septiembre de 2023, que modifica la anterior. d) Decreto 114/2011, de 11 de mayo (convivencia), **derogado por el Decreto 169/2026, de 30 de octubre**, vigente desde el 29/11/2026 (ver `../normativa/06-convivencia-decreto-169-2026.md`). e) Decreto 25/2018, de 26 de febrero (atención a la diversidad). f) Decreto 196/2022, de 13 de octubre (Infantil). g) Decreto 211/2022, de 10 de noviembre (Primaria). h) Orden de 31 de mayo de 2023 (evaluación y promoción). i) Resolución de 15 de mayo de 2025 (rúbricas de Primaria). j) Resolución n.º 73, de 20 de junio de 2025 (instrucciones del curso 2025-2026; para 2026-2027 rige la Resolución n.º 73/2026).
 
 ### Criterios de valoración de la programación (anexo IV)
 
@@ -103,6 +118,7 @@ Los tribunales y comisiones publican sus criterios de calificación ponderados a
 
 ## Implicaciones para el módulo opositor
 
+0. **Hecho (17/11/2026):** el módulo opositor está implementado (`promptOposicion`, `promptExposicion` y `shared/validador-oposicion.js`). Ver `modulo-opositor.md`.
 1. **Configuración por convocatoria:** guardar las bases como datos (`data/oposiciones/canarias-maestros-2026.json`) y no fijarlas en el prompt. El validador lee el JSON del año elegido.
 2. **Validador de formato (automatizable sobre DOCX o PDF):**
    - Páginas computables entre 25 y 50, excluidas portada, índice y contraportada.
@@ -115,9 +131,22 @@ Los tribunales y comisiones publican sus criterios de calificación ponderados a
 3. **Originalidad:** el cero por programación no original exige que el producto se presente como **asistente de redacción y revisión**, no como generador de "programaciones listas para entregar". Conviene avisarlo en la interfaz y en los términos de uso.
 4. **Simulador de la segunda prueba:** cronómetro de 15 + 45 + 30 + 10 min, sorteo de 3 unidades de la propia programación y generador de un guion de una página que solo contenga epígrafes.
 5. **Simulador de la primera prueba:** tres supuestos prácticos, de los que se elige uno (3 h), y dos temas al azar para la parte B. Corrector ortográfico con la penalización de la base (−0,2 por falta, −0,2 por cada 3 tildes, tope de −1).
-6. El prompt de programación para oposición debe partir de `promptPD` y añadir los apartados exigidos por el anexo IV (no presencialidad, 30 % telemático por SA, ROC 44.3, enfoque globalizador y referencias canarias).
+6. El prompt de programación para oposición sigue la plantilla oficial de PD LOMLOE de la Consejería (Brújula20), porque las bases no imponen una estructura propia, y le añade los apartados del anexo IV: portada, índice, no presencialidad y evaluación telemática, 30 % telemático por SA, ROC 44.3, objetivos de etapa, enfoque globalizador y referencias canarias.
+
+7. **Contextualización verosímil (anexo IV, 2.1.2.b):** la programación puede apoyarse en lo que exige la Resolución 73/2026 (ver `../normativa/07-instrucciones-curso-2026-2027.md`):
+   - Duración de la sesión, 45 o 55 min, que el centro fija en su PGA.
+   - Plan de atención a la diversidad con DUA y prioridad en el primer ciclo y en 6.º; horas de apoyo, también para la brecha digital.
+   - Coordinación Infantil-Primaria bimestral y Primaria-ESO trimestral.
+   - Plan de igualdad y coeducación 2023-2028.
+   - Plan de formación ante emergencias (al menos 2 h en Primaria).
+   - Actividades de patrimonio y deportes autóctonos.
+   - Programas como InnovAS (con sus cinco ejes y el PIDAS), Viera, Newton, AICLE, PROA+ o esTEla.
+   Para la oposición de 2027, citar la resolución de instrucciones que esté vigente en ese momento.
 
 ## Fuentes
+
+- **Texto oficial completo de la Orden de 18/03/2026** (PDF del BOC n.º 58/2026, 100 págs.), aportado por el usuario y leído íntegro en las partes citadas.
+- Plantilla de diseño de programación didáctica LOMLOE de la Consejería (Programa Brújula20), en sus versiones vacía y con orientaciones, aportada por el usuario.
 
 - BOC n.º 58/2026, Orden de 18/03/2026 (bases 1, 9, 11, 15 y anexo IV): https://www.gobiernodecanarias.org/boc/archivo/2026/058/pda/970.html
 - BOE, RD 276/2007 consolidado: https://boe.es/buscar/act.php?id=BOE-A-2007-4372
@@ -126,3 +155,5 @@ Los tribunales y comisiones publican sus criterios de calificación ponderados a
 - oposiciones.es, OEP 2026 de Maestros (BOC n.º 99, 25/05/2026): https://oposiciones.es/convocatorias/452-plazas-para-el-cuerpo-de-maestros/
 - Gobierno de Canarias, noticia del 31/01/2025 (especialidades de Maestros): https://www3.gobiernodecanarias.org/noticias/educacion-convocara-oposiciones-para-49-especialidades-docentes/
 - Campus Educación, mapa de convocatorias 2027 (actualizado el 27/10/2026; sin convocatoria canaria para 2027): https://www.campuseducacion.com/blog/oposiciones/2027-mapa-actualizado-de-convocatorias/amp/
+
+> **Nota del coordinador (17/11/2026):** comprobado en el PDF oficial del BOC 231/2022, el **anexo 1** del Decreto 211/2022 es el Perfil de salida y los currículos de las áreas están en el **anexo 2**. Si las bases remiten al "Anexo I" para el currículo, la referencia correcta en la programación es el anexo 2 (Currículos de las áreas). Conviene citar "Decreto 211/2022, anexo 2".

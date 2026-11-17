@@ -61,6 +61,13 @@
   .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:13.5px;opacity:0;transition:.25s;pointer-events:none}
   .toast.on{opacity:1}
   .hidden{display:none!important}
+  .sem{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:8px;flex:none;position:relative;top:1px}
+  .sem.ok{background:#2e9e5b} .sem.aviso{background:#e0a92f} .sem.error{background:#d0453a} .sem.info{background:#9aa6ab}
+  .rep-head{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:12px 14px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px}
+  .rep-head .big{width:18px;height:18px}
+  .rep-list{list-style:none;padding:0;margin:6px 0 14px}
+  .rep-list li{display:flex;align-items:flex-start;padding:5px 0;border-bottom:1px dashed var(--line);font-size:14px}
+  .rep-list .det{display:block;color:var(--muted);font-size:12.5px}
   .tab:focus-visible,.btn:focus-visible,.hist li:focus-visible,.hist .del:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 </style>
 </head>
@@ -77,25 +84,40 @@
       <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="rubrica">Rúbrica</button>
       <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="adaptacion">Adaptación DUA</button>
       <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="pd">Programación</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="form" data-mode="opositor">Opositor</button>
       <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="historial" data-mode="historial">Mis documentos</button>
     </div>
 
     <form id="form" autocomplete="off">
+      <label class="f-op hidden">Herramienta (oposiciones de Maestros, Educación Primaria, Canarias)<select id="opTool">
+        <option value="oposicion">Programación para la oposición</option>
+        <option value="exposicion">SA para exponer + guion de 30 min + preguntas</option>
+        <option value="validador">Validador de formato (sin IA)</option>
+      </select></label>
+      <p class="notice f-op hidden">Las bases (Orden de 18/03/2026) califican con <b>0</b> una programación no original o no contextualizada en un centro público canario. Lo que genera AulaLista es un <b>borrador</b>: reescríbelo y hazlo tuyo antes de entregarlo.</p>
       <div class="row">
         <label>Comunidad<select id="ccaa"></select></label>
         <label>Curso<select id="curso"></select></label>
       </div>
       <label>Área<select id="area"></select></label>
 
-      <label><span id="temaLabel">Tema o reto</span><textarea id="tema" required maxlength="3000" placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
+      <label id="temaWrap"><span id="temaLabel">Tema o reto</span><textarea id="tema" required maxlength="3000" placeholder="Ej.: Cuidamos los charcos de marea de nuestra costa"></textarea></label>
 
-      <div class="row f-sa">
+      <div class="row f-sa f-exposicion">
         <label>Sesiones<input id="sesiones" type="number" min="1" max="20" value="6"></label>
-        <label>Minutos/sesión<input id="duracion" type="number" min="30" max="120" step="15" value="45"></label>
+        <label>Minutos/sesión<input id="duracion" type="number" min="30" max="120" step="5" value="55"></label>
       </div>
       <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" maxlength="200" placeholder="Ej.: Matemáticas, Educación Artística"></label>
       <label class="f-sa">Producto final (opcional)<input id="producto" maxlength="300" placeholder="Ej.: guía ilustrada para visitantes"></label>
 
+      <div class="row f-oposicion f-exposicion hidden">
+        <label>Isla<select id="isla"></select></label>
+        <label>Tipo de centro público<select id="tipoCentro"></select></label>
+      </div>
+      <label class="f-oposicion hidden">Número de SA (las bases exigen 6–12)<select id="numSAop"><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select></label>
+      <label class="f-validador hidden">Programación (pega el texto o sube un .md/.txt; en Word: Guardar como → Texto sin formato)<textarea id="pdTexto" style="min-height:220px" placeholder="Pega aquí la programación completa"></textarea></label>
+      <label class="f-validador hidden">Archivo .md o .txt<input id="pdFile" type="file" accept=".md,.txt,.markdown,text/plain,text/markdown"></label>
+      <p class="hint f-validador hidden">El texto se analiza en tu navegador: no se envía a ningún servidor. Elige arriba el curso y el área de la programación para cotejar los criterios.</p>
       <label class="f-pd hidden">Número de situaciones de aprendizaje<select id="numSA"><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>12</option></select></label>
       <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" maxlength="200" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
       <label class="f-rubrica hidden">Niveles de logro<select id="niveles"><option value="4">4 niveles (En inicio → Avanzado)</option><option value="5">5 niveles (IN, SU, BI, NT, SB)</option></select></label>
@@ -109,7 +131,7 @@
         <option>Discapacidad visual</option><option>Discapacidad motora</option><option>Desfase curricular de 2 o más cursos</option>
       </select></label>
 
-      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" maxlength="1500" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
+      <label class="f-sa f-adaptacion f-pd f-oposicion f-exposicion">Contexto u observaciones (opcional)<textarea id="contexto" maxlength="1500" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
 
       <p class="notice">No escribas nombres ni datos personales del alumnado. Usa perfiles anónimos.</p>
       <button class="btn" id="go" type="submit">Generar</button>
@@ -144,6 +166,9 @@
 
 <script>
 /*__PROMPTS__*/
+</script>
+<script id="al-val">
+/*__VALIDADOR__*/
 </script>
 <script>
 /*__ENGINE__*/
@@ -201,6 +226,7 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
 (() => {
   const $ = id => document.getElementById(id);
   let mode = 'sa', current = null, controller = null, busy = false;
+  const eff = () => mode === 'opositor' ? $('opTool').value : mode;
 
   // ---------- Toast ----------
   let toastT;
@@ -209,6 +235,8 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
   // ---------- Selects ----------
   CCAA.forEach(c => $('ccaa').add(new Option(c.name, c.id)));
   CURSOS.forEach(c => $('curso').add(new Option(c + ' de Primaria', c)));
+  ISLAS.forEach(i => $('isla').add(new Option(i, i)));
+  TIPOS_CENTRO.forEach(t => $('tipoCentro').add(new Option(t, t)));
   function fillAreas(){
     const prev = $('area').value;
     $('area').innerHTML = '';
@@ -234,8 +262,23 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
   }catch(e){}
 
   // ---------- Tabs ----------
-  const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar', pd:'Hilo conductor (opcional)' };
-  const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela', pd:'Ej.: Exploradores de las islas: un viaje por Canarias' };
+  const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar', pd:'Hilo conductor (opcional)', oposicion:'Hilo conductor (opcional)', exposicion:'Título o tema de la SA que vas a exponer' };
+  const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela', pd:'Ej.: Exploradores de las islas: un viaje por Canarias', oposicion:'Ej.: Guardianes de la laurisilva', exposicion:'Ej.: SA 4. El mercado del agricultor: medimos y pesamos' };
+  const FCLASES = ['sa','rubrica','adaptacion','pd','oposicion','exposicion','validador','op'];
+  let ccaaPrev = null;
+  function applyMode(){
+    const m = eff(), op = mode === 'opositor';
+    FCLASES.forEach(k => document.querySelectorAll('.f-' + k).forEach(el => {
+      el.classList.toggle('hidden', !(el.classList.contains('f-' + m) || (op && el.classList.contains('f-op'))));
+    }));
+    // El módulo opositor es solo para Canarias (bases de la Orden de 18/03/2026)
+    if (op) { if (ccaaPrev === null) ccaaPrev = $('ccaa').value; $('ccaa').value = 'canarias'; $('ccaa').disabled = true; fillAreas(); if (m === 'exposicion') $('duracion').value = sesionPorDefecto('canarias'); }
+    else if (ccaaPrev !== null) { $('ccaa').disabled = false; $('ccaa').value = ccaaPrev; ccaaPrev = null; fillAreas(); $('duracion').value = sesionPorDefecto($('ccaa').value); }
+    $('temaWrap').classList.toggle('hidden', m === 'validador');
+    if (LABELS[m]) { $('temaLabel').textContent = LABELS[m]; $('tema').placeholder = PH[m]; }
+    $('tema').required = !['pd','oposicion','validador'].includes(m);
+    $('go').textContent = m === 'validador' ? 'Validar' : 'Generar';
+  }
   document.querySelectorAll('.tab').forEach(b => b.onclick = () => {
     document.querySelectorAll('.tab').forEach(x => { x.classList.toggle('on', x === b); x.setAttribute('aria-selected', String(x === b)); });
     mode = b.dataset.mode;
@@ -243,11 +286,19 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
     $('form').classList.toggle('hidden', hist);
     $('historial').classList.toggle('hidden', !hist);
     if (hist) { renderHistory(); return; }
-    document.querySelectorAll('.f-sa,.f-rubrica,.f-adaptacion,.f-pd').forEach(el => el.classList.toggle('hidden', !el.classList.contains('f-' + mode)));
-    $('temaLabel').textContent = LABELS[mode];
-    $('tema').placeholder = PH[mode];
-    $('tema').required = mode !== 'pd';
+    applyMode();
   });
+  $('opTool').onchange = applyMode;
+  $('pdFile').onchange = () => {
+    const f = $('pdFile').files && $('pdFile').files[0];
+    if (!f) return;
+    if (!/\.(md|txt|markdown)$/i.test(f.name)) { toast('Sube un archivo .md o .txt (en Word: Guardar como → Texto sin formato)'); $('pdFile').value = ''; return; }
+    if (f.size > 5 * 1024 * 1024) { toast('Archivo demasiado grande (máx. 5 MB)'); $('pdFile').value = ''; return; }
+    const r = new FileReader();
+    r.onload = () => { $('pdTexto').value = String(r.result || ''); toast('Archivo cargado: pulsa Validar'); };
+    r.onerror = () => toast('No se pudo leer el archivo');
+    r.readAsText(f, 'utf-8');
+  };
 
   const md = AulaMD.md;
 
@@ -304,12 +355,60 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
   function datos(){
     return { ccaa:$('ccaa').value, curso:$('curso').value, area:$('area').value, tema:$('tema').value.trim(),
       sesiones:$('sesiones').value, duracion:$('duracion').value, otras:$('otras').value.trim(), producto:$('producto').value.trim(),
-      contexto:$('contexto').value.trim(), criterios:$('criterios').value.trim(), niveles:$('niveles').value, perfil:$('perfil').value, numSA:$('numSA').value };
+      contexto:$('contexto').value.trim(), criterios:$('criterios').value.trim(), niveles:$('niveles').value, perfil:$('perfil').value,
+      numSA: eff() === 'oposicion' ? $('numSAop').value : $('numSA').value, isla:$('isla').value, tipoCentro:$('tipoCentro').value };
   }
-  const TIPO = { sa:'Situación de aprendizaje', rubrica:'Rúbrica', adaptacion:'Adaptación DUA', pd:'Programación didáctica' };
+  const TIPO = { sa:'Situación de aprendizaje', rubrica:'Rúbrica', adaptacion:'Adaptación DUA', pd:'Programación didáctica', oposicion:'Programación para oposición', exposicion:'SA para exponer', validador:'Informe de formato' };
+  const PROMPTS = { sa: promptSA, rubrica: promptRubrica, adaptacion: promptAdaptacion, pd: promptPD, oposicion: promptOposicion, exposicion: promptExposicion };
+
+  // ---------- Validador de formato (sin IA, en el navegador) ----------
+  function renderInforme(r){
+    const doc = $('doc'); doc.innerHTML = '';
+    const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+    const sem = (estado, big) => el('span', 'sem ' + estado + (big ? ' big' : ''));
+    doc.append(el('h2', null, 'Informe de formato de la programación'));
+    const head = el('div', 'rep-head');
+    head.append(sem(r.global, true), el('b', null, r.global === 'ok' ? 'Cumple lo verificable' : r.global === 'aviso' ? 'Revisa los avisos' : 'Hay fallos que corregir'),
+      el('span', null, `${r.resumen.ok} correctos · ${r.resumen.aviso} a revisar · ${r.resumen.error} fallos`),
+      el('span', null, `Penalización formal estimada: −${String(r.penalizacion.estimada).replace('.', ',')} (tope −${r.penalizacion.tope})`));
+    if (r.riesgoCero) head.append(el('b', null, 'Riesgo de calificación 0'));
+    doc.append(head, el('p', 'hint', r.bases));
+    for (const s of r.secciones) {
+      doc.append(el('h3', null, s.titulo));
+      const ul = el('ul', 'rep-list');
+      for (const it of s.items) { const li = el('li'); const box = el('div'); box.append(el('span', null, it.txt)); if (it.detalle) box.append(el('span', 'det', it.detalle)); li.append(sem(it.estado), box); ul.append(li); }
+      doc.append(ul);
+    }
+    if (r.sa.length) {
+      doc.append(el('h3', null, 'Detalle por situación de aprendizaje'));
+      const tb = el('table'), th = el('thead'), trh = el('tr');
+      ['', 'SA', 'Título', 'Telemático', 'Faltan (a–k)', 'Criterios'].forEach(h => trh.append(el('th', null, h)));
+      th.append(trh); tb.append(th);
+      const body = el('tbody');
+      for (const s of r.sa) {
+        const tr = el('tr'), c0 = el('td'); c0.append(sem(s.estado)); tr.append(c0);
+        const tel = s.telematico.porcentaje == null ? 'no declarado' : String(s.telematico.porcentaje).replace('.', ',') + ' %' + (s.telematico.declarado == null ? ' (calculado)' : '');
+        const ct = el('td'); ct.append(sem(s.telematico.estado), document.createTextNode(tel));
+        tr.append(el('td', null, String(s.n)), el('td', null, s.titulo), ct, el('td', null, s.faltan.join(', ') || 'ninguno'),
+          el('td', null, (s.criterios.join(', ') || '—') + (s.criteriosInexistentes.length ? ' · no existen: ' + s.criteriosInexistentes.join(', ') : '')));
+        body.append(tr);
+      }
+      tb.append(body); doc.append(tb);
+    }
+    doc.append(el('p', 'hint', 'Validación orientativa sobre texto plano: no comprueba tipo de letra, interlineado ni originalidad. Las bases de la convocatoria son las que mandan.'));
+  }
+  function validarProgramacion(){
+    const d = datos(), texto = $('pdTexto').value;
+    if (!texto.trim()) { toast('Pega la programación o sube un .md/.txt'); return; }
+    const r = ValidadorOposicion.validar(texto, { ccaa: 'canarias', area: d.area, curso: d.curso });
+    renderInforme(r);
+    current = { id: 'd' + Date.now(), tipo: 'validador', titulo: 'Informe de formato · ' + d.curso + ' · ' + d.area, ccaa: 'canarias', curso: d.curso, area: d.area, md: ValidadorOposicion.informeMarkdown(r), createdAt: Date.now() };
+    $('status').textContent = 'Informe listo · ' + r.paginas + ' páginas estimadas · ' + r.sa.length + ' SA';
+    setBusy(false);
+  }
   function tituloDe(text, d){
     const m = text.match(/^#{1,3}\s+(?:1\.\s*Identificación\s*$)?(.+)$/m);
-    const t = (text.match(/\*\*T[íi]tulo:?\*\*:?\s*(.+)/) || [])[1] || (m && !/Identificación/.test(m[1]) ? m[1] : '') || d.tema;
+    const t = (text.match(/\*\*T[íi]tulo:?\*\*:?\s*(.+)/) || [])[1] || (m && !/Identificación|^Portada|^Índice|^1\. Situación de aprendizaje/.test(m[1]) ? m[1] : '') || d.tema || TIPO[eff()] || 'Documento';
     return t.replace(/[*#]/g,'').trim().slice(0, 90);
   }
 
@@ -323,27 +422,30 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
   $('form').onsubmit = async e => {
     e.preventDefault();
     if (busy) return;
+    const m = eff();
+    if (m === 'validador') { validarProgramacion(); return; }
     const d = datos();
-    if (!d.tema && mode !== 'pd') { toast('Describe el tema o la actividad'); return; }
+    if (!d.tema && m !== 'pd' && m !== 'oposicion') { toast('Describe el tema o la actividad'); return; }
     if (/\b(se llama|llamad[oa]|nombre del alumno|DNI)\b/i.test(d.contexto + ' ' + d.tema)) {
       if (!window.__alAvisoNombres) { window.__alAvisoNombres = true; toast('Parece que hay datos personales. Quítalos y vuelve a pulsar Generar.'); return; }
     }
     const check = await Engine.canGenerate();
     if (!check.ok) { $('status').textContent = check.message; toast(check.message); return; }
-    const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : mode === 'pd' ? promptPD(d) : promptAdaptacion(d);
+    const prompt = PROMPTS[m](d);
     current = null; controller = new AbortController(); setBusy(true);
     $('status').textContent = 'Generando…';
     $('doc').innerHTML = '<div class="empty"><p>Pensando la estructura y alineando con el currículo…</p></div>';
     let text = '';
     try {
-      text = await Engine.generate(prompt, t => { text = t; show(t); }, controller.signal, { mode, d });
+      text = await Engine.generate(prompt, t => { text = t; show(t); }, controller.signal, { mode: m, d });
       show(text);
-      current = { id: 'd' + Date.now(), tipo: mode, titulo: tituloDe(text, d), ccaa: d.ccaa, curso: d.curso, area: d.area, md: text, createdAt: Date.now() };
-      $('status').textContent = TIPO[mode] + ' lista · ' + Math.round(text.split(/\s+/).length) + ' palabras';
+      current = { id: 'd' + Date.now(), tipo: m, titulo: tituloDe(text, d), ccaa: d.ccaa, curso: d.curso, area: d.area, md: text, createdAt: Date.now() };
+      const np = Math.round(text.split(/\s+/).length);
+      $('status').textContent = TIPO[m] + ' lista · ' + np + ' palabras' + (m === 'oposicion' ? ' (≈ ' + Math.round(np / 500) + ' páginas en Times 11)' : '');
       await Engine.countUsage();
       refreshUsage();
     } catch (err) {
-      if (text) { current = { id:'d'+Date.now(), tipo:mode, titulo:tituloDe(text,d), ccaa:d.ccaa, curso:d.curso, area:d.area, md:text, createdAt:Date.now() }; }
+      if (text) { current = { id:'d'+Date.now(), tipo:m, titulo:tituloDe(text,d), ccaa:d.ccaa, curso:d.curso, area:d.area, md:text, createdAt:Date.now() }; }
       $('status').textContent = err && err.name === 'AbortError' ? 'Detenido' : ('No se pudo generar: ' + ((err && err.message) || 'error'));
     } finally { setBusy(false); }
   };

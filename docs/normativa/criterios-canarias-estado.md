@@ -85,3 +85,62 @@ Las posibles erratas que anotó el curriculista (p. ej. «CCE3» o «señalando 
 Pendiente:
 - extraer los saberes básicos;
 - cotejar automáticamente los descriptores operativos.
+
+## Fase 2: saberes básicos, bloques competenciales y descriptores (17/11/2026)
+
+Fuente: el PDF oficial (`boc-a-2022-231-3533.pdf`) pasado por `pdftotext -layout`. Script reproducible: `tools/extraer_saberes_canarias.py <layout.txt> [--escribir] [--volcado salida.json]`. Sin `--escribir` solo saca el informe. Se usa `-layout` porque mantiene la columna de descriptores alineada con su criterio y conserva los guiones de las palabras compuestas al final de línea. Sin `-layout`, `pdftotext` convierte «pausada-agitada» en «pausadaagitada».
+
+### Campos nuevos en cada `data/canarias/primaria/<area>.json`
+
+- `saberes.{primer|segundo|tercer}`: lista de bloques del BOC (`"bloque": "I. …"`). Cada bloque tiene una de estas dos formas:
+  - `items`, si el BOC numera los saberes directamente («1.», «2.»…);
+  - `apartados: [{"apartado": "1. …", "items": ["1.1. …", "2.2.1. …"]}]`, si hay subapartados.
+  
+  Los ítems son literales y conservan la numeración del BOC.
+- `bloques.{ciclo}`: lista con estos campos:
+  - `competencias`: p. ej. `["C1"]`, o `["C1","C2"]` en Matemáticas;
+  - `criterios`: p. ej. `["1.1","1.2"]`;
+  - `descriptores`: la fila de la competencia específica;
+  - `explicacion`: la «Explicación del bloque competencial», literal.
+- `cotejo.fase2`: método, fecha y lista de descriptores corregidos (vacía).
+- `pendiente`: se han quitado las notas de saberes sin extraer, descriptores sin cotejar y enunciados sin comprobar por ciclo, porque ya están resueltas.
+
+### Cobertura
+
+En la columna de saberes, «bloques/ítems» cuenta los bloques del BOC y los ítems numerados que contienen. Los títulos de apartado no se cuentan como ítems.
+
+| Área | Saberes 1.er ciclo (bloques/ítems) | 2.º ciclo | 3.er ciclo | Bloques competenciales por ciclo |
+| --- | --- | --- | --- | --- |
+| Conocimiento del Medio | 3/46 | 3/47 | 3/52 | 9 |
+| Educación Artística | 4/26 | 4/34 | 4/36 | 4 |
+| EMOCREA | 5/37 | 5/41 | 5/46 | 4 |
+| Educación Física | 6/29 | 6/29 | 6/31 | 5 |
+| Valores Cívicos y Éticos | — | — | 3/28 | 4 |
+| Lengua Castellana y Literatura | 4/31 | 4/32 | 4/31 | 10 |
+| Lengua Extranjera | 4/30 | 4/32 | 4/32 | 6 |
+| Matemáticas | 6/60 | 6/91 | 6/99 | 6 (C1-C2 y C7-C8 agrupadas) |
+| Segunda Lengua Extranjera | — | — | 4/32 | 6 |
+| **Total** | | | **952 ítems** | **142 bloques con explicación** |
+
+### Comprobaciones
+
+- **Saberes y explicaciones.** Las 1.151 unidades de texto (títulos de bloque y de apartado, e ítems) y las 142 explicaciones aparecen literalmente en el `pdftotext` normal, que es una segunda extracción independiente, tras normalizar espacios y puntuación.
+- **Numeración.** Es correlativa en todos los bloques; el script avisa si no lo es. Ningún párrafo queda sin numerar.
+- **Criterios.** Los 308 se localizan en su bloque y ciclo, y su texto coincide con el del JSON.
+- **Enunciados de competencias.** Coinciden en los tres ciclos con el enunciado de la ficha: 148 comprobaciones.
+- **Descriptores operativos.** Los 308 criterios coinciden con la columna de descriptores del PDF. **Correcciones: 0.**
+
+### Rarezas literales del BOC (se conservan tal cual)
+
+- **CMNSC, 2.º ciclo:** el criterio «1.2 Reelaborar…» no lleva punto tras el número.
+- **Matemáticas, 3.er ciclo:** el apartado «1 Conteo y cantidad» no lleva punto tras el número.
+- **Matemáticas, 1.er ciclo, bloque II «Sentido de la medida»:** los ítems reinician la numeración en cada apartado («1. Magnitud» → 1., 2., 3.), mientras que el resto usa «1.1.». Se marca con `nota` en el JSON.
+- **Lengua Extranjera, 2.º ciclo, II.2:** el ítem termina sin punto.
+- **Descriptores de criterios que no están en la fila de su competencia** (probables erratas del BOC; se mantienen):
+  - LCL 1.er ciclo 7.2: «CCE3»;
+  - LCL 3.er ciclo 1.1: «CCEC2», cuando la competencia C1 lista CCEC1 y CCEC3.
+- **Explicaciones con erratas de origen:** se transcriben sin corregir. Ejemplos: «personas usuarios» (CMNSC 1.er ciclo, C9) y «la utilización recursos» (EMOCREA 1.er ciclo, C1).
+
+### Uso previsto
+
+`bloques[].explicacion` describe qué observar al evaluar cada bloque de criterios, y `saberes` da los contenidos por ciclo. Los dos pueden inyectarse en el prompt de generación de SA junto a los criterios. El decreto no vincula saberes a criterios concretos, así que `criterios[].saberes` sigue vacío a propósito.

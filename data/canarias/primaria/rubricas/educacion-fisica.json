@@ -1,0 +1,487 @@
+{
+  "area": "Educación Física",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – EDUCACIÓN FÍSICA",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Explorar las posibilidades de la motricidad a través del juego, identificando los beneficios de la actividad física para un estilo de vida activo y saludable, aportando hábitos de higiene corporal, educación postural, descanso e hidratación.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 151,
+        "descriptores": {
+          "Insuficiente": "Explora con nula o escasa iniciativa propia las posibilidades de la motricidad a través del juego, identificando con errores los beneficios de la actividad física para un estilo de vida activo y saludable, aportando con conciencia mínima hábitos de higiene corporal, educación postural, descanso e hidratación, y utilizando de manera inadecuada técnicas de aprendizaje autorregulado.",
+          "Suficiente/Bien": "Explora las posibilidades de la motricidad a través del juego, identificando los beneficios de la actividad física para un estilo de vida activo y saludable, aportando hábitos de higiene corporal, educación postural, descanso e hidratación, y utilizando técnicas de aprendizaje autorregulado.",
+          "Notable": "Explora con iniciativa propia y motivación las posibilidades de la motricidad a través del juego, identificando con corrección los beneficios de la actividad física para un estilo de vida activo y saludable, aportando con conciencia hábitos de higiene corporal, educación postural, descanso e hidratación, y utilizando con alta adecuación técnicas de aprendizaje autorregulado.",
+          "Sobresaliente": "Explora con iniciativa propia y motivación sostenida las posibilidades de la motricidad a través del juego, identificando con total corrección los beneficios de la actividad física para un estilo de vida activo y saludable, aportando con alta conciencia hábitos de higiene corporal, educación postural, descanso e hidratación, y utilizando con excelente adecuación técnicas de aprendizaje autorregulado."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Experimentar diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA2"
+        ],
+        "pagina_pdf": 152,
+        "descriptores": {
+          "Insuficiente": "Experimenta de manera inadecuada diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo rara vez comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.",
+          "Suficiente/Bien": "Experimenta diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.",
+          "Notable": "Experimenta de forma muy adecuada diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo de manera regular y constante comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas.",
+          "Sobresaliente": "Experimenta con destacada adecuación diferentes medidas de seguridad aplicables a distintos momentos de la práctica de la actividad física para evitar lesiones y saber cómo actuar en caso de accidente, adquiriendo con máxima constancia y determinación comportamientos sociales inclusivos y de respeto, a través de prácticas motrices compartidas."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Adoptar decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose a los objetivos motores y la lógica interna de las situaciones motrices.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 153,
+        "descriptores": {
+          "Insuficiente": "Adopta de manera inadecuada decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose con dificultad a los objetivos motores y la lógica interna de las situaciones motrices.",
+          "Suficiente/Bien": "Adopta decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose a los objetivos motores y la lógica interna de las situaciones motrices.",
+          "Notable": "Adopta de forma muy adecuada decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose con facilidad a los objetivos motores y la lógica interna de las situaciones motrices.",
+          "Sobresaliente": "Adopta con destacada adecuación decisiones en situaciones lúdicas dependiendo de la comunicación motriz, ajustándose con facilidad destacable a los objetivos motores y la lógica interna de las situaciones motrices."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Experimentar con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 154,
+        "descriptores": {
+          "Insuficiente": "Experimenta con dudas importantes con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando de manera inadecuada retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales, identificando mostrando inseguridad el valor del esfuerzo y tratando de reconocer de manera inadecuada sus limitaciones.",
+          "Suficiente/Bien": "Experimenta con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales, identificando el valor del esfuerzo y tratando de reconocer sus limitaciones.",
+          "Notable": "Experimenta de manera segura y confiada con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando de forma muy adecuada retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales, identificando con seguridad el valor del esfuerzo y tratando de reconocer con alta adecuación sus limitaciones.",
+          "Sobresaliente": "Experimenta con total confianza con el propio cuerpo, descubriendo los componentes cualitativos de la motricidad a través de diferentes situaciones motrices lúdicas, desarrollando con destacada adecuación retos motores de carácter individual y colaborativo para resolver problemas motores en contextos simulados o reales, identificando con seguridad y plena confianza el valor del esfuerzo y tratando de reconocer con excelente adecuación sus limitaciones."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Respetar las normas y reglas del juego, actuando con deportividad y juego limpio, aceptando las características y el nivel de las personas participantes e identificando y gestionando las emociones para disfrutar de la actividad física.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 155,
+        "descriptores": {
+          "Insuficiente": "Respeta sin compromiso personal las normas y reglas del juego, actuando ocasionalmente con deportividad y juego limpio, participando enérgicamente en el trabajo en grupo y aceptando las características y el nivel de las personas participantes, utilizando de manera inadecuada técnicas de aprendizaje autorregulado, e identificando y gestionando las emociones para disfrutar de la actividad física.",
+          "Suficiente/Bien": "Respeta las normas y reglas del juego, actuando con deportividad y juego limpio, participando enérgicamente en el trabajo en grupo y aceptando las características y el nivel de las personas participantes, utilizando técnicas de aprendizaje autorregulado, e identificando y gestionando las emociones para disfrutar de la actividad física.",
+          "Notable": "Respeta con compromiso las normas y reglas del juego, actuando frecuentemente con deportividad y juego limpio, participando enérgicamente en el trabajo en grupo y aceptando las características y el nivel de las personas participantes, utilizando con alta adecuación técnicas de aprendizaje autorregulado, e identificando y gestionando de forma consciente las emociones para disfrutar de la actividad física.",
+          "Sobresaliente": "Respeta con determinación y compromiso las normas y reglas del juego, actuando siempre con deportividad y juego limpio, participando enérgicamente en el trabajo en grupo y aceptando las características y el nivel de las personas participantes, utilizando con destacada adecuación técnicas de aprendizaje autorregulado, e identificando y gestionando de forma plenamente consciente las emociones para disfrutar de la actividad física."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando una actitud positiva frente a las actuaciones contrarias a la convivencia.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CC2"
+        ],
+        "pagina_pdf": 156,
+        "descriptores": {
+          "Insuficiente": "Participa de manera pasiva y limitada en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando ocasionalmente una actitud positiva frente a las actuaciones contrarias a la convivencia.",
+          "Suficiente/Bien": "Participa en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando una actitud positiva frente a las actuaciones contrarias a la convivencia.",
+          "Notable": "Participa de forma activa en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando frecuentemente una actitud positiva frente a las actuaciones contrarias a la convivencia.",
+          "Sobresaliente": "Participa activamente en situaciones motrices lúdicas, iniciándose en el desarrollo de habilidades sociales y en la resolución de conflictos de forma dialógica, mostrando siempre una actitud positiva frente a las actuaciones contrarias a la convivencia."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Experimentar su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas, aceptando su valor cultural y su potencial lúdico y social, adoptando actitudes positivas hacia la igualdad.",
+        "descriptores_operativos": [
+          "CCEC1"
+        ],
+        "pagina_pdf": 157,
+        "descriptores": {
+          "Insuficiente": "4.1.Experimenta su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas con desinterés, aceptando sin compromiso su valor cultural y su potencial lúdico y social, adoptando con nula o escasa iniciativa propia actitudes positivas hacia la igualdad.",
+          "Suficiente/Bien": "4.1.Experimenta su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas, aceptando su valor cultural y su potencial lúdico y social, adoptando actitudes positivas hacia la igualdad.",
+          "Notable": "4.1.Experimenta su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas con interés constante, aceptando con compromiso su valor cultural y su potencial lúdico y social, adoptando con iniciativa propia y motivación actitudes positivas hacia la igualdad.",
+          "Sobresaliente": "4.1.Experimenta su motricidad con los juegos motores tradicionales, de Canarias, y de otras culturas con interés y dedicación constantes, aceptando con compromiso y constancia su valor cultural y su potencial lúdico y social, adoptando con iniciativa propia y motivación sostenida actitudes positivas hacia la igualdad."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar en composiciones con o sin soporte musical, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas mediante el ritmo y el movimiento.",
+        "descriptores_operativos": [
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 158,
+        "descriptores": {
+          "Insuficiente": "Participa en composiciones con o sin soporte musical con ciertas incorrecciones, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo con incoherencias sensaciones, emociones e ideas mediante el ritmo y el movimiento.",
+          "Suficiente/Bien": "Participa en composiciones con o sin soporte musical, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas mediante el ritmo y el movimiento.",
+          "Notable": "Participa en composiciones con o sin soporte musical con corrección en los elementos relevantes, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo de forma coherente sensaciones, emociones e ideas mediante el ritmo y el movimiento.",
+          "Sobresaliente": "Participa en composiciones con o sin soporte musical con total corrección, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo con total coherencia sensaciones, emociones e ideas mediante el ritmo y el movimiento."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Participar en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC4"
+        ],
+        "pagina_pdf": 159,
+        "descriptores": {
+          "Insuficiente": "Participa con nula o escasa iniciativa propia en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos sin precisar el sentido y sin funcionalidad.",
+          "Suficiente/Bien": "Participa en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos.",
+          "Notable": "Participa con iniciativa propia y motivación en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos con sentido y funcionalidad.",
+          "Sobresaliente": "Participa con iniciativa propia y motivación sostenida en actividades lúdicas en diversos espacios del entorno natural y urbano de forma segura, conociendo diferentes usos desde la motricidad y con actitudes de respeto y conservación de dichos entornos con sentido y funcionalidad relevantes."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Utilizar la actividad física como alternativa de ocio saludable y sostenible, adquiriendo hábitos de educación postural, de hidratación e higiene, adoptando un estilo de vida activo y saludable.",
+        "descriptores_operativos": [
+          "STEM2",
+          "STEM5",
+          "CPSAA2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 160,
+        "descriptores": {
+          "Insuficiente": "Utiliza la actividad física como alternativa de ocio saludable y sostenible con nula iniciativa propia, adquiriendo hábitos de educación postural, de hidratación e higiene y de alimentación de manera inadecuada, desarrollando con dificultad el uso del pensamiento científico, y sin comenzar a reconocer sus limitaciones, para adoptar un estilo de vida activo y saludable.",
+          "Suficiente/Bien": "Utiliza la actividad física como alternativa de ocio saludable y sostenible, adquiriendo hábitos de educación postural, de hidratación e higiene, y de alimentación, desarrollando el uso del pensamiento científico, y comenzando a reconocer sus limitaciones, para adoptar un estilo de vida activo y saludable.",
+          "Notable": "Utiliza la actividad física como alternativa de ocio saludable y sostenible con iniciativa propia y motivación, adquiriendo hábitos de educación postural, de hidratación e higiene y de alimentación de forma muy adecuada, desarrollando el uso del pensamiento científico, y comenzando a reconocer sus limitaciones regularmente, para adoptar un estilo de vida activo y saludable.",
+          "Sobresaliente": "Utiliza la actividad física como alternativa de ocio saludable y sostenible con iniciativa propia y motivación destacable, adquiriendo hábitos de educación postural, de hidratación e higiene y de alimentación con un alto nivel de adecuación, desarrollando el uso del pensamiento científico, y comenzando a reconocer sus limitaciones de forma continua, para adoptar un estilo de vida activo y saludable."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Interiorizar medidas de seguridad antes, durante y después de la práctica de actividad física, diferenciando contextos de riesgo de aquellos beneficiosos para la salud, adquiriendo actitudes inclusivas y respetando las diferencias individuales.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA2",
+          "CE3"
+        ],
+        "pagina_pdf": 161,
+        "descriptores": {
+          "Insuficiente": "Interioriza con dificultad medidas de seguridad antes, durante y después de la práctica de actividad física diferenciando contextos de riesgo de aquellos beneficiosos para la salud sin suficiente detalle, respetando las diferencias individuales y cooperando con desinterés con otras personas en equipo.",
+          "Suficiente/Bien": "Interioriza medidas de seguridad antes, durante y después de la práctica de actividad física diferenciando contextos de riesgo de aquellos beneficiosos para la salud, adquiriendo actitudes inclusivas, respetando las diferencias individuales y cooperando con otras personas en equipo.",
+          "Notable": "Interioriza con facilidad medidas de seguridad antes, durante y después de la práctica de actividad física diferenciando contextos de riesgo de aquellos beneficiosos para la salud con un grado significativo de detalle, adquiriendo actitudes inclusivas y respetando las diferencias individuales y cooperando con interés constante y dedicación con otras personas en equipo.",
+          "Sobresaliente": "Interioriza con facilidad destacable medidas de seguridad antes, durante y después de la práctica de actividad física diferenciando contextos de riesgo de aquellos beneficiosos para la salud de manera amplia y detallada, adquiriendo actitudes inclusivas, respetando las diferencias individuales y cooperando con pasión constante y dedicación con otras personas en equipo."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Adoptar decisiones en juegos motores y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 162,
+        "descriptores": {
+          "Insuficiente": "Adopta de manera inadecuada decisiones en juegos motores y actividades deportivas, ajustándose con dificultad a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz, adoptando con conciencia mínima posturas analíticas en procesos de reflexión guiados.",
+          "Suficiente/Bien": "Adopta decisiones en juegos motores y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz, adoptando posturas analíticas en procesos de reflexión guiados.",
+          "Notable": "Adopta de forma muy adecuada decisiones en juegos motores y actividades deportivas, ajustándose con facilidad a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz, adoptando con alta conciencia posturas analíticas en procesos de reflexión guiados.",
+          "Sobresaliente": "Adopta con un alto nivel de adecuación decisiones en juegos motores y actividades deportivas, ajustándose con facilidad destacable a las demandas derivadas de los objetivos motores y de la lógica interna de situaciones con diferentes tipos de comunicación motriz, adoptando con plena conciencia posturas analíticas en procesos de reflexión guiados."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos y adaptando los cuantitativos de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 163,
+        "descriptores": {
+          "Insuficiente": "Adquiere siempre con ayuda un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver de manera inadecuada problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal, reconociendo con inseguridad el valor del esfuerzo y sin comenzar a reconocer sus limitaciones.",
+          "Suficiente/Bien": "Adquiere un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal, reconociendo el valor del esfuerzo y comenzando a reconocer sus limitaciones.",
+          "Notable": "Adquiere con autonomía un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver de forma muy adecuada problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal, reconociendo con seguridad el valor del esfuerzo y comenzando a reconocer con regularidad sus limitaciones.",
+          "Sobresaliente": "Adquiere con gran autonomía un progresivo control y dominio corporal, empleando los componentes cualitativos, y adaptando los componentes cuantitativos, de la motricidad a diferentes situaciones motrices lúdicas, para resolver con un alto nivel de adecuación problemas motores en los contextos simulados o reales de los retos motores creados de forma individual y grupal, reconociendo con seguridad y plena confianza el valor del esfuerzo y comenzando a reconocer de forma continua sus limitaciones."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Demostrar, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacía el esfuerzo físico, controlando la impulsividad, gestionando las emociones, valorando las aportaciones de compañeros y adversarios y actuando siempre con deportividad y juego limpio.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 164,
+        "descriptores": {
+          "Insuficiente": "Demuestra con escasa claridad, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacia el esfuerzo físico, utilizando de manera inadecuada métodos de aprendizaje autorregulado, controlando la impulsividad, gestionando las emociones con conciencia mínima, valorando las aportaciones de compañeras y compañeros y adversarios y actuando siempre con deportividad y juego limpio de forma poco entusiasta y sin compromiso, empleando de manera inadecuada estrategias cooperativas al participar en el trabajo en grupo.",
+          "Suficiente/Bien": "Demuestra, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacia el esfuerzo físico, utilizando métodos de aprendizaje autorregulado, controlando la impulsividad, gestionando las emociones, valorando las aportaciones de compañeras y compañeros y adversarios y actuando siempre con deportividad y juego limpio, empleando estrategias cooperativas y participando entusiastamente en el trabajo en grupo.",
+          "Notable": "Demuestra con claridad, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacia el esfuerzo físico, utilizando con alta adecuación métodos de aprendizaje autorregulado, controlando la impulsividad y gestionando las emociones de forma consciente, valorando las aportaciones de compañeras y compañeros y adversarios y actuando siempre con deportividad y juego limpio con compromiso, empleando con alta adecuación estrategias cooperativas y participando entusiastamente en el trabajo en grupo.",
+          "Sobresaliente": "Demuestra con gran claridad, durante la práctica de actividades motrices, respeto hacia las normas y reglas del juego y una disposición positiva hacia el esfuerzo físico, utilizando con excelente adecuación métodos de aprendizaje autorregulado, controlando la impulsividad y gestionando las emociones de forma plenamente consciente, valorando las aportaciones de compañeras y compañeros y adversarios y actuando siempre con deportividad y juego limpio con determinación y compromiso, empleando estrategias cooperativas con excelente adecuación y participando entusiastamente en el trabajo en grupo."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo los conflictos de forma dialógica y mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 165,
+        "descriptores": {
+          "Insuficiente": "Participa de manera pasiva y limitada en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo con nula iniciativa propia los conflictos de forma dialógica y mostrando ocasionalmente un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.",
+          "Suficiente/Bien": "Participa en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo los conflictos de forma dialógica y mostrando un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.",
+          "Notable": "Participa de forma activa en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo con iniciativa propia y motivación los conflictos de forma dialógica y mostrando frecuentemente un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia.",
+          "Sobresaliente": "Participa activamente en situaciones motrices lúdicas, desarrollando habilidades sociales de acogida, inclusión y cooperación, resolviendo con constante iniciativa propia y motivación destacable los conflictos de forma dialógica y mostrando siempre un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar activamente en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando actitudes positivas hacia la igualdad.",
+        "descriptores_operativos": [
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 166,
+        "descriptores": {
+          "Insuficiente": "Participa activamente con nula iniciativa propia en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando con conciencia mínima su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando de manera pasiva y limitada actitudes positivas hacia la igualdad.",
+          "Suficiente/Bien": "Participa activamente en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando actitudes positivas hacia la igualdad.",
+          "Notable": "Participa activamente con iniciativa propia y motivación en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando de manera consciente su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando de forma activa actitudes positivas hacia la igualdad.",
+          "Sobresaliente": "Participa activamente con constante iniciativa propia y motivación destacable en juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo y conservando de manera plenamente consciente su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas, adoptando activamente actitudes positivas hacia la igualdad."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Distinguir y participar en composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+        "descriptores_operativos": [
+          "CCEC1",
+          "CCEC2",
+          "CCEC3"
+        ],
+        "pagina_pdf": 167,
+        "descriptores": {
+          "Insuficiente": "Distingue y participa en composiciones con o sin soporte musical y las reproduce con ciertas dificultades e incorrecciones, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo con incoherencias, sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+          "Suficiente/Bien": "Distingue y participa en composiciones con o sin soporte musical y las reproduce, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+          "Notable": "Distingue y participa en composiciones con o sin soporte musical y las reproduce con claridad y corrección, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo de forma coherente sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+          "Sobresaliente": "Distingue y participa en composiciones con o sin soporte musical y las reproduce con total corrección y precisión, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo con total coherencia sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Practicar actividad física en los distintos espacios del entorno natural y urbano de forma segura, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 168,
+        "descriptores": {
+          "Insuficiente": "Practica con apoyos frecuentes actividad física en los distintos espacios del entorno natural y urbano de forma segura, sin tomar conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental con nula o escasa iniciativa propia, cooperando con desinterés con otras personas en equipo.",
+          "Suficiente/Bien": "Practica actividad física en los distintos espacios del entorno natural y urbano de forma segura, tomando conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental, cooperando con otros en equipo.",
+          "Notable": "Practica con autonomía actividad física en los distintos espacios del entorno natural y urbano de forma segura, tomando plena conciencia de las consecuencias que las ideas pudieran generar en el entorno próximo, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental con iniciativa propia y motivación, cooperando con interés constante y dedicación con otras personas en equipo.",
+          "Sobresaliente": "Practica con gran autonomía actividad física en los distintos espacios del entorno natural y urbano de forma segura, tomando conciencia crítica de las consecuencias que las ideas pudieran generar en el entorno próximo, actuando desde un análisis previo de la situación y aplicando medidas de conservación ambiental con iniciativa propia y motivación sostenida, cooperando con pasión constante y dedicación con otras personas en equipo."
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Integrar los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal, interiorizando así las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física y para su aplicación en la vida diaria.",
+        "descriptores_operativos": [
+          "STEM2",
+          "STEM5",
+          "CPSAA2",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 169,
+        "descriptores": {
+          "Insuficiente": "Integra de manera inadecuada los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene, utilizando con escaso sentido o funcionalidad el pensamiento científico en la práctica de actividades motrices, con escaso o nulo reconocimiento de sus limitaciones y buscando esporádicamente la superación personal, interiorizando con conciencia mínima las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, lo que dificulta su aplicación en la vida diaria.",
+          "Suficiente/Bien": "Integra, los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene, utilizando el pensamiento científico en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal interiorizando así las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria.",
+          "Notable": "Integra con alta adecuación, los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene, utilizando el pensamiento científico con sentido y funcionalidad relevantes en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal regularmente, interiorizando así, con alta conciencia las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria.",
+          "Sobresaliente": "Integra con excelente adecuación, los procesos de activación corporal, autorregulación del esfuerzo, relajación e higiene, utilizando el pensamiento científico con sentido y funcionalidad excelentes en la práctica de actividades motrices, reconociendo sus limitaciones y buscando la superación personal de forma continua, interiorizando así, con muy alta conciencia las rutinas propias de una práctica motriz saludable, sostenible y responsable como beneficiosas de la actividad física, así como las ventajas de una alimentación natural, para su aplicación en la vida diaria."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Aplicar medidas de seguridad antes, durante y después de la práctica de actividad física, identificando los contextos de riesgo e implementando conductas apropiadas vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA2",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 170,
+        "descriptores": {
+          "Insuficiente": "Aplica de manera inadecuada medidas de seguridad antes, durante y después de la práctica de actividad física, identificando sin suficiente detalle y de manera superficial los contextos de riesgo, con escaso o nulo reconocimiento de sus limitaciones e implementando con conciencia mínima conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia, cooperando con desinterés con otros en equipos y considerando la experiencia como una oportunidad para aprender.",
+          "Suficiente/Bien": "Aplica medidas de seguridad antes, durante y después de la práctica de actividad física, identificando los contextos de riesgo, reconociendo sus limitaciones e implementando conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia, cooperando con otros en equipos y considerando la experiencia como una oportunidad para aprender.",
+          "Notable": "Aplica con gran adecuación medidas de seguridad antes, durante y después de la práctica de actividad física, identificando de manera detallada y con profundidad los contextos de riesgo, reconociendo sus limitaciones e implementando con alta conciencia conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia, cooperando con interés y dedicación constantes con otros en equipos y considerando la experiencia como una oportunidad para aprender.",
+          "Sobresaliente": "Aplica con excelente adecuación medidas de seguridad antes, durante y después de la práctica de actividad física, identificando de manera detallada y con un nivel alto de profundidad los contextos de riesgo, reconociendo sus limitaciones e implementando con plena conciencia conductas apropiadas, vinculadas al cuidado del cuerpo, la actividad física o el deporte, que resultan beneficiosas para la salud y la convivencia, cooperando con pasión y dedicación constantes con otros en equipos y considerando la experiencia como una oportunidad para aprender."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando sobre las soluciones obtenidas.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 171,
+        "descriptores": {
+          "Insuficiente": "Aplica de forma pasiva principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos de manera inadecuada a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando con conciencia mínima sobre las soluciones obtenidas.",
+          "Suficiente/Bien": "Aplica principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando sobre las soluciones obtenidas.",
+          "Notable": "Aplica con iniciativa propia diversos principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos con alta adecuación a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando con alta conciencia sobre las soluciones obtenidas.",
+          "Sobresaliente": "Aplica con constante iniciativa propia diferentes principios básicos de toma de decisiones en situaciones lúdicas, juegos motores y deportes, a partir de la anticipación, ajustándolos con excelente adecuación a los objetivos motores y a la lógica interna de situaciones con diferentes tipos de comunicación motriz, en contextos reales o simulados, reflexionando con plena conciencia sobre las soluciones obtenidas."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Adquirir un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, valorando el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.",
+        "descriptores_operativos": [
+          "STEM1",
+          "CPSAA4",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 172,
+        "descriptores": {
+          "Insuficiente": "Adquiere con ayuda continua un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma poco eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, reconociendo con inseguridad el valor del esfuerzo y sus limitaciones y valorando con conciencia mínima el grado de ajuste al proceso seguido y al resultado obtenido, lo que dificulta resolver problemas motores en distintos contextos próximos a su realidad.",
+          "Suficiente/Bien": "Adquiere un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad de forma eficiente y creativa, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, reconociendo el valor del esfuerzo y sus limitaciones y valorando el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.",
+          "Notable": "Adquiere con gran autonomía un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad con gran eficiencia y creatividad, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, reconociendo con seguridad el valor del esfuerzo y sus limitaciones y valorando con alta conciencia el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad.",
+          "Sobresaliente": "Adquiere de manera totalmente autónoma un progresivo control y dominio corporal, integrando los componentes cualitativos y cuantitativos de la motricidad con destacable eficiencia y creatividad, implementando retos motores de carácter individual o grupal en los que se definan metas, se secuencien acciones y se generen producciones como respuesta a diferentes situaciones motrices lúdicas, reconociendo con seguridad y plena confianza el valor del esfuerzo y sus limitaciones y valorando con plena conciencia el grado de ajuste al proceso seguido y al resultado obtenido, para resolver problemas motores en distintos contextos próximos a su realidad."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Intervenir en situaciones motrices lúdicas, con predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva, reconociendo las actuaciones de personas compañeras y oponentes.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 173,
+        "descriptores": {
+          "Insuficiente": "Interviene en situaciones motrices lúdicas, con mínima predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva sin precisar el sentido y sin funcionalidad, reconociendo con conciencia mínima las actuaciones de personas compañeras y oponentes, empleando de forma inadecuada estrategias cooperativas y participando de forma poco activa y sin compromiso en el trabajo en grupo.",
+          "Suficiente/Bien": "Interviene en situaciones motrices lúdicas, con predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva, reconociendo las actuaciones de personas compañeras y oponentes, empleando estrategias cooperativas y participando activamente en el trabajo en grupo.",
+          "Notable": "Interviene en situaciones motrices lúdicas, con notable predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva con sentido y funcionalidad relevantes, reconociendo con alta conciencia las actuaciones de personas compañeras y oponentes, empleando con alta adecuación estrategias cooperativas y participando activamente con compromiso en el trabajo en grupo.",
+          "Sobresaliente": "Interviene en situaciones motrices lúdicas, con excelente predisposición, esfuerzo, perseverancia y autorregulación, respetando las normas y reglas del juego, con deportividad, controlando la impulsividad, gestionando las emociones y expresándose de forma asertiva con sentido y funcionalidad excelentes, reconociendo con muy alta y plena conciencia las actuaciones de personas compañeras y oponentes, empleando con excelente adecuación estrategias cooperativas y participando activamente con determinación y compromiso en el trabajo en grupo."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Mostrar habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 174,
+        "descriptores": {
+          "Insuficiente": "Muestra de manera pasiva y limitada habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando ocasionalmente una actitud crítica sin desarrollar un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.",
+          "Suficiente/Bien": "Muestra habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices",
+          "Notable": "Muestra de forma activa habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando frecuentemente una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices.",
+          "Sobresaliente": "Muestra activamente habilidades sociales, diálogo y respeto en la resolución de conflictos y ante la diversidad, ya sea de género, afectivo-sexual, procedencia, étnico, socio-económica o de competencia motriz, demostrando siempre una actitud crítica y un compromiso activo de cambio frente a los estereotipos, la discriminación y la violencia en el contexto de las prácticas motrices."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Practicar juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas reconociendo el esfuerzo y la dedicación de distintos referentes del deporte.",
+        "descriptores_operativos": [
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 175,
+        "descriptores": {
+          "Insuficiente": "Practica de manera ocasional juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo con cierta dificultad e incorrección su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas, reconociendo con escasa profundidad el esfuerzo y la dedicación de distintos referentes del deporte.",
+          "Suficiente/Bien": "Practica juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas, reconociendo el esfuerzo y la dedicación de distintos referentes del deporte.",
+          "Notable": "Practica de manera regular y constante juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo con claridad y corrección su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas, reconociendo con profundidad el esfuerzo y la dedicación de distintos referentes del deporte.",
+          "Sobresaliente": "Practica con máxima constancia y determinación juegos motores y deportes, propios de la cultura canaria, así como procedentes de otras, reconociendo, conservando y transmitiendo con total corrección y precisión su valor cultural y su potencial como espacio generador de interacciones constructivas y actitudes positivas hacia la igualdad entre personas, reconociendo con destacable profundidad el esfuerzo y la dedicación de distintos referentes del deporte."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Crear composiciones con o sin soporte musical y reproducirlas, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, de forma estética y creativa mediante el ritmo y el movimiento.",
+        "descriptores_operativos": [
+          "CE2",
+          "CCEC1",
+          "CCEC2",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 176,
+        "descriptores": {
+          "Insuficiente": "Crea composiciones con o sin soporte musical y las reproduce con incoherencias, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas con falta de seguridad y confianza y de forma estética y creativa mediante el ritmo y el movimiento, identificando con inseguridad las fortalezas y debilidades propias utilizando estrategias de autoconocimiento.",
+          "Suficiente/Bien": "Crea composiciones con o sin soporte musical y las reproduce, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas, y de forma estética y creativa mediante el ritmo y el movimiento, identificando las fortalezas y debilidades propias utilizando estrategias de autoconocimiento.",
+          "Notable": "Crea composiciones con o sin soporte musical y las reproduce de forma coherente, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas de manera segura y confiada y de forma estética y creativa mediante el ritmo y el movimiento, identificando con deliberación las fortalezas y debilidades propias utilizando estrategias de autoconocimiento.",
+          "Sobresaliente": "Crea composiciones con o sin soporte musical y las reproduce con total coherencia, al igual que otras manifestaciones artístico-expresivas de la cultura canaria u otras, transmitiendo sensaciones, emociones e ideas con total confianza, y de forma estética y creativa mediante el ritmo y el movimiento, identificando con conciencia crítica las fortalezas y debilidades propias utilizando estrategias de autoconocimiento."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Adaptar las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible y comunitaria del entorno.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC2",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 177,
+        "descriptores": {
+          "Insuficiente": "Adapta con ayuda continua las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, sin tomar conciencia de las consecuencias y efectos que las ideas pudieran generar en el entorno, valorando sus posibilidades para la práctica de actividad física, realizando las tareas planificadas, cooperando con desinterés con otros en equipo y actuando con ayuda continua desde una perspectiva ecosostenible y comunitaria del entorno, participando con escasa iniciativa propia en actividades comunitarias, dialogando y respetando con consciencia mínima la diversidad.",
+          "Suficiente/Bien": "Adapta las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, tomando conciencia de las consecuencias y efectos que las ideas pudieran generar en el entorno, valorando sus posibilidades para la práctica de actividad física, realizando las tareas planificadas, cooperando con otras personas en equipo y actuando desde una perspectiva ecosostenible y comunitaria del entorno, participando en actividades comunitarias, dialogando y respetando la diversidad.",
+          "Notable": "Adapta con gran autonomía las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, tomando plena conciencia de las consecuencias y efectos que las ideas pudieran generar en el entorno, valorando sus posibilidades para la práctica de actividad física, realizando las tareas planificadas, cooperando con interés y dedicación constantes con otras personas en equipo y actuando con gran autonomía desde una perspectiva ecosostenible y comunitaria del entorno, participando con iniciativa propia y motivación sostenida en actividades comunitarias, dialogando y respetando con deliberación la diversidad.",
+          "Sobresaliente": "Adapta de manera autónoma y con iniciativa propia las acciones motrices a la incertidumbre del entorno natural y urbano de forma eficiente y segura, tomando conciencia crítica de las consecuencias y efectos que las ideas pudieran generar en el entorno, valorando sus posibilidades para la práctica de actividad física, realizando las tareas planificadas, cooperando con pasión y dedicación constantes con otras personas en equipo y actuando de manera totalmente autónoma y con iniciativa propia desde una perspectiva ecosostenible y comunitaria del entorno, participando con constante iniciativa propia y motivación sostenida y destacable, en actividades comunitarias, dialogando y respetando con conciencia crítica la diversidad."
+        }
+      }
+    ]
+  }
+}

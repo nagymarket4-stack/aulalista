@@ -62,6 +62,16 @@ Mediación, prácticas restaurativas, apoyo entre iguales, **tutorías afectivas
 ### Procedimientos
 Mediación formal (art. 48, que remite a la Orden de 27/06/2014 e interrumpe plazos), procedimiento disciplinario (art. 49: incoación en 3 días lectivos y resolución en un mes, o caduca), medidas cautelares (art. 50), conciliación (art. 51), acoso (art. 52) y violencia de género (art. 53).
 
+## Concreción organizativa en las instrucciones 2026-2027 (Resolución 73/2026)
+
+La resolución es de mayo de 2026, anterior al decreto, y por eso sus fundamentos (p. 94) aún citan el D. 114/2011. Su contenido organizativo es compatible con el Decreto 169/2026:
+- **Protocolo de acoso propio en cada centro:** lo aprueba el consejo escolar, se integra en el plan de convivencia y **se difunde al inicio de cada curso**. Incluye las actuaciones del protocolo general, medidas de prevención del acoso y del **ciberacoso**, e información del **SPACAE** (Servicio de Prevención y Ayuda contra el Acoso Escolar) (anexo I, 1.5, p. 11).
+- **Coordinación para el bienestar y la protección del alumnado en CEIP:** entre 2 sesiones complementarias (4–6 unidades) y 5 lectivas más 1 complementaria (36 o más). Dos sesiones deben ser el **martes de 9:00 a 11:00 en Santa Cruz de Tenerife** y el **miércoles en Las Palmas**. La coordinación con la DGOEII es los jueves de 9:00 a 11:00 (anexo II, 1.12, p. 40; anexo I, 1.13, p. 18).
+- **Equipo de gestión de la convivencia (EGC):** dirección o jefatura de estudios, coordinación de bienestar y los miembros que proponga la dirección. Se recomienda incluir a la persona responsable de mediación o con formación en convivencia, la coordinación del plan de convivencia positiva, orientación e igualdad. Cada miembro tiene 1 sesión complementaria, y el equipo de mediación también (anexo II, p. 40, nota 55). **Coherente con el art. 14 del decreto.**
+- **Plan de centros para la convivencia positiva:** hasta 2 sesiones complementarias; reuniones los miércoles de 12:00 a 14:00.
+- **Protocolos relacionados** enlazados en el anexo I, 1.5: gestión del conflicto por conductas contrarias, riesgo suicida, violencia de género, alumnado trans*, desprotección infantil y ciberseguridad.
+- **Familias (2.7, pp. 21–22):** entre los ámbitos de colaboración están "conocer y cumplir las normas de convivencia" y "respetar la autoridad del profesorado".
+
 ## Implicaciones para el aula de Primaria
 
 - **Septiembre-octubre:** elaborar y votar las normas de aula con el grupo. Es una SA natural de inicio de curso en EMOCREA, Valores Cívicos y Éticos (3.er ciclo) o tutoría.
@@ -84,6 +94,8 @@ Mediación formal (art. 48, que remite a la Orden de 27/06/2014 e interrumpe pla
 6. **Tarea pendiente:** leer el PDF íntegro para verificar el art. 52 (protocolo de acoso) y el art. 23 completo antes de citarlos en prompts.
 
 ## Fuentes
+
+- Resolución n.º 73/2026, texto íntegro y anexo II aportados por el usuario (ver `07-instrucciones-curso-2026-2027.md`)
 
 - BOC n.º 223/2026, ficha oficial del decreto: https://www.gobiernodecanarias.org/boc/2026/223/3844.html (consultada; texto truncado tras el art. 23)
 - INAP, *La Administración al Día*, texto completo reseñado: https://laadministracionaldia.inap.es/noticia.asp?id=1270930 (arts. 1–53 y disposiciones)

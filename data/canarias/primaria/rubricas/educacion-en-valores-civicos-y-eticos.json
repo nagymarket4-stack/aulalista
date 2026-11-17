@@ -1,0 +1,221 @@
+{
+  "area": "Educación en Valores Cívicos y Éticos",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – EDUCACIÓN EN VALORES CÍVICOS Y ÉTICOS",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Construir un adecuado concepto de sí mismo o sí misma en relación con otras personas y la naturaleza, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, así como analizando, expresando e identificando emociones, afectos y deseos con la finalidad de alcanzar fines propios y colectivos, desarrollando la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CD3",
+          "CD4",
+          "CPSAA5",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 178,
+        "descriptores": {
+          "Insuficiente": "Construye un concepto poco adecuado de sí mismo o sí misma en relación con otras personas y el entorno, realizando búsquedas guiadas en internet con inseguridad, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, adoptando de manera intermitente o con desinterés hábitos de uso crítico, seguro y saludable de las tecnologías digitales, así como analizando, expresando e identificando emociones, afectos y deseos con incoherencias con la finalidad de alcanzar fines propios y colectivos, utilizando de manera inadecuada estrategias de aprendizaje autorregulado, desarrollando rara vez la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva y sin mostrar iniciativa en el fomento del comportamiento ético y la resolución de los conflictos.",
+          "Suficiente/Bien": "Construye un adecuado concepto de sí mismo o sí misma en relación con otras personas y el entorno, realizando búsquedas guiadas en internet, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, adoptando hábitos de uso crítico, seguro y saludable de las tecnologías digitales, así como analizando, expresando e identificando emociones, afectos y deseos con la finalidad de alcanzar fines propios y colectivos, utilizando estrategias de aprendizaje autorregulado, desarrollando la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva y fomentando el comportamiento ético en la resolución de los conflictos.",
+          "Notable": "Construye un muy adecuado concepto de sí mismo o sí misma en relación con otras personas y el entorno, realizando búsquedas guiadas en internet con seguridad y confianza, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, adoptando con compromiso sostenido hábitos de uso crítico seguro y saludable de las tecnologías digitales, así como analizando, expresando e identificando emociones, afectos y deseos de forma coherente con la finalidad de alcanzar fines propios y colectivos, utilizando con alta adecuación estrategias de aprendizaje autorregulado, desarrollando frecuentemente la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva y fomentando con interés y dedicación constantes el comportamiento ético en la resolución de los conflictos.",
+          "Sobresaliente": "Construye un sumamente adecuado concepto de sí mismo o sí misma en relación con otras personas y el entorno, realizando búsquedas guiadas en internet con seguridad y plena confianza, organizando y generando información analógica y digital con respecto a la identidad, diferencia y dignidad de las personas, adoptando con notable compromiso hábitos de uso crítico, seguro y saludable de las tecnologías digitales, así como analizando, expresando e identificando emociones, afectos y deseos con total coherencia con la finalidad de alcanzar fines propios y colectivos, utilizando con excelente adecuación estrategias de aprendizaje autorregulado, desarrollando siempre la autoestima, la autonomía y la identidad personal en un clima de convivencia proactiva y fomentando con pasión y dedicación constantes el comportamiento ético en la resolución de los conflictos."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Generar una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes, reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "CP3",
+          "CD1",
+          "CD4",
+          "CPSAA4",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 180,
+        "descriptores": {
+          "Insuficiente": "Genera rara vez una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo con dificultad y sin detalle su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes y reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales de manera ineficaz y limitada, con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos.",
+          "Suficiente/Bien": "Genera una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes y reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales, con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos.",
+          "Notable": "Genera frecuentemente una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo con facilidad y con un significativo grado de detalle su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes y reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales de forma activa, con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos",
+          "Sobresaliente": "Genera siempre una posición moral autónoma a través de la reflexión, el uso de los conceptos éticos y el diálogo respetuoso con otras personas, en torno a distintos valores y modos de vida, así como problemas relacionados con las tecnologías, conociendo con facilidad destacable y de manera amplia y detallada su evolución a lo largo de la historia, analizando sus ventajas e inconvenientes y reflexionando sobre cómo afectan al autoconcepto y las relaciones sociales activamente, con la finalidad de generar y expresar una posición crítica ante el uso responsable y seguro de las redes y medios de comunicación, las conductas adictivas, la prevención del abuso y el acoso escolar, y el respeto de la intimidad personal aprendiendo a discernir entre información contrastada, veraz y bulos."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Promover y demostrar, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz».",
+        "descriptores_operativos": [
+          "CCL5",
+          "CD3",
+          "CC1",
+          "CC2",
+          "CE1",
+          "CE2"
+        ],
+        "pagina_pdf": 181,
+        "descriptores": {
+          "Insuficiente": "Promueve y demuestra ocasionalmente, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con dificultad y sin detalle de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con ayuda continua elementos económicos y financieros básicos, sin tomar conciencia de las consecuencias que las ideas pudieran tener y compartiendo de forma pasiva datos y contenidos en entornos digitales restringidos, lo que impide potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz».",
+          "Suficiente/Bien": "Promueve y demuestra, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo elementos económicos y financieros básicos, tomando conciencia de las consecuencias que las ideas pudieran tener y compartiendo datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz».",
+          "Notable": "Promueve y demuestra con alta frecuencia, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con facilidad y con un significativo grado de detalle de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con progresiva autonomía elementos económicos y financieros básicos, tomando plena conciencia de las consecuencias que las ideas pudieran tener y compartiendo de forma activa datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz».",
+          "Sobresaliente": "Promueve y demuestra con muy alta frecuencia, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con facilidad destacable y de manera amplia y detallada de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con autonomía elementos económicos y financieros básicos, tomando conciencia crítica de las consecuencias que las ideas pudieran tener y compartiendo con iniciativa datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz»."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Reflexionar, dialogar y asumir un compromiso activo y crítico con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios y las identidades étnico-culturales y de género, interactuando y adoptando, de forma motivada y autónoma, conductas cívicas y éticas, para fomentar una relación proactiva con los demás en el contexto personal, familiar y social del alumnado.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CPSAA4",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 183,
+        "descriptores": {
+          "Insuficiente": "Reflexiona con conciencia mínima, dialoga mostrando desinterés y asume con escasa frecuencia un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con mínima motivación y sin autonomía, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando de manera inadecuada estrategias cooperativas dirigidas a la consecución de objetivos compartidos, lo que dificulta fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
+          "Suficiente/Bien": "Reflexiona, dialoga y asume un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando, de forma motivada y autónoma, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
+          "Notable": "Reflexiona con deliberación, dialoga con interés y dedicación constantes y asume frecuentemente un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con alta motivación y autonomía, conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando con alta adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado.",
+          "Sobresaliente": "Reflexiona con conciencia crítica, dialoga con pasión y dedicación constantes y asume siempre un compromiso activo y crítico, con valores relativos a la solidaridad, el respeto por las minorías, los fenómenos migratorios, las identidades étnico-culturales y de género, el respeto hacia la diversidad lingüística, interactuando y adoptando con plena motivación y autonomía , conductas cívicas y éticas, apreciando los aspectos fundamentales del patrimonio cultural y artístico y empleando con excelente adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para fomentar una relación proactiva con las demás personas en el contexto personal, familiar y social del alumnado."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre hombres y mujeres.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2",
+          "CC3"
+        ],
+        "pagina_pdf": 184,
+        "descriptores": {
+          "Insuficiente": "Muestra dificultades para contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo superficialmente y analizando de manera poco crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres.",
+          "Suficiente/Bien": "Contribuye a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres.",
+          "Notable": "Contribuye de forma activa y consciente a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo con profundidad y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres.",
+          "Sobresaliente": "Contribuye de forma activa y plenamente consciente a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo con destacable profundidad y analizando de manera crítica y el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres."
+        }
+      },
+      {
+        "criterio": "2.4",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comprender y valorar los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD y la propia ciudadanía.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CE2"
+        ],
+        "pagina_pdf": 185,
+        "descriptores": {
+          "Insuficiente": "Comprende y valora de forma superficial los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, reflexionando rara vez sobre las normas de convivencia, reconociendo necesidades y retos que afrontar con dificultad y poca precisión, a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD, y la propia ciudadanía.",
+          "Suficiente/Bien": "Comprende y valora los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, reflexionando sobre las normas de convivencia, reconociendo necesidades y retos que afrontar , a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD, y la propia ciudadanía.",
+          "Notable": "Comprende y valora de forma reflexiva los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, reflexionando frecuentemente sobre las normas de convivencia, reconociendo necesidades y retos que afrontar con facilidad y precisión, a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD, y la propia ciudadanía.",
+          "Sobresaliente": "Comprende y valora de forma profundamente reflexiva los principios de justicia, solidaridad, seguridad y paz, a la vez que el respeto a las libertades básicas, reflexionando siempre sobre las normas de convivencia, reconociendo necesidades y retos que afrontar con facilidad destacable y gran precisión, a partir del análisis y la ponderación de las políticas y acciones de ayuda y cooperación internacional, de defensa para la paz y de seguridad ciudadana, ejercidas por el Estado y sus instituciones, los organismos internacionales, las ONG y ONGD, y la propia ciudadanía."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Evaluar diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, identificando causas y problemas ecosociales, y justificando argumentalmente y de modo crítico el deber ético de proteger y cuidar la biodiversidad de Canarias.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 186,
+        "descriptores": {
+          "Insuficiente": "Evalúa con dudas importantes diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, adoptando con conciencia mínima estilos de vida saludable, comprendiendo de manera superficial textos para participar activamente en contextos cotidianos, identificando causas y problemas ecosociales y para construir conocimiento, creando e integrando con dificultad significativa contenidos digitales para expresar ideas, sentimientos y conocimientos y justificando con argumentos inconexos y sin valoración crítica el deber ético de proteger y cuidar la biodiversidad de Canarias.",
+          "Suficiente/Bien": "Evalúa diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, adoptando estilos de vida saludable, comprendiendo textos para participar activamente en contextos cotidianos, identificando causas y problemas ecosociales, creando e integrando contenidos digitales y justificando argumentalmente y de modo crítico el deber ético de proteger y cuidar la biodiversidad de Canarias.",
+          "Notable": "Evalúa de manera segura y confiada diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, adoptando con alta conciencia estilos de vida saludable, comprendiendo con profundidad textos para participar activamente en contextos cotidianos, identificando causas y problemas ecosociales y para construir conocimiento, creando e integrando con facilidad contenidos digitales para expresar ideas, sentimientos y conocimientos y justificando argumentalmente y de modo crítico con un sentido y una funcionalidad relevantes el deber ético de proteger y cuidar la biodiversidad de Canarias.",
+          "Sobresaliente": "Evalúa con total confianza diferentes alternativas creativas con que frenar el cambio climático y lograr los Objetivos de Desarrollo Sostenible, adoptando con plena conciencia estilos de vida saludable, comprendiendo con destacable profundidad textos para participar activamente en contextos cotidianos, identificando causas y problemas ecosociales y para construir conocimiento, creando e integrando con facilidad destacable contenidos digitales para expresar ideas, sentimientos y conocimientos y justificando argumentalmente y de modo crítico con un sentido y una funcionalidad excelentes el deber ético de proteger y cuidar la biodiversidad de Canarias."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comprometerse activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta y el entorno canario, a través de la participación en actividades que promuevan un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL5",
+          "CD2",
+          "STEM1",
+          "STEM5",
+          "CPSAA2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 187,
+        "descriptores": {
+          "Insuficiente": "Reconoce necesidades y retos con dificultad y poca precisión y sin comprometerse activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta y especialmente el entorno canario, a través de la participación en actividades, planificando tareas, cooperando con otras personas en equipo y experimentando de forma creativa con diferentes medios y soportes con dependencia total para promover un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario.",
+          "Suficiente/Bien": "Reconoce necesidades y retos y se compromete activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta, y especialmente el entorno canario, a través de la participación en actividades, planificando tareas, cooperando con otras personas en equipo y experimentando de forma creativa con diferentes medios y soportes para promover un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario.",
+          "Notable": "Reconoce necesidades y retos con facilidad y precisión y se compromete activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta con iniciativa propia y motivación, y especialmente el entorno canario, a través de la participación en actividades, planificando tareas, cooperando con otras personas en equipo y experimentando de forma creativa con diferentes medios y soportes de manera segura y confiada para promover un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario.",
+          "Sobresaliente": "Reconoce necesidades y retos con facilidad destacable y gran precisión y se compromete activamente con valores, prácticas y actitudes afectivas consecuentes con el respeto, cuidado y protección de las personas, los animales y el planeta con iniciativa propia y motivación sostenida, y especialmente el entorno canario, a través de la participación en actividades, planificando tareas, cooperando con otras personas en equipo y experimentando de forma creativa con diferentes medios y soportes con total confianza para promover un consumo responsable y un uso sostenible del suelo, el aire, el agua, la energía, la movilidad segura, saludable y sostenible, y la prevención y gestión de residuos considerando el carácter insular del archipiélago y reconociendo el papel de las personas, colectivos y entidades comprometidas con la protección del entorno canario."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud de estima y cuidado de sí mismo o sí misma, de los demás y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3",
+          "CC2",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3",
+          "CCEC3"
+        ],
+        "pagina_pdf": 188,
+        "descriptores": {
+          "Insuficiente": "Expresa y gestiona de forma poco equilibrada las emociones sin precisar el sentido y sin funcionalidad, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno en pocas ocasiones, identificando, analizando y expresando de manera poco asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con conciencia mínima, en distintos contextos y en relación con actividades creativas, lo que dificulta que se propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas.",
+          "Suficiente/Bien": "Expresa y gestiona equilibradamente las emociones, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas.",
+          "Notable": "Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad relevantes, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno frecuentemente, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con alta conciencia, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas.",
+          "Sobresaliente": "Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad excelentes, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno con alta frecuencia, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con plena conciencia, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas."
+        }
+      }
+    ]
+  }
+}

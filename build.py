@@ -17,20 +17,35 @@ for d in sorted((R/'data').glob('*/primaria')):
         for ciclo, v in (j.get('ciclos') or {}).items():
             crit = [[x['id'], x.get('competencia'), x['texto'], x.get('descriptores') or []] for x in ((v or {}).get('criterios') or []) if x.get('texto')]
             if crit: c[ciclo] = crit
-        areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c}
+        sab = {}
+        for ciclo, bloques in (j.get('saberes') or {}).items():
+            out = []
+            for b in bloques or []:
+                parts = []
+                for ap in b.get('apartados') or []:
+                    parts.append(ap.get('apartado', '') + ': ' + ' '.join(ap.get('items') or []))
+                if b.get('items'): parts.append(' '.join(b['items']))
+                out.append(b.get('bloque', '') + ' ' + ' | '.join(parts))
+            if out: sab[ciclo] = out
+        blq = {}
+        for ciclo, bl in (j.get('bloques') or {}).items():
+            out = [[x.get('competencias') or [], x.get('criterios') or [], x.get('explicacion') or ''] for x in (bl or []) if x.get('explicacion')]
+            if out: blq[ciclo] = out
+        areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c, 's': sab, 'b': blq}
     cur[d.parent.name] = areas
 src = re.sub(r"/\*CURRICULO\*/.*?/\*END_CURRICULO\*/", lambda m: "/*CURRICULO*/" + json.dumps(cur, ensure_ascii=False) + "/*END_CURRICULO*/", src, flags=re.S)
 (sh/'prompts.js').write_text(src)
 prompts = src
 tpl = (sh/'app.template.html').read_text()
 def app(engine):
-    return tpl.replace('/*__PROMPTS__*/', prompts).replace('/*__ENGINE__*/', (sh/engine).read_text())
+    return (tpl.replace('/*__PROMPTS__*/', prompts).replace('/*__ENGINE__*/', (sh/engine).read_text())
+               .replace('/*__VALIDADOR__*/', (sh/'validador-oposicion.js').read_text()))
 (R/'dist').mkdir(exist_ok=True)
 (R/'dist/prototipo.html').write_text(app('engine.claude.js'))
 pub = R/'produccion/public'; pub.mkdir(parents=True, exist_ok=True)
 (pub/'app.html').write_text(app('engine.web.js'))
 (pub/'index.html').write_text((sh/'landing.html').read_text())
-esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { curriculoDe, CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD };\n"
+esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { curriculoDe, CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD, ISLAS, TIPOS_CENTRO, criteriosCiclo, promptOposicion, promptExposicion };\n"
 (R/'produccion/src/prompts.mjs').write_text(esm)
 
 # ---------- Cabeceras de seguridad de los estáticos (Cloudflare Workers Static Assets: public/_headers) ----------

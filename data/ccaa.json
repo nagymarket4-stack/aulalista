@@ -8,8 +8,13 @@
     "evaluacion": "Orden de 31 de mayo de 2023, por la que se regulan la evaluación y la promoción del alumnado (incluye Primaria). Número de BOC y fecha de publicación pendientes de comprobar",
     "evaluacionUrl": "https://www.gobiernodecanarias.org/educacion/web/centros/gestion_centros/organizacion-funcionamiento/inf-prim-eso-bach/",
     "areasPropias": [
-      { "name": "Educación Emocional y para la Creatividad" },
-      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+      {
+        "name": "Educación Emocional y para la Creatividad"
+      },
+      {
+        "name": "Segunda Lengua Extranjera",
+        "desde": 5
+      }
     ],
     "sesionMin": 55,
     "escala": "Insuficiente, Suficiente, Bien, Notable, Sobresaliente",
@@ -29,7 +34,10 @@
     "evaluacion": "Orden de 30 de mayo de 2023, por la que se desarrolla el currículo correspondiente a la etapa de Educación Primaria en la Comunidad Autónoma de Andalucía, se regulan determinados aspectos de la atención a la diversidad y a las diferencias individuales, se establece la ordenación de la evaluación del proceso de aprendizaje del alumnado y se determina el proceso de tránsito entre etapas (BOJA n.º 104, de 2 de junio de 2023). La evaluación y la promoción están en su capítulo III (arts. 9-25)",
     "evaluacionUrl": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "areasPropias": [
-      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+      {
+        "name": "Segunda Lengua Extranjera",
+        "desde": 5
+      }
     ],
     "sesionMin": 60,
     "escala": "IN, SU, BI, NT, SB en las actas; en el boletín, numérica (IN 1-4, SU 5, BI 6, NT 7-8, SB 9-10)",
@@ -49,13 +57,28 @@
     "evaluacion": "La misma Orden ECD/1112/2022 (currículo y evaluación), modificada por la Orden ECD/866/2024, de 25 de julio",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1246863",
     "areasPropias": [
-      { "name": "Ciencias de la Naturaleza" },
-      { "name": "Ciencias Sociales" },
-      { "name": "Educación Plástica y Visual" },
-      { "name": "Música y Danza" },
-      { "name": "Segunda Lengua Extranjera", "desde": 5 },
-      { "name": "Lenguas Propias de Aragón (Aragonés o Catalán)" },
-      { "name": "Atención educativa" }
+      {
+        "name": "Ciencias de la Naturaleza"
+      },
+      {
+        "name": "Ciencias Sociales"
+      },
+      {
+        "name": "Educación Plástica y Visual"
+      },
+      {
+        "name": "Música y Danza"
+      },
+      {
+        "name": "Segunda Lengua Extranjera",
+        "desde": 5
+      },
+      {
+        "name": "Lenguas Propias de Aragón (Aragonés o Catalán)"
+      },
+      {
+        "name": "Atención educativa"
+      }
     ],
     "sesionMin": 45,
     "escala": "IN, SU, BI, NT, SB. Competencias clave en el informe de ciclo: Iniciado, En desarrollo, Adquirido, Adquirido plenamente",
@@ -75,8 +98,12 @@
     "evaluacion": "Evaluación regulada en el propio Decreto 57/2022 (art. 16). Resolución autonómica de desarrollo de la evaluación pendiente de localizar",
     "evaluacionUrl": null,
     "areasPropias": [
-      { "name": "Lengua Asturiana y Literatura" },
-      { "name": "Cultura Asturiana" }
+      {
+        "name": "Lengua Asturiana y Literatura"
+      },
+      {
+        "name": "Cultura Asturiana"
+      }
     ],
     "sesionMin": 45,
     "escala": "Insuficiente (IN); Suficiente (Su), Bien (BI), Notable (NT), Sobresaliente (SB)",
@@ -96,7 +123,9 @@
     "evaluacion": "Orden 28/2025, de 21 de octubre, del consejero de Educación y Universidades, sobre la evaluación del aprendizaje de los alumnos de la Educación Primaria en las Illes Balears (BOIB de 23 de octubre de 2025)",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1259734",
     "areasPropias": [
-      { "name": "Llengua Catalana i Literatura" }
+      {
+        "name": "Llengua Catalana i Literatura"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN), Suficiente (SU), Bien (BIEN), Notable (NT), Excelente (EX). Los criterios no se califican de forma numérica ni porcentual",
@@ -138,11 +167,22 @@
     "evaluacion": "Orden EDU/423/2024, de 9 de mayo, por la que se desarrolla la evaluación y la promoción en la Educación Primaria en la Comunidad de Castilla y León (BOCYL de 17 de mayo de 2024)",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1244168",
     "areasPropias": [
-      { "name": "Ciencias de la Naturaleza" },
-      { "name": "Ciencias Sociales" },
-      { "name": "Educación Plástica y Visual" },
-      { "name": "Música y Danza" },
-      { "name": "Segunda Lengua Extranjera", "desde": 5 }
+      {
+        "name": "Ciencias de la Naturaleza"
+      },
+      {
+        "name": "Ciencias Sociales"
+      },
+      {
+        "name": "Educación Plástica y Visual"
+      },
+      {
+        "name": "Música y Danza"
+      },
+      {
+        "name": "Segunda Lengua Extranjera",
+        "desde": 5
+      }
     ],
     "sesionMin": null,
     "escala": "Numérica de 0 a 10 con equivalencia: 0-4 IN, 5 SU, 6 BI, 7-8 NT, 9-10 SB",
@@ -180,8 +220,12 @@
     "evaluacion": "Evaluación regulada en el propio Decret 175/2022 (arts. 24-32)",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1226360",
     "areasPropias": [
-      { "name": "Llengua Catalana i Literatura" },
-      { "name": "Aranès i Literatura (Aran)" }
+      {
+        "name": "Llengua Catalana i Literatura"
+      },
+      {
+        "name": "Aranès i Literatura (Aran)"
+      }
     ],
     "sesionMin": null,
     "escala": "Nivel de adquisición: Adquisición sobresaliente (AE), notable (AN), satisfactoria (AS), No adquisición (NA). En las actas: sobresaliente, notable, bien, insuficiente",
@@ -201,9 +245,15 @@
     "evaluacion": "Evaluación regulada en el propio Decreto 106/2022 (art. 29), modificado por el Decreto 96/2026. Orden autonómica de desarrollo pendiente de localizar",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1267138",
     "areasPropias": [
-      { "name": "Valenciano: Lengua y Literatura" },
-      { "name": "Plástica y Visual" },
-      { "name": "Música y Danza" }
+      {
+        "name": "Valenciano: Lengua y Literatura"
+      },
+      {
+        "name": "Plástica y Visual"
+      },
+      {
+        "name": "Música y Danza"
+      }
     ],
     "sesionMin": 45,
     "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
@@ -223,7 +273,9 @@
     "evaluacion": "Orden de 9 de diciembre de 2022 por la que se regula la evaluación del alumnado en la Educación Infantil, Educación Primaria, ESO y Bachillerato en la Comunidad Autónoma de Extremadura (DOE de 15 de diciembre de 2022)",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1228630",
     "areasPropias": [
-      { "name": "Segunda Lengua Extranjera (opcional de centro; atención especial al portugués)" }
+      {
+        "name": "Segunda Lengua Extranjera (opcional de centro; atención especial al portugués)"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
@@ -245,7 +297,9 @@
     "evaluacion": "Orden de 26 de mayo de 2023 por la que se desarrolla el Decreto 155/2022 y se regula el régimen de evaluación en la educación primaria (DOG de 13 de junio de 2023), aplicable desde 2023-24",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1234318",
     "areasPropias": [
-      { "name": "Lingua Galega e Literatura" }
+      {
+        "name": "Lingua Galega e Literatura"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN, 1-4), Suficiente (SU, 5), Ben (BE, 6), Notable (NT, 7-8), Sobresaliente (SB, 9-10)",
@@ -265,10 +319,18 @@
     "evaluacion": "Orden 130/2023, de 23 de enero, de la Vicepresidencia, Consejería de Educación y Universidades, por la que se regulan aspectos de organización y funcionamiento, evaluación y autonomía pedagógica de la Educación Primaria (BOCM n.º 25, de 30 de enero de 2023)",
     "evaluacionUrl": "https://www.bocm.es/boletin/CM_Orden_BOCM/2023/01/30/BOCM-20230130-23.PDF",
     "areasPropias": [
-      { "name": "Ciencias de la Naturaleza" },
-      { "name": "Ciencias Sociales" },
-      { "name": "Tecnología y Robótica" },
-      { "name": "Segunda Lengua Extranjera" }
+      {
+        "name": "Ciencias de la Naturaleza"
+      },
+      {
+        "name": "Ciencias Sociales"
+      },
+      {
+        "name": "Tecnología y Robótica"
+      },
+      {
+        "name": "Segunda Lengua Extranjera"
+      }
     ],
     "sesionMin": 45,
     "escala": "IN (<5), SU (5 a <6), BI (6 a <7), NT (7 a <9), SB (≥9)",
@@ -288,12 +350,25 @@
     "evaluacion": "Escala y evaluación recogidas en el propio Decreto 209/2022. Orden autonómica de desarrollo pendiente de localizar",
     "evaluacionUrl": null,
     "areasPropias": [
-      { "name": "Ciencias de la Naturaleza" },
-      { "name": "Ciencias Sociales" },
-      { "name": "Educación Plástica y Visual" },
-      { "name": "Música y Danza" },
-      { "name": "Profundización Educativa" },
-      { "name": "Segunda Lengua Extranjera (Francés)", "desde": 5 }
+      {
+        "name": "Ciencias de la Naturaleza"
+      },
+      {
+        "name": "Ciencias Sociales"
+      },
+      {
+        "name": "Educación Plástica y Visual"
+      },
+      {
+        "name": "Música y Danza"
+      },
+      {
+        "name": "Profundización Educativa"
+      },
+      {
+        "name": "Segunda Lengua Extranjera (Francés)",
+        "desde": 5
+      }
     ],
     "sesionMin": 45,
     "escala": "IN (1-4), SU (5), BI (6), NT (7-8), SB (9-10); Mención Honorífica (ME)",
@@ -314,7 +389,9 @@
     "evaluacion": "Orden Foral 52/2023, de 12 de junio, del consejero de Educación, por la que se regula la evaluación y promoción del alumnado que cursa las enseñanzas de Educación Primaria en la Comunidad Foral de Navarra (BON de 29 de junio de 2023)",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1234847",
     "areasPropias": [
-      { "name": "Lengua Vasca y Literatura" }
+      {
+        "name": "Lengua Vasca y Literatura"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN); Suficiente (SF), Bien (BI), Notable (NT), Sobresaliente (SB). PS (pendiente de superar) cuenta como negativa en algunos casos",
@@ -334,7 +411,9 @@
     "evaluacion": "Orden de 22 de enero de 2024, del consejero de Educación, por la que se regula la evaluación en Educación Infantil y la evaluación, promoción y certificación en Educación Básica y Bachillerato (BOPV n.º 23, de 31 de enero de 2024)",
     "evaluacionUrl": "https://euskadi.eus/bopv2/datos/2024/01/2400509a.pdf",
     "areasPropias": [
-      { "name": "Lengua Vasca y Literatura" }
+      {
+        "name": "Lengua Vasca y Literatura"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
@@ -349,19 +428,32 @@
   {
     "id": "rioja",
     "name": "La Rioja",
-    "decreto": "Decreto 41/2022, de 13 de julio, por el que se establece el currículo de Educación Primaria y se regulan determinados aspectos sobre su organización, evaluación y promoción en la Comunidad Autónoma de La Rioja (título redactado a partir de la cita de una resolución del BOR; cotejar)",
+    "decreto": "Decreto 41/2022, de 13 de julio, por el que se establece el currículo de la Educación Primaria y se regulan determinados aspectos sobre su organización, evaluación y promoción en la Comunidad Autónoma de La Rioja",
     "decretoUrl": null,
-    "boletin": "BOR (fecha de publicación pendiente de comprobar)",
-    "evaluacion": "Organización, evaluación y promoción reguladas en el propio Decreto 41/2022. Orden específica no localizada",
+    "boletin": "BOR n.º 135, de 15 de julio de 2022",
+    "evaluacion": "Decreto 41/2022 (regula también la evaluación y la promoción)",
     "evaluacionUrl": null,
-    "areasPropias": [],
+    "areasPropias": [
+      {
+        "name": "Educación Plástica y Visual"
+      },
+      {
+        "name": "Música y Danza"
+      },
+      {
+        "name": "Dramatización y Teatro",
+        "desde": 1,
+        "hasta": 2
+      }
+    ],
     "sesionMin": null,
-    "escala": "Pendiente de comprobar",
-    "notas": "Número y fecha (41/2022, de 13 de julio) confirmados en una resolución publicada en el BOR, alojada en larioja.org, que cita el decreto. No se ha podido abrir el texto del decreto (web.larioja.org fuera de la lista permitida y larioja.org con error), así que las áreas, la sesión y la escala siguen pendientes. Sin referencia oficial completa no se debe citar el título literal en los documentos generados.",
-    "verificado": false,
+    "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
+    "notas": "Art. 9: áreas en todos los cursos (Conocimiento del Medio, Plástica y Visual, Música y Danza, EF, Lengua, Lengua Extranjera, Matemáticas); Dramatización y Teatro en 1.º-2.º como área transversal; Valores Cívicos en 5.º-6.º; trabajo por proyectos en 3.º-6.º; Educación Emocional y para la Creatividad se oferta junto a Religión; tutoría de 30 min en 3.er ciclo. Verificado con el texto del BOR aportado por el usuario.",
+    "verificado": true,
     "fuentes": [
       "https://larioja.org/educarioja-centros/en/evaluaciones/nacionales/evaluacion-4-educacion-primaria.files/1548078-1%20BOR_Evaluacion%20de%20diagnostico%202%C2%BA%20y%204%C2%BA.pdf",
-      "https://www.csif.es/es/articulo/larioja/educacion/65290"
+      "https://www.csif.es/es/articulo/larioja/educacion/65290",
+      "Texto oficial del BOR n.º 135 (15/07/2022) aportado por el usuario (07d735b6-8506.pdf)"
     ]
   },
   {
@@ -373,7 +465,9 @@
     "evaluacion": "Evaluación y promoción reguladas en la propia Orden EFP/678/2022 (arts. 20-23 y 27-30)",
     "evaluacionUrl": "https://www.boe.es/boe/dias/2022/07/21/pdfs/BOE-A-2022-12066.pdf",
     "areasPropias": [
-      { "name": "Segunda Lengua Extranjera (opcional de centro)" }
+      {
+        "name": "Segunda Lengua Extranjera (opcional de centro)"
+      }
     ],
     "sesionMin": null,
     "escala": "Insuficiente (IN); Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",

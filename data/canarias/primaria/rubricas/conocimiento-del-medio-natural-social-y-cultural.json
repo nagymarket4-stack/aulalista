@@ -1,0 +1,1483 @@
+{
+  "area": "Conocimiento del Medio Natural, Social y Cultural",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – CONOCIMIENTO DEL MEDIO NATURAL, SOCIAL Y CULTURAL",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Utilizar dispositivos y recursos digitales, de manera pautada, de forma segura, saludable y sostenible de acuerdo con las necesidades del contexto educativo para buscar información sencilla, adoptando un punto de vista respetuoso con la propiedad intelectual, para comunicarse con personas cercanas en entornos conocidos y seguros, usando vocabulario científico básico y para trabajar cooperativamente.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD3",
+          "CD4"
+        ],
+        "pagina_pdf": 6,
+        "descriptores": {
+          "Insuficiente": "Utiliza de manera intermitente y con desinterés dispositivos y recursos digitales, de manera pautada y de forma segura, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información sencilla, para comunicarse con personas cercanas en entornos conocidos y seguros, y para trabajar cooperativamente, con una actitud poco receptiva sobre los contenidos obtenidos, iniciándose con gran dificultad en la adopción de un punto de vista respetuoso con la propiedad intelectual y usando vocabulario científico básico, en algunos formatos sencillos, en nulas o escasas ocasiones.",
+          "Suficiente/Bien": "Utiliza dispositivos y recursos digitales, de manera pautada y de forma segura, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información sencilla, para comunicarse con personas cercanas en entornos conocidos y seguros, y para trabajar cooperativamente, con una actitud receptiva sobre los contenidos obtenidos, iniciándose en la adopción de un punto de vista respetuoso con la propiedad intelectual y usando vocabulario científico básico, en algunos formatos sencillos.",
+          "Notable": "Utiliza con destacado interés dispositivos y recursos digitales, de manera pautada y de forma segura, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información sencilla, para comunicarse con personas cercanas en entornos conocidos y seguros, y para trabajar cooperativamente, con una actitud receptiva sobre los contenidos obtenidos, iniciándose con facilidad en la adopción de un punto de vista respetuoso con la propiedad intelectual y usando vocabulario científico básico, en algunos formatos sencillos, habitualmente.",
+          "Sobresaliente": "Utiliza con compromiso sostenido dispositivos y recursos digitales, de manera pautada y de forma segura, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para buscar información sencilla, para comunicarse con personas cercanas en entornos conocidos y seguros, y para trabajar cooperativamente, con una actitud receptiva sobre los contenidos obtenidos, iniciándose con solvencia en la adopción de un punto de vista respetuoso con la propiedad intelectual y usando vocabulario científico básico, en algunos formatos sencillos, constantemente."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reelaborar y crear contenidos digitales sencillos, trabajando de forma individual y en equipo, para expresar ideas, sentimientos y conocimientos, de forma creativa y de acuerdo a las necesidades digitales del contexto educativo.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 8,
+        "descriptores": {
+          "Insuficiente": "Reelabora y crea con dificultad significativa contenidos digitales sencillos, experimentando con algunos medios y soportes básicos, trabajando con desinterés de forma individual y en equipo, iniciándose en la adopción de hábitos de uso seguro, y observando necesidades y retos que afrontar con escasa frecuencia, lo que dificulta expresar ideas, sentimientos y conocimientos, de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Suficiente/Bien": "Reelabora y crea contenidos digitales sencillos, experimentando con algunos medios y soportes básicos, trabajando de forma individual y en equipo, iniciándose en la adopción de hábitos de uso seguro, y observando necesidades y retos que afrontar, para expresar ideas, sentimientos y conocimientos, de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Notable": "Reelabora y crea con facilidad contenidos digitales sencillos, experimentando con algunos medios y soportes básicos, trabajando con interés de forma individual y en equipo, iniciándose en la adopción de hábitos de uso seguro, y observando necesidades y retos que afrontar con frecuencia, para expresar ideas, sentimientos y conocimientos, de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Sobresaliente": "Reelabora y crea con soltura contenidos digitales sencillos, experimentando con algunos medios y soportes básicos, trabajando con interés y compromiso de forma individual y en equipo, iniciándose en la adopción de hábitos de uso seguro, y observando necesidades y retos que afrontar siempre, para expresar ideas, sentimientos y conocimientos, de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Mostrar curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas, realizando predicciones, participando en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2"
+        ],
+        "pagina_pdf": 9,
+        "descriptores": {
+          "Insuficiente": "Muestra escasa curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas sencillas, realizando predicciones, iniciándose en la participación en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales de manera poco eficaz y limitada, lo que obstaculiza entender y explicar algunos fenómenos conocidos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Muestra curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas sencillas, realizando predicciones, iniciándose en la participación en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales para entender y explicar algunos fenómenos conocidos que ocurren a su alrededor.",
+          "Notable": "Muestra alta curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas sencillas, realizando predicciones, iniciándose en la participación en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales de manera eficaz y continuada para entender y explicar algunos fenómenos conocidos que ocurren a su alrededor.",
+          "Sobresaliente": "Muestra excepcional y constante curiosidad por objetos, hechos y fenómenos del medio natural, social y cultural de Canarias, formulando preguntas sencillas, realizando predicciones, iniciándose en la participación en interacciones comunicativas y comprendiendo el sentido de textos orales y multimodales de manera eficiente y persistente para entender y explicar algunos fenómenos conocidos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Buscar información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera pautada, para intercambiarla y utilizarla de forma comprensiva en investigaciones relacionadas con el medio natural, social y cultural canario.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "pagina_pdf": 10,
+        "descriptores": {
+          "Insuficiente": "Busca con destacada dificultad información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera guiada y pautada, para intercambiarla y utilizarla en escasas ocasiones de forma comprensiva, usando terminología científica básica en algunos formatos sencillos y con limitada actitud cooperativa y respetuosa en investigaciones relacionadas con el medio natural, social y cultural.",
+          "Suficiente/Bien": "Busca información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera guiada y pautada, para intercambiarla y utilizarla de forma comprensiva, usando terminología científica básica en algunos formatos sencillos y con actitud cooperativa y respetuosa en investigaciones relacionadas con el medio natural, social y cultural canario.",
+          "Notable": "Busca con considerable facilidad información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera guiada y pautada, para intercambiarla y utilizarla habitualmente de forma comprensiva, usando terminología científica básica en algunos formatos sencillos y con amplia actitud cooperativa y respetuosa en investigaciones relacionadas con el medio natural, social y cultural canario.",
+          "Sobresaliente": "Busca con destacada solvencia información sencilla de diferentes fuentes seguras y fiables, incluidas las digitales, de manera guiada y pautada, para intercambiarla y utilizarla siempre de forma comprensiva, usando terminología científica básica en algunos formatos sencillos y con amplia y responsable actitud cooperativa y respetuosa en investigaciones relacionadas con el medio natural, social y cultural canario."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Participar en experimentos pautados utilizando técnicas sencillas de indagación, empleando de forma segura los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor, registrando las observaciones de forma clara, en diferentes formatos, aprovechando la cultura digital.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "pagina_pdf": 11,
+        "descriptores": {
+          "Insuficiente": "Participa con apoyo constante en experimentos simples y pautados, utilizando técnicas sencillas de indagación con una actitud poco receptiva sobre los contenidos obtenidos, empleando de forma poco segura e inadecuada los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor. Registra las observaciones, de forma clara, en diferentes formatos y aprovechando la cultura digital en escasas ocasiones.",
+          "Suficiente/Bien": "Participa en experimentos simples y pautados, utilizando técnicas sencillas de indagación con una actitud receptiva sobre los contenidos obtenidos, empleando de forma segura los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor. Registra las observaciones, de forma clara, en diferentes formatos y aprovechando la cultura digital.",
+          "Notable": "Participa con apoyo puntual en experimentos simples y pautados utilizando técnicas sencillas de indagación con una actitud moderadamente receptiva sobre los contenidos obtenidos, empleando de forma segura y adecuada los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor. Registra las observaciones, de forma clara, en diferentes formatos y aprovechando la cultura digital de manera regular.",
+          "Sobresaliente": "Participa con autonomía en experimentos simples y pautados utilizando técnicas sencillas de indagación con una actitud significativamente receptiva sobre los contenidos obtenidos, empleando de forma muy segura y con destacada adecuación los instrumentos y dispositivos, para entender y explicar algunos de los fenómenos que ocurren a su alrededor. Registra siempre las observaciones, de forma clara, en diferentes formatos y aprovechando la cultura digital."
+        }
+      },
+      {
+        "criterio": "2.4",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Proponer respuestas a las preguntas planteadas, comparando la información y los resultados obtenidos con las predicciones realizadas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 12,
+        "descriptores": {
+          "Insuficiente": "Propone respuestas poco adecuadas a las preguntas planteadas, comparando con dificultad la información y los resultados obtenidos con las predicciones realizadas, mediante el uso poco autónomo de diferentes herramientas, incluyendo algunas funciones digitales básicas, lo que obstaculiza entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Propone respuestas a las preguntas planteadas, comparando la información y los resultados obtenidos con las predicciones realizadas, mediante el uso de diferentes herramientas, incluyendo algunas funciones digitales básicas, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Notable": "Propone respuestas muy adecuadas a las preguntas planteadas, comparando con facilidad con detalle la información y los resultados obtenidos con las predicciones realizadas, mediante el uso moderadamente autónomo de diferentes herramientas, incluyendo algunas funciones digitales básicas, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Sobresaliente": "Propone respuestas muy adecuadas y precisas a las preguntas planteadas, comparando con facilidad y detalle la información y los resultados obtenidos con las predicciones realizadas, mediante el uso completamente autónomo de diferentes herramientas, incluyendo algunas funciones digitales básicas, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.5",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comunicar el resultado de las investigaciones, utilizando vocabulario científico básico y explicando los pasos seguidos con ayuda de un guion y de herramientas digitales, adoptando un punto de vista creativo.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 13,
+        "descriptores": {
+          "Insuficiente": "Comunica el resultado de las investigaciones con escasa claridad y adecuación a los contextos cotidianos más próximos de su entorno, utilizando vocabulario científico básico y explicando los pasos seguidos, con ayuda de un guion, mediante el uso de las funciones básicas de algunas herramientas digitales con incorrecciones relevantes, y adoptando en escasas ocasiones un punto de vista creativo, dificultando participar en contextos cotidianos cercanos y construir conocimiento.",
+          "Suficiente/Bien": "Comunica el resultado de las investigaciones con claridad y adecuación a los contextos cotidianos más próximos de su entorno, utilizando vocabulario científico básico y explicando los pasos seguidos, con ayuda de un guion, mediante el uso de las funciones básicas de algunas herramientas digitales, y adoptando un punto de vista creativo, para participar en contextos cotidianos cercanos y para construir conocimiento.",
+          "Notable": "Comunica el resultado de las investigaciones con apropiada claridad y adecuación a los contextos cotidianos más próximos de su entorno, utilizando vocabulario científico básico y explicando los pasos seguidos, con ayuda de un guion, mediante el uso de las funciones básicas de algunas herramientas digitales con corrección relevante, y adoptando de forma frecuente un punto de vista creativo, para participar en contextos cotidianos cercanos y para construir conocimiento.",
+          "Sobresaliente": "Comunica el resultado de las investigaciones con excelente claridad y adecuación a los contextos cotidianos más próximos de su entorno, utilizando vocabulario científico básico y explicando los pasos seguidos, con ayuda de un guion, mediante el uso de las funciones básicas de algunas herramientas digitales con gran corrección y precisión, y adoptando siempre un punto de vista creativo, para participar en contextos cotidianos cercanos y para construir conocimiento."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Realizar, de manera pautada, un producto final sencillo que dé solución a un problema de diseño, utilizando de forma segura los materiales adecuados y probando en equipo diferentes prototipos creativos, reconociendo y respetando las emociones y experiencias de las demás personas como mejora de su aprendizaje, así como sus limitaciones, buscando ayuda en el proceso.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 14,
+        "descriptores": {
+          "Insuficiente": "Realiza con mucha dificultad, de manera pautada, un producto final sencillo que da solución inadecuada a un problema de diseño, utilizando, de forma poco segura, los materiales adecuados y probando diferentes prototipos creativos con algunos medios y soportes básicos en equipo con falta de interés. Adopta con escasa frecuencia posturas analíticas en procesos de reflexión pautados, reconociendo y respetando con conciencia mínima las emociones y experiencias de las demás personas, así@ como sus limitaciones, y buscando rara vez ayuda en el proceso como mejora de su aprendizaje.",
+          "Suficiente/Bien": "Realiza, de manera pautada, un producto final sencillo que da solución a un problema de diseño, utilizando, de forma segura, los materiales adecuados y probando diferentes prototipos creativos con algunos medios y soportes básicos, en equipo. Adopta posturas analíticas en procesos de reflexión pautados, reconociendo y respetando las emociones y experiencias de las demás personas, así@ como sus limitaciones, y buscando ayuda en el proceso como mejora de su aprendizaje.",
+          "Notable": "Realiza, de manera pautada y con facilidad, un producto final sencillo que da una solución muy adecuada a un problema de diseño, utilizando, de forma muy segura, los materiales adecuados y probando diferentes prototipos creativos con algunos medios y soportes básicos en equipo con destacado interés. Adopta asiduamente posturas analíticas en procesos de reflexión pautados, reconociendo y respetando con amplia conciencia las emociones y experiencias de las demás personas, así@ como sus limitaciones, y buscando habitualmente ayuda en el proceso como mejora de su aprendizaje.",
+          "Sobresaliente": "Realiza, de manera pautada y con facilidad destacable, un producto final sencillo que da una solución con excelente adecuación a un problema de diseño, utilizando, de forma muy segura y solvente, los materiales adecuados y probando diferentes prototipos creativos con algunos medios y soportes básicos en equipo con gran interés y motivación personal. Adopta siempre posturas analíticas en procesos de reflexión pautados, reconociendo y respetando con alta conciencia las emociones y experiencias de las demás personas, así@ como sus limitaciones, y buscando de forma continua ayuda en el proceso como mejora de su aprendizaje."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Mostrar interés por el pensamiento computacional, participando en la resolución guiada de problemas sencillos y sostenibles de programación, utilizando destrezas creativas, procurando la participación activa de todo el grupo y reconociendo el valor del esfuerzo.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 16,
+        "descriptores": {
+          "Insuficiente": "Muestra escaso interés por el pensamiento computacional, participando pasivamente en la resolución guiada de problemas muy sencillos y sostenibles de programación, en equipo, y utilizando destrezas creativas muy ocasionalmente, mediante algunos medios y soportes básicos. Procura la participación activa de todo el grupo de forma poco enérgica y sin compromiso, realiza procesos de reflexión guiados como la autoevaluación con conciencia mínima y reconoce escasamente el valor del esfuerzo.",
+          "Suficiente/Bien": "Muestra interés por el pensamiento computacional, participando en la resolución guiada de problemas muy sencillos y sostenibles de programación, en equipo, y utilizando destrezas creativas, mediante algunos medios y soportes básicos. Procura la participación activa de todo el grupo, realiza procesos de reflexión guiados como la autoevaluación y reconoce el valor del esfuerzo.",
+          "Notable": "Muestra destacado interés por el pensamiento computacional, participando activamente en la resolución guiada de problemas muy sencillos y sostenibles de programación, en equipo, y utilizando destrezas creativas de manera regular y constante, mediante algunos medios y soportes básicos. Procura la participación activa de todo el grupo con compromiso, realiza procesos de reflexión guiados como la autoevaluación con alta conciencia y reconoce el valor del esfuerzo.",
+          "Sobresaliente": "Muestra alto interés por el pensamiento computacional, participando activa y entusiastamente en la resolución guiada de problemas muy sencillos y sostenibles de programación, en equipo, y utilizando destrezas creativas con máxima constancia y resolución, mediante algunos medios y soportes básicos. Procura la participación activa de todo el grupo con determinación y gran compromiso, realiza procesos de reflexión guiados como la autoevaluación con plena conciencia y reconoce el valor del esfuerzo."
+        }
+      },
+      {
+        "criterio": "3.3",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar el producto final de los proyectos de diseño, explicando los pasos seguidos con ayuda de un guion y de herramientas digitales, valorando el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM4",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 17,
+        "descriptores": {
+          "Insuficiente": "Comunica el producto final de los proyectos de diseño explicando con escasa claridad los pasos seguidos, con ayuda de un guion y de herramientas digitales, y utilizando terminología científica básica con defectos o problemas significativos. Valora con falta de interés el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación.",
+          "Suficiente/Bien": "Comunica el producto final de los proyectos de diseño explicando los pasos seguidos, con ayuda de un guion y de herramientas digitales, y utilizando terminología científica básica. Valora el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación.",
+          "Notable": "Comunica el producto final de los proyectos de diseño explicando con apropiada claridad los pasos seguidos, con ayuda de un guion y de herramientas digitales, y utilizando terminología científica básica con destacada adecuación. Valora con destacado interés el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación.",
+          "Sobresaliente": "Comunica el producto final de los proyectos de diseño explicando con gran claridad y precisión los pasos seguidos, con ayuda de un guion y de herramientas digitales, y utilizando terminología científica básica con máxima adecuación. Valora con alto interés y motivación el proceso personal y grupal realizado y el resultado obtenido, en procesos guiados de auto y coevaluación."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Identificar las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas, regulándolas de forma guiada, estableciendo vínculos emocionales a través de la empatía, entendiendo las relaciones familiares y escolares a las que pertenecen, reconociendo su diversidad y participando en acciones que favorezcan el bienestar físico, emocional y social.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 18,
+        "descriptores": {
+          "Insuficiente": "Identifica incorrectamente las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas de forma poco coherente, y las regula de forma guiada, sin establecer vínculos emocionales a través de la empatía. Entiende de manera inadecuada las relaciones familiares y escolares a las que pertenece, reconociendo de manera limitada su diversidad, y participa en acciones que favorecen el bienestar físico, emocional y social con escasa iniciativa propia, detectando y comenzando a buscar apoyo ante conductas contrarias a la convivencia en raras ocasiones.",
+          "Suficiente/Bien": "Identifica las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas, y las regula de forma guiada, estableciendo vínculos emocionales a través de la empatía. Entiende las relaciones familiares y escolares a las que pertenece, reconociendo su diversidad, y participa en acciones que favorecen el bienestar físico, emocional y social, detectando y comenzando a buscar apoyo ante conductas contrarias a la convivencia.",
+          "Notable": "Identifica con destacada corrección las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas con moderada coherencia, y las regula de forma guiada, estableciendo vínculos emocionales a través de la empatía, con interés. Entiende con destacada adecuación las relaciones familiares y escolares a las que pertenece, reconociendo su diversidad, y participa en acciones que favorecen el bienestar físico, emocional y social con iniciativa propia, detectando y comenzando a buscar apoyo ante conductas contrarias a la convivencia de manera regular y constante.",
+          "Sobresaliente": "Identifica con excelente corrección y precisión las experiencias emocionales propias y ajenas, pensando y sintiendo sobre ellas con coherencia y consistencia, y las regula de forma guiada estableciendo vínculos emocionales a través de la empatía, con gran interés y decisión. Entiende con alta adecuación y con profundidad las relaciones familiares y escolares a las que pertenece, reconociendo su diversidad, y participa en acciones que favorecen el bienestar físico, emocional y social con iniciativa propia y motivación sostenida, detectando y comenzando a buscar apoyo ante conductas contrarias a la convivencia con máxima constancia y determinación."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Reconocer estilos de vida saludables, participando en acciones para promover la salud, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 20,
+        "descriptores": {
+          "Insuficiente": "Reconoce con incorrecciones relevantes estilos de vida saludables, participando en acciones para promover la salud con nula o escasa iniciativa propia, valorando con conciencia mínima la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías, trabajando de forma poco cooperativa, y adaptándose a los cambios y aceptándolos sin interés y con limitaciones relevantes obstaculizando alcanzar sus propios objetivos.",
+          "Suficiente/Bien": "Reconoce estilos de vida saludables, participando en acciones para promover la salud, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías, trabajando de forma cooperativa, y adaptándose a los cambios y aceptándolos para alcanzar sus propios objetivos.",
+          "Notable": "Reconoce con destacada corrección estilos de vida saludables, participando en acciones para promover la salud con iniciativa propia, valorando reflexivamente la importancia de una alimentación variada, equilibrada y sostenible, e la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías, trabajando de forma cooperativa y adaptándose a los cambios y aceptándolos con interés para alcanzar sus propios objetivos.",
+          "Sobresaliente": "Reconoce con gran corrección y precisión estilos de vida saludables, participando en acciones para promover la salud con iniciativa propia y motivación sostenida, valorando con alta conciencia la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías, trabajando de forma cooperativa y adaptándose a los cambios y aceptándolos con gran interés y determinación para alcanzar sus propios objetivos."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer y apreciar las características, la organización y las propiedades de los elementos del medio natural, social y cultural más representativas de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada de información sencilla en internet, utilizando las herramientas y procesos adecuados de forma pautada, para transmitir y compartir los conocimientos en diferentes formatos.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 21,
+        "descriptores": {
+          "Insuficiente": "Reconoce y aprecia con falta de claridad y escaso interés las características, la organización y las propiedades básicas de los elementos del medio natural, social y cultural más representativos de la biodiversidad del archipiélago canario, a través de la indagación y búsqueda con dificultad de información sencilla en internet de forma muy guiada, empleando de manera poco pertinente algunas estrategias para resolver problemas, y utilizando con escasa frecuencia las herramientas y los procesos adecuados, de forma pautada, impidiendo transmitir y compartir los conocimientos en formatos sencillos diferentes.",
+          "Suficiente/Bien": "Reconoce y aprecia las características, la organización y las propiedades básicas de los elementos del medio natural, social y cultural más representativos de la biodiversidad del archipiélago canario, a través de la indagación y búsqueda de información sencilla en internet de forma muy guiada, empleando algunas estrategias para resolver problemas, y utilizando las herramientas y los procesos adecuados, de forma pautada, para transmitir y compartir los conocimientos en formatos sencillos diferentes.",
+          "Notable": "Reconoce y aprecia con claridad e interés las características, la organización y las propiedades básicas de los elementos del medio natural, social y cultural más representativos de la biodiversidad del archipiélago canario, a través de la indagación y búsqueda con facilidad de información sencilla en internet de forma muy guiada, empleando de manera muy pertinente algunas estrategias para resolver problemas, y utilizando habitualmente las herramientas y los procesos adecuados, de forma pautada, para transmitir y compartir los conocimientos en formatos sencillos diferentes.",
+          "Sobresaliente": "Reconoce y aprecia con precisión e iniciativa las características, la organización y las propiedades básicas de los elementos del medio natural, social y cultural más representativos de la biodiversidad del archipiélago canario, a través de la indagación y búsqueda con solvencia de información sencilla en internet de forma muy guiada, empleando con destacada pertinencia y claridad algunas estrategias para resolver problemas, y utilizando siempre las herramientas y los procesos adecuados, de forma pautada, para transmitir y compartir los conocimientos en formatos sencillos diferentes."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario por medio de la observación, la manipulación y la experimentación.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CC4"
+        ],
+        "pagina_pdf": 23,
+        "descriptores": {
+          "Insuficiente": "Reconoce con mucha dificultad conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario, por medio de la observación, la manipulación y la experimentación poco adecuadas, utilizando incorrectamente, de manera pautada y con apoyos, algún método inductivo y deductivo e identificando y transmitiendo los elementos más relevantes de forma poco clara.",
+          "Suficiente/Bien": "Reconoce conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario, por medio de la observación, la manipulación y la experimentación, utilizando de manera pautada y con apoyos algún método inductivo y deductivo e identificando y transmitiendo los elementos más relevantes de forma clara.",
+          "Notable": "Reconoce con moderada facilidad conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario, por medio de la observación, la manipulación y la experimentación muy adecuadas, utilizando con alta corrección, de manera pautada y con apoyos, algún método inductivo y deductivo e identificando y transmitiendo los elementos más relevantes de forma muy clara.",
+          "Sobresaliente": "Reconoce con gran facilidad y soltura conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural canario, por medio de la observación, la manipulación y la experimentación muy adecuadas y pertinentes, utilizando con destacada y continua corrección, de manera pautada y con apoyos, algún método inductivo y deductivo e identificando y transmitiendo los elementos más relevantes de forma muy clara y detallada."
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Mostrar y promover actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, reconociendo su diversidad y su carácter de bien común para contribuir a su conservación y salvaguardia.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 24,
+        "descriptores": {
+          "Insuficiente": "Demuestra y promueve con nula o escasa iniciativa propia actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, descubriendo con desinterés sus aspectos básicos, reconociendo su diversidad y su carácter de bien común con falta de claridad, y proponiendo soluciones que responden de manera incoherente a las necesidades observadas, lo que dificulta contribuir a su conservación y salvaguardia.",
+          "Suficiente/Bien": "Demuestra y promueve actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, descubriendo sus aspectos básicos, reconociendo su diversidad y su carácter de bien común, y proponiendo soluciones que responden a las necesidades observadas, para contribuir a su conservación y salvaguardia.",
+          "Notable": "Demuestra y promueve con iniciativa propia y entusiasmo actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, descubriendo con interés constante sus aspectos básicos, reconociendo su diversidad y su carácter de bien común de manera clara, y proponiendo soluciones que responden con destacada coherencia a las necesidades observadas, para contribuir a su conservación y salvaguardia.",
+          "Sobresaliente": "Demuestra y promueve con iniciativa propia y motivación sostenida actitudes de respeto ante el patrimonio cultural y el natural, especialmente de Canarias, descubriendo con interés y dedicación constantes sus aspectos básicos, reconociendo su diversidad y su carácter de bien común de manera clara y detallada, y proponiendo soluciones que responden con alta coherencia y adecuación a las necesidades observadas, para contribuir a su conservación y salvaguardia."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Mostrar estilos de vida sostenibles y valorar la importancia del respeto, los cuidados, la corresponsabilidad y la protección de los elementos y seres del planeta, identificando la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio como el suelo y el agua favoreciendo el modelo de isla sostenible para Canarias.",
+        "descriptores_operativos": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1"
+        ],
+        "pagina_pdf": 25,
+        "descriptores": {
+          "Insuficiente": "Demuestra estilos de vida sostenibles y muestra interés por el respeto, el cuidado, la corresponsabilidad y la protección de los elementos y seres del planeta en escasas ocasiones, adoptando posturas analíticas con conciencia mínima en procesos de reflexión pautados, identificando de forma confusa la relación de las acciones de las personas sobre los elementos y recursos del medio como el suelo y el agua, sin comenzar a tomar conciencia de las consecuencias que pudieran generar en el entorno más cercano e iniciándose con poco interés y curiosidad en el uso del pensamiento científico, limitando la finalidad de favorecer un modelo de isla sostenible para Canarias.",
+          "Suficiente/Bien": "Demuestra estilos de vida sostenibles y muestra interés por el respeto, el cuidado, la corresponsabilidad y la protección de los elementos y seres del planeta, adoptando posturas analíticas en procesos de reflexión pautados, identificando la relación de las acciones de las personas sobre los elementos y recursos del medio como el suelo y el agua, comenzando a tomar conciencia de las consecuencias que pudieran generar en el entorno más cercano e iniciándose en el uso del pensamiento científico, con la finalidad de favorecer un modelo de isla sostenible para Canarias.",
+          "Notable": "Demuestra estilos de vida sostenibles y muestra interés por el respeto, el cuidado, la corresponsabilidad y la protección de los elementos y seres del planeta de manera habitual, adoptando posturas analíticas con moderada conciencia en procesos de reflexión pautados, identificando con claridad la relación de las acciones de las personas sobre los elementos y recursos del medio como el suelo y el agua, comenzando a tomar alta conciencia de las consecuencias que pudieran generar en el entorno más cercano e iniciándose con interés y curiosidad en el uso del pensamiento científico, con la finalidad de favorecer un modelo de isla sostenible para Canarias.",
+          "Sobresaliente": "Demuestra estilos de vida sostenibles y muestra interés por el respeto, el cuidado, la corresponsabilidad y la protección de los elementos y seres del planeta de manera continuada y comprometida, adoptando con alta conciencia posturas analíticas en procesos de reflexión pautados, identificando con claridad y fluidez la relación de las acciones de las personas sobre los elementos y recursos del medio como el suelo y el agua comenzando a tomar muy amplia y destacada conciencia de las consecuencias que pudieran generar en el entorno más cercano e iniciándose con relevante interés y motivación en el uso del pensamiento científico, con la finalidad de favorecer un modelo de isla sostenible para Canarias."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Participar en acciones guiadas, de manera individual y cooperativa, para buscar soluciones a problemas ecosociales y poner en práctica estilos de vida sostenibles en el entorno próximo.",
+        "descriptores_operativos": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 27,
+        "descriptores": {
+          "Insuficiente": "Participa en acciones guiadas de manera individual y cooperativa con escasa iniciativa propia, aplicando rara vez reglas básicas de convivencia de forma respetuosa en su contexto próximo y reconociendo con dificultad la importancia de la gestión guiada y dialogada de los conflictos, lo que impide buscar soluciones a problemas ecosociales detectados y poner en práctica estilos de vida sostenibles en el entorno próximo.",
+          "Suficiente/Bien": "Participa en acciones guiadas, de manera individual y cooperativa, aplicando reglas básicas de convivencia de forma respetuosa en su contexto próximo y reconociendo la importancia de la gestión guiada y dialogada de los conflictos, para buscar soluciones a problemas ecosociales detectados y poner en práctica estilos de vida sostenibles en el entorno próximo.",
+          "Notable": "Participa en acciones guiadas de manera individual y cooperativa con iniciativa propia e interés, aplicando frecuentemente reglas básicas de convivencia de forma respetuosa en su contexto próximo y reconociendo con facilidad la importancia de la gestión guiada y dialogada de los conflictos, para buscar soluciones a problemas ecosociales detectados y poner en práctica estilos de vida sostenibles en el entorno próximo.",
+          "Sobresaliente": "Participa en acciones guiadas de manera individual y cooperativa con iniciativa propia y motivación sostenida, aplicando siempre reglas básicas de convivencia de forma respetuosa en su contexto próximo y reconociendo con soltura y conciencia la importancia de la gestión guiada y dialogada de los conflictos, para buscar soluciones a problemas ecosociales detectados y poner en práctica estilos de vida sostenibles en el entorno próximo."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Ordenar temporalmente hechos del entorno social y cultural cercano, empleando nociones básicas de medida y sucesión, reconociendo las particularidades culturales que caracterizan a la sociedad canaria y transmitir los elementos más relevantes en diferentes formatos.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 28,
+        "descriptores": {
+          "Insuficiente": "Ordena temporalmente con mucha dificultad hechos del entorno social y cultural cercano, empleando sin sentido ni funcionalidad nociones básicas de medida y sucesión, reconociendo con errores significativos las particularidades culturales básicas que caracterizan a la sociedad canaria, relacionándolas y vinculándolas de forma confusa a la necesidad de respetar diferentes culturas y creencias, y adoptando posturas analíticas con conciencia mínima en procesos de reflexión pautados; y transmite de manera inadecuada los elementos más relevantes en diferentes formatos, impidiendo llevar ideas predecibles a la acción.",
+          "Suficiente/Bien": "Ordena temporalmente hechos del entorno social y cultural cercano, empleando nociones básicas de medida y sucesión, reconociendo las particularidades culturales básicas que caracterizan a la sociedad canaria, relacionándolas y vinculándolas a la necesidad de respetar diferentes culturas y creencias, y adoptando posturas analíticas en procesos de reflexión pautados; y transmite los elementos más relevantes en diferentes formatos, llevando ideas predecibles a la acción.",
+          "Notable": "Ordena temporalmente con facilidad hechos del entorno social y cultural cercano, empleando con sentido y funcionalidad nociones básicas de medida y sucesión, reconociendo con destacada corrección las particularidades culturales básicas que caracterizan a la sociedad canaria, relacionándolas y vinculándolas con claridad a la necesidad de respetar diferentes culturas y creencias, y adoptando posturas analíticas con alta conciencia en procesos de reflexión pautados; y transmite con notable adecuación los elementos más relevantes en diferentes formatos, llevando ideas predecibles a la acción.",
+          "Sobresaliente": "Ordena temporalmente con solvencia hechos del entorno social y cultural cercano, empleando con un sentido y una funcionalidad excelentes nociones básicas de medida y sucesión, reconociendo con alta corrección y precisión las particularidades culturales básicas que caracterizan a la sociedad canaria, relacionándolas y vinculándolas con claridad y fluidez a la necesidad de respetar diferentes culturas y creencias, y adoptando posturas analíticas con plena conciencia en procesos de reflexión pautados; y transmite con máxima adecuación los elementos más relevantes en diferentes formatos, llevando ideas predecibles a la acción."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Conocer personas y grupos sociales relevantes de la historia, incluyendo algunas de las características de los aborígenes canarios, localizando información sencilla y de forma guiada, visibilizando las aportaciones y representación de las mujeres.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 30,
+        "descriptores": {
+          "Insuficiente": "Conoce con errores significativos personas y grupos sociales relevantes de la historia y se inicia con escaso o nulo interés en el conocimiento de formas de vida básicas de las sociedades, incluyendo algunas de las características de los aborígenes canarios, localizando con dificultad información sencilla y de forma guiada y pautada. Adopta posturas analíticas con conciencia mínima en procesos de reflexión pautados, reconociendo y respetando escasamente las diferencias entre distintas culturas, y visibilizando muy ocasionalmente las aportaciones y representación de las mujeres.",
+          "Suficiente/Bien": "Conoce personas y grupos sociales relevantes de la historia y se inicia en el conocimiento de formas de vida básicas de las sociedades, incluyendo algunas de las características de los aborígenes canarios, localizando información sencilla y de forma guiada y pautada. Adopta posturas analíticas en procesos de reflexión pautados, reconociendo y respetando las diferencias entre distintas culturas, y visibilizando las aportaciones y representación de las mujeres.",
+          "Notable": "Conoce con destacada corrección personas y grupos sociales relevantes de la historia y se inicia con interés y dedicación en el conocimiento de formas de vida básicas de las sociedades, incluyendo algunas de las características de los aborígenes canarios, localizando con facilidad información sencilla y de forma guiada y pautada. Adopta posturas analíticas con conciencia en procesos de reflexión pautados, reconociendo y respetando con compromiso las diferencias entre distintas culturas, y visibilizando frecuentemente las aportaciones y representación de las mujeres.",
+          "Sobresaliente": "Conoce con total corrección y precisión personas y grupos sociales relevantes de la historia y se inicia con entusiasmo y dedicación constantes en el conocimiento de formas de vida básicas de las sociedades, incluyendo algunas de las características de los aborígenes canarios, localizando con solvencia información sencilla y de forma guiada y pautada. Adopta posturas analíticas con alta conciencia y detalle en procesos de reflexión pautados, reconociendo y respetando con compromiso sostenido las diferencias entre distintas culturas, y visibilizando con frecuencia y determinación las aportaciones y representación de las mujeres."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Recoger información, empleando estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto, valorando la diversidad y riqueza que proporcionan a la sociedad canaria, apreciándolas como fuente de aprendizaje.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 31,
+        "descriptores": {
+          "Insuficiente": "Recoge información poco pertinente, empleando de manera inadecuada estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto e interés por la diversidad y riqueza que proporcionan a la sociedad canaria con escasa frecuencia, y descubriéndolas, reconociéndolas y apreciándolas con gran inseguridad como fuente de aprendizaje.",
+          "Suficiente/Bien": "Recoge información, empleando estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto e interés por la diversidad y riqueza que proporcionan a la sociedad canaria, y descubriéndolas, reconociéndolas y apreciándolas como fuente de aprendizaje.",
+          "Notable": "Recoge información muy pertinente, empleando con mucha adecuación estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto e interés por la diversidad y riqueza que proporcionan a la sociedad canaria de manera regular y constante, y descubriéndolas, reconociéndolas y apreciándolas con seguridad como fuente de aprendizaje.",
+          "Sobresaliente": "Recoge información muy pertinente y relevante, empleando con excelente adecuación estrategias cooperativas, acerca de manifestaciones culturales del propio entorno, mostrando respeto e interés por la diversidad y riqueza que proporcionan a la sociedad canaria con máxima constancia y determinación, y descubriéndolas, reconociéndolas y apreciándolas con seguridad y plena confianza como fuente de aprendizaje."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Mostrar actitudes y participar en actividades comunitarias que fomenten la igualdad efectiva entre mujeres y hombres y las conductas no sexistas reconociendo modelos positivos en el entorno cercano.",
+        "descriptores_operativos": [
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 32,
+        "descriptores": {
+          "Insuficiente": "Muestra actitudes poco adecuadas y participa con escaso interés en actividades comunitarias que fomenten la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo con dificultad e incorrecciones relevantes modelos positivos en el entorno cercano más inmediato.",
+          "Suficiente/Bien": "Muestra actitudes y participa en actividades comunitarias que fomenten la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo modelos positivos en el entorno cercano más inmediato.",
+          "Notable": "Muestra actitudes muy adecuadas y participa con interés en actividades comunitarias que fomenten la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo con facilidad y corrección modelos positivos en el entorno cercano más inmediato.",
+          "Sobresaliente": "Muestra actitudes altamente adecuadas y participa con constante interés e iniciativa propia en actividades comunitarias que fomenten la igualdad efectiva entre mujeres y hombres, y las conductas no sexistas, reconociendo con gran solvencia y corrección modelos positivos en el entorno cercano más inmediato."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Establecer acuerdos de forma democrática como parte de grupos próximos a su entorno, identificando las responsabilidades individuales, siendo consciente de sus emociones, ideas y comportamientos y empleando un lenguaje inclusivo y no violento.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 33,
+        "descriptores": {
+          "Insuficiente": "Establece acuerdos de forma poco democrática como parte de grupos próximos a su entorno, reconociendo con dificultad el valor de la gestión guiada y dialogada de los conflictos, identificando de manera confusa las responsabilidades individuales, siendo escasamente consciente de sus emociones, ideas y comportamientos, mediante la identificación de las mismas, y empleando rara vez un lenguaje inclusivo y no violento, reconociendo con errores relevantes las diferencias entre distintas culturas.",
+          "Suficiente/Bien": "Establece acuerdos de forma democrática como parte de grupos próximos a su entorno, reconociendo el valor de la gestión guiada y dialogada de los conflictos, identificando las responsabilidades individuales, siendo consciente de sus emociones, ideas y comportamientos, mediante la identificación de las mismas, y empleando un lenguaje inclusivo y no violento, reconociendo las diferencias entre distintas culturas.",
+          "Notable": "Establece acuerdos de forma destacadamente democrática como parte de grupos próximos a su entorno, reconociendo con facilidad el valor de la gestión guiada y dialogada de los conflictos, identificando claramente las responsabilidades individuales, siendo altamente consciente de sus emociones, ideas y comportamientos, mediante la identificación de las mismas, y empleando frecuentemente un lenguaje inclusivo y no violento, reconociendo con destacada corrección las diferencias entre distintas culturas.",
+          "Sobresaliente": "Establece acuerdos de forma destacada y conscientemente democrática como parte de grupos próximos a su entorno, reconociendo con facilidad y profundidad el valor de la gestión guiada y dialogada de los conflictos, identificando clara e inequívocamente las responsabilidades individuales, siendo plenamente consciente de sus emociones, ideas y comportamientos, mediante la identificación de las mismas, y empleando siempre un lenguaje inclusivo y no violento, reconociendo con alta corrección y precisión las diferencias entre distintas culturas."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Identificar instituciones cercanas como los ayuntamientos, señalando y valorando las funciones que realizan en pro de una buena convivencia.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 35,
+        "descriptores": {
+          "Insuficiente": "Identifica con incorrecciones significativas instituciones cercanas, descubriendo con desinterés los aspectos básicos del patrimonio cultural, y señala y reconoce con dificultad en sus prácticas comunicativas las funciones que realizan en pro de una buena convivencia.",
+          "Suficiente/Bien": "Identifica instituciones cercanas, descubriendo los aspectos básicos del patrimonio cultural, y señala y reconoce en sus prácticas comunicativas las funciones que realizan en pro de una buena convivencia.",
+          "Notable": "Identifica con destacada corrección instituciones cercanas, descubriendo con interés constante los aspectos básicos del patrimonio cultural, y señala y reconoce con destacada facilidad en sus prácticas comunicativas, las funciones que realizan en pro de una buena convivencia.",
+          "Sobresaliente": "Identifica con alta corrección y precisión instituciones cercanas, descubriendo con interés y dedicación constantes los aspectos básicos del patrimonio cultural, y señala y reconoce con mucha facilidad y solvencia en sus prácticas comunicativas las funciones que realizan en pro de una buena convivencia."
+        }
+      },
+      {
+        "criterio": "9.3",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Conocer, interiorizar y aplicar normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como usuarios de los medios de locomoción, reconociendo los medios de transportes marítimos y aéreos para conectar el archipiélago, tomando conciencia de la importancia de la movilidad segura, saludable y sostenible tanto para las personas como para el planeta.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2"
+        ],
+        "pagina_pdf": 36,
+        "descriptores": {
+          "Insuficiente": "Reconoce, interioriza y aplica superficial e incorrectamente normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como personas usuarias de los medios de locomoción, identificando con errores significativos los medios de transportes marítimos y aéreos que conectan el archipiélago, dificultando la finalidad de tomar conciencia de la importancia de la movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Suficiente/Bien": "Reconoce, interioriza y aplica normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como personas usuarias de los medios de locomoción, identificando los medios de transportes marítimos y aéreos que conectan el archipiélago, con la finalidad de tomar conciencia de la importancia de la movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Notable": "Reconoce, interioriza y aplica con claridad y corrección normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como personas usuarias de los medios de locomoción, identificando con un grado de corrección destacable los medios de transportes marítimos y aéreos que conectan el archipiélago, con la finalidad de tomar conciencia de la importancia de la movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Sobresaliente": "Reconoce, interioriza y aplica con profundidad y precisión normas básicas para la convivencia democrática en el uso de los espacios públicos, especialmente como peatones o como personas usuarias de los medios de locomoción, identificando con total corrección y detalle los medios de transportes marítimos y aéreos que conectan el archipiélago, con la finalidad de tomar conciencia de la importancia de la movilidad segura, saludable y sostenible, tanto para las personas como para el planeta."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Utilizar dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información, respetando la propiedad intelectual, para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y usando la terminología científica básica y para trabajar cooperativamente respetando la privacidad y protección del entorno digital de aprendizaje.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD3",
+          "CD4"
+        ],
+        "pagina_pdf": 37,
+        "descriptores": {
+          "Insuficiente": "Utiliza de manera intermitente y con desinterés dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información con el debido acompañamiento, para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y para trabajar cooperativamente, con una actitud poco reflexiva sobre los contenidos obtenidos, respetando de manera poco adecuada la propiedad intelectual, la privacidad y la protección del entorno digital de aprendizaje, así como usando la terminología científica básica de manera apropiada, en algunos formatos en escasas ocasiones.",
+          "Suficiente/Bien": "Utiliza dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información con el debido acompañamiento, para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y para trabajar cooperativamente, con una actitud reflexiva sobre los contenidos obtenidos, respetando la propiedad intelectual, la privacidad y la protección del entorno digital de aprendizaje, así como usando la terminología científica básica de manera apropiada, en algunos formatos.",
+          "Notable": "Utiliza con destacado interés dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información con el debido acompañamiento, para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y para trabajar cooperativamente, con una actitud reflexiva sobre los contenidos obtenidos, respetando muy adecuadamente la propiedad intelectual, la privacidad y la protección del entorno digital de aprendizaje, así como usando la terminología científica básica de manera apropiada, en algunos formatos habitualmente.",
+          "Sobresaliente": "Utiliza compromiso sostenido dispositivos y recursos digitales, de forma segura, responsable, saludable y sostenible, de acuerdo con las necesidades del contexto educativo, para realizar búsquedas guiadas de información con el debido acompañamiento, para comunicarse en plataformas digitales restringidas y seguras, compartiendo datos y para trabajar cooperativamente, con una actitud reflexiva sobre los contenidos obtenidos, respetando con excelente adecuación la propiedad intelectual, la privacidad y la protección del entorno digital de aprendizaje, así como usando la terminología científica básica de manera apropiada, en algunos formatos constantemente."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reelaborar y crear contenidos digitales sencillos, con diferentes medios, soportes y formatos, trabajando de forma individual y en equipo para construir, comunicar y compartir nuevos conocimientos, respetando los derechos de autoría y de acuerdo a las necesidades digitales del contexto educativo",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 38,
+        "descriptores": {
+          "Insuficiente": "Reelabora y crea con dificultad significativa contenidos digitales sencillos, experimentando con dudas importantes con diferentes medios, soportes y formatos básicos, trabajando con desinterés de forma individual y en equipo, adoptando hábitos de uso seguro, detectando necesidades y retos que afrontar, y respetando la propiedad intelectual y los derechos de autor con escasa frecuencia, lo que dificulta construir, comunicar y compartir nuevos conocimientos de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Suficiente/Bien": "Reelabora y crea contenidos digitales sencillos, experimentando con diferentes medios, soportes y formatos básicos, trabajando de forma individual y en equipo, adoptando hábitos de uso seguro, detectando necesidades y retos que afrontar, y respetando la propiedad intelectual y los derechos de autor, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Notable": "Reelabora y crea con facilidad contenidos digitales sencillos, experimentando de manera segura con diferentes medios, soportes y formatos básicos, trabajando con interés de forma individual y en equipo, adoptando hábitos de uso seguro, detectando necesidades y retos que afrontar, y respetando la propiedad intelectual y los derechos de autor con frecuencia, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo.",
+          "Sobresaliente": "Reelabora y crea con soltura contenidos digitales sencillos, experimentando con plena confianza con diferentes medios, soportes y formatos básicos, trabajando con interés y compromiso de forma individual y en equipo, adoptando hábitos de uso seguro, detectando necesidades y retos que afrontar, y respetando la propiedad intelectual y los derechos de autor siempre, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y de acuerdo a las necesidades digitales del contexto educativo."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Formular preguntas y realizar predicciones razonadas, demostrando curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2"
+        ],
+        "pagina_pdf": 39,
+        "descriptores": {
+          "Insuficiente": "Formula preguntas y realiza predicciones inadecuadamente razonadas, demostrando escasa curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales de manera poco eficaz y limitada, lo que obstaculiza entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Formula preguntas y realiza predicciones razonadas, demostrando curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Notable": "Formula preguntas y realiza predicciones muy adecuadamente razonadas, demostrando destacada curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales de manera eficaz y continuada, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Sobresaliente": "Formula preguntas y realiza predicciones excelentemente razonadas, demostrando excepcional curiosidad por el medio natural, social y cultural canario, participando en interacciones comunicativas con actitud cooperativa e interpretando el sentido de textos orales y multimodales de manera eficiente y persistente, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Buscar, seleccionar y comprender información de diferentes fuentes seguras y fiables, adquiriendo léxico científico básico, y utilizándola en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "pagina_pdf": 40,
+        "descriptores": {
+          "Insuficiente": "Busca, selecciona y comprende con gran dificultad e incorrección información de diferentes fuentes seguras y fiables, de manera guiada y con actitud reflexiva, adquiriendo léxico científico básico de manera poco apropiada y la utiliza inadecuadamente en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias con limitada actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Busca, selecciona y comprende información de diferentes fuentes seguras y fiables, de manera guiada y con actitud reflexiva, adquiriendo léxico científico básico de manera apropiada, y la utiliza en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias con actitud cooperativa y respetuosa.",
+          "Notable": "Busca, selecciona y comprende con considerable facilidad y corrección información de diferentes fuentes seguras y fiables, de manera guiada y con actitud reflexiva, adquiriendo léxico científico básico de manera muy apropiada y la utiliza muy adecuadamente en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias con amplia actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Busca, selecciona y comprende con destacada solvencia y corrección información de diferentes fuentes seguras y fiables, de manera guiada y con actitud reflexiva, adquiriendo léxico científico básico de manera altamente apropiada, y la utiliza con excelente adecuación en investigaciones relacionadas con el medio natural, social y cultural, reconociendo el valor de la ciencia en Canarias con amplia y responsable actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Realizar experimentos guiados utilizando diferentes técnicas de indagación y modelos, empleando de forma segura instrumentos y dispositivos, realizando observaciones y mediciones precisas y registrándolas correctamente en distintos formatos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "pagina_pdf": 41,
+        "descriptores": {
+          "Insuficiente": "Realiza, con defectos relevantes, experimentos sencillos y guiados utilizando con dificultad significativa, diferentes técnicas de indagación y modelos, con una actitud poco reflexiva sobre los contenidos obtenidos. Emplea de forma poco segura y responsable instrumentos y dispositivos, así como algunas herramientas digitales, realizando observaciones y mediciones imprecisas, y registrándolas incorrectamente en distintos formatos con escasa claridad y adecuación.",
+          "Suficiente/Bien": "Realiza experimentos sencillos y guiados utilizando diferentes técnicas de indagación, y modelos, con una actitud reflexiva sobre los contenidos obtenidos. Emplea de forma segura y responsable instrumentos y dispositivos, así como algunas herramientas digitales, realizando observaciones y mediciones precisas, y registrándolas correctamente en distintos formatos con claridad y adecuación.",
+          "Notable": "Realiza, con considerable corrección, experimentos sencillos y guiados utilizando con facilidad, diferentes técnicas de indagación guiadas y pautadas, y modelos, con una actitud significativamente reflexiva sobre los contenidos obtenidos. Emplea de forma moderadamente segura y responsable instrumentos y dispositivos, así como algunas herramientas digitales, realizando observaciones y mediciones precisas, y registrándolas correctamente en distintos formatos con apropiada claridad y adecuación.",
+          "Sobresaliente": "Realiza, con destacada corrección y precisión, experimentos sencillos y guiados utilizando con solvencia, diferentes técnicas de indagación y modelos, con una actitud plenamente reflexiva sobre los contenidos obtenidos. Emplea de forma altamente segura y responsable instrumentos y dispositivos, así como algunas herramientas digitales, realizando observaciones y mediciones precisas, y registrándolas correctamente en distintos formatos con excelente claridad y adecuación."
+        }
+      },
+      {
+        "criterio": "2.4",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Proponer posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación de la información y los resultados obtenidos, comparándolos con las predicciones realizadas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 42,
+        "descriptores": {
+          "Insuficiente": "Propone, con mínima adecuación, posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación, con descuidos, defectos o problemas significativos, de información sencilla procedente de dos o más fuentes y de los resultados obtenidos, comparándolos con las predicciones realizadas, mediante el uso poco autónomo de algunas herramientas digitales, lo que obstaculiza entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Propone posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación de información sencilla procedente de dos o más fuentes y de los resultados obtenidos, comparándolos con las predicciones realizadas, mediante el uso de algunas herramientas digitales, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Notable": "Propone, de manera adecuada, posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación, con corrección en los elementos más importantes, de información sencilla procedente de dos o más fuentes y de los resultados obtenidos, comparándolos con las predicciones realizadas, mediante el uso moderadamente autónomo de algunas herramientas digitales, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor.",
+          "Sobresaliente": "Propone, con alta adecuación y precisión, posibles respuestas a las preguntas planteadas, en diversos textos, a través de la interpretación, con total corrección, de información sencilla procedente de dos o más fuentes y de los resultados obtenidos, comparándolos con las predicciones realizadas, mediante el uso completamente autónomo de algunas herramientas digitales, para entender y explicar algunos de los fenómenos conocidos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.5",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comunicar los resultados de las investigaciones en diferentes formatos, utilizando lenguaje científico básico y explicando los pasos seguidos, adoptando un punto de vista creativo y personal.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL3",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 43,
+        "descriptores": {
+          "Insuficiente": "Comunica los resultados de las investigaciones en diferentes formatos con escasa claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, utilizando lenguaje científico básico de manera poco apropiada y explicando con destacadas incoherencias los pasos seguidos, adoptando infrecuentemente un punto de vista creativo y personal.",
+          "Suficiente/Bien": "Comunica los resultados de las investigaciones en diferentes formatos con claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, utilizando lenguaje científico básico de manera apropiada y explicando los pasos seguidos, adoptando un punto de vista creativo y personal.",
+          "Notable": "Comunica los resultados de las investigaciones en diferentes formatos con considerable claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, utilizando lenguaje científico básico de manera ampliamente apropiada y explicando con destacada coherencia los pasos seguidos, adoptando frecuentemente un punto de vista creativo y personal.",
+          "Sobresaliente": "Comunica los resultados de las investigaciones en diferentes formatos con excelente claridad y adecuación a diferentes contextos cotidianos y próximos de su entorno, utilizando lenguaje científico básico de manera excepcionalmente apropiada y explicando con plena coherencia y detalle los pasos seguidos, adoptando siempre un punto de vista creativo y personal."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Construir en equipo un producto final sencillo que dé respuesta a un problema de diseño, proponiendo posibles soluciones creativas, utilizando de forma segura las herramientas, técnicas y materiales adecuados y probando diferentes prototipos en equipo, de forma empática e inclusiva.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 44,
+        "descriptores": {
+          "Insuficiente": "Construye, con incorrecciones significativas, en equipo, de forma empática e inclusiva, un producto final sencillo que da respuesta a un problema de diseño, proponiendo con escasa frecuencia posibles soluciones creativas y adaptativas con medios y soportes básicos, adoptando, con conciencia mínima, posturas analíticas en procesos de reflexión guiados. Utiliza muy ocasionalmente de forma segura las herramientas, las técnicas y los materiales adecuados, probando con desinterés diferentes prototipos, comenzando a reconocer sus limitaciones, buscando ayuda en el proceso y seleccionando objetivos a corto plazo rara vez.",
+          "Suficiente/Bien": "Construye, en equipo, de forma empática e inclusiva, un producto final sencillo que da respuesta a un problema de diseño, proponiendo posibles soluciones creativas y adaptativas con medios y soportes básicos, adoptando posturas analíticas en procesos de reflexión guiados. Utiliza de forma segura las herramientas, las técnicas y los materiales adecuados, probando diferentes prototipos, comenzando a reconocer sus limitaciones, buscando ayuda en el proceso y seleccionando objetivos a corto plazo.",
+          "Notable": "Construye, con alta corrección, en equipo, de forma empática e inclusiva, un producto final sencillo que da respuesta a un problema de diseño, proponiendo con frecuencia posibles soluciones creativas y adaptativas con medios y soportes básicos, adoptando, con alta conciencia, posturas analíticas en procesos de reflexión guiados. Utiliza regularmente de forma segura las herramientas, las técnicas y los materiales adecuados, probando con interés constante diferentes prototipos, comenzando a reconocer sus limitaciones, buscando ayuda en el proceso y seleccionando objetivos a corto plazo regularmente.",
+          "Sobresaliente": "Construye, con alta corrección y facilidad destacable, en equipo, de forma empática e inclusiva, un producto final sencillo que da respuesta a un problema de diseño, proponiendo siempre posibles soluciones creativas y adaptativas con medios y soportes básicos, adoptando, con plena conciencia, posturas analíticas en procesos de reflexión guiados.º Utiliza constantemente de forma segura las herramientas, las técnicas y los materiales adecuados, probando con interés y dedicación constantes diferentes prototipos, comenzando a reconocer sus limitaciones, buscando ayuda en el proceso y seleccionando objetivos a corto plazo de forma continua."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Resolver, de forma guiada, problemas sencillos y sostenibles de programación, modificando algoritmos de acuerdo con los principios básicos del pensamiento computacional, empleando estrategias cooperativas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 45,
+        "descriptores": {
+          "Insuficiente": "Resuelve con relevantes incorrecciones e inseguridad, de forma guiada y empleando estrategias cooperativas, problemas o retos sencillos y sostenibles de programación, mediante diferentes medios y soportes básicos, y modificando algoritmos, de acuerdo con los principios básicos del pensamiento computacional, con imprecisiones importantes. Participa en procesos de reflexión guiados, como la autoevaluación y la coevaluación con conciencia mínima.",
+          "Suficiente/Bien": "Resuelve, de forma guiada y empleando estrategias cooperativas, problemas o retos sencillos y sostenibles de programación, mediante diferentes medios y soportes básicos, y modificando algoritmos, de acuerdo con los principios básicos del pensamiento computacional. Participa en procesos de reflexión guiados, como la autoevaluación y la coevaluación.",
+          "Notable": "Resuelve con corrección y confianza crecientes, de forma guiada y empleando estrategias cooperativas, problemas o retos sencillos y sostenibles de programación, mediante diferentes medios y soportes básicos, y modificando algoritmos, de acuerdo con los principios básicos del pensamiento computacional, con destacada precisión. Participa en procesos de reflexión guiados, como la autoevaluación y la coevaluación con alta conciencia.",
+          "Sobresaliente": "Resuelve con total corrección y autonomía, de forma guiada y empleando estrategias cooperativas, problemas o retos sencillos y sostenibles de programación, mediante diferentes medios y soportes básicos, y modificando algoritmos, de acuerdo con los principios básicos del pensamiento computacional, con total precisión. Participa en procesos de reflexión guiados, como la autoevaluación y la coevaluación con plena conciencia."
+        }
+      },
+      {
+        "criterio": "3.3",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar el producto final de los proyectos de diseño en diferentes formatos, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo, explicando los pasos seguidos, autoevaluando y coevaluando el proceso realizado y el resultado obtenido.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM4",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 46,
+        "descriptores": {
+          "Insuficiente": "Comunica el producto final de los proyectos de diseño en diferentes formatos, explicando con escasa claridad los pasos seguidos, utilizando la terminología científica básica de manera poco apropiada, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo y autoevaluando y coevaluando sin interés el proceso realizado y el resultado obtenido.",
+          "Suficiente/Bien": "Comunica el producto final de los proyectos de diseño en diferentes formatos, explicando los pasos seguidos, utilizando la terminología científica básica de manera apropiada, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo, y autoevaluando y coevaluando el proceso realizado y el resultado obtenido.",
+          "Notable": "Comunica el producto final de los proyectos de diseño en diferentes formatos, explicando con apropiada claridad los pasos seguidos, utilizando la terminología científica básica con un alto grado de corrección, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo y autoevaluando y coevaluando con interés y detalle el proceso realizado y el resultado obtenido.",
+          "Sobresaliente": "Comunica el producto final de los proyectos de diseño en diferentes formatos, explicando con gran claridad y precisión los pasos seguidos, utilizando la terminología científica básica con corrección destacable, asumiendo las responsabilidades individuales asignadas en el trabajo en grupo y autoevaluando y coevaluando con gran interés y precisión el proceso realizado y el resultado obtenido"
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Desarrollar actitudes que fomenten el bienestar físico, emocional y social a través de la conciencia, la regulación y la vinculación emocional, de forma guiada, estableciendo relaciones afectivas saludables, inclusivas y corresponsables, potenciando la cultura de los cuidados.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 47,
+        "descriptores": {
+          "Insuficiente": "Desarrolla inadecuadamente, de forma guiada, actitudes que fomentan el bienestar físico, emocional y social, a través de la conciencia, la regulación y la vinculación emocional, y del establecimiento de relaciones afectivas saludables, inclusivas y corresponsables de forma poco coherente, detectando y buscando apoyo, de manera intermitente, ante conductas contrarias a la convivencia, potenciando con nula iniciativa propia la cultura de los cuidados.",
+          "Suficiente/Bien": "Desarrolla, de forma guiada, actitudes que fomentan el bienestar físico, emocional y social, a través de la conciencia, la regulación y la vinculación emocional, y del establecimiento de relaciones afectivas saludables, inclusivas y corresponsables, detectando y buscando apoyo ante conductas contrarias a la convivencia, potenciando la cultura de los cuidados.",
+          "Notable": "Desarrolla muy adecuadamente, de forma guiada, actitudes que fomentan el bienestar físico, emocional y social, a través de la conciencia, la regulación y la vinculación emocional, y del establecimiento de relaciones afectivas saludables, inclusivas y corresponsables con destacada coherencia, detectando y buscando apoyo, de manera regular y constante, ante conductas contrarias a la convivencia, potenciando con iniciativa propia la cultura de los cuidados.",
+          "Sobresaliente": "Desarrolla con excelente adecuación, de forma guiada, actitudes que fomentan el bienestar físico, emocional y social, a través de la conciencia, la regulación y la vinculación emocional, y del establecimiento de relaciones afectivas saludables, inclusivas y corresponsables con coherencia y consistencia, detectando y buscando apoyo, con máxima constancia y determinación, ante conductas contrarias a la convivencia, potenciando autónomamente la cultura de los cuidados."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Desarrollar estilos de vida saludables valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando en acciones fundamentadas científicamente para preservar la salud.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 48,
+        "descriptores": {
+          "Insuficiente": "Desarrolla de manera ocasional estilos de vida saludables, valorando con conciencia mínima la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando con nula o escasa iniciativa propia en acciones fundamentadas científicamente para preservar la salud y trabajando con escaso interés de forma cooperativa, asumiendo muy ocasionalmente las responsabilidades individuales asignadas, y adaptándose a los cambios y ajustándolos de manera poco adecuada obstaculizando alcanzar sus propios objetivos.",
+          "Suficiente/Bien": "Desarrolla estilos de vida saludables, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando en acciones fundamentadas científicamente para preservar la salud y trabajando con interés de forma cooperativa, asumiendo las responsabilidades individuales asignadas, y adaptándose a los cambios y ajustándolos para alcanzar sus propios objetivos.",
+          "Notable": "Desarrolla de manera continuada estilos de vida saludables, valorando reflexivamente la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando con iniciativa propia en acciones fundamentadas científicamente para preservar la salud y trabajando con destacado interés de forma cooperativa, asumiendo habitualmente las responsabilidades individuales asignadas, y adaptándose a los cambios y ajustándolos con moderada adecuación para alcanzar sus propios objetivos.",
+          "Sobresaliente": "Desarrolla con máxima constancia estilos de vida saludables, valorando con alta conciencia la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y cuidado del cuerpo y el uso adecuado de las tecnologías, participando con iniciativa propia y motivación sostenida en acciones fundamentadas científicamente para preservar la salud y trabajando con máximo interés de forma cooperativa, asumiendo siempre las responsabilidades individuales asignadas, y adaptándose a los cambios y ajustándolos con alta adecuación para alcanzar sus propios objetivos."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar las características, la organización y las propiedades de los elementos del medio natural, social y cultural partiendo del conocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda de información, de manera guiada, utilizando las herramientas y procesos adecuados, para transmitir y compartir los conocimientos en diferentes formatos.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 49,
+        "descriptores": {
+          "Insuficiente": "Identifica con falta de claridad e incorrecciones relevantes las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo del reconocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada y pautada de información de manera eficaz, empleando de modo poco pertinente algunas estrategias para resolver problemas, sin comprobar las soluciones obtenidas, y utilizando con escasa frecuencia las herramientas y los procesos adecuados impidiendo transmitir y compartir los conocimientos en algunos formatos diferentes.",
+          "Suficiente/Bien": "Identifica las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo del reconocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada y pautada de información, empleando algunas estrategias para resolver problemas, comprobando las soluciones obtenidas, y utilizando las herramientas y los procesos adecuados para transmitir y compartir los conocimientos en algunos formatos diferentes.",
+          "Notable": "Identifica con claridad y corrección las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo del reconocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada y pautada de información de manera eficaz, empleando muy pertinentemente algunas estrategias para resolver problemas, comprobando las soluciones obtenidas, y utilizando habitualmente las herramientas y los procesos adecuados para transmitir y compartir los conocimientos en algunos formatos diferentes.",
+          "Sobresaliente": "Identifica con total corrección y precisión las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo del reconocimiento de la biodiversidad del archipiélago canario, a través de la indagación y la búsqueda guiada y pautada de información de manera muy eficaz, empleando con alta pertinencia y claridad algunas estrategias para resolver problemas, comprobando las soluciones obtenidas, y utilizando siempre las herramientas y los procesos adecuados para transmitir y compartir los conocimientos en algunos formatos diferentes."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar conexiones sencillas entre diferentes elementos del medio natural social y cultural partiendo del reconocimiento de la formación de las islas Canarias para comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "CC4"
+        ],
+        "pagina_pdf": 50,
+        "descriptores": {
+          "Insuficiente": "Identifica con dificultad conexiones sencillas entre diferentes elementos del medio natural social y cultural, partiendo del reconocimiento de la formación de las islas Canarias, utilizando incorrectamente, de manera pautada, algunos métodos inductivos y deductivos, impidiendo comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares.",
+          "Suficiente/Bien": "Identifica conexiones sencillas entre diferentes elementos del medio natural social y cultural, partiendo del reconocimiento de la formación de las islas Canarias, utilizando de manera pautada algunos métodos inductivos y deductivos, para comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares.",
+          "Notable": "Identifica con facilidad conexiones sencillas entre diferentes elementos del medio natural social y cultural, partiendo del reconocimiento de la formación de las islas Canarias, utilizando con gran corrección, de manera pautada, algunos métodos inductivos y deductivos, para comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares.",
+          "Sobresaliente": "Identifica con gran facilidad y precisión conexiones sencillas entre diferentes elementos del medio natural social y cultural, partiendo del reconocimiento de la formación de las islas Canarias, utilizando con destacada y continua corrección, de manera pautada, algunos métodos inductivos y deductivos, para comprender las relaciones que se establecen en los ecosistemas canarios y acercarse así a las que ocurren en otros lugares."
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Proteger el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 51,
+        "descriptores": {
+          "Insuficiente": "Protege con nula o escasa iniciativa propia el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, indicando con falta de claridad sus aspectos fundamentales, entendiendo con dificultad significativa el impacto de la vida humana en su entorno próximo, adoptando con ayuda, conductas respetuosas para su disfrute y proponiendo muy ocasionalmente acciones para su conservación y mejora.",
+          "Suficiente/Bien": "Protege el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, indicando sus aspectos fundamentales, entendiendo el impacto de la vida humana en su entorno próximo, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora.",
+          "Notable": "Protege con iniciativa propia y entusiasmo el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, indicando con destacada claridad sus aspectos fundamentales, entendiendo con facilidad el impacto de la vida humana en su entorno próximo, adoptando con autonomía, conductas respetuosas para su disfrute y proponiendo de manera regular acciones para su conservación y mejora.",
+          "Sobresaliente": "Protege con iniciativa propia y motivación sostenida el patrimonio cultural y el natural, especialmente de Canarias, para valorarlos como un bien común, indicando con total claridad y precisión sus aspectos fundamentales, entendiendo con soltura el impacto de la vida humana en su entorno próximo, adoptando con autonomía y decisión conductas respetuosas para su disfrute y proponiendo con constancia y determinación acciones para su conservación y mejora."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Poner en práctica estilos de vida sostenibles, reconociendo comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno y uso sostenible del agua, la energía y los residuos y de los recursos naturales, expresando los cambios positivos y negativos causados en el medio por la acción humana y explicando algunos fenómenos que ocurren a su alrededor para potenciar el modelo de isla sostenible para Canarias.",
+        "descriptores_operativos": [
+          "CC3",
+          "CC4",
+          "CE1"
+        ],
+        "pagina_pdf": 52,
+        "descriptores": {
+          "Insuficiente": "Pone en práctica con dificultad y errores significativos, estilos de vida sostenibles, reconociendo de forma confusa comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno, así como un uso sostenible del agua, la energía, los residuos y los recursos naturales, expresando con incorrecciones los cambios positivos y negativos causados en el medio por la acción humana, sin tomar conciencia de las consecuencias de la misma, y explicando de manera descontextualizada algunos fenómenos que ocurren a su alrededor, lo que limita potenciar un modelo de isla sostenible para Canarias.",
+          "Suficiente/Bien": "Pone en práctica estilos de vida sostenibles, reconociendo comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno, así como un uso sostenible del agua, la energía, los residuos y los recursos naturales, expresando los cambios positivos y negativos causados en el medio por la acción humana, tomando conciencia de las consecuencias de la misma, y explicando algunos fenómenos que ocurren a su alrededor, para potenciar un modelo de isla sostenible para Canarias.",
+          "Notable": "Pone en práctica con facilidad y corrección, estilos de vida sostenibles, reconociendo de manera habitualmente segura y confiada comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno, así como un uso sostenible del agua, la energía, los residuos y los recursos naturales, expresando con corrección destacable los cambios positivos y negativos causados en el medio por la acción humana, tomando alta conciencia de las consecuencias de la misma, y explicando de manera contextualizada algunos fenómenos que ocurren a su alrededor, para potenciar un modelo de isla sostenible para Canarias.",
+          "Sobresaliente": "Pone en práctica con facilidad destacable y total corrección, estilos de vida sostenibles, reconociendo con plena seguridad y confianza comportamientos respetuosos de cuidado, corresponsabilidad y de protección del entorno, así como un uso sostenible del agua, la energía, los residuos y los recursos naturales, expresando con corrección excepcional los cambios positivos y negativos causados en el medio por la acción humana, tomando plena conciencia de las consecuencias de la misma, y explicando de manera altamente contextualizada y precisa algunos fenómenos que ocurren a su alrededor, para potenciar un modelo de isla sostenible para Canarias."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Identificar problemas ecosociales en el entorno cercano, compartidos a nivel mundial y proponer posibles soluciones, de manera individual y cooperativa, poniendo en práctica estilos de vida sostenibles.",
+        "descriptores_operativos": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 53,
+        "descriptores": {
+          "Insuficiente": "Identifica con dificultad problemas ecosociales en el entorno cercano, compartidos a nivel mundial, y propone posibles soluciones, de manera individual y cooperativa ocasionalmente, poniendo en práctica estilos de vida sostenibles, aplicando rara vez reglas de convivencia de forma respetuosa en cualquier contexto e iniciándose con escasa autonomía en la gestión dialogada de los conflictos.",
+          "Suficiente/Bien": "Identifica problemas ecosociales en el entorno cercano, compartidos a nivel mundial, y propone posibles soluciones, de manera individual y cooperativa, poniendo en práctica estilos de vida sostenibles, aplicando reglas de convivencia de forma respetuosa en cualquier contexto e iniciándose en la gestión dialogada de los conflictos.",
+          "Notable": "Identifica con facilidad problemas ecosociales en el entorno cercano, compartidos a nivel mundial, y propone posibles soluciones, de manera individual y cooperativa regularmente, poniendo en práctica estilos de vida sostenibles, aplicando frecuentemente reglas de convivencia de forma respetuosa en cualquier contexto e iniciándose con progresiva autonomía en la gestión dialogada de los conflictos.",
+          "Sobresaliente": "Identifica con facilidad destacable problemas ecosociales en el entorno cercano, compartidos a nivel mundial, y propone posibles soluciones, de manera individual y cooperativa con máxima constancia, poniendo en práctica estilos de vida sostenibles, aplicando siempre reglas de convivencia de forma respetuosa en cualquier contexto e iniciándose con autonomía en la gestión dialogada de los conflictos."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Localizar, seleccionar e identificar hechos del entorno social y cultural desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión para comunicarlos, adoptando un punto de vista creativo.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 54,
+        "descriptores": {
+          "Insuficiente": "Localiza, selecciona e identifica de manera guiada con mucha dificultad hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión, indicando con falta de claridad los aspectos fundamentales del patrimonio cultural y artístico, comprendiendo superficialmente la necesidad de respetar diferentes culturas y creencias, y manteniendo posturas analíticas con conciencia mínima en procesos de reflexión guiados, lo que limita comunicarlos, adoptando un punto de vista creativo y llevando ideas adaptativas a la acción.",
+          "Suficiente/Bien": "Localiza, selecciona e identifica de manera guiada hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión, indicando los aspectos fundamentales del patrimonio cultural y artístico, comprendiendo la necesidad de respetar diferentes culturas y creencias, y manteniendo posturas analíticas en procesos de reflexión guiados, para comunicarlos, adoptando un punto de vista creativo y llevando ideas adaptativas a la acción.",
+          "Notable": "Localiza, selecciona e identifica de manera guiada con facilidad hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión, indicando con destacada claridad los aspectos fundamentales del patrimonio cultural y artístico, comprendiendo de manera funcional la necesidad de respetar diferentes culturas y creencias, y manteniendo posturas analíticas con alta conciencia en procesos de reflexión guiados, para comunicarlos, adoptando un punto de vista creativo y llevando ideas adaptativas a la acción.",
+          "Sobresaliente": "Localiza, selecciona e identifica de manera guiada con solvencia hechos del entorno social y cultural, desde la Prehistoria hasta la Edad Antigua, empleando las nociones de causalidad, simultaneidad y sucesión, indicando con total claridad y precisión los aspectos fundamentales del patrimonio cultural y artístico, comprendiendo con destacable profundidad la necesidad de respetar diferentes culturas y creencias, y manteniendo posturas analíticas con plena conciencia en procesos de reflexión guiados, para comunicarlos, adoptando un punto de vista creativo y llevando ideas adaptativas a la acción."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades desde la Prehistoria hasta la Edad Antigua, visibilizando las aportaciones y representación de las mujeres en ellas y personajes históricos representativos en Canarias.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 55,
+        "descriptores": {
+          "Insuficiente": "Conoce con errores significativos personas, grupos sociales relevantes y formas de vida de las sociedades, desde la Prehistoria hasta la Edad Antigua, localizando y seleccionando, de manera guiada con dificultad, información sencilla. Adopta posturas analíticas con conciencia mínima en procesos de reflexión guiados, identificando y comprendiendo de manera superficial la necesidad de respetar diferentes culturas y creencias, y visibilizando de forma confusa las aportaciones y representación de las mujeres en ellas y de personajes históricos representativos en Canarias.",
+          "Suficiente/Bien": "Conoce personas, grupos sociales relevantes y formas de vida de las sociedades, desde la Prehistoria hasta la Edad Antigua, localizando y seleccionando, de manera guiada, información sencilla. Adopta posturas analíticas en procesos de reflexión guiados, identificando y comprendiendo la necesidad de respetar diferentes culturas y creencias, y visibilizando las aportaciones y representación de las mujeres en ellas y de personajes históricos representativos en Canarias.",
+          "Notable": "Conoce con destacada corrección personas, grupos sociales relevantes y formas de vida de las sociedades, desde la Prehistoria hasta la Edad Antigua, localizando y seleccionando, de manera guiada con facilidad, información sencilla. Adopta posturas analíticas con conciencia en procesos de reflexión guiados, identificando y comprendiendo con moderada profundidad la necesidad de respetar diferentes culturas y creencias, y visibilizando con claridad las aportaciones y representación de las mujeres en ellas y de personajes históricos representativos en Canarias.",
+          "Sobresaliente": "Conoce con total corrección y precisión personas, grupos sociales relevantes y formas de vida de las sociedades, desde la Prehistoria hasta la Edad Antigua, localizando y seleccionando, de manera guiada con solvencia, información sencilla. Adopta posturas analíticas con alta conciencia y detalle en procesos de reflexión guiados, identificando y comprendiendo con profundidad y exactitud la necesidad de respetar diferentes culturas y creencias, y visibilizando con claridad y fluidez las aportaciones y representación de las mujeres en ellas y de personajes históricos representativos en Canarias."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Analizar la importancia demográfica, cultural y económica de las migraciones en la actualidad, valorando con respeto y empatía el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 56,
+        "descriptores": {
+          "Insuficiente": "Analiza y entiende sin detalle y con dificultades relevantes la importancia demográfica, cultural y económica de las migraciones en la actualidad, explorando sin interés y demostrando respeto y empatía de forma poco frecuente por el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria.",
+          "Suficiente/Bien": "Analiza y entiende la importancia demográfica, cultural y económica de las migraciones en la actualidad, explorando y demostrando respeto y empatía por el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria.",
+          "Notable": "Analiza y entiende con un significativo grado de detalle y con facilidad la importancia demográfica, cultural y económica de las migraciones en la actualidad, explorando con detacado interés y demostrando respeto y empatía de manera regular y constante por el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria.",
+          "Sobresaliente": "Analiza y entiende de manera amplia, detallada y solvente la importancia demográfica, cultural y económica de las migraciones en la actualidad, explorando con motivavión y demostrando respeto y empatía con máxima constancia y determinación por el aporte de la diversidad cultural al bienestar individual y colectivo, especialmente en la sociedad canaria."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Valorar positivamente las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres y las conductas no sexistas reconociendo modelos positivos a lo largo de la historia, empleando estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad.",
+        "descriptores_operativos": [
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 57,
+        "descriptores": {
+          "Insuficiente": "Valora de manera superficial las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres, así como las conductas no sexistas, reconociendo con falta de claridad modelos positivos a lo largo de la historia, empleando de forma poco entusiasta y sin compromiso estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad.",
+          "Suficiente/Bien": "Valora las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres, así como las conductas no sexistas, reconociendo modelos positivos a lo largo de la historia, empleando estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad.",
+          "Notable": "Valora con profundidad las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres, así como las conductas no sexistas, reconociendo con destacada claridad modelos positivos a lo largo de la historia, empleando con compromiso estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad.",
+          "Sobresaliente": "Valora con profundidad y detalle las acciones y actividades comunitarias que fomentan la igualdad efectiva entre mujeres y hombres, así como las conductas no sexistas, reconociendo con total claridad y precisión modelos positivos a lo largo de la historia, empleando con determinación y compromiso estrategias colaborativas para reflexionar y comunicar sobre problemas éticos de actualidad."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Realizar actividades en el contexto de la comunidad escolar, asumiendo responsabilidades, estableciendo acuerdos democráticos, y empleando un lenguaje inclusivo y no violento.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 58,
+        "descriptores": {
+          "Insuficiente": "Realiza actividades en el contexto de la comunidad escolar con nula iniciativa propia y escasa motivación, asumiendo responsabilidades, estableciendo acuerdos democráticos, empleando un lenguaje inclusivo y no violento e identificando las diferencias entre distintas culturas con dificultad; iniciándose en la gestión dialogada de los conflictos, explicando con consciencia mínima las propias emociones, ideas y comportamientos personales, y usando estrategias sin precisar el sentido y sin funcionalidad para gestionar las emociones en situaciones de tensión.",
+          "Suficiente/Bien": "Realiza actividades en el contexto de la comunidad escolar, asumiendo responsabilidades, estableciendo acuerdos democráticos, empleando un lenguaje inclusivo y no violento e identificando las diferencias entre distintas culturas; iniciándose en la gestión dialogada de los conflictos, explicando las propias emociones, ideas y comportamientos personales, y usando estrategias para gestionar las emociones en situaciones de tensión.",
+          "Notable": "Realiza actividades en el contexto de la comunidad escolar con iniciativa propia y motivación, asumiendo responsabilidades, estableciendo acuerdos democráticos, y empleando un lenguaje inclusivo y no violento e identificando las diferencias entre distintas culturas con destacada facilidad, iniciándose en la gestión dialogada de los conflictos, explicando de forma consciente las propias emociones, ideas y comportamientos personales, y usando estrategias con sentido y funcionalidad relevantes para gestionar las emociones en situaciones de tensión.",
+          "Sobresaliente": "Realiza actividades en el contexto de la comunidad escolar con constante iniciativa propia y motivación destacable, asumiendo responsabilidades, estableciendo acuerdos democráticos, empleando un lenguaje inclusivo y no violento, e identificando las diferencias entre distintas culturas con máxima facilidad y determinación, iniciándose en la gestión dialogada de los conflictos, explicando de forma plenamente consciente las propias emociones, ideas y comportamientos personales, y usando estrategias con sentido y funcionalidad excelentes para gestionar las emociones en situaciones de tensión."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Conocer los principales órganos de gobierno incluyendo los ayuntamientos y cabildos insulares en Canarias y funciones de diversas administraciones y servicios públicos, reflexionando y valorando la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 59,
+        "descriptores": {
+          "Insuficiente": "Reconoce con dificultad y sin detalle los principales órganos de gobierno, incluyendo los ayuntamientos y cabildos insulares en Canarias, y las funciones de las diversas administraciones y de los servicios públicos, indicando con incorrecciones relevantes sus aspectos fundamentales y reflexionando de manera poco adecuada en sus prácticas comunicativas sobre la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+          "Suficiente/Bien": "Reconoce los principales órganos de gobierno, incluyendo los ayuntamientos y cabildos insulares en Canarias, y las funciones de las diversas administraciones y de los servicios públicos, indicando sus aspectos fundamentales y reflexionando en sus prácticas comunicativas sobre la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+          "Notable": "Reconoce con facilidad y con un significativo grado de detalle los principales órganos de gobierno, incluyendo los ayuntamientos y cabildos insulares en Canarias, y las funciones de las diversas administraciones y de los servicios públicos, indicando con claridad y corrección sus aspectos fundamentales y reflexionando con destacada adecuación en sus prácticas comunicativas sobre la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+          "Sobresaliente": "Reconoce con facilidad destacable y de manera amplia y detallada los principales órganos de gobierno, incluyendo los ayuntamientos y cabildos insulares en Canarias, y las funciones de las diversas administraciones y de los servicios públicos, indicando con total corrección y precisión sus aspectos fundamentales y reflexionando de manera muy adecuada y pertinente en sus prácticas comunicativas sobre la importancia de su gestión para la seguridad integral ciudadana y la participación democrática."
+        }
+      },
+      {
+        "criterio": "9.3",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Participar en actividades comunitarias, de manera constructiva e inclusiva para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como usuarios de los medios de locomoción, identificando las señales de tráfico y tomando conciencia de la importancia de una movilidad segura, saludable y sostenible tanto para las personas como para el planeta.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2"
+        ],
+        "pagina_pdf": 60,
+        "descriptores": {
+          "Insuficiente": "Participa en actividades comunitarias, de manera constructiva e inclusiva ocasionalmente o con escasa frecuencia para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando con errores significativos las señales de tráfico y tomando escasa conciencia de la importancia de una movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Suficiente/Bien": "Participa en actividades comunitarias, de manera constructiva e inclusiva para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando las señales de tráfico y tomando conciencia de la importancia de una movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Notable": "Participa en actividades comunitarias, de manera constructiva e inclusiva con regularidad y constancia para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando con un grado de corrección destacable las señales de tráfico y tomando moderada conciencia de la importancia de una movilidad segura, saludable y sostenible, tanto para las personas como para el planeta.",
+          "Sobresaliente": "Participa en actividades comunitarias, de manera constructiva e inclusiva con persistencia y determinación para interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones o como personas usuarias de los medios de locomoción, identificando con total corrección y precisión las señales de tráfico y tomando plena conciencia de la importancia de una movilidad segura, saludable y sostenible, tanto para las personas como para el planeta."
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Utilizar dispositivos y recursos digitales de forma segura, responsable, eficiente, saludable y sostenible de acuerdo con las necesidades del contexto educativo, para buscar información evaluando su fiabilidad y utilidad y respetando la propiedad intelectual, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, usando la terminología científica apropiada, y para trabajar cooperativamente en equipo y en red.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD1",
+          "CD3",
+          "CD4"
+        ],
+        "pagina_pdf": 61,
+        "descriptores": {
+          "Insuficiente": "Utiliza de manera intermitente y con desinterés dispositivos y recursos digitales, de forma segura, responsable, eficiente, saludable, sostenible y crítica, de acuerdo con las necesidades del contexto educativo, para buscar información, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, y para trabajar cooperativamente en equipo y en red, con una actitud escasamente crítica sobre los contenidos obtenidos, evaluando su fiabilidad y utilidad con superficialmente, y respetando la propiedad intelectual, así como usando la terminología científica apropiada, en diferentes formatos, en nulas o escasas ocasiones.",
+          "Suficiente/Bien": "Utiliza dispositivos y recursos digitales, de forma segura, responsable, eficiente, saludable, sostenible y crítica, de acuerdo con las necesidades del contexto educativo, para buscar información, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, y para trabajar cooperativamente en equipo y en red, con una actitud crítica sobre los contenidos obtenidos, evaluando su fiabilidad y utilidad, y respetando la propiedad intelectual, así como usando la terminología científica apropiada, en diferentes formatos.",
+          "Notable": "Utiliza con destacado interés dispositivos y recursos digitales, de forma segura, responsable, eficiente, saludable, sostenible y crítica, de acuerdo con las necesidades del contexto educativo, para buscar información, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, y para trabajar cooperativamente en equipo y en red, con una actitud crítica sobre los contenidos obtenidos, evaluando su fiabilidad y utilidad con profundidad, y respetando la propiedad intelectual, así como usando la terminología científica apropiada, en diferentes formatos, habitualmente.",
+          "Sobresaliente": "Utiliza con compromiso sostenido dispositivos y recursos digitales, de forma segura, responsable, eficiente, saludable, sostenible y crítica, de acuerdo con las necesidades del contexto educativo, para buscar información, para comunicarse y compartir datos y contenido, en plataformas digitales restringidas y seguras, y para trabajar cooperativamente en equipo y en red, con una actitud crítica sobre los contenidos obtenidos, evaluando su fiabilidad y utilidad con profundidad y conciencia reflexiva, y respetando la propiedad intelectual, así como usando la terminología científica apropiada, en diferentes formatos, constantemente."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reelaborar y crear contenidos digitales sencillos, de forma individual, en equipo y en red para construir, comunicar y compartir nuevos conocimientos de forma creativa y para resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CD2",
+          "CD3",
+          "CD4",
+          "CD5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 62,
+        "descriptores": {
+          "Insuficiente": "Reelabora y crea con dificultad significativa contenidos digitales sencillos, experimentando en diferentes formatos, de forma individual, en equipo y en red, adoptando hábitos de uso crítico y seguro con desinterés y falta de compromiso, reconociendo con dificultad y poca precisión necesidades y retos que afrontar, y respetando parcialmente y con falta de conciencia la propiedad intelectual y los derechos de autor, lo que dificulta construir, comunicar y compartir nuevos conocimientos de forma creativa, así como resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo.",
+          "Suficiente/Bien": "Reelabora y crea contenidos digitales sencillos, experimentando en diferentes formatos, de forma individual, en equipo y en red, adoptando hábitos de uso crítico y seguro, reconociendo necesidades y retos que afrontar, y respetando la propiedad intelectual y los derechos de autor, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y para resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo.",
+          "Notable": "Reelabora y crea con facilidad contenidos digitales sencillos, experimentando en diferentes formatos, de forma individual, en equipo y en red, adoptando hábitos de uso crítico y seguro con interés, reconociendo con facilidad y precisión necesidades y retos que afrontar, y respetando completamente y de manera consciente la propiedad intelectual y los derechos de autor, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y para resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo.",
+          "Sobresaliente": "Reelabora y crea con gran soltura y determinación contenidos digitales sencillos, experimentando en diferentes formatos, de forma individual, en equipo y en red, adoptando hábitos de uso crítico y seguro con interés compromiso, reconociendo con facilidad destacable y gran precisión necesidades y retos que afrontar, y respetando completamente y con alta conciencia la propiedad intelectual y los derechos de autor, para construir, comunicar y compartir nuevos conocimientos de forma creativa, y para resolver problemas concretos o retos, de acuerdo a las necesidades digitales del contexto educativo."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Formular preguntas y realizar predicciones razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural local y global, mostrando y manteniendo la curiosidad, participando en interacciones comunicativas para intercambiar información, interpretar y valorar el sentido de diversos tipos de textos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2"
+        ],
+        "pagina_pdf": 63,
+        "descriptores": {
+          "Insuficiente": "Formula preguntas y realiza predicciones inadecuadamente razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural, local y global, demostrando y manteniendo escasa curiosidad, participando de manera poco eficaz y limitada en interacciones comunicativas con actitud cooperativa y respetuosa, lo que obstaculiza intercambiar información, interpretar y valorar el sentido de diversos tipos de textos, así como entender y explicar algunos de los fenómenos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Formula preguntas y realiza predicciones razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural, local y global, demostrando y manteniendo la curiosidad, participando en interacciones comunicativas con actitud cooperativa y respetuosa, para intercambiar información, interpretar y valorar el sentido de diversos tipos de textos, así como para entender y explicar algunos de los fenómenos que ocurren a su alrededor.",
+          "Notable": "Formula preguntas y realiza predicciones muy adecuadamente razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural, local y global, demostrando y manteniendo alta curiosidad, participando de manera reficaz y continuada en interacciones comunicativas con actitud cooperativa y respetuosa, para intercambiar información, interpretar y valorar el sentido de diversos tipos de textos, así como para entender y explicar algunos de lo así como s fenómenos que ocurren a su alrededor.",
+          "Sobresaliente": "Formula preguntas y realiza predicciones excelentemente razonadas sobre cuestiones científicas sencillas del medio natural, social y cultural, local y global, demostrando y manteniendo excepcional curiosidad, participando de manera eficiente y persistente en interacciones comunicativas con actitud cooperativa y respetuosa, para intercambiar información, interpretar y valorar el sentido de diversos tipos de textos, así como para entender y explicar algunos de los fenómenos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Buscar, seleccionar y contrastar información, de diferentes fuentes seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico, y utilizándola en investigaciones relacioadas con el medio natural, social y cultural.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CD2"
+        ],
+        "pagina_pdf": 64,
+        "descriptores": {
+          "Insuficiente": "Busca, selecciona y contrasta con gran dificultad e incorreción información de diferentes fuentes, seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes con actitud poco crítica, adquiriendo léxico científico básico con carencias relevantes, y la utiliza en investigaciones relacionadas con el medio natural, social y cultural, con limitada actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Busca, selecciona y contrasta información de diferentes fuentes, seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes con actitud crítica, adquiriendo léxico científico básico y la utiliza en investigaciones relacionadas con el medio natural, social y cultural, con actitud cooperativa y respetuosa.",
+          "Notable": "Busca, selecciona y contrasta con considerable facilidad y corrección información de diferentes fuentes, seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes con actitud considerablemente crítica, adquiriendo léxico científico básico con solvencia y la utiliza en investigaciones relacionadas con el medio natural, social y cultural, con amplia actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Busca, selecciona y contrasta con destacada solvencia y corrección información de diferentes fuentes, seguras y fiables, incluidas las digitales, de forma guiada, usando los criterios de fiabilidad de fuentes con actitud altamente crítica, adquiriendo léxico científico básico con fluidez y precisión y la utiliza en investigaciones relacionadas con el medio natural, social y cultural, con amplia y comprometida actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Diseñar y realizar experimentos guiados, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura las herramientas digitales, los instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas y registrándolas correctamente.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "STEM2",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 65,
+        "descriptores": {
+          "Insuficiente": "Diseña y realiza, con errores significativos, experimentos sencillos y guiados, utilizando diferentes técnicas de indagación y modelos con mucha dificultad. Emplea de forma poco segura, crítica y responsable diferentes herramientas digitales, instrumentos y dispositivos apropiados, realizando observaciones y mediciones poco precisas, y registrándolas correctamente, con claridad y adecuación, de manera poco frecuente.",
+          "Suficiente/Bien": "Diseña y realiza experimentos sencillos y guiados, utilizando diferentes técnicas de indagación y modelos. Emplea de forma segura, crítica y responsable diferentes herramientas digitales, instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas, y registrándolas correctamente, con claridad y adecuación.",
+          "Notable": "Diseña y realiza, con considerable corrección, experimentos sencillos y guiados, utilizando diferentes técnicas de indagación y modelos con facilidad. Emplea de forma moderadamente segura, crítica y responsable diferentes herramientas digitales, instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas, y registrándolas correctamente, con claridad y adecuación, de manera frecuente.",
+          "Sobresaliente": "Diseña y realiza, con destacada corrección, experimentos sencillos y guiados, utilizando diferentes técnicas de indagación y modelos con solvencia. Emplea de forma altamente segura, crítica y responsable diferentes herramientas digitales, instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas, y registrándolas correctamente con claridad y adecuación siempre."
+        }
+      },
+      {
+        "criterio": "2.4",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Proponer posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación de la información y los resultados obtenidos, valorando la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM2",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 66,
+        "descriptores": {
+          "Insuficiente": "Propone, con mínima adecuación, posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación con descuidos, defectos o problemas significativos, de información sencilla procedente de dos o más fuentes, y de los resultados obtenidos, valorando con escaso detalle la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas, mediante el uso con autonomía insuficiente de diferentes herramientas digitales, lo que obstaculiza entender y explicar algunos fenómenos que ocurren a su alrededor.",
+          "Suficiente/Bien": "Propone posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación de información sencilla procedente de dos o más fuentes, y de los resultados obtenidos, valorando la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas, mediante el uso de diferentes herramientas digitales, para entender y explicar algunos fenómenos que ocurren a su alrededor.",
+          "Notable": "Propone, con alta adecuación, posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación con un grado de corrección destacable, de información sencilla procedente de dos o más fuentes, y de los resultados obtenidos, valorando con un moderado grado de detalle la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas, mediante el uso autónomo de diferentes herramientas digitales, para entender y explicar algunos fenómenos que ocurren a su alrededor.",
+          "Sobresaliente": "Propone, con excelente adecuación, posibles respuestas a las preguntas planteadas, en diversos textos, a través del análisis y la interpretación con total corrección y precisión, de información sencilla procedente de dos o más fuentes, y de los resultados obtenidos, valorando con alto grado de detalle la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas, mediante el uso totalmente autónomo y con iniciativa propia de diferentes herramientas digitales, para entender y explicar algunos fenómenos que ocurren a su alrededor."
+        }
+      },
+      {
+        "criterio": "2.5",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comunicar los resultados de las investigaciones, de manera creativa, personal y crítica, adaptando el mensaje y el formato a la audiencia a la que va dirigido, utilizando el lenguaje científico apropiado y explicando los pasos seguidos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CCL3",
+          "STEM4",
+          "CD2"
+        ],
+        "pagina_pdf": 67,
+        "descriptores": {
+          "Insuficiente": "Comunica los resultados de las investigaciones con escasa claridad y adecuación a diferentes contextos cotidianos de su entorno, así como de manera poco creativa, personal y crítica, sin adaptar el mensaje y el formato a la audiencia a la que va dirigido, utilizando con dificultades muy relevantes el lenguaje científico apropiado y explicando los pasos seguidos con destacadas incoherencias, dificultando participar activamente en la construcción de conocimiento.",
+          "Suficiente/Bien": "Comunica los resultados de las investigaciones con claridad y adecuación a diferentes contextos cotidianos de su entorno, así como de manera creativa, personal y crítica, adaptando el mensaje y el formato a la audiencia a la que va dirigido, utilizando el lenguaje científico apropiado y explicando los pasos seguidos, para participar activamente en la construcción de conocimiento.",
+          "Notable": "Comunica los resultados de las investigaciones con apropiada claridad y adecuación a diferentes contextos cotidianos de su entorno, así como de manera claramente creativa, personal y crítica, adaptando con soltura el mensaje y el formato a la audiencia a la que va dirigido, utilizando con facilidad el lenguaje científico apropiado y explicando los pasos seguidos con coherencia, para participar activamente en la construcción de conocimiento.",
+          "Sobresaliente": "Comunica los resultados de las investigaciones con excelente claridad y adecuación a diferentes contextos cotidianos de su entorno, así como de manera altamente creativa, personal y crítica, adaptando con destreza el mensaje y el formato a la audiencia a la que va dirigido, utilizando con gran facilidad y solvencia el lenguaje científico apropiado y explicando con plena coherencia y precisión los pasos seguidos, para participar activamente en la construcción de conocimiento."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Plantear cooperativamente problemas de diseño que se resuelvan con la creación de un prototipo o solución digital sencilla y sostenible, evaluando necesidades del entorno, adoptando posturas críticas en los procesos de reflexión guiados y estableciendo objetivos concretos y compartidos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 68,
+        "descriptores": {
+          "Insuficiente": "Plantea con incorrecciones significativas, cooperativamente, problemas de diseño que se resuelvan con la creación de un prototipo original o solución digital sencilla y sostenible, evaluando con imprecisiones relevantes las necesidades del entorno, utilizando con escasa frecuencia herramientas e instrumentos adecuados, adoptando, con conciencia mínima, posturas críticas en los procesos de reflexión guiados, estableciendo y planeando de manera inadecuada objetivos concretos y compartidos a corto plazo.",
+          "Suficiente/Bien": "Plantea, cooperativamente, problemas de diseño que se resuelvan con la creación de un prototipo original o solución digital sencilla y sostenible, evaluando las necesidades del entorno, utilizando herramientas e instrumentos adecuados, adoptando posturas críticas en los procesos de reflexión guiados, estableciendo y planeando objetivos concretos y compartidos a corto plazo.",
+          "Notable": "Plantea con alta corrección, cooperativamente, problemas de diseño que se resuelvan con la creación de un prototipo original o solución digital sencilla y sostenible, evaluando con destacada precisión las necesidades del entorno, utilizando frecuentemente herramientas e instrumentos adecuados, adoptando, con alta conciencia, posturas críticas en los procesos de reflexión guiados, estableciendo y planeando con considerable adecuación objetivos concretos y compartidos a corto plazo.",
+          "Sobresaliente": "Plantea con alta corrección y facilidad destacable, cooperativamente, problemas de diseño que se resuelvan con la creación de un prototipo original o solución digital sencilla y sostenible, evaluando con total precisión las necesidades del entorno, utilizando siempre herramientas e instrumentos adecuados, adoptando, con plena conciencia, posturas críticas en los procesos de reflexión guiados, estableciendo y planeando con excelente adecuación objetivos concretos y compartidos a corto plazo."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Diseñar posibles soluciones creativas y sostenibles a los problemas planteados de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta los recursos necesarios y estableciendo criterios concretos para participar en procesos de auto y coevaluación de los proyectos.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 69,
+        "descriptores": {
+          "Insuficiente": "Diseña con relevantes incorrecciones e inseguridad posibles soluciones, poco creativas y sostenibles, a los problemas concretos o retos planteados, de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta en nulas o escasas ocasiones los recursos necesarios. Establece criterios concretos poco viables impidiendo participar en procesos de auto y coevaluación de los proyectos.",
+          "Suficiente/Bien": "Diseña posibles soluciones, creativas y sostenibles, a los problemas concretos o retos planteados, de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta los recursos necesarios. Establece criterios concretos para participar en procesos de auto y coevaluación de los proyectos.",
+          "Notable": "Diseña con corrección y confianza crecientes posibles soluciones, creativas y sostenibles, a los problemas concretos o retos planteados, de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta habitualmente los recursos necesarios. Establece criterios concretos moderadamente viables para participar en procesos de auto y coevaluación de los proyectos.",
+          "Sobresaliente": "Diseña con total corrección y autonomía posibles soluciones, creativas y sostenibles, a los problemas concretos o retos planteados, de acuerdo con técnicas sencillas de los proyectos de diseño y del pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta siempre los recursos necesarios. Establece criterios concretos plenamente viables para participar en procesos de auto y coevaluación de los proyectos."
+        }
+      },
+      {
+        "criterio": "3.3",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Desarrollar un producto final creativo e innovador que dé solución a un problema de diseño, probando en equipo diferentes prototipos o soluciones digitales y utilizando de forma segura las herramientas, dispositivos, técnicas, materiales y recursos digitales adecuados.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM1",
+          "STEM2",
+          "STEM3",
+          "CD3",
+          "CD5",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 70,
+        "descriptores": {
+          "Insuficiente": "Desarrolla un producto final, escasamente creativo e innovador, que da solución a un problema de diseño con destacadas incorrecciones, probando en equipo, con limitada actitud cooperativa y respetuosa, diferentes prototipos o soluciones digitales, y utilizando ocasionalmente de forma segura, las herramientas, los dispositivos, las técnicas, los materiales y los recursos digitales adecuados. Reconoce con inseguridad el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje, identificando sus limitaciones y sabiendo buscar rara vez ayuda en el proceso de construcción del conocimiento.",
+          "Suficiente/Bien": "Desarrolla un producto final, creativo e innovador, que da solución a un problema de diseño, probando en equipo, con actitud cooperativa y respetuosa, diferentes prototipos o soluciones digitales, y utilizando, de forma segura, las herramientas, los dispositivos, las técnicas, los materiales y los recursos digitales adecuados. Reconoce el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje, identificando sus limitaciones y sabiendo buscar ayuda en el proceso de construcción del conocimiento.",
+          "Notable": "Desarrolla, un producto final, destacadamente creativo e innovador, que da solución a un problema de diseño con un grado destacable de corrección, probando en equipo, con amplia actitud cooperativa y respetuosa, diferentes prototipos o soluciones digitales de manera regular y constante, y utilizando asiduamente, de forma segura, las herramientas, los dispositivos, las técnicas, los materiales y los recursos digitales adecuados. Reconoce con seguridad el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje, identificando sus limitaciones y sabiendo buscar regularmente ayuda en el proceso de construcción del conocimiento.",
+          "Sobresaliente": "Desarrolla un producto final, altamente creativo e innovador, que da solución a un problema de diseño con total corrección y precisión, probando en equipo, con amplia y consciente actitud cooperativa y respetuosa, diferentes prototipos o soluciones digitales, con máxima constancia y determinación, y utilizando siempre, de forma segura, las herramientas, los dispositivos, las técnicas, los materiales y los recursos digitales adecuados. Reconoce con seguridad y plena confianza el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje, identificando sus limitaciones y sabiendo buscar de forma continua ayuda en el proceso de construcción del conocimiento."
+        }
+      },
+      {
+        "criterio": "3.4",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Comunicar el diseño de un producto final, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada, explicando los pasos seguidos, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con iniciativa emprendedora.",
+        "descriptores_operativos": [
+          "CCL1",
+          "STEM4",
+          "CPSAA3",
+          "CPSAA4",
+          "CPSAA5",
+          "CE1",
+          "CE3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 71,
+        "descriptores": {
+          "Insuficiente": "Comunicar el diseño de un producto final explicando los pasos seguidos con escasa claridad y adecuación , adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con incorrecciones relevantes, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con limitada iniciativa emprendedora.",
+          "Suficiente/Bien": "Comunicar el diseño de un producto final explicando los pasos seguidos, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con iniciativa emprendedora.",
+          "Notable": "Comunicar el diseño de un producto final explicando los pasos seguidos con apropiada claridad y adecuación, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con alto grado de corrección, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con destacada iniciativa emprendedora.",
+          "Sobresaliente": "Comunicar el diseño de un producto final explicando los pasos seguidos con excelente claridad y adecuación, adaptando el mensaje y el formato a la audiencia, utilizando la terminología científica apropiada con corrección destacable, valorando el proceso realizado y el resultado obtenido, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto, y proponiendo posibles retos para futuros proyectos con alta y coherente iniciativa emprendedora."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Promover actitudes que fomenten el bienestar físico, emocional y social, conociendo y tomando conciencia del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia, desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional, para establecer relaciones afectivas y sociales saludables.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 72,
+        "descriptores": {
+          "Insuficiente": "Promueve, de manera inadecuada, actitudes que fomentan el bienestar físico, emocional y social, reconociendo y tomando conciencia superficialmente del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia, desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional de forma poco coherente, detectando y buscando apoyo muy ocasionalmente ante situaciones violentas o discriminatorias, lo que dificulta establecer relaciones afectivas y sociales saludables.",
+          "Suficiente/Bien": "Promueve actitudes que fomentan el bienestar físico, emocional y social, reconociendo y tomando conciencia del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia, desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional, detectando y buscando apoyo ante situaciones violentas o discriminatorias, para establecer relaciones afectivas y sociales saludables.",
+          "Notable": "Promueve, de manera muy adecuada, actitudes que fomentan el bienestar físico, emocional y social, reconociendo y tomando conciencia con un nivel significativo de detalle del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional con destacada coherencia, detectando y buscando apoyo de forma regular y constante ante situaciones violentas o discriminatorias, para establecer relaciones afectivas y sociales saludables.",
+          "Sobresaliente": "Promueve, con excelente adecuación, actitudes que fomentan el bienestar físico, emocional y social, reconociendo y tomando conciencia con un nivel alto de profundidad del propio cuerpo y de los cambios que conlleva la pubertad y la adolescencia, desde la percepción, el reconocimiento y la comprensión emocional, el autocontrol impulsivo, el ajuste afectivo y la responsabilidad emocional, la compensación emocional y la empatía y la comunicación emocional con coherencia y consistencia, detectando y buscando apoyo con máxima constancia y determinación ante situaciones violentas o discriminatorias, para establecer relaciones afectivas y sociales saludables."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Adoptar estilos de vida saludables, aplicando el conocimiento científico y los principios de ética y seguridad, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CPSAA1",
+          "CPSAA2",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 74,
+        "descriptores": {
+          "Insuficiente": "Adopta de manera ocasional estilos de vida saludables, aplicando con nula o escasa iniciativa propia el conocimiento científico y los principios de ética y seguridad, valorando con conciencia mínima la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo como estrategias cooperativas poco frecuentes dirigidas a la consecución de objetivos compartidos, así como adaptándose a los cambios y armonizándolos de manera inadecuada obstaculizando alcanzar sus propios objetivos.",
+          "Suficiente/Bien": "Adopta estilos de vida saludables, aplicando el conocimiento científico y los principios de ética y seguridad, valorando la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo como estrategias cooperativas dirigidas a la consecución de objetivos compartidos, así como adaptándose a los cambios y armonizándolos para alcanzar sus propios objetivos.",
+          "Notable": "Adopta de manera regular y constante estilos de vida saludables, aplicando con iniciativa propia y motivación el conocimiento científico y los principios de ética y seguridad, valorando reflexivamente la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo como estrategias cooperativas muy frecuentes dirigidas a la consecución de objetivos compartidos, así como adaptándose a los cambios y armonizándolos con moderada adecuación para alcanzar sus propios objetivos.",
+          "Sobresaliente": "Adopta con máxima constancia y determinación estilos de vida saludables, aplicando con iniciativa propia y motivación sostenida y destacable el conocimiento científico y los principios de ética y seguridad, valorando con plena conciencia la importancia de una alimentación variada, equilibrada y sostenible, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso, la prevención de enfermedades, los riesgos más relevantes para la salud y los usos de la tecnología y la gestión del tiempo libre, a través de la reflexión y el diálogo como estrategias cooperativas constantes dirigidas a la consecución de objetivos compartidos, así como adaptándose a los cambios y armonizándolos con alta adecuación para alcanzar sus propios objetivos."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar y analizar las características, la organización y las propiedades de los elementos del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de la información evaluando su fiabilidad y utilidad, y el pensamiento científico, utilizando las herramientas, los instrumentos y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CD1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 75,
+        "descriptores": {
+          "Insuficiente": "Identifica y analiza con falta de claridad y con incorreciones relevantes las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de información sencilla evaluando su fiabilidad y utilidad, y el pensamiento científico de manera ineficaz, empleando de modo poco pertinente algunas estrategias para resolver problemas, reflexionando superficialmente sobre las soluciones obtenidas y utilizando con escasa frecuencia las herramientas, los instrumentos y los procesos adecuados impidiendo transmitir y compartir los conocimientos en diferentes formatos.",
+          "Suficiente/Bien": "Identifica y analiza las características, la organización y las propiedades de los elementos fundamentales del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de información sencilla evaluando su fiabilidad y utilidad, y el pensamiento científico, empleando algunas estrategias para resolver problemas, reflexionando sobre las soluciones obtenidas y utilizando las herramientas, los instrumentos y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos.",
+          "Notable": "Identifica y analiza con claridad y corrección las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de información sencilla evaluando su fiabilidad y utilidad, y el pensamiento científico con eficacia, empleando de modo muy pertinente algunas estrategias para resolver problemas, reflexionando con detalle sobre las soluciones obtenidas y utilizando habitualmente las herramientas, los instrumentos y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos.",
+          "Sobresaliente": "Identifica y analiza con total corrección y precisión las características, la organización y las propiedades fundamentales de los elementos del medio natural, social y cultural, partiendo de la biodiversidad del archipiélago canario, a través de la indagación, la búsqueda guiada de información sencilla evaluando su fiabilidad y utilidad, y el pensamiento científico con destacada eficacia, empleando de modo altamente pertinente y riguroso algunas estrategias para resolver problemas, reflexionando con profundidad sobre las soluciones obtenidas y utilizando siempre las herramientas, los instrumentos y los procesos adecuados para transmitir y compartir los conocimientos en diferentes formatos."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Establecer conexiones sencillas entre diferentes elementos del medio natural, social y cultural reconociendo la formación de las Islas Canarias, mostrando comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local.",
+        "descriptores_operativos": [
+          "STEM1",
+          "STEM2",
+          "STEM4",
+          "CC4"
+        ],
+        "pagina_pdf": 77,
+        "descriptores": {
+          "Insuficiente": "Establece con imprecisiones importantes conexiones sencillas entre diferentes elementos del medio natural, social y cultural, reconociendo la formación de las islas Canarias, utilizando incorrectamente, de manera guiada, algunos métodos inductivos y deductivos, mostrando escasa comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local, y transmitiendo los elementos más relevantes de forma poco clara y veraz.",
+          "Suficiente/Bien": "Establece conexiones sencillas entre diferentes elementos del medio natural, social y cultural, reconociendo la formación de las islas Canarias, utilizando, de manera guiada, algunos métodos inductivos y deductivos, mostrando comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local, y transmitiendo los elementos más relevantes de forma clara y veraz.",
+          "Notable": "Establece con moderada precisión conexiones sencillas entre diferentes elementos del medio natural, social y cultural, reconociendo la formación de las islas Canarias, utilizando con gran corrección, de manera guiada, algunos métodos inductivos y deductivos, mostrando alto nivel de comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local, y transmitiendo los elementos más relevantes de forma muy clara y veraz.",
+          "Sobresaliente": "Establece con total precisión conexiones sencillas entre diferentes elementos del medio natural, social y cultural, reconociendo la formación de las islas Canarias, utilizando con destacada y continua corrección, de manera guiada, algunos métodos inductivos y deductivos, mostrando profunda comprensión de las relaciones sistémicas que se establecen entre las acciones humanas y el entorno, a nivel mundial y local, y transmitiendo los elementos más relevantes destacadamente clara y veraz."
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, reconociendo las necesidades y retos a afrontar y diseñando propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano.",
+        "descriptores_operativos": [
+          "STEM5",
+          "CC4",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 78,
+        "descriptores": {
+          "Insuficiente": "Valora, protege y muestra, con nula o escasa iniciativa propia, actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, apreciando en escasas ocasiones sus aspectos fundamentales, comprendiendo de manera superficial las relaciones sistémicas entre las acciones humanas y el entorno, reconociendo con dificultad y poca precisión las necesidades y los retos a afrontar, y diseñando sin originalidad propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano, así como practicando inadecuadamente el consumo responsable.",
+          "Suficiente/Bien": "Valora, protege y muestra actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, apreciando sus aspectos fundamentales, comprendiendo las relaciones sistémicas entre las acciones humanas y el entorno, reconociendo las necesidades y los retos a afrontar, y diseñando propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano, así como practicando el consumo responsable.",
+          "Notable": "Valora, protege y muestra, con iniciativa propia y entusiasmo, actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, apreciando habitualmente sus aspectos fundamentales, comprendiendo con detalle las relaciones sistémicas entre las acciones humanas y el entorno, reconociendo con facilidad y precisión las necesidades y los retos a afrontar, y diseñando de manera original propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano, así como practicando con relevante adecuación el consumo responsable.",
+          "Sobresaliente": "Valora, protege y muestra, con iniciativa propia y motivación sostenida actitudes de conservación y mejora del patrimonio cultural y del natural, especialmente de Canarias, apreciando siempre sus aspectos fundamentales, comprendiendo con profundidad las relaciones sistémicas entre las acciones humanas y el entorno, reconociendo con soltura y rigor las necesidades y los retos a afrontar, y diseñando de manera altamente original y creativa, propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad en el entorno cercano, así como practicando con excelente adecuación el consumo responsable."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Promover y adoptar estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del análisis de las causas y consecuencias de la intervención humana en el entorno, utilizando el pensamiento científico para favorecer un modelo de isla sostenible para Canarias.",
+        "descriptores_operativos": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1"
+        ],
+        "pagina_pdf": 79,
+        "descriptores": {
+          "Insuficiente": "Promueve y adopta de manera superficial estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del escaso análisis y toma de conciencia de las causas, consecuencias y efectos de la intervención humana en el entorno, adoptando posturas críticas sobre esta con conciencia mínima, y utilizando el pensamiento científico con mucha dificultad, lo que limita favorecer un modelo de isla sostenible para Canarias.",
+          "Suficiente/Bien": "Promueve y adopta estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del análisis y la toma de conciencia de las causas, consecuencias y efectos de la intervención humana en el entorno, adoptando posturas críticas sobre esta, y utilizando el pensamiento científico para favorecer un modelo de isla sostenible para Canarias.",
+          "Notable": "Promueve y adopta con profundidad estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del detallado análisis y la toma de conciencia de las causas, consecuencias y efectos de la intervención humana en el entorno, adoptando posturas críticas sobre esta con alta conciencia, y utilizando el pensamiento científico con facilidad para favorecer un modelo de isla sostenible para Canarias.",
+          "Sobresaliente": "Promueve y adopta con profundidad y gran compromiso estilos de vida sostenibles y consecuentes con el respeto, los cuidados, la corresponsabilidad y la protección de las personas y del planeta, a partir del exhaustivo análisis y la toma de conciencia de las causas, consecuencias y efectos de la intervención humana en el entorno, adoptando posturas críticas sobre esta con plena conciencia, y utilizando el pensamiento científico con solvencia para favorecer un modelo de isla sostenible para Canarias."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Participar con actitud emprendedora en la búsqueda, contraste y evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de de la Comunidad Autónoma de Canarias, buscar soluciones y actuar de manera individual y cooperativa en su resolución.",
+        "descriptores_operativos": [
+          "CCL5",
+          "STEM2",
+          "STEM5",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CC4",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 80,
+        "descriptores": {
+          "Insuficiente": "Participa con nula o escasa actitud emprendedora en la búsqueda, el contraste y la evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de la Comunidad Autónoma de Canarias, buscando soluciones y actuando de manera individual y cooperativa en su resolución solo de forma ocasional, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y la gestión dialogada de los conflictos de forma irreflexiva.",
+          "Suficiente/Bien": "Participa con actitud emprendedora en la búsqueda, el contraste y la evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de la Comunidad Autónoma de Canarias, buscando soluciones y actuando de manera individual y cooperativa en su resolución, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y la gestión dialogada de los conflictos.",
+          "Notable": "Participa con destacada actitud emprendedora en la búsqueda, el contraste y la evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de la Comunidad Autónoma de Canarias, buscando soluciones y actuando de manera individual y cooperativa en su resolución de forma regular, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y la gestión dialogada de los conflictos de forma consciente.",
+          "Sobresaliente": "Participa con muy destacada y sostenida actitud emprendedora en la búsqueda, el contraste y la evaluación de propuestas fundamentadas científicamente, para afrontar problemas ecosociales recogidos en los ODS y los retos de la Comunidad Autónoma de Canarias, buscando soluciones y actuando de manera individual y cooperativa en su resolución con máxima constancia, poniendo sus prácticas comunicativas al servicio de la convivencia democrática y la gestión dialogada de los conflictos de forma plenamente consciente y deliberada."
+        }
+      },
+      {
+        "criterio": "7.1",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Analizar, adoptando una postura crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural desde la Edad Media hasta la actualidad, situando cronológicamente los hechos para comunicarlos, desde un punto de vista creativo.",
+        "descriptores_operativos": [
+          "CCL3",
+          "STEM4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 81,
+        "descriptores": {
+          "Insuficiente": "Analiza con mucha dificultad, con el debido acompañamiento y adoptando una postura poco crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, desde la Edad Media hasta la actualidad, situando cronológicamente los hechos, reconociendo y apreciando con falta de claridad y desinterés los aspectos fundamentales del patrimonio cultural y artístico, y comprendiendo superficialmente la necesidad de respetar diferentes culturas y creencias, para comunicarlos en diferentes formatos, adoptando un punto de vista creativo y llevando ideas originales y valiosas a la acción.",
+          "Suficiente/Bien": "Analiza, con el debido acompañamiento y adoptando una postura crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, desde la Edad Media hasta la actualidad, situando cronológicamente los hechos, reconociendo y apreciando los aspectos fundamentales del patrimonio cultural y artístico, y comprendiendo la necesidad de respetar diferentes culturas y creencias, para comunicarlos en diferentes formatos, adoptando un punto de vista creativo y llevando ideas originales y valiosas a la acción.",
+          "Notable": "Analiza con facilidad, con el debido acompañamiento y adoptando una postura crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, desde la Edad Media hasta la actualidad, situando cronológicamente los hechos, reconociendo y apreciando con destacada claridad e iniciativa los aspectos fundamentales del patrimonio cultural y artístico, y comprendiendo con profundidad la necesidad de respetar diferentes culturas y creencias, para comunicarlos en diferentes formatos, adoptando un punto de vista creativo y llevando ideas originales y valiosas a la acción.",
+          "Sobresaliente": "Analiza con solvencia y destreza, con el debido acompañamiento y adoptando una postura crítica, relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural, desde la Edad Media hasta la actualidad, situando cronológicamente los hechos, reconociendo y apreciando con total claridad y motivación los aspectos fundamentales del patrimonio cultural y artístico, y comprendiendo con profundidad y alta conciencia la necesidad de respetar diferentes culturas y creencias, para comunicarlos en diferentes formatos, adoptando un punto de vista creativo y llevando ideas originales y valiosas a la acción."
+        }
+      },
+      {
+        "criterio": "7.2",
+        "competencia_especifica": "7",
+        "enunciado_criterio": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando la información y transmitiendo rasgos significativos sociales en distintas épocas de la historia, visibilizando las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP3",
+          "STEM4",
+          "CPSAA4",
+          "CC1",
+          "CC3",
+          "CE2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 82,
+        "descriptores": {
+          "Insuficiente": "Conoce con errores significativos personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando información sencilla y transmitiendo rasgos sociales significativos de las distintas épocas de la historia con mucha dificultad. Adopta posturas críticas con conciencia mínima en procesos de reflexión guiados y comprende de manera superficial la necesidad de respetar diferentes culturas y creencias, visibilizando de forma confusa las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida.",
+          "Suficiente/Bien": "Conoce personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando información sencilla y transmitiendo rasgos sociales significativos de las distintas épocas de la historia. Adopta posturas críticas en procesos de reflexión guiados y comprende la necesidad de respetar diferentes culturas y creencias, visibilizando las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida.",
+          "Notable": "Conoce con destacada corrección personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando información sencilla y transmitiendo rasgos sociales significativos de las distintas épocas de la historia con facilidad. Adopta posturas críticas con alta conciencia en procesos de reflexión guiados y comprende con moderada profundidad la necesidad de respetar diferentes culturas y creencias, visibilizando con claridad las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida.",
+          "Sobresaliente": "Conoce con total corrección y precisión personas, grupos sociales relevantes y formas de vida de las sociedades desde la Edad Media hasta la actualidad, identificando, seleccionando, contrastando información sencilla y transmitiendo rasgos sociales significativos de las distintas épocas de la historia con solvencia. Adopta posturas críticas con plena conciencia y detalle en procesos de reflexión guiados y comprende con profundidad y exactitud la necesidad de respetar diferentes culturas y creencias, visibilizando con claridad y fluidez las aportaciones y representación de las mujeres en ellas, incluyendo la sociedad indígena canaria y su modo de vida."
+        }
+      },
+      {
+        "criterio": "8.1",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Analizar los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando la diversidad cultural y la cohesión social y mostrando empatía y respeto por otras culturas, apreciando la riqueza que apreciando la riqueza que aportan a la sociedad canaria.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 83,
+        "descriptores": {
+          "Insuficiente": "Analiza sin detalle y con dificultades relevantes los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando de manera muy superficial la diversidad cultural y la cohesión social, mostrando empatía y respeto por otras culturas de forma poco frecuente, y apreciando con falta de claridad e incorrecciones destacables la riqueza que aportan a la sociedad canaria.",
+          "Suficiente/Bien": "Analiza los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando la diversidad cultural y la cohesión social, mostrando empatía y respeto por otras culturas, y apreciando la riqueza que aportan a la sociedad canaria.",
+          "Notable": "Analiza con un significativo grado de detalle y con facilidad los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando con destacable profundidad la diversidad cultural y la cohesión social, mostrando empatía y respeto por otras culturas de manera regular y constante, y apreciando con claridad y corrección la riqueza que aportan a la sociedad canaria.",
+          "Sobresaliente": "Analiza de manera amplia, detallada y solvente los procesos geográficos, históricos y culturales que han conformado la sociedad actual y su reflejo en Canarias, valorando con profundidad e implicación la diversidad cultural y la cohesión social, mostrando empatía y respeto por otras culturas con máxima constancia y determinación, y apreciando con total corrección y precisión la riqueza que aportan a la sociedad canaria."
+        }
+      },
+      {
+        "criterio": "8.2",
+        "competencia_especifica": "8",
+        "enunciado_criterio": "Promover acciones para la igualdad efectiva entre mujeres y hombres, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual, analizando y contrastando diferentes modelos en nuestra sociedad, reflexionando y aplicando las normas de convivencia de manera inclusiva.",
+        "descriptores_operativos": [
+          "CP3",
+          "CPSAA3",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CE1",
+          "CCEC1"
+        ],
+        "pagina_pdf": 84,
+        "descriptores": {
+          "Insuficiente": "Promueve de manera poco frecuente y con escasa iniciativa propia acciones para la igualdad efectiva entre mujeres y hombres, analizando y contrastando de manera confusa y superficial diferentes modelos en nuestra sociedad, y reflexionando y aplicando rara vez las normas de convivencia de manera inclusiva, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual.",
+          "Suficiente/Bien": "Promueve acciones para la igualdad efectiva entre mujeres y hombres, analizando y contrastando diferentes modelos en nuestra sociedad, y reflexionando y aplicando las normas de convivencia de manera inclusiva, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual.",
+          "Notable": "Promueve habitualmente con iniciativa propia acciones para la igualdad efectiva entre mujeres y hombres, analizando y contrastando de manera clara y detallada diferentes modelos en nuestra sociedad, y reflexionando y aplicando frecuentemente las normas de convivencia de manera inclusiva, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual.",
+          "Sobresaliente": "Promueve con constante iniciativa propia y alta motivación acciones para la igualdad efectiva entre mujeres y hombres, analizando y contrastando con claridad y profundidad diferentes modelos en nuestra sociedad, y reflexionando y aplicando siempre las normas de convivencia de manera inclusiva, para evitar las conductas sexistas y para respetar la diversidad afectivo-sexual."
+        }
+      },
+      {
+        "criterio": "9.1",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Resolver de forma pacífica y comunicativa los conflictos, promoviendo una interacción respetuosa y equitativa a partir del lenguaje inclusivo y no violento, explicando y ejercitando las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1 978, y de la Unión Europea, y reconociendo la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CPSAA1",
+          "CC1",
+          "CC2",
+          "CC3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 85,
+        "descriptores": {
+          "Insuficiente": "Resuelve infrecuentemente de forma pacífica, comunicativa y dialogada los conflictos, siendo mínimamente consciente de las propias emociones, ideas y comportamientos personales, y empleando estrategias sin precisar el sentido y sin funcionalidad para gestionarlos; sin promover una interacción respetuosa y equitativa, a partir del lenguaje inclusivo y no violento; comprendiendo superficialmente las diferencias entre distintas culturas y la necesidad de respetarlas; explicando con incorrecciones relevantes y ejercitando con nula iniciativa propia las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1978, y de la Unión Europea; y reconociendo de manera confusa la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia.",
+          "Suficiente/Bien": "Resuelve de forma pacífica, comunicativa y dialogada los conflictos, siendo consciente de las propias emociones, ideas y comportamientos personales y empleando estrategias para gestionarlos; promoviendo una interacción respetuosa y equitativa, a partir del lenguaje inclusivo y no violento; comprendiendo las diferencias entre distintas culturas y la necesidad de respetarlas; explicando y ejercitando las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1978, y de la Unión Europea; y reconociendo la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia.",
+          "Notable": "Resuelve regular y constantemente de forma pacífica, comunicativa y dialogada los conflictos, siendo altamente consciente de las propias emociones, ideas y comportamientos personales, y empleando estrategias con sentido y funcionalidad relevantes para gestionarlos; promoviendo con interés una interacción respetuosa y equitativa, a partir del lenguaje inclusivo y no violento; comprendiendo con profundidad las diferencias entre distintas culturas y la necesidad de respetarla; explicando con corrección destacable y ejercitando con iniciativa propia y motivación las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1978, y de la Unión Europea; y reconociendo con claridad la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia.",
+          "Sobresaliente": "Resuelve con máxima constancia y determinación de forma pacífica, comunicativa y dialogada los conflictos, siendo alta y plenamente consciente de las propias emociones, ideas y comportamientos personales y empleando estrategias con sentido y funcionalidad excelentes para gestionarlos; promoviendo con compromiso una interacción respetuosa y equitativa, a partir del lenguaje inclusivo y no violento; comprendiendo con destacable profundidad las diferencias entre distintas culturas y la necesidad de respetarlas; explicando con corrección excepcional y ejercitando con constante iniciativa propia y motivación destacable las principales normas, derechos, deberes y libertades que forman parte de la Constitución española de 1978, y de la Unión Europea; y reconociendo con claridad y precisión la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz, la seguridad integral ciudadana y el reconocimiento de las víctimas de violencia."
+        }
+      },
+      {
+        "criterio": "9.2",
+        "competencia_especifica": "9",
+        "enunciado_criterio": "Explicar el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CC1",
+          "CC2",
+          "CCEC1"
+        ],
+        "pagina_pdf": 87,
+        "descriptores": {
+          "Insuficiente": "Explica de manera inadecuada y con errores relevantes el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando con mínima conciencia sus funciones y la gestión de los servicios públicos para la ciudadanía y reconociendo y apreciando con falta de claridad e imprecisiones los aspectos fundamentales del patrimonio cultural.",
+          "Suficiente/Bien": "Explica el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía y reconociendo y apreciando los aspectos fundamentales del patrimonio cultural.",
+          "Notable": "Explica con destacada corrección el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando con alta conciencia sus funciones y la gestión de los servicios públicos para la ciudadanía y reconociendo y apreciando con claridad y adecuación los aspectos fundamentales del patrimonio cultural.",
+          "Sobresaliente": "Explica con exactitud y detalle el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando con excelente conciencia y profundidad sus funciones y la gestión de los servicios públicos para la ciudadanía y reconociendo y apreciando con dominio y precisión los aspectos fundamentales del patrimonio cultural."
+        }
+      }
+    ]
+  }
+}

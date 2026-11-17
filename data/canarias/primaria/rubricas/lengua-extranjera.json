@@ -1,0 +1,840 @@
+{
+  "area": "Lengua Extranjera",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – LENGUA EXTRANJERA (INGLÉS)",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Identificar e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y de textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP1"
+        ],
+        "pagina_pdf": 258,
+        "descriptores": {
+          "Insuficiente": "Identifica e interpreta de manera poco precisa palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, con acompañamiento constante, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y más inmediatos.",
+          "Suficiente/Bien": "Identifica e interpreta palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y más inmediatos.",
+          "Notable": "Identifica e interpreta con precisión palabras y expresiones habituales en textos orales, escritos y multimodales breves y muy sencillos, de manera progresivamente autónoma, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y más inmediatos.",
+          "Sobresaliente": "Identifica e interpreta palabras y expresiones habituales con un alto grado de precisión en textos orales, escritos y multimodales breves y muy sencillos, con autonomía, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adaptados al nivel de desarrollo del alumnado, expresados de forma directa, comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y más inmediatos."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Seleccionar y aplicar de forma guiada, estrategias elementales, en situaciones comunicativas cotidianas y de relevancia para el alumnado, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 259,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica, de forma guiada aunque inadecuada, algún método inductivo y deductivo y estrategias elementales de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia para el alumnado, participando con mínima iniciativa en procesos de autoevaluación y evaluando con ineficacia su fiabilidad y utilidad, lo que impide captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales.",
+          "Suficiente/Bien": "Selecciona y aplica, de forma guiada, algún método inductivo y deductivo y estrategias elementales de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia para el alumnado, participando en procesos de autoevaluación y evaluando su fiabilidad y utilidad, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales",
+          "Notable": "Selecciona y aplica, de forma guiada y con adecuación, algún método inductivo y deductivo y estrategias elementales de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia para el alumnado, participando con iniciativa propia en procesos de autoevaluación y evaluando con eficacia su fiabilidad y utilidad, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales",
+          "Sobresaliente": "Selecciona y aplica, de forma guiada y con excelente adecuación, algún método inductivo y deductivo y estrategias elementales de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia para el alumnado, participando con constante iniciativa propia en procesos de autoevaluación y evaluando con destacada eficacia su fiabilidad y utilidad, para captar el sentido global e identificar información explícita en textos diversos, tanto analógicos como digitales."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Producir de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y de relevancia personal y próximas a la experiencia del alumnado.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP1",
+          "CD2"
+        ],
+        "pagina_pdf": 260,
+        "descriptores": {
+          "Insuficiente": "Produce con gran dificultad y nula precisión, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumna",
+          "Suficiente/Bien": "Produce, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Notable": "Produce con facilidad y destacada precisión, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce con facilidad destacable y con total precisión, de forma guiada, palabras y frases breves y sencillas en textos orales, escritos y multimodales, partiendo de modelos y usando soportes analógicos y digitales, para realizar intervenciones sencillas en situaciones de comunicación de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar y aplicar de forma guiada, conocimientos y estrategias elementales con ayuda de apoyos y recursos analógicos y digitales, para producir mensajes breves, sencillos y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 261,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con dificultad, de forma guiada, conocimientos, técnicas de aprendizaje autorregulado y estrategias elementales incluso con ayuda de algunos apoyos y recursos analógicos y digitales básicos, para producir mensajes breves, sencillos, predecibles y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Suficiente/Bien": "Selecciona y aplica, de forma guiada, conocimientos, técnicas de aprendizaje autorregulado y estrategias elementales con ayuda de algunos apoyos y recursos analógicos y digitales básicos, para producir mensajes breves, sencillos, predecibles y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Notable": "Selecciona y aplica con facilidad, de forma guiada, conocimientos, técnicas de aprendizaje autorregulado y estrategias elementales con ayuda de algunos apoyos y recursos analógicos y digitales básicos, para producir mensajes breves, sencillos, predecibles y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Sobresaliente": "Selecciona y aplica con facilidad destacable, de forma guiada, conocimientos, técnicas de aprendizaje autorregulado y estrategias elementales con ayuda de algunos apoyos y recursos analógicos y digitales básicos, para producir mensajes breves, sencillos, predecibles y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar, de forma guiada, en situaciones interactivas breves y muy sencillas, sobre temas de relevancia personal, próximos a su experiencia y contexto, apoyándose en diferentes recursos y soportes, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP1",
+          "CD3",
+          "CC3",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 262,
+        "descriptores": {
+          "Insuficiente": "Participa rara vez, de forma guiada, en situaciones interactivas breves y muy sencillas sobre temas de relevancia personal, próximos a su experiencia y contexto más inmediatos, apoyándose de forma básica con dificultad en diferentes recursos y soportes sencillos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, sin alcanzar a dar respuesta a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, relacionándolas y vinculándolas a la necesidad de respetar diferentes culturas y creencias, y la utilización eficaz de los diferentes sistemas de comunicación",
+          "Suficiente/Bien": "Participa, de forma guiada, en situaciones interactivas breves y muy sencillas, sobre temas de relevancia personal, próximos a su experiencia y contexto más inmediatos, apoyándose de forma básica en diferentes recursos y soportes sencillos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, relacionándolas y vinculándolas a la necesidad de respetar diferentes culturas y creencias, y la utilización eficaz de los diferentes sistemas de comunicación.",
+          "Notable": "Participa frecuentemente, de forma guiada, en situaciones interactivas breves y muy sencillas sobre temas de relevancia personal, próximos a su experiencia y contexto más inmediatos, apoyándose de forma básica con facilidad en diferentes recursos y soportes sencillos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, relacionándolas y vinculándolas a la necesidad de respetar diferentes culturas y creencias, y la utilización eficaz de los diferentes sistemas de comunicación",
+          "Sobresaliente": "Participa constantemente, de forma guiada, en situaciones interactivas breves y muy sencillas sobre temas de relevancia personal, próximos a su experiencia y contexto más inmediatos, apoyándose de forma básica con facilidad destacable en diferentes recursos y soportes sencillos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas sencillas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, relacionándolas y vinculándolas a la necesidad de respetar diferentes culturas y creencias, y la utilización eficaz de los diferentes sistemas de comunicación."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Seleccionar y utilizar de forma guiada en contextos de interacción próximos a su entorno, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 263,
+        "descriptores": {
+          "Insuficiente": "Selecciona y utiliza con mínima pertinencia, participando rara vez enérgicamente de forma guiada en el trabajo en grupo, en contextos de interacción próximos a su entorno, algún método inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, lo que impide responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Selecciona y utiliza, participando enérgicamente de forma guiada en el trabajo en grupo, en contextos de interacción próximos a su entorno, algún método inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.",
+          "Notable": "Selecciona y utiliza con pertinencia, participando con frecuencia enérgicamente de forma guiada en el trabajo en grupo, en contextos de interacción próximos a su entorno, algún método inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual.",
+          "Sobresaliente": "Selecciona y utiliza con gran pertinencia, participando siempre enérgicamente de forma guiada en el trabajo en grupo, en contextos de interacción próximos a su entorno, algún método inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan desarrollar su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Interpretar y explicar, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP1",
+          "CP3",
+          "CPSAA1",
+          "CPSAA3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 264,
+        "descriptores": {
+          "Insuficiente": "Rara vez interpreta y explica, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose con dificultad en recursos y soportes analógicos y digitales, lo que impide la resolución de problemas de su entorno inmediato en situaciones comunicativas breves y sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.",
+          "Suficiente/Bien": "Interpreta y explica, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas breves y sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.",
+          "Notable": "Regularmente interpreta y explica, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose con facilidad, en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas breves y sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales.",
+          "Sobresaliente": "Siempre interpreta y explica, de forma guiada, información básica de conceptos, textos breves y sencillos o emociones, atendiendo a la diversidad y apoyándose con facilidad destacada en recursos y soportes analógicos y digitales, con el fin de resolver problemas de su entorno inmediato en situaciones comunicativas breves y sencillas para la mejora de la convivencia y el fomento de la igualdad de oportunidades, mostrando respeto y empatía hacia las diferencias culturales."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Seleccionar y aplicar, de forma guiada, algunas estrategias elementales, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje verbal, no verbal y herramientas digitales, con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de la información y la comunicación.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 265,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica sin coherencia, de forma guiada, estrategias elementales, participando de forma poco enérgica en situaciones colaborativas y cooperativas, apoyándose con dificultad en el lenguaje verbal y no verbal, así como en las herramientas digitales, lo que impide ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.",
+          "Suficiente/Bien": "Selecciona y aplica, de forma guiada, estrategias elementales, participando enérgicamente en situaciones colaborativas y cooperativas, apoyándose en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.",
+          "Notable": "Selecciona y aplica con coherencia, de forma guiada, estrategias elementales, participando enérgicamente en situaciones colaborativas y cooperativas, apoyándose con facilidad en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación.",
+          "Sobresaliente": "Selecciona y aplica, de forma guiada con total coherencia, estrategias elementales, participando enérgicamente en situaciones colaborativas y cooperativas, apoyándose con facilidad destacable en el lenguaje verbal y no verbal, así como en las herramientas digitales, con el fin de ayudar a las demás personas y de facilitar la comprensión, y la producción de la información y la comunicación."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar y comparar, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas reconociendo de manera guiada, aspectos elementales de su funcionamiento para desarrollar su repertorio lingüístico individual.Identificar y comparar, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas reconociendo de manera guiada, aspectos elementales de su funcionamiento para desarrollar su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "CP3"
+        ],
+        "pagina_pdf": 266,
+        "descriptores": {
+          "Insuficiente": "Identifica y compara sin coherencia, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo sin adecuación, de manera guiada también, aspectos elementales de su funcionamiento, lo que impide el desarrollo de su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Identifica y compara, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual.",
+          "Notable": "Identifica y compara con coherencia, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo con adecuación, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual.",
+          "Sobresaliente": "Identifica y compara con destacada coherencia, de forma guiada, las similitudes y diferencias evidentes entre distintas lenguas, reconociendo con mucha adecuación, de manera guiada también, aspectos elementales de su funcionamiento, para desarrollar su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar y utilizar, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes reforzando sus habilidades lingüísticas y experiencias comunicativas.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 267,
+        "descriptores": {
+          "Insuficiente": "Identifica y utiliza con errores significativos, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con escasa conciencia posturas analíticas en procesos de reflexión pautados, y reforzar sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de las funciones básicas de algunas herramientas digitales y analógicas.",
+          "Suficiente/Bien": "Identifica y utiliza, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando posturas analíticas en procesos de reflexión pautados, y reforzar sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de las funciones básicas de algunas herramientas digitales y analógicas.",
+          "Notable": "Identifica y utiliza con corrección, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con conciencia posturas analíticas en procesos de reflexión pautados, y reforzar sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de las funciones básicas de algunas herramientas digitales y analógicas.",
+          "Sobresaliente": "Identifica y utiliza con corrección destacable, de forma guiada y cooperativa, estrategias elementales de construcción del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con plena conciencia posturas analíticas en procesos de reflexión pautados, y reforzar sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de las funciones básicas de"
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar y explicar, de forma guiada, los progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, reconociendo las posibilidades comunicativas, para construir el conocimiento.",
+        "descriptores_operativos": [
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 268,
+        "descriptores": {
+          "Insuficiente": "Identifica y explica con escasa conciencia, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas de forma superficial, reconociendo las posibilidades comunicativas y revisando el proceso realizado solo si se le indica.",
+          "Suficiente/Bien": "Identifica y explica, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas, reconociendo las posibilidades comunicativas y revisando el proceso realizado para construir el conocimiento.",
+          "Notable": "Identifica y explica con conciencia, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas de incipiente profundidad, reconociendo las posibilidades comunicativas y revisando el proceso realizado con iniciativa propia para construir el conocimiento.",
+          "Sobresaliente": "Identifica y explica con plena conciencia, de forma guiada, los progresos y las dificultades elementales en el proceso de aprendizaje de la lengua extranjera, a través de actividades analógicas y digitales, de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas de profundidad, reconociendo las posibilidades comunicativas y revisando el proceso realizado con constante iniciativa propia para construir el conocimiento."
+        }
+      },
+      {
+        "criterio": "5.4",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Identificar y usar los conocimientos, estrategias y destrezas adquiridos, del repertorio lingüístico individual, en otros contextos de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.",
+        "descriptores_operativos": [
+          "CP1",
+          "CP2"
+        ],
+        "pagina_pdf": 269,
+        "descriptores": {
+          "Insuficiente": "Identifica y usa con dificultad, de manera pautada y con apoyo, los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos breves, muy sencillos y predecibles de su realidad más cercana, impidiendo el desarrollo de un aprendizaje más profundo.",
+          "Suficiente/Bien": "Identifica y usa, de manera pautada y con apoyo, los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos breves, muy sencillos y predecibles de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.",
+          "Notable": "Identifica y usa con facilidad, de manera pautada y con apoyo, los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos breves, muy sencillos y predecibles de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo.",
+          "Sobresaliente": "Identifica y usa con gran facilidad, de manera pautada y con apoyo, los conocimientos, las estrategias y las destrezas adquiridos, del repertorio lingüístico individual, en otros contextos breves, muy sencillos y predecibles de su realidad más cercana, con el fin de desarrollar un aprendizaje más profundo."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Mostrar interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera así como de las islas Canarias, identificando y comparando de forma guiada, las diferentes lenguas y culturas, así como la propia y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CC2",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 270,
+        "descriptores": {
+          "Insuficiente": "Reconoce solo si se le indica y muestra escaso interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando sin evidenciar interés, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando rara vez rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, lo que impide la mejora de la convivencia, la gestión de conflictos de forma dialogada y guiada, el enriquecimiento personal y el cuidado del entorno.",
+          "Suficiente/Bien": "Reconoce y muestra interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada y guiada, el enriquecimiento personal y el cuidado del entorno.",
+          "Notable": "Reconoce con iniciativa propia y muestra interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando con interés, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando con frecuencia rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada y guiada, el enriquecimiento personal y el cuidado del entorno.",
+          "Sobresaliente": "Reconoce con constante iniciativa propia y muestra interés por la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y comparando con máximo interés, de forma guiada, las diferentes lenguas y culturas, así como la propia, y mostrando de forma continua rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada y guiada, el enriquecimiento personal y el cuidado del entorno."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias elementales, para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 271,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con dificultad estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando rara vez las propias emociones en situaciones de desacuerdo y respetando las ajenas.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones en situaciones de desacuerdo y respetando las ajenas.",
+          "Notable": "Selecciona y aplica con facilidad estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando con frecuencia las propias emociones en situaciones de desacuerdo y respetando las ajenas.",
+          "Sobresaliente": "Selecciona y aplica con gran facilidad estrategias elementales para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando siempre las propias emociones en situaciones de desacuerdo y respetando las ajenas"
+        }
+      },
+      {
+        "criterio": "6.3",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Mostrar empatía y comprensión por las producciones ajenas, diferenciando y reconociendo las intervenciones en contextos comunicativos cotidianos para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+        "descriptores_operativos": [
+          "CP3",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "pagina_pdf": 272,
+        "descriptores": {
+          "Insuficiente": "Rara vez muestra empatía y comprensión por las producciones ajenas, diferenciando y reconociendo con dificultad las intervenciones en contextos comunicativos cotidianos y haciendo uso básico poco adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Suficiente/Bien": "Muestra empatía y comprensión por las producciones ajenas, diferenciando y reconociendo las intervenciones en contextos comunicativos cotidianos y haciendo uso básico de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Notable": "Frecuentemente muestra empatía y comprensión por las producciones ajenas, diferenciando y reconociendo con facilidad las intervenciones en contextos comunicativos cotidianos y haciendo uso básico adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Sobresaliente": "Siempre muestra empatía y comprensión por las producciones ajenas, diferenciando y reconociendo con gran facilidad las intervenciones en contextos comunicativos cotidianos y haciendo uso básico muy adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reconocer e interpretar el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y de textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP1"
+        ],
+        "pagina_pdf": 273,
+        "descriptores": {
+          "Insuficiente": "Reconoce e interpreta de manera poco precisa el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales con acompañamiento constante, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y próximos.",
+          "Suficiente/Bien": "Reconoce e interpreta el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y próximos.",
+          "Notable": "Reconoce e interpreta con precisión el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales de manera progresivamente autónoma, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de",
+          "Sobresaliente": "Reconoce e interpreta con un alto grado de precisión el sentido global, así como palabras y frases breves y sencillas en textos orales, escritos y multimodales con autonomía, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos y próximos."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Seleccionar y aplicar de forma codirigida, estrategias básicas en situaciones comunicativas cotidianas y de relevancia personal para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 274,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con escasa adecuación, de forma codirigida, algunos métodos inductivos y deductivos y estrategias básicas de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia personal, participando con mínima iniciativa en procesos de auto y coevaluación y evaluando con ineficacia su fiabilidad y utilidad, lo que obstaculiza captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.",
+          "Suficiente/Bien": "Selecciona y aplica, de forma codirigida, algunos métodos inductivos y deductivos y estrategias básicas de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia personal, participando en procesos de auto y coevaluación y evaluando su fiabilidad y utilidad, para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales.",
+          "Notable": "Selecciona y aplica con adecuación, de forma codirigida, algunos métodos inductivos y deductivos y estrategias básicas de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia personal, participando con iniciativa propia en procesos de auto y coevaluación y evaluando con eficacia su fiabilidad y utilidad, para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales",
+          "Sobresaliente": "Selecciona y aplica con excelente adecuación, de forma codirigida, algunos métodos inductivos y deductivos y estrategias básicas de localización de información sencilla en situaciones comunicativas cotidianas y de relevancia personal, participando con constante iniciativa propia en procesos de auto y coevaluación y evaluando con destacada eficiacia su fiabilidad y utilidad,, para captar el sentido global y procesar información explícita en textos diversos, breves y sencillos, tanto analógicos como digitales."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Producir, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximos a la experiencia del alumnado.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP1",
+          "CD2"
+        ],
+        "pagina_pdf": 275,
+        "descriptores": {
+          "Insuficiente": "Produce con dificultad y escasa precisión, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Produce, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Notable": "Produce con facilidad y destacada precisión, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce con facilidad destacable y con total precisión, de forma codirigida, frases breves y sencillas en textos orales, escritos y multimodales, usando modelos, soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación sencillas de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar y aplicar de forma codirigida conocimientos y estrategias básicas con ayuda de apoyos recursos analógicos y digitales, para producir mensajes sencillos y creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 276,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con dificultad, de forma codirigida, conocimientos, métodos de aprendizaje autorregulado y estrategias básicas con ayuda de recursos analógicos y digitales básicos, para producir mensajes sencillos, adaptativos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Suficiente/Bien": "Selecciona y aplica, de forma codirigida, conocimientos, métodos de aprendizaje autorregulado y estrategias básicas con ayuda de recursos analógicos y digitales básicos, para producir mensajes sencillos, adaptativos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Notable": "Selecciona y aplica con facilidad, de forma codirigida, conocimientos, métodos de aprendizaje autorregulado y estrategias básicas con ayuda de recursos analógicos y digitales básicos, para producir mensajes sencillos, adaptativos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Sobresaliente": "Selecciona y aplica con facilidad destacable, de forma codirigida, conocimientos, métodos de aprendizaje autorregulado y estrategias básicas con ayuda de recursos analógicos y digitales básicos, para producir mensajes sencillos, adaptativos y creativos, adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas así como un uso ético y eficaz del lenguaje.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP1",
+          "CD3",
+          "CC3",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 277,
+        "descriptores": {
+          "Insuficiente": "Participa rara vez, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose con dificultad en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, sin alcanzar a dar respuesta a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, comprendiendo la necesidad de respetar diferentes culturas y creencias, y un uso ético y eficaz del lenguaje.",
+          "Suficiente/Bien": "Participa, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, comprendiendo la necesidad de respetar diferentes culturas y creencias, y un uso ético y eficaz del lenguaje.",
+          "Notable": "Participa frecuentemente, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose con facilidad en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, comprendiendo la necesidad de respetar diferentes culturas y creencias, y un uso ético y eficaz del lenguaje",
+          "Sobresaliente": "Participa constantemente, de forma codirigida, en situaciones de comunicación interactivas, breves y sencillas a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, apoyándose con facilidad destacable en diferentes recursos, tanto analógicos como digitales, que impliquen la búsqueda de respuestas creativas y originales, con el fin de responder propósitos comunicativos concretos que favorezcan actitudes cooperativas y respetuosas, comprendiendo la necesidad de respetar diferentes culturas y creencias, y un uso ético y eficaz del lenguaje."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Seleccionar y utilizar de forma codirigida en contextos de interacción, estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 278,
+        "descriptores": {
+          "Insuficiente": "Selecciona y utiliza con mínima pertinencia, participando rara vez entusiastamente de forma codirigida en el trabajo en grupo, en contextos de interacción, algunos métodos inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, lo que obstaculiza responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Selecciona y utiliza, participando entusiastamente de forma codirigida en el trabajo en grupo, en contextos de interacción, algunos métodos inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.",
+          "Notable": "Selecciona y utiliza con pertinencia, participando con frecuencia entusiastamente de forma codirigida en el trabajo en grupo, en contextos de interacción, algunos métodos inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual.",
+          "Sobresaliente": "Selecciona y utiliza con gran pertinencia, participando siempre entusiastamente de forma codirigida en el trabajo en grupo, en contextos de interacción, algunos métodos inductivo y deductivo y estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan afianzar su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Facilitar y explicar, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP1",
+          "CP3",
+          "CPSAA1",
+          "CPSAA3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 279,
+        "descriptores": {
+          "Insuficiente": "Rara vez facilita y explica, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose con dificultad en recursos y soportes analógicos y digitales, lo que obstaculiza la comprensión y el entendimiento en situaciones comunicativas breves, sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Suficiente/Bien": "Facilita y explica, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas breves, sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Notable": "Regularmente facilita y explica, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose con facilidad en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas breves, sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Sobresaliente": "Siempre facilita y explica, de forma codirigida, textos breves, conceptos, o emociones atendiendo a la diversidad y apoyándose con facilidad destacada en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas breves, sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Seleccionar e implementar, de forma codirigida, estrategias básicas en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CD3",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 280,
+        "descriptores": {
+          "Insuficiente": "Selecciona e implementa sin coherencia, de forma codirigida, estrategias básicas, participando sin entusiasmo en situaciones colaborativas y cooperativas, apoyándose con dificultad en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, lo que supone un obstáculo para ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.",
+          "Suficiente/Bien": "Selecciona e implementa, de forma codirigida, estrategias básicas, participando entusiastamente en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.",
+          "Notable": "Selecciona e implementa con coherencia, de forma codirigida, estrategias básicas, participando entusiastamente en situaciones colaborativas y cooperativas, apoyándose con facilidad en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación.",
+          "Sobresaliente": "Selecciona e implementa con total coherencia, de forma codirigida, estrategias básicas, participando entusiastamente en situaciones colaborativas y cooperativas, apoyándose con facilidad destacable en el lenguaje no verbal y en las herramientas digitales y plataformas virtuales, con el fin de ayudar a las demás personas y facilitar la comprensión, y la producción de información y la comunicación."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Comparar y contrastar, de forma codirigida y cooperativa las similitudes y diferencias más significativas, entre distintas lenguas reconociendo y reflexionando aspectos básicos de su funcionamiento para consolidar y ampliar su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "CP3"
+        ],
+        "pagina_pdf": 281,
+        "descriptores": {
+          "Insuficiente": "Compara y contrasta sin coherencia, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo sin adecuación aspectos básicos de su funcionamiento y reflexionando de forma superficial sobre ellos, lo que obstaculiza la consolidación y ampliación de su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Compara y contrasta, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento y reflexionando sobre ellos, para consolidar y ampliar su repertorio lingüístico individual.",
+          "Notable": "Compara y contrasta con coherencia, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo con adecuación aspectos básicos de su funcionamiento y reflexionando con incipiente profundidad sobre ellos, para consolidar y ampliar su repertorio lingüístico individual.",
+          "Sobresaliente": "Compara y contrasta con destacada coherencia, de forma codirigida y cooperativa, las similitudes y diferencias más significativas, entre distintas lenguas, reconociendo con mucha adecuación aspectos básicos de su funcionamiento y reflexionando con profundidad sobre ellos, para consolidar y ampliar su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Experimentar y utilizar, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, y enriquecer sus habilidades lingüísticas y experiencias comunicativas.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 282,
+        "descriptores": {
+          "Insuficiente": "Experimenta y utiliza con errores significativos, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con escasa conciencia posturas analíticas en procesos de reflexión guiados, y enriquecer sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de algunas herramientas digitales y analógicas.",
+          "Suficiente/Bien": "Experimenta y utiliza, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando posturas analíticas en procesos de reflexión guiados, y enriquecer sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de algunas herramientas digitales y analógicas.",
+          "Notable": "Experimenta y utiliza con corrección, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con conciencia posturas analíticas en procesos de reflexión guiados, y enriquecer sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de algunas herramientas digitales y analógicas",
+          "Sobresaliente": "Experimenta y utiliza con corrección destacable, de forma codirigida y cooperativa, estrategias básicas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con plena conciencia posturas analíticas en procesos de reflexión guiados, y enriquecer sus habilidades lingüísticas y experiencias comunicativas, haciendo uso de algunas herramientas digitales y analógica"
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Registrar y reflexionar de forma codirigida, sobre los progresos y dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas, para construir y evidenciar el conocimiento.",
+        "descriptores_operativos": [
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 283,
+        "descriptores": {
+          "Insuficiente": "Registra y reflexiona con escasa conciencia, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas superficiales, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas solo si se le indica, para construir y evidenciar el conocimiento.",
+          "Suficiente/Bien": "Registra y reflexiona, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas, para construir y evidenciar el conocimiento.",
+          "Notable": "Registra y reflexiona con conciencia, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analítica de profundidad, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas con iniciativa propia, para construir y evidenciar el conocimiento",
+          "Sobresaliente": "Registra y reflexiona con plena conciencia, de forma codirigida, sobre los progresos y las dificultades elementales del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas analíticas de gran profundidad, reconociendo y valorando aspectos que mejoran sus posibilidades comunicativas con constante iniciativa propia, para construir y evidenciar el conocimiento."
+        }
+      },
+      {
+        "criterio": "5.4",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer y aplicar, los conocimientos, estrategias y destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.",
+        "descriptores_operativos": [
+          "CP1",
+          "CP2"
+        ],
+        "pagina_pdf": 284,
+        "descriptores": {
+          "Insuficiente": "Reconoce y aplica con dificultad, de manera pautada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje breves, sencillos y predecibles de su entorno más próximo, obstaculizando el desarrollo de un aprendizaje más profundo.",
+          "Suficiente/Bien": "Reconoce y aplica, de manera pautada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje breves, sencillos y predecibles de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.",
+          "Notable": "Reconoce y aplica con facilidad, de manera pautada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje breves, sencillos y predecibles de su entorno más próximo, con el fin de desarrollar un aprendizaje más profundo.",
+          "Sobresaliente": "Reconoce y transfiere con gran facilidad, de manera guiada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje sencillos y predecibles, con el fin de desarrollar un aprendizaje más profundo."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas canarias, identificando y analizando entre las diferentes lenguas y culturas de forma codirigida, así como la propia y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CC2",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 285,
+        "descriptores": {
+          "Insuficiente": "Explora y respeta, solo si se le indica, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando sin evidenciar interés las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando rara vez rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, lo que obstaculiza la mejora de la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno",
+          "Suficiente/Bien": "Explora y respeta la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "Notable": "Explora y respeta, con iniciativa propia, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando con interés las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando con frecuencia rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "Sobresaliente": "Explora y respeta, con constante iniciativa propia, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, identificando y analizando con máximo interés las diferentes lenguas y culturas, de forma codirigida, así como la propia, y mostrando de forma continua rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias básicas , para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones y respetando las ajenas.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 286,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con dificultad estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, rara vez gestionando las propias emociones en situaciones de tensión y respetando las ajenas.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, gestionando las propias emociones en situaciones de tensión y respetando las ajenas.",
+          "Notable": "Selecciona y aplica con facilidad estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, con frecuencia gestionando las propias emociones en situaciones de tensión y respetando las ajenas.",
+          "Sobresaliente": "Selecciona y aplica con gran facilidad estrategias básicas, para entender y apreciar la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, y de las islas Canarias, en situaciones comunicativas guiadas, siempre gestionando las propias emociones en situaciones de tensión y respetando las ajenas."
+        }
+      },
+      {
+        "criterio": "6.3",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Mostrar empatía y comprensión por las producciones ajenas, valorando las intervenciones en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+        "descriptores_operativos": [
+          "CP3",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "pagina_pdf": 287,
+        "descriptores": {
+          "Insuficiente": "Rara vez muestra empatía y comprensión por las producciones ajenas, identificando con dificultad sus diferencias, valorando con escasa claridad las intervenciones en diferentes contextos comunicativos y haciendo uso poco adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Suficiente/Bien": "Muestra empatía y comprensión por las producciones ajenas, identificando sus diferencias, valorando las intervenciones en diferentes contextos comunicativos y haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Notable": "Frecuentemente muestra empatía y comprensión por las producciones ajenas, identificando con facilidad sus diferencias, valorando de manera clara las intervenciones en diferentes contextos comunicativos y haciendo usoadecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Sobresaliente": "Siempre muestra empatía y comprensión por las producciones ajenas, identificando con gran facilidad sus diferencias, valorando con claridad destacable las intervenciones en diferentes contextos comunicativos y haciendo uso muy adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos"
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reconocer, interpretar y analizar el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y de textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianas.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP1"
+        ],
+        "pagina_pdf": 288,
+        "descriptores": {
+          "Insuficiente": "Reconoce, interpreta y analiza de manera poco precisa el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales, con acompañamiento constante, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos",
+          "Suficiente/Bien": "Reconoce, interpreta y analiza el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos.",
+          "Notable": "Reconoce, interpreta y analiza con precisión el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales, de manera progresivamente autónoma, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos.",
+          "Sobresaliente": "Reconoce, interpreta y analiza con un alto grado de precisión el sentido global, así como palabras y frases sencillas en textos orales, escritos y multimodales, con autonomía, sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, y en textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible y clara, a través de distintos soportes, para contribuir al repertorio lingüístico individual y responder a propósitos de comunicación cotidianos."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Seleccionar, organizar y aplicar de forma progresivamente autónoma, métodos, estrategias y conocimientos adecuados, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual, y procesar información explícita en textos diversos, tanto analógicos como digitales.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP2",
+          "STEM1",
+          "CD1",
+          "CPSAA5"
+        ],
+        "pagina_pdf": 289,
+        "descriptores": {
+          "Insuficiente": "Selecciona, organiza y aplica con escasa adecuación, de forma progresivamente autónoma, métodos inductivos y deductivos, estrategias de localización de información sencilla, evaluando con ineficacia su fiabilidad y utilidad, y conocimientos adecuados resultantes de su participación con mínima iniciativa en procesos de auto y coevaluación, en situaciones comunicativas cotidianas y de relevancia para el alumnado que limitan captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.",
+          "Suficiente/Bien": "Selecciona, organiza y aplica, de forma progresivamente autónoma, métodos inductivos y deductivos, estrategias de localización de información sencilla, evaluando su fiabilidad y utilidad, y conocimientos adecuados resultantes de su participación en procesos de auto y coevaluación, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.",
+          "Notable": "Selecciona, organiza y aplica con adecuación, de forma progresivamente autónoma, métodos inductivos y deductivos, estrategias de localización de información sencilla, evaluando con eficacia su fiabilidad y utilidad, y conocimientos adecuados resultantes de su participación con iniciativa propia en procesos de auto y coevaluación, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales.",
+          "Sobresaliente": "Selecciona, organiza y aplica con excelente adecuación, de forma progresivamente autónoma, métodos inductivos y deductivos, estrategias de localización de información sencilla, evaluando con destacada eficacia su fiabilidad y utilidad, y conocimientos adecuados resultantes de su participación con constante iniciativa propia en procesos de auto y coevaluación, en situaciones comunicativas cotidianas y de relevancia para el alumnado para captar el sentido global, ampliar el repertorio lingüístico individual y procesar la información explícita en textos diversos, tanto analógicos como digitales."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Producir, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximos a la experiencia del alumnado.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP1",
+          "CD2"
+        ],
+        "pagina_pdf": 290,
+        "descriptores": {
+          "Insuficiente": "Produce con dificultad y poca precisión, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Produce, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Notable": "Produce con facilidad y destacada precisión, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Produce con facilidad destacable y con total precisión, de forma progresivamente autónoma, textos orales, escritos y multimodales breves y sencillos, usando soportes analógicos y digitales, para realizar intervenciones en situaciones de comunicación, de relevancia personal y próximas a la experiencia del alumnado con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar, planificar y aplicar de forma progresivamente autónoma, conocimientos y estrategias adecuadas con ayuda de recursos analógicos y digitales, para preparar y producir textos creativos adecuados a las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA5",
+          "CE1",
+          "CCEC4"
+        ],
+        "pagina_pdf": 291,
+        "descriptores": {
+          "Insuficiente": "Selecciona, planifica y aplica con dificultad, de forma progresivamente autónoma, conocimientos y estrategias adecuadas de aprendizaje autorregulado con ayuda de diferentes recursos analógicos y digitales, para preparar y producir textos originales y creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Suficiente/Bien": "Selecciona, planifica y aplica, de forma progresivamente autónoma, conocimientos y estrategias adecuadas de aprendizaje autorregulado con ayuda de diferentes recursos analógicos y digitales, para preparar y producir textos originales y creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Notable": "Selecciona, planifica y aplica con facilidad, de forma progresivamente autónoma, conocimientos y estrategias adecuadas de aprendizaje autorregulado con ayuda de diferentes recursos analógicos y digitales, para preparar y producir textos originales y creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional.",
+          "Sobresaliente": "Selecciona, planifica y aplica con facilidad destacable, de forma progresivamente autónoma, conocimientos y estrategias adecuadas de aprendizaje autorregulado con ayuda de diferentes recursos analógicos y digitales, para preparar y producir textos originales y creativos convenientes para las intenciones comunicativas en contextos cotidianos que contribuyan al pleno desarrollo personal, creativo y emocional."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Participar, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, diversos retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, y favorecer actitudes cooperativas, así como un uso ético y eficaz del lenguaje.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP1",
+          "CD3",
+          "CC3",
+          "CE1",
+          "CE3"
+        ],
+        "pagina_pdf": 292,
+        "descriptores": {
+          "Insuficiente": "Participa rara vez, de manera y progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando con dificultad, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, sin alcanzar a dar respuesta a propósitos comunicativos concretos y respetuosos hacia diferentes culturas y creencias, ni favorecer actitudes cooperativas, ni un uso ético y eficaz del lenguaje.",
+          "Suficiente/Bien": "Participa, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, comprendiendo la necesidad de respetar diferentes culturas y creencias, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje.",
+          "Notable": "Participa con frecuencia, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando con facilidad, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, comprendiendo la necesidad de respetar diferentes culturas y creencias, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje.",
+          "Sobresaliente": "Participa siempre, de manera progresivamente autónoma, en situaciones interactivas de intercambios de información breves y sencillos a través de textos escritos y orales, sobre temas cotidianos, de relevancia personal y próximos a su experiencia y contexto, mediante diferentes soportes, tanto analógicos como digitales, afrontando con facilidad destacable, entre otros, retos que impliquen la generación de ideas y la búsqueda de respuestas creativas y originales, con el fin de responder a propósitos comunicativos concretos y respetuosos, comprendiendo la necesidad de respetar diferentes culturas y creencias, y favorecer actitudes cooperativas, y un uso ético y eficaz del lenguaje."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Seleccionar, organizar y utilizar, de forma cooperativa y progresivamente autónoma en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 294,
+        "descriptores": {
+          "Insuficiente": "Selecciona, organiza y utiliza con mínima pertinencia, asumiendo rara vez de forma cooperativa y progresivamente autónoma las responsabilidades individuales asignadas, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, lo que dificulta responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Selecciona, organiza y utiliza, asumiendo de forma cooperativa y progresivamente autónoma las responsabilidades individuales asignadas, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual",
+          "Notable": "Selecciona, organiza y utiliza con pertinencia, asumiendo con frecuencia de forma cooperativa y progresivamente autónoma las responsabilidades individuales asignadas, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual.",
+          "Sobresaliente": "Selecciona, organiza y utiliza con gran pertinencia, asumiendo siempre de forma cooperativa y progresivamente autónoma las responsabilidades individuales asignadas, en contextos de interacción cotidianos, métodos inductivos y deductivos, así como estrategias básicas, tales como la repetición, el ritmo pausado o el lenguaje no verbal, para responder a propósitos comunicativos que permitan ampliar su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Justificar y explicar, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP1",
+          "CP3",
+          "CPSAA1",
+          "CPSAA3",
+          "CCEC1"
+        ],
+        "pagina_pdf": 295,
+        "descriptores": {
+          "Insuficiente": "Rara vez justifica y explica, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose con dificultad en recursos y soportes analógicos y digitales, lo que limita la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Suficiente/Bien": "Justifica y explica, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Notable": "Regularmente justifica y explica, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose con facilidad en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades.",
+          "Sobresaliente": "Siempre justifica y explica, de forma progresivamente autónoma, textos, conceptos, pensamientos o emociones atendiendo a la diversidad y apoyándose con facilidad destacable en recursos y soportes analógicos y digitales, con el fin de facilitar la comprensión y el entendimiento en situaciones comunicativas sencillas y predecibles que contribuyan a la mejora de la convivencia, mostrando respeto y empatía hacia las diferencias culturales y la igualdad de oportunidades."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Seleccionar e implementar, de forma progresivamente autónoma, métodos y estrategias adecuadas, en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 296,
+        "descriptores": {
+          "Insuficiente": "Selecciona e implementa sin coherencia, de forma progresivamente autónoma, métodos y estrategias adecuadas, participando de forma poco activa en situaciones colaborativas y cooperativas, apoyándose con dificultad en el lenguaje no verbal, herramientas digitales y plataformas virtuales, lo que limita ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+          "Suficiente/Bien": "Selecciona e implementa, de forma progresivamente autónoma, métodos y estrategias adecuadas, participando activamente en situaciones colaborativas y cooperativas, apoyándose en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+          "Notable": "Selecciona e implementa con coherencia, de forma progresivamente autónoma, métodos y estrategias adecuadas, participando activamente en situaciones colaborativas y cooperativas, apoyándose con facilidad en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación.",
+          "Sobresaliente": "Selecciona e implementa con total coherencia, de forma progresivamente autónoma, métodos y estrategias adecuadas, participando activamente en situaciones colaborativas y cooperativas, apoyándose con facilidad destacable, en el lenguaje no verbal, herramientas digitales y plataformas virtuales con el fin de ayudar a las demás personas y facilitar la comprensión, la producción de información y la comunicación."
+        }
+      },
+      {
+        "criterio": "5.1",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Comparar y contrastar, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento, y reflexionando sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.",
+        "descriptores_operativos": [
+          "CP2",
+          "CP3"
+        ],
+        "pagina_pdf": 297,
+        "descriptores": {
+          "Insuficiente": "Compara y contrasta sin coherencia, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo sin adecuación aspectos básicos de su funcionamiento, y reflexionando de forma superficial sobre ellos, lo que limita la ampliación y enriquecimiento de su repertorio lingüístico individual.",
+          "Suficiente/Bien": "Compara y contrasta, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo aspectos básicos de su funcionamiento, y reflexionando sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.",
+          "Notable": "Compara y contrasta con coherencia, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo con adecuación aspectos básicos de su funcionamiento, y reflexionando con profundidad sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual.",
+          "Sobresaliente": "Compara y contrasta con destacada coherencia, de forma progresivamente autónoma y cooperativa, las similitudes y diferencias entre distintas lenguas, reconociendo con mucha adecuación aspectos básicos de su funcionamiento, y reflexionando con gran profundidad sobre ellos, para ampliar y enriquecer su repertorio lingüístico individual."
+        }
+      },
+      {
+        "criterio": "5.2",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Experimentar, utilizar y diferenciar, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas.",
+        "descriptores_operativos": [
+          "CP2",
+          "STEM1",
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 298,
+        "descriptores": {
+          "Insuficiente": "Experimenta, utiliza y diferencia con errores significativos, de forma progresivamente autónoma y cooperativa, estrategias poco adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado, adoptando con escasa conciencia posturas críticas en procesos de reflexión guiados, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas, haciendo un uso de diferentes herramientas digitales y analógicas.",
+          "Suficiente/Bien": "Experimenta, utiliza y diferencia, de forma progresivamente autónoma y cooperativa, estrategias adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando posturas críticas en procesos de reflexión guiados, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas, haciendo uso de diferentes herramientas digitales y analógicas.",
+          "Notable": "Experimenta, utiliza y diferencia con corrección, de forma progresivamente autónoma y cooperativa, estrategias muy adecuadas de aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con conciencia posturas críticas en procesos de reflexión guiados, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas, haciendo uso de diferentes herramientas digitales y analógicas",
+          "Sobresaliente": "Experimenta, utiliza y diferencia con corrección destacable, de forma progresivamente autónoma y cooperativa, estrategias muyadecuadas y precisasde aprovechamiento y comprensión del repertorio plurilingüe, para adquirir aprendizajes de modo autorregulado adoptando con plena conciencia posturas críticas en procesos de reflexión guiados, maximizar sus habilidades lingüísticas y enriquecer las experiencias comunicativas, haciendo uso de diferentes herramientas digitales y analógicas."
+        }
+      },
+      {
+        "criterio": "5.3",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Registrar y reflexionar de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o los diarios de aprendizaje, reconociendo y valorando sus propias posibilidades comunicativas y haciendo propuestas de mejora, para construir y evidenciar el conocimiento.",
+        "descriptores_operativos": [
+          "CD2",
+          "CPSAA1",
+          "CPSAA4",
+          "CPSAA5",
+          "CE3"
+        ],
+        "pagina_pdf": 299,
+        "descriptores": {
+          "Insuficiente": "Registra y reflexiona con escasa conciencia, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas críticas superficiales, reconociendo y valorando sus propias posibilidades comunicativas solo si se le indica, y haciendo propuestas de mejora para construir y evidenciar el conocimiento",
+          "Suficiente/Bien": "Registra y reflexiona, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas críticas, reconociendo y valorando sus propias posibilidades comunicativas, y haciendo propuestas de mejora para construir y evidenciar el conocimiento.",
+          "Notable": "Registra y reflexiona con conciencia, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas críticas de profundidad, reconociendo y valorando sus propias posibilidades comunicativas con iniciativa propia, y haciendo propuestas de mejora para construir y evidenciar el conocimiento.",
+          "Sobresaliente": "Registra y reflexiona con plena conciencia, de forma progresivamente autónoma, sobre los progresos y dificultades del proceso de aprendizaje de la lengua extranjera, a través de actividades análogicas y digitales de autoevaluación y coevaluación, como las propuestas en el PEL o los diarios de aprendizaje, adoptando posturas críticas de gran profundidad, reconociendo y valorando sus propias posibilidades comunicativas con constante iniciativa propia, y haciendo propuestas de mejora para construir y evidenciar el conocimiento."
+        }
+      },
+      {
+        "criterio": "5.4",
+        "competencia_especifica": "5",
+        "enunciado_criterio": "Reconocer y transferir los conocimientos, estrategias y destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje, con el fin de desarrollar un aprendizaje más profundo.",
+        "descriptores_operativos": [
+          "CP1",
+          "CP2"
+        ],
+        "pagina_pdf": 300,
+        "descriptores": {
+          "Insuficiente": "Reconoce y transfiere con dificultad, de manera guiada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje sencillos y predecibles, limitando el desarrollo de un aprendizaje más profundo.",
+          "Suficiente/Bien": "Reconoce y transfiere, de manera guiada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje sencillos y predecibles, con el fin de desarrollar un aprendizaje más profundo.",
+          "Notable": "Reconoce y transfiere con facilidad, de manera guiada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje sencillos y predecibles, con el fin de desarrollar un aprendizaje más profundo.",
+          "Sobresaliente": "Reconoce y transfiere con gran facilidad, de manera guiada, los conocimientos, las estrategias y las destrezas adquiridas del repertorio lingüístico individual a otros contextos de aprendizaje sencillos y predecibles, con el fin de desarrollar un aprendizaje más profundo."
+        }
+      },
+      {
+        "criterio": "6.1",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Apreciar y respetar la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas canarias, fortaleciendo vínculos entre las diferentes lenguas y culturas de forma progresivamente autónoma, así como la propia y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+        "descriptores_operativos": [
+          "CCL5",
+          "CP3",
+          "CC2",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 301,
+        "descriptores": {
+          "Insuficiente": "Reconoce, se interesa, aprecia y respeta, solo si se le indica, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, sin evidenciar interés por que se fortalezcan, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando rara vez rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, lo que limita la mejora de la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "Suficiente/Bien": "Reconoce, se interesa, aprecia y respeta la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "Notable": "Reconoce, se interesa, aprecia y respeta, con iniciativa propia, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo con interés, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando con frecuencia rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno.",
+          "Sobresaliente": "Reconoce, se interesa, aprecia y respeta, con constante iniciativa propia, la diversidad y el patrimonio lingüístico, cultural y artístico de personas y países donde se habla la lengua extranjera, así como de las islas Canarias, fortaleciendo con máximo interés, de forma progresivamente autónoma, vínculos entre las diferentes lenguas y culturas, así como la propia, y mostrando de forma continua rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo, con el fin de mejorar la convivencia, la gestión de conflictos de forma dialogada, el enriquecimiento personal y el cuidado del entorno."
+        }
+      },
+      {
+        "criterio": "6.2",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando la diversidad existente en las islas Canarias, gestionando las emociones propias y respetando las ajenas.",
+        "descriptores_operativos": [
+          "CPSAA1",
+          "CPSAA3"
+        ],
+        "pagina_pdf": 302,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica con dificultad y sin precisar su funcionalidad estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando con conciencia mínima la diversidad existente en las islas Canarias y rara vez gestionando las emociones propias en situaciones de tensión o conflicto y respetando las ajenas.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando la diversidad existente en las islas Canarias y gestionando las emociones propias en situaciones de tensión o conflicto y respetando las ajenas.",
+          "Notable": "Selecciona y aplica con facilidad y precisando su funcionalidad estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando de forma consciente la diversidad existente en las islas Canarias y con frecuencia gestionando las emociones propias en situaciones de tensión o conflicto y respetando las ajenas",
+          "Sobresaliente": "Selecciona y aplica con gran facilidad y precisando de forma excelente su funcionalidad estrategias adecuadas, en situaciones comunicativas guiadas, para entender y adaptarse a la diversidad lingüística, cultural y artística de personas y países donde se habla la lengua extranjera, apreciando de forma plenamente consciente la diversidad existente en las islas Canarias y siempre gestionando las emociones propias en situaciones de tensión o conflicto y respetando las ajenas."
+        }
+      },
+      {
+        "criterio": "6.3",
+        "competencia_especifica": "6",
+        "enunciado_criterio": "Mostrar empatía y comprensión por las producciones ajenas valorando intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+        "descriptores_operativos": [
+          "CP3",
+          "CCEC1",
+          "CCEC3"
+        ],
+        "pagina_pdf": 303,
+        "descriptores": {
+          "Insuficiente": "Rara vez muestra empatía y comprensión por las producciones ajenas, entendiendo con dificultad la necesidad de respetarlas y valorando con escasa claridad intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso poco adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Suficiente/Bien": "Muestra empatía y comprensión por las producciones ajenas, entendiendo la necesidad de respetarlas y valorando intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Notable": "Frecuentemente muestra empatía y comprensión por las producciones ajenas, entendiendo con facilidad la necesidad de respetarlas y valorando de manera clara intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos.",
+          "Sobresaliente": "Siempre muestra empatía y comprensión por las producciones ajenas, entendiendo con gran facilidad la necesidad de respetarlas y valorando con claridad destacable intervenciones, creencias y puntos de vista en diferentes contextos comunicativos, haciendo uso muy adecuado de la cortesía lingüística para crear un ambiente afectivo e inclusivo que favorezca la reflexión y la resolución pacífica de conflictos."
+        }
+      }
+    ]
+  }
+}

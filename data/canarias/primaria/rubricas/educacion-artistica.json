@@ -1,0 +1,683 @@
+{
+  "area": "Educación Artística",
+  "fuente": "Resolución de 15/05/2025 (BOC 107, 02/06/2025)",
+  "titulo_en_fuente": "RÚBRICA – EDUCACIÓN ARTÍSTICA",
+  "niveles": [
+    "Insuficiente",
+    "Suficiente/Bien",
+    "Notable",
+    "Sobresaliente"
+  ],
+  "equivalencias": {
+    "Insuficiente": "IN",
+    "Suficiente/Bien": "SU/BI",
+    "Notable": "NT",
+    "Sobresaliente": "SB"
+  },
+  "nota": "Texto literal del anexo 1. El descriptor de Suficiente/Bien incluye el texto del criterio; los demás niveles lo gradúan (apartado introductorio del anexo 1).",
+  "ciclos": {
+    "primer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Descubrir propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, a través de la recepción activa, con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales.",
+        "descriptores_operativos": [
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 88,
+        "descriptores": {
+          "Insuficiente": "Descubre, con desinterés, propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, reconociendo, con ciertas dificultades, sus especificidades e intencionalidades, a través de la recepción activa, mediante la realización, con dificultad significativa, de búsquedas muy guiadas y pautadas en internet con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales, aplicando, rara vez, reglas básicas de convivencia, de forma respetuosa en su contexto próximo.",
+          "Suficiente/Bien": "Descubre propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, reconociendo sus especificidades e intencionalidades, a través de la recepción activa, mediante la realización de búsquedas muy guiadas y pautadas en internet con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales, aplicando reglas básicas de convivencia, de forma respetuosa en su contexto próximo.",
+          "Notable": "Descubre, con interés constante, propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, reconociendo, con corrección en los elementos relevantes, sus especificidades e intencionalidades, a través de la recepción activa, mediante la realización de búsquedas muy guiadas y pautadas en internet con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales, aplicando frecuentemente reglas básicas de convivencia, de forma respetuosa en su contexto próximo.",
+          "Sobresaliente": "Descubre, con interés y dedicación constantes, propuestas artísticas de su entorno próximo, de diferentes géneros, estilos y épocas, reconociendo, con total corrección y precisión, sus especificidades e intencionalidades, a través de la recepción activa, mediante la realización de búsquedas muy guiadas y pautadas en internet con el objetivo de desarrollar la curiosidad y apreciar las diferencias culturales, aplicando siempre reglas básicas de convivencia, de forma respetuosa en su contexto próximo."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Describir manifestaciones culturales y artísticas de las islas Canarias, explorando sus características con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 89,
+        "descriptores": {
+          "Insuficiente": "Describe, con escasa precisión, manifestaciones culturales y artísticas de las islas Canarias, explorando sus características, iniciándose en la participación en interacciones comunicativas con actitud cooperativa y respetuosa de manera ocasional y entendiendo, con dificultad y sin detalle, los hechos históricos y sociales más relevantes relativos a su propia identidad y cultura, con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad.",
+          "Suficiente/Bien": "Describe manifestaciones culturales y artísticas de las islas Canarias, explorando sus características, iniciándose en la participación en interacciones comunicativas con actitud cooperativa y respetuosa y entendiendo los hechos históricos y sociales más relevantes relativos a su propia identidad y cultura con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad.",
+          "Notable": "Describe, con precisión y claridad, manifestaciones culturales y artísticas de las islas Canarias, explorando sus características, iniciándose en la participación en interacciones comunicativas con actitud cooperativa y respetuosa de forma constante y entendiendo, con facilidad y con un significativo grado de detalle, los hechos históricos y sociales más relevantes relativos a su propia identidad y cultura con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad.",
+          "Sobresaliente": "Describe, con gran precisión y claridad, manifestaciones culturales y artísticas de las islas Canarias, explorando sus características, iniciándose en la participación en interacciones comunicativas con actitud cooperativa y respetuosa con máxima constancia y entendiendo, con facilidad destacable y de manera amplia y detallada, los hechos históricos y sociales más relevantes relativos a su propia identidad y cultura con actitud abierta e interés para desarrollar la curiosidad y el respeto por la diversidad."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias elementales para la búsqueda guiada de información sobre manifestaciones culturales y artísticas de las islas Canarias, a través de canales y medios de acceso sencillos, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CPSAA3",
+          "CPSAA4",
+          "CCEC2"
+        ],
+        "pagina_pdf": 90,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica, con incoherencias, estrategias elementales para la búsqueda guiada de información incluso en internet y hace uso, de manera inadecuada, de estrategias sencillas para el tratamiento digital de la información sobre manifestaciones culturales y artísticas de las islas Canarias, reconociendo, con ciertas dificultades, sus especificidades e intencionalidades, a través de canales y medios de acceso sencillos, localizando y seleccionando, con dificultad, incluso de manera pautada y con el debido acompañamiento, información sencilla procedente al menos una fuente, tanto de forma individual como cooperativa, participando, de forma poco enérgica y sin compromiso, en el trabajo en grupo y adoptando posturas analíticas, con consciencia mínima, en procesos de reflexión guiados, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias elementales para la búsqueda guiada de información incluso en internet y hace uso de estrategias sencillas para el tratamiento digital de la información sobre manifestaciones culturales y artísticas de las islas Canarias, reconociendo sus especificidades e intencionalidades, a través de canales y medios de acceso sencillos, localizando y seleccionando de manera pautada y con el debido acompañamiento, información sencilla procedente al menos una fuente, tanto de forma individual como cooperativa, participando enérgicamente en el trabajo en grupo y adoptando posturas analíticas en procesos de reflexión guiados, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar",
+          "Notable": "Selecciona y aplica, con corrección, estrategias elementales para la búsqueda guiada de información incluso en internet y hace uso, de manera segura, de estrategias sencillas para el tratamiento digital de la información sobre manifestaciones culturales y artísticas de las islas Canarias, reconociendo, con corrección en los elementos relevantes, sus especificidades e intencionalidades, a través de canales y medios de acceso sencillos, localizando y seleccionando, con facilidad, de manera pautada y con el debido acompañamiento, información sencilla procedente al menos una fuente, tanto de forma individual como cooperativa, participando enérgicamente con compromiso en el trabajo en grupo y adoptando posturas analíticas, con alta consciencia, en procesos de reflexión guiados, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+          "Sobresaliente": "Selecciona y aplica, con corrección y precisión, estrategias elementales para la búsqueda guiada de información incluso en internet y hace uso, de manera segura y con confianza, de estrategias sencillas para el tratamiento digital de la información sobre manifestaciones culturales y artísticas de las islas Canarias, reconociendo, con total corrección y precisión, sus especificidades e intencionalidades, a través de canales y medios de acceso sencillos, localizando y seleccionando, con mucha facilidad, de manera pautada y con el debido acompañamiento, información sencilla procedente al menos una fuente, tanto de forma individual como cooperativa, participando enérgicamente, con determinación y compromiso en el trabajo en grupo y adoptando posturas analíticas, con plena consciencia, en procesos de reflexión guiados, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Reconocer elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CP3",
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 92,
+        "descriptores": {
+          "Insuficiente": "Descubre, reconoce y respeta, erróneamente, elementos característicos básicos de distintas manifestaciones culturales, lingüísticas y artísticas, que forman parte del patrimonio de Canarias y de otras culturas, localizando y seleccionando, con dificultad, incluso de manera pautada y con el debido acompañamiento, información sencilla procedente de al menos una fuente, e indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, respetando diferentes culturas y creencias, e identificando, mostrando inseguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje.",
+          "Suficiente/Bien": "Descubre, reconoce y respeta elementos característicos básicos de distintas manifestaciones culturales, lingüísticas y artísticas que forman parte del patrimonio de Canarias y de otras culturas, localizando y seleccionando de manera pautada y con el debido acompañamiento, información sencilla procedente de al menos una fuente, e indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, respetando diferentes culturas y creencias, e identificando el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje.",
+          "Notable": "Descubre, reconoce y respeta, con corrección, elementos característicos básicos de distintas manifestaciones culturales, lingüísticas y artísticas que forman parte del patrimonio de Canarias y de otras culturas, localizando y seleccionando, con facilidad, de manera pautada y con el debido acompañamiento, información sencilla procedente de al menos una fuente, e indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, respetando diferentes culturas y creencias e identificando, con seguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje.",
+          "Sobresaliente": "Descubre, reconoce y respeta, con amplia corrección, elementos característicos básicos de distintas manifestaciones culturales, lingüísticas y artísticas que forman parte del patrimonio de Canarias y de otras culturas, localizando y seleccionando, con mucha facilidad, de manera pautada y con el debido acompañamiento, información sencilla procedente de al menos una fuente, e indicando los canales, los medios y las técnicas empleados e identificando diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, respetando diferentes culturas y creencias e identificando, con seguridad y plena confianza, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Reconocer sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, a partir de la recepción activa, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+        "descriptores_operativos": [
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 93,
+        "descriptores": {
+          "Insuficiente": "Descubre y reconoce, mostrando desinterés, los aspectos fundamentales del patrimonio cultural y artístico de Canarias y sus especificidades e intencionalidades, así como las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, respetando diferentes culturas y creencias a partir de la recepción activa, identificando, con inseguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+          "Suficiente/Bien": "Descubre y reconoce los aspectos fundamentales del patrimonio cultural y artístico de Canarias y sus especificidades e intencionalidades, así como las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, respetando diferentes culturas y creencias a partir de la recepción activa, identificando el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje , para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+          "Notable": "Descubre y reconoce, con interés constante, los aspectos fundamentales del patrimonio cultural y artístico de Canarias y sus especificidades e intencionalidades, así como las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, respetando diferentes culturas y creencias a partir de la recepción activa, identificando, con seguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+          "Sobresaliente": "Descubre y reconoce, con interés y dedicación constantes, los aspectos fundamentales del patrimonio cultural y artístico de Canarias y sus especificidades e intencionalidades, así como las sensaciones y emociones básicas producidas por diferentes manifestaciones culturales y artísticas, respetando diferentes culturas y creencias a partir de la recepción activa, identificando, con seguridad y plena confianza, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Experimentar de manera guiada con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, con actitud abierta, con el fin de empezar a entender sus posibilidades comunicativas y expresivas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD2",
+          "CPSAA1",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 94,
+        "descriptores": {
+          "Insuficiente": "Experimenta de manera guiada, pero con dudas importantes y de manera inadecuada, con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, incluido el uso de las funciones básicas de algunas herramientas digitales, con una actitud ocasionalmente abierta e inclusiva, con el fin de empezar a entender sus posibilidades comunicativas y expresivas. Para ello identifica de manera totalmente inconsciente las propias emociones e ideas y observa con dificultad y poca precisión sus necesidades, iniciándose en la participación de manera ineficaz y limitada en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Experimenta de manera guiada con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, incluido el uso de las funciones básicas de algunas herramientas digitales, con una actitud abierta e inclusiva, con el fin de empezar a entender sus posibilidades comunicativas y expresivas. Para ello identifica las propias emociones e ideas y observa sus necesidades, iniciándose en la participación en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Notable": "Experimenta de manera guiada, de forma segura y confiada, con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, incluido el uso de las funciones básicas de algunas herramientas digitales, con una actitud abierta e inclusiva de manera regular y constante, con el fin de empezar a entender sus posibilidades comunicativas y expresivas. Para ello identifica de forma consciente las propias emociones e ideas y observa con facilidad y precisión sus necesidades, iniciándose de forma activa en la participación en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Experimenta de manera guiada, con total confianza, con algunos elementos básicos de los distintos lenguajes e instrumentos artísticos, incluido el uso de las funciones básicas de algunas herramientas digitales, con una actitud abierta e inclusiva con máxima constancia y determinación, con el fin de empezar a entender sus posibilidades comunicativas y expresivas. Para ello identifica de forma plenamente consciente las propias emociones e ideas y observa con facilidad destacable y gran precisión sus necesidades, iniciándose activamente en la participación en interacciones comunicativas, con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir obras propias de forma guiada, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, mostrando confianza en las propias capacidades, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD2",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 95,
+        "descriptores": {
+          "Insuficiente": "Produce obras propias, utilizando con incoherencias y de manera inadecuada las posibilidades expresivas del cuerpo, el sonido, la imagen y las funciones de algunos medios digitales básicos, incluyendo la expresión de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, y mostrando inseguridad en las propias capacidades. Para lo cual observa con dificultad, poca precisión y de manera inadecuada las necesidades y retos que afrontar, utilizando técnicas de aprendizaje autorregulado. Asimismo participa de forma poco enérgica y sin compromiso en el trabajo en grupo, mostrando desinterés al asumir las responsabilidades individuales asignadas, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+          "Suficiente/Bien": "Produce obras propias, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y las funciones de algunos medios digitales básicos, incluyendo la expresión de forma oral, escrita, signada o multimodal, y mostrando confianza en las propias capacidades. Para lo cual observa las necesidades y retos que afrontar, utilizando técnicas de aprendizaje autorregulado. Asimismo participa en el trabajo en grupo, mostrando confianza al asumir las responsabilidades individuales asignadas, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+          "Notable": "Produce obras propias, utilizando de forma coherente las posibilidades expresivas del cuerpo, el sonido, la imagen y las funciones de algunos medios digitales básicos, incluyendo la expresión de forma oral, escrita, signada o multimodal con apropiada claridad y adecuación, y mostrando seguridad y confianza en las propias capacidades. Para lo cual observa con facilidad, precisión y con alta adecuación las necesidades y retos que afrontar, utilizando técnicas de aprendizaje autorregulado. Asimismo participa enérgicamente y con compromiso en el trabajo en grupo, mostrando interés constante al asumir las responsabilidades individuales asignadas, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+          "Sobresaliente": "Produce obras propias, utilizando de manera clara y coherente las posibilidades expresivas del cuerpo, el sonido, la imagen y las funciones de algunos medios digitales básicos, incluyendo la expresión de forma oral, escrita, signada o multimodal con gran claridad y adecuación, y mostrando seguridad y plena confianza en las propias capacidades. Para lo cual observa con facilidad destacable, gran precisión y con excelente adecuación las necesidades y retos que afrontar, utilizando técnicas de aprendizaje autorregulado. Asimismo participa enérgicamente con determinación y compromiso en el trabajo en grupo, mostrando pasión constante al asumir las responsabilidades individuales asignadas, para expresar y comunicar de manera creativa ideas, sentimientos y emociones."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar de manera guiada en el diseño de producciones culturales y artísticas elementales, trabajando de forma cooperativa a partir de la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CPSAA4",
+          "CC1",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 96,
+        "descriptores": {
+          "Insuficiente": "Participa de manera pautada y muy guiada en el diseño de producciones culturales y artísticas elementales, empleando con incoherencias diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales básicas. Para ello trabaja de forma cooperativa, de manera ineficaz y limitada, iniciándose en la participación de la interacción comunicativa al servicio de la convivencia democrática, aplicando reglas básicas de convivencia y dando respuesta a necesidades y retos. Asimismo identifica mostrando inseguridad el valor del esfuerzo y el involucramiento personal, a partir de la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno más inmediato, para, planteando de forma superficial ideas y soluciones predecibles, desarrollar la creatividad y el sentido emprendedor.",
+          "Suficiente/Bien": "Participa de manera pautada y con guías puntuales en el diseño de producciones culturales y artísticas elementales, empleando diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales básicas. Para ello trabaja de forma cooperativa, iniciándose en la participación de la interacción comunicativa al servicio de la convivencia democrática, aplicando reglas básicas de convivencia y dando respuesta a necesidades y retos. Asimismo identifica el valor del esfuerzo y el involucramiento personal, a partir de la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno más inmediato, para, planteando ideas y soluciones predecibles, desarrollar la creatividad y el sentido emprendedor.",
+          "Notable": "Participa de manera pautada y con orientaciones en el diseño de producciones culturales y artísticas elementales, empleando de forma coherente diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales básicas. Para ello trabaja de forma cooperativa, de manera activa, iniciándose en la participación de la interacción comunicativa al servicio de la convivencia democrática, aplicando reglas básicas de convivencia y dando respuesta a necesidades y retos. Asimismo identifica con seguridad el valor del esfuerzo y el involucramiento personal, a partir de la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno más inmediato, para, planteando con profundidad ideas y soluciones predecibles, desarrollar la creatividad y el sentido emprendedor.",
+          "Sobresaliente": "Participa de manera pautada y con algunas orientaciones en el diseño de producciones culturales y artísticas elementales, empleando con total coherencia diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales básicas. Para ello trabaja de forma cooperativa, activamente, iniciándose en la participación de la interacción comunicativa al servicio de la convivencia democrática, aplicando reglas básicas de convivencia y dando respuesta a necesidades y retos. Asimismo identifica con seguridad y plena confianza el valor del esfuerzo y el involucramiento personal, a partir de la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno más inmediato, para, planteando con apreciable profundidad ideas y soluciones predecibles, desarrollar la creatividad y el sentido emprendedor."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Tomar parte en el proceso cooperativo de producciones culturales y art ísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CPSAA4",
+          "CC1",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 98,
+        "descriptores": {
+          "Insuficiente": "Toma parte mostrando nulo interés en el proceso cooperativo de producciones culturales y artísticas básicas, de forma respetuosa y con una actitud abierta, incluso adoptando con conciencia mínima posturas analíticas, utilizando, con incoherencias y de manera inadecuada, elementos básicos de diferentes lenguajes y técnicas artísticas y funciones básicas de algunas herramientas digitales. Para ello observa con dificultad y poca precisión necesidades y retos, sin procurar la participación de todo el grupo e identificando los conflictos que puedan surgir, reconociendo con dificultad la gestión guiada y dialogada de los mismos, aplicando reglas básicas de convivencia, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo como oportunidad de creación de vínculos personales, y sin revisar el proceso realizado, el resultado obtenido y el fomento del respeto mutuo.",
+          "Suficiente/Bien": "Toma parte en el proceso cooperativo de producciones culturales y artísticas básicas, de forma respetuosa y con una actitud abierta, incluso adoptando posturas analíticas, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas y funciones básicas de algunas herramientas digitales. Para ello observa necesidades y retos, procurando la participación de todo el grupo e identificando los conflictos que puedan surgir, reconociendo la gestión guiada y dialogada de los mismos, aplicando reglas básicas de convivencia, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo como oportunidad de creación de vínculos personales, y revisando el proceso realizado, el resultado obtenido y el fomento del respeto mutuo.",
+          "Notable": "Toma parte con interés constante en el proceso cooperativo de producciones culturales y artísticas básicas, de forma respetuosa y con una actitud abierta, incluso adoptando posturas analíticas con alta conciencia, utilizando, de forma coherente, elementos básicos de diferentes lenguajes y técnicas artísticas y de diferentes funciones de algunas herramientas digitales. Para ello observa con facilidad y precisión necesidades y retos, procurando la participación de todo el grupo e identificando los conflictos que puedan surgir, reconociendo con precisión la gestión guiada y dialogada de los mismos, aplicando reglas básicas de convivencia, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo como oportunidad de creación de vínculos personales, y revisando el proceso realizado, el resultado obtenido y el fomento del respeto mutuo.",
+          "Sobresaliente": "Toma parte con pasión constante en el proceso cooperativo de producciones culturales y artísticas básicas, de forma respetuosa y con una actitud abierta, incluso adoptando posturas analíticas con plena conciencia, utilizando, con total coherencia, elementos básicos de diferentes lenguajes y técnicas artísticas y de diferentes funciones de herramientas digitales. Para ello observa con facilidad destacable y gran precisión necesidades y retos, procurando la participación de todo el grupo e identificando los conflictos que puedan surgir, reconociendo con total precisión la gestión guiada y dialogada de los mismos, aplicando reglas básicas de convivencia, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo como oportunidad de creación de vínculos personales, y revisando el proceso realizado, el resultado obtenido y el fomento del respeto mutuo."
+        }
+      },
+      {
+        "criterio": "4.3",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Compartir los proyectos creativos, explicando el proceso y el resultado final obtenido, y valorando las experiencias propias y ajenas, para el desarrollo de la creatividad y el sentido de pertenencia.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CC1",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 99,
+        "descriptores": {
+          "Insuficiente": "Comparte, para el desarrollo de la creatividad y el sentido de pertenencia, los proyectos creativos de forma oral, escrita, signada o multimodal, con escasa claridad y adecuación a los contextos, utilizando algunos medios y soportes básicos, sin revisar ni explicar el proceso realizado. Asimismo evalúa con errores el resultado final obtenido, observando con dificultad y poca precisión las necesidades y retos y valorando, con conciencia mínima, las experiencias propias y ajenas, con una actitud abierta y respetuosa como proceso de convivencia democrática, respetando erróneamente, la diversidad lingüística y cultural presente en su entorno más inmediato.",
+          "Suficiente/Bien": "Comparte, para el desarrollo de la creatividad y el sentido de pertenencia, los proyectos creativos de forma oral, escrita, signada o multimodal, con claridad y adecuación a los contextos, utilizando algunos medios y soportes básicos, revisando y explicando el proceso realizado. Asimismo evalúa el resultado final obtenido, observando las necesidades y retos y valorando las experiencias propias y ajenas con una actitud abierta y respetuosa como proceso de convivencia democrática, respetando la diversidad lingüística y cultural presente en su entorno más inmediato.",
+          "Notable": "Comparte, para el desarrollo de la creatividad y el sentido de pertenencia, los proyectos creativos de forma oral, escrita, signada o multimodal, con apropiada claridad y adecuación a los contextos, utilizando algunos medios y soportes básicos, revisando y explicando el proceso realizado. Asimismo evalúa sin errores significativos el resultado final obtenido, observando con facilidad y precisión las necesidades y retos y valorando, con alta conciencia, las experiencias propias y ajenas con una actitud abierta y respetuosa como proceso de convivencia democrática, respetando con corrección, la diversidad lingüística y cultural presente en su entorno más inmediato.",
+          "Sobresaliente": "Comparte, para el desarrollo de la creatividad y el sentido de pertenencia, los proyectos creativos de forma oral, escrita, signada o multimodal, con gran claridad y adecuación a los contextos, utilizando algunos medios y soportes básicos, revisando y explicando el proceso realizado. Asimismo evalúa sin errores el resultado final obtenido, observando con facilidad destacable y gran precisión las necesidades y retos y valorando, con alta y plena conciencia, las experiencias propias y ajenas con una actitud abierta y respetuosa como proceso de convivencia democrática, respetando con amplia corrección, la diversidad lingüística y cultural presente en su entorno más inmediato."
+        }
+      }
+    ],
+    "segundo": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Reconocer propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP3",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 100,
+        "descriptores": {
+          "Insuficiente": "Reconoce e indica, con incorrecciones, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, comprendiendo e interpretando, de manera poco precisa y con errores significativos, textos orales, escritos, signados o multimodales sencillos y entendiendo, con dificultad y sin detalle, las situaciones históricas y sociales más relevantes relativas a su propia identidad y cultura, a través de la recepción activa y la realización, con dificultad, de búsquedas guiadas y pautadas en internet, con el objetivo de desarrollar la curiosidad y comprender las diferencias lingüísticas y culturales y mostrando interés, de manera ocasional, por sus especificidades e intencionalidades.",
+          "Suficiente/Bien": "Reconoce e indica propuestas artísticas de diferentes géneros, estilos, épocas y culturas, comprendiendo e interpretando textos orales, escritos, signados o multimodales sencillos y entendiendo las situaciones históricas y sociales más relevantes relativas a su propia identidad y cultura, a través de la recepción activa y la realización de búsquedas guiadas y pautadas en internet, con el objetivo de desarrollar la curiosidad y comprender las diferencias lingüísticas y culturales y mostrando interés por sus especificidades e intencionalidades.",
+          "Notable": "Reconoce e indica, con corrección y claridad, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, comprendiendo e interpretando, con precisión, textos orales, escritos, signados o multimodales sencillos y entendiendo, con facilidad y un significativo grado de detalle, las situaciones históricas y sociales más relevantes relativas a su propia identidad y cultura, a través de la recepción activa y la realización, con seguridad y confianza, de búsquedas guiadas y pautadas en internet , con el objetivo de desarrollar la curiosidad y comprender las diferencias lingüísticas y culturales y mostrando interés, de manera regular y constante, por sus especificidades e intencionalidades.",
+          "Sobresaliente": "Reconoce e indica, con total corrección y claridad, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, comprendiendo e interpretando, con un alto grado de precisión, textos orales, escritos, signados o multimodales sencillos y entendiendo, con facilidad destacable y de manera amplia y detallada, las situaciones históricas y sociales más relevantes relativas a su propia identidad y cultura, a través de la recepción activa y la realización, con facilidad, de búsquedas guiadas y pautadas en internet , con el objetivo de desarrollar la curiosidad y comprender las diferencias lingüísticas y culturales y mostrando interés, con máxima constancia y determinación, por sus especificidades e intencionalidades."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Describir manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, explorando sus características con actitud abierta e interés y estableciendo relaciones básicas entre ellas para desarrollar la curiosidad y el respeto por la diversidad.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL2",
+          "CP3",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 101,
+        "descriptores": {
+          "Insuficiente": "Describe, con escasa claridad y adecuación, manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, de forma oral, escrita, signada o multimodal, explorando sus características mediante búsquedas guiadas y pautadas en internet, con actitud abierta e interés, aplicando reglas de convivencia y estableciendo relaciones básicas entre ellas, rara vez, lo que lo limita para participar en contextos cotidianos indicando, con ciertas dificultades, y mostrando escaso interés, tanto por los aspectos fundamentales del patrimonio cultural y artístico, como por sus especificidades e intencionalidades, así como para desarrollar la curiosidad y el respeto por la diversidad cultural y lingüística.",
+          "Suficiente/Bien": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, de forma oral, escrita, signada o multimodal, explorando sus características mediante búsquedas guiadas y pautadas en internet, con actitud abierta e interés, aplicando reglas de convivencia y estableciendo relaciones básicas entre ellas para participar en contextos cotidianos indicando, y mostrando interés, tanto por los aspectos fundamentales del patrimonio cultural y artístico, como por sus especificidades e intencionalidades, así como para desarrollar la curiosidad y el respeto por la diversidad cultural y lingüística.",
+          "Notable": "Describe, con apropiada claridad y adecuación, manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, de forma oral, escrita, signada o multimodal, explorando sus características mediante búsquedas guiadas y pautadas en internet, con actitud abierta e interés, aplicando reglas de convivencia y estableciendo relaciones básicas entre ellas frecuentemente, para participar en contextos cotidianos indicando, con claridad y corrección, y mostrando destacado interés, tanto por los aspectos fundamentales del patrimonio cultural y artístico, como por sus especificidades e intencionalidades, así como para desarrollar la curiosidad y el respeto por la diversidad cultural y lingüística.",
+          "Sobresaliente": "Describe, con gran claridad y adecuación, manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas de forma oral, escrita, signada o multimodal, explorando sus características mediante búsquedas guiadas y pautadas en internet, con actitud abierta e interés, aplicando reglas de convivencia y estableciendo relaciones básicas entre ellas siempre, para participar en contextos cotidianos indicando, con total corrección y precisión, y mostrando mucho interés, tanto por los aspectos fundamentales del patrimonio cultural y artístico, como por sus especificidades e intencionalidades, así como para desarrollar la curiosidad y el respeto por la diversidad cultural y lingüística."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+        "descriptores_operativos": [
+          "CCL3",
+          "CD1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 102,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica estrategias para la búsqueda guiada de información, para localizar, seleccionar y contrastar, con dificultad, y con el debido acompañamiento, información sencilla procedente de dos o más fuentes sobre manifestaciones culturales y artísticas, reconociendo, con ciertas dificultades, e interesándose por sus especificidades e intencionalidades y haciendo uso, de manera insegura, de estrategias sencillas para el tratamiento digital de la información, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias para la búsqueda guiada de información, para localizar, seleccionar y contrastar, con el debido acompañamiento, información sencilla procedente de dos o más fuentes sobre manifestaciones culturales y artísticas, reconociendo e interesándose por sus especificidades e intencionalidades y haciendo uso de estrategias sencillas para el tratamiento digital de la información, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+          "Notable": "Selecciona y aplica estrategias para la búsqueda guiada de información, para localizar, seleccionar y contrastar, con facilidad, y con el debido acompañamiento, información sencilla procedente de dos o más fuentes sobre manifestaciones culturales y artísticas, reconociendo, con corrección en los elementos relevantes, e interesándose por sus especificidades e intencionalidades y haciendo uso, de manera segura, de estrategias sencillas para el tratamiento digital de la información, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar.",
+          "Sobresaliente": "Selecciona y aplica estrategias para la búsqueda guiada de información, para localizar, seleccionar y contrastar, con mucha facilidad, y con el debido acompañamiento, información sencilla procedente de dos o más fuentes sobre manifestaciones culturales y artísticas, reconociendo, con total corrección y precisión, e interesándose por sus especificidades e intencionalidades y haciendo uso, de manera segura y con confianza, de estrategias sencillas para el tratamiento digital de la información, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de cooperar."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Distinguir elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados y analizando sus diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CP3",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 103,
+        "descriptores": {
+          "Insuficiente": "Distingue, con ciertas dificultades e imprecisiones, elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, participando, con acompañamiento puntual, en contextos cotidianos construyendo conocimiento, con problemas para comunicarlo, adoptando un punto de vista creativo, crítico y personal con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados, y analizando sus diferencias y similitudes, con el fin de respetar la diversidad lingüística y cultural presente en su entorno próximo y desarrollar un sentido progresivo de pertenencia e identidad.",
+          "Suficiente/Bien": "Distingue elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, participando en contextos cotidianos construyendo conocimiento, para comunicarlo adoptando un punto de vista creativo, crítico y personal con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados, y analizando sus diferencias y similitudes, con el fin de respetar la diversidad lingüística y cultural presente en su entorno próximo y desarrollar un sentido progresivo de pertenencia e identidad.",
+          "Notable": "Distingue, con facilidad y precisión, elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, participando, de manera progresivamente autónoma, en contextos cotidianos construyendo conocimiento, con facilidad para comunicarlo, adoptando un punto de vista creativo, crítico y personal con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados, y analizando sus diferencias y similitudes, con el fin de respetar la diversidad lingüística y cultural presente en su entorno próximo y desarrollar un sentido progresivo de pertenencia e identidad.",
+          "Sobresaliente": "Distingue, con total facilidad y precisión, elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, participando, con autonomía, en contextos cotidianos construyendo conocimiento, con gran facilidad para comunicarlo, adoptando un punto de vista creativo, crítico y personal con actitud de interés y respeto, indicando los canales, los medios y las técnicas utilizados, y analizando sus diferencias y similitudes, con el fin de respetar la diversidad lingüística y cultural presente en su entorno próximo y desarrollar un sentido progresivo de pertenencia e identidad."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Distinguir las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP3",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 104,
+        "descriptores": {
+          "Insuficiente": "Distingue, con incorrecciones, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para participar, con acompañamiento puntual, activamente en contextos cotidianos, disfrutar de ellas, lo que lo limita para respetar la diversidad lingüística y cultural presente en su entorno próximo y empezar a desarrollar una sensibilidad artística propia.",
+          "Suficiente/Bien": "Distingue las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para participar activamente en contextos cotidianos, disfrutar de ellas, respetar la diversidad lingüística y cultural presente en su entorno próximo y empezar a desarrollar una sensibilidad artística propia.",
+          "Notable": "Distingue, con corrección en los elementos relevantes, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para participar, de manera progresivamente autónoma, y activamente en contextos cotidianos, disfrutar de ellas, respetar, con corrección, la diversidad lingüística y cultural presente en su entorno próximo y empezar a desarrollar una sensibilidad artística propia.",
+          "Sobresaliente": "Distingue, con total corrección y precisión, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para participar, con autonomía, y activamente, en contextos cotidianos, disfrutar de ellas, respetar, con amplia corrección, la diversidad lingüística y cultural presente en su entorno próximo y empezar a desarrollar una sensibilidad artística propia."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Experimentar con los elementos básicos de los distintos lenguajes e instrumentos artísticos, con creatividad y actitud abierta, con el fin de entender sus posibilidades comunicativas y expresivas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 105,
+        "descriptores": {
+          "Insuficiente": "Experimenta, pero con dudas importantes, con los elementos básicos de los distintos lenguajes e instrumentos artísticos y culturales, incluido el uso, con ayuda, de algunas herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, de manera ocasional con el fin de entender sus posibilidades comunicativas y expresivas, explorando y respetando, erróneamente, la diversidad lingüística y cultural presente en su entorno próximo. Para ello explica, con conciencia mínima, las propias emociones e ideas, comenzando a reconocer sus limitaciones, detectando, con dificultad y poca precisión, sus necesidades y desarrollando, de manera ineficaz y limitada, la participación en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Suficiente/Bien": "Experimenta con los elementos básicos de los distintos lenguajes e instrumentos artísticos y culturales, incluido el uso de algunas herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva con el fin de entender sus posibilidades comunicativas y expresivas, explorando y respetando la diversidad lingüística y cultural presente en su entorno próximo. Para ello explica, las propias emociones e ideas, comenzando a reconocer sus limitaciones, detectando sus necesidades y desarrollando la participación en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Notable": "Experimenta, de manera segura y confiada, con los elementos básicos de los distintos lenguajes e instrumentos artísticos y culturales, incluido el uso, de funciones avanzadas, de algunas herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, de manera regular y constante con el fin de entender sus posibilidades comunicativas y expresivas, explorando y respetando, con corrección, la diversidad lingüística y cultural presente en su entorno próximo. Para ello explica, de forma consciente, las propias emociones e ideas, comenzando a reconocer sus limitaciones, detectando, con facilidad y precisión, sus necesidades y desarrollando, de forma activa, la participación en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Sobresaliente": "Experimenta, con total confianza, con los elementos básicos de los distintos lenguajes e instrumentos artísticos y culturales, incluido el uso, de funciones avanzadas, de algunas herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, con máxima constancia y determinación con el fin de entender sus posibilidades comunicativas y expresivas, explorando y respetando, con amplia corrección, la diversidad lingüística y cultural presente en su entorno próximo. Para ello explica, de forma plenamente consciente, las propias emociones e ideas, comenzando a reconocer sus limitaciones, detectando, con facilidad destacable y gran precisión, sus necesidades y desarrollando, activamente, la participación en interacciones comunicativas, con actitud cooperativa y respetuosa."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir obras propias sencillas, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, mostrando confianza en las propias capacidades, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD2",
+          "CD3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 107,
+        "descriptores": {
+          "Insuficiente": "Produce obras propias, utilizando y perfeccionando la ejecución, con incoherencias y dificultad significativa, las posibilidades expresivas del cuerpo, el sonido y la imagen, incluyendo el uso de algunos medios digitales básicos, con una actitud descuidada ante su uso, y la expresión de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, mostrando inseguridad en las propias capacidades. Para lo cual detecta, con dificultad y poca precisión, necesidades y retos que afrontar, utilizando métodos de aprendizaje autorregulado y asume, mostrando desinterés y con nula iniciativa propia, las responsabilidades individuales asignadas empleando, de manera inadecuada, estrategias cooperativas para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo, además, capaz de explicarlas aunque con consciencia mínima.",
+          "Suficiente/Bien": "Produce obras propias, utilizando y perfeccionando la ejecución, las posibilidades expresivas del cuerpo, el sonido y la imagen, incluyendo el uso de algunos medios digitales básicos, con una actitud responsable ante su uso, y la expresión de forma oral, escrita, signada o multimodal con claridad y adecuación, mostrando confianza en las propias capacidades. Para lo cual detecta necesidades y retos que afrontar, utilizando métodos de aprendizaje autorregulado y asume las responsabilidades individuales asignadas, empleando estrategias cooperativas para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo, además, capaz de explicarlas.",
+          "Notable": "Produce obras propias, utilizando y perfeccionando la ejecución, de forma coherente y con facilidad, las posibilidades expresivas del cuerpo, el sonido y la imagen, incluyendo el uso de algunos medios digitales básicos, con una actitud responsable ante su uso, y la expresión de forma oral, escrita, signada o multimodal con apropiada claridad y adecuación, mostrando alta confianza en las propias capacidades. Para lo cual detecta, con facilidad y precisión, necesidades y retos que afrontar, utilizando métodos de aprendizaje autorregulado y asume, con interés y dedicación constantes, las responsabilidades individuales asignadas empleando, con alta adecuación, estrategias cooperativas para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo, además, capaz de explicarlas de forma consciente.",
+          "Sobresaliente": "Produce obras propias, utilizando y perfeccionando la ejecución, de forma clara, coherente y con gran facilidad, las posibilidades expresivas del cuerpo, el sonido y la imagen, incluyendo el uso de algunos medios digitales básicos, con una actitud abierta y responsable ante su uso, y la expresión de forma oral, escrita, signada o multimodal con gran claridad y adecuación, mostrando plena confianza en las propias capacidades. Para lo cual detecta, con facilidad destacable y gran precisión, necesidades y retos que afrontar, utilizando métodos de aprendizaje autorregulado y asume, con pasión y dedicación constantes, las responsabilidades individuales asignadas empleando, con excelente adecuación, estrategias cooperativas para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo, además, capaz de explicarlas de forma plenamente consciente."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar de manera guiada en el diseño de producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final planificado y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 108,
+        "descriptores": {
+          "Insuficiente": "Participa de manera guiada y pautada, pero con dificultades significativas, en el diseño de producciones culturales y artísticas, empleando, con incoherencias, diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales y de solo ciertas funciones básicas de herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa, asumiendo diferentes funciones, de manera ineficaz, limitada e inadecuada, desarrollando la participación de la interacción comunicativa y los procedimientos democráticos, con desinterés, en la consecución de un resultado final planificado que dé respuesta a necesidades y retos. Asimismo reconoce mostrando inseguridad, el valor del esfuerzo y el involucramiento personal, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, planteando ideas y soluciones adaptativas, de forma superficial y con limitaciones, desarrollar la creatividad y el sentido emprendedor.",
+          "Suficiente/Bien": "Participa de manera guiada y pautada en el diseño de producciones culturales y artísticas, empleando diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales y de herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa, asumiendo diferentes funciones, desarrollando la participación de la interacción comunicativa y los procedimientos democráticos, en la consecución de un resultado final planificado que dé respuesta a necesidades y retos. Asimismo reconoce el valor del esfuerzo y el involucramiento personal, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, planteando ideas y soluciones adaptativas, desarrollar la creatividad y el sentido emprendedor.",
+          "Notable": "Participa de manera guiada y pautada, de forma activa, en el diseño de producciones culturales y artísticas, empleando, de forma coherente, diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales y el uso, de forma progresivamente autónoma, de herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa, asumiendo diferentes funciones, con alta adecuación, desarrollando de forma activa la participación de la interacción comunicativa y los procedimientos democráticos, en la consecución de un resultado final planificado que dé respuesta a necesidades y retos. Asimismo reconoce con seguridad, el valor del esfuerzo y el involucramiento personal, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, planteando ideas y soluciones adaptativas, con profundidad, desarrollar la creatividad y el sentido emprendedor.",
+          "Sobresaliente": "Participa de manera guiada y pautada, de forma activa y adaptándose ante la incertidumbre, en el diseño de producciones culturales y artísticas, empleando, con total coherencia, diferentes lenguajes, soportes, las principales técnicas plásticas, visuales, audiovisuales, sonoras o corporales y el uso, notablemente autónomo, de herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa, asumiendo diferentes funciones, activamente y con excelente adecuación, desarrollando, activamente, la participación de la interacción comunicativa y los procedimientos democráticos, en la consecución de un resultado final planificado que dé respuesta a necesidades y retos. Asimismo reconoce con seguridad y plena confianza, el valor del esfuerzo y el involucramiento personal, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, planteando ideas y soluciones adaptativas, con apreciable profundidad, desarrollar la creatividad y el sentido emprendedor."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar en el proceso cooperativo de producciones culturales y art ísticas, con actitud abierta y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 110,
+        "descriptores": {
+          "Insuficiente": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, en el proceso cooperativo de producciones culturales y artísticas con desinterés, utilizando con incoherencias elementos básicos de diferentes lenguajes y técnicas artísticas, y, con ayuda, algunas herramientas digitales, con actitud abierta, inclusiva y respetuosa, incluso adoptando, aunque con conciencia mínima, posturas analíticas. Para ello reconoce con dificultad, necesidades, retos y sus limitaciones, sin buscar ayuda, ni procurar la participación de todo el grupo, ni resolver pacíficamente los conflictos que puedan surgir, iniciándose, con dificultades, en la gestión dialogada de los mismos, siendo incapaz de analizar el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Suficiente/Bien": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, en el proceso cooperativo de producciones culturales y artísticas, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas, así como algunas herramientas digitales, con actitud abierta, inclusiva y respetuosa, incluso adoptando posturas analíticas. Para ello reconoce necesidades, retos y sus limitaciones, sabiendo buscar ayuda y procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, iniciándose en la gestión dialogada de los mismos, siendo capaz de analizar el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Notable": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, en el proceso cooperativo de producciones culturales y artísticas con interés constante y dedicación, utilizando de forma coherente, elementos básicos de diferentes lenguajes y técnicas artísticas, y, las funciones avanzadas de algunas herramientas digitales, con actitud abierta, inclusiva y respetuosa, incluso adoptando, con alta conciencia, posturas analíticas. Para ello reconoce con facilidad y precisión, necesidades, retos y sus limitaciones, buscando ayuda regularmente, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir, iniciándose en la gestión dialogada de los mismos, siendo capaz de analizar el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Sobresaliente": "Participa, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, en el proceso cooperativo de producciones culturales y artísticas con pasión constante y dedicación, utilizando con total coherencia, elementos básicos de diferentes lenguajes y técnicas artísticas, y, las funciones avanzadas de algunas herramientas digitales, con actitud abierta, inclusiva y respetuosa, incluso adoptando, con plena conciencia, posturas analíticas. Para ello reconoce con facilidad destacable y gran precisión, necesidades, retos y sus limitaciones, buscando ayuda de forma continua, procurando la participación de todo el grupo y resolviendo pacíficamente los conflictos que puedan surgir, iniciándose en la gestión dialogada de los mismos, siendo capaz de analizar el proceso realizado, el resultado obtenido y la mejora de la convivencia."
+        }
+      },
+      {
+        "criterio": "4.3",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Compartir los proyectos creativos, empleando estrategias comunicativas básicas, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y ajenas, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 112,
+        "descriptores": {
+          "Insuficiente": "Comparte, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia, los proyectos creativos empleando estrategias comunicativas básicas de forma oral, escrita, signada o multimodal, con escasa claridad y adecuación a diferentes contextos, utilizando diversos medios y soportes básicos, y, con ayuda, algunas herramientas y plataformas virtuales, sin analizar y explicar el proceso realizado. Asimismo evalúa, pero con errores, el resultado final obtenido con procesos de auto y coevaluación, detectando, con dificultad y poca precisión, necesidades y retos, reconociendo, con inseguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, y respetando y valorando, con conciencia mínima, las experiencias propias y ajenas, el valor de la diversidad lingüística y cultural presente en su entorno próximo.",
+          "Suficiente/Bien": "Comparte, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia, los proyectos creativos empleando estrategias comunicativas básicas de forma oral, escrita, signada o multimodal, con claridad y adecuación a diferentes contextos, utilizando diversos medios y soportes básicos, y algunas herramientas y plataformas virtuales, analizando y explicando el proceso realizado. Asimismo evalúa el resultado final obtenido con procesos de auto y coevaluación, detectando necesidades y retos, reconociendo el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, y respetando y valorando las experiencias propias y ajenas, el valor de la diversidad lingüística y cultural presente en su entorno próximo.",
+          "Notable": "Comparte, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia, los proyectos creativos empleando estrategias comunicativas básicas de forma oral, escrita, signada o multimodal, con apropiada claridad y adecuación a diferentes contextos, utilizando diversos medios y soportes básicos, y, funciones avanzadas de, algunas herramientas y plataformas virtuales, analizando y explicando el proceso realizado. Asimismo evalúa, con facilidad, el resultado final obtenido con procesos de auto y coevaluación, detectando, con facilidad y precisión, necesidades y retos, reconociendo, con seguridad, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, y respetando y valorando, con alta conciencia, las experiencias propias y ajenas, el valor de la diversidad lingüística y cultural presente en su entorno próximo.",
+          "Sobresaliente": "Comparte, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia, los proyectos creativos empleando estrategias comunicativas básicas de forma oral, escrita, signada o multimodal, con gran claridad y adecuación a diferentes contextos, utilizando diversos medios y soportes básicos, y, funciones avanzadas de, diferentes herramientas y plataformas virtuales, analizando y explicando el proceso realizado. Asimismo evalúa, con facilidad destacable, el resultado final obtenido con procesos de auto y coevaluación, detectando, con facilidad destacable y gran precisión, necesidades y retos, reconociendo, con seguridad y plena confianza, el valor del esfuerzo y el involucramiento personal para la mejora de su aprendizaje, y respetando y valorando, con muy alta y plena conciencia, las experiencias propias y ajenas, el valor de la diversidad lingüística y cultural presente en su entorno próximo."
+        }
+      }
+    ],
+    "tercer": [
+      {
+        "criterio": "1.1",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Distinguir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa mediante la búsqueda, la escucha, la observación y el visionado, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CP2",
+          "CP3",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 113,
+        "descriptores": {
+          "Insuficiente": "Distingue, con ciertas incorrecciones, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, así como sus procesos históricos y sociales más relevantes, a través de la recepción activa, con dificultad, mediante la escucha, la observación, el visionado, las búsquedas guiadas en internet, el uso de estrategias sencillas para el tratamiento digital de la información y la realización de transferencias sencillas de manera guiada, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales y lingüísticas, para participar activamente en contextos cotidianos y para construir conocimiento.",
+          "Suficiente/Bien": "Distingue propuestas artísticas de diferentes géneros, estilos, épocas y culturas, así como sus procesos históricos y sociales más relevantes, a través de la recepción activa mediante la escucha, la observación, el visionado y las búsquedas guiadas en internet, el uso de estrategias sencillas para el tratamiento digital de la información, y la realización de transferencias sencillas de manera guiada, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales y lingüísticas para participar activamente en contextos cotidianos y construir conocimiento.",
+          "Notable": "Distingue, con corrección, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, así como sus procesos históricos y sociales más relevantes, a través de la recepción activa, con habilidad, mediante la escucha, la observación, el visionado y las búsquedas guiadas en internet, el uso de estrategias sencillas para el tratamiento digital de la información y la realización de transferencias sencillas de manera guiada, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales y lingüísticas para participar activamente en contextos cotidianos y construir conocimiento.",
+          "Sobresaliente": "Distingue, con corrección y precisión, propuestas artísticas de diferentes géneros, estilos, épocas y culturas, así como sus procesos históricos y sociales más relevantes, a través de la recepción activa, con gran habilidad, mediante la escucha, la observación, el visionado y las búsquedas guiadas en internet, el uso de estrategias sencillas para el tratamiento digital de la información y la realización de transferencias sencillas de manera guiada, con el objetivo de desarrollar la curiosidad y comprender las diferencias culturales y lingüísticas para participar activamente en contextos cotidianos y construir conocimiento."
+        }
+      },
+      {
+        "criterio": "1.2",
+        "competencia_especifica": "1",
+        "enunciado_criterio": "Describir manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas, explorando sus características con actitud abierta e interés y estableciendo relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP3",
+          "CD1",
+          "CC1",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 114,
+        "descriptores": {
+          "Insuficiente": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas de forma oral, escrita, signada o multimodal, con escasa claridad y adecuación, explorando, de forma pasiva, sus características, así como sus lenguajes y elementos técnicos, mediante búsquedas guiadas en internet, con actitud abierta e interés limitado, estableciendo, con ciertas incorrecciones, relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad lingüística y cultural presente en su entorno y reflexionar sobre las normas de convivencia, aplicándolas de manera constructiva, dialogante e inclusiva.",
+          "Suficiente/Bien": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas de forma oral, escrita, signada o multimodal, con claridad y adecuación, explorando sus características, así como sus lenguajes y elementos técnicos, mediante búsquedas guiadas en internet, con actitud abierta e interés, estableciendo relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad lingüística y cultural presente en su entorno y reflexionar sobre las normas de convivencia, aplicándolas de manera constructiva, dialogante e inclusiva.",
+          "Notable": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas de forma oral, escrita, signada o multimodal, con apropiada claridad y adecuación, explorando, de forma activa, sus características, así como sus lenguajes y elementos técnicos, mediante búsquedas guiadas en internet, con actitud abierta e interés frecuente, estableciendo, con corrección, relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad lingüística y cultural presente en su entorno y reflexionar sobre las normas de convivencia, aplicándolas de manera constructiva, dialogante e inclusiva",
+          "Sobresaliente": "Describe manifestaciones culturales y artísticas de diferentes géneros, estilos, épocas y culturas de forma oral, escrita, signada o multimodal, con gran claridad y adecuación, explorando, activamente, sus características, así como sus lenguajes y elementos técnicos, mediante búsquedas guiadas en internet, con actitud abierta e interés constante, estableciendo, con total corrección y precisión, relaciones entre ellas para desarrollar la curiosidad y el respeto por la diversidad lingüística y cultural presente en su entorno y reflexionar sobre las normas de convivencia, aplicándolas de manera constructiva, dialogante e inclusiva."
+        }
+      },
+      {
+        "criterio": "2.1",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Seleccionar y aplicar estrategias para la búsqueda de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso, tanto de forma individual como cooperativa, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CD1",
+          "CD4",
+          "CPSAA3",
+          "CPSAA4",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 115,
+        "descriptores": {
+          "Insuficiente": "Selecciona y aplica, de forma ineficaz, estrategias para la búsqueda localización, selección y contraste, con el debido acompañamiento, de información sencilla sobre manifestaciones culturales y artísticas procedente de dos o más fuentes, a través de canales y medios de acceso, realizando búsquedas guiadas en internet y haciendo uso inadecuado de estrategias sencillas para el tratamiento digital de la información, tanto de forma individual como cooperativa, iniciándose, de manera intermitente, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible, lo que le impide desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo, respetando las emociones y experiencias de las demás personas y adoptando posturas críticas en procesos de reflexión guiados así como los aspectos fundamentales del patrimonio cultural y artístico y los lenguajes y elementos técnicos que las caracterizan.",
+          "Suficiente/Bien": "Selecciona y aplica estrategias para la búsqueda localización, selección y contraste, con el debido acompañamiento, de información sencilla sobre manifestaciones culturales y artísticas procedente de dos o más fuentes, a través de canales y medios de acceso, realizando búsquedas guiadas en internet y haciendo uso de estrategias sencillas para el tratamiento digital de la información, tanto de forma individual como cooperativa, iniciándose en la adopción de hábitos de uso crítico, seguro, saludable y sostenible, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo, respetando las emociones y experiencias de las demás personas y adoptando posturas críticas en procesos de reflexión guiados, así como los aspectos fundamentales del patrimonio cultural y artístico y los lenguajes y elementos técnicos que las caracterizan.",
+          "Notable": "Selecciona y aplica, con eficacia, estrategias para la búsqueda localización, selección y contraste, con el debido acompañamiento, de información sencilla sobre manifestaciones culturales y artísticas procedente de dos o más fuentes, a través de canales y medios de acceso, realizando búsquedas guiadas en internet y haciendo uso muy adecuado de estrategias sencillas para el tratamiento digital de la información, tanto de forma individual como cooperativa, iniciándose, con compromiso sostenido, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo, respetando las emociones y experiencias de las demás personas y adoptando posturas críticas en procesos de reflexión guiados, así como los aspectos fundamentales del patrimonio cultural y artístico y los lenguajes y elementos técnicos que las caracterizan.",
+          "Sobresaliente": "Selecciona y aplica, con gran eficacia, estrategias para la búsqueda localización, selección y contraste, con el debido acompañamiento, de información sencilla sobre manifestaciones culturales y artísticas procedente de dos o más fuentes, a través de canales y medios de acceso, realizando búsquedas guiadas en internet y haciendo uso, con alta adecuación, de estrategias sencillas para el tratamiento digital de la información, tanto de forma individual como cooperativa, iniciándose, con notable compromiso, en la adopción de hábitos de uso crítico, seguro, saludable y sostenible, con el fin de desarrollar un pensamiento propio, la autoconfianza y la capacidad de trabajar en equipo, respetando las emociones y experiencias de las demás personas y adoptando posturas críticas en procesos de reflexión guiados, así como los aspectos fundamentales del patrimonio cultural y artístico y los lenguajes y elementos técnicos que las caracterizan."
+        }
+      },
+      {
+        "criterio": "2.2",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Comparar el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, con el fin de desarrollar un sentido progresivo de pertenencia e identidad.",
+        "descriptores_operativos": [
+          "CCL2",
+          "CCL3",
+          "CP3",
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 117,
+        "descriptores": {
+          "Insuficiente": "Compara, con dificultad, el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, reconociendo y comprendiendo, con consciencia mínima, su valor como factor de diálogo y la necesidad de respetar diferentes culturas y creencias con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, localizando, seleccionando y contrastando, con dificultades relevantes, información sencilla procedente de dos o más fuentes con el debido acompañamiento, lo que le impide desarrollar un sentido progresivo de pertenencia e identidad, adoptando posturas críticas en procesos de reflexión guiados, con consciencia mínima, para participar activamente en contextos cotidianos y para construir conocimiento.",
+          "Suficiente/Bien": "Compara el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, reconociendo y comprendiendo su valor como factor de diálogo y la necesidad de respetar diferentes culturas y creencias con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, localizando, seleccionando y contrastando, información sencilla procedente de dos o más fuentes con el debido acompañamiento, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, adoptando posturas críticas en procesos de reflexión guiados, para participar activamente en contextos cotidianos y para construir conocimiento.",
+          "Notable": "Compara, con facilidad, el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, reconociendo y comprendiendo, de forma consciente, su valor como factor de diálogo y la necesidad de respetar diferentes culturas y creencias con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, localizando, seleccionando y contrastando, con facilidad, información sencilla procedente de dos o más fuentes con el debido acompañamiento, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, adoptando posturas críticas en procesos de reflexión guiados, con alta consciencia, para participar activamente en contextos cotidianos y para construir conocimiento.",
+          "Sobresaliente": "Compara, con gran facilidad, el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio de Canarias y de otras culturas, reconociendo y comprendiendo, con plena consciencia, su valor como factor de diálogo y la necesidad de respetar diferentes culturas y creencias con actitud abierta y respetuosa, analizando los canales, los medios y las técnicas vinculados a ellas, así como sus diferencias y similitudes, localizando, seleccionando y contrastando, con gran facilidad, información sencilla procedente de dos o más fuentes con el debido acompañamiento, con el fin de desarrollar un sentido progresivo de pertenencia e identidad, adoptando posturas críticas en procesos de reflexión guiados, con plena consciencia, para participar activamente en contextos cotidianos y para construir conocimiento."
+        }
+      },
+      {
+        "criterio": "2.3",
+        "competencia_especifica": "2",
+        "enunciado_criterio": "Valorar las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir de su análisis y comprensión, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia.",
+        "descriptores_operativos": [
+          "CP3",
+          "CPSAA4",
+          "CC3",
+          "CCEC1",
+          "CCEC2"
+        ],
+        "pagina_pdf": 119,
+        "descriptores": {
+          "Insuficiente": "Valora, de forma irreflexiva, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, comprendiendo superficialmente y respetando las diferencias lingüísticas y culturales y adoptando posturas críticas en procesos de reflexión guiados, a partir de su análisis, comprensión, reflexión y diálogo, identificando erróneamente los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia, rechazando, con consciencia mínima, prejuicios y estereotipos, para mejorar la convivencia.",
+          "Suficiente/Bien": "Valora las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, comprendiendo y respetando las diferencias lingüísticas y culturales y adoptando posturas críticas en procesos de reflexión guiados, a partir de su análisis, comprensión, reflexión y diálogo, identificando los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia, rechazando prejuicios y estereotipos, para mejorar la convivencia.",
+          "Notable": "Valora, de forma consciente, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, comprendiendo, de manera fundamental, y respetando las diferencias lingüísticas y culturales y adoptando posturas críticas en procesos de reflexión guiados, a partir de su análisis, comprensión, reflexión y diálogo, identificando, con corrección, los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia, rechazando, de manera plenamente consciente, prejuicios y estereotipos, para mejorar la convivencia.",
+          "Sobresaliente": "Valora, de modo plenamente consciente, las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, comprendiendo, con destacable profundidad, y respetando las diferencias lingüísticas y culturales y adoptando posturas críticas en procesos de reflexión guiados, a partir de su análisis, comprensión, reflexión y diálogo, identificando, con total corrección y precisión, los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan, para disfrutar de ellas y empezar a desarrollar una sensibilidad artística propia, rechazando, con deliberación, prejuicios y estereotipos, para mejorar la convivencia."
+        }
+      },
+      {
+        "criterio": "3.1",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Experimentar con los elementos de los distintos lenguajes e instrumentos artísticos, con creatividad y actitud crítica y abierta, con el fin de entender sus posibilidades comunicativas y expresivas.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CP3",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 120,
+        "descriptores": {
+          "Insuficiente": "Experimenta con dudas importantes con los elementos de los distintos lenguajes e instrumentos artísticos, incluido el uso de diferentes herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, respetando la diversidad lingüística y cultural presente en su entorno, de forma ocasional lo que le limita para entender sus posibilidades comunicativas y expresivas, siendo consciente de las propias emociones e ideas, reconociendo sus limitaciones y necesidades, respetando las de los demás en el trabajo activo en grupo y participando en interacciones comunicativas, con actitud cooperativa y respetuosa, mínimamente y de manera ineficaz.",
+          "Suficiente/Bien": "Experimenta con los elementos de los distintos lenguajes e instrumentos artísticos, incluido el uso de diferentes herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, respetando la diversidad lingüística y cultural presente en su entorno, con el fin de entender sus posibilidades comunicativas y expresivas, siendo consciente de las propias emociones e ideas, reconociendo sus limitaciones y necesidades, respetando las de los demás en el trabajo activo en grupo y participando en interacciones comunicativas, con actitud cooperativa y respetuosa.",
+          "Notable": "Experimenta de manera segura y confiada con los elementos de los distintos lenguajes e instrumentos artísticos, incluido el uso de diferentes herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, respetando la diversidad lingüística y cultural presente en su entorno, de forma regular y constante con el fin de entender sus posibilidades comunicativas y expresivas, siendo consciente de las propias emociones e ideas, reconociendo sus limitaciones y necesidades, respetando las de los demás en el trabajo activo en grupo y participando en interacciones comunicativas, con actitud cooperativa y respetuosa, activa y de manera eficaz.",
+          "Sobresaliente": "Experimenta con total confianza con los elementos de los distintos lenguajes e instrumentos artísticos, incluido el uso de diferentes herramientas digitales y plataformas virtuales, con creatividad y actitud crítica, abierta e inclusiva, respetando la diversidad lingüística y cultural presente en su entorno, con máxima constancia con el fin de entender sus posibilidades comunicativas y expresivas, siendo consciente de las propias emociones e ideas, reconociendo sus limitaciones y necesidades, respetando las de los demás en el trabajo activo en grupo y participando en interacciones comunicativas, con actitud cooperativa y respetuosa, activamente y de manera muy eficaz."
+        }
+      },
+      {
+        "criterio": "3.2",
+        "competencia_especifica": "3",
+        "enunciado_criterio": "Producir obras propias, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, y mostrando confianza en las propias capacidades y perfeccionando la ejecución, para expresar y comunicar de manera creativa ideas, sentimientos y emociones.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CD2",
+          "CD3",
+          "CPSAA1",
+          "CPSAA3",
+          "CPSAA5",
+          "CE1",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 121,
+        "descriptores": {
+          "Insuficiente": "Produce obras propias, utilizando con incoherencia las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, con una actitud poco abierta y responsable ante su uso, incluyendo la expresión de forma oral, escrita, signada o multimodal con escasa claridad y adecuación, y mostrando poca confianza en las propias capacidades. Para lo cual reconoce, aunque con dificultad y poca precisión, necesidades y retos que afrontar, y perfeccionando con dificultad significativa la ejecución, utilizando de manera inadecuada estrategias de aprendizaje autorregulado, asumiendo con desinterés y con nula iniciativa propia las responsabilidades individuales asignadas y empleando de manera inadecuada estrategias cooperativas dirigidas a la consecución de objetivos compartidos, lo que le impide expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo mínimamente consciente de ellas.",
+          "Suficiente/Bien": "Produce obras propias, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, con una actitud abierta y responsable ante su uso, incluyendo la expresión de forma oral, escrita, signada o multimodal con claridad y adecuación, y mostrando confianza en las propias capacidades. Para lo cual reconoce necesidades y retos que afrontar, y perfeccionando la ejecución, utilizando estrategias de aprendizaje autorregulado, asumiendo las responsabilidades individuales asignadas y empleando estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo consciente de ellas.",
+          "Notable": "Produce obras propias, utilizando de forma coherente las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, con una actitud muy abierta y responsable ante su uso, incluyendo la expresión de forma oral, escrita, signada o multimodal con bastante claridad y adecuación, y mostrando alta confianza en las propias capacidades. Para lo cual reconoce con facilidad y precisión, necesidades y retos que afrontar, y perfeccionando con facilidad la ejecución, utilizando con alta adecuación estrategias de aprendizaje autorregulado, asumiendo con interés y dedicación constantes las responsabilidades individuales asignadas y empleando con alta adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo altamente consciente de ellas.",
+          "Sobresaliente": "Produce obras propias, utilizando con total coherencia las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales, con una actitud plenamente abierta y responsable ante su uso incluyendo la expresión de forma oral, escrita, signada o multimodal con gran claridad y adecuación, a diferentes contextos cotidianos, y mostrando plena confianza en las propias capacidades. Para lo cual reconoce con facilidad destacable y gran precisión, necesidades y retos que afrontar, y perfeccionando con facilidad destacable la ejecución, utilizando con excelente adecuación estrategias de aprendizaje autorregulado, asumiendo con pasión y dedicación constantes las responsabilidades individuales asignadas y empleando con excelente adecuación estrategias cooperativas dirigidas a la consecución de objetivos compartidos, para expresar y comunicar de manera creativa ideas, sentimientos y emociones, siendo plenamente consciente de ellas."
+        }
+      },
+      {
+        "criterio": "4.1",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Planificar y diseñar producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad, para desarrollar la creatividad y el sentido emprendedor.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 123,
+        "descriptores": {
+          "Insuficiente": "Planifica y diseña de forma inadecuada producciones culturales y artísticas, empleando con incoherencias distintos lenguajes, soportes, diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales y diferentes herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa con una actitud abierta e inclusiva, en la toma de decisiones y en la consecución de un resultado final, creativo y con un objetivo concreto que dé respuesta a necesidades y retos, con desinterés. Asimismo asume de manera inadecuada y limitada diferentes funciones, el valor del esfuerzo y la dedicación personal, la interacción comunicativa y la convivencia, y los procedimientos democráticos, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, lo que lo limita para, desarrollar la creatividad y el sentido emprendedor.",
+          "Suficiente/Bien": "Planifica y diseña producciones culturales y artísticas, utilizando distintos lenguajes, soportes, diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales y diferentes herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa con una actitud abierta e inclusiva, en la toma de decisiones y en la consecución de un resultado final, creativo y con un objetivo concreto, que dé respuesta a necesidades y retos. Asimismo asume diferentes funciones, el valor del esfuerzo y la dedicación personal, la interacción comunicativa y la convivencia, y los procedimientos democráticos, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, desarrollar la creatividad y el sentido emprendedor.",
+          "Notable": "Planifica y diseña producciones culturales y artísticas de forma muy adecuada, empleando de manera coherente distintos lenguajes, soportes, diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales y uso avanzado de diferentes herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa con una actitud abierta e inclusiva en la toma de decisiones y en la consecución de un resultado final, creativo y con un objetivo concreto que dé respuesta a necesidades y retos, con interés y dedicación constantes. Asimismo asume de manera adecuada y activa diferentes funciones, el valor del esfuerzo y la dedicación personal, la interacción comunicativa y la convivencia, y los procedimientos democráticos, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, desarrollar la creatividad y el sentido emprendedor.",
+          "Sobresaliente": "Planifica y diseña producciones culturales y artísticas con gran adecuación, empleando con total coherencia distintos lenguajes, soportes, diversas técnicas plásticas, visuales, audiovisuales, sonoras o corporales y uso muy avanzado de diferentes herramientas o plataformas virtuales. Para ello trabaja de forma cooperativa con una actitud abierta e inclusiva en la toma de decisiones y en la consecución de un resultado final, creativo y con un objetivo concreto que dé respuesta a necesidades y retos, con pasión y dedicación constantes. Asimismo asume de manera muy adecuada y plenamente activa diferentes funciones, el valor del esfuerzo y la dedicación personal, la interacción comunicativa y la convivencia, y los procedimientos democráticos, desde la igualdad y el respeto a la diversidad, incluida la lingüística y cultural de su entorno, para, desarrollar la creatividad y el sentido emprendedor."
+        }
+      },
+      {
+        "criterio": "4.2",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Participar activamente en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta y respetuosa, utilizando elementos de diferentes lenguajes y técnicas artísticas, con el fin de desarrollar la aceptación y comprensión del trabajo cooperativo.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "CP3",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 125,
+        "descriptores": {
+          "Insuficiente": "Participa con desinterés en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta, inclusiva y respetuosa, incluso adoptando con conciencia mínima posturas críticas, utilizando con incoherencias elementos de diferentes lenguajes y técnicas artísticas, también el uso poco adecuado de diferentes herramientas digitales. Para ello reconoce con dificultad y poca precisión necesidades, retos y sus limitaciones, sin saber buscar ayuda, sin procurar la participación de todo el grupo y sin participar en la resolución pacífica y dialogada de los conflictos que puedan surgir, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, y valorando de manera inadecuada el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Suficiente/Bien": "Participa activamente en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta, inclusiva y respetuosa, incluso adoptando posturas críticas, utilizando elementos de diferentes lenguajes y técnicas artísticas, también el uso diferentes herramientas digitales. Para ello reconoce necesidades, retos y sus limitaciones, sabiendo buscar ayuda, procurando la participación de todo el grupo y resolviendo de forma pacífica y dialogada los conflictos que puedan surgir, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, y valorando el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Notable": "Participa con interés y dedicación constantes en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta, inclusiva y respetuosa, incluso adoptando con alta conciencia posturas críticas, utilizando de forma coherente elementos de diferentes lenguajes y técnicas artísticas, también el uso de diferentes herramientas digitales. Para ello reconoce con facilidad y precisión necesidades, retos y sus limitaciones, sabiendo buscar ayuda regularmente, procurando activamente la participación de todo el grupo y resolviendo de forma pacífica y dialogada los conflictos que puedan surgir, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, y valorando con alta adecuación el proceso realizado, el resultado obtenido y la mejora de la convivencia.",
+          "Sobresaliente": "Participa con pasión y dedicación constantes en el proceso cooperativo de producciones culturales y artísticas, con actitud abierta, inclusiva y respetuosa, incluso adoptando con plena conciencia posturas críticas, utilizando con total coherencia elementos de diferentes lenguajes y técnicas artísticas, también el uso de diferentes herramientas digitales. Para ello reconoce con facilidad destacable y gran precisión necesidades, retos y sus limitaciones, sabiendo buscar ayuda de forma continua, procurando de forma activa y con determinación la participación de todo el grupo y resolviendo de forma pacífica y dialogada los conflictos que puedan surgir, con el fin de desarrollar la aceptación, respeto y comprensión del trabajo cooperativo como procedimiento democrático y oportunidad de creación de vínculos personales, y valorando con excelente adecuación el proceso realizado, el resultado obtenido y la mejora de la convivencia."
+        }
+      },
+      {
+        "criterio": "4.3",
+        "competencia_especifica": "4",
+        "enunciado_criterio": "Compartir los proyectos creativos, empleando diferentes estrategias comunicativas y a través de diversos medios, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y ajenas, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.",
+        "descriptores_operativos": [
+          "CCL1",
+          "CCL5",
+          "STEM3",
+          "CD2",
+          "CD3",
+          "CPSAA4",
+          "CPSAA5",
+          "CC2",
+          "CE1",
+          "CE3",
+          "CCEC3",
+          "CCEC4"
+        ],
+        "pagina_pdf": 127,
+        "descriptores": {
+          "Insuficiente": "Comparte los proyectos creativos, empleando diferentes estrategias comunicativas de forma oral, escrita, signada o multimodal, con escasa claridad y adecuación a diferentes contextos y a través de diversos medios y soportes, incluidas las herramientas y los entornos digitales con poca adecuación, sin explicar el proceso realizado. Asimismo evalúa el resultado final obtenido con una mínima iniciativa en procesos de auto y coevaluación, reconociendo, mostrando inseguridad, el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje y respetando y valorando con conciencia mínima las experiencias propias y ajenas y el valor de la diversidad, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.",
+          "Suficiente/Bien": "Comparte los proyectos creativos, empleando diferentes estrategias comunicativas de forma oral, escrita, signada o multimodal, con claridad y adecuación a diferentes contextos y a través de diversos medios y soportes, incluidas las herramientas y entornos digitales, explicando el proceso realizado. Asimismo evalúa el resultado final obtenido con procesos de auto y coevaluación, reconociendo el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje y respetando y valorando las experiencias propias y ajenas y el valor de la diversidad, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.",
+          "Notable": "Comparte los proyectos creativos, empleando diferentes estrategias comunicativas de forma oral, escrita, signada o multimodal, con apropiada claridad y adecuación a diferentes contextos y a través de diversos medios y soportes, incluidas las funciones avanzadas de herramientas y entornos digitales, explicando el proceso realizado. Asimismo evalúa el resultado final obtenido con iniciativa propia en procesos de auto y coevaluación, reconociendo, con seguridad, el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje y respetando y valorando con deliberación las experiencias propias y ajenas y el valor de la diversidad, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia.",
+          "Sobresaliente": "Comparte los proyectos creativos, empleando diferentes estrategias comunicativas de forma oral, escrita, signada o multimodal, con gran claridad y adecuación a diferentes contextos y a través de diversos medios y soportes, incluidas las funciones avanzadas de herramientas y entornos digitales, explicando el proceso realizado. Asimismo evalúa el resultado final obtenido con constante iniciativa propia en procesos de auto y coevaluación, reconociendo, con seguridad y plena confianza, el valor del esfuerzo y la dedicación personal para la mejora de su aprendizaje y respetando y valorando con conciencia crítica las experiencias propias y ajenas y el valor de la diversidad, como estrategia para el desarrollo de la creatividad, la noción de autoría y el sentido de pertenencia."
+        }
+      }
+    ]
+  }
+}
