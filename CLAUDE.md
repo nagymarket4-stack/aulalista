@@ -12,6 +12,10 @@ Generador de situaciones de aprendizaje, rúbricas y adaptaciones DUA (LOMLOE) p
 - `python3 build.py` regenera `dist/prototipo.html`, `produccion/public/*` y `produccion/src/prompts.mjs`. Ejecútalo tras cualquier cambio en `shared/`.
 - `produccion/src/worker.js`: backend Cloudflare Worker sin dependencias (KV, Anthropic API en streaming, Stripe, leads).
 
+## Conocimiento normativo
+- Lee `docs/README.md` antes de tocar prompts: jerarquía normativa, ficha del Decreto 211/2022, programación didáctica y situaciones de aprendizaje.
+- Datos verificados de numeración de criterios en `docs/normativa/02-canarias-decreto-211-2022.md`.
+
 ## Reglas
 - Nunca inventar números de decreto ni de criterio. Un decreto solo se cita si `verificado: true` y se ha comprobado en la fuente oficial.
 - Nunca pedir ni almacenar datos personales de alumnado.

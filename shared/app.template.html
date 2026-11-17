@@ -75,6 +75,7 @@
       <button class="tab on" data-mode="sa">Situación de aprendizaje</button>
       <button class="tab" data-mode="rubrica">Rúbrica</button>
       <button class="tab" data-mode="adaptacion">Adaptación DUA</button>
+      <button class="tab" data-mode="pd">Programación</button>
       <button class="tab" data-mode="historial">Mis documentos</button>
     </div>
 
@@ -94,6 +95,7 @@
       <label class="f-sa">Otras áreas implicadas (opcional)<input id="otras" placeholder="Ej.: Matemáticas, Educación Artística"></label>
       <label class="f-sa">Producto final (opcional)<input id="producto" placeholder="Ej.: guía ilustrada para visitantes"></label>
 
+      <label class="f-pd hidden">Número de situaciones de aprendizaje<select id="numSA"><option>6</option><option>7</option><option selected>8</option><option>9</option><option>10</option><option>12</option></select></label>
       <label class="f-rubrica hidden">Criterios a evaluar (opcional)<input id="criterios" placeholder="Ej.: 1.1, 2.3, 4.2 — o déjalo vacío"></label>
       <label class="f-rubrica hidden">Niveles de logro<select id="niveles"><option value="4">4 niveles (En inicio → Avanzado)</option><option value="5">5 niveles (IN, SU, BI, NT, SB)</option></select></label>
 
@@ -105,7 +107,7 @@
         <option>Discapacidad visual</option><option>Discapacidad motora</option><option>Desfase curricular de 2 o más cursos</option>
       </select></label>
 
-      <label class="f-sa f-adaptacion">Contexto u observaciones (opcional)<textarea id="contexto" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
+      <label class="f-sa f-adaptacion f-pd">Contexto u observaciones (opcional)<textarea id="contexto" placeholder="Ej.: 24 alumnos, 3 con NEAE, centro rural, poca disponibilidad de tablets"></textarea></label>
 
       <p class="notice">No escribas nombres ni datos personales del alumnado. Usa perfiles anónimos.</p>
       <button class="btn" id="go" type="submit">Generar</button>
@@ -162,15 +164,16 @@
     areasDe($('ccaa').value, $('curso').value).forEach(a => $('area').add(new Option(a, a)));
     if ([...$('area').options].some(o => o.value === prev)) $('area').value = prev;
   }
-  $('ccaa').onchange = () => { fillAreas(); remember(); };
+  $('ccaa').onchange = () => { fillAreas(); $('duracion').value = sesionPorDefecto($('ccaa').value); remember(); };
   $('curso').onchange = () => { fillAreas(); remember(); };
   $('area').onchange = remember;
   function remember(){ try{ localStorage.setItem('al-prefs', JSON.stringify({ccaa:$('ccaa').value,curso:$('curso').value,area:$('area').value})); }catch(e){} }
   try{ const p = JSON.parse(localStorage.getItem('al-prefs')||'null'); if(p){ $('ccaa').value=p.ccaa; $('curso').value=p.curso; fillAreas(); $('area').value=p.area; } else { $('curso').value='3º'; fillAreas(); } }catch(e){ fillAreas(); }
+  $('duracion').value = sesionPorDefecto($('ccaa').value);
 
   // ---------- Tabs ----------
-  const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar' };
-  const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela' };
+  const LABELS = { sa:'Tema o reto', rubrica:'Tarea o producto a evaluar', adaptacion:'Actividad o situación de aprendizaje a adaptar', pd:'Hilo conductor (opcional)' };
+  const PH = { sa:'Ej.: Cuidamos los charcos de marea de nuestra costa', rubrica:'Ej.: exposición oral sobre un animal endémico', adaptacion:'Pega aquí la actividad o descríbela', pd:'Ej.: Exploradores de las islas: un viaje por Canarias' };
   document.querySelectorAll('.tab').forEach(b => b.onclick = () => {
     document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === b));
     mode = b.dataset.mode;
@@ -178,9 +181,10 @@
     $('form').classList.toggle('hidden', hist);
     $('historial').classList.toggle('hidden', !hist);
     if (hist) { renderHistory(); return; }
-    document.querySelectorAll('.f-sa,.f-rubrica,.f-adaptacion').forEach(el => el.classList.toggle('hidden', !el.classList.contains('f-' + mode)));
+    document.querySelectorAll('.f-sa,.f-rubrica,.f-adaptacion,.f-pd').forEach(el => el.classList.toggle('hidden', !el.classList.contains('f-' + mode)));
     $('temaLabel').textContent = LABELS[mode];
     $('tema').placeholder = PH[mode];
+    $('tema').required = mode !== 'pd';
   });
 
   // ---------- Markdown ----------
@@ -277,9 +281,9 @@
   function datos(){
     return { ccaa:$('ccaa').value, curso:$('curso').value, area:$('area').value, tema:$('tema').value.trim(),
       sesiones:$('sesiones').value, duracion:$('duracion').value, otras:$('otras').value.trim(), producto:$('producto').value.trim(),
-      contexto:$('contexto').value.trim(), criterios:$('criterios').value.trim(), niveles:$('niveles').value, perfil:$('perfil').value };
+      contexto:$('contexto').value.trim(), criterios:$('criterios').value.trim(), niveles:$('niveles').value, perfil:$('perfil').value, numSA:$('numSA').value };
   }
-  const TIPO = { sa:'Situación de aprendizaje', rubrica:'Rúbrica', adaptacion:'Adaptación DUA' };
+  const TIPO = { sa:'Situación de aprendizaje', rubrica:'Rúbrica', adaptacion:'Adaptación DUA', pd:'Programación didáctica' };
   function tituloDe(text, d){
     const m = text.match(/^#{1,3}\s+(?:1\.\s*Identificación\s*$)?(.+)$/m);
     const t = (text.match(/\*\*T[íi]tulo:?\*\*:?\s*(.+)/) || [])[1] || (m && !/Identificación/.test(m[1]) ? m[1] : '') || d.tema;
@@ -297,13 +301,13 @@
     e.preventDefault();
     if (busy) return;
     const d = datos();
-    if (!d.tema) { toast('Describe el tema o la actividad'); return; }
+    if (!d.tema && mode !== 'pd') { toast('Describe el tema o la actividad'); return; }
     if (/\b(se llama|llamad[oa]|nombre del alumno|DNI)\b/i.test(d.contexto + ' ' + d.tema)) {
       if (!window.__alAvisoNombres) { window.__alAvisoNombres = true; toast('Parece que hay datos personales. Quítalos y vuelve a pulsar Generar.'); return; }
     }
     const check = await Engine.canGenerate();
     if (!check.ok) { $('status').textContent = check.message; toast(check.message); return; }
-    const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : promptAdaptacion(d);
+    const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : mode === 'pd' ? promptPD(d) : promptAdaptacion(d);
     current = null; controller = new AbortController(); setBusy(true);
     $('status').textContent = 'Generando…';
     $('doc').innerHTML = '<div class="empty"><p>Pensando la estructura y alineando con el currículo…</p></div>';

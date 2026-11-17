@@ -1,6 +1,6 @@
 # AulaLista: sistema completo
 
-Generador de situaciones de aprendizaje, rúbricas y adaptaciones DUA alineadas con el currículo LOMLOE de cada comunidad autónoma. "AulaLista" es un nombre provisional: antes de comprar el dominio, comprueba que está libre (dominio y marca en la OEPM).
+Generador de situaciones de aprendizaje, rúbricas, adaptaciones DUA y programaciones didácticas alineadas con el currículo LOMLOE de cada comunidad autónoma. "AulaLista" es un nombre provisional: antes de comprar el dominio, comprueba que está libre (dominio y marca en la OEPM).
 
 ## Qué hay en cada carpeta
 
@@ -12,6 +12,7 @@ Generador de situaciones de aprendizaje, rúbricas y adaptaciones DUA alineadas 
 | `produccion/src/worker.js` | Backend (Cloudflare Worker) | IA, cupo gratuito, licencias Pro, leads y webhook de Stripe |
 | `produccion/src/prompts.mjs` | Datos curriculares y prompts | El "foso": aquí se mejora la calidad |
 | `shared/` | Código fuente común | Se edita aquí y se ejecuta `python3 build.py` |
+| `docs/` | Conocimiento normativo y didáctico | Base de los prompts y del futuro RAG |
 
 ## Arquitectura
 

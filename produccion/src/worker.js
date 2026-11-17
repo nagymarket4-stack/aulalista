@@ -8,7 +8,7 @@
 //   GET  /api/admin/leads?token=...       → exporta leads en CSV (solo tú)
 // Todo lo demás lo sirve el directorio de assets estáticos (public/).
 
-import { promptSA, promptRubrica, promptAdaptacion, CCAA, CURSOS } from './prompts.mjs';
+import { promptSA, promptRubrica, promptAdaptacion, promptPD, CCAA, CURSOS } from './prompts.mjs';
 
 const FREE_LIMIT = 3;
 const json = (obj, status = 200, extra = {}) =>
@@ -48,10 +48,10 @@ async function generate(req, env) {
   let body;
   try { body = await req.json(); } catch (e) { return json({ message: 'Petición no válida' }, 400); }
   const { mode, d } = body || {};
-  if (!d || !['sa', 'rubrica', 'adaptacion'].includes(mode)) return json({ message: 'Petición no válida' }, 400);
+  if (!d || !['sa', 'rubrica', 'adaptacion', 'pd'].includes(mode)) return json({ message: 'Petición no válida' }, 400);
   if (!CCAA.some(c => c.id === d.ccaa) || !CURSOS.includes(d.curso)) return json({ message: 'Comunidad o curso no válidos' }, 400);
   const total = JSON.stringify(d).length;
-  if (total > 6000 || !String(d.tema || '').trim()) return json({ message: 'Texto demasiado largo o vacío' }, 400);
+  if (total > 6000 || (mode !== 'pd' && !String(d.tema || '').trim())) return json({ message: 'Texto demasiado largo o vacío' }, 400);
 
   const lic = await checkLicense(req, env);
   let used = 0;
@@ -71,7 +71,7 @@ async function generate(req, env) {
     await env.KV.put(k, String(n + 1), { expirationTtl: 60 * 60 * 48 });
   }
 
-  const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : promptAdaptacion(d);
+  const prompt = mode === 'sa' ? promptSA(d) : mode === 'rubrica' ? promptRubrica(d) : mode === 'pd' ? promptPD(d) : promptAdaptacion(d);
   const upstream = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -81,7 +81,7 @@ async function generate(req, env) {
     },
     body: JSON.stringify({
       model: env.MODEL || 'claude-sonnet-5-5',
-      max_tokens: mode === 'sa' ? 8000 : 4000,
+      max_tokens: mode === 'pd' ? 16000 : mode === 'sa' ? 8000 : 4000,
       stream: true,
       messages: [{ role: 'user', content: prompt }]
     })
