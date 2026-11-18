@@ -1,0 +1,604 @@
+{
+  "area": "Valenciano: Lengua y Literatura",
+  "fuente": "Decreto 106/2022, de 5 de agosto, del Consell (DOGV n.º 9402, de 10/08/2022, págs. 41162-41667 aprox.), anexo III, versión en castellano. Texto extraído mediante WebFetch de una copia del PDF del DOGV alojada en portal.edu.gva.es (dogv.gva.es bloquea la descarga automática por robots.txt); sin cotejar. El apartado 6 (criterios de evaluación) de todas las áreas fue sustituido por el Decreto 96/2026, de 19 de junio (DOGV n.º 10391, de 25/06/2026), que no se ha podido leer en fuente oficial",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Reconocer la diversidad lingüística y cultural de la Comunitat Valenciana, de España y del mundo, a través del contacto con las lenguas del alumnado y del entorno; evitar prejuicios lingüísticos, y valorar esta diversidad como una riqueza cultural.",
+      "resumen": "Multilingüismo e interculturalidad"
+    },
+    {
+      "id": "C2",
+      "enunciado": "Comprender, interpretar y valorar, de manera guiada, textos orales y multimodales propios de los ámbitos personal, social y educativo, a través de la escucha activa, la aplicación de estrategias de comprensión oral y la reflexión sobre el contenido y la forma.",
+      "resumen": "Comprensión oral y multimodal"
+    },
+    {
+      "id": "C3",
+      "enunciado": "Comprender, interpretar y valorar, de manera guiada, textos escritos y multimodales propios de los ámbitos personal, social y educativo, a través de la lectura de textos, la aplicación de estrategias de comprensión lectora y la reflexión sobre el contenido y la forma.",
+      "resumen": "Comprensión escrita y multimodal"
+    },
+    {
+      "id": "C4",
+      "enunciado": "Producir, de manera guiada, mensajes orales sencillos con coherencia, cohesión y adecuación a través de situaciones de comunicación de los ámbitos familiar, social y educativo.",
+      "resumen": "Expresión oral"
+    },
+    {
+      "id": "C5",
+      "enunciado": "Producir, de manera guiada, textos escritos y multimodales adecuados y coherentes con un vocabulario apropiado, utilizando estrategias básicas de planificación, textualización, revisión y edición.",
+      "resumen": "Expresión escrita y multimodal"
+    },
+    {
+      "id": "C6",
+      "enunciado": "Interactuar de forma oral, escrita y multimodal, a través de textos sencillos de los ámbitos personal, social y educativo, utilizando un lenguaje respetuoso y estrategias básicas de comprensión, expresión y resolución dialogada de conflictos, de manera síncrona y asíncrona.",
+      "resumen": "Interacción oral, escrita y multimodal"
+    },
+    {
+      "id": "C7",
+      "enunciado": "Mediar entre interlocutores utilizando estrategias de adaptación y simplificación del lenguaje para procesar y transmitir información básica y sencilla en situaciones comunicativas predecibles de los ámbitos personal, social y educativo.",
+      "resumen": "Mediación oral, escrita y multimodal"
+    },
+    {
+      "id": "C8",
+      "enunciado": "Leer de manera autónoma obras y textos de carácter diverso, seleccionados atendiendo sus gustos e intereses, y compartir las experiencias de lectura.",
+      "resumen": "Lectura autónoma"
+    },
+    {
+      "id": "C9",
+      "enunciado": "Leer y producir textos con intención literaria, sencillos, con lenguaje cercano al alumno, contextualizados en la cultura y la tradición, como fuente de placer y de conocimiento.",
+      "resumen": "Competencia literaria"
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    },
+    "segundo": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    },
+    "tercer": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    }
+  },
+  "criterios_decreto_106_2022": {
+    "estado": "SUSTITUIDOS por el Decreto 96/2026 (aplicable desde 2026-2027). Solo referencia histórica; no usar para generar materiales.",
+    "paginas_dogv": "41550-41556",
+    "cuarto_curso": [
+      {
+        "id": "1.1",
+        "competencia": "C1",
+        "texto": "Identificar las variedades lingüísticas del entorno.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.2",
+        "competencia": "C1",
+        "texto": "Mostrar interés por el uso del valenciano en situaciones comunicativas habituales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.3",
+        "competencia": "C1",
+        "texto": "Mostrar interés y respeto por las variedades lingüísticas de su entorno inmediato, e identificar algunas expresiones de uso habitual.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.4",
+        "competencia": "C1",
+        "texto": "Identificar en contextos sencillos, con ayuda del docente, prejuicios y estereotipos lingüísticos frecuentes, y reconocer la pluralidad lingüística de su entorno como una fuente de riqueza cultural.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.5",
+        "competencia": "C1",
+        "texto": "Con la ayuda del docente, reflexionar sobre aspectos básicos del funcionamiento de la lengua, a partir de la observación y la comparación de palabras y oraciones de diferentes lenguas próximas al alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.1",
+        "competencia": "C2",
+        "texto": "Escuchar de manera activa e interpretar, con la ayuda del docente, textos orales sencillos de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.2",
+        "competencia": "C2",
+        "texto": "Interpretar el sentido global y las ideas principales de textos orales sencillos sobre conocimientos próximos al alumnado, reconocer la información explícita y algunas informaciones implícitas sencillas, y progresar, de manera guiada, en la valoración crítica del contenido y de los elementos no verbales elementales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.3",
+        "competencia": "C2",
+        "texto": "Escuchar de manera activa e interpretar, con la ayuda del docente, textos multimodales sencillos en medios digitales, de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.4",
+        "competencia": "C2",
+        "texto": "Interpretar el sentido global y las ideas principales de textos multimodales sencillos sobre conocimientos próximos al alumnado, reconocer la información explícita y algunas informaciones implícitas sencillas, y progresar, de manera guiada, en la valoración crítica del contenido y de los elementos no verbales elementales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.1",
+        "competencia": "C3",
+        "texto": "Leer con buena fluidez, de manera silenciosa y en voz alta, e interpretar, con ayuda del docente, textos escritos y multimodales sencillos de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.2",
+        "competencia": "C3",
+        "texto": "Aplicar, de manera guiada, diferentes estrategias para comprender el sentido global y la información específica, distinguir las ideas principales de las secundarias, inferir significados no explícitos y hacer algunas valoraciones personales de textos escritos sobre conocimientos próximos al alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.3",
+        "competencia": "C3",
+        "texto": "Identificar el tipo de texto y la estructura principal de los textos, y valorar, de manera guiada, el contenido y los aspectos formales y no verbales elementales de los textos escritos y multimodales, e iniciarse en la evaluación de su fiabilidad.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.4",
+        "competencia": "C3",
+        "texto": "Localizar, seleccionar y contrastar información sencilla procedente de una o dos fuentes, de los ámbitos personal, social y educativo, y evaluar su utilidad en función de los objetivos de lectura en diferentes textos multimodales sencillos en medios digitales, con la ayuda del docente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.5",
+        "competencia": "C3",
+        "texto": "Aplicar, con ayuda del docente, diferentes estrategias para la busca, selección y gestión de la información en diferentes textos multimodales, para ampliar conocimientos de manera responsable y reconocer que puede no ser fiable, iniciarse en el contraste de la información y utilizarla citando las referencias bibliográficas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.1",
+        "competencia": "C4",
+        "texto": "Producir, con ayuda del docente, discursos orales sencillos, con sentido, sobre conocimientos próximos al alumno, de tipología diversa y ajustados a situaciones comunicativas habituales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.2",
+        "competencia": "C4",
+        "texto": "Producir discursos orales con una pronunciación clara, un volumen adecuado y una postura corporal correcta, e iniciarse en el uso de soportes audiovisuales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.3",
+        "competencia": "C4",
+        "texto": "Realizar producciones orales utilizando un lenguaje no discriminatorio, adaptado a la situación de comunicación y al interlocutor, con un vocabulario básico y unas estructuras morfosintácticas sencillas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.4",
+        "competencia": "C4",
+        "texto": "Localizar y seleccionar información en una o dos fuentes, de manera acompañada, y compartir oralmente los resultados citando las fuentes.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.1",
+        "competencia": "C5",
+        "texto": "Producir, a partir de ejemplos básicos y con ayuda del profesorado, textos escritos y multimodales sencillos que respondan a las características planteadas, con una estructura coherente y utilizando vocabulario no discriminatorio básico de uso frecuente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.2",
+        "competencia": "C5",
+        "texto": "Utilizar, con apoyo y ayuda del profesorado, los conocimientos elementales de ortografía y gramática necesarios en la situación de aprendizaje.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.3",
+        "competencia": "C5",
+        "texto": "Planificar y revisar, de manera dialogada y acompañada por el profesorado, mediante instrumentos y estrategias elementales, como parte explícita del proceso de escritura.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.4",
+        "competencia": "C5",
+        "texto": "Localizar, seleccionar y gestionar, de manera acompañada, la información de una o dos fuentes e incluir sus referencias al compartirla.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.1",
+        "competencia": "C6",
+        "texto": "Interactuar oralmente, con el acompañamiento del docente, en situaciones comunicativas habituales, utilizando un vocabulario básico y no discriminatorio, un ritmo pausado y el lenguaje no verbal, empleando estrategias de escucha con el fin de mantener el tema y respetar las convenciones establecidas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.2",
+        "competencia": "C6",
+        "texto": "Utilizar, de manera acompañada, estrategias básicas para la comunicación asertiva para progresar en la gestión dialogada de conflictos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.3",
+        "competencia": "C6",
+        "texto": "Identificar y rechazar, de manera acompañada, los usos lingüísticos discriminatorios a través de la reflexión conjunta.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.4",
+        "competencia": "C6",
+        "texto": "Interactuar en textos escritos y multimodales, de manera asíncrona y guiada, mostrando empatía y respeto, utilizando estrategias para expresar mensajes sencillos estructurados con un vocabulario básico de uso frecuente y no discriminatorio.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.1",
+        "competencia": "C7",
+        "texto": "Mostrar interés en participar en la solución de problemas de comprensión recíproca entre hablantes de lenguas o variedades lingüísticas diferentes sobre asuntos cotidianos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.2",
+        "competencia": "C7",
+        "texto": "Interpretar un mensaje breve y sencillo en L2 (valenciano o castellano) y transmitir la información básica o explicar conceptos en su L1 (valenciano o castellano u otra lengua), oralmente, de manera guiada, para facilitar la comprensión entre interlocutores sobre asuntos cotidianos en su entorno más próximo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.3",
+        "competencia": "C7",
+        "texto": "Identificar y utilizar, de manera acompañada y muy básica, estrategias que faciliten la comprensión y la expresión orales de información en diferentes lenguas de su repertorio (L1-L1, L2-L1), como por ejemplo el uso del lenguaje no verbal, o simplificar o adaptar el mensaje.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.1",
+        "competencia": "C8",
+        "texto": "Leer de manera autónoma o guiada obras diversas adecuadas a su edad y textos escritos y multimodales de los ámbitos personal, social y educativo; seleccionar con autonomía creciente los que mejor se ajusten a sus gustos e intereses e iniciarse, así, en la construcción de su identidad lectora.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.2",
+        "competencia": "C8",
+        "texto": "Compartir las experiencias de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.1",
+        "competencia": "C9",
+        "texto": "Leer y escuchar textos literarios sencillos, propios de la tradición literaria, adecuados a la edad y con ayuda del docente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.2",
+        "competencia": "C9",
+        "texto": "Interpretar textos sencillos de la tradición popular oral, literaria, dentro de un contexto sociocultural próximo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.3",
+        "competencia": "C9",
+        "texto": "Expresar la opinión sobre textos de tradición literaria, con palabras propias del alumno y con ayuda del docente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.4",
+        "competencia": "C9",
+        "texto": "Crear versiones de textos literarios sencillos y breves (cuentos, poemas, canciones, dramatizaciones), individual y colectivamente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.5",
+        "competencia": "C9",
+        "texto": "Participar en manifestaciones literarias, recitales, representaciones teatrales, partiendo de modelos y con ayuda del docente.",
+        "descriptores": [],
+        "saberes": []
+      }
+    ],
+    "sexto_curso": [
+      {
+        "id": "1.1",
+        "competencia": "C1",
+        "texto": "Identificar y valorar las variedades lingüísticas de la Comunitat Valenciana, del Estado español y del mundo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.2",
+        "competencia": "C1",
+        "texto": "Mostrar interés por el uso del valenciano en las diferentes situaciones comunicativas de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.3",
+        "competencia": "C1",
+        "texto": "Mostrar interés y respeto por las variedades lingüísticas de su entorno, e identificar las características básicas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.4",
+        "competencia": "C1",
+        "texto": "Detectar en contextos próximos, de manera guiada, prejuicios y estereotipos lingüísticos frecuentes, y valorar la pluralidad lingüística del mundo como una fuente de riqueza cultural.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.5",
+        "competencia": "C1",
+        "texto": "Reflexionar y buscar ejemplos, de manera guiada, sobre aspectos del funcionamiento de la lengua, a partir de la observación, la comparación y la manipulación de palabras, oraciones y textos, de diferentes lenguas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.1",
+        "competencia": "C2",
+        "texto": "Escuchar de manera activa, interpretar y valorar, de manera guiada, textos orales sencillos de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.2",
+        "competencia": "C2",
+        "texto": "Interpretar el sentido global y las ideas principales y secundarias de textos orales sencillos de conocimientos diversos, extraer información explícita e implícita en el texto, hacer deducciones, valorar el contenido y los elementos no verbales elementales y, de manera guiada, algunos elementos formales elementales, y dar una opinión razonada sobre lo que ha escuchado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.3",
+        "competencia": "C2",
+        "texto": "Escuchar de manera activa, interpretar y valorar diferentes textos multimodales sencillos en medios digitales, de manera guiada, de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.4",
+        "competencia": "C2",
+        "texto": "Interpretar el sentido global y las ideas principales y secundarias de textos multimodales sencillos de conocimientos diversos, extraer información explícita e implícita en el texto, hacer deducciones, valorar el contenido y los elementos no verbales elementales y, de manera guiada, algunos aspectos formales elementales, y dar una opinión razonada.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.1",
+        "competencia": "C3",
+        "texto": "Leer con buena fluidez, de manera silenciosa y en voz alta, interpretar y valorar, de manera guiada, textos escritos y multimodales sencillos de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.2",
+        "competencia": "C3",
+        "texto": "Aplicar, de manera guiada, todo tipo de estrategias para comprender el sentido global y la información específica, distinguir las ideas principales de las secundarias, inferir significados no explícitos y hacer algunas valoraciones personales argumentadas de diferentes textos sobre conocimientos diversos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.3",
+        "competencia": "C3",
+        "texto": "Identificar el tipo y la estructura de los textos y valorar, de manera guiada, el contenido y los aspectos formales y no verbales elementales de los textos escritos y multimodales, evaluar su calidad, fiabilidad e idoneidad en función del objetivo de la lectura, así como algunas de las características lingüísticas específicas de cada tipo de texto.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.4",
+        "competencia": "C3",
+        "texto": "Localizar, seleccionar y contrastar información sencilla procedente de dos o más fuentes, de los ámbitos personal, social y educativo, y evaluar su utilidad en función de los objetivos de lectura en diferentes textos multimodales en medios digitales, de manera guiada.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.5",
+        "competencia": "C3",
+        "texto": "Aplicar, de manera guiada, todo tipo de estrategias para la busca, selección y gestión de la información, en diferentes textos multimodales, para ampliar conocimientos de manera responsable, contrastar la información y utilizarla citando las referencias bibliográficas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.1",
+        "competencia": "C4",
+        "texto": "Producir, de manera guiada, discursos orales estructurados, sobre conocimientos diversos, ajustados a la situación comunicativa y a los géneros discursivos de los ámbitos personal, social y educativo, utilizando conectores básicos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.2",
+        "competencia": "C4",
+        "texto": "Producir discursos orales con una pronunciación clara, y con un ritmo y entonación adecuados, e incorporar recursos no verbales básicos que refuercen el discurso y haciendo uso de soportes audiovisuales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.3",
+        "competencia": "C4",
+        "texto": "Realizar producciones orales utilizando un lenguaje no discriminatorio, adaptado a la situación de comunicación y al interlocutor, con un vocabulario adecuado, sin expresiones coloquiales, y con variedad de estructuras morfosintácticas, con una reflexión progresiva en el uso de la lengua.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.4",
+        "competencia": "C4",
+        "texto": "Localizar, seleccionar y contrastar información en dos o más fuentes, analógicas y digitales, de manera guiada, y compartir oralmente los resultados adoptando un punto de vista personal y citando las fuentes.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.1",
+        "competencia": "C5",
+        "texto": "Producir, de manera guiada, textos escritos y multimodales de géneros discursivos de los ámbitos personal, social y educativo adecuados y coherentes, con vocabulario no discriminatorio apropiado y estrategias básicas de cohesión.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.2",
+        "competencia": "C5",
+        "texto": "Utilizar, de manera acompañada puntualmente y con reflexión progresiva, los conocimientos lingüísticos y discursivos básicos necesarios en la situación de aprendizaje y la terminología elemental correspondiente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.3",
+        "competencia": "C5",
+        "texto": "Planificar, textualizar, revisar y editar, de manera guiada, mediante instrumentos y estrategias básicas, como parte explícita del proceso de escritura.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.4",
+        "competencia": "C5",
+        "texto": "Localizar, seleccionar, gestionar e integrar en el texto, de manera puntualmente acompañada, la información de dos o más fuentes, e incluir sus referencias al compartirla.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.1",
+        "competencia": "C6",
+        "texto": "Interactuar oralmente, de manera pautada, sobre conocimientos que se ajusten a la situación comunicativa, a través de diferentes soportes, utilizando un vocabulario apropiado y ético y recursos como la cortesía lingüística, la etiqueta digital, la entonación, el ritmo pausado o el lenguaje no verbal, empleando estrategias de escucha activa para la construcción de un discurso común.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.2",
+        "competencia": "C6",
+        "texto": "Utilizar, con la ayuda de pautas, estrategias básicas para la deliberación argumentada, el consenso y la gestión dialogada de conflictos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.3",
+        "competencia": "C6",
+        "texto": "Identificar y rechazar, de manera progresivamente autónoma, los usos lingüísticos discriminatorios a través de la reflexión conjunta.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.4",
+        "competencia": "C6",
+        "texto": "Interactuar en textos escritos, de manera asíncrona y síncrona con ayuda, mostrando empatía y respeto por las diferentes necesidades, ideas y motivaciones de los interlocutores, utilizando estrategias para expresar mensajes adecuados con un vocabulario apropiado y ético.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.5",
+        "competencia": "C6",
+        "texto": "Interactuar en textos multimodales, de manera asíncrona y guiada, mostrando empatía y respeto por las diferentes necesidades, ideas y motivaciones de los interlocutores.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.1",
+        "competencia": "C7",
+        "texto": "Mostrar interés en participar en la solución de problemas de comprensión recíproca entre hablantes de lenguas o variedades lingüísticas diferentes, en situaciones habituales de los ámbitos personal, social y educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.2",
+        "competencia": "C7",
+        "texto": "Comprender un mensaje breve y sencillo, y comunicar la información o explicar los conceptos, de manera oral o escrita, entre lenguas de su repertorio (L1-L1, L2-L1, L1-L2); todo esto en textos sobre asuntos diversos que incluyan vocabulario frecuente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.3",
+        "competencia": "C7",
+        "texto": "Seleccionar y utilizar, de manera guiada, estrategias que faciliten la comprensión y la expresión orales y escritas de información en diferentes lenguas de su repertorio (L1-L1, L2-L1, L1-L2), como por ejemplo el uso del lenguaje no verbal, o simplificar o adaptar el mensaje.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.1",
+        "competencia": "C8",
+        "texto": "Leer de manera autónoma obras diversas adecuadas a su edad y textos escritos y multimodales de los ámbitos personal, social y educativo; ser consciente de sus gustos y seleccionar las lecturas con criterio propio y con autonomía progresiva.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.2",
+        "competencia": "C8",
+        "texto": "Compartir las experiencias de lectura, en soportes diversos, participando en comunidades lectoras en los ámbitos educativo y social.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.1",
+        "competencia": "C9",
+        "texto": "Leer y escuchar fragmentos literarios sencillos y obras completas, próximos a los intereses del alumno, y de manera guiada.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.2",
+        "competencia": "C9",
+        "texto": "Interpretar y relacionar textos literarios sencillos de la literatura popular y de autoría conocida, en el marco de la tradición literaria y del contexto sociocultural próximo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.3",
+        "competencia": "C9",
+        "texto": "Expresar opinión sobre textos y obras literarias, utilizando algunos recursos retóricos básicos de los géneros, de manera guiada.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.4",
+        "competencia": "C9",
+        "texto": "Crear versiones de textos literarios sencillos (cuentos, poemas, canciones, dramatizaciones), individual y colectivamente.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "9.5",
+        "competencia": "C9",
+        "texto": "Participar en manifestaciones literarias, recitales, representaciones teatrales, partiendo de modelos y de manera guiada.",
+        "descriptores": [],
+        "saberes": []
+      }
+    ]
+  },
+  "pendiente": [
+    "CRITERIOS VIGENTES PENDIENTES: el Decreto 96/2026 (DOGV n.º 10391, de 25/06/2026; art. único.4 y anexo único, puntos 22-28) sustituye el apartado 6 «Criterios de evaluación» del anexo III en todas las áreas y fija criterios para 1.er, 2.º y 3.er ciclo (el texto de 2022 solo tenía columnas «4.º curso EP» y «6.º curso EP»). El PDF oficial (https://dogv.gva.es/datos/2026/06/25/pdf/2026_21223.pdf) y las páginas de ceice.gva.es están bloqueados por robots.txt para WebFetch, y no se ha encontrado copia en dominio gva.es. Por eso ciclos.*.criterios está vacío y curriculoDe() devolverá null para Valencia.",
+    "Los criterios del Decreto 106/2022 se guardan aparte, en criterios_decreto_106_2022, solo como referencia histórica: NO están en vigor desde 2026-2027. Una comparación parcial con una reproducción no oficial del Decreto 96/2026 (noticias.juridicas.com) muestra cambios de redacción, numeración y orden (no son equivalentes 4.º→2.º ciclo ni 6.º→3.er ciclo). No moverlos a ciclos.",
+    "Texto obtenido por WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada enunciado se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF del DOGV antes de marcar verificado:true.",
+    "Las competencias específicas (apartado 2) no figuran entre los apartados modificados por el Decreto 96/2026 según el índice de su anexo único; confirmar con el DOGV.",
+    "Saberes básicos (apartado 4) no extraídos: son tablas con una «x» por ciclo (columnas «1.er ciclo (1.º y 2.º)», «2.º ciclo (3.º y 4.º)», «3.er ciclo (5.º y 6.º)») y el texto extraído pierde la columna de cada «x». Requieren pdftotext -layout sobre el PDF. saberes={} a propósito.",
+    "El decreto valenciano no vincula descriptores operativos a cada criterio en las tablas: descriptores=[] (las conexiones con competencias clave están en el apartado 3, no extraído).",
+    "El anexo III tiene un currículo común para «VALENCIANO: LENGUA Y LITERATURA» y «LENGUA CASTELLANA Y LITERATURA» (DOGV p. 41525): mismas 9 competencias para las dos áreas. Este fichero lo replica.",
+    "resumen = título literal de cada competencia en el decreto (p. ej. «Multilingüismo e interculturalidad»).",
+    "Criterios de 2022: p. 41550-41556. En CE2 el extractor separó los fragmentos con «…»; confirmar que no falta texto. 6.5 solo existe en 6.º.",
+    "Comparación con la reproducción no oficial del Decreto 96/2026: los criterios 1.1-1.5 cambian de redacción (p. ej. 2.º ciclo 1.1 «… del entorno y respetar su uso en situaciones cotidianas»; 1.2 menciona valenciano y castellano)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://portal.edu.gva.es/rambladelsmolins/wp-content/uploads/sites/837/2022/09/DECRETO-106-2022-CURRICULO-PRIMARIA-GVA.pdf",
+    "metodo": "WebFetch sobre la copia del PDF del DOGV n.º 9402 en portal.edu.gva.es; citas literales en fragmentos de menos de 100-125 caracteres, una o dos competencias por consulta, columnas 4.º y 6.º pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

@@ -322,7 +322,7 @@ const ValidadorOposicion = (() => {
       const elementos = ELEMENTOS_SA.map(e => ({ l: e.l, txt: e.txt, ok: e.re.test(tn) }));
       const faltan = elementos.filter(e => !e.ok);
       const crit = criteriosCitados(s.texto);
-      const critMal = cur && cur.criterios ? crit.filter(c => !cur.criterios.includes(c)) : [];
+      const critMal = cur && cur.criterios && cur.criterios.length ? crit.filter(c => !cur.criterios.includes(c)) : [];
       const estado = estadoTel === 'error' || faltan.length > 2 || critMal.length ? 'error' : (estadoTel === 'aviso' || faltan.length || !crit.length) ? 'aviso' : 'ok';
       return {
         n: s.n, titulo: s.titulo, palabras: contarPalabras(s.texto), estado,

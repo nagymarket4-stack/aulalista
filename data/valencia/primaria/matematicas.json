@@ -1,0 +1,500 @@
+{
+  "area": "Matemáticas",
+  "fuente": "Decreto 106/2022, de 5 de agosto, del Consell (DOGV n.º 9402, de 10/08/2022, págs. 41162-41667 aprox.), anexo III, versión en castellano. Texto extraído mediante WebFetch de una copia del PDF del DOGV alojada en portal.edu.gva.es (dogv.gva.es bloquea la descarga automática por robots.txt); sin cotejar. El apartado 6 (criterios de evaluación) de todas las áreas fue sustituido por el Decreto 96/2026, de 19 de junio (DOGV n.º 10391, de 25/06/2026), que no se ha podido leer en fuente oficial",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Resolver problemas relacionados con situaciones reales del entorno personal, social y educativo utilizando estrategias informales, representaciones y conceptos concretos.",
+      "resumen": null
+    },
+    {
+      "id": "C2",
+      "enunciado": "Observar, formular, explorar y comprobar conjeturas sencillas sobre propiedades y relaciones matemáticas concretas, reconociendo y conectando procedimientos, patrones, regularidades y estructuras.",
+      "resumen": null
+    },
+    {
+      "id": "C3",
+      "enunciado": "Construir modelos matemáticos concretos y utilizar conceptos y procedimientos matemáticos sencillos para abordar e interpretar situaciones, fenómenos y problemas relevantes en el ámbito personal, educativo o social.",
+      "resumen": null
+    },
+    {
+      "id": "C4",
+      "enunciado": "Construir y aplicar algoritmos sencillos para afrontar situaciones y resolver problemas relevantes del ámbito personal, educativo o social, organizando datos, descomponiendo un problema en partes, reconociendo patrones y empleando herramientas TIC.",
+      "resumen": null
+    },
+    {
+      "id": "C5",
+      "enunciado": "Utilizar con corrección el simbolismo matemático, haciendo transformaciones y algunas conversiones entre representaciones icónico-manipulativas, numéricas, geométricas y gráficas, para describir y analizar situaciones relevantes del ámbito personal, educativo o social.",
+      "resumen": null
+    },
+    {
+      "id": "C6",
+      "enunciado": "Comprender y producir mensajes orales y escritos concretos de manera informal, empleando un lenguaje matemático sencillo para comunicar y argumentar sobre características, conceptos, procedimientos y resultados relacionados con situaciones del ámbito personal, educativo o social.",
+      "resumen": null
+    },
+    {
+      "id": "C7",
+      "enunciado": "Identificar fenómenos y problemas importantes desde el punto de vista cultural y social en los que el conocimiento matemático juega un papel decisivo.",
+      "resumen": null
+    },
+    {
+      "id": "C8",
+      "enunciado": "Gestionar las emociones y actitudes implicadas en los procesos matemáticos, aceptando la incertidumbre, las dificultades y los errores que dichos procesos conllevan, y controlando la atención para lograr un aprendizaje significativo y adaptable a diferentes situaciones.",
+      "resumen": null
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    },
+    "segundo": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    },
+    "tercer": {
+      "criterios": [],
+      "pendiente": "Criterios del Decreto 96/2026 no extraídos (fuente oficial inaccesible)."
+    }
+  },
+  "criterios_decreto_106_2022": {
+    "estado": "SUSTITUIDOS por el Decreto 96/2026 (aplicable desde 2026-2027). Solo referencia histórica; no usar para generar materiales.",
+    "paginas_dogv": "41604-41609",
+    "cuarto_curso": [
+      {
+        "id": "1.1",
+        "competencia": "C1",
+        "texto": "Identificar la información relevante e irrelevante de un problema o situación problemática del entorno personal y social del alumnado que permita su abordaje y resolución.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.2",
+        "competencia": "C1",
+        "texto": "Desarrollar estrategias informales para obtener la solución correcta en un problema o situación problemática y sistematizar procedimientos informales de resolución a nivel inicial.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.3",
+        "competencia": "C1",
+        "texto": "Comprobar si la solución obtenida en un problema cumple las condiciones o exigencias del enunciado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.4",
+        "competencia": "C1",
+        "texto": "Extraer consecuencias de la situación problemática planteada y obtener herramientas o estrategias aplicables en el ámbito personal o educativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.1",
+        "competencia": "C2",
+        "texto": "Comprobar conjeturas sobre relaciones matemáticas que permitan desarrollar de forma intuitiva nuevo contenido matemático de naturaleza numérica, métrica, espacial, geométrica o estocástica.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.2",
+        "competencia": "C2",
+        "texto": "Comprobar relaciones matemáticas en –y mediante– los procedimientos de razonamiento matemático intuitivo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.3",
+        "competencia": "C2",
+        "texto": "Reconocer patrones o regularidades, construyendo intuitivamente contenido matemático de naturaleza numérica, métrica, espacial, geométrica o estocástica.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.4",
+        "competencia": "C2",
+        "texto": "Comparar distintos procedimientos matemáticos relativos al cálculo, la medida, el sentido espacial y geométrico, el tratamiento de datos o los procesos aleatorios, y utilizarlos de manera flexible.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.1",
+        "competencia": "C3",
+        "texto": "Identificar el contenido y las herramientas matemáticas sencillas que permiten abordar situaciones reales cercanas y relevantes, posibilitando la construcción de modelos matemáticos básicos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.2",
+        "competencia": "C3",
+        "texto": "Usar modelos matemáticos básicos que permitan interpretar una situación real sencilla, y extraer conclusiones.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.3",
+        "competencia": "C3",
+        "texto": "Comparar modelos matemáticos correspondientes a situaciones reales en contextos similares.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.1",
+        "competencia": "C4",
+        "texto": "Identificar regularidades en una secuencia de datos y predecir resultados mediante el reconocimiento de patrones sencillos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.2",
+        "competencia": "C4",
+        "texto": "Interpretar y reproducir algoritmos sencillos mediante códigos visuales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.3",
+        "competencia": "C4",
+        "texto": "Aplicar algoritmos sencillos mediante códigos visuales y/o herramientas tecnológicas básicas para resolver situaciones problemáticas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.4",
+        "competencia": "C4",
+        "texto": "Analizar situaciones sencillas para definir y conseguir estrategias ganadoras en juegos de lógica o juegos de tablero.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.1",
+        "competencia": "C5",
+        "texto": "Utilizar correctamente las representaciones icónico-manipulativas de objetos y procesos matemáticos en situaciones cercanas al alumnado, respetando las reglas básicas que los rigen.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.2",
+        "competencia": "C5",
+        "texto": "Reconocer representaciones numéricas, geométricas y gráficas que describen objetos matemáticos elementales en contextos cercanos al alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.3",
+        "competencia": "C5",
+        "texto": "Usar representaciones numéricas, geométricas y gráficas de objetos matemáticos elementales en situaciones cercanas al alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.1",
+        "competencia": "C6",
+        "texto": "Reconocer y comprender mensajes orales y escritos sencillos que contengan lenguaje matemático básico.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.2",
+        "competencia": "C6",
+        "texto": "Comunicar de manera informal aspectos relacionados con conceptos y procedimientos matemáticos sencillos presentes en contextos cercanos al alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.3",
+        "competencia": "C6",
+        "texto": "Justificar adecuadamente la validez de los resultados provenientes de situaciones problemáticas del entorno personal o educativo del alumnado, a través de comunicaciones orales o escritas informales.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.4",
+        "competencia": "C6",
+        "texto": "Utilizar un lenguaje matemático adecuado para defender sus propios razonamientos de forma argumentada.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.1",
+        "competencia": "C7",
+        "texto": "Reconocer el contenido matemático presente en juegos, actividades sociales y productos culturales cercanos a la experiencia del alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.2",
+        "competencia": "C7",
+        "texto": "Valorar la importancia de las matemáticas para resolver problemas de la vida cotidiana que involucren aspectos como el cálculo aritmético, la incertidumbre, el razonamiento lógico, el pensamiento computacional, el uso e interpretación de datos o el sentido geométrico y espacial.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.3",
+        "competencia": "C7",
+        "texto": "Apreciar el carácter polivalente de las matemáticas, tanto por su utilidad para la resolución de problemas en diferentes áreas (instrumentalidad), como para favorecer el desarrollo intelectual, creativo y cultural de las personas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.1",
+        "competencia": "C8",
+        "texto": "Identificar y verbalizar emociones y actitudes en la resolución de problemas o en situaciones de aprendizaje relacionadas con las matemáticas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.2",
+        "competencia": "C8",
+        "texto": "Mostrar una actitud positiva y perseverante en el trabajo matemático, tanto individual como colaborativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.3",
+        "competencia": "C8",
+        "texto": "Mostrar una disposición favorable a la superación y mejora personal y del trabajo en equipo en la realización de tareas y actividades relacionadas con las matemáticas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.4",
+        "competencia": "C8",
+        "texto": "Asumir retos y enfrentarse a situaciones problemáticas desde una perspectiva abierta, superando los prejuicios.",
+        "descriptores": [],
+        "saberes": []
+      }
+    ],
+    "sexto_curso": [
+      {
+        "id": "1.1",
+        "competencia": "C1",
+        "texto": "Identificar la información del enunciado de un problema o situación planteada, relacionándola con otras situaciones análogas de su entorno próximo y con los conocimientos y procedimientos adquiridos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.2",
+        "competencia": "C1",
+        "texto": "Utilizar y aplicar estrategias formales básicas aplicando los conceptos y procedimientos que le permitan obtener la solución correcta en un problema o situación problemática.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.3",
+        "competencia": "C1",
+        "texto": "Reflexionar sobre la coherencia y la adecuación de la solución obtenida al problema planteado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "1.4",
+        "competencia": "C1",
+        "texto": "Conectar la situación problemática con su entorno personal, educativo y social, y extraer conclusiones que le permitan plantear problemas, tanto del mismo como de otros contextos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.1",
+        "competencia": "C2",
+        "texto": "Realizar conjeturas matemáticas a partir de la observación o experimentación de casos concretos, y formalizar los conceptos y procedimientos implicados.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.2",
+        "competencia": "C2",
+        "texto": "Conectar conceptos y relaciones matemáticas en –y mediante– los procedimientos de razonamiento matemático.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.3",
+        "competencia": "C2",
+        "texto": "Analizar y justificar patrones o regularidades, construyendo contenido matemático de naturaleza numérica, métrica, espacial, geométrica o estocástica.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "2.4",
+        "competencia": "C2",
+        "texto": "Utilizar y comparar con fluidez y de manera flexible distintos procedimientos matemáticos relativos al cálculo, la medida, el sentido espacial y geométrico, el tratamiento de datos o los procesos aleatorios.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.1",
+        "competencia": "C3",
+        "texto": "Identificar el contenido y las herramientas matemáticas sencillas que permiten abordar situaciones reales del ámbito personal, educativo y social, posibilitando la construcción de modelos matemáticos concretos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.2",
+        "competencia": "C3",
+        "texto": "Trabajar matemáticamente sobre un modelo concreto con la finalidad de obtener soluciones que permitan describir, interpretar y extraer conclusiones sobre una situación real.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.3",
+        "competencia": "C3",
+        "texto": "Identificar y justificar diferencias y similitudes entre modelos matemáticos correspondientes a situaciones reales en contextos similares.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "3.4",
+        "competencia": "C3",
+        "texto": "Validar la solución obtenida a partir de un modelo matemático y detectar errores básicos al contrastarla con la situación real.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.1",
+        "competencia": "C4",
+        "texto": "Diseñar y aplicar algoritmos sencillos mediante códigos visuales y/o herramientas tecnológicas básicas para resolver situaciones problemáticas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.2",
+        "competencia": "C4",
+        "texto": "Descomponer patrones de cierta complejidad en otros más sencillos utilizando programación por bloques.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.3",
+        "competencia": "C4",
+        "texto": "Utilizar la simbología básica de la programación por bloques para resolver problemas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "4.4",
+        "competencia": "C4",
+        "texto": "Analizar situaciones de cierta dificultad, valorando distintas posibilidades y combinaciones, para definir y conseguir estrategias ganadoras en juegos de lógica o juegos de tablero.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.1",
+        "competencia": "C5",
+        "texto": "Manejar las representaciones icónicomanipulativas, numéricas, geométricas y gráficas de objetos matemáticos en situaciones reales del ámbito personal, educativo y social, respetando las reglas que los rigen.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.2",
+        "competencia": "C5",
+        "texto": "Realizar conversiones entre las representaciones icónico-manipulativas, numéricas, geométricas y gráficas de objetos matemáticos en situaciones reales del ámbito personal, educativo y social.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "5.3",
+        "competencia": "C5",
+        "texto": "Seleccionar el simbolismo matemático adecuado para describir matemáticamente situaciones correspondientes al ámbito personal, educativo y social.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.1",
+        "competencia": "C6",
+        "texto": "Interpretar correctamente mensajes orales y escritos que incluyan contenido matemático.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.2",
+        "competencia": "C6",
+        "texto": "Comunicar aspectos relacionados con conceptos y procedimientos matemáticos, empleando algunos elementos formales básicos.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.3",
+        "competencia": "C6",
+        "texto": "Explicar y dar significado matemático a resultados provenientes de situaciones problemáticas del ámbito personal, educativo o social.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "6.4",
+        "competencia": "C6",
+        "texto": "Argumentar y debatir, contrastando con sus compañeros y compañeras, sus propios razonamientos, apoyándose en el lenguaje matemático.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.1",
+        "competencia": "C7",
+        "texto": "Reconocer la importancia de las matemáticas para la comprensión y el tratamiento de algunas situaciones o cuestiones relevantes en la vida cotidiana del alumnado.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.2",
+        "competencia": "C7",
+        "texto": "Reconocer el contenido matemático de carácter numérico, geométrico o espacial presente en obras pictóricas, dibujos animados, cómics, elementos arquitectónicos, esculturas y demás manifestaciones artísticas.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "7.3",
+        "competencia": "C7",
+        "texto": "Reconocer y valorar la importancia de la creación de conceptos, ideas y herramientas matemáticas, como elementos necesarios para el avance social y cultural.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.1",
+        "competencia": "C8",
+        "texto": "Asumir los errores como parte del proceso de aprendizaje, sin ceder a la frustración y expresando emociones y actitudes positivas y adecuadas para su superación.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.2",
+        "competencia": "C8",
+        "texto": "Identificar los factores relevantes que intervienen en la atención y la comprensión, favoreciéndolas o dificultándolas, tanto en el trabajo individual como en el colaborativo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.3",
+        "competencia": "C8",
+        "texto": "Gestionar los recursos cognitivos y emocionales para reconducir el proceso de aprendizaje en momentos de dificultad o incertidumbre, así como en las situaciones de conflicto derivadas del trabajo en equipo.",
+        "descriptores": [],
+        "saberes": []
+      },
+      {
+        "id": "8.4",
+        "competencia": "C8",
+        "texto": "Asumir retos y enfrentarse a situaciones problemáticas desde una perspectiva abierta, superando los prejuicios.",
+        "descriptores": [],
+        "saberes": []
+      }
+    ]
+  },
+  "pendiente": [
+    "CRITERIOS VIGENTES PENDIENTES: el Decreto 96/2026 (DOGV n.º 10391, de 25/06/2026; art. único.4 y anexo único, puntos 22-28) sustituye el apartado 6 «Criterios de evaluación» del anexo III en todas las áreas y fija criterios para 1.er, 2.º y 3.er ciclo (el texto de 2022 solo tenía columnas «4.º curso EP» y «6.º curso EP»). El PDF oficial (https://dogv.gva.es/datos/2026/06/25/pdf/2026_21223.pdf) y las páginas de ceice.gva.es están bloqueados por robots.txt para WebFetch, y no se ha encontrado copia en dominio gva.es. Por eso ciclos.*.criterios está vacío y curriculoDe() devolverá null para Valencia.",
+    "Los criterios del Decreto 106/2022 se guardan aparte, en criterios_decreto_106_2022, solo como referencia histórica: NO están en vigor desde 2026-2027. Una comparación parcial con una reproducción no oficial del Decreto 96/2026 (noticias.juridicas.com) muestra cambios de redacción, numeración y orden (no son equivalentes 4.º→2.º ciclo ni 6.º→3.er ciclo). No moverlos a ciclos.",
+    "Texto obtenido por WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada enunciado se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF del DOGV antes de marcar verificado:true.",
+    "Las competencias específicas (apartado 2) no figuran entre los apartados modificados por el Decreto 96/2026 según el índice de su anexo único; confirmar con el DOGV.",
+    "Saberes básicos (apartado 4) no extraídos: son tablas con una «x» por ciclo (columnas «1.er ciclo (1.º y 2.º)», «2.º ciclo (3.º y 4.º)», «3.er ciclo (5.º y 6.º)») y el texto extraído pierde la columna de cada «x». Requieren pdftotext -layout sobre el PDF. saberes={} a propósito.",
+    "El decreto valenciano no vincula descriptores operativos a cada criterio en las tablas: descriptores=[] (las conexiones con competencias clave están en el apartado 3, no extraído).",
+    "Enunciados de competencias: DOGV p. 41583 y ss. Criterios de 2022: p. 41604-41609.",
+    "6.º curso EP 5.1: «icónicomanipulativas» sin guion según el extractor (en 5.2 sí lleva guion). 8.4 tiene el mismo texto en 4.º y 6.º.",
+    "Comparación con la reproducción no oficial del Decreto 96/2026: CE1 igual; en CE2-CE5 hay cambios (p. ej., nuevo 3.4 en 2.º ciclo, 4.1-4.3 reordenados, «en, y mediante,» en vez de «en –y mediante–»)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://portal.edu.gva.es/rambladelsmolins/wp-content/uploads/sites/837/2022/09/DECRETO-106-2022-CURRICULO-PRIMARIA-GVA.pdf",
+    "metodo": "WebFetch sobre la copia del PDF del DOGV n.º 9402 en portal.edu.gva.es; citas literales en fragmentos de menos de 100-125 caracteres, una o dos competencias por consulta, columnas 4.º y 6.º pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

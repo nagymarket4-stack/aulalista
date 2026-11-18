@@ -241,7 +241,7 @@
     "name": "Comunitat Valenciana",
     "decreto": "Decreto 106/2022, de 5 de agosto, del Consell, de ordenación y currículo de la etapa de Educación Primaria; modificado por el Decreto 96/2026, de 19 de junio, del Consell (DOGV de 25 de junio de 2026), aplicable desde el curso 2026-2027",
     "decretoUrl": "https://portal.edu.gva.es/noucurriculum/wp-content/uploads/sites/1918/2023/03/Decreto-Primaria-GVA.pdf",
-    "boletin": "DOGV (n.º y fecha de 2022 pendientes de comprobar). Modificación: DOGV de 25/06/2026",
+    "boletin": "DOGV n.º 9402, de 10/08/2022 (modificado por el Decreto 96/2026, DOGV n.º 10391, de 25/06/2026)",
     "evaluacion": "Evaluación regulada en el propio Decreto 106/2022 (art. 29), modificado por el Decreto 96/2026. Orden autonómica de desarrollo pendiente de localizar",
     "evaluacionUrl": "https://laadministracionaldia.inap.es/noticia.asp?id=1267138",
     "areasPropias": [
@@ -257,7 +257,7 @@
     ],
     "sesionMin": 45,
     "escala": "Insuficiente (IN), Suficiente (SU), Bien (BI), Notable (NT), Sobresaliente (SB)",
-    "notas": "Educación Artística dividida en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en el tercer ciclo. Sesiones de 45 o 60 minutos (art. 16.5). Situaciones de aprendizaje en el anexo III. El Decreto 96/2026 (desde 2026-27) quita del horario el tiempo de «Proyectos Interdisciplinarios» y lo da a Matemáticas, Lengua Castellana y Valenciano, a lectura en el segundo ciclo y a libre disposición en el tercero. También impide crear grupos nuevos con dispositivos digitales individuales. Desde 2026-27 no deben generarse SA con horario de Proyectos Interdisciplinarios.",
+    "notas": "Educación Artística dividida en Plástica y Visual y Música y Danza. Educación en Valores Cívicos y Éticos en el tercer ciclo. Sesiones de 45 o 60 minutos (art. 16.5). Situaciones de aprendizaje en el anexo III. El Decreto 96/2026 (desde 2026-27) quita del horario el tiempo de «Proyectos Interdisciplinarios» y lo da a Matemáticas, Lengua Castellana y Valenciano, a lectura en el segundo ciclo y a libre disposición en el tercero. También impide crear grupos nuevos con dispositivos digitales individuales. Desde 2026-27 no deben generarse SA con horario de Proyectos Interdisciplinarios. El Decreto 96/2026 sustituye la tabla de criterios de evaluación de todas las áreas (ahora por 1.er, 2.º y 3.er ciclo). Criterios vigentes pendientes de extraer: el DOGV bloquea la descarga automática.",
     "verificado": true,
     "fuentes": [
       "https://portal.edu.gva.es/noucurriculum/wp-content/uploads/sites/1918/2023/03/Decreto-Primaria-GVA.pdf",
