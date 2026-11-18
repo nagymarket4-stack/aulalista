@@ -1,0 +1,453 @@
+{
+  "area": "Ciencias de la Naturaleza",
+  "fuente": "Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II. Texto extraído del PDF oficial de bocm.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red para reelaborar y crear contenido digital.",
+      "resumen": null
+    },
+    {
+      "id": "C2",
+      "enunciado": "Plantear y dar respuesta a cuestiones científicas sencillas, utilizando diferentes técnicas, instrumentos y modelos propios del pensamiento científico, para interpretar y explicar hechos y fenómenos que ocurren en el medio.",
+      "resumen": null
+    },
+    {
+      "id": "C3",
+      "enunciado": "Resolver problemas a través de proyectos de diseño y de la aplicación del pensamiento computacional, generando nuevos productos según necesidades.",
+      "resumen": null
+    },
+    {
+      "id": "C4",
+      "enunciado": "Conocer y tomar conciencia del cuerpo, así como de las emociones y sentimientos propios y ajenos, aplicando el conocimiento científico para favorecer la salud física y mental.",
+      "resumen": null
+    },
+    {
+      "id": "C5",
+      "enunciado": "Identificar las características de los diferentes elementos o sistemas del medio natural, analizando su organización y propiedades, y estableciendo relaciones entre los mismos, para reconocer el valor del patrimonio natural, conservarlo y mejorarlo.",
+      "resumen": null
+    },
+    {
+      "id": "C6",
+      "enunciado": "Identificar las causas y consecuencias de la intervención humana en el entorno, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para mejorar la capacidad de afrontar problemas, buscar soluciones y actuar en su resolución, fomentando el respeto, el cuidado y la protección de las personas y del planeta.",
+      "resumen": null
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Utilizar dispositivos y recursos digitales de forma segura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Iniciar la búsqueda guiada de información de forma individual o en equipo, contrastando la información de algunas fuentes seleccionadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Mostrar curiosidad por objetos, hechos y fenómenos cercanos, formulando preguntas con base en observaciones guiadas y realizando predicciones.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Buscar información sencilla de diferentes fuentes seguras y fiables de forma guiada, utilizándola en investigaciones relacionadas con el medio.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Participar en experimentos pautados o guiados, cuando la investigación lo requiera, utilizando técnicas sencillas de indagación, empleando de forma segura los instrumentos y registrando las observaciones de forma clara y objetiva.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Proponer respuestas a las preguntas planteadas, comparando la información y los resultados obtenidos con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5",
+          "competencia": "C2",
+          "texto": "Comunicar de forma oral o gráfica el resultado de las investigaciones, explicando los pasos generales seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Realizar, de forma guiada, un producto final sencillo que dé solución a un problema de necesidad, uso y diseño, probando en equipo diferentes prototipos y utilizando de forma segura los materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Presentar de forma oral o gráfica el producto final de los proyectos de diseño, explicando los pasos seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3",
+          "competencia": "C3",
+          "texto": "Mostrar interés por el pensamiento computacional, participando en la resolución guiada de problemas sencillos de programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Identificar las emociones propias y las de los demás, entendiendo las relaciones familiares y escolares a las que pertenecen y reconociendo las acciones que favorezcan estas relaciones.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Reconocer estilos de vida saludables valorando la importancia de una alimentación variada, equilibrada y saludable, la higiene, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Reconocer las características, la organización y las propiedades de los elementos del medio natural, a través de la indagación, utilizando diversas herramientas y procesos adecuados de conocimiento y descubrimiento de forma pautada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Reconocer conexiones pautadas, sencillas y directas entre diferentes elementos del medio natural, social y cultural por medio de la observación, la manipulación y la experimentación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Mostrar actitudes de respeto ante el patrimonio natural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Mostrar estilos de vida adecuados y valorar la importancia del respeto, los cuidados y la protección de los elementos y seres del planeta, identificando la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio como el suelo y el agua.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Identificar algún hito tecnológico de algunas de las etapas de la historia de la humanidad.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_bocm": "33-34"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Utilizar dispositivos y recursos digitales, de acuerdo con las necesidades del contexto educativo de forma segura y responsable, buscando información, comunicándose y trabajando de forma individual y en equipo, reelaborando y creando contenidos digitales sencillos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Formular preguntas y realizar predicciones razonadas, demostrando curiosidad por el medio cercano, basándose en la observación sistemática y la formulación de hipótesis propias del método experimental.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Buscar y seleccionar información de diferentes fuentes seguras y fiables, utilizándola en investigaciones relacionadas con el medio y adquiriendo léxico científico básico.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Realizar experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación, inducción y modelos, empleando de forma segura instrumentos y dispositivos, realizando observaciones objetivas y mediciones precisas y registrándolas correctamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, a través de la interpretación de la información y los resultados obtenidos, comparándolos con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5",
+          "competencia": "C2",
+          "texto": "Presentar los resultados de las investigaciones en diferentes formatos, utilizando lenguaje científico básico o aplicado, explicando los pasos generales seguidos, aportando argumentos para defender los resultados de la investigación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Construir en equipo un producto final sencillo que dé solución a un problema de necesidad, uso y diseño, proponiendo posibles soluciones, probando diferentes prototipos y utilizando de forma segura las herramientas, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Presentar el producto final de los proyectos de diseño en diferentes formatos (oral, escrito, esquemas, mapas conceptuales, PowerPoint…) y explicando los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3",
+          "competencia": "C3",
+          "texto": "Resolver, de forma guiada, problemas sencillos de programación, comprobando si la respuesta se ajusta al propósito, modificando algoritmos de acuerdo con los principios básicos del pensamiento computacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Mostrar actitudes que fomenten la seguridad emocional y afectiva, identificando las emociones propias y las de los demás, mostrando empatía y estableciendo relaciones adecuadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Identificar de forma consciente algunos indicios derivados de las relaciones entre las emociones y los principales sistemas y aparatos del cuerpo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3",
+          "competencia": "C4",
+          "texto": "Identificar hábitos de vida saludables valorando la importancia de la higiene, una alimentación variada y equilibrada, el ejercicio físico, el ocio activo y el descanso.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Identificar las características, la organización y las propiedades de los elementos del medio natural, a través de la indagación y utilizando las herramientas y procesos adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Identificar conexiones sencillas entre diferentes elementos del medio natural mostrando comprensión de las relaciones que se establecen.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Proteger el patrimonio natural y valorarlo, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Identificar problemas sociales y medioambientales, las interrelaciones que existen entre la salud y cuidado del planeta, proponer posibles soluciones y poner en práctica estilos de vida adecuados, reconociendo comportamientos respetuosos de cuidado, protección del entorno cercano y uso responsable de los recursos naturales, expresando los cambios positivos y negativos causados en el medio por la acción humana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Conocer y mostrar hábitos de vida adecuados, con respeto, cuidados y protección del planeta, identificando la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3",
+          "competencia": "C6",
+          "texto": "Conocer algunos hitos tecnológicos y sus consecuencias a lo largo de las etapas de la historia de la humanidad.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "enunciados_ciclo": [
+        {
+          "id": "C1",
+          "enunciado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, para reelaborar y crear contenido digital."
+        },
+        {
+          "id": "C6",
+          "enunciado": "Identificar las causas y consecuencias de la intervención humana en el entorno, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para mejorar la capacidad de afrontar problemas, buscar soluciones y actuar en su resolución fomentando respeto, el cuidado y la protección de las personas y del planeta."
+        }
+      ],
+      "paginas_bocm": "36"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Utilizar recursos digitales de acuerdo con las necesidades del contexto educativo de forma responsable, segura, eficiente y autónoma, buscando información, comunicándose y trabajando de forma individual, en equipo y en red, reelaborando y creando contenidos digitales sencillos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Formular preguntas y realizar predicciones razonadas sobre el medio mostrando y manteniendo la curiosidad, aplicando una metodología hipotético-inductiva.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Buscar, seleccionar y contrastar información, de diferentes fuentes seguras y fiables, usando los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico, y utilizándola en investigaciones relacionadas con el medio.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Diseñar y realizar experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura los instrumentos y dispositivos apropiados, realizando observaciones objetivas y estructuradas y mediciones precisas y registrándolas correctamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, a través del análisis y la interpretación de la información y los resultados obtenidos, valorando la coherencia de las posibles soluciones y comparándolas con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5",
+          "competencia": "C2",
+          "texto": "Comunicar los resultados de las investigaciones adaptando el mensaje y el formato a la audiencia a la que va dirigido, utilizando lenguaje científico o aplicado y explicando los pasos seguidos de forma pormenorizada y aportando argumentos para defender las propuestas que considere veraces.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Plantear problemas de necesidad, uso y diseño que se resuelvan con la creación de un prototipo o solución digital, evaluando necesidades del entorno y estableciendo objetivos concretos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Diseñar posibles soluciones a los problemas planteados de acuerdo con técnicas sencillas de los proyectos de diseño y pensamiento computacional, mediante estrategias básicas de gestión de proyectos conjuntos, teniendo en cuenta los recursos necesarios y estableciendo criterios concretos para evaluar el proyecto, verificando si la solución cumple los criterios objetivos de validez y calidad establecidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3",
+          "competencia": "C3",
+          "texto": "Desarrollar un producto final que dé solución a un problema de diseño, probando en equipo diferentes prototipos o soluciones digitales y utilizando de forma segura las herramientas, dispositivos, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.4",
+          "competencia": "C3",
+          "texto": "Comunicar el diseño de un producto final, adaptando el mensaje y el formato a la audiencia, explicando los pasos seguidos, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto y proponiendo posibles retos para futuros proyectos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Promover actitudes que fomenten la seguridad emocional, gestionando las emociones propias y respetando las de los demás, reflexionando ante los usos de la tecnología y la gestión del tiempo libre.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Adoptar estilos de vida saludables valorando la importancia de una alimentación variada y equilibrada, el ejercicio físico, el contacto con la naturaleza, el descanso, el ocio, la higiene, la prevención de enfermedades y el uso adecuado de nuevas tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Identificar y analizar las características, la organización y las propiedades de los elementos del medio natural, a través de la indagación, utilizando las herramientas y procesos adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Establecer conexiones sencillas mediante hipótesis e inducción entre diferentes elementos del medio natural mostrando comprensión de las relaciones que se establecen e iniciando razonamiento hipotético-deductivo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3",
+          "competencia": "C5",
+          "texto": "Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio natural y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Promover estilos de vida adecuados y consecuentes con el respeto, los cuidados, y la protección de las personas y del planeta, a partir del análisis de la intervención humana en el entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Participar en la búsqueda, contraste y evaluación de propuestas para afrontar problemas, buscar soluciones y actuar para su resolución. Conocer algunos hitos tecnológicos y digitales, y sus consecuencias, a lo largo de las etapas de la historia de la humanidad.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "enunciados_ciclo": [
+        {
+          "id": "C1",
+          "enunciado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red, y para reelaborar y crear contenido digital."
+        },
+        {
+          "id": "C6",
+          "enunciado": "Identificar las causas y consecuencias de la intervención humana en el entorno, desde los puntos de vista social, económico, cultural, tecnológico y ambiental, para mejorar la capacidad de afrontar problemas, buscar soluciones y actuar en su resolución fomentando el respeto, el cuidado y la protección de las personas y del planeta."
+        }
+      ],
+      "paginas_bocm": "39-40"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
+    "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
+    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
+    "C3 en Madrid: «…pensamiento computacional, generando nuevos productos según necesidades.» (reconsultado, mismo texto).",
+    "Variantes de puntuación de C1 y C6 en el 2.º y 3.er ciclo guardadas en enunciados_ciclo; confirmar en el PDF.",
+    "3.er ciclo 6.2: el texto contiene dos oraciones («…actuar para su resolución. Conocer algunos hitos tecnológicos…») bajo un solo número; reconsultado: no hay 6.3 en ese ciclo."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
+    "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
+  },
+  "saberes": {},
+  "bloques": {}
+}

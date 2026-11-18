@@ -14,7 +14,10 @@ export class FakeKV {
     // Paginación pequeña a propósito para probar el bucle del cursor
     const keys = [...this.map.keys()].filter(k => k.startsWith(prefix)).sort();
     const start = cursor ? Number(cursor) : 0;
-    const page = keys.slice(start, start + limit).map(name => ({ name }));
+    const page = keys.slice(start, start + limit).map(name => {
+      const md = this.map.get(name).opts && this.map.get(name).opts.metadata;
+      return md === undefined ? { name } : { name, metadata: md };
+    });
     const done = start + limit >= keys.length;
     return { keys: page, list_complete: done, cursor: done ? undefined : String(start + limit) };
   }

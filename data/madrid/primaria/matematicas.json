@@ -1,0 +1,448 @@
+{
+  "area": "Matemáticas",
+  "fuente": "Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II. Texto extraído del PDF oficial de bocm.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Interpretar situaciones de la vida cotidiana proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante.",
+      "resumen": null
+    },
+    {
+      "id": "C2",
+      "enunciado": "Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado.",
+      "resumen": null
+    },
+    {
+      "id": "C3",
+      "enunciado": "Explorar, formular y comprobar conjeturas sencillas o plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana, de forma guiada, reconociendo el valor del razonamiento y la argumentación, para contrastar su validez, adquirir e integrar nuevo conocimiento.",
+      "resumen": null
+    },
+    {
+      "id": "C4",
+      "enunciado": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes, reconociendo patrones, generalizando e interpretando, modificando y creando algoritmos de forma guiada, para modelizar y automatizar situaciones de la vida cotidiana.",
+      "resumen": null
+    },
+    {
+      "id": "C5",
+      "enunciado": "Reconocer y utilizar conexiones entre las diferentes ideas matemáticas, así como identificar las matemáticas implicadas en otras áreas o en la vida cotidiana, relacionando conceptos y procedimientos, para interpretar situaciones y contextos diversos.",
+      "resumen": null
+    },
+    {
+      "id": "C6",
+      "enunciado": "Comunicar y representar, de forma individual y grupal, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito y gráfico, y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas.",
+      "resumen": null
+    },
+    {
+      "id": "C7",
+      "enunciado": "Desarrollar destrezas personales que ayuden a enfrentarse a retos matemáticos, fomentando la confianza en las propias posibilidades, aceptando el error como parte del proceso de aprendizaje y adaptándose a las situaciones de incertidumbre, para mejorar la constancia y disfrutar en el aprendizaje de las matemáticas.",
+      "resumen": null
+    },
+    {
+      "id": "C8",
+      "enunciado": "Desarrollar destrezas sociales, reconociendo y respetando a los compañeros y participar en equipos de trabajo para fomentar un adecuado desarrollo personal y social.",
+      "resumen": null
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Comprender las preguntas planteadas a través de diferentes estrategias o herramientas, reconociendo la información contenida en problemas de la vida cotidiana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Proporcionar ejemplos de representaciones de situaciones problematizadas sencillas, con recursos manipulativos y gráficos que ayuden en la resolución de un problema de la vida cotidiana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Emplear algunas estrategias adecuadas en la resolución de problemas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Obtener posibles soluciones a problemas de forma guiada, aplicando estrategias básicas de resolución.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Describir verbalmente la idoneidad de las soluciones de un problema a partir de las preguntas previamente planteadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Realizar conjeturas matemáticas sencillas, identificando patrones, propiedades y relaciones de forma guiada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Dar ejemplos de problemas a partir de situaciones cotidianas que se resuelven matemáticamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Describir rutinas y actividades sencillas de la vida cotidiana que se realicen paso a paso, utilizando principios básicos del pensamiento computacional de forma guiada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Emplear herramientas tecnológicas adecuadas, de forma guiada, en el proceso de resolución de problemas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Reconocer conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Reconocer las matemáticas presentes en la vida cotidiana y en otras áreas, estableciendo conexiones sencillas entre ellas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Reconocer lenguaje matemático sencillo presente en la vida cotidiana adquiriendo vocabulario específico básico.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Explicar ideas y procesos matemáticos sencillos, los pasos seguidos en la resolución de un problema o los resultados matemáticos, de forma verbal o gráfica.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1",
+          "competencia": "C7",
+          "texto": "Reconocer las destrezas personales propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2",
+          "competencia": "C7",
+          "texto": "Expresar actitudes positivas ante retos matemáticos, valorando el error, como una oportunidad de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1",
+          "competencia": "C8",
+          "texto": "Participar respetuosamente en el trabajo en equipo, estableciendo relaciones saludables basadas en el respeto, la libertad, la igualdad y la resolución pacífica de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2",
+          "competencia": "C8",
+          "texto": "Aceptar la tarea y el rol asignado en el trabajo en equipo, cumpliendo con las responsabilidades individuales y contribuyendo a la consecución de los objetivos del grupo.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_bocm": "97-98"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Interpretar, de forma verbal o gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas, incluidas las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Producir representaciones matemáticas, a través de esquemas o diagramas que ayuden en la resolución de una situación problematizada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Comparar entre diferentes estrategias para resolver un problema de forma pautada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Obtener posibles soluciones de un problema siguiendo alguna estrategia conocida.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Demostrar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Analizar conjeturas matemáticas sencillas identificando patrones, propiedades y relaciones de forma pautada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Dar ejemplos de problemas sobre situaciones cotidianas que se resuelven matemáticamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Automatizar situaciones sencillas de la vida cotidiana que se realicen paso a paso o sigan una rutina, utilizando de forma pautada principios básicos del pensamiento computacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Emplear herramientas tecnológicas adecuadas en el proceso de resolución de problemas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Reconocer lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario específico básico y mostrando comprensión del mensaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Explicar los procesos e ideas matemáticas, los pasos seguidos en la resolución de un problema o los resultados obtenidos, utilizando lenguaje matemático sencillo en diferentes formatos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1",
+          "competencia": "C7",
+          "texto": "Identificar las destrezas personales al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario y desarrollando así la autoconfianza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2",
+          "competencia": "C7",
+          "texto": "Mostrar actitudes positivas ante retos matemáticos tales como el esfuerzo y la flexibilidad, valorando el error como una oportunidad de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1",
+          "competencia": "C8",
+          "texto": "Trabajar en equipo activa y respetuosamente, comunicándose adecuadamente y estableciendo relaciones basadas en la igualdad, la libertad y la resolución pacífica de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2",
+          "competencia": "C8",
+          "texto": "Participar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias de colaboración y sencillas de trabajo en equipo dirigidas a la consecución de objetivos compartidos.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "enunciados_ciclo": [
+        {
+          "id": "C6",
+          "enunciado": "Comunicar y representar, de forma individual y grupal conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas."
+        }
+      ],
+      "paginas_bocm": "100-101"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Elaborar representaciones matemáticas que ayuden en la búsqueda y elección de estrategias y herramientas, incluidas las tecnologías, para la resolución de una situación problematizada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Seleccionar entre diferentes estrategias para resolver un problema, justificando la elección.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Obtener posibles soluciones de un problema, seleccionando entre varias estrategias conocidas de forma autónoma.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Formular conjeturas matemáticas sencillas identificando patrones, propiedades y relaciones de forma guiada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Plantear nuevos problemas sobre situaciones cotidianas que se resuelvan matemáticamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Emplear herramientas tecnológicas adecuadas en la investigación y resolución de problemas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Utilizar conexiones entre diferentes elementos matemáticos movilizando conocimientos y experiencias propios.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para resolver problemas en contextos no matemáticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Interpretar el lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario apropiado y mostrando la comprensión del mensaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Comunicar en diferentes formatos las conjeturas y procesos matemáticos, utilizando lenguaje matemático adecuado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1",
+          "competencia": "C7",
+          "texto": "Regular las destrezas personales y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza al abordar nuevos retos matemáticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2",
+          "competencia": "C7",
+          "texto": "Elegir actitudes positivas ante nuevos retos matemáticos, tales como la constancia y la responsabilidad, valorando el error como una oportunidad de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1",
+          "competencia": "C8",
+          "texto": "Trabajar en equipo activa, respetuosa y responsablemente, mostrando iniciativa, comunicándose de forma efectiva, valorando la diversidad y estableciendo relaciones basadas en el respeto, la igualdad, la libertad y la resolución pacífica de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2",
+          "competencia": "C8",
+          "texto": "Colaborar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias de colaboración sencillas dirigidas a la consecución de objetivos compartidos.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "enunciados_ciclo": [
+        {
+          "id": "C6",
+          "enunciado": "Comunicar y representar, de forma individual y grupal, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas."
+        }
+      ],
+      "paginas_bocm": "105-106"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
+    "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
+    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
+    "El enunciado de C6 varía en la puntuación según el ciclo («escrito y gráfico, y» en el 1.er ciclo; «escrito, gráfico, y» en el 2.º; «escrito, gráfico y» en el 3.º); se guarda en ciclos.<ciclo>.enunciados_ciclo. Confirmar en el PDF.",
+    "C8 tiene en Madrid una redacción propia y más corta que la del RD 157/2022 («reconociendo y respetando a los compañeros y participar en equipos de trabajo…»). Confirmar en el PDF.",
+    "Criterio 8.2 del 2.º ciclo: «estrategias de colaboración y sencillas de trabajo en equipo», tal como se extrajo."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
+    "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
+  },
+  "saberes": {},
+  "bloques": {}
+}

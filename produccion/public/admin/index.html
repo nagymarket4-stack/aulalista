@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<title>AulaLista · Métricas</title>
+<style>
+  :root{--bg:#f7f5f0;--ink:#1f2a2e;--muted:#5d6b70;--line:#e4e0d6;--brand:#0f6e6a;--brand-2:#e8f3f2;--accent:#e07a3f;--card:#fff;--grid:#ece8df;--bad:#b3261e}
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#141a1c;--ink:#e9eef0;--muted:#a3b1b5;--line:#2c3639;--brand:#3fb5ae;--brand-2:#1d2b2c;--accent:#f0965f;--card:#1b2224;--grid:#263033;--bad:#f2867e}
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5;font-size:15px}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 22px 60px}
+  h1,h2{font-family:Fraunces,Georgia,"Times New Roman",serif;letter-spacing:-.3px;line-height:1.15}
+  header{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center;padding:18px 0}
+  .logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:22px;color:var(--brand)}
+  .logo span{color:var(--accent)} .logo small{font:500 14px Inter,system-ui,sans-serif;color:var(--muted);margin-left:8px}
+  .filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .filters label{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+  input,button{font:inherit;color:inherit}
+  input[type=date],input[type=password]{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 10px}
+  button{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:7px 12px;cursor:pointer;font-weight:600}
+  button.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+  button[aria-pressed=true]{background:var(--brand-2);border-color:var(--brand);color:var(--brand)}
+  button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .hidden{display:none!important}
+  .login{max-width:420px;margin:12vh auto;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+  .login h1{margin:0 0 8px;font-size:26px}
+  .login p{color:var(--muted);font-size:14px}
+  .login form{display:flex;gap:8px;margin-top:14px} .login input{flex:1}
+  .msg{min-height:1.5em;font-size:14px;color:var(--muted);margin:6px 0}
+  .msg.err{color:var(--bad)}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin:8px 0 18px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .kpi .l{font-size:12.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+  .kpi .v{font-family:Fraunces,Georgia,serif;font-size:30px;font-weight:700;margin:2px 0;font-variant-numeric:tabular-nums}
+  .kpi .s{font-size:13px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;min-width:0}
+  .card.wide{grid-column:1/-1}
+  .card h2{font-size:18px;margin:0 0 2px} .card .sub{font-size:13px;color:var(--muted);margin:0 0 10px}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  svg text{fill:var(--muted);font-size:11px;font-family:Inter,system-ui,sans-serif}
+  svg .val{fill:var(--ink);font-weight:600}
+  svg .grid-l{stroke:var(--grid);stroke-width:1}
+  svg .base{stroke:var(--line);stroke-width:1}
+  svg .bar{fill:var(--brand)} svg .bar.alt{fill:var(--accent)}
+  svg .hit{fill:transparent;cursor:default}
+  svg .hit:hover + .bar,svg g:hover>.bar{opacity:.8}
+  .empty{color:var(--muted);font-size:14px;padding:18px 0}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+  th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:right}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--muted);font-weight:600;font-size:12.5px}
+  details{margin-top:10px} summary{cursor:pointer;font-weight:600;font-size:14px}
+  .tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12.5px;padding:6px 9px;border-radius:8px;white-space:nowrap;z-index:10}
+  .notes{color:var(--muted);font-size:13px;padding-left:18px}
+  .warn{background:#fff4e5;color:#7a4100;border-radius:10px;padding:8px 12px;font-size:13.5px}
+  @media (prefers-color-scheme: dark){.warn{background:#3a2a17;color:#ffd7a8}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section id="login" class="login" aria-labelledby="loginT">
+    <h1 id="loginT">Panel de métricas</h1>
+    <p>Acceso privado. Escribe tu <code>ADMIN_TOKEN</code>. Se guarda solo en esta pestaña (sessionStorage) y se borra al cerrarla.</p>
+    <form id="loginF">
+      <input id="token" type="password" autocomplete="current-password" required minlength="24" aria-label="Token de administración">
+      <button class="primary" type="submit">Entrar</button>
+    </form>
+    <p id="loginMsg" class="msg" role="status" aria-live="polite"></p>
+  </section>
+
+  <main id="panel" class="hidden">
+    <header>
+      <div class="logo">Aula<span>Lista</span><small>Métricas privadas</small></div>
+      <div class="filters" role="group" aria-label="Periodo">
+        <button type="button" data-days="7">7 días</button>
+        <button type="button" data-days="30">30 días</button>
+        <button type="button" data-days="90">90 días</button>
+        <label>Desde <input id="desde" type="date"></label>
+        <label>Hasta <input id="hasta" type="date"></label>
+        <button type="button" id="reload" class="primary">Actualizar</button>
+        <button type="button" id="logout">Salir</button>
+      </div>
+    </header>
+    <p id="msg" class="msg" role="status" aria-live="polite"></p>
+    <p id="parcial" class="warn hidden">Hay demasiadas licencias antiguas sin metadatos: los activos y el MRR son parciales.</p>
+
+    <div id="kpis" class="kpis" aria-label="Indicadores clave"></div>
+
+    <div class="grid">
+      <section class="card wide" aria-labelledby="tGen">
+        <h2 id="tGen">Generaciones por día</h2>
+        <p class="sub" id="sGen"></p>
+        <div id="cGen"></div>
+      </section>
+      <section class="card" aria-labelledby="tFun">
+        <h2 id="tFun">Embudo del periodo</h2>
+        <p class="sub" id="sFun"></p>
+        <div id="cFun"></div>
+      </section>
+      <section class="card" aria-labelledby="tLead">
+        <h2 id="tLead">Leads y licencias por día</h2>
+        <p class="sub">Leads nuevos (verde) y licencias emitidas (naranja), en la misma escala.</p>
+        <div id="cLead"></div>
+      </section>
+      <section class="card" aria-labelledby="tCcaa">
+        <h2 id="tCcaa">Top comunidades</h2>
+        <p class="sub">Generaciones por comunidad autónoma.</p>
+        <div id="cCcaa"></div>
+      </section>
+      <section class="card" aria-labelledby="tModo">
+        <h2 id="tModo">Modos</h2>
+        <p class="sub">Generaciones por tipo de documento.</p>
+        <div id="cModo"></div>
+      </section>
+      <section class="card" aria-labelledby="tIng">
+        <h2 id="tIng">Ingresos del periodo</h2>
+        <p class="sub">Estimados con los precios de lista. Las cifras contables, en Stripe.</p>
+        <div id="tIngresos"></div>
+      </section>
+      <section class="card" aria-labelledby="tOtros">
+        <h2 id="tOtros">Bajas, afiliados y cupo</h2>
+        <p class="sub">Del periodo seleccionado.</p>
+        <div id="tOtrosT"></div>
+      </section>
+      <section class="card wide" aria-labelledby="tDia">
+        <h2 id="tDia">Datos por día</h2>
+        <details><summary>Ver tabla</summary><div id="tSerie"></div></details>
+        <ul id="notas" class="notes"></ul>
+      </section>
+    </div>
+  </main>
+</div>
+<div id="tip" class="tip hidden" role="tooltip"></div>
+<script>
+(function () {
+  'use strict';
+  var KEY = 'al-admin-token';
+  var $ = function (id) { return document.getElementById(id); };
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  var nf = new Intl.NumberFormat('es-ES');
+  var ef = new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR' });
+  var pf = new Intl.NumberFormat('es-ES', { style: 'percent', maximumFractionDigits: 1 });
+  var MODOS = { sa: 'Situación de aprendizaje', rubrica: 'Rúbrica', adaptacion: 'Adaptación DUA', pd: 'Programación didáctica', oposicion: 'Programación (oposición)', exposicion: 'SA para exposición' };
+  var PLANES = { fundador: 'Fundador', 'pro-mensual': 'Pro mensual', 'pro-anual': 'Pro anual', pro: 'Pro (sin periodicidad)' };
+
+  function el(tag, attrs, text) {
+    var e = document.createElement(tag);
+    if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = String(text);
+    return e;
+  }
+  function sv(tag, attrs, text) {
+    var e = document.createElementNS(SVGNS, tag);
+    if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = String(text);
+    return e;
+  }
+  function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); return node; }
+  function iso(d) { return d.toISOString().slice(0, 10); }
+  function shortDay(s) { var p = s.split('-'); return p[2] + '/' + p[1]; }
+  function pct(x) { return x == null ? '—' : pf.format(x); }
+
+  // ---------- Tooltip ----------
+  var tip = $('tip');
+  function showTip(ev, text) {
+    tip.textContent = text; tip.classList.remove('hidden');
+    var x = Math.min(ev.clientX + 12, window.innerWidth - tip.offsetWidth - 8);
+    tip.style.left = x + 'px'; tip.style.top = (ev.clientY - tip.offsetHeight - 10) + 'px';
+  }
+  function hideTip() { tip.classList.add('hidden'); }
+  function hover(node, text) {
+    node.addEventListener('mousemove', function (ev) { showTip(ev, text); });
+    node.addEventListener('mouseleave', hideTip);
+    node.appendChild(sv('title', null, text));
+  }
+
+  function niceMax(v) {
+    if (v <= 4) return Math.max(1, Math.ceil(v));
+    var p = Math.pow(10, Math.floor(Math.log10(v))), n = v / p;
+    return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p;
+  }
+
+  // Barras verticales por día. series: [{key, cls, label}] (1 o 2 en la misma escala, agrupadas).
+  function dayBars(container, serie, series) {
+    clear(container);
+    var W = 760, H = 220, L = 34, R = 8, T = 10, B = 26;
+    var max = 0;
+    serie.forEach(function (d) { series.forEach(function (s) { max = Math.max(max, d[s.key]); }); });
+    if (!max) { container.appendChild(el('p', { class: 'empty' }, 'Sin datos en este periodo.')); return; }
+    var top = niceMax(max), ph = H - T - B, pw = W - L - R, n = serie.length;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': series.map(function (s) { return s.label; }).join(' y ') + ' por día' });
+    for (var i = 0; i <= 4; i++) {
+      var v = top * i / 4, y = T + ph - ph * i / 4;
+      if (v % 1 && top <= 4) continue;
+      svg.appendChild(sv('line', { class: i ? 'grid-l' : 'base', x1: L, x2: W - R, y1: y, y2: y }));
+      svg.appendChild(sv('text', { x: L - 6, y: y + 3.5, 'text-anchor': 'end' }, nf.format(v)));
+    }
+    var slot = pw / n, gap = Math.min(2, slot * 0.15), bw = Math.max(1, (slot - gap * 2 - (series.length - 1) * 2) / series.length);
+    var every = Math.ceil(n / 12);
+    serie.forEach(function (d, i) {
+      var g = sv('g'), x0 = L + i * slot + gap;
+      var text = shortDay(d.dia) + ' · ' + series.map(function (s) { return s.label + ': ' + nf.format(d[s.key]); }).join(' · ');
+      g.appendChild(sv('rect', { class: 'hit', x: L + i * slot, y: T, width: slot, height: ph }));
+      series.forEach(function (s, j) {
+        var h = ph * d[s.key] / top;
+        if (h > 0) g.appendChild(sv('path', { class: 'bar ' + (s.cls || ''), d: roundTop(x0 + j * (bw + 2), T + ph, bw, h) }));
+      });
+      hover(g, text);
+      svg.appendChild(g);
+      if (i % every === 0) svg.appendChild(sv('text', { x: L + i * slot + slot / 2, y: H - 8, 'text-anchor': 'middle' }, shortDay(d.dia)));
+    });
+    container.appendChild(svg);
+    if (series.length > 1) {
+      var lg = el('p', { class: 'sub' });
+      series.forEach(function (s, j) {
+        var k = sv('svg', { viewBox: '0 0 10 10', width: 10, height: 10, 'aria-hidden': 'true' });
+        k.appendChild(sv('rect', { class: 'bar ' + (s.cls || ''), width: 10, height: 10, rx: 2 }));
+        var sp = el('span'); sp.appendChild(k); sp.appendChild(document.createTextNode(' ' + s.label + (j < series.length - 1 ? '   ' : '')));
+        lg.appendChild(sp);
+      });
+      container.appendChild(lg);
+    }
+  }
+  // Barra con las esquinas superiores redondeadas (4 px) y la base plana sobre el eje.
+  function roundTop(x, base, w, h) {
+    var r = Math.min(4, w / 2, h);
+    return 'M' + x + ',' + base + 'V' + (base - h + r) + 'Q' + x + ',' + (base - h) + ' ' + (x + r) + ',' + (base - h) +
+      'H' + (x + w - r) + 'Q' + (x + w) + ',' + (base - h) + ' ' + (x + w) + ',' + (base - h + r) + 'V' + base + 'Z';
+  }
+  function roundRight(x, y, w, h) {
+    var r = Math.min(4, h / 2, w);
+    return 'M' + x + ',' + y + 'H' + (x + w - r) + 'Q' + (x + w) + ',' + y + ' ' + (x + w) + ',' + (y + r) +
+      'V' + (y + h - r) + 'Q' + (x + w) + ',' + (y + h) + ' ' + (x + w - r) + ',' + (y + h) + 'H' + x + 'Z';
+  }
+
+  // Barras horizontales: rows [{label, n, extra}] con etiqueta y valor directos.
+  function hBars(container, rows, fmt) {
+    clear(container);
+    if (!rows.length || !rows.some(function (r) { return r.n > 0; })) { container.appendChild(el('p', { class: 'empty' }, 'Sin datos en este periodo.')); return; }
+    var W = 520, LBL = 170, VAL = 64, rowH = 26, bh = 16, H = rows.length * rowH + 4;
+    var max = Math.max.apply(null, rows.map(function (r) { return r.n; })) || 1;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': rows.map(function (r) { return r.label + ' ' + fmt(r.n); }).join(', ') });
+    svg.appendChild(sv('line', { class: 'base', x1: LBL, x2: LBL, y1: 0, y2: H }));
+    rows.forEach(function (r, i) {
+      var y = i * rowH + 4, w = (W - LBL - VAL) * r.n / max, g = sv('g');
+      g.appendChild(sv('rect', { class: 'hit', x: 0, y: y - 4, width: W, height: rowH }));
+      g.appendChild(sv('text', { x: LBL - 8, y: y + bh / 2 + 4, 'text-anchor': 'end' }, r.label.length > 26 ? r.label.slice(0, 25) + '…' : r.label));
+      if (w > 0) g.appendChild(sv('path', { class: 'bar', d: roundRight(LBL, y, Math.max(w, 2), bh) }));
+      g.appendChild(sv('text', { class: 'val', x: LBL + w + 6, y: y + bh / 2 + 4 }, fmt(r.n) + (r.extra ? ' · ' + r.extra : '')));
+      hover(g, r.label + ': ' + fmt(r.n) + (r.extra ? ' (' + r.extra + ')' : ''));
+      svg.appendChild(g);
+    });
+    container.appendChild(svg);
+  }
+
+  function table(container, head, rows) {
+    clear(container);
+    var t = el('table'), th = el('thead'), tr = el('tr');
+    head.forEach(function (h) { tr.appendChild(el('th', { scope: 'col' }, h)); });
+    th.appendChild(tr); t.appendChild(th);
+    var tb = el('tbody');
+    rows.forEach(function (r) { var row = el('tr'); r.forEach(function (c) { row.appendChild(el('td', null, c)); }); tb.appendChild(row); });
+    t.appendChild(tb); container.appendChild(t);
+  }
+
+  function kpi(label, value, sub) {
+    var k = el('div', { class: 'kpi' });
+    k.appendChild(el('div', { class: 'l' }, label));
+    k.appendChild(el('div', { class: 'v' }, value));
+    if (sub) k.appendChild(el('div', { class: 's' }, sub));
+    return k;
+  }
+
+  // ---------- Render ----------
+  function render(s) {
+    var k = s.kpis, a = s.actual;
+    var box = clear($('kpis'));
+    box.appendChild(kpi('Leads', nf.format(k.leads), nf.format(k.leads_fundador) + ' quieren Fundador'));
+    box.appendChild(kpi('Pro activos', nf.format(a.pro_activos), nf.format(a.pro_mensual) + ' mensual · ' + nf.format(a.pro_anual) + ' anual' + (a.pro_sin_periodicidad ? ' · ' + nf.format(a.pro_sin_periodicidad) + ' s/p' : '')));
+    box.appendChild(kpi('Fundadores', nf.format(a.fundador_activos), nf.format(a.plazas_fundador.libres) + ' de ' + nf.format(a.plazas_fundador.total) + ' plazas libres'));
+    box.appendChild(kpi('MRR estimado', ef.format(a.mrr_estimado_eur), 'ARR ' + ef.format(a.arr_estimado_eur)));
+    box.appendChild(kpi('Generaciones/día', nf.format(k.generaciones_dia), nf.format(k.generaciones) + ' en ' + s.rango.dias + ' días'));
+    box.appendChild(kpi('Conversión lead → pago', pct(k.conversion_lead_pago), nf.format(k.licencias) + ' licencias / ' + nf.format(k.leads) + ' leads'));
+    box.appendChild(kpi('Errores del modelo', nf.format(k.errores_modelo), 'Tasa ' + pct(k.tasa_error)));
+    $('parcial').classList.toggle('hidden', !a.parcial);
+
+    var g = s.generaciones;
+    $('sGen').textContent = nf.format(g.total) + ' en total · ' + nf.format(g.por_plan.free) + ' gratis · ' + nf.format(g.por_plan.pro) + ' Pro · ' + nf.format(g.cupo_agotado) + ' veces sin cupo gratis';
+    dayBars($('cGen'), s.serie, [{ key: 'generaciones', label: 'Generaciones' }]);
+    dayBars($('cLead'), s.serie, [{ key: 'leads', label: 'Leads' }, { key: 'licencias', cls: 'alt', label: 'Licencias' }]);
+
+    var e = s.embudo, first = e.pasos[0].n;
+    hBars($('cFun'), e.pasos.map(function (p) { return { label: p.paso, n: p.n, extra: first && p !== e.pasos[0] ? pct(p.n / first) : '' }; }), nf.format);
+    $('sFun').textContent = 'Lead → pago ' + pct(e.conversion_lead_pago) + ' · Fundador (lead → compra) ' + pct(e.conversion_fundador);
+    hBars($('cCcaa'), s.top.comunidades.map(function (c) { return { label: c.nombre, n: c.n, extra: g.total ? pct(c.n / g.total) : '' }; }), nf.format);
+    hBars($('cModo'), Object.keys(MODOS).map(function (m) { return { label: MODOS[m], n: g.por_modo[m] || 0 }; }), nf.format);
+
+    var ing = s.ingresos, lic = s.licencias.por_plan, ren = s.renovaciones.por_plan, cob = ing.cobrados_stripe_eur;
+    table($('tIngresos'), ['Plan', 'Altas', 'Renov.', 'Estimado', 'Cobrado (Stripe)'], [
+      ['Fundador (49 €)', nf.format(lic.fundador), '—', ef.format(ing.estimados_eur.fundador), ef.format(cob.fundador || 0)],
+      ['Pro mensual (9 €)', nf.format(lic['pro-mensual'] + lic.pro), nf.format(ren['pro-mensual'] + ren.pro), ef.format(ing.estimados_eur['pro-mensual']), ef.format((cob['pro-mensual'] || 0) + (cob.pro || 0) + (cob['renov-pro-mensual'] || 0) + (cob['renov-pro'] || 0))],
+      ['Pro anual (69 €)', nf.format(lic['pro-anual']), nf.format(ren['pro-anual']), ef.format(ing.estimados_eur['pro-anual']), ef.format((cob['pro-anual'] || 0) + (cob['renov-pro-anual'] || 0))],
+      ['Total', nf.format(s.licencias.total), nf.format(s.renovaciones.total), ef.format(ing.estimados_eur.total), ef.format(cob.total)]
+    ]);
+    var b = s.bajas, af = s.afiliados;
+    var motivos = Object.keys(b.por_motivo).map(function (m) { return m + ' ' + b.por_motivo[m]; }).join(', ') || '—';
+    table($('tOtrosT'), ['Concepto', 'Valor'], [
+      ['Bajas', nf.format(b.total) + (b.reactivadas ? ' (' + nf.format(b.reactivadas) + ' reactivadas)' : '')],
+      ['Motivos de baja', motivos],
+      ['Ventas de afiliados', nf.format(af.ventas) + ' + ' + nf.format(af.renovaciones) + ' renov. − ' + nf.format(af.devoluciones) + ' dev.'],
+      ['Importe neto afiliados', ef.format(af.importe_neto_eur)],
+      ['Comisión estimada (30 %)', ef.format(af.comision_estimada_eur)],
+      ['Sin cupo gratis (402)', nf.format(g.cupo_agotado)],
+      ['Límite diario Pro (429)', nf.format(g.limite_pro)],
+      ['Servicio sin configurar (503)', nf.format(s.errores.config)]
+    ]);
+    table($('tSerie'), ['Día', 'Generaciones', 'Gratis', 'Pro', 'Errores', 'Leads', 'Fundador', 'Licencias', 'Bajas'],
+      s.serie.slice().reverse().map(function (d) { return [d.dia, d.generaciones, d.free, d.pro, d.errores, d.leads, d.fundador, d.licencias, d.bajas].map(String); }));
+    var ul = clear($('notas'));
+    s.notas.forEach(function (n) { ul.appendChild(el('li', null, n)); });
+  }
+
+  // ---------- Datos ----------
+  function say(id, text, err) { var m = $(id); m.textContent = text || ''; m.classList.toggle('err', !!err); }
+  function showLogin(text) {
+    $('panel').classList.add('hidden'); $('login').classList.remove('hidden');
+    say('loginMsg', text, !!text); $('token').focus();
+  }
+  function load() {
+    var token = sessionStorage.getItem(KEY);
+    if (!token) return showLogin('');
+    var q = new URLSearchParams({ desde: $('desde').value, hasta: $('hasta').value });
+    say('msg', 'Cargando…');
+    fetch('/api/admin/stats?' + q.toString(), { headers: { authorization: 'Bearer ' + token }, cache: 'no-store', credentials: 'omit', referrerPolicy: 'no-referrer' })
+      .then(function (r) {
+        if (r.status === 401) { sessionStorage.removeItem(KEY); throw { login: 'Token incorrecto.' }; }
+        return r.json().then(function (j) { if (!r.ok) throw new Error(j.message || ('Error ' + r.status)); return j; });
+      })
+      .then(function (s) {
+        $('login').classList.add('hidden'); $('panel').classList.remove('hidden');
+        render(s);
+        say('msg', 'Del ' + s.rango.desde + ' al ' + s.rango.hasta + ' (UTC) · actualizado ' + new Date(s.generado).toLocaleString('es-ES'));
+      })
+      .catch(function (e) {
+        if (e && e.login) return showLogin(e.login);
+        if (!$('panel').classList.contains('hidden')) say('msg', e.message || 'No se ha podido cargar.', true);
+        else showLogin(e.message || 'No se ha podido cargar.');
+      });
+  }
+  function preset(days) {
+    var h = new Date(), d = new Date(h.getTime() - (days - 1) * 86400000);
+    $('hasta').value = iso(h); $('desde').value = iso(d);
+    document.querySelectorAll('[data-days]').forEach(function (b) { b.setAttribute('aria-pressed', String(Number(b.getAttribute('data-days')) === days)); });
+  }
+  document.querySelectorAll('[data-days]').forEach(function (b) {
+    b.addEventListener('click', function () { preset(Number(b.getAttribute('data-days'))); load(); });
+  });
+  ['desde', 'hasta'].forEach(function (id) {
+    $(id).addEventListener('change', function () { document.querySelectorAll('[data-days]').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); }); });
+  });
+  $('reload').addEventListener('click', load);
+  $('logout').addEventListener('click', function () { sessionStorage.removeItem(KEY); showLogin('Sesión cerrada.'); });
+  $('loginF').addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var t = $('token').value.trim();
+    if (t.length < 24) return say('loginMsg', 'El token tiene al menos 24 caracteres.', true);
+    sessionStorage.setItem(KEY, t); $('token').value = '';
+    load();
+  });
+  preset(30);
+  if (sessionStorage.getItem(KEY)) load(); else showLogin('');
+})();
+</script>
+</body>
+</html>

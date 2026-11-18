@@ -309,8 +309,9 @@ describe('leads', () => {
     const env = makeEnv({ MAILERLITE_API_KEY: 'ml' });
     const c = ctx();
     await worker.fetch(req('/api/lead', { method: 'POST', body: { email: 'm@centro.es', rgpd: true } }), env, c);
-    assert.equal(c.pending.length, 1);
+    assert.equal(c.pending.length, 2, 'MailerLite y el contador de métricas, ambos en segundo plano');
     await Promise.all(c.pending);
+    assert.equal(calls.length, 1, 'las métricas no salen a la red');
     assert.match(calls[0].url, /mailerlite/);
   });
 });

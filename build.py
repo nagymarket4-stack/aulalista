@@ -15,7 +15,7 @@ for d in sorted((R/'data').glob('*/primaria')):
         key = re.sub(r'\s*\(.*?\)\s*', '', j['area']).strip().lower()
         c = {}
         for ciclo, v in (j.get('ciclos') or {}).items():
-            crit = [[x['id'], x.get('competencia'), x['texto'], x.get('descriptores') or []] for x in ((v or {}).get('criterios') or []) if x.get('texto')]
+            crit = [[x['id'], x.get('competencia'), x['texto'], x.get('descriptores') or []] + ([int(re.sub(r'\D', '', x['curso']))] if x.get('curso') and re.sub(r'\D', '', x['curso']) else []) for x in ((v or {}).get('criterios') or []) if x.get('texto')]
             if crit: c[ciclo] = crit
         sab = {}
         for ciclo, bloques in (j.get('saberes') or {}).items():
@@ -31,7 +31,7 @@ for d in sorted((R/'data').glob('*/primaria')):
         for ciclo, bl in (j.get('bloques') or {}).items():
             out = [[x.get('competencias') or [], x.get('criterios') or [], x.get('explicacion') or ''] for x in (bl or []) if x.get('explicacion')]
             if out: blq[ciclo] = out
-        areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c, 's': sab, 'b': blq}
+        areas[key] = {'k': [[k['id'], k.get('enunciado') or k.get('resumen') or ''] for k in j.get('competencias', [])], 'c': c, 's': sab, 'b': blq, 'v': bool(j.get('verificado'))}
     rub_dir = d/'rubricas'
     if rub_dir.exists():
         for f in sorted(rub_dir.glob('*.json')):
@@ -69,6 +69,12 @@ for f in legal_dst.iterdir():
     if f.is_file() and f.name not in legal_files: f.unlink()
 for name in sorted(legal_files):
     shutil.copyfile(legal_src/name, legal_dst/name)
+# Panel privado de métricas: fuente shared/admin.html → produccion/public/admin/index.html (copia exacta).
+admin_dst = pub/'admin'; admin_dst.mkdir(parents=True, exist_ok=True)
+for f in admin_dst.iterdir():
+    if f.is_file() and f.name != 'index.html': f.unlink()
+(admin_dst/'index.html').write_text((sh/'admin.html').read_text())
+
 esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { curriculoDe, CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD, ISLAS, TIPOS_CENTRO, criteriosCiclo, promptOposicion, promptExposicion };\n"
 (R/'produccion/src/prompts.mjs').write_text(esm)
 
@@ -114,5 +120,25 @@ for path, value in [('/app', app_csp), ('/app.html', app_csp), ('/', landing_csp
 # Páginas legales: sin JavaScript. CSP estricta (si algún día llevan <script> en línea, se añade su hash).
 legal_html = ''.join((legal_dst/n).read_text() for n in sorted(legal_files) if n.endswith('.html'))
 rules.append(f"/legal/*\n  {CSP_HEADER}: {csp(legal_html)}\n")
+# Panel /admin/: CSP más estricta que el resto (sin CDN ni Google Fonts; estilos también por hash; sin formularios
+# que salgan de la página). noindex por cabecera y por <meta>; nunca en caché.
+def style_hashes(html):
+    return ' '.join("'sha256-" + base64.b64encode(hashlib.sha256(b.encode('utf-8')).digest()).decode() + "'"
+                    for b in re.findall(r'<style(?:\s[^>]*)?>(.*?)</style>', html, re.S))
+admin_html = (admin_dst/'index.html').read_text()
+assert 'style=' not in admin_html, 'shared/admin.html: sin atributos style (la CSP de /admin/ no los permite)'
+admin_csp = '; '.join([
+    "default-src 'none'",
+    "script-src " + inline_hashes(admin_html),
+    "style-src " + style_hashes(admin_html),
+    "connect-src 'self'",
+    "img-src 'self' data:",
+    "base-uri 'none'",
+    "form-action 'none'",
+    "frame-ancestors 'none'",
+    "object-src 'none'",
+])
+for path in ('/admin', '/admin/*'):
+    rules.append(f"{path}\n  {CSP_HEADER}: {admin_csp}\n  X-Robots-Tag: noindex, nofollow, noarchive\n  Cache-Control: no-store\n")
 (pub/'_headers').write_text('# Generado por build.py: no editar a mano.\n' + ''.join(rules))
 print('ok')

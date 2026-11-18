@@ -7,13 +7,16 @@
 //   GET  /api/license?session_id=cs_...   → devuelve la licencia tras el pago
 //   GET  /api/admin/leads                 → exporta leads en CSV (Authorization: Bearer ADMIN_TOKEN)
 //   GET  /api/admin/afiliados             → exporta ventas y comisiones de afiliados en CSV (misma autenticación)
+//   GET  /api/admin/stats?desde=&hasta=   → métricas agregadas y anónimas en JSON para el panel /admin/ (misma autenticación)
 //   GET  /api/portal                      → redirige al portal de cliente de Stripe (STRIPE_PORTAL_URL)
 // Todo lo demás lo sirve el directorio de assets estáticos (public/).
 //
 // Secretos: ANTHROPIC_API_KEY, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, ADMIN_TOKEN (≥ 24 caracteres),
 //           IP_SALT (sal para seudonimizar IPs), LICENSE_SECRET (opcional; deriva licencias de forma idempotente).
 // Opcional: binding de rate limiting RATE_LIMITER (ver wrangler.toml).
-// Variables: STRIPE_FOUNDER_LINK (Payment Link de Fundador), STRIPE_PORTAL_URL (portal de cliente de Stripe).
+// Variables: STRIPE_FOUNDER_LINK (Payment Link de Fundador), STRIPE_PORTAL_URL (portal de cliente de Stripe),
+//            STATS_KV = "off" (opcional: desactiva los contadores de métricas en KV).
+// Opcional: binding de Workers Analytics Engine STATS_AE (copia de los contadores sin escrituras de KV).
 
 import { promptSA, promptRubrica, promptAdaptacion, promptPD, promptOposicion, promptExposicion, ISLAS, TIPOS_CENTRO, CCAA, CURSOS, areasDe } from './prompts.mjs';
 
@@ -156,6 +159,7 @@ const ROUTES = {
   '/api/license': { GET: licenseFromSession },
   '/api/admin/leads': { GET: exportLeads },
   '/api/admin/afiliados': { GET: exportAfiliados },
+  '/api/admin/stats': { GET: adminStats },
   '/api/portal': { GET: portal }
 };
 const BROWSER_POST = new Set(['/api/generate', '/api/lead']);
@@ -272,18 +276,19 @@ async function generate(req, env, ctx) {
     counterKey = `u:${ident}:${month()}`; ttl = 60 * 60 * 24 * 40;
     used = parseInt((await env.KV.get(counterKey)) || '0', 10);
     if (used >= FREE_LIMIT) {
+      defer(ctx, track(env, { 'gen.cupo_agotado': 1 }));
       return json({ message: `Has usado tus ${FREE_LIMIT} documentos gratis de este mes. Hazte Pro en ${env.PUBLIC_URL || ''}/#precios` }, 402, licHeader);
     }
   } else {
     counterKey = `p:${lic.key}:${day()}`; ttl = 60 * 60 * 48;
     const n = parseInt((await env.KV.get(counterKey)) || '0', 10);
-    if (n >= PRO_DAILY_LIMIT) return json({ message: 'Has alcanzado el máximo diario. Vuelve mañana.' }, 429);
+    if (n >= PRO_DAILY_LIMIT) { defer(ctx, track(env, { 'gen.limite_pro': 1 })); return json({ message: 'Has alcanzado el máximo diario. Vuelve mañana.' }, 429); }
   }
   // Se descuenta ANTES de llamar al modelo (reduce la ventana de carrera) y se devuelve si falla.
   used = await bump(env, counterKey, 1, ttl);
   const refund = () => bump(env, counterKey, -1, ttl).catch(e => console.error('refund', e));
 
-  if (!env.ANTHROPIC_API_KEY) { await refund(); return json({ message: 'Servicio no configurado' }, 503); }
+  if (!env.ANTHROPIC_API_KEY) { await refund(); defer(ctx, track(env, { 'err.config': 1 })); return json({ message: 'Servicio no configurado' }, 503); }
   const prompt = PROMPT_BY_MODE[mode](d);
   let upstream;
   try {
@@ -305,13 +310,17 @@ async function generate(req, env, ctx) {
   } catch (e) {
     console.error('anthropic fetch', e);
     await refund();
+    defer(ctx, track(env, { 'err.modelo': 1, ['err.modo.' + mode]: 1 }));
     return json({ message: 'El motor de IA no está disponible ahora mismo. Inténtalo en unos minutos.' }, 502);
   }
   if (!upstream.ok || !upstream.body) {
     console.error('anthropic', upstream.status, (await upstream.text().catch(() => '')).slice(0, 500));
     await refund();
+    defer(ctx, track(env, { 'err.modelo': 1, ['err.modo.' + mode]: 1 }));
     return json({ message: 'El motor de IA no está disponible ahora mismo. Inténtalo en unos minutos.' }, 502);
   }
+  // Solo se cuenta lo que llega a emitirse (no se guarda nada de la petición: ni texto, ni IP, ni licencia).
+  defer(ctx, track(env, { 'gen.total': 1, ['gen.modo.' + mode]: 1, ['gen.ccaa.' + d.ccaa]: 1, ['gen.plan.' + (lic ? 'pro' : 'free')]: 1 }));
   return new Response(upstream.body, {
     headers: {
       'content-type': 'text/event-stream; charset=utf-8',
@@ -366,6 +375,10 @@ async function lead(req, env, ctx) {
   if (ref) { rec.ref = ref; rec.ref_fecha = refT; }
   else if (prev && prev.ref) { rec.ref = prev.ref; rec.ref_fecha = prev.ref_fecha; }
   await env.KV.put('lead:' + email, JSON.stringify(rec));
+  const inc = {};
+  if (!prev) { inc['leads.total'] = 1; inc['leads.ccaa.' + ccaaId(rec.comunidad)] = 1; }
+  if (rec.fundador && !(prev && prev.fundador)) inc['leads.fundador'] = 1;
+  defer(ctx, track(env, inc));
   if (env.MAILERLITE_API_KEY) {
     const p = fetch('https://connect.mailerlite.com/api/subscribers', {
       method: 'POST',
@@ -455,12 +468,15 @@ export async function issueLicense(env, session) {
   const lic = {
     key, active: true, email,
     plan: session.mode === 'subscription' ? 'pro' : 'fundador',
+    intervalo: intervalOfSession(session),
     subscription: (typeof session.subscription === 'string' ? session.subscription : session.subscription && session.subscription.id) || null,
     payment_intent: (typeof session.payment_intent === 'string' ? session.payment_intent : session.payment_intent && session.payment_intent.id) || null,
     creada: new Date().toISOString()
   };
-  await env.KV.put('lic:' + key, JSON.stringify(lic));
+  await putLic(env, lic);
   await env.KV.put('sess:' + session.id, key);
+  const p = planOf(lic);
+  await track(env, { 'lic.total': 1, ['lic.plan.' + p]: 1, ['cobro.' + p]: cents(session.amount_total) });
   if (lic.subscription) await env.KV.put('sub:' + lic.subscription, key);
   if (lic.payment_intent) await env.KV.put('pi:' + lic.payment_intent, key);
   if (email) await env.KV.put('email:' + email, key);
@@ -488,14 +504,25 @@ export async function verifyStripe(payload, sigHeader, secret, now = Date.now() 
   try { return JSON.parse(payload); } catch (e) { return null; }
 }
 
-async function setActiveByKV(env, indexKey, active, motivo) {
+// extra.intervalo ('month' | 'year'): cambio de plan mensual ↔ anual desde el portal (customer.subscription.updated).
+async function setActiveByKV(env, indexKey, active, motivo, extra = {}) {
   const key = await env.KV.get(indexKey);
   if (!key) return;
   const lic = await env.KV.get('lic:' + key, 'json');
-  if (!lic || lic.active === active) return;
-  lic.active = active;
-  if (active) delete lic.baja; else { lic.baja = new Date().toISOString(); lic.motivo = motivo; }
-  await env.KV.put('lic:' + key, JSON.stringify(lic));
+  if (!lic) return;
+  const newInterval = extra.intervalo && extra.intervalo !== lic.intervalo && lic.plan !== 'fundador';
+  if (lic.active === active && !newInterval) return;
+  const changed = lic.active !== active;
+  if (newInterval) lic.intervalo = extra.intervalo;
+  if (changed) {
+    lic.active = active;
+    if (active) delete lic.baja; else { lic.baja = new Date().toISOString(); lic.motivo = motivo; }
+  }
+  await putLic(env, lic);
+  if (changed) {
+    const m = String(motivo || 'baja').toLowerCase().replace(/[^a-z0-9_]/g, '').slice(0, 30) || 'baja';
+    await track(env, active ? { 'bajas.reactivadas': 1 } : { 'bajas.total': 1, ['bajas.plan.' + planOf(lic)]: 1, ['bajas.motivo.' + m]: 1 });
+  }
 }
 
 async function stripeWebhook(req, env) {
@@ -516,13 +543,13 @@ async function stripeWebhook(req, env) {
       if (obj.id) { await issueLicense(env, obj); await recordAffiliateCheckout(env, obj, event); }
       break;
     case 'invoice.paid':
-      if (obj.id) await recordAffiliateRenewal(env, obj, event);
+      if (obj.id) { await recordAffiliateRenewal(env, obj, event); await trackRenewal(env, obj); }
       break;
     case 'customer.subscription.deleted':
       if (obj.id) await setActiveByKV(env, 'sub:' + obj.id, false, 'baja');
       break;
     case 'customer.subscription.updated':
-      if (obj.id) await setActiveByKV(env, 'sub:' + obj.id, ['active', 'trialing', 'past_due'].includes(obj.status), obj.status);
+      if (obj.id) await setActiveByKV(env, 'sub:' + obj.id, ['active', 'trialing', 'past_due'].includes(obj.status), obj.status, { intervalo: intervalOfSubscription(obj) });
       break;
     case 'charge.refunded':
       if (obj.refunded && obj.payment_intent) await setActiveByKV(env, 'pi:' + (obj.payment_intent.id || obj.payment_intent), false, 'reembolso');
@@ -639,6 +666,7 @@ export async function recordAffiliateCheckout(env, s, event) {
   const sub = idOf(s.subscription), pi = idOf(s.payment_intent), inv = idOf(s.invoice);
   const rec = { tipo: 'venta', codigo: ref, plan, importe: neto, bruto, moneda: String(s.currency || 'eur').toLowerCase(), fecha: isoOf(sec), session: s.id };
   if (!(await putMovement(env, ref, sec, s.id, rec))) return rec;
+  await track(env, { 'aff.ventas': 1, 'aff.importe': neto });
   if (sub) await env.KV.put('affsub:' + sub, JSON.stringify({ ref, inicio: sec, plan }));
   const pay = { ref, plan, bruto, neto, devuelto: 0, mov: s.id };
   for (const p of [pi, inv]) if (p) await env.KV.put('affpay:' + p, JSON.stringify(pay));
@@ -663,6 +691,7 @@ export async function recordAffiliateRenewal(env, inv, event) {
   const plan = interval === 'year' ? 'pro-anual' : interval === 'month' ? 'pro-mensual' : (a.plan || 'pro');
   const rec = { tipo: 'renovacion', codigo: a.ref, plan, importe: neto, bruto, moneda: String(inv.currency || 'eur').toLowerCase(), fecha: isoOf(paidAt), session: inv.id };
   if (!(await putMovement(env, a.ref, paidAt, inv.id, rec))) return rec;
+  await track(env, { 'aff.renovaciones': 1, 'aff.importe': neto });
   const pi = idOf(inv.payment_intent);
   const pay = { ref: a.ref, plan, bruto, neto, devuelto: 0, mov: inv.id };
   for (const p of [pi, inv.id]) if (p) await env.KV.put('affpay:' + p, JSON.stringify(pay));
@@ -682,7 +711,7 @@ export async function recordAffiliateRefund(env, ch, event) {
   const sec = eventTime(event, ch);
   const neto = pay.bruto > 0 ? Math.round(delta * pay.neto / pay.bruto) : 0;
   const rec = { tipo: 'devolucion', codigo: pay.ref, plan: pay.plan, importe: -neto, bruto: -delta, moneda: String(ch.currency || 'eur').toLowerCase(), fecha: isoOf(sec), session: pay.mov, cargo: ch.id };
-  await putMovement(env, pay.ref, sec, `${ch.id}-${total}`, rec);
+  if (await putMovement(env, pay.ref, sec, `${ch.id}-${total}`, rec)) await track(env, { 'aff.devoluciones': 1, 'aff.importe': -neto });
   pay.devuelto = total;
   for (const k of keys) if (k === payKey || (await env.KV.get(k))) await env.KV.put(k, JSON.stringify(pay));
   return rec;
@@ -733,4 +762,249 @@ async function exportAfiliados(req, env, ctx, url) {
   const rows = [['codigo', 'mes', 'tipo', 'fecha', 'plan', 'importe_neto', 'comision_' + pct, 'moneda', 'id_stripe', 'cargo']];
   for (const r of movs) rows.push([r.codigo, r.mes, r.tipo, r.fecha, r.plan, eur(cents(r.importe)), eur(commissionOf(cents(r.importe))), r.moneda, r.session || '', r.cargo || '']);
   return csvResponse(rows, `afiliados${mes ? '-' + mes : ''}.csv`, [5, 6]);
+}
+
+// ---------- Métricas agregadas y anónimas (panel privado /admin/) ----------
+// Solo contadores: ni IP, ni email, ni licencia, ni texto de las peticiones. Sin cookies ni servicios externos.
+// Almacenamiento por defecto: KV, un documento por día y fragmento → stats:<AAAA-MM-DD>:<0..STATS_SHARDS-1>
+//   { v: 1, c: { 'gen.total': 12, 'gen.modo.sa': 7, 'gen.ccaa.canarias': 9, 'leads.total': 2, … } }
+// Cada evento hace 1 lectura + 1 escritura de KV en un fragmento al azar (repartir reduce las colisiones y el límite
+// de KV de 1 escritura/segundo por clave). AVISO: KV no es atómico; dos eventos simultáneos en el mismo fragmento
+// pueden perder un incremento. Son métricas orientativas: para cifras exactas de dinero manda Stripe.
+// Opción sin escrituras de KV: binding de Workers Analytics Engine STATS_AE (wrangler.toml) + STATS_KV = "off".
+//   Cada contador se escribe como data point { indexes: [día], blobs: [clave], doubles: [incremento] } y se consulta
+//   con la SQL API de Cloudflare (SELECT index1, blob1, SUM(double1) … GROUP BY index1, blob1). El panel lee de KV.
+export const PRICES = { fundador: 4900, 'pro-mensual': 900, 'pro-anual': 6900 };   // céntimos; los de README / Stripe
+export const FOUNDER_SEATS = 80;                                                     // «Solo 80 plazas» de la landing
+export const STATS_SHARDS = 4;
+export const STATS_MAX_DAYS = 92;
+const STAT_KEY_RE = /^[a-z_]{1,20}(\.[a-z0-9_-]{1,40}){0,2}$/;
+const LEGACY_LIC_GETS = 800;   // licencias sin metadatos (anteriores al panel) que se leen una a una como máximo
+
+// No bloquea la respuesta; track() nunca lanza.
+function defer(ctx, p) { if (ctx && typeof ctx.waitUntil === 'function') ctx.waitUntil(p); }
+
+export async function track(env, inc, now = new Date()) {
+  try {
+    const c0 = {};
+    for (const [k, v] of Object.entries(inc || {})) {
+      const n = Math.round(Number(v));
+      if (STAT_KEY_RE.test(k) && Number.isFinite(n) && n !== 0) c0[k] = n;
+    }
+    if (!Object.keys(c0).length) return;
+    const d = now.toISOString().slice(0, 10);
+    if (env.STATS_AE && typeof env.STATS_AE.writeDataPoint === 'function') {
+      for (const [k, v] of Object.entries(c0)) {
+        try { env.STATS_AE.writeDataPoint({ indexes: [d], blobs: [k], doubles: [v] }); } catch (e) { console.error('stats ae', e); }
+      }
+    }
+    if (env.STATS_KV === 'off' || !env.KV) return;
+    const key = `stats:${d}:${Math.floor(Math.random() * STATS_SHARDS)}`;
+    const doc = await env.KV.get(key, 'json');
+    const c = doc && doc.c && typeof doc.c === 'object' ? doc.c : {};
+    for (const [k, v] of Object.entries(c0)) c[k] = (Number(c[k]) || 0) + v;
+    await env.KV.put(key, JSON.stringify({ v: 1, c }));
+  } catch (e) { console.error('stats', e); }
+}
+
+// Comunidad del lead (texto libre de la landing) → id de CCAA; lo desconocido se agrupa en «otra».
+const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+export function ccaaId(v) {
+  const f = fold(v);
+  if (!f) return 'sin_dato';
+  const c = CCAA.find(c => c.id === f || fold(c.name) === f || fold(c.name).replace(/\s*\(.*\)$/, '') === f);
+  return c ? c.id : 'otra';
+}
+const ccaaNombre = id => (CCAA.find(c => c.id === id) || {}).name || (id === 'otra' ? 'Otra' : id === 'sin_dato' ? 'Sin dato' : id);
+
+// Plan con periodicidad: fundador | pro-mensual | pro-anual | pro (suscripción sin periodicidad conocida).
+export function planOf(lic) {
+  if (!lic || lic.plan === 'fundador') return lic ? 'fundador' : 'pro';
+  return lic.intervalo === 'year' ? 'pro-anual' : lic.intervalo === 'month' ? 'pro-mensual' : 'pro';
+}
+// La sesión de Checkout no trae el precio: se deduce del importe (el más cercano entre 9 € y 69 €).
+function intervalOfSession(s) {
+  if (!s || s.mode !== 'subscription') return null;
+  const m = s.metadata && s.metadata.intervalo;
+  if (m === 'month' || m === 'year') return m;
+  const t = cents(s.amount_subtotal ?? s.amount_total);
+  if (!t) return null;
+  return Math.abs(t - PRICES['pro-anual']) < Math.abs(t - PRICES['pro-mensual']) ? 'year' : 'month';
+}
+function intervalOfSubscription(sub) {
+  const it = sub && sub.items && Array.isArray(sub.items.data) && sub.items.data[0];
+  const i = (it && it.price && it.price.recurring && it.price.recurring.interval) || (sub && sub.plan && sub.plan.interval);
+  return i === 'month' || i === 'year' ? i : null;
+}
+// La licencia se guarda con metadatos { p: plan, a: activa } para que el panel cuente con KV.list sin leer cada una.
+async function putLic(env, lic) {
+  await env.KV.put('lic:' + lic.key, JSON.stringify(lic), { metadata: { p: planOf(lic), a: lic.active ? 1 : 0 } });
+}
+
+// Renovaciones de suscripción (todas, no solo de afiliados). Idempotente por factura (statsev:<id>, 30 días).
+async function trackRenewal(env, inv) {
+  if (inv.billing_reason !== 'subscription_cycle') return;
+  const mark = 'statsev:' + inv.id;
+  if (await env.KV.get(mark)) return;
+  await env.KV.put(mark, '1', { expirationTtl: 60 * 60 * 24 * 30 });
+  const line = inv.lines && Array.isArray(inv.lines.data) && inv.lines.data[0];
+  const i = line && ((line.price && line.price.recurring && line.price.recurring.interval) || (line.plan && line.plan.interval));
+  const plan = i === 'year' ? 'pro-anual' : i === 'month' ? 'pro-mensual' : 'pro';
+  await track(env, { 'renov.total': 1, ['renov.plan.' + plan]: 1, ['cobro.renov-' + plan]: cents(inv.amount_paid ?? inv.total) });
+}
+
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+const validDate = s => {
+  if (!DATE_RE.test(String(s))) return false;
+  const t = Date.parse(s + 'T00:00:00Z');
+  return Number.isFinite(t) && new Date(t).toISOString().slice(0, 10) === s;
+};
+export function statsRange(desde, hasta, today = new Date().toISOString().slice(0, 10)) {
+  hasta = hasta || today;
+  if (!validDate(hasta)) return { error: 'hasta debe ser una fecha AAAA-MM-DD' };
+  if (!desde) desde = new Date(Date.parse(hasta + 'T00:00:00Z') - 29 * DAY_MS).toISOString().slice(0, 10);
+  if (!validDate(desde)) return { error: 'desde debe ser una fecha AAAA-MM-DD' };
+  if (desde > hasta) return { error: 'desde no puede ser posterior a hasta' };
+  const days = [];
+  for (let t = Date.parse(desde + 'T00:00:00Z'); t <= Date.parse(hasta + 'T00:00:00Z'); t += DAY_MS) {
+    days.push(new Date(t).toISOString().slice(0, 10));
+    if (days.length > STATS_MAX_DAYS) return { error: `El rango máximo es de ${STATS_MAX_DAYS} días` };
+  }
+  return { desde, hasta, days };
+}
+
+async function readStatsDays(env, days) {
+  const perDay = new Map(days.map(d => [d, {}]));
+  for (const m of [...new Set(days.map(d => d.slice(0, 7)))]) {
+    let cursor;
+    do {
+      const page = await env.KV.list({ prefix: 'stats:' + m, cursor });
+      for (const k of page.keys) {
+        const acc = perDay.get(k.name.split(':')[1]);
+        if (!acc) continue;
+        let doc = null;
+        try { doc = await env.KV.get(k.name, 'json'); } catch (e) { console.error('stats doc', k.name); }
+        const c = doc && doc.c;
+        if (c && typeof c === 'object') for (const [key, v] of Object.entries(c)) if (Number.isFinite(Number(v))) acc[key] = (acc[key] || 0) + Number(v);
+      }
+      cursor = page.list_complete ? null : page.cursor;
+    } while (cursor);
+  }
+  return perDay;
+}
+
+// Foto actual de licencias activas por plan (no depende del rango).
+async function licenseSnapshot(env) {
+  const s = { activas: { fundador: 0, 'pro-mensual': 0, 'pro-anual': 0, pro: 0 }, inactivas: 0, parcial: false };
+  let cursor, legacy = 0;
+  do {
+    const page = await env.KV.list({ prefix: 'lic:', cursor });
+    for (const k of page.keys) {
+      let p, a;
+      if (k.metadata && typeof k.metadata.p === 'string') { p = k.metadata.p; a = !!k.metadata.a; }
+      else {
+        if (++legacy > LEGACY_LIC_GETS) { s.parcial = true; continue; }
+        const lic = await env.KV.get(k.name, 'json');
+        if (!lic) continue;
+        p = planOf(lic); a = !!lic.active;
+      }
+      if (!(p in s.activas)) p = 'pro';
+      if (a) s.activas[p]++; else s.inactivas++;
+    }
+    cursor = page.list_complete ? null : page.cursor;
+  } while (cursor);
+  return s;
+}
+
+const euros = c => Math.round(c) / 100;
+const ratio = (a, b) => (b > 0 ? Math.round((a / b) * 10000) / 10000 : null);
+const pick = (c, prefix) => {
+  const out = {};
+  for (const [k, v] of Object.entries(c)) if (k.startsWith(prefix)) out[k.slice(prefix.length)] = v;
+  return out;
+};
+const ranking = (obj, nombre) => Object.entries(obj).filter(([, n]) => n > 0).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .map(([id, n]) => (nombre ? { id, nombre: nombre(id), n } : { id, n }));
+
+// Agregación pura (testeable): días del rango + contadores por día + foto de licencias → JSON del panel.
+export function aggregateStats({ desde, hasta, days }, perDay, snap, now = new Date()) {
+  const t = {};
+  const serie = days.map(dia => {
+    const c = perDay.get(dia) || {};
+    for (const [k, v] of Object.entries(c)) t[k] = (t[k] || 0) + v;
+    return {
+      dia, generaciones: c['gen.total'] || 0, free: c['gen.plan.free'] || 0, pro: c['gen.plan.pro'] || 0,
+      errores: c['err.modelo'] || 0, leads: c['leads.total'] || 0, fundador: c['leads.fundador'] || 0,
+      licencias: c['lic.total'] || 0, bajas: c['bajas.total'] || 0
+    };
+  });
+  const n = k => t[k] || 0;
+  const porModo = Object.fromEntries(MODES.map(m => [m, n('gen.modo.' + m)]));
+  const lic = { fundador: n('lic.plan.fundador'), 'pro-mensual': n('lic.plan.pro-mensual'), 'pro-anual': n('lic.plan.pro-anual'), pro: n('lic.plan.pro') };
+  const renov = { 'pro-mensual': n('renov.plan.pro-mensual'), 'pro-anual': n('renov.plan.pro-anual'), pro: n('renov.plan.pro') };
+  const precio = p => PRICES[p] ?? PRICES['pro-mensual'];   // «pro» sin periodicidad conocida: se estima como mensual
+  const estimados = {
+    fundador: euros(lic.fundador * PRICES.fundador),
+    'pro-mensual': euros((lic['pro-mensual'] + lic.pro + renov['pro-mensual'] + renov.pro) * PRICES['pro-mensual']),
+    'pro-anual': euros((lic['pro-anual'] + renov['pro-anual']) * PRICES['pro-anual'])
+  };
+  const cobros = pick(t, 'cobro.');
+  const a = snap.activas;
+  const mrr = (a['pro-mensual'] + a.pro) * precio('pro-mensual') + a['pro-anual'] * PRICES['pro-anual'] / 12;
+  const gen = n('gen.total'), leads = n('leads.total'), licTotal = n('lic.total');
+  const proActivos = a['pro-mensual'] + a['pro-anual'] + a.pro;
+  return {
+    rango: { desde, hasta, dias: days.length },
+    generado: now.toISOString(),
+    kpis: {
+      leads, leads_fundador: n('leads.fundador'), licencias: licTotal,
+      pro_activos: proActivos, fundador_activos: a.fundador, mrr_estimado_eur: euros(mrr),
+      generaciones: gen, generaciones_dia: days.length ? Math.round((gen / days.length) * 10) / 10 : 0,
+      conversion_lead_pago: ratio(licTotal, leads), errores_modelo: n('err.modelo'), tasa_error: ratio(n('err.modelo'), gen + n('err.modelo'))
+    },
+    generaciones: {
+      total: gen, por_modo: porModo, por_ccaa: ranking(pick(t, 'gen.ccaa.'), ccaaNombre),
+      por_plan: { free: n('gen.plan.free'), pro: n('gen.plan.pro') }, cupo_agotado: n('gen.cupo_agotado'), limite_pro: n('gen.limite_pro')
+    },
+    top: { comunidades: ranking(pick(t, 'gen.ccaa.'), ccaaNombre).slice(0, 5), modos: ranking(porModo).slice(0, 6) },
+    errores: { modelo: n('err.modelo'), config: n('err.config'), por_modo: pick(t, 'err.modo.') },
+    leads: { total: leads, fundador: n('leads.fundador'), por_ccaa: ranking(pick(t, 'leads.ccaa.'), ccaaNombre) },
+    licencias: { total: licTotal, por_plan: lic },
+    renovaciones: { total: n('renov.total'), por_plan: renov },
+    bajas: { total: n('bajas.total'), por_plan: pick(t, 'bajas.plan.'), por_motivo: pick(t, 'bajas.motivo.'), reactivadas: n('bajas.reactivadas') },
+    afiliados: {
+      ventas: n('aff.ventas'), renovaciones: n('aff.renovaciones'), devoluciones: n('aff.devoluciones'),
+      importe_neto_eur: euros(n('aff.importe')), comision_estimada_eur: euros(commissionOf(n('aff.importe')))
+    },
+    embudo: {
+      pasos: [{ paso: 'Leads', n: leads }, { paso: 'Leads Fundador', n: n('leads.fundador') }, { paso: 'Licencias de pago', n: licTotal }],
+      conversion_lead_pago: ratio(licTotal, leads), conversion_fundador: ratio(lic.fundador, n('leads.fundador'))
+    },
+    ingresos: {
+      precios_eur: Object.fromEntries(Object.entries(PRICES).map(([k, v]) => [k, euros(v)])),
+      estimados_eur: { ...estimados, total: euros(Object.values(estimados).reduce((s, v) => s + v * 100, 0)) },
+      cobrados_stripe_eur: { ...Object.fromEntries(Object.entries(cobros).map(([k, v]) => [k, euros(v)])), total: euros(Object.values(cobros).reduce((s, v) => s + v, 0)) }
+    },
+    actual: {
+      pro_activos: proActivos, pro_mensual: a['pro-mensual'], pro_anual: a['pro-anual'], pro_sin_periodicidad: a.pro,
+      fundador_activos: a.fundador, plazas_fundador: { total: FOUNDER_SEATS, ocupadas: a.fundador, libres: Math.max(0, FOUNDER_SEATS - a.fundador) },
+      inactivas: snap.inactivas, mrr_estimado_eur: euros(mrr), arr_estimado_eur: euros(mrr * 12), parcial: !!snap.parcial
+    },
+    serie,
+    notas: [
+      'Contadores agregados y anónimos (sin IP ni datos personales). KV no es atómico: pueden faltar algunos incrementos con tráfico simultáneo.',
+      'La conversión lead → pago compara los leads y las licencias del mismo periodo (no es una cohorte).',
+      'Ingresos estimados = altas y renovaciones × precios de lista (Fundador 49 €, Pro 9 €/mes, 69 €/año); sin IVA, descuentos ni devoluciones. Las cifras contables, en Stripe.',
+      'MRR estimado con las licencias activas ahora: mensuales × 9 € + anuales × 69 € / 12. Fundador es pago único y no suma MRR.'
+    ]
+  };
+}
+
+async function adminStats(req, env, ctx, url) {
+  const denied = await adminAuth(req, env, url);
+  if (denied) return denied;
+  const r = statsRange(url.searchParams.get('desde'), url.searchParams.get('hasta'));
+  if (r.error) return json({ message: r.error }, 400);
+  const [perDay, snap] = await Promise.all([readStatsDays(env, r.days), licenseSnapshot(env)]);
+  return json(aggregateStats(r, perDay, snap), 200, { 'x-robots-tag': 'noindex, nofollow' });
 }

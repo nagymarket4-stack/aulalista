@@ -1,0 +1,385 @@
+{
+  "area": "Tecnología y Robótica",
+  "fuente": "Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II. Texto extraído del PDF oficial de bocm.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Utilizar el pensamiento computacional para la resolución de problemas, generando un producto creativo y original que responda a cada uno de los retos planteados o generados a través de la observación del entorno.",
+      "resumen": null
+    },
+    {
+      "id": "C2",
+      "enunciado": "Resolver problemas planteados aplicando los conocimientos de mecánica, electricidad, diseño y programación, desarrollando soluciones automatizadas, diseñando o construyendo sistemas de control programables y/o robóticos adecuados a su nivel.",
+      "resumen": null
+    },
+    {
+      "id": "C3",
+      "enunciado": "Observar, comprender e interpretar las distintas situaciones del entorno para identificar problemas y buscar soluciones, actuando de manera individual y en grupo en su resolución, poniendo en práctica la interconexión digital de dispositivos con internet.",
+      "resumen": null
+    },
+    {
+      "id": "C4",
+      "enunciado": "Conocer y valorar las posibilidades que tiene la inteligencia artificial para actuar con las máquinas o sistemas de manera que faciliten el trabajo y lo mejoren gradualmente.",
+      "resumen": null
+    },
+    {
+      "id": "C5",
+      "enunciado": "Manejar los dispositivos y herramientas de forma segura y responsable para trabajar de forma individual o conjunta de acuerdo a las necesidades del contexto educativo.",
+      "resumen": null
+    },
+    {
+      "id": "C6",
+      "enunciado": "Conocer y utilizar los distintos sistemas y aplicaciones de realidad virtual o aumentada para explorar el entorno y disfrutar de un aprendizaje interactivo y enriquecedor.",
+      "resumen": null
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Conocer los fundamentos básicos de la programación por bloques.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Realizar un conjunto de operaciones sistemáticas o algoritmos que cumplan un patrón previamente fijado para el funcionamiento correcto del programa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3",
+          "competencia": "C1",
+          "texto": "Recabar información del entorno que nos permita obtener datos necesarios para generar un producto que dé una solución tecnológica sobre una situación concreta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Aplicar los conocimientos elementales de electricidad y mecánica para el montaje de artefactos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Realizar, de forma guiada, un producto final sencillo que dé solución a un problema de diseño, probando en equipo, diferentes prototipos y utilizando de forma segura los materiales de mecánica, electricidad o programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Mostrar de forma oral o gráfica el producto final de los proyectos de diseño, explicando los pasos seguidos y la finalidad del proyecto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Desarrollar diseños en 2D o en 3D utilizando técnicas de prototipado o distintas aplicaciones informáticas para construir un objeto determinado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Conocer los procesos que permiten conectar elementos físicos a internet.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Utilizar el volumen de datos que generan los dispositivos conectados para realizar un análisis de estos y utilizar esta información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Conocer aplicaciones informáticas o tecnológicas digitales emergentes sobre la inteligencia artificial.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Integrar programaciones en las máquinas o sistemas que permitan su autonomía de forma responsable.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Utilizar los dispositivos y las herramientas de forma segura de acuerdo con las necesidades del contexto educativo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Buscar de forma segura y eficiente información para crear contenidos digitales, trabajando de manera individual y conjunta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Utilizar los distintos sistemas de realidad virtual o aumentada para facilitar los procesos de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Crear proyectos en los que incluyan la realidad virtual o aumentada como recurso.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_bocm": "123-124",
+      "nota": "Tabla única para toda la etapa en el BOCM; replicada en cada ciclo."
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Conocer los fundamentos básicos de la programación por bloques.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Realizar un conjunto de operaciones sistemáticas o algoritmos que cumplan un patrón previamente fijado para el funcionamiento correcto del programa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3",
+          "competencia": "C1",
+          "texto": "Recabar información del entorno que nos permita obtener datos necesarios para generar un producto que dé una solución tecnológica sobre una situación concreta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Aplicar los conocimientos elementales de electricidad y mecánica para el montaje de artefactos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Realizar, de forma guiada, un producto final sencillo que dé solución a un problema de diseño, probando en equipo, diferentes prototipos y utilizando de forma segura los materiales de mecánica, electricidad o programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Mostrar de forma oral o gráfica el producto final de los proyectos de diseño, explicando los pasos seguidos y la finalidad del proyecto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Desarrollar diseños en 2D o en 3D utilizando técnicas de prototipado o distintas aplicaciones informáticas para construir un objeto determinado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Conocer los procesos que permiten conectar elementos físicos a internet.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Utilizar el volumen de datos que generan los dispositivos conectados para realizar un análisis de estos y utilizar esta información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Conocer aplicaciones informáticas o tecnológicas digitales emergentes sobre la inteligencia artificial.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Integrar programaciones en las máquinas o sistemas que permitan su autonomía de forma responsable.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Utilizar los dispositivos y las herramientas de forma segura de acuerdo con las necesidades del contexto educativo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Buscar de forma segura y eficiente información para crear contenidos digitales, trabajando de manera individual y conjunta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Utilizar los distintos sistemas de realidad virtual o aumentada para facilitar los procesos de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Crear proyectos en los que incluyan la realidad virtual o aumentada como recurso.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_bocm": "123-124",
+      "nota": "Tabla única para toda la etapa en el BOCM; replicada en cada ciclo."
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1",
+          "competencia": "C1",
+          "texto": "Conocer los fundamentos básicos de la programación por bloques.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2",
+          "competencia": "C1",
+          "texto": "Realizar un conjunto de operaciones sistemáticas o algoritmos que cumplan un patrón previamente fijado para el funcionamiento correcto del programa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3",
+          "competencia": "C1",
+          "texto": "Recabar información del entorno que nos permita obtener datos necesarios para generar un producto que dé una solución tecnológica sobre una situación concreta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1",
+          "competencia": "C2",
+          "texto": "Aplicar los conocimientos elementales de electricidad y mecánica para el montaje de artefactos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2",
+          "competencia": "C2",
+          "texto": "Realizar, de forma guiada, un producto final sencillo que dé solución a un problema de diseño, probando en equipo, diferentes prototipos y utilizando de forma segura los materiales de mecánica, electricidad o programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3",
+          "competencia": "C2",
+          "texto": "Mostrar de forma oral o gráfica el producto final de los proyectos de diseño, explicando los pasos seguidos y la finalidad del proyecto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4",
+          "competencia": "C2",
+          "texto": "Desarrollar diseños en 2D o en 3D utilizando técnicas de prototipado o distintas aplicaciones informáticas para construir un objeto determinado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1",
+          "competencia": "C3",
+          "texto": "Conocer los procesos que permiten conectar elementos físicos a internet.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2",
+          "competencia": "C3",
+          "texto": "Utilizar el volumen de datos que generan los dispositivos conectados para realizar un análisis de estos y utilizar esta información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1",
+          "competencia": "C4",
+          "texto": "Conocer aplicaciones informáticas o tecnológicas digitales emergentes sobre la inteligencia artificial.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2",
+          "competencia": "C4",
+          "texto": "Integrar programaciones en las máquinas o sistemas que permitan su autonomía de forma responsable.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1",
+          "competencia": "C5",
+          "texto": "Utilizar los dispositivos y las herramientas de forma segura de acuerdo con las necesidades del contexto educativo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2",
+          "competencia": "C5",
+          "texto": "Buscar de forma segura y eficiente información para crear contenidos digitales, trabajando de manera individual y conjunta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1",
+          "competencia": "C6",
+          "texto": "Utilizar los distintos sistemas de realidad virtual o aumentada para facilitar los procesos de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2",
+          "competencia": "C6",
+          "texto": "Crear proyectos en los que incluyan la realidad virtual o aumentada como recurso.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_bocm": "123-124",
+      "nota": "Tabla única para toda la etapa en el BOCM; replicada en cada ciclo."
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
+    "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
+    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
+    "El BOCM trae una tabla única para toda la etapa, sin cursos asignados; se replica en los tres ciclos (área que el centro puede ofertar en uno o varios cursos, art. 7.4)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
+    "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
+  },
+  "saberes": {},
+  "bloques": {}
+}
