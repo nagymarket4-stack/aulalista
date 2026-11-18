@@ -31,12 +31,12 @@ Al extraer el texto del PDF, las tres columnas de saberes se mezclan. Se separar
 | Matemáticas | `matematicas.json` | 8 | 17/17 | 16/17 | 17/17 | 101 | 6/56 · 6/68 · 6/69 | 151-159 |
 | Conocimiento del Medio N., S. y C. | `conocimiento-del-medio-natural-social-y-cultural.json` | 9 | 22/22 | 22/22 | 23/23 | 134 | 3/44 · 3/48 · 3/49 | 38-53 |
 | Lengua Castellana y Literatura | `lengua-castellana-y-literatura.json` | 10 | 22/22 | 22/22 | 22/22 | 132 | 4/28 · 4/30 · 4/32 | 103-117 |
-| Lengua Extranjera | `lengua-extranjera.json` | 6 | 13/13 | 15/15 | 15/15 | 86 | pendiente | 126-136 |
-| Educación Artística | `educacion-artistica.json` | 4 | 10/10 | 10/10 | 11/11 | 62 | pendiente | 61-67 |
-| Educación Física | `educacion-fisica.json` | 5 | 14/14 | 14/14 | 14/14 | 84 | pendiente | 77-85 |
+| Lengua Extranjera | `lengua-extranjera.json` | 6 | 13/13 | 15/15 | 15/15 | 86 | 3/16 · 3/22 · 3/24 | 126-136 |
+| Educación Artística | `educacion-artistica.json` | 4 | 10/10 | 10/10 | 11/11 | 62 | 4/27 · 4/34 · 4/36 | 61-67 |
+| Educación Física | `educacion-fisica.json` | 5 | 14/14 | 14/14 | 14/14 | 84 | 6/26 · 6/27 · 6/29 | 77-85 |
 | Educación en Valores Cívicos y Éticos | `educacion-en-valores-civicos-y-eticos.json` | 4 | — | — | —/13 (solo 6.º) | 13 | 3/25 (solo 3.er ciclo) | 91-92 |
-| Segunda Lengua Extranjera | `segunda-lengua-extranjera.json` | 6 | — | — | 26 (los del 1.er ciclo de LE) | 26 | — | 126-129 |
-| **Total** | | **52** | | | | **612 criterios distintos** (más 26 derivados) | 449 ítems | |
+| Segunda Lengua Extranjera | `segunda-lengua-extranjera.json` | 6 | — | — | 26 (los del 1.er ciclo de LE) | 26 | 3/16 (los del 1.er ciclo de LE) | 126-129 |
+| **Total** | | **52** | | | | **612 criterios distintos** (más 26 derivados) | 690 ítems (más 16 derivados) | |
 
 Notas a la tabla:
 
@@ -107,5 +107,15 @@ Notas a la tabla:
     - `CMN.3.C.2.5` se completó con «cuidado y conservación.» por indicación del extractor.
     - Queda sin ubicar un fragmento suelto («Movilidad segura, saludable y sostenible como peatones…»).
     - Códigos con errata literal del BOJA, conservados: `CMN.1.C4.`, `CMN.2.A3.`, `CMN.2.C1.`, `CMN.3.B2.`, `CMN.3.C3.`.
-- **Saberes pendientes:** Lengua Extranjera (págs. 123-125), Educación Artística (57-60) y Educación Física (72-76). Segunda Lengua Extranjera heredaría los del 1.er ciclo de Lengua Extranjera.
+- **Saberes:** extraídos en las 8 áreas (repaso del 18/11/2026). Segunda Lengua Extranjera copia en `saberes.tercer` los del 1.er ciclo de Lengua Extranjera, con la misma regla de la Orden que los criterios. Puntos dudosos de las últimas áreas:
+  - **Educación Física, 3.er ciclo:**
+    - El texto extraído de `EFI.3.C.2` termina con «Moderadamente diferente en Madrid.». El extractor lo confirmó dos veces, pero es impropio de un BOJA andaluz, así que **se ha omitido**. Cotejar con el PDF.
+    - `EFI.3.A.3` venía cortado en la primera extracción; la continuación se recuperó en otra consulta (columna desplazada).
+    - `EFI.3.A.1` podría mezclar frases de otra columna.
+    - «físicodeportivas» (`EFI.3.A.2`) y «rítmicomusicales» (`EFI.3.E.3`) van sin guion según el extractor.
+  - **Artística:** `EAR.2.C.10` puede ser una fusión de dos columnas. `EAR.1.A.6` tiene un espacio literal antes del punto («artísticas .»).
+  - **Lengua Extranjera:**
+    - Código con errata literal `LEX.1.B1.`, conservado.
+    - En `LEX.3.A.3` se quitó un «mediación» duplicado en la unión de fragmentos.
+  - **Recomendación:** añadir `EFI.3.C.2`, `EFI.3.A.1` y `EAR.2.C.10` a `saberesExcluidos` mientras no se cotejen.
 - **Vinculación saber-competencia** (4.ª columna de las tablas): no se ha extraído.

@@ -355,16 +355,202 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "El BOCM titula el área «Lengua Extranjera: Inglés»; la clave area usa «Lengua Extranjera» para coincidir con areasDe (sin paréntesis).",
     "2.º ciclo: el extractor indicó que C6 no lleva coma tras «extranjera»; no se pudo obtener la cita completa, así que se mantiene el enunciado del 1.er ciclo.",
-    "2.º ciclo 3.1: «de relevancias personales y próximas»; 6.1: «discriminaciones y prejuicios y de cualquier tipo»; 6.3: «de la diversidad de la lengua, lingüística, de la cultura y el arte», tal como se extrajeron."
+    "2.º ciclo 3.1: «de relevancias personales y próximas»; 6.1: «discriminaciones y prejuicios y de cualquier tipo»; 6.3: «de la diversidad de la lengua, lingüística, de la cultura y el arte», tal como se extrajeron.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos de Inglés por ciclo, bloques A-D. El bloque D se titula «D. Contenidos sintáctico-discursivos» en el 1.er ciclo y «D. Contenidos sintácticodiscursivos» en el 2.º y 3.º, tal como se extrajeron; sus ítems incluyen ejemplos en inglés."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "Autoconfianza en el uso de la lengua extranjera. El error como parte del proceso de aprendizaje y como instrumento de mejora.",
+          "Iniciación en las estrategias elementales para la comprensión y la producción (vuelve a leer el texto, usa su conocimiento previo, lee entre líneas, usa las pistas del contexto, piensa en voz alta, resume, ubica las palabras clave, hace predicciones, visualiza, imita, repite…) de textos orales, escritos y multimodales breves, sencillos y contextualizados en lengua inglesa.",
+          "Funciones comunicativas elementales adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse, dar las gracias, pedir permiso o ayuda...; identificar las características de personas, objetos y lugares; responder a preguntas concretas sobre cuestiones cotidianas en inglés; expresar el tiempo, la cantidad y el espacio.",
+          "Modelos contextuales elementales en la comprensión y producción de textos orales, escritos y multimodales, breves y sencillos, tales como felicitaciones, notas, listas o avisos, cuentos, comics… con alto contenido visual, siguiendo modelos y cuidando su presentación. Identificación y comprensión de palabras clave e ideas principales. Estrategias interactivas, un intercambio verbal y colectivo de ideas.",
+          "Unidades del lenguaje elementales y significados asociados a dichas estructuras tales como expresión de la entidad y sus propiedades, cantidad y número, afirmación, exclamación, negación, interrogación en lengua inglesa.",
+          "Léxico elemental de alta frecuencia y de interés para el alumnado relativo a relaciones personales básicas, vivienda, lugares y entornos cercanos. Emisión de palabras y mensajes breves y sencillos con una pronunciación, entonación, acentuación y ritmo correcto. Participación en conversaciones de aula. Estrategias para la comprensión de palabras clave y mensajes sencillos producidos con distintos acentos en la lengua inglesa.",
+          "Iniciación en patrones sonoros y acentuales elementales. Diferencias fonéticas básicas de la lengua inglesa a través de grupos de sonidos, palabras y oraciones sencillas. Palabras que comparten un patrón común, que rimen y fonemas finales. Canciones, rimas, retahílas, trabalenguas, chistes básicos, poesías, acompañadas de gestos faciales, corporales y mímica.",
+          "Iniciación en convenciones ortográficas elementales. El sonido y nombre de las letras del alfabeto. Uso de mayúsculas, punto y otros signos de puntuación.",
+          "Convenciones y estrategias conversacionales elementales verbales o no verbales (gestos, expresiones faciales, posturas corporales...) de uso común en formato síncrono (cara a cara, por teléfono, video llamada, videoconferencia) o asíncrono, en las que se establece contacto social (plataformas, apps, redes sociales) para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, preguntar y responder, etc.",
+          "Herramientas analógicas y digitales elementales para la comprensión y producción oral, escrita y multimodal. Uso guiado, limitado y responsable de las herramientas digitales."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas elementales de detección de las carencias comunicativas y las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio del lenguaje propio, tales como la repetición, imitación, la solicitud de aclaraciones, la búsqueda de recursos para entender el discurso, la comunicación no verbal…",
+          "Iniciación a las estrategias elementales para identificar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) tales como la transferencia y aplicación de estrategias de la lengua materna, uso de imágenes, vocabulario, diagramas, mapas mentales básicos, pósteres, diccionarios personales con imágenes, canciones… a partir de la comparación de las lenguas y variedades que conforman el repertorio del lenguaje personal."
+        ]
+      },
+      {
+        "bloque": "C. Interculturalidad",
+        "apartados": [],
+        "items": [
+          "La lengua extranjera como medio de comunicación y relación con personas de otros países. Realidades sociales y culturales de otras lenguas, respeto y tolerancia por el interlocutor, sus costumbres, tradiciones y su cultura.",
+          "Aspectos del lenguaje, de la cultura y de la sociedad, elementales y más significativos relativos a las costumbres y la vida cotidiana en países donde se habla la lengua extranjera.",
+          "Iniciación en las estrategias básicas de uso común para entender y apreciar la diversidad de la lengua, la cultura y el arte, a partir de valores sociales y medioambientales y democráticos. La realidad de las lenguas del aula como fuente de riqueza cultural.",
+          "Iniciación en las estrategias básicas de detección de usos discriminatorios del lenguaje verbal y no verbal."
+        ]
+      },
+      {
+        "bloque": "D. Contenidos sintáctico-discursivos",
+        "apartados": [],
+        "items": [
+          "Expresión de relaciones lógicas: conjunción (and); disyunción (or).",
+          "Afirmación: affirmative sentences; Yes (+tag).",
+          "Negación: negative sentences with not, no (Adj.).",
+          "Exclamación: exclamatory sentences (e.g. I love bananas!); How + Adjective (e.g. How beautiful!).",
+          "Interrogación: Wh- questions (What; Where; How many; who). Auxiliary verbs in questions: to be; to do.",
+          "Expresión del tiempo: presente (simple present).",
+          "Expresión del aspecto: puntual (simple tenses); durativo (present continuous); habitual (simple tenses [+Adverb eg. always, everyday]).",
+          "Expresión de la modalidad: permiso (can), capacidad (can), obligación (have (got) to); imperative.",
+          "Expresión de la existencia (to be; there is/are); la entidad (nouns, pronouns, articles, demonstratives); la cualidad ([very]+) Adj.).",
+          "Expresión de la cantidad: (singular/plural; cardinal numbers up to two digits; ordinal numbers up to one digit; quantity: many, some, more, (a) little, more. Degree: very.",
+          "Expresión del espacio: prepositions and adverbs of location, position.",
+          "Expresiones temporales: divisions (e.g. summer) indications of time (e.g. now, tomorrow); frequency (e.g. sometimes, on Saturdays); prepositions and adverbs of time.",
+          "Expresión del modo: Adv. of manner (e.g. slowly, well).",
+          "Expresión de la posesión: I have got (I’ve got); preposición of.",
+          "Expresión de gustos y preferencias: I like/I don’t like; I like verb- ing."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "Autoconfianza y reflexión sobre el aprendizaje. El error como parte integrante del proceso de aprendizaje y como instrumento de mejora.",
+          "Estrategias básicas de uso común para la comprensión y la producción (vuelve a leer el texto, usa su conocimiento previo, lee entre líneas, usa las pistas del contexto, piensa en voz alta, resume, ubica las palabras clave, hace predicciones, visualiza, analiza imágenes y fotos, imita, repite…) de textos orales, escritos y multimodales breves, sencillos y contextualizados en lengua inglesa.",
+          "Conocimientos, destrezas y actitudes elementales que permiten iniciarse en actividades de participación en situaciones cotidianas básicas, en las que se utilicen gradualmente estrategias comunicativas que ayuden a resolver conflictos, mejorar la comunicación o servir de enlace entre varios interlocutores en la misma o en diferentes lenguas, crear relaciones, llegar a acuerdos, salvar las diferencias culturales…mediante actitudes de empatía y colaboración mutua.",
+          "Funciones comunicativas básicas de uso común adecuadas al ámbito y al contexto: saludar, despedirse, disculparse, agradecer, pedir u ofrecer ayuda, presentar y presentarse, expresar los gustos y las preferencias, el acuerdo o desacuerdo, el sentimiento, la intención; describir personas, actividades, objetos y lugares; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar el tiempo, la cantidad y el espacio en lengua inglesa.",
+          "Modelos contextuales y géneros discursivos básicos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios en lengua inglesa, tales como cuentos, leyendas, artículos, emails, comics, folletos, instrucciones, normas, avisos o conversaciones reguladoras de la convivencia, con relativa corrección fonética, utilizando conectores sencillos, cuidando su presentación y revisando y autocorrigiendo los textos producidos. Identificación y comprensión de palabras clave e ideas principales. Estrategias interactivas, un intercambio verbal y colectivo de ideas.",
+          "Unidades del lenguaje básicas de uso común y significados asociados a dichas estructuras, tales como expresión de la entidad y sus propiedades, cantidad y número, espacio y las relaciones espaciales, afirmación, exclamación, negación, interrogación en lengua inglesa.",
+          "Léxico elemental de alta frecuencia y de interés para el alumnado relativo a relaciones personales próximas, vivienda, lugares y entornos cercanos en inglés. Emisión de palabras clave, frases e información de mensajes breves con una pronunciación, acentuación, entonación y ritmo correctos. Estrategias para la comprensión de mensajes producidos con distintos acentos de la lengua inglesa.",
+          "Patrones sonoros, acentuales y de entonación básicos de uso común, y funciones comunicativas generales asociadas a dichos patrones. Diferencias fonéticas básicas de la lengua inglesa a través de palabras, oraciones sencillas, canciones, rimas, retahílas, trabalenguas, chistes básicos, poesías, quintillas cómicas (Limerick), acompañados de gestos faciales, corporales y mímica. Lectura, deletreo y reconocimiento de palabras que comparten un patrón común, que rimen y fonemas finales.",
+          "Convenciones ortográficas básicas de uso común y significados asociados a los formatos y elementos gráficos. El sonido y nombre de las letras del alfabeto. Deletreo. Uso correcto de la puntuación, las mayúsculas y los apóstrofes.",
+          "Convenciones y estrategias conversacionales básicas verbales o no verbales (gestos, contacto físico, expresiones faciales, posturas corporales...) de uso común, en formato síncrono (cara a cara, por teléfono, video llamada, videoconferencia) o asíncrono o en las que se establece contacto social (plataformas, apps, redes sociales) para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar indicaciones en inglés, etc.",
+          "Recursos para el aprendizaje y estrategias elementales de búsqueda guiada de información en medios analógicos y digitales. (contexto, conocimiento previo, identificación de información básica, filtrar resultados, elegir los términos precisos, utilizar la búsqueda avanzada, completar y contrastar los datos, valorar y seleccionar la información...)",
+          "Herramientas analógicas y digitales básicas de uso común para la comprensión, producción y coproducción oral, escrita y multimodal; y plataformas virtuales de interacción y colaboración educativa. Uso guiado, limitado y responsable de las herramientas digitales."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas de compensación de las carencias comunicativas (petición de repetición, aclaración, búsqueda de recursos para entender el discurso, descripciones, comunicación no verbal...) para responder a una necesidad elemental, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas. Interés y curiosidad por las lenguas, conocimiento de su funcionamiento desde el respeto, la tolerancia y la empatía.",
+          "Estrategias básicas de uso común para identificar, retener, recuperar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) tales como la transferencia y aplicación de estrategias de la lengua castellana, uso de imágenes, diagramas, pósteres, fichas de vocabulario, diccionarios personales de imágenes, mapas mentales, canciones… a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal.",
+          "Iniciación a estrategias y herramientas básicas de evaluación de uno mismo y de los demás, analógicas y digitales, individuales y grupales. Rúbricas, diarios de clase, porfolios, escalas de estimación, bloc de autoevaluación, listas de cotejo...",
+          "Léxico y expresiones elementales para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje). Estrategias metalingüísticas de inferencia a partir de las pistas contextuales, tales como el tema general; otras palabras del discurso (redundancias, anáforas, paralelismos); la estructura gramatical; la morfología (análisis de los prefijos, sufijos, composición, etc.); la entonación (habla) y la puntuación (escritura)."
+        ]
+      },
+      {
+        "bloque": "C. Interculturalidad",
+        "apartados": [],
+        "items": [
+          "La lengua extranjera como medio de comunicación y relación con personas de otros países, y como medio para conocer culturas y modos de vida diferentes. La curiosidad por el conocimiento de otras realidades sociales y culturales, de otras lenguas, partiendo de posiciones de respeto y tolerancia por el interlocutor, sus costumbres, tradiciones, convenciones sociales, normas de cortesía, valores y su cultura.",
+          "Interés en la participación en intercambios comunicativos planificados, a través de diferentes medios (cartas, e-mails, video llamadas, videoconferencias, presentaciones, copresentaciones…) con estudiantes de la lengua extranjera.",
+          "Aspectos de la lengua, la cultura y la sociedad más significativos relativos a las costumbres, la vida cotidiana y las relaciones interpersonales básicas en países donde se habla la lengua extranjera. La música y la literatura inglesas como símbolos de identidad cultural y vehículo motivador de transmisión de culturas y conocimientos. Fórmulas de cortesía adecuadas en los intercambios sociales.",
+          "Estrategias básicas de uso común para entender y apreciar las diversas lenguas, artes y culturas, a partir de valores sociales y medioambientales y democráticos. La realidad de las diversas lenguas del aula como fuente de riqueza cultural.",
+          "Estrategias básicas de uso común de detección de usos discriminatorios del lenguaje verbal y no verbal."
+        ]
+      },
+      {
+        "bloque": "D. Contenidos sintácticodiscursivos",
+        "apartados": [],
+        "items": [
+          "Expresión de relaciones lógicas: Conjunción (and); disyunción (or); oposición (but); causa (because); finalidad (to-infinitive, eg. I did it to help her).",
+          "Exclamación: What + noun (e.g. What fun!); How + Adjective (e.g. How exciting!); exclamatory sentences (e.g. I love rainbows!).",
+          "Afirmación: affirmative sentences; Yes (+tag).",
+          "Negación: negative sentences with not, never; No (adj.) nobody, nothing. No (+ negative tag).",
+          "Interrogación: Wh- questions; Auxiliary verbs in questions: to do, to be, to have.",
+          "Expresión del tiempo: presente (simple present; present continuous), pasado (simple past); futuro (going to).",
+          "Expresión del aspecto: puntual (simple tenses); durativo (present continuous); habitual (simple tenses [+Adverb eg. always, everyday]); incoativo (start-ing); terminativo (finish-ing).",
+          "Expresión de la modalidad: factualidad (declarative sentences); capacidad (can); obligación (have (got) to; imperative); sugerencia (should); permiso (can); intención (going to).",
+          "Expresión de la existencia (to be; there is/there are); la entidad (nouns, pronouns, articles, demonstratives); la cualidad (very + Adj.); la comparación (comparatives and superlatives: as Adj. as; taller [than]; the smallest).",
+          "Expresión de la cantidad: singular/plural; cardinal numbers up to three digits; ordinal numbers up to two digits. Quantity: many, all, some, many, a lot, (a) little, more, half, a bottle/cup/glass/piece of. Degree: very, enough.",
+          "Expresión del espacio: prepositions, prepositional phrases, adverbs of location, position, distance, motion, direction and origin.",
+          "Expresiones temporales: points (e.g. quarter past five); divisions (e.g. half an hour, summer), and indications of time (e.g. now, tomorrow (morning); duration (e.g. for two days); anteriority (before); posteriority (after); sequence (first, then...); frequency (e.g. sometimes, on Fridays); prepositions, prepositional phrases and adverbs of time.",
+          "Expresión del modo: Adv. of manner (e.g. slowly, well, quickly, carefully).",
+          "Expresión de la posesión: I have got (I’ve got); preposición of; genitivo sajón (‘s); possessives.",
+          "Expresión de gustos y preferencias: I like/I don’t like; I like verb- ing; I love."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "Autoconfianza. El error como instrumento de mejora como parte del proceso de aprendizaje.",
+          "Estrategias básicas para la comprensión, la planificación y la producción (vuelve a leer el texto, usa su conocimiento previo, lee entre líneas, piensa en voz alta, resume, ubica las palabras clave, hace predicciones, visualiza, analiza imágenes y fotos, identifica la información general y los detalles específicos, inferencia el significado de palabras y frases nuevas según el contexto, imita, repite…) de textos orales (instrucciones, explicaciones, conversaciones…) escritos y multimodales breves, sencillos y contextualizados en lengua inglesa.",
+          "Conocimientos, destrezas y actitudes que permiten iniciarse en actividades de participación en situaciones cotidianas básicas en las que se utilicen estrategias comunicativas que ayuden a resolver conflictos, mejorar la comunicación o servir de enlace entre varios interlocutores en la misma o en diferentes lenguas, crear relaciones, llegar a acuerdos, salvar las diferencias culturales…fomentando actitudes de respeto y colaboración mutua.",
+          "Funciones comunicativas básicas adecuadas al ámbito y al contexto: saludar, despedirse, disculparse, agradecer, pedir u ofrecer ayuda, presentar y presentarse, expresar los gustos y las preferencias, el acuerdo o desacuerdo, el sentimiento, la intención; describir personas, actividades; situar eventos en el tiempo, situar objetos, personas y lugares en el espacio; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar la pertenencia y la cantidad en lengua inglesa.",
+          "Expresiones cotidianas de uso frecuente en conversaciones dirigidas y espontáneas de temática variada con fluidez, utilizando frases más largas y conectores simples. Estrategias para formular y contestar a preguntas. Normas de cortesía básica.",
+          "Modelos contextuales y géneros discursivos básicos en la comprensión, producción y coproducción (con relativa corrección fonética, utilizando conectores sencillos, cuidando y revisando su presentación) de textos orales, escritos y multimodales, breves y sencillos, literarios (cuentos, fábulas, leyendas, canciones, poemas, obras de teatro, rimas…) y no literarios (noticias, biografías, recetas, normas, avisos publicitarios, comics, cartas, emails….) en inglés: características y reconocimiento del contexto, organización y estructuración según la estructura interna.",
+          "Unidades del lenguaje básicos y significados asociados a dichas unidades, tales como expresión de la entidad y sus propiedades, cantidad y número, el espacio y las relaciones espaciales, el tiempo, la afirmación, la negación, la interrogación y la exclamación, relaciones lógicas elementales propias de la lengua inglesa.",
+          "Léxico básico y de interés para el alumnado, relativo a identificación personal, relaciones interpersonales próximas, (familiares, amistad, escolares…) lugares y entornos cercanos, ocio y tiempo libre, vida cotidiana. Emisión de palabras clave, oraciones, mensajes, expresiones cotidianas de uso frecuente con una pronunciación, acentuación, entonación y ritmo correctos utilizando conectores simples en lengua inglesa.",
+          "Patrones sonoros, acentuales, rítmicos y de entonación básicos, y funciones comunicativas generales asociadas a dichos patrones. Aspectos fonológicos: sonidos, ritmo, entonación y acentuación de palabras en frases de uso frecuente en el aula, a través de canciones, rimas, trabalenguas, chistes, adivinanzas, poesías, quintillas cómicas (Limerick)… acompañados de gestos faciales, corporales y mímica. Lectura, deletreo, reconocimiento y emisión de palabras que comparten un patrón común, palabras que rimen y fonemas finales. Comprensión de mensajes producidos con distintos acentos de la lengua inglesa.",
+          "Convenciones ortográficas básicas de la lengua inglesa y significados asociados a los formatos y elementos gráficos. Uso correcto de la puntuación y los apóstrofes.",
+          "Convenciones y estrategias conversacionales básicas verbales o no verbales (gestos, contacto físico, expresiones faciales, posturas corporales...) de uso común, en formato síncrono (cara a cara, por teléfono, video llamada, videoconferencia…) o asíncrono o en las que se establece contacto social (plataformas, apps, redes sociales), para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar aclaraciones y explicaciones, comparar y contrastar, colaborar, etc.",
+          "Recursos para el aprendizaje y estrategias para la búsqueda guiada de información en medios analógicos y digitales. (Contexto, conocimiento previo, identificación de información básica, filtrar resultados, elegir los términos precisos, utilizar la búsqueda avanzada, completar y contrastar los datos, valorar y seleccionar la información...).",
+          "Propiedad intelectual de las fuentes consultadas y contenidos utilizados.",
+          "Herramientas analógicas y digitales básicas para la comprensión, producción y coproducción oral, escrita y multimodal, y plataformas virtuales de interacción y colaboración educativa (aulas virtuales, videoconferencias, herramientas digitales colaborativas...) para el aprendizaje, la comunicación y el desarrollo de proyectos con hablantes o estudiantes de la lengua extranjera. Uso guiado, limitado y responsable de las herramientas digitales."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas de compensación de las carencias comunicativas (petición de repetición, aclaración, búsqueda de recursos para entender el discurso, descripciones, comunicación no verbal...) para responder eficazmente a una necesidad concreta, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas. Interés y curiosidad por las lenguas, conocimiento de su funcionamiento desde el respeto, la tolerancia y la empatía.",
+          "Estrategias básicas para identificar, organizar, retener, recuperar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) uso de imágenes, diagramas, pósteres, fichas de vocabulario, diccionarios personales de imágenes, mapas mentales, canciones…a partir de la comparación de las lenguas como por ejemplo mediante la transferencia y aplicación de estrategias de la lengua castellana y variedades que conforman el repertorio del lenguaje personal.",
+          "Estrategias y herramientas básicas de evaluación de uno mismo y de los demás, analógicas y digitales, individuales y grupales. Rúbricas, diarios de clase, porfolios, escalas de estimación, bloc de autoevaluación, listas de cotejo…",
+          "Léxico y expresiones básicos de uso común para comprender enunciados sobre la comunicación, la lengua, el aprendizaje y las herramientas de comunicación y aprendizaje (metalenguaje). Estrategias metalingüísticas de inferencia a partir de las pistas contextuales, tales como el tema general; otras palabras del discurso (redundancias, anáforas, paralelismos); la estructura gramatical; la morfología (análisis de los prefijos, sufijos, composición, etc.); la entonación (habla) y la puntuación (escritura).",
+          "Comparación elemental entre lenguas a partir de elementos de la lengua extranjera y otras lenguas: origen y parentescos. Interés y curiosidad por las lenguas, conocimiento de su funcionamiento desde el respeto y la tolerancia."
+        ]
+      },
+      {
+        "bloque": "C. Interculturalidad",
+        "apartados": [],
+        "items": [
+          "La lengua extranjera como medio de comunicación y relación con personas de otros países, como forma de acceder a nueva información y como medio para conocer culturas y modos de vida diferentes. La curiosidad por el conocimiento de otras realidades sociales y culturales, de otras lenguas, partiendo de posiciones de respeto y tolerancia por el interlocutor, sus costumbres, tradiciones, convenciones sociales, normas de cortesía, valores y su cultura.",
+          "Valoración positiva e interés por establecer contactos y comunicarse a través de diferentes medios (soporte papel o digital: cartas, e-mails, video llamadas, videoconferencias, presentaciones, copresentaciones…) con hablantes o estudiantes de la lengua extranjera. Valoración del enriquecimiento personal que supone la relación con personas pertenecientes a otras culturas.",
+          "Aspectos de la lengua, la cultura y la sociedad relativos a las costumbres, la vida cotidiana y las relaciones personales, las convenciones sociales básicas de uso común, el lenguaje no verbal, la cortesía del lenguaje y la etiqueta digital propias de países donde se habla la lengua extranjera. La música y la literatura inglesas como símbolos de identidad cultural y vehículo motivador de transmisión de culturas y conocimientos.",
+          "Estrategias básicas para entender y apreciar las diversas lenguas, artes y culturas, a partir de valores sociales y medioambientales y democráticos. La realidad de las lenguas del aula como fuente de riqueza cultural.",
+          "Estrategias de detección de usos discriminatorios del lenguaje verbal y no verbal."
+        ]
+      },
+      {
+        "bloque": "D. Contenidos sintácticodiscursivos",
+        "apartados": [],
+        "items": [
+          "Expresión de relaciones lógicas: Conjunción (and); disyunción (or); oposición (but); causa (because); finalidad (to-infinitive, eg. I did it to help her); relaciones temporales (when; before; after).",
+          "Afirmación: affirmative sentences; Yes (+tag).",
+          "Exclamación: What + noun, e.g. What a view! How + Adjective, e.g. How lovely! Exclamatory sentences, e.g. I love olives!",
+          "Negación: negative sentences with not, never, no (Adj.) nobody, nothing; No (+ negative tag).",
+          "Interrogación: Wh- questions; Auxiliary verbs in questions: to do, to be, to have, will.",
+          "Expresión del tiempo: presente (simple present; present continuous); pasado (simple past); futuro (going to, will).",
+          "Expresión del aspecto: puntual (simple tenses); durativo (present continuous); habitual (simple tenses [+Adverb eg. always, everyday]); incoativo (start-ing); terminativo (finish-ing).",
+          "Expresión de la modalidad: factualidad (declarative sentences); capacidad (can); obligación (have (got) to; imperative); permiso (can); intención (going to).",
+          "Expresión de la existencia (to be; there is/there are); la entidad (nouns, pronouns, articles, demonstratives); la cualidad (very + Adj.); la comparación (comparatives and superlatives: as Adj. as; bigger (than); the smallest).",
+          "Expresión de la cantidad: singular/plural; cardinal numbers up to four digits; ordinal numbers up to two digits. Quantity: all, (too) many, a lot, (a) little, more, (too) much, half, a bottle/cup/glass/piece of. Degree: very, too, enough.",
+          "Expresión del espacio: prepositions, prepositional phrases and adverbs of location, position, distance, motion, direction and origin and arrangement.",
+          "Expresiones temporales: points (e.g. quarter past five); divisions (e.g. half an hour, summer), and indications of time (e.g. now, tomorrow (morning); duration (e.g. for two days); anteriority (before); posteriority (after); sequence (first, then...) simultaneously (at the same time); frequency (e.g. sometimes, on Sundays); prepositions, prepositional phrases and adverbs of time.",
+          "Expresión del modo: Adv. of manner, (e.g. slowly, well, quickly, carefully).",
+          "Expresión de la posesión: I have got (I’ve got); preposición of; genitivo sajón (‘s); possessives.",
+          "Expresión de gustos y preferencias: I like/I don’t like; I like verb- ing; I love/I hate."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

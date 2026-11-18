@@ -50,7 +50,7 @@ const CURR_CCAA = {
   andalucia: { soloVerificado: false, porCurso: true, saberes: 'propio', norma: 'Orden de 30 de mayo de 2023', boletin: 'BOJA',
     fuente: 'Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2 de junio de 2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo',
     // Saberes con extracción dudosa según el campo «pendiente» del JSON (no se pueden citar hasta cotejarlos)
-    saberesExcluidos: ['CMN.2.C.1.4', 'CMN.2.A.3.1', 'CMN.3.C.2.5'] }
+    saberesExcluidos: ['CMN.2.C.1.4', 'CMN.2.A.3.1', 'CMN.3.C.2.5', 'EFI.3.C.2', 'EFI.3.A.1', 'EAR.2.C.10'] }
 };
 // slug de seo/areas.json → fichero de data/<ccaa>/primaria (mismo mapa que verificar-ejemplos.mjs)
 const AREA_DATA = {

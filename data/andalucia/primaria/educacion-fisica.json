@@ -771,13 +771,192 @@
     "2.º ciclo 2.1.a coincide literalmente con 1.er ciclo 2.1.a; se reconsultó y el extractor confirmó que está en la tabla del 2.º ciclo.",
     "3.er ciclo 2.2.a: «colaboración oposición» (sin guion) y 4.1.a: «cultura andaluza andaluza», tal como se extrajeron; 1.er ciclo 5.1.b: «lúdicos-recreativas».",
     "No se pudo confirmar que los enunciados de competencias del 2.º y 3.er ciclo sean idénticos a los del 1.º (el extractor solo vio iguales C3-C5 entre 2.º y 3.º).",
-    "Saberes básicos sin extraer (págs. 72-76)."
+    "Saberes básicos extraídos (págs. 72-76; códigos EFI.<ciclo>.<bloque>.<n>). 3.er ciclo: el texto extraído de EFI.3.C.2 termina con la frase «Moderadamente diferente en Madrid.», que el extractor afirma que está en el documento; es impropia de un BOJA andaluz y se ha OMITIDO: cotejar con el PDF. EFI.3.A.3 se cortaba en una primera extracción; la continuación («del aspecto corporal de los demás…») se recuperó en una segunda consulta (columna desplazada). EFI.3.A.1 podría mezclar frases de otra columna; cotejar. «físicodeportivas» (EFI.3.A.2) y «rítmicomusicales» (EFI.3.E.3) sin guion según el extractor, aunque otros ítems llevan «físico-deportivas»."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Vida activa y saludable.",
+        "items": [
+          "EFI.1.A.1. Salud física: efectos físicos beneficiosos de un estilo de vida activo. Alimentación saludable e hidratación. Educación postural en situaciones cotidianas. Cuidado del cuerpo: higiene personal y el descanso tras la actividad física.",
+          "EFI.1.A.2. Salud social: la actividad física como práctica social saludable. Derechos de los niños y niñas en el deporte escolar. Respeto hacia todas las personas con independencia de sus características personales.",
+          "EFI.1.A.3. Salud mental: bienestar personal y en el entorno a través de la motricidad. Autoconocimiento e identificación de fortalezas y debilidades en todos los ámbitos (social, físico y mental)."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física.",
+        "items": [
+          "EFI.1.B.1. Elección de la práctica física: vivencia de diversas experiencias corporales en distintos contextos.",
+          "EFI.1.B.2. Cuidado del material utilizado en la actividad a desarrollar.",
+          "EFI.1.B.3. Preparación de la práctica motriz: vestimenta deportiva y hábitos generales de higiene corporal.",
+          "EFI.1.B.4. Planificación y autorregulación de proyectos motores sencillos: objetivos o metas. Utilización de recursos digitales.",
+          "EFI.1.B.5. Prevención de accidentes en las prácticas motrices: juegos de activación, calentamiento y vuelta a la calma."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices.",
+        "items": [
+          "EFI.1.C.1. Toma de decisiones: adecuación de las acciones a las capacidades y las limitaciones personales en situaciones motrices individuales. Coordinación de acciones con compañeros y compañeras en situaciones cooperativas. Adecuación de la acción a la ubicación del adversario en situaciones motrices de persecución y de interacción con un móvil. Selección de la posición corporal o la distancia adecuadas en situaciones de oposición de contacto. Selección de acciones para mantener la posesión, recuperar el móvil o evitar que el atacante progrese en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "EFI.1.C.2. Capacidades perceptivomotrices en contexto de práctica: integración del esquema corporal: conciencia corporal. Lateralidad y su proyección en el espacio. Coordinación óculo-pédica y óculo-manual. Equilibrio estático y dinámico.",
+          "EFI.1.C.3. Capacidades físicas desde el ámbito lúdico y el juego.",
+          "EFI.1.C.4. Habilidades y destrezas motrices básicas genéricas: locomotrices, no locomotrices y manipulativas.",
+          "EFI.1.C.5. Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos. Apoyo en recursos digitales."
+        ]
+      },
+      {
+        "bloque": "D. Autorregulación emocional e interacción social en situaciones motrices.",
+        "items": [
+          "EFI.1.D.1. Gestión emocional: estrategias de identificación, experimentación y manifestación de emociones, pensamientos y sentimientos a partir de experiencias motrices. Gestión del conflicto: iniciarse en el conocimiento de estrategias para solucionar situaciones conflictivas; establecimiento de medidas guiadas para solucionar la situación problemática y acuerdos para adoptarlas.",
+          "EFI.1.D.2. Habilidades sociales: verbalización de emociones derivadas de la interacción en contextos motrices.",
+          "EFI.1.D.3. Respeto a las reglas de juego, a las normas y a los compañeros. Tolerancia a la frustración.",
+          "EFI.1.D.4. Conductas que favorezcan la convivencia y de igualdad de género, inclusivas y de respeto a los demás, en situaciones motrices: estrategias de identificación de conductas discriminatorias o contrarias a la convivencia."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz.",
+        "items": [
+          "EFI.1.E.1. Aportaciones de la cultura motriz a la herencia cultural andaluza. Los juegos y las danzas como manifestación de la cultura andaluza.",
+          "EFI.1.E.2. Usos comunicativos de la corporalidad: gestos, muecas, posturas y otros.",
+          "EFI.1.E.3. Práctica de actividades rítmico-musicales con carácter artístico-expresivo.",
+          "EFI.1.E.4. Deporte y perspectiva de género: referentes en el deporte de distintos géneros."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y sostenible con el entorno.",
+        "items": [
+          "EFI.1.F.1. Normas de uso: educación vial para peatones. Normas de uso de la vía pública. Movilidad segura, saludable y sostenible.",
+          "EFI.1.F.2. Posibilidades motrices de los espacios de juego y esparcimiento infantil.",
+          "EFI.1.F.3. El material físico y digital, y sus posibilidades de uso para el desarrollo de la motricidad.",
+          "EFI.1.F.4. Realización de actividades seguras en el medio natural y urbano, valorando las posibilidades que brinda el entorno y clima de Andalucía.",
+          "EFI.1.F.5. Cuidado del entorno próximo y de los animales y plantas que en él conviven, como servicio a la comunidad, durante la práctica de actividades físicas en el medio natural y urbano. Uso eficiente y respetuosos de las instalaciones deportivas del entorno."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Vida activa y saludable.",
+        "items": [
+          "EFI.2.A.1. Salud física: efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Características de alimentos naturales, procesados y ultraprocesados. Educación postural en acciones motrices habituales. Factores básicos que inciden en el cuidado del cuerpo.",
+          "EFI.2.A.2. Salud social: la actividad física como hábito y alternativa saludable frente a formas de ocio nocivas. Límites para evitar una competitividad desmedida. Aceptación de distintas tipologías corporales, para practicar, en igualdad, diversidad de actividades físicodeportivas.",
+          "EFI.2.A.3. Salud mental: respeto y aceptación del propio cuerpo. Autoconocimiento e identificación de fortalezas y debilidades o posibilidades y limitaciones en todos los ámbitos (social, físico y mental)."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física.",
+        "items": [
+          "EFI.2.B.1. Elección de la práctica física: usos y finalidades catárticos, lúdico-recreativos, cooperativos, competitivo, agonística, funcional, social, expresiva y comunicativa, creativa o de interacción. Respeto de las elecciones de los demás.",
+          "EFI.2.B.2. Cuidado y preparación del material según la actividad a desarrollar.",
+          "EFI.2.B.3. Pautas de higiene personal relacionadas con la actividad física.",
+          "EFI.2.B.4. Planificación y autorregulación de proyectos motores: mecanismos básicos para ejecutar lo planificado. Utilización de recursos digitales.",
+          "EFI.2.B.5. Prevención de accidentes en las prácticas motrices: mecanismos de prevención y control corporal para la prevención de lesiones."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices.",
+        "items": [
+          "EFI.2.C.1. Toma de decisiones: distribución racional del esfuerzo en situaciones motrices individuales. Ubicación en el espacio en situaciones cooperativas. Ubicación en el espacio y reubicación tras cada acción en situaciones motrices de persecución y de interacción con un móvil. Anticipación a las decisiones ofensivas del adversario en situaciones de oposición de contacto. Pase a compañeros y compañeras desmarcados o en situación ventajosa en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "EFI.2.C.2. Capacidades perceptivomotrices en contexto de práctica: integración del esquema corporal, control tónico-postural e independencia segmentaria en situaciones motrices. Definición de la lateralidad. Coordinación dinámica general y segmentaria.",
+          "EFI.2.C.3. Capacidades condicionales: capacidades físicas básicas.",
+          "EFI.2.C.4. Habilidades y destrezas motrices básicas genéricas: locomotrices, no locomotrices y manipulativas. Combinación de habilidades.",
+          "EFI.2.C.5. Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos y externos. Apoyo en recursos digitales."
+        ]
+      },
+      {
+        "bloque": "D. Autorregulación emocional e interacción social en situaciones motrices.",
+        "items": [
+          "EFI.2.D.1. Gestión emocional: reconocimiento de emociones propias, pensamientos y sentimientos a partir de experiencias motrices.",
+          "EFI.2.D.2. Habilidades sociales: escucha activa y estrategias de negociación para la resolución de conflictos en contextos motrices.",
+          "EFI.2.D.3. Concepto de deportividad, aceptación de las normas del juego, respeto al adversario, a los compañeros, a los árbitros, espectadores y profesores.",
+          "EFI.2.D.4. Conductas contrarias a la convivencia, discriminatorias o sexistas, en situaciones motrices (discriminación por cuestiones de competencia motriz, etnia, género u otras): efectos negativos y estrategias de identificación y efectos negativos."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz.",
+        "items": [
+          "EFI.2.E.1. Aportaciones de la cultura motriz a la herencia cultural andaluza. Los juegos y las danzas como manifestación de la interculturalidad.",
+          "EFI.2.E.2. Usos comunicativos de la corporalidad: comunicación de sensaciones, sentimientos, emociones e ideas simples.",
+          "EFI.2.E.3. Práctica de actividades rítmico-musicales con carácter expresivo.",
+          "EFI.2.E.4. Deporte e igualdad y perspectiva de género: ligas masculinas, femeninas y mixtas de distintos deportes. Referentes en el deporte de distintos géneros. La cultura del esfuerzo para conseguir un objetivo."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y sostenible con el entorno.",
+        "items": [
+          "EFI.2.F.1. Normas de uso: educación vial para bicicletas. Movilidad segura, saludable y sostenible.",
+          "EFI.2.F.2. Espacios naturales en el contexto urbano: uso, disfrute seguro y mantenimiento.",
+          "EFI.2.F.3. Estado del material físico y digital para actividades en el medio natural y urbano: valoración previa y actuación ante desperfectos.",
+          "EFI.2.F.4. Prevención y sensibilización sobre la generación de residuos y su correcta gestión.",
+          "EFI.2.F.5. Realización de actividades físicas seguras en el medio natural y urbano, valorando las posibilidades que brinda el entorno y clima de Andalucía.",
+          "EFI.2.F.6. Cuidado del entorno próximo y de los animales y plantas que en él conviven como servicio a la comunidad, durante la práctica segura de actividades físicas en el medio natural y urbano."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Vida activa y saludable.",
+        "items": [
+          "EFI.3.A.1. Salud física: efectos físicos beneficiosos de un estilo de vida activo. Alimentación saludable e hidratación. Educación postural en situaciones cotidianas. Cuidado del cuerpo: higiene personal y el descanso tras la actividad física. Educación postural en acciones motrices específicas. Responsabilidad personal en el cuidado del cuerpo.",
+          "EFI.3.A.2. Salud social: aproximación a los efectos de los malos hábitos relacionados con la salud e influencia en la práctica de actividad física. La exigencia del deporte profesional. Aceptación de distintas tipologías corporales, para practicar en igualdad, diversidad de actividades físicodeportivas. Estereotipos corporales, de género y competencia motriz.",
+          "EFI.3.A.3. Salud mental: consolidación y ajuste realista del autoconcepto, teniendo en cuenta la perspectiva de género. Respeto y aceptación del propio cuerpo y del aspecto corporal de los demás. Visión crítica de las imágenes ajustadas o distorsionadas ofrecidas en los entornos sociales, tanto reales como virtuales, que ayudan o entorpecen el mantenimiento o la mejora de un equilibrio social, físico y mental."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física.",
+        "items": [
+          "EFI.3.B.1. Usos y finalidades: catárticos, lúdico-recreativos, cooperativos, competitivos, agonísticos, funcional, social, expresiva y comunicativa, creativa o de interacción.",
+          "EFI.3.B.2. Actitudes consumistas en torno al equipamiento. Investigación, usando recursos digitales y, análisis crítico de la adquisición de material para la práctica físico-deportiva.",
+          "EFI.3.B.3. Hábitos autónomos de higiene corporal en acciones cotidianas.",
+          "EFI.3.B.4. Planificación y autorregulación de proyectos motores: seguimiento y valoración durante el proceso y del resultado. Utilización de recursos digitales.",
+          "EFI.3.B.5. Prevención de accidentes en las prácticas motrices: calentamiento general y vuelta a la calma. Importancia de respetar las normas de seguridad. Compromiso de responsabilidad hacia la seguridad propia y de los demás.",
+          "EFI.3.B.6. Actuaciones básicas ante accidentes durante la práctica de actividades físicas. Posición lateral de seguridad. Conducta PAS (proteger, avisar, socorrer)."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices.",
+        "items": [
+          "EFI.3.C.1. Toma de decisiones: selección de acciones en función del entorno en situaciones motrices individuales. Selección de acciones para el ajuste espacio-temporal en la interacción con los compañeros y compañeras en situaciones cooperativas. Selección de zonas de envío del móvil desde donde sea difícil devolverlo, en situaciones motrices de persecución y de interacción con un móvil. Selección adecuada de las habilidades motrices en situaciones de oposición de contacto. Desmarque y ubicación en un lugar desde el que se constituya un apoyo para los demás en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "EFI.3.C.2. Capacidades perceptivomotrices en contexto de práctica: integración del esquema corporal; equilibrio estático y dinámico en situaciones de complejidad creciente o superficies inestables. Estructuración espacial (percepción de objetos, de distancias, orientación, percepción e interceptación de trayectorias, agrupamiento-dispersión y transposición). Estructuración temporal (simultaneidad y sucesión de acciones) y espacio-temporal (percepción de duraciones, de velocidad, de intervalos, de estructuras, de ritmos y de ajuste perceptivo en el envío y en la interceptación de trayectorias de móviles).",
+          "EFI.3.C.3. Capacidades condicionales: capacidades físicas básicas y resultantes (coordinación, equilibrio y agilidad).",
+          "EFI.3.C.4. Iniciación de las habilidades motrices específicas asociadas a la técnica en actividades físico-deportivas: aspectos principales.",
+          "EFI.3.C.5. Creatividad motriz: identificación de estímulos internos o externos que exijan un reajuste instantáneo de la acción motriz. Apoyo en recursos digitales."
+        ]
+      },
+      {
+        "bloque": "D. Autorregulación emocional e interacción social en situaciones motrices.",
+        "items": [
+          "EFI.3.D.1. Gestión emocional: ansiedad, estrés, ira, tristeza y situaciones motrices. Estrategias de afrontamiento y gestión. Introspección, motivación, capacidad de expresión (asertividad) como medio para superar las diferencias individuales en una práctica, lúdica o deportiva, de todos y para todos.",
+          "EFI.3.D.2. Habilidades sociales: estrategias de trabajo en equipo para la resolución constructiva de conflictos en situaciones motrices colectivas. Respeto y tolerancia a las diferencias individuales, adjudicación de roles, liderazgo, aceptación de responsabilidades.",
+          "EFI.3.D.3. Concepto de fairplay o «juego limpio». Acciones que muestren una amenaza a la práctica deportiva. Hábitos no adecuados, conductas violentas, manipulación del juego.",
+          "EFI.3.D.4. Identificación y rechazo de conductas violentas o contrarias a la convivencia en situaciones motrices."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz.",
+        "items": [
+          "EFI.3.E.1. Aportaciones de la cultura motriz a la herencia cultural andaluza. Los deportes como seña de identidad cultural.",
+          "EFI.3.E.2. Usos comunicativos de la corporalidad: comunicación de sensaciones, sentimientos, emociones e ideas complejas.",
+          "EFI.3.E.3. Práctica de actividades rítmicomusicales con carácter expresivo.",
+          "EFI.3.E.4. Deporte e igualdad y perspectiva de género: sexismo en el deporte amateur y profesional.",
+          "EFI.3.E.5. Deportes olímpicos y paralímpicos, historia e instituciones asociadas a los Juegos Olímpicos y Paralímpicos. La cultura del esfuerzo para conseguir una meta."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y sostenible con el entorno.",
+        "items": [
+          "EFI.3.F.1. Normas de uso: la educación vial desde la actividad física y deportiva. Movilidad segura, saludable y sostenible.",
+          "EFI.3.F.2. Transporte activo, seguro y sostenible: bicicletas, patines, patinetes.",
+          "EFI.3.F.3. Previsión de riesgos de accidente durante la práctica en el medio natural y urbano: valoración previa y actuación.",
+          "EFI.3.F.4. Aplicación, construcción y reutilización de materiales físicos y digitales para la práctica motriz.",
+          "EFI.3.F.5. Práctica de actividades físicas en el medio natural y urbano, valorando las posibilidades que brinda el entorno y clima de Andalucía. Consumo adecuado: búsqueda, construcción, reparación y reutilización de elementos y materiales para la práctica motriz.",
+          "EFI.3.F.6. Cuidado del entorno próximo y de los animales y plantas que en él conviven, como servicio a la comunidad, durante la práctica de actividad física en el medio natural y urbano."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

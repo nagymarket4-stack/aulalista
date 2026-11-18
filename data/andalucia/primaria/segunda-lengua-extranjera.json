@@ -313,13 +313,48 @@
     "Los descriptores operativos van vinculados a la competencia específica (primera columna de la tabla), no al criterio: están en competencias[].descriptores y criterios[].descriptores queda vacío a propósito.",
     "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
     "La Orden añade: «Asimismo, los centros plurilingües desarrollarán el currículo del área de Segunda Lengua Extranjera partiendo de los mismos elementos curriculares que se desarrollan en cada uno de los ciclos del área de Primera Lengua Extranjera.» Para centros plurilingües habría que usar lengua-extranjera.json del ciclo correspondiente.",
-    "Decidir en el producto qué columna (.a o .b) usar en 5.º y 6.º: la Orden no lo concreta."
+    "Decidir en el producto qué columna (.a o .b) usar en 5.º y 6.º: la Orden no lo concreta.",
+    "saberes.tercer: copia literal de los saberes del 1.er ciclo de Lengua Extranjera (códigos LEX.1.…), por la misma regla de la Orden."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "metodo": "Derivado de andalucia-le (1.er ciclo) según la regla literal de la Orden"
   },
-  "saberes": {},
+  "saberes": {
+    "tercer": [
+      {
+        "bloque": "A. Comunicación.",
+        "items": [
+          "LEX.1.A.1. Autoconfianza en el uso de la lengua extranjera.",
+          "LEX.1.A.2. Iniciación en las estrategias elementales para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+          "LEX.1.A.3. Funciones comunicativas elementales adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; identificar las características de personas, objetos y lugares; responder a preguntas concretas sobre cuestiones cotidianas; expresar el tiempo, la cantidad y el espacio.",
+          "LEX.1.A.4. Modelos contextuales elementales en la comprensión y producción de textos orales, escritos y multimodales, breves y sencillos, tales como felicitaciones, notas, listas o avisos.",
+          "LEX.1.A.5. Unidades lingüísticas elementales y significados asociados a dichas estructuras tales como expresión de la entidad y sus propiedades, cantidad y número, afirmación, exclamación, negación e interrogación.",
+          "LEX.1.A.6. Léxico elemental y de interés para el alumnado relativo a relaciones interpersonales básicas, hábitos saludables, vivienda, lugares y entornos cercanos, destacando la importancia de la sostenibilidad y el cuidado del medioambiente.",
+          "LEX.1.A.7. Iniciación en patrones sonoros y acentuales elementales.",
+          "LEX.1.A.8. Iniciación en convenciones ortográficas elementales.",
+          "LEX.1.A.9. Convenciones y estrategias conversacionales elementales, en formato síncrono o asíncrono, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, preguntar y responder, etc.",
+          "LEX.1.A.10. Herramientas analógicas y digitales elementales para la comprensión y producción oral, escrita y multimodal."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo.",
+        "items": [
+          "LEX.1.B1. Estrategias y técnicas elementales de detección de las carencias comunicativas y las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las demás lenguas del repertorio lingüístico propio.",
+          "LEX.1.B.2. Iniciación en las estrategias elementales para identificar y utilizar unidades lingüísticas (léxico, morfosintaxis, patrones sonoros, etc.) a partir de la comparación de las lenguas y variedades que conforman el repertorio lingüístico personal."
+        ]
+      },
+      {
+        "bloque": "C. Interculturalidad.",
+        "items": [
+          "LEX.1.C.1. La lengua extranjera como medio de comunicación y relación con personas de otros países y como vía para dar a conocer aspectos básicos de la cultura andaluza.",
+          "LEX.1.C.2. Aspectos socioculturales y sociolingüísticos elementales y más significativos relativos a las costumbres y la vida cotidiana en países donde se habla la lengua extranjera.",
+          "LEX.1.C.3. Iniciación en las estrategias básicas de uso común para entender y apreciar la diversidad lingüística, cultural y artística, a partir de valores ecosociales y democráticos.",
+          "LEX.1.C.4. Iniciación en las estrategias básicas de detección de usos discriminatorios del lenguaje verbal y no verbal."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

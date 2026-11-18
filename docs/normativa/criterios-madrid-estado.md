@@ -53,16 +53,18 @@
 | Ciencias de la Naturaleza | 42 | 37 | 34 |
 | Ciencias Sociales | 21 | 32 | 38 |
 | Educación Física | 28 | 28 | 31 |
-| Educación Artística | 35 | pendiente | pendiente |
+| Educación Artística | 35 | 41 | 45 |
 | Valores Cívicos y Éticos (5.º) | — | — | 25 |
-| Segunda Lengua Extranjera (etapa, bloques A-C) | 21 | 21 | 21 |
+| Segunda Lengua Extranjera (etapa, bloques A-D) | 76 | 76 | 76 |
 | Tecnología y Robótica (etapa) | 27 | 27 | 27 |
-| Lengua Extranjera: Inglés | pendiente | pendiente | pendiente |
+| Lengua Extranjera: Inglés | 31 | 36 | 39 |
 
   Particularidades de estructura, anotadas en el `pendiente` de cada JSON:
   - **Ciencias de la Naturaleza y Ciencias Sociales:** subtítulos y subítems sin guion intercalados. Se guardan en orden como ítems del apartado.
   - **Educación Artística:** «BLOQUE I: Música y danza» y «BLOQUE II: Educación plástica y visual», cada uno con apartados A-C.
-  - **Segunda Lengua Extranjera:** el bloque D (sintáctico-discursivo por idioma, págs. 118-120) no se ha extraído.
+  - **Segunda Lengua Extranjera:** el bloque D («D. Contenidos sintácticodiscursivos», así en el BOCM; págs. 118-120) va por idioma. Se guarda con apartados Francés, Alemán, Italiano y Portugués (55 ítems) y se replica en los tres ciclos como el resto de la tabla de etapa.
+  - **Inglés:** bloques A-D por ciclo. El bloque D se titula «D. Contenidos sintáctico-discursivos» en el 1.er ciclo y «D. Contenidos sintácticodiscursivos» en el 2.º y 3.º, tal como se extrajeron. Sus ítems incluyen ejemplos en inglés.
+  - **Artística, 2.º y 3.er ciclo:** extraídos por secciones A, B y C de cada bloque, con la misma estructura que el 1.er ciclo.
 
 ## Método
 
@@ -99,9 +101,6 @@
   - Valores 2.5, «organismos internaciones»;
   - SLE 5.3, «una segunda extranjera»;
   - Artística 3.er ciclo 4.4, «considerado su madurez».
-- **Contenidos pendientes:**
-  - Inglés: págs. 86, 89-90 y 93-95.
-  - Artística, 2.º y 3.er ciclo: págs. 54-56 y 57-60. El extractor se negó a citar el bloque completo; habrá que pedirlo por secciones A, B y C.
-  - Bloque D de Segunda Lengua Extranjera.
+- **Contenidos:** extraídos en las 10 áreas y en todos los ciclos (repaso del 18/11/2026). Falta cotejarlos con el PDF, sobre todo las uniones de fragmentos.
 - **Segmentación de ítems en los contenidos de Matemáticas del 1.er ciclo** (bloques C-F): el extractor no mostró los guiones, así que los ítems se separaron por frases completas. Hay que cotejarlo.
 - **Inyección en el prompt.** Resuelto por el coordinador: `curriculoDe` ya tiene en cuenta `verificado` y filtra por `curso`. Con `verificado:false`, la cabecera inyectada avisa de que la transcripción está «pendiente de cotejo final».

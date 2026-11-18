@@ -285,7 +285,7 @@
     "La tabla de criterios no se divide en Música y Danza / Plástica y Visual; esa división solo aparece en los contenidos.",
     "3.er ciclo 4.4: «considerado su madurez» y 3.1: «pintura….», tal como se extrajeron.",
     "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
-    "Contenidos extraídos solo del 1.er ciclo (el extractor se negó a citar el 2.º ciclo completo; pendiente con consultas más pequeñas). El BOCM los divide en «BLOQUE I» «Música y danza» y «BLOQUE II» «Educación plástica y visual», cada uno con A, B y C: se guardan como bloque «BLOQUE I: Música y danza» con apartados A-C. 1.er ciclo, bloque II B: «producciones pláticas», tal como se extrajo."
+    "Contenidos extraídos de los tres ciclos (2.º y 3.º pedidos por secciones A, B y C). El BOCM los divide en «BLOQUE I» «Música y danza» y «BLOQUE II» «Educación plástica y visual», cada uno con A, B y C: se guardan como bloque «BLOQUE I: Música y danza» con apartados A-C. 1.er ciclo, bloque II B: «producciones pláticas», tal como se extrajo."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
@@ -365,6 +365,176 @@
               "Estrategias y técnicas básicas de composición de historias audiovisuales sencillas con intención comunicativa.",
               "Nociones básicas sobre el cine. El cine de animación como género y sus características.",
               "Respeto y valoración de las manifestaciones artísticas más importantes del patrimonio cultural y artístico, español y local."
+            ]
+          }
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "BLOQUE I: Música y danza",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas comunes de comportamiento y actitud positiva en la recepción de propuestas artísticas musicales y escénicas en diferentes lugares. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción y la práctica musical.",
+              "Vocabulario específico de uso común en la música y en las artes escénicas.",
+              "Recursos digitales de uso común para la música y las artes escénicas.",
+              "Estrategias básicas de análisis de propuestas artísticas musicales y artes escénicas."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "Fases del proceso creativo: planificación, interpretación y experimentación.",
+              "Profesiones vinculadas con la música y las artes escénicas.",
+              "Respeto, interés y valoración tanto por el proceso como por el producto final en producciones musicales y escénicas."
+            ]
+          },
+          {
+            "apartado": "C. Música y artes escénicas",
+            "items": [
+              "El sonido y sus cualidades (tono, duración, timbre e intensidad): identificación visual y auditiva y representación elemental de diversidad de sonidos. Estructuras rítmico-melódicas a través de diferentes grafías.",
+              "La voz y los instrumentos musicales. Agrupaciones: (coros, bandas, orquestas) y familias: (viento, cuerda, percusión). Identificación visual y auditiva. Objetos sonoros. Cotidiáfonos.",
+              "El carácter, el tempo y el compás, tras la escucha de obras musicales.",
+              "Práctica instrumental, vocal y corporal: experimentación, interpretación e improvisación de piezas vocales e instrumentales de diferente época, estilos y culturas a partir de sus posibilidades sonoras y expresivas de forma individual o en distintos agrupamientos.",
+              "Construcción guiada de instrumentos. Práctica instrumental.",
+              "Lenguajes musicales: conocimiento y aplicación de sus conceptos básicos en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales que contengan procedimientos compositivos: repetición, imitación, variación y desarrollo. El silencio como elemento fundamental de la música.",
+              "Aplicaciones informáticas básicas de grabación y edición de audio.",
+              "El cuerpo y sus posibilidades motrices y creativas: interés por la experimentación a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medios de expresión y diversión.",
+              "Técnicas dramáticas y dancísticas de uso común. Lenguajes expresivos básicos. Improvisación guiada.",
+              "Capacidades expresivas y creativas de uso común de la expresión corporal y dramática.",
+              "Elementos básicos de la representación escénica."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "BLOQUE II: Educación plástica y visual",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Propuestas artísticas de diferentes corrientes estéticas de las artes plásticas, visuales y audiovisuales, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas comunes de comportamiento y actitud en la recepción de propuestas artísticas plásticas, visuales y audiovisuales en diferentes lugares.",
+              "Vocabulario específico de uso común en las artes plásticas, visuales y audiovisuales.",
+              "Recursos digitales de uso común para las artes plásticas, visuales y las artes audiovisuales.",
+              "Análisis de obras artísticas."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "Fases del proceso creativo: planificación, interpretación y experimentación.",
+              "Profesiones vinculadas con las artes plásticas, visuales y las artes audiovisuales.",
+              "Respeto, interés y valoración, tanto por el proceso como por el producto final en producciones plásticas, visuales y audiovisuales."
+            ]
+          },
+          {
+            "apartado": "C. Artes plásticas, visuales y audiovisuales",
+            "items": [
+              "Las artes visuales. La imagen en el mundo actual: técnicas y estrategias básicas de lectura e interpretación (análisis y realización) de los elementos que la componen.",
+              "Elementos configurativos básicos del lenguaje visual y sus posibilidades expresivas y comunicativas: punto, línea, plano, textura, color. Elementos configurativos del lenguaje visual.",
+              "Materiales, instrumentos, soportes y técnicas de uso común utilizados en la expresión plástica y visual.",
+              "Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales en dibujos y modelados sencillos utilizando elementos básicos de composición, equilibrio y proporción.",
+              "Técnicas, materiales y recursos informáticos y tecnológicos básicos: su aplicación para la captura, creación y manipulación de producciones plásticas y visuales de manera responsable.",
+              "Registro y edición básica de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+              "Técnicas de uso común de composición de historias audiovisuales.",
+              "El cine como forma de narración. El cine de animación como género.",
+              "Géneros y formatos básicos de producciones audiovisuales.",
+              "Manifestaciones básicas vinculadas a la expresión plástica, visual y a las artes audiovisuales de diferentes lugares, épocas y estilos, incluidas las contemporáneas. Obras artísticas más relevantes del patrimonio cultural y artístico español.",
+              "Producciones multimodales: iniciación en la realización con diversas herramientas. Reconocimiento de características elementales del lenguaje audiovisual multimodal.",
+              "Normas básicas de comportamiento y respeto ante las producciones propias y de los demás."
+            ]
+          }
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "BLOQUE I: Música y danza",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas de comportamiento y actitud en la recepción de propuestas artísticas y musicales en diferentes lugares. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción y la práctica musical.",
+              "Vocabulario específico de la música y las artes escénicas.",
+              "Recursos digitales de uso común para la música y las artes escénicas.",
+              "Análisis de obras artísticas."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "Fases del proceso creativo: planificación, interpretación, experimentación y evaluación.",
+              "Profesiones vinculadas con la música y las artes escénicas.",
+              "Evaluación, respeto, interés y valoración, tanto por el proceso como por el producto final en producciones musicales y escénicas.",
+              "Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso y distribución de contenidos generados por otros. Plagio y derechos de autor."
+            ]
+          },
+          {
+            "apartado": "C. Música y artes escénicas",
+            "items": [
+              "El sonido y sus cualidades (tono, duración, timbre e intensidad): identificación visual y auditiva, clasificación y representación de diversidad de sonidos y estructuras rítmico-melódicas a través de diferentes grafías.",
+              "La voz y los instrumentos musicales. Familias (viento, cuerda, percusión y agrupaciones (coros, bandas, orquestas). Clasificación. Identificación visual y auditiva. Instrumentos digitales y no convencionales. Cotidiáfonos.",
+              "El carácter, el tempo, el compás, los géneros musicales, la textura, la armonía y la forma tras la escucha de obras musicales.",
+              "Práctica instrumental, vocal y corporal: experimentación, exploración creativa, interpretación, improvisación de piezas vocales e instrumentales de diferente época, estilos y culturas y composición a partir de sus posibilidades sonoras y expresivas, de forma individual o en distintos agrupamientos, de acuerdo a su desarrollo evolutivo.",
+              "Construcción de instrumentos. Práctica instrumental.",
+              "Lenguajes musicales: conocimiento y aplicación de sus conceptos fundamentales en la interpretación y en la improvisación de propuestas musicales vocales e instrumentales que contengan procedimientos compositivos: repetición, imitación, variación y desarrollo. El silencio en la música como elemento fundamental.",
+              "Aplicaciones informáticas de grabación, edición de audio y edición de partituras: utilización en la audición, conocimiento, interpretación, grabación, reproducción, improvisación y creación de obras.",
+              "El cuerpo y sus posibilidades motrices, dramáticas y creativas: interés en la experimentación a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medio de comunicación, expresión, diversión y fomento de la creatividad.",
+              "Técnicas básicas dramáticas y dancísticas. Nociones elementales. Lenguajes expresivos. Introducción a los métodos interpretativos. Improvisación guiada y creativa.",
+              "Capacidades expresivas y creativas de la expresión corporal y dramática.",
+              "Elementos de la representación y creación escénica.",
+              "Aproximación a los géneros escénicos. Valoración de la importancia de la interpretación dramática en el proceso artístico y del patrimonio cultural vinculado a las artes escénicas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "BLOQUE II: Educación plástica y visual",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Obras artísticas, plásticas, visuales y audiovisuales de diferentes corrientes estéticas, procedencias y épocas producidas por creadores locales, regionales, nacionales e internacionales.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas de comportamiento y actitud en la recepción de propuestas artísticas plásticas, visuales y audiovisuales en diferentes lugares. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+              "Vocabulario específico de las artes plásticas, visuales y las artes audiovisuales.",
+              "Recursos digitales de uso común para las artes plásticas, visuales y las artes audiovisuales.",
+              "Estrategias básicas de análisis de obras artísticas."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "El proceso creativo.",
+              "Profesiones vinculadas con las artes plásticas y visuales y las artes audiovisuales.",
+              "Evaluación, respeto, interés y valoración tanto por el proceso como por el producto final en producciones plásticas, visuales, audiovisuales.",
+              "Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso y distribución de contenidos generados por otros. Plagio y derechos de autor."
+            ]
+          },
+          {
+            "apartado": "C. Artes plásticas, visuales y audiovisuales",
+            "items": [
+              "Artes visuales. La imagen en el mundo actual: técnicas y estrategias de lectura de los elementos que la componen, análisis e interpretación.",
+              "Elementos configurativos del lenguaje visual y sus posibilidades expresivas y comunicativas: punto, línea, plano, textura, color.",
+              "Materiales, instrumentos, soportes y técnicas en la expresión plástica y visual.",
+              "Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales en dibujos y modelados incluidos los formatos artísticos contemporáneos.",
+              "Elementos geométricos fundamentales. Nociones básicas para la creación de obras relacionadas con el dibujo técnico.",
+              "Técnicas, materiales y recursos informáticos y tecnológicos: su aplicación para la captura, creación, manipulación y difusión de obras plásticas y visuales de manera responsable.",
+              "Registro y edición de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+              "Estrategias y técnicas de composición de historias sencillas audiovisuales de manera individual y grupal, con intención comunicativa y expresiva, para ser recreadas, narradas y grabadas.",
+              "El cine: origen e historia. Nociones elementales del lenguaje cinematográfico y audiovisual. Visionado de propuestas icónicas, cinematográficas y audiovisuales.",
+              "Géneros y formatos de producciones audiovisuales. Nociones elementales sobre estilos, géneros y formatos audiovisuales: imagen fija y en movimiento. Ficción y no ficción.",
+              "Producciones multimodales: realización con diversas herramientas.",
+              "Características del lenguaje audiovisual multimodal.",
+              "Las herramientas y las técnicas básicas de animación. El cine de animación como género. Creación, montaje y difusión de una película, sencilla, de animación."
             ]
           }
         ]
