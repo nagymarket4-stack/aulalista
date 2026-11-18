@@ -63,7 +63,7 @@ describe('engine.web.js', () => {
   });
   test('envía la licencia y la olvida si el servidor la marca como inválida', async () => {
     const { Engine, ls, calls } = load({ stored: { 'al-license': JSON.stringify(LIC) }, fetchImpl: () => stream(sseBody(['x']), { 'x-license': 'invalid' }) });
-    assert.deepEqual({ ...(await Engine.usage()) }, { plan: 'Pro', label: '' });
+    assert.deepEqual({ ...(await Engine.usage()) }, { plan: 'Pro', label: '', manage: '/api/portal' });
     await Engine.generate('', () => {}, undefined, {});
     assert.equal(calls[0].init.headers.authorization, 'Bearer ' + LIC);
     assert.equal(ls.has('al-license'), false);

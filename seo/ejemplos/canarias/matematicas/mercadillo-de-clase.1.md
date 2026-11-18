@@ -27,17 +27,36 @@ El carácter solidario da sentido al reto: lo recaudado se destina a una causa q
 
 ## 3. Fundamentación curricular
 
-Criterios del primer ciclo del Decreto 211/2022 (anexo 2, Matemáticas), con su redacción literal:
+Criterios, descriptores operativos y saberes básicos del primer ciclo del Decreto 211/2022 (anexo 2, Matemáticas), con su redacción y numeración literales. Los saberes se citan con el bloque en número romano y el saber en número arábigo.
 
-| Competencia específica | Criterios de evaluación | Saberes básicos | Descriptores operativos |
+| Competencia específica | Criterios de evaluación | Descriptores operativos | Saberes básicos |
 | --- | --- | --- | --- |
-| **C1.** Interpretar situaciones de la vida cotidiana, proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante. | **1.1.** Entender y describir la situación planteada, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayuden en la búsqueda de estrategias para su resolución. | Sentido numérico: conteo, cantidad y representación de números hasta el 100 en contextos de compra [VERIFICAR CON DECRETO] | CCL1, CCL2, STEM1, STEM2, STEM4, CPSAA5, CE1, CE3 |
-| **C2.** Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado. | **2.2.** Elegir y utilizar las operaciones pertinentes para la resolución de problemas que involucren la estructura aditiva; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y explicarlas con un vocabulario matemático apropiado a su nivel. | Sentido numérico: suma y resta con dinero; Sentido de la medida: monedas y billetes de euro [VERIFICAR CON DECRETO] | STEM1, STEM2, CPSAA5, CE3 |
-| **C2** (continuación) | **2.3.** Revisar la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido. | Sentido numérico: estrategias de comprobación del resultado [VERIFICAR CON DECRETO] | CCL1, CCL2, STEM1, STEM2, CPSAA4, CE3 |
-| **C6.** Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas. | **6.2.** Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando información, para dar significado y permanencia a las ideas matemáticas. | Sentido numérico y sentido de la medida: vocabulario de la compra (precio, pagar, sobra, falta, cambio) [VERIFICAR CON DECRETO] | CCL1, CCL3, STEM2, STEM4, CE3, CCEC4 |
-| **C8.** Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables. | **8.1.** Participar en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos y cumpliendo las responsabilidades individuales para la consecución de objetivos compartidos. | Sentido socioafectivo: trabajo en equipo y responsabilidades compartidas [VERIFICAR CON DECRETO] | CCL5, CP3, STEM3, CPSAA3, CC2, CC3, CE3 |
+| **C1.** Interpretar situaciones de la vida cotidiana, proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias, para analizar la información más relevante. | **1.1.** Entender y describir la situación planteada, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayuden en la búsqueda de estrategias para su resolución. | CCL1, CCL2, STEM1, STEM2, STEM4, CPSAA5, CE1, CE3 | I.1.1, I.1.5 |
+| **C2.** Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado. | **2.2.** Elegir y utilizar las operaciones pertinentes para la resolución de problemas que involucren la estructura aditiva; plantear problemas coherentes que se resuelvan con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisen; ofrecer representaciones gráficas adecuadas y explicarlas con un vocabulario matemático apropiado a su nivel. | STEM1, STEM2, CPSAA5, CE3 | I.4.1, I.2.1, I.2.5 |
+| **C2** (continuación) | **2.3.** Revisar la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido. | CCL1, CCL2, STEM1, STEM2, CPSAA4, CE3 | IV.2.2 |
+| **C6.** Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología apropiados, para dar significado y permanencia a las ideas matemáticas. | **6.2.** Comunicar de forma verbal o gráfica ideas y procesos matemáticos, utilizando lenguaje matemático adecuado e intercambiando información, para dar significado y permanencia a las ideas matemáticas. | CCL1, CCL3, STEM2, STEM4, CE3, CCEC4 | I.1.4, I.4.1 |
+| **C8.** Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables. | **8.1.** Participar en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos y cumpliendo las responsabilidades individuales para la consecución de objetivos compartidos. | CCL5, CP3, STEM3, CPSAA3, CC2, CC3, CE3 | VI.2.2 |
 
-> Los saberes básicos se indican por bloque o sentido: concrétalos con el anexo 2 del decreto antes de entregar el documento.
+**Saberes básicos del primer ciclo citados (literales):**
+
+- **I.1.1.** Elección y puesta en práctica de estrategias variadas de conteo y recuento sistemático en situaciones de la vida cotidiana en cantidades hasta el 999. *(I. Sentido numérico)*
+- **I.1.4.** Lectura y escritura de los números hasta el 999 e interpretación del valor posicional de sus cifras. *(I. Sentido numérico)*
+- **I.1.5.** Representación de números naturales hasta el 999 de distintas formas (manipulativa, gráfica y simbólica con la recta numérica y otros materiales). Elección de la representación adecuada para cada situación o problema. *(I. Sentido numérico)*
+- **I.2.1.** Uso de la estructura aditiva en la resolución de problemas aritméticos, organizando la información para elegir la operación adecuada. *(I. Sentido numérico)*
+- **I.2.5.** Suma de números de una o dos cifras, descomponiendo, componiendo o completando a la decena o centena, y en la recta numérica. *(I. Sentido numérico)*
+- **I.4.1.** Conocimiento del sistema monetario europeo: monedas (1 y 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia. *(I. Sentido numérico)*
+- **IV.2.2.** Planificación en cuatro fases de la resolución de problemas: comprender la situación, pensar y seleccionar una estrategia, ejecutar la estrategia elegida y responder, comprobando previamente las soluciones obtenidas. *(IV. Sentido algebraico)*
+- **VI.2.2.** Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de las demás personas. *(VI. Sentido socioafectivo)*
+
+### Técnicas, herramientas e instrumentos de evaluación
+
+| Criterio | Técnicas | Herramientas | Instrumentos y productos |
+| --- | --- | --- | --- |
+| 1.1 | Observación sistemática | Registro anecdótico | Dibujos de composición de cantidades y explicación de la situación de compra |
+| 2.2 | Observación sistemática, análisis de producciones | Listas de control | Rúbrica; lista de cotejo con imágenes de las compras y problemas de sobra o falta |
+| 2.3 | Observación sistemática | Escalas de valoración | Hoja de cuentas del puesto |
+| 6.2 | Análisis de producciones | Escalas de valoración | Rúbrica; etiquetas de precio y cartel de lo recaudado |
+| 8.1 | Encuestación, observación sistemática | Escalas de valoración | Diana del equipo con caritas |
 
 ## 4. Fundamentación metodológica
 
@@ -135,34 +154,65 @@ Criterios del primer ciclo del Decreto 211/2022 (anexo 2, Matemáticas), con su 
 
 ## 7. Evaluación
 
-| Criterio | Instrumento | Evidencia | Momento | Agente |
+### Evidencias y momentos
+
+| Criterio | Evidencia | Momento | Tipo de evaluación según el agente |
+| --- | --- | --- | --- |
+| 1.1 | Dibujos de composición de cantidades y explicación de la situación de compra | Sesiones 1 y 2 | Heteroevaluación |
+| 2.2 | Compras con precio exacto y problemas de sobra o falta | Sesiones 4, 5 y 7 | Heteroevaluación |
+| 2.3 | Comprobación del resultado y de la hoja de cuentas | Sesiones 5 y 8 | Heteroevaluación y autoevaluación |
+| 6.2 | Etiquetas de precio y cartel de lo recaudado | Sesiones 3 y 8 | Heteroevaluación |
+| 8.1 | Trabajo en el puesto y cumplimiento del rol | Sesiones 6 y 7 | Autoevaluación y coevaluación |
+
+### Productos y tipos de evaluación según el agente
+
+| Producto o evidencia | Heteroevaluación (docente) | Coevaluación (entre iguales) | Autoevaluación |
+| --- | --- | --- | --- |
+| Dibujos de composición de cantidades y explicación de la situación de compra (criterio 1.1) | Sí | — | — |
+| Compras con precio exacto y problemas de sobra o falta (criterio 2.2) | Sí | — | — |
+| Comprobación del resultado y de la hoja de cuentas (criterio 2.3) | Sí | — | Sí |
+| Etiquetas de precio y cartel de lo recaudado (criterio 6.2) | Sí | — | — |
+| Trabajo en el puesto y cumplimiento del rol (criterio 8.1) | — | Sí | Sí |
+
+### Rúbrica del producto: el puesto del mercadillo y su hoja de cuentas (niveles oficiales)
+
+Descriptores literales de la rúbrica oficial de cada criterio evaluado (Resolución de 15 de mayo de 2025, BOC n.º 107, de 2 de junio de 2025, anexo 1, Matemáticas, primer ciclo). En la primera columna, qué se observa en el producto de esta SA.
+
+| Criterio y evidencia en el producto | Insuficiente | Suficiente/Bien | Notable | Sobresaliente |
 | --- | --- | --- | --- | --- |
-| 1.1 | Registro anecdótico | Dibujos de composición de cantidades y explicación de la situación de compra | Sesiones 1 y 2 | Heteroevaluación |
-| 2.2 | Lista de cotejo con imágenes | Compras con precio exacto y problemas de sobra o falta | Sesiones 4, 5 y 7 | Heteroevaluación |
-| 2.3 | Escala de observación | Comprobación del resultado y de la hoja de cuentas | Sesiones 5 y 8 | Heteroevaluación y autoevaluación |
-| 6.2 | Rúbrica del producto (fila 3) | Etiquetas de precio y cartel de lo recaudado | Sesiones 3 y 8 | Heteroevaluación |
-| 8.1 | Diana del equipo con caritas | Trabajo en el puesto y cumplimiento del rol | Sesiones 6 y 7 | Autoevaluación y coevaluación |
+| **1.1.** Explica qué hay que comprar, cuánto cuesta y cuánto dinero tiene | Entiende con dificultad y describe con escasa claridad la situación planteada, utilizando terminología científica básica de forma poco adecuada en algunos formatos sencillos, discriminando, con incorrecciones, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución. | Entiende y describe la situación planteada, utilizando terminología científica básica en algunos formatos sencillos, discriminando la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución. | Entiende y describe con apropiada claridad la situación planteada, utilizando terminología científica básica con notable adecuación en algunos formatos sencillos, discriminando, con notable corrección, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución. | Entiende y describe con gran claridad la situación planteada, utilizando terminología científica básica con máxima adecuación en algunos formatos sencillos, discriminando, con corrección destacable, la información relevante y el objetivo a conseguir para lograr la comprensión de la situación, y elaborando dibujos o diagramas que ayudan en la búsqueda de estrategias para su resolución. |
+| **2.2.** Cobra el precio exacto combinando monedas y billetes y dice si sobra o falta | Elige y utiliza de manera pautada y con dificultad las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia con poco interés y curiosidad en el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas poco adecuadas y explicaciones con un vocabulario matemático poco apropiado a su nivel. | Elige y utiliza, las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas adecuadas y explicaciones con un vocabulario matemático apropiado a su nivel. | Elige y utiliza con autonomía creciente las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico con interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con gran adecuación y explicaciones con un vocabulario matemático apropiado a su nivel. | Elige y utiliza con autonomía las operaciones pertinentes para la resolución de problemas que involucran la estructura aditiva; se inicia en el uso del pensamiento científico con gran interés y curiosidad para plantear problemas coherentes con algunos de los fenómenos conocidos que ocurren a su alrededor y que se resuelven con operaciones dadas, utilizando la calculadora cuando las cantidades lo precisan y ofreciendo representaciones gráficas con destacada adecuación y explicaciones con un vocabulario matemático apropiado a su nivel. |
+| **2.3.** Comprueba la hoja de cuentas y explica oralmente cómo lo ha hecho | Omite la revisión de la validez de las soluciones del problema y su coherencia con la pregunta o lo hace de manera muy guiada, expresando oralmente el proceso seguido con escasa claridad y adecuación. | Revisa la validez de las soluciones del problema y su coherencia con la pregunta expresando oralmente el proceso seguido con claridad y adecuación. | Revisa con creciente autonomía la validez de las soluciones del problema y su coherencia con la pregunta, expresando oralmente el proceso seguido con apropiada claridad y adecuación. | Revisa de forma autónoma la validez de las soluciones del problema y su coherencia con la pregunta, expresando oralmente el proceso seguido con gran claridad y adecuación. |
+| **6.2.** Escribe precios y explica el resultado con palabras del tema (precio, pagar, sobra, falta) | Comunica de forma verbal o gráfica con escasa claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático poco adecuado, experimentando con dudas importantes con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, de manera poco frecuente para dar significado y permanencia a las ideas matemáticas. | Comunica de forma verbal o gráfica con claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático adecuado, experimentando de forma guiada con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, para dar significado y permanencia a las ideas matemáticas. | Comunica de forma verbal o gráfica con apropiada claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático con gran adecuación, experimentando de manera segura y confiada con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información, de forma frecuente, para dar significado y permanencia a las ideas matemáticas. | Comunica de forma verbal o gráfica con gran claridad y adecuación a los contextos cotidianos más próximos de su entorno, ideas y procesos matemáticos sobre algunos de los fenómenos conocidos que ocurren a su alrededor, utilizando lenguaje matemático altamente adecuado, experimentando con total confianza con algunos medios y soportes básicos, cooperando con otros en equipo e intercambiando información de forma continuada, para dar significado y permanencia a las ideas matemáticas. |
+| **8.1.** Cumple su rol en el puesto y ayuda a su equipo | Participa mostrando nulo interés en el trabajo en equipo, sin desarrollar la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando rara vez la diversidad cultural presente en su entorno más inmediato, relacionándolo de forma confusa con la necesidad de rechazar prejuicios y estereotipos y cumpliendo ocasionalmente, sin iniciativa las responsabilidades individuales, sin procurar la participación de todo el grupo y sin identificar los conflictos que puedan surgir para la consecución de objetivos compartidos. | Participa en el trabajo en equipo, desarrollando la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando la diversidad cultural presente en su entorno más inmediato, relacionándolo con la necesidad de rechazar prejuicios y estereotipos y cumpliendo las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartidos. | Participa con interés constante en el trabajo en equipo, desarrollando de forma consciente la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando frecuentemente la diversidad cultural presente en su entorno más inmediato, relacionándolo con claridad con la necesidad de rechazar prejuicios y estereotipos, y cumpliendo con regularidad las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartido. | Participa con pasión constante en el trabajo en equipo, desarrollando de forma plenamente consciente la escucha activa y la resolución pacífica de conflictos, reconociendo y respetando siempre la diversidad cultural presente en su entorno más inmediato, relacionándolo con lucidez con la necesidad de rechazar prejuicios y estereotipos, y cumpliendo siempre las responsabilidades individuales, procurando la participación de todo el grupo, identificando los conflictos que puedan surgir para la consecución de objetivos compartidos. |
 
-### Rúbrica del producto: el puesto del mercadillo y su hoja de cuentas
+> Las rúbricas oficiales de la Consejería (Resolución de 15/05/2025) son el referente para calificar los criterios; esta rúbrica de tarea las concreta, no las sustituye. La rúbrica agrupa Suficiente y Bien en un solo nivel; la calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023.
 
-| Aspecto | En inicio | En proceso | Adquirido | Avanzado |
-| --- | --- | --- | --- | --- |
-| Reconocer y contar el dinero | Reconoce alguna moneda con ayuda | Reconoce las monedas y billetes y cuenta cantidades pequeñas con apoyo | Reconoce monedas de 1 y 2 euros y billetes de 5 y 10, y cuenta cantidades hasta 20 euros | Cuenta cantidades mayores agrupando de 10 en 10 y explica cómo lo hace |
-| Cobrar y resolver | Cobra solo con ayuda directa | Cobra el precio exacto con monedas de 1 euro | Cobra el precio exacto combinando monedas y billetes y dice si sobra o falta | Calcula el cambio con precios redondos y lo comprueba con el dinero |
-| Comunicar precios y resultados | Copia el precio de la etiqueta | Escribe precios con número y explica uno | Escribe precios y explica con palabras del tema (precio, pagar, sobra, falta) | Explica al público el resultado de las cuentas y por qué coincide o no con lo vendido |
-| Trabajo en el puesto | Necesita recordatorios para su rol | Cumple su rol con algún recordatorio | Cumple su rol y ayuda a su equipo | Cumple su rol, ayuda y propone mejoras para el puesto |
-
-> Los niveles de la rúbrica orientan la valoración. La calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023.
-
-**Versión para el alumnado:** «Conozco las monedas y los billetes», «Sé pagar lo que cuesta», «Sé decir si me sobra o me falta», «He hecho bien mi trabajo en el puesto». Con caritas.
+**Versión para el alumnado:** «Conozco las monedas y los billetes», «Sé pagar lo que cuesta», «Sé decir si me sobra o me falta», «He hecho bien mi trabajo en el puesto». Con caritas. Es una adaptación en lenguaje sencillo derivada de los descriptores oficiales, no un sustituto de la rúbrica.
 
 ## 8. Producto final y difusión
 
 Mercadillo solidario abierto a las familias y a otros grupos del centro, con carteles de precios hechos por el alumnado, hoja de cuentas de cada puesto y cartel final «Hemos recaudado…» en la entrada del centro. La entrega de lo recaudado a la causa elegida se recoge en una breve crónica con fotos de los puestos (sin rostros) para el blog del centro.
 
-## 9. Valoración del ajuste
+## 9. Programas, planes y ejes temáticos de la Red Canaria-InnovAS
+
+Si el centro participa en la Red Canaria-InnovAS, la SA puede vincularse a estos ejes temáticos (denominaciones del curso 2026-2027; ajústalas a las del proyecto PIDAS del centro):
+
+- **STEAM** (eje principal): matemáticas en una situación real de compraventa.
+- **Educación ambiental y sostenibilidad:** Consumo responsable y reutilización de los objetos que se venden.
+- **Arte, acción cultural y cooperación:** Lo recaudado se destina a la causa solidaria elegida por el grupo.
+
+## 10. Valoración del ajuste
+
+**Desarrollo.** Al terminar, el docente anota:
 
 - ¿Ha bastado con monedas de 1 y 2 euros y billetes de 5 y 10, o el grupo estaba preparado para el cambio?
 - ¿Qué alumnado necesita seguir manipulando dinero en el rincón de la tienda?
 - ¿Ha funcionado la anticipación del día del mercadillo para la alumna con TEA?
-- Propuesta de mejora: mantener un rincón de la tienda en el aula durante el trimestre y retomar el mercadillo en 2.º con céntimos.
+- ¿Qué criterios han reunido evidencias suficientes y cuáles necesitan otra actividad?
+- ¿La valoración con la rúbrica oficial coincide con el resto de evidencias (listas de control, registros, autoevaluación y coevaluación)?
+
+**Propuestas de mejora:**
+
+- Mantener un rincón de la tienda en el aula durante el trimestre y retomar el mercadillo en 2.º con céntimos.
+- Ajustes de temporalización, agrupamientos o recursos para la próxima puesta en práctica.

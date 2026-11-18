@@ -17,6 +17,12 @@ MODEL = "claude-sonnet-5-5"
 PUBLIC_URL = "https://aulalista.es"
 # STRIPE_FOUNDER_LINK = "https://buy.stripe.com/..."   # Payment Link del plan Fundador
 # MAILERLITE_GROUP_ID = "..."
+# STRIPE_PORTAL_URL = "https://billing.stripe.com/p/login/..."   # Portal de cliente de Stripe (enlace de inicio de sesión).
+#   La app ("Gestionar mi suscripción / cancelar") y el pie de la landing enlazan a /api/portal, que redirige aquí.
+#   Debe ser https; sin configurar, /api/portal responde 503.
+# Afiliados: no necesitan variables. ?ref=<código> → client_reference_id del Payment Link → KV aff:*.
+#   Da de alta en el webhook de Stripe el evento invoice.paid (renovaciones) además de los de licencias.
+#   Export: GET /api/admin/afiliados (Authorization: Bearer ADMIN_TOKEN) [?mes=AAAA-MM] [&codigo=x] [&formato=resumen]
 
 # Secretos (NO van en este archivo). Créalos con:
 #   npx wrangler secret put ANTHROPIC_API_KEY

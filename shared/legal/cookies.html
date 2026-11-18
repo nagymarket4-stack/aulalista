@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- BORRADOR: quita "noindex" cuando el texto esté revisado. Si añades analítica, publicidad o cualquier tercero que guarde datos en el navegador, esta página y el banner de consentimiento cambian por completo. -->
+<meta name="robots" content="noindex">
+<title>Política de cookies · AulaLista</title>
+<meta name="description" content="AulaLista solo usa almacenamiento técnico necesario para funcionar. Sin cookies de analítica ni de publicidad.">
+<link rel="stylesheet" href="/legal/legal.css">
+</head>
+<body>
+<div class="borrador">BORRADOR pendiente de revisión profesional. No es asesoramiento jurídico. Borra las notas antes de publicar.</div>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">Aula<span>Lista</span></a>
+    <div class="links">
+      <a href="/legal/aviso-legal.html">Aviso legal</a>
+      <a href="/legal/privacidad.html">Privacidad</a>
+      <a href="/legal/condiciones.html">Condiciones</a>
+      <a href="/legal/cookies.html" aria-current="page">Cookies</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Política de cookies</h1>
+    <p class="meta">Última actualización: <span class="ph">[FECHA]</span></p>
+
+    <div class="box">
+      <p><strong>AulaLista solo usa almacenamiento técnico, estrictamente necesario para prestar el servicio que pides.</strong> No usamos cookies ni tecnologías similares de analítica, publicidad o seguimiento, propias ni de terceros. Por eso no te mostramos un banner de consentimiento.</p>
+    </div>
+
+    <h2>1. Qué son y qué dice la ley</h2>
+    <p>Las cookies, y tecnologías parecidas como el almacenamiento local del navegador (<i>localStorage</i>), guardan información en tu dispositivo. El artículo 22.2 de la Ley 34/2002 (LSSI) exige tu consentimiento informado para usar dispositivos de almacenamiento y recuperación de datos en tu equipo, <strong>salvo</strong> cuando sean estrictamente necesarios para prestar un servicio que has solicitado expresamente, o para la transmisión de una comunicación. Es el caso de todo lo que usamos.</p>
+
+    <h2>2. Qué guardamos en tu navegador</h2>
+    <div class="table-scroll"><table>
+      <tr><th>Nombre</th><th>Tipo</th><th>Para qué</th><th>Duración</th><th>Quién</th></tr>
+      <tr><td><code>al-license</code></td><td>Almacenamiento local</td><td>Guarda tu clave de licencia para que la app sepa que tienes un plan de pago. Se envía a nuestro servidor con cada generación.</td><td>Hasta que la borres o caduque la licencia</td><td>AulaLista (propia)</td></tr>
+      <tr><td><code>al-docs</code></td><td>Almacenamiento local</td><td>Tu biblioteca de documentos generados. <strong>No se envía a ningún servidor.</strong></td><td>Hasta que la borres</td><td>AulaLista (propia)</td></tr>
+      <tr><td><code>al-prefs</code></td><td>Almacenamiento local</td><td>Recuerda las opciones que elegiste (comunidad, curso, área…) para no tener que repetirlas.</td><td>Hasta que la borres</td><td>AulaLista (propia)</td></tr>
+    </table></div>
+    <p>Puedes borrar estos datos desde la app (eliminando documentos) o desde la configuración de tu navegador («borrar datos de sitios»). Si borras <code>al-license</code>, tendrás que volver a activar tu licencia.</p>
+    <p class="nota">Revisa esta tabla cada vez que el código añada o quite claves (<code>grep -n "localStorage\|store\.set" shared/</code>). Comprueba también, con las herramientas de desarrollo del navegador sobre el dominio real, que Cloudflare no añade cookies propias, como las de gestión de bots (pendiente de verificar según la configuración de la cuenta). Si las añade, inclúyelas aquí; las de seguridad suelen considerarse técnicas.</p>
+
+    <h2>3. Servicios de terceros</h2>
+    <ul>
+      <li><strong>Pago (Stripe):</strong> el pago se hace en la página de Stripe, en su propio dominio, que usa sus propias cookies técnicas y de prevención del fraude bajo su responsabilidad. Consulta la política de cookies de Stripe.</li>
+      <li><strong>Tipografías (Google Fonts):</strong> la landing y la app cargan fuentes desde servidores de Google. Esto no instala cookies, pero transmite tu dirección IP a Google. <span class="ph">[ELIMINAR este punto cuando las fuentes estén alojadas en nuestro servidor]</span></li>
+      <li><strong>Librería de exportación a Word:</strong> la app descarga un componente de un servidor público de distribución de código (jsDelivr). No instala cookies, pero ese servidor recibe tu dirección IP. <span class="ph">[ELIMINAR este punto cuando el componente esté alojado en nuestro servidor]</span></li>
+    </ul>
+
+    <h2>4. Cambios</h2>
+    <p>Si en el futuro usamos cookies que requieran consentimiento (por ejemplo, de analítica de terceros), te lo pediremos antes de instalarlas, con opciones para aceptar y rechazar igual de visibles, y actualizaremos esta página.</p>
+    <p class="nota">Si añades analítica, mira antes la guía de la AEPD sobre el uso de cookies: algunas herramientas de medición propias y anónimas pueden quedar exentas de consentimiento si cumplen ciertos requisitos, pero la analítica de terceros habitual, no. Más información en la <a href="/legal/privacidad.html">Política de privacidad</a>.</p>
+  </main>
+
+  <footer>
+    <p>AulaLista · <a href="/legal/aviso-legal.html">Aviso legal</a><a href="/legal/privacidad.html">Privacidad</a><a href="/legal/condiciones.html">Condiciones</a><a href="/legal/cookies.html">Cookies</a></p>
+    <p>Este texto no constituye asesoramiento jurídico. Revísalo con un profesional antes de publicarlo.</p>
+  </footer>
+</div>
+</body>
+</html>

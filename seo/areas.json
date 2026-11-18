@@ -1,5 +1,5 @@
 {
-  "_nota": "nombre = nombre EXACTO del área en shared/prompts.js (se usa para prellenar la app). bloques = bloques de saberes básicos del Real Decreto 157/2022 (enseñanzas mínimas); la concreción autonómica puede reorganizarlos. ciclos = enfoque didáctico por ciclo, redactado sin citar números de criterio.",
+  "_nota": "nombre = nombre EXACTO del área en shared/prompts.js (se usa para prellenar la app). bloques = bloques de saberes básicos del Real Decreto 157/2022 (enseñanzas mínimas); la concreción autonómica puede reorganizarlos. ciclos = enfoque didáctico por ciclo, redactado sin citar números de criterio. rdArea (opcional) = área del Real Decreto 157/2022 de la que procede un área autonómica desdoblada (Ciencias de la Naturaleza, Ciencias Sociales, Plástica, Música); sus bloques son los de esa área estatal. nombresCCAA (opcional) = nombre exacto del área en una comunidad concreta cuando difiere de nombre.",
   "areas": [
     {
       "slug": "matematicas",
@@ -128,6 +128,74 @@
         "3": "En el tercer ciclo se trabaja la gestión de conflictos, la autoestima y la toma de decisiones responsable, y se desarrollan proyectos creativos con impacto en el centro."
       },
       "evidencias": ["diario emocional", "registro de técnicas de regulación practicadas", "producto creativo del grupo", "autoevaluación y coevaluación"]
+    },
+    {
+      "slug": "ciencias-naturaleza",
+      "nombre": "Ciencias de la Naturaleza",
+      "corto": "Ciencias de la Naturaleza",
+      "rdArea": "Conocimiento del Medio Natural, Social y Cultural",
+      "bloques": {
+        "cientifica": "Cultura científica",
+        "tecnologia": "Tecnología y digitalización"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se parte de la observación directa de los seres vivos, el cuerpo y los materiales del entorno cercano, con preguntas sencillas que el alumnado investiga con la ayuda del docente y registra con dibujos, fotos y palabras clave.",
+        "2": "En el segundo ciclo el alumnado aplica pasos de la indagación científica: formular preguntas, hacer predicciones, experimentar de forma guiada, medir, registrar datos y comunicar conclusiones con vocabulario científico básico.",
+        "3": "En el tercer ciclo se diseñan pequeñas investigaciones y prototipos sencillos, se controlan variables, se contrastan fuentes y se proponen acciones de cuidado de la salud y del medio natural vinculadas a los ODS."
+      },
+      "evidencias": ["cuaderno de campo", "registro de experimentos", "informe o póster científico", "prototipo y su ficha técnica"]
+    },
+    {
+      "slug": "ciencias-sociales",
+      "nombre": "Ciencias Sociales",
+      "corto": "Ciencias Sociales",
+      "rdArea": "Conocimiento del Medio Natural, Social y Cultural",
+      "bloques": {
+        "sociedades": "Sociedades y territorios"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se exploran la familia, el colegio, el barrio y el paso del tiempo cercano (antes y ahora), con fuentes orales, fotografías y recorridos por el entorno.",
+        "2": "En el segundo ciclo se introducen el trabajo con mapas y planos, la línea del tiempo, las fuentes del entorno y el funcionamiento de las instituciones y servicios de la localidad.",
+        "3": "En el tercer ciclo el alumnado investiga problemas sociales y territoriales con perspectiva histórica, contrasta fuentes, interpreta mapas y datos y propone acciones de participación ciudadana y de cuidado del patrimonio."
+      },
+      "evidencias": ["mapa o plano comentado", "línea del tiempo", "entrevista o fuente oral recogida", "propuesta de mejora del entorno"]
+    },
+    {
+      "slug": "plastica",
+      "nombre": "Educación Plástica y Visual",
+      "nombresCCAA": {
+        "valencia": "Plástica y Visual"
+      },
+      "corto": "Plástica y Visual",
+      "rdArea": "Educación Artística",
+      "bloques": {
+        "recepcion": "Recepción y análisis",
+        "creacion": "Creación e interpretación",
+        "plastica": "Artes plásticas, visuales y audiovisuales"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se experimenta con materiales, texturas, colores y formas, y se expresan sensaciones ante obras e imágenes con vocabulario sencillo.",
+        "2": "En el segundo ciclo el alumnado conoce obras de su entorno y de otras culturas, usa técnicas plásticas bidimensionales y tridimensionales con intención expresiva y participa en producciones colectivas planificadas.",
+        "3": "En el tercer ciclo se diseñan proyectos visuales y audiovisuales completos (idea, boceto, producción, difusión), se analizan imágenes con criterio propio y se usan medios digitales de creación respetando la autoría."
+      },
+      "evidencias": ["bocetos y proceso documentado", "obra final", "comentario de una obra o imagen", "autoevaluación del proceso creativo"]
+    },
+    {
+      "slug": "musica",
+      "nombre": "Música y Danza",
+      "corto": "Música y Danza",
+      "rdArea": "Educación Artística",
+      "bloques": {
+        "recepcion": "Recepción y análisis",
+        "creacion": "Creación e interpretación",
+        "musica": "Música y artes escénicas y performativas"
+      },
+      "ciclos": {
+        "1": "En el primer ciclo se explora el sonido, la voz, el cuerpo y el movimiento a través del juego, la canción y la audición activa de piezas breves.",
+        "2": "En el segundo ciclo el alumnado reconoce instrumentos, cualidades del sonido y estructuras sencillas, interpreta con voz, percusión corporal e instrumentos escolares y participa en danzas y producciones grupales.",
+        "3": "En el tercer ciclo se planifican y ensayan interpretaciones y coreografías, se crean piezas sencillas con herramientas digitales de grabación y edición, y se analizan obras de distintos estilos y épocas."
+      },
+      "evidencias": ["grabación de ensayos e interpretación", "partitura o musicograma", "comentario de una audición", "autoevaluación y coevaluación del ensayo"]
     }
   ]
 }

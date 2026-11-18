@@ -1,5 +1,50 @@
 // Motor de PRODUCCIÓN: habla con el backend (Cloudflare Worker, /api/*).
 // Historial en el navegador del docente (localStorage); licencia Pro guardada tras el pago.
+/*AFILIADO*/
+// Atribución de afiliados sin cookies de terceros (build.py copia este bloque también a la landing).
+// ?ref=<código> → localStorage propio «al-ref» durante 60 días (gana el último enlace usado). Se envía en
+// /api/lead y se añade como client_reference_id a los Payment Links de Stripe (buy.stripe.com).
+const AulaRef = (() => {
+  const KEY = 'al-ref', DAYS = 60, RE = /^[a-z0-9]{1,32}$/;
+  const clean = v => { const s = String(v == null ? '' : v).trim().toLowerCase(); return RE.test(s) ? s : null; };
+  function read(now) {
+    let v = null;
+    try { v = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
+    if (!v || !clean(v.c) || typeof v.t !== 'number') return null;
+    if ((now || Date.now()) - v.t > DAYS * 864e5 || v.t > (now || Date.now()) + 864e5) { try { localStorage.removeItem(KEY); } catch (e) {} return null; }
+    return { c: clean(v.c), t: v.t };
+  }
+  // Lee ?ref= de la URL, lo guarda y lo retira de la barra de direcciones (conserva los demás parámetros).
+  function capture() {
+    let params;
+    try { params = new URLSearchParams(location.search); } catch (e) { return get(); }
+    if (!params.has('ref')) return get();
+    const c = clean(params.get('ref'));
+    if (c) { try { localStorage.setItem(KEY, JSON.stringify({ c, t: Date.now() })); } catch (e) {} }
+    params.delete('ref');
+    const qs = params.toString();
+    try { history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash); } catch (e) {}
+    return get();
+  }
+  function get() { const v = read(); return v ? v.c : null; }
+  function clickTime() { const v = read(); return v ? v.t : null; }
+  function isPaymentLink(href) { try { const u = new URL(href); return u.protocol === 'https:' && u.hostname === 'buy.stripe.com'; } catch (e) { return false; } }
+  function checkoutUrl(href) {
+    const c = get();
+    if (!c || !isPaymentLink(href)) return href;
+    const u = new URL(href); u.searchParams.set('client_reference_id', c); return u.href;
+  }
+  // Decora al hacer clic cualquier enlace a un Payment Link (también los que se añadan después).
+  function decorate(doc) {
+    doc.addEventListener('click', e => {
+      const a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+      if (a && isPaymentLink(a.href)) a.href = checkoutUrl(a.href);
+    }, true);
+  }
+  return { capture, get, clickTime, checkoutUrl, decorate, isPaymentLink, clean };
+})();
+/*END_AFILIADO*/
+
 const Engine = (() => {
   const API = '';               // mismo dominio que el Worker
   const KEY = 'al-license';
@@ -11,7 +56,11 @@ const Engine = (() => {
   const license = () => { const l = store.get(KEY, null); return typeof l === 'string' && LICENSE_RE.test(l) ? l : null; };
   let lastUsage = null;
 
+  const PORTAL = '/api/portal';   // redirige al portal de cliente de Stripe (STRIPE_PORTAL_URL)
+
   async function init() {
+    AulaRef.capture();
+    if (typeof document !== 'undefined') AulaRef.decorate(document);
     // Vuelta desde Stripe Checkout: ?session_id=cs_...
     const params = new URLSearchParams(location.search);
     const sid = params.get('session_id');
@@ -67,7 +116,7 @@ const Engine = (() => {
   async function canGenerate() { return { ok: true }; } // el servidor decide (402 si no hay cupo)
   async function countUsage() {}
   async function usage() {
-    if (license() && !(lastUsage && lastUsage.pro === false)) return { plan: 'Pro', label: '' };
+    if (license() && !(lastUsage && lastUsage.pro === false)) return { plan: 'Pro', label: '', manage: PORTAL };
     if (!lastUsage) { try { const r = await fetch(API + '/api/usage'); if (r.ok) lastUsage = await r.json(); } catch (e) {} }
     return { plan: 'Plan Gratis', label: lastUsage ? `${lastUsage.used}/${lastUsage.limit} este mes` : '' };
   }

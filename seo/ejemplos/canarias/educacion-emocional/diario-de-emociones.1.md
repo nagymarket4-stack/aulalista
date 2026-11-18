@@ -27,16 +27,36 @@ El producto tiene uso real y duradero: el termómetro y el rincón de la calma q
 
 ## 3. Fundamentación curricular
 
-Criterios del primer ciclo del Decreto 211/2022 (anexo 2, Educación Emocional y para la Creatividad), con su redacción literal:
+Criterios, descriptores operativos y saberes básicos del primer ciclo del Decreto 211/2022 (anexo 2, Educación Emocional y para la Creatividad), con su redacción y numeración literales. Los saberes se citan con el bloque en número romano y el saber en número arábigo.
 
-| Competencia específica | Criterios de evaluación | Saberes básicos | Descriptores operativos |
+| Competencia específica | Criterios de evaluación | Descriptores operativos | Saberes básicos |
 | --- | --- | --- | --- |
-| **C1.** Analizar y reconocer las emociones como propias, percibiendo las señales corporales y comprendiéndolas, en diferentes situaciones de la vida cotidiana, con la finalidad de desarrollar la conciencia emocional y el autoconocimiento personal. | **1.1.** Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional. | Saberes del ciclo relativos a la conciencia emocional: emociones básicas y sensaciones corporales [VERIFICAR CON DECRETO] | CCL5, CCEC3 |
-| **C1** (continuación) | **1.2.** Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada. | Saberes del ciclo relativos a la conciencia emocional: situaciones que provocan emociones y sus consecuencias [VERIFICAR CON DECRETO] | CCL2, CPSAA1, CPSAA2 |
-| **C2.** Asumir la responsabilidad de gestionar las propias experiencias emocionales, regulando y cambiando las emociones, en el caso de que sean desadaptativas, para construir una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales. | **2.2.** Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas. | Saberes del ciclo relativos a la regulación emocional: estrategias de calma y tolerancia a la frustración [VERIFICAR CON DECRETO] | CPSAA1, CPSAA2 |
-| **C3.** Desarrollar la capacidad empática siendo capaces de comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, estableciendo vínculos afectivos de manera que se desarrolle una sociabilidad emocional auténtica. | **3.1.** Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa. | Saberes del ciclo relativos a la comunicación de las emociones y la escucha [VERIFICAR CON DECRETO] | CCL5, CPSAA3, CC1, CC3 |
+| **C1.** Analizar y reconocer las emociones como propias, percibiendo las señales corporales y comprendiéndolas, en diferentes situaciones de la vida cotidiana, con la finalidad de desarrollar la conciencia emocional y el autoconocimiento personal. | **1.1.** Percibir las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones, y reconociéndose como propias, para favorecer el desarrollo paulatino de la conciencia emocional. | CCL5, CCEC3 | I.1, I.4 |
+| **C1** (continuación) | **1.2.** Comprender las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva a través de una comunicación adecuada. | CCL2, CPSAA1, CPSAA2 | I.3, III.2 |
+| **C2.** Asumir la responsabilidad de gestionar las propias experiencias emocionales, regulando y cambiando las emociones, en el caso de que sean desadaptativas, para construir una identidad afectiva satisfactoria y contribuir a la mejora de las relaciones interpersonales. | **2.2.** Regular las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional y favorecer el establecimiento de relaciones interpersonales positivas. | CPSAA1, CPSAA2 | II.5, II.6, II.7 |
+| **C3.** Desarrollar la capacidad empática siendo capaces de comunicar, de manera asertiva, las experiencias emocionales propias a las demás personas, estableciendo vínculos afectivos de manera que se desarrolle una sociabilidad emocional auténtica. | **3.1.** Comunicar, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, para establecer relaciones positivas con las personas con las que interactúa. | CCL5, CPSAA3, CC1, CC3 | I.5, III.3, III.5 |
 
-> Los saberes básicos se indican de forma general: concrétalos con el anexo 2 del decreto (bloques del área para el primer ciclo) antes de entregar el documento.
+**Saberes básicos del primer ciclo citados (literales):**
+
+- **I.1.** Percepción de sensaciones y emociones propias, según diversas cualidades de estas (agradables o desagradables; duración mantenida…), a través de lenguajes multimodales. *(I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones)*
+- **I.3.** Identificación de sus emociones en relación con el suceso desencadenante en contextos de su vida diaria, a través de experiencias vivenciadas en el aula con diferentes juegos y lenguajes multimodales. *(I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones)*
+- **I.4.** Adquisición de vocabulario relacionado con sensaciones: respiración pausada-agitada, gestos faciales tensos-relajados, manos sudorosas-secas, agitación-relajación corporal, mirada serena-inquieta…, con la finalidad de expresarnos. *(I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones)*
+- **I.5.** Comunicación de las propias sensaciones, a través de la utilización de la expresión lingüística, cultural, artística creativa, corporal…, proporcionando múltiples formas de implicación, representación y expresión, con el fin de tener una mayor conciencia de nuestras sensaciones. *(I. Conciencia emocional: percepción, identificación, comprensión y aceptación responsable de las propias emociones)*
+- **II.5.** Entrenamiento y estrategias de regulación emocional: toma de conciencia de los movimientos respiratorios: inspiración, pausa, espiración, pausa, de manera guiada, mindfulness… *(II. Autorregulación emocional responsable y resiliencia educativa)*
+- **II.6.** Introducción a la regulación de la impulsividad, la ansiedad y el estrés desde la comunicación y expresión gestual, oral y artística, y desde el silencio y la quietud. *(II. Autorregulación emocional responsable y resiliencia educativa)*
+- **II.7.** Tolerancia a la frustración: iniciación al aprendizaje en la afirmación personal (planteamiento y aceptación del “sí” y del “no”) y petición de ayuda a personas adultas. *(II. Autorregulación emocional responsable y resiliencia educativa)*
+- **III.2.** Identificación y expresión de las emociones propias y de las otras personas ante un hecho que las produce, y de sus consecuencias responsables, haciendo uso de herramientas múltiples y lenguajes diversos en el contexto escolar. *(III. Empatía, comunicación e interacción socioemocional)*
+- **III.3.** Exploración, de manera guiada, de diversos recursos y estrategias favorecedoras del diálogo reflexivo (mensajes-yo) y de la comunicación interpersonal sin estilos agresivos, que propicien una escucha afectiva que permita la aceptación de las emociones de la otra persona. *(III. Empatía, comunicación e interacción socioemocional)*
+- **III.5.** Manifestación de apertura sensible hacia los sentimientos que experimentan las demás personas. *(III. Empatía, comunicación e interacción socioemocional)*
+
+### Técnicas, herramientas e instrumentos de evaluación
+
+| Criterio | Técnicas | Herramientas | Instrumentos y productos |
+| --- | --- | --- | --- |
+| 1.1 | Observación sistemática | Escalas de valoración | Silueta colectiva y uso del termómetro de las emociones |
+| 1.2 | Observación sistemática, análisis de producciones | Listas de control | Lista de cotejo; emparejamiento de situaciones y emociones y dibujo |
+| 2.2 | Observación sistemática | Registro anecdótico, diario de clase del profesorado | Uso de las estrategias del rincón de la calma y de la rutina diaria |
+| 3.1 | Observación sistemática | Escalas de valoración | Asamblea con objeto de palabra; caritas de autoevaluación |
 
 ## 4. Fundamentación metodológica
 
@@ -100,8 +120,8 @@ Criterios del primer ciclo del Decreto 211/2022 (anexo 2, Educación Emocional y
 - **Objetivo:** comunicar emociones y escuchar a los demás; valorar lo aprendido.
 - **Inicio (10 min):** rutina del termómetro.
 - **Desarrollo (35 min):** asamblea con objeto de palabra: quien quiere cuenta cómo se siente y por qué; el resto escucha y responde con una frase amable («Te entiendo», «¿Te puedo ayudar?»). Se presenta la cajita de mensajes para quien prefiera contarlo en privado al docente con un dibujo.
-- **Cierre (10 min):** autoevaluación con caritas y preparación del mensaje a las familias con la foto del rincón y una copia del termómetro para casa.
-- **Evidencia:** participación en la asamblea (criterio 3.1) y autoevaluación.
+- **Cierre (10 min):** coevaluación sencilla (cada niño o niña dice, con el pulgar, si se ha sentido escuchado), autoevaluación con caritas y preparación del mensaje a las familias con la foto del rincón y una copia del termómetro para casa.
+- **Evidencia:** participación en la asamblea (criterio 3.1), coevaluación y autoevaluación.
 
 ## 6. Atención a las diferencias individuales
 
@@ -126,33 +146,61 @@ Criterios del primer ciclo del Decreto 211/2022 (anexo 2, Educación Emocional y
 
 ## 7. Evaluación
 
-| Criterio | Instrumento | Evidencia | Momento | Agente |
+### Evidencias y momentos
+
+| Criterio | Evidencia | Momento | Tipo de evaluación según el agente |
+| --- | --- | --- | --- |
+| 1.1 | Nombrar o señalar emociones; silueta colectiva | Sesiones 1 y 2 | Heteroevaluación |
+| 1.2 | Emparejamiento de situaciones y emociones; dibujo | Sesión 3 | Heteroevaluación |
+| 2.2 | Uso de estrategias del rincón y de la rutina | Sesiones 5 y 6, y seguimiento posterior | Heteroevaluación y autoevaluación |
+| 3.1 | Participación en la asamblea con objeto de palabra | Sesión 7 | Heteroevaluación, coevaluación y autoevaluación |
+
+### Productos y tipos de evaluación según el agente
+
+| Producto o evidencia | Heteroevaluación (docente) | Coevaluación (entre iguales) | Autoevaluación |
+| --- | --- | --- | --- |
+| Nombrar o señalar emociones; silueta colectiva (criterio 1.1) | Sí | — | — |
+| Emparejamiento de situaciones y emociones; dibujo (criterio 1.2) | Sí | — | — |
+| Uso de estrategias del rincón y de la rutina (criterio 2.2) | Sí | — | Sí |
+| Participación en la asamblea con objeto de palabra (criterio 3.1) | Sí | Sí | Sí |
+
+### Rúbrica del producto: termómetro de las emociones y rincón de la calma (niveles oficiales)
+
+Descriptores literales de la rúbrica oficial de cada criterio evaluado (Resolución de 15 de mayo de 2025, BOC n.º 107, de 2 de junio de 2025, anexo 1, Educación Emocional y para la Creatividad, primer ciclo). En la primera columna, qué se observa en el producto de esta SA.
+
+| Criterio y evidencia en el producto | Insuficiente | Suficiente/Bien | Notable | Sobresaliente |
 | --- | --- | --- | --- | --- |
-| 1.1 | Escala de observación | Nombrar o señalar emociones; silueta colectiva | Sesiones 1 y 2 | Heteroevaluación |
-| 1.2 | Lista de cotejo | Emparejamiento de situaciones y emociones; dibujo | Sesión 3 | Heteroevaluación |
-| 2.2 | Registro anecdótico durante varias semanas | Uso de estrategias del rincón y de la rutina | Sesiones 5 y 6, y seguimiento posterior | Heteroevaluación y autoevaluación |
-| 3.1 | Escala de observación | Participación en la asamblea con objeto de palabra | Sesión 7 | Heteroevaluación y autoevaluación |
+| **1.1.** Señala y nombra su emoción en el termómetro y la relaciona con lo que siente en el cuerpo | Percibe mostrando inseguridad las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias,rara vezde forma creativa y con una actitud abierta, sin que favorezca el desarrollo paulatino de la conciencia emocional. | Percibe las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional. | Percibe con seguridad las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, frecuentemente de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional. | Percibe con seguridad y plena confianza las sensaciones corporales asociadas a experiencias emocionales básicas, identificando y nombrando dichas emociones de manera eficaz y ética, y reconociéndolas como propias, siempre de forma creativa y con una actitud abierta, para favorecer el desarrollo paulatino de la conciencia emocional. |
+| **1.2.** Relaciona emociones básicas con situaciones del colegio y sus consecuencias | Comprende con mínima conciencia las emociones que experimenta, estableciendo con escasa claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada | Comprende las emociones que experimenta, estableciendo una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada. | Comprende de forma consciente las emociones que experimenta, estableciendo con claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada. | Comprende de forma plenamente consciente las emociones que experimenta, estableciendo con gran claridad una relación entre ellas y los sucesos que las originan y las consecuencias que provocan, y poniendo en práctica hábitos saludables en su vida para desarrollar de forma gradual el autoconocimiento emocional y favorecer la convivencia positiva en contextos cotidianos cercanos a través de una comunicación adecuada. |
+| **2.2.** Elige y usa una estrategia del rincón de la calma cuando la necesita | Regula con dificultad las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, lo que limita desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas. | Regula las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables. | Regula con facilidad las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables. | Regula con facilidad destacable las experiencias emocionales a través de la reflexividad, la tolerancia a la frustración y la superación de dificultades, para desarrollar la autorregulación de la impulsividad emocional, favorecer el establecimiento de relaciones interpersonales positivas y poner en práctica hábitos saludables. |
+| **3.1.** Cuenta cómo se siente en la asamblea y escucha a los demás | Comunica con imprecisiones, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con dificultad sus sentimientos, aplicando rara vez reglas básicas de convivencia de forma respetuosa en su contexto próximo y sin reflexionar sobre situaciones de la vida diaria, lo que impide establecer relaciones positivas con las personas con las que interactúa. | Comunica, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando sus sentimientos, aplicando reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa. | Comunica con precisión, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con facilidad sus sentimientos, aplicando frecuentemente reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa. | Comunica con total precisión, de manera sincera, las experiencias emocionales propias a las demás personas, a través del lenguaje verbal y no verbal, escuchándolas y aceptando con facilidad destacable sus sentimientos, aplicando siempre reglas básicas de convivencia de forma respetuosa en su contexto próximo y reflexionando sobre situaciones de la vida diaria, para establecer relaciones positivas con las personas con las que interactúa. |
 
-### Rúbrica del producto: termómetro de las emociones y rincón de la calma
+> Las rúbricas oficiales de la Consejería (Resolución de 15/05/2025) son el referente para calificar los criterios; esta rúbrica de tarea las concreta, no las sustituye. La rúbrica agrupa Suficiente y Bien en un solo nivel; la calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023.
 
-| Aspecto | En inicio | En proceso | Adquirido | Avanzado |
-| --- | --- | --- | --- | --- |
-| Reconocer mis emociones | Necesita ayuda para señalar cómo se siente | Señala su emoción en el termómetro con algún recordatorio | Coloca su pinza en la emoción que siente y la nombra | Nombra su emoción y explica qué la ha provocado |
-| Relacionar emociones y situaciones | No relaciona la emoción con lo que ha pasado | Relaciona alguna emoción con una situación con ayuda | Relaciona las emociones básicas con situaciones del cole | Explica qué puede pasar después según cómo actúe |
-| Usar estrategias de calma | No usa estrategias aunque se le propongan | Usa una estrategia cuando el adulto se la propone | Elige y usa una estrategia del rincón cuando la necesita | Usa estrategias por iniciativa propia y ayuda a otra persona a elegir una |
-| Contar y escuchar | No participa en la asamblea | Escucha y participa señalando | Cuenta cómo se siente cuando quiere y escucha a los demás | Cuenta cómo se siente y responde con una frase amable a otra persona |
-
-> Los niveles de la rúbrica orientan la valoración. La calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023. En esta área conviene valorar el proceso durante varias semanas y no un único momento.
-
-**Versión para el alumnado:** «Sé cómo me siento», «Sé qué me ha hecho sentir así», «Sé qué hacer para estar mejor», «Escucho a mis compañeros y compañeras». Con caritas.
+**Versión para el alumnado:** «Sé cómo me siento», «Sé qué me ha hecho sentir así», «Sé qué hacer para estar mejor», «Escucho a mis compañeros y compañeras». Con caritas. Es una adaptación en lenguaje sencillo derivada de los descriptores oficiales, no un sustituto de la rúbrica.
 
 ## 8. Producto final y difusión
 
 Termómetro de las emociones y rincón de la calma, diseñados y montados por el grupo, que quedan en el aula con una rutina diaria. Se envía a las familias una foto del rincón (sin alumnado) y una copia del termómetro con las estrategias elegidas, para quien quiera usarlas en casa. Puede presentarse al resto del primer ciclo para que otros grupos lo adapten.
 
-## 9. Valoración del ajuste
+## 9. Programas, planes y ejes temáticos de la Red Canaria-InnovAS
+
+Si el centro participa en la Red Canaria-InnovAS, la SA puede vincularse a estos ejes temáticos (denominaciones del curso 2026-2027; ajústalas a las del proyecto PIDAS del centro):
+
+- **Promoción de la salud y educación emocional** (eje principal): rutina diaria de conciencia emocional y rincón de la calma, que puede integrarse en el programa EMOCREA si el centro participa.
+- **Comunicación lingüística, bibliotecas y radios escolares:** Cuento y vocabulario emocional; el termómetro y el mensaje a las familias se pueden compartir desde la biblioteca de aula.
+
+## 10. Valoración del ajuste
+
+**Desarrollo.** Al terminar, el docente anota:
 
 - ¿Se mantiene la rutina diaria al cabo de un mes? ¿Qué la dificulta?
 - ¿Qué estrategias del rincón se usan de verdad y cuáles no?
 - ¿Han disminuido las rabietas o los conflictos en el recreo? ¿Ha ayudado el rincón al alumno con TEA?
-- Propuesta de mejora: en 2.º, ampliar con un diario de emociones con dibujos y palabras.
+- ¿Qué criterios han reunido evidencias suficientes y cuáles necesitan otra actividad?
+- ¿La valoración con la rúbrica oficial coincide con el resto de evidencias (listas de control, registros, autoevaluación y coevaluación)?
+
+**Propuestas de mejora:**
+
+- En 2.º, ampliar con un diario de emociones con dibujos y palabras.
+- Ajustes de temporalización, agrupamientos o recursos para la próxima puesta en práctica.

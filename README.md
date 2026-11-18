@@ -42,11 +42,15 @@ No hay servidor, base de datos que mantener ni proceso de build. El coste fijo e
 5. **Stripe**:
    - Crea dos productos: **Fundador** (49 €, pago único) y **Pro** (9 €/mes y 69 €/año, suscripción).
    - Crea un *Payment Link* para cada uno. En "Después del pago" elige *Redirigir* a `https://TU-DOMINIO/app.html?session_id={CHECKOUT_SESSION_ID}`.
-   - Pega el enlace de Fundador en `STRIPE_FOUNDER_LINK` (en `wrangler.toml`).
-   - Webhook: `https://TU-DOMINIO/api/stripe-webhook` con los eventos `checkout.session.completed` y `customer.subscription.deleted`. Copia su secreto en `STRIPE_WEBHOOK_SECRET`.
+   - Pega el enlace de Fundador en `STRIPE_FOUNDER_LINK` (en `wrangler.toml`). No hace falta configurar nada para afiliados: la web añade `?client_reference_id=<código>` a los Payment Links (`buy.stripe.com`) cuando la visita llegó con `?ref=<código>`.
+   - Webhook: `https://TU-DOMINIO/api/stripe-webhook` con los eventos `checkout.session.completed`, `checkout.session.async_payment_succeeded`, `customer.subscription.updated`, `customer.subscription.deleted`, `charge.refunded` e `invoice.paid` (este último, para las comisiones recurrentes de afiliados). Copia su secreto en `STRIPE_WEBHOOK_SECRET`.
+   - **Portal de cliente** (cancelar, cambiar de plan, facturas): en Stripe → Configuración → Facturación → Portal de cliente, actívalo y copia el «enlace de inicio de sesión» (`https://billing.stripe.com/p/login/...`) en `STRIPE_PORTAL_URL` (en `wrangler.toml`). La app muestra «Gestionar mi suscripción / cancelar» cuando hay licencia y la landing lo enlaza en el pie; ambos pasan por `/api/portal`, que redirige a esa URL (sin configurar, responde 503 con un aviso).
 6. **Publicar**: `npm run deploy` y conecta tu dominio en Cloudflare (Workers → Settings → Domains).
 7. **Probar en modo test de Stripe** (tarjeta 4242 4242 4242 4242): compra Fundador, vuelve a `app.html` y comprueba que la etiqueta pasa a "Pro".
-8. **Exportar leads**: `https://TU-DOMINIO/api/admin/leads?token=TU_ADMIN_TOKEN` descarga un CSV.
+8. **Exportar leads**: `https://TU-DOMINIO/api/admin/leads?token=TU_ADMIN_TOKEN` descarga un CSV (mejor con la cabecera: `curl -H "Authorization: Bearer TU_ADMIN_TOKEN" https://TU-DOMINIO/api/admin/leads -o leads.csv`).
+9. **Afiliados**: cada afiliado comparte `https://TU-DOMINIO/?ref=CODIGO` (o `/app?ref=CODIGO`); el código es alfanumérico, de 1 a 32 caracteres, sin distinguir mayúsculas. Se guarda 60 días en el navegador (`al-ref`, almacenamiento propio, sin cookies de terceros) y gana el último enlace usado. Las ventas se registran en KV (`aff:<código>:<AAAA-MM>:<id de Stripe>`, sin datos personales): primer pago, renovaciones durante 12 meses y devoluciones en negativo. Comisiones del mes (30 %): `curl -H "Authorization: Bearer TU_ADMIN_TOKEN" "https://TU-DOMINIO/api/admin/afiliados?mes=2026-12&formato=resumen" -o comisiones.csv` (sin `formato=resumen`, el detalle por movimiento; `&codigo=xxx` filtra un afiliado).
+10. **Páginas legales**: se editan en `shared/legal/` y `python3 build.py` las copia a `produccion/public/legal/`.
+11. **Antes de publicar**: `cd produccion && npm run check` (sintaxis del worker, build y tests).
 
 ## Antes de cobrar el primer euro (no es opcional)
 

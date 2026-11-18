@@ -26,15 +26,30 @@ La situación conecta la asamblea con instituciones reales: cómo decide un plen
 
 ## 3. Fundamentación curricular
 
-Criterios del tercer ciclo del Decreto 211/2022 (anexo 2, Educación en Valores Cívicos y Éticos), con su redacción literal:
+Criterios, descriptores operativos y saberes básicos del tercer ciclo del Decreto 211/2022 (anexo 2, Educación en Valores Cívicos y Éticos), con su redacción y numeración literales. Los saberes se citan con el bloque en número romano y el saber en número arábigo.
 
-| Competencia específica | Criterios de evaluación | Saberes básicos | Descriptores operativos |
+| Competencia específica | Criterios de evaluación | Descriptores operativos | Saberes básicos |
 | --- | --- | --- | --- |
-| **C2.** Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, reconociendo su importancia para la vida individual y colectiva y aplicándolos de manera efectiva y argumentada en distintos contextos, para promover una convivencia democrática, justa, inclusiva, respetuosa y pacífica. | **2.1.** Promover y demostrar, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». | Sociedad, justicia y democracia: la democracia, las normas y la participación; resolución dialogada de conflictos [VERIFICAR CON DECRETO] | CCL5, CD3, CC1, CC2, CE1, CE2 |
-| **C2** (continuación) | **2.3.** Contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. | Sociedad, justicia y democracia: igualdad y uso no discriminatorio de la lengua [VERIFICAR CON DECRETO] | CCL5, CC1, CC2, CC3 |
-| **C4.** Desarrollar la autoestima y la empatía con el entorno, identificando, gestionando y expresando emociones y sentimientos propios, y reconociendo y valorando los de los otros, para adoptar una actitud fundada en el cuidado y aprecio de sí mismo, de los demás y del resto de la naturaleza. | **4.1.** Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. | Autoconocimiento y autonomía moral: gestión de las emociones y comunicación asertiva [VERIFICAR CON DECRETO] | CCL1, CCL5, CP3, CPSAA1, CPSAA2, CPSAA3, CC2, CC3, CC4, CE1, CE3, CCEC3 |
+| **C2.** Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, reconociendo su importancia para la vida individual y colectiva y aplicándolos de manera efectiva y argumentada en distintos contextos, para promover una convivencia democrática, justa, inclusiva, respetuosa y pacífica. | **2.1.** Promover y demostrar, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». | CCL5, CD3, CC1, CC2, CE1, CE2 | II.2.1, II.2.4, II.3.5 |
+| **C2** (continuación) | **2.3.** Contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. | CCL5, CC1, CC2, CC3 | II.3.3 |
+| **C4.** Desarrollar la autoestima y la empatía con el entorno, identificando, gestionando y expresando emociones y sentimientos propios, y reconociendo y valorando los de los otros, para adoptar una actitud fundada en el cuidado y aprecio de sí mismo, de los demás y del resto de la naturaleza. | **4.1.** Expresar y gestionar equilibradamente las emociones, y desarrollar una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. | CCL1, CCL5, CP3, CPSAA1, CPSAA2, CPSAA3, CC2, CC3, CC4, CE1, CE3, CCEC3 | I.3, II.1.1 |
 
-> Los saberes básicos se indican por bloque: concrétalos con el anexo 2 del decreto antes de entregar el documento.
+**Saberes básicos del tercer ciclo citados (literales):**
+
+- **I.3.** Reconocimiento y gestión de las emociones y los sentimientos, con especial atención al desarrollo de la autoestima. *(I. Autoconocimiento y autonomía moral)*
+- **II.1.1.** Valoración de la empatía, los afectos, la familia, la amistad y el amor como fundamentos de la vida en sociedad. *(II. Sociedad, democracia y justicia)*
+- **II.2.1.** Reconocimiento de las virtudes del diálogo y las normas de la argumentación para la toma democrática de decisiones. *(II. Sociedad, democracia y justicia)*
+- **II.2.4.** Uso de las reglas de convivencia acorde con la moralidad, legalidad y conducta cívica. *(II. Sociedad, democracia y justicia)*
+- **II.3.3.** Promoción de la igualdad y la corresponsabilidad entre mujeres y hombres, a través de conductas no sexistas para la prevención de los abusos y la violencia de género. *(II. Sociedad, democracia y justicia)*
+- **II.3.5.** Aplicación de la resolución pacífica de conflictos para fomentar la cultura de paz y no violencia. *(II. Sociedad, democracia y justicia)*
+
+### Técnicas, herramientas e instrumentos de evaluación
+
+| Criterio | Técnicas | Herramientas | Instrumentos y productos |
+| --- | --- | --- | --- |
+| 2.1 | Observación sistemática, análisis de documentos | Escalas de valoración | Rúbrica; glosario, acta de la primera asamblea y normas consensuadas |
+| 2.3 | Análisis de documentos | Listas de control | Lista de cotejo; reglamento y normas con lenguaje inclusivo, roles paritarios |
+| 4.1 | Observación sistemática, encuestación | Escalas de valoración, registro descriptivo | Rúbrica; dramatizaciones, intervenciones en la asamblea y diario de reflexión |
 
 ## 4. Fundamentación metodológica
 
@@ -122,32 +137,58 @@ Criterios del tercer ciclo del Decreto 211/2022 (anexo 2, Educación en Valores 
 
 ## 7. Evaluación
 
-| Criterio | Instrumento | Evidencia | Momento | Agente |
+### Evidencias y momentos
+
+| Criterio | Evidencia | Momento | Tipo de evaluación según el agente |
+| --- | --- | --- | --- |
+| 2.1 | Glosario, acta de la primera asamblea y normas consensuadas | Sesiones 2, 5 y 6 | Heteroevaluación y coevaluación |
+| 2.3 | Reglamento y normas con lenguaje inclusivo; roles paritarios | Sesiones 3 y 6 | Heteroevaluación |
+| 4.1 | Dramatizaciones, intervenciones en la asamblea y autoevaluación | Sesiones 4, 5 y 7 | Heteroevaluación y autoevaluación |
+
+### Productos y tipos de evaluación según el agente
+
+| Producto o evidencia | Heteroevaluación (docente) | Coevaluación (entre iguales) | Autoevaluación |
+| --- | --- | --- | --- |
+| Glosario, acta de la primera asamblea y normas consensuadas (criterio 2.1) | Sí | Sí | — |
+| Reglamento y normas con lenguaje inclusivo; roles paritarios (criterio 2.3) | Sí | — | — |
+| Dramatizaciones, intervenciones en la asamblea y autoevaluación (criterio 4.1) | Sí | — | Sí |
+
+### Rúbrica del producto: normas de convivencia consensuadas y actas de asamblea (niveles oficiales)
+
+Descriptores literales de la rúbrica oficial de cada criterio evaluado (Resolución de 15 de mayo de 2025, BOC n.º 107, de 2 de junio de 2025, anexo 1, Educación en Valores Cívicos y Éticos, tercer ciclo). En la primera columna, qué se observa en el producto de esta SA.
+
+| Criterio y evidencia en el producto | Insuficiente | Suficiente/Bien | Notable | Sobresaliente |
 | --- | --- | --- | --- | --- |
-| 2.1 | Rúbrica del producto (filas 1 y 2) | Glosario, acta de la primera asamblea y normas consensuadas | Sesiones 2, 5 y 6 | Heteroevaluación y coevaluación |
-| 2.3 | Lista de cotejo | Reglamento y normas con lenguaje inclusivo; roles paritarios | Sesiones 3 y 6 | Heteroevaluación |
-| 4.1 | Escala de observación y diario de reflexión | Dramatizaciones, intervenciones en la asamblea y autoevaluación | Sesiones 4, 5 y 7 | Heteroevaluación y autoevaluación |
+| **2.1.** Propone, argumenta, respeta los turnos y propone normas en positivo ligadas a un conflicto real | Promueve y demuestra ocasionalmente, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con dificultad y sin detalle de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con ayuda continua elementos económicos y financieros básicos, sin tomar conciencia de las consecuencias que las ideas pudieran tener y compartiendo de forma pasiva datos y contenidos en entornos digitales restringidos, lo que impide potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». | Promueve y demuestra, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo elementos económicos y financieros básicos, tomando conciencia de las consecuencias que las ideas pudieran tener y compartiendo datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». | Promueve y demuestra con alta frecuencia, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con facilidad y con un significativo grado de detalle de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con progresiva autonomía elementos económicos y financieros básicos, tomando plena conciencia de las consecuencias que las ideas pudieran tener y compartiendo de forma activa datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». | Promueve y demuestra con muy alta frecuencia, en el contexto próximo al alumnado, un modo de convivencia democrática, justa, respetuosa y pacífica a partir de la investigación y comprensión con facilidad destacable y de manera amplia y detallada de hechos históricos relevantes que han influido en la naturaleza social y política del ser humano, conociendo con autonomía elementos económicos y financieros básicos, tomando conciencia crítica de las consecuencias que las ideas pudieran tener y compartiendo con iniciativa datos y contenidos en entornos digitales restringidos, para potenciar la toma de decisiones y la resolución de los conflictos de forma dialogada y respetuosa, mediante el uso crítico de los conceptos de «ley», «ética», «civismo», «democracia», «justicia» y «paz». |
+| **2.3.** Usa un lenguaje inclusivo en sus propuestas y en el acta y detecta usos discriminatorios | Muestra dificultades para contribuir a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo superficialmente y analizando de manera poco crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. | Contribuye a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. | Contribuye de forma activa y consciente a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo con profundidad y analizando de manera crítica el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. | Contribuye de forma activa y plenamente consciente a generar una convivencia positiva respetuosa, no sexista y comprometida con el logro de la efectiva igualdad, la erradicación de la violencia de género y el uso no discriminatorio de la lengua, conociendo con destacable profundidad y analizando de manera crítica y el papel de la mujer en la sociedad a lo largo de la historia y la desigualdad entre mujeres y hombres. |
+| **4.1.** Expresa el desacuerdo de forma asertiva y ayuda a calmar situaciones tensas | Expresa y gestiona de forma poco equilibrada las emociones sin precisar el sentido y sin funcionalidad, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno en pocas ocasiones, identificando, analizando y expresando de manera poco asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con conciencia mínima, en distintos contextos y en relación con actividades creativas, lo que dificulta que se propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. | Expresa y gestiona equilibradamente las emociones, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. | Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad relevantes, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno frecuentemente, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con alta conciencia, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. | Expresa y gestiona equilibradamente las emociones con sentido y funcionalidad excelentes, y desarrolla una actitud de estima y cuidado de sí mismo o sí misma, de las demás personas y del entorno con alta frecuencia, identificando, analizando y expresando de manera asertiva las propias emociones y afectos reconociendo y valorando las emociones de otras personas con plena conciencia, en distintos contextos y en relación con actividades creativas, que propicien iniciativas emprendedoras y de reflexión individual, grupal y dialogada sobre cuestiones éticas y cívicas. |
 
-### Rúbrica del producto: normas de convivencia consensuadas y actas de asamblea
+> Las rúbricas oficiales de la Consejería (Resolución de 15/05/2025) son el referente para calificar los criterios; esta rúbrica de tarea las concreta, no las sustituye. La rúbrica agrupa Suficiente y Bien en un solo nivel; la calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023.
 
-| Aspecto | En inicio | En proceso | Adquirido | Avanzado |
-| --- | --- | --- | --- | --- |
-| Participación democrática | No interviene o interrumpe con frecuencia | Interviene respetando el turno con recordatorios | Propone, respeta los turnos y acepta las decisiones de la asamblea | Propone, argumenta con razones y ayuda a llegar a consensos |
-| Normas y acuerdos | Las normas propuestas son prohibiciones sin explicar | Propone normas comprensibles, algunas en negativo | Propone normas en positivo, claras y relacionadas con un conflicto real | Propone normas justificadas y un modo de revisarlas |
-| Lenguaje e igualdad | Usa expresiones que excluyen o descalifican | Corrige su lenguaje cuando se le indica | Usa un lenguaje inclusivo y respetuoso en sus propuestas y en el acta | Detecta y propone corregir usos discriminatorios del lenguaje en el grupo |
-| Gestión de las emociones | Reacciona con enfado cuando no está de acuerdo | Expresa el desacuerdo con algún gesto o tono inadecuado | Expresa el desacuerdo de forma asertiva | Expresa el desacuerdo de forma asertiva y ayuda a calmar situaciones tensas |
-
-> Los niveles de la rúbrica orientan la valoración. La calificación del área (Insuficiente, Suficiente, Bien, Notable o Sobresaliente) la decide el docente con el conjunto de evidencias, según la Orden de 31 de mayo de 2023.
-
-**Versión para el alumnado:** «Pido la palabra y escucho a los demás», «Hago propuestas con razones», «Uso palabras que no excluyen a nadie», «Digo que no estoy de acuerdo sin enfadarme ni herir».
+**Versión para el alumnado:** «Pido la palabra y escucho a los demás», «Hago propuestas con razones», «Uso palabras que no excluyen a nadie», «Digo que no estoy de acuerdo sin enfadarme ni herir». Es una adaptación en lenguaje sencillo derivada de los descriptores oficiales, no un sustituto de la rúbrica.
 
 ## 8. Producto final y difusión
 
 Documento de normas de convivencia del aula, consensuado y firmado por el grupo, cartel visible en el aula, reglamento de la asamblea y libro de actas que se completa cada semana. Se presenta al equipo directivo y se publica una versión en el blog del centro (sin datos del alumnado). Si el centro lo considera, el procedimiento de resolución de conflictos puede proponerse a otros grupos del tercer ciclo.
 
-## 9. Valoración del ajuste
+## 9. Programas, planes y ejes temáticos de la Red Canaria-InnovAS
+
+Si el centro participa en la Red Canaria-InnovAS, la SA puede vincularse a estos ejes temáticos (denominaciones del curso 2026-2027; ajústalas a las del proyecto PIDAS del centro):
+
+- **Promoción de la salud y educación emocional:** Gestión de las emociones y comunicación asertiva en la asamblea.
+- **Comunicación lingüística, bibliotecas y radios escolares:** Debate, acta y texto normativo; los acuerdos pueden difundirse en la radio escolar.
+
+## 10. Valoración del ajuste
+
+**Desarrollo.** Al terminar, el docente anota:
 
 - ¿Se ha equilibrado la participación entre quienes acaparaban la palabra y quienes no intervenían?
 - ¿Se cumplen las normas sobre la cancha al cabo de un mes? ¿Hace falta revisarlas?
 - ¿Se mantiene la asamblea semanal o se ha diluido?
-- Propuesta de mejora: en 6.º, vincular la asamblea con la participación en el consejo escolar o en un pleno infantil municipal, si existe.
+- ¿Qué criterios han reunido evidencias suficientes y cuáles necesitan otra actividad?
+- ¿La valoración con la rúbrica oficial coincide con el resto de evidencias (listas de control, registros, autoevaluación y coevaluación)?
+
+**Propuestas de mejora:**
+
+- En 6.º, vincular la asamblea con la participación en el consejo escolar o en un pleno infantil municipal, si existe.
+- Ajustes de temporalización, agrupamientos o recursos para la próxima puesta en práctica.

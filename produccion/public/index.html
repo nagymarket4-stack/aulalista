@@ -137,7 +137,7 @@
     <details><summary>¿Lo que genera es válido para entregar?</summary><p>Es un borrador profesional basado en el Real Decreto 157/2022 y en el decreto de tu comunidad. Lo que la herramienta no puede asegurar al pie de la letra lo marca como «verificar». Tú tienes siempre la última palabra.</p></details>
     <details><summary>¿Qué comunidades incluye?</summary><p>Ya puedes elegir cualquiera. Canarias, Andalucía y Madrid son las primeras con revisión docente específica; el resto se va incorporando según lo votan los fundadores.</p></details>
     <details><summary>¿Qué hacéis con los datos de mi alumnado?</summary><p>Nada, porque no los pedimos. Las adaptaciones funcionan con perfiles anónimos («alumno con dislexia, 4º»). No escribas nombres en la herramienta.</p></details>
-    <details><summary>¿Puedo cancelar?</summary><p>Sí, en cualquier momento y sin permanencia. El plan Fundador es un pago único: no hay nada que cancelar.</p></details>
+    <details><summary>¿Puedo cancelar?</summary><p>Sí, en cualquier momento y sin permanencia, desde <a href="/api/portal">Gestionar mi suscripción</a> (o desde la app, con tu plan Pro activo). El plan Fundador es un pago único: no hay nada que cancelar.</p></details>
   </section>
 
   <section id="acceso">
@@ -161,12 +161,58 @@
   <footer id="privacidad">
     <p>AulaLista · Hecho por docentes, para docentes. · <a href="/recursos/">Ejemplos de situaciones de aprendizaje por comunidad, curso y área</a></p>
     <p>Protección de datos. Responsable: [TITULAR] · Finalidad: avisarte del lanzamiento y enviarte información sobre AulaLista · Base: tu consentimiento · Destinatarios: proveedores que tratan los datos por nuestra cuenta (Cloudflare, MailerLite, Stripe), con transferencias internacionales a EE. UU. con garantías · Derechos: acceso, rectificación, supresión y demás, escribiendo a [EMAIL] · Baja en cualquier email · Más información en la <a href="/legal/privacidad.html">política de privacidad</a>.</p>
-    <p><a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/condiciones.html">Condiciones</a> · <a href="/legal/cookies.html">Cookies</a></p>
+    <p><a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/condiciones.html">Condiciones</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/api/portal">Gestionar mi suscripción / cancelar</a></p>
   </footer>
 </div>
 
 <script>
+/*AFILIADO*/
+// Atribución de afiliados sin cookies de terceros (build.py copia este bloque también a la landing).
+// ?ref=<código> → localStorage propio «al-ref» durante 60 días (gana el último enlace usado). Se envía en
+// /api/lead y se añade como client_reference_id a los Payment Links de Stripe (buy.stripe.com).
+const AulaRef = (() => {
+  const KEY = 'al-ref', DAYS = 60, RE = /^[a-z0-9]{1,32}$/;
+  const clean = v => { const s = String(v == null ? '' : v).trim().toLowerCase(); return RE.test(s) ? s : null; };
+  function read(now) {
+    let v = null;
+    try { v = JSON.parse(localStorage.getItem(KEY)); } catch (e) {}
+    if (!v || !clean(v.c) || typeof v.t !== 'number') return null;
+    if ((now || Date.now()) - v.t > DAYS * 864e5 || v.t > (now || Date.now()) + 864e5) { try { localStorage.removeItem(KEY); } catch (e) {} return null; }
+    return { c: clean(v.c), t: v.t };
+  }
+  // Lee ?ref= de la URL, lo guarda y lo retira de la barra de direcciones (conserva los demás parámetros).
+  function capture() {
+    let params;
+    try { params = new URLSearchParams(location.search); } catch (e) { return get(); }
+    if (!params.has('ref')) return get();
+    const c = clean(params.get('ref'));
+    if (c) { try { localStorage.setItem(KEY, JSON.stringify({ c, t: Date.now() })); } catch (e) {} }
+    params.delete('ref');
+    const qs = params.toString();
+    try { history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash); } catch (e) {}
+    return get();
+  }
+  function get() { const v = read(); return v ? v.c : null; }
+  function clickTime() { const v = read(); return v ? v.t : null; }
+  function isPaymentLink(href) { try { const u = new URL(href); return u.protocol === 'https:' && u.hostname === 'buy.stripe.com'; } catch (e) { return false; } }
+  function checkoutUrl(href) {
+    const c = get();
+    if (!c || !isPaymentLink(href)) return href;
+    const u = new URL(href); u.searchParams.set('client_reference_id', c); return u.href;
+  }
+  // Decora al hacer clic cualquier enlace a un Payment Link (también los que se añadan después).
+  function decorate(doc) {
+    doc.addEventListener('click', e => {
+      const a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+      if (a && isPaymentLink(a.href)) a.href = checkoutUrl(a.href);
+    }, true);
+  }
+  return { capture, get, clickTime, checkoutUrl, decorate, isPaymentLink, clean };
+})();
+/*END_AFILIADO*/
 (() => {
+  AulaRef.capture();
+  AulaRef.decorate(document);
   const CCAA = ['Canarias','Andalucía','Aragón','Asturias','Illes Balears','Cantabria','Castilla y León','Castilla-La Mancha','Cataluña','Comunitat Valenciana','Extremadura','Galicia','Comunidad de Madrid','Región de Murcia','Navarra','País Vasco','La Rioja','Ceuta y Melilla'];
   const sel = document.getElementById('comunidad');
   CCAA.forEach(c => sel.add(new Option(c, c)));
@@ -183,13 +229,15 @@
       rol: document.getElementById('rol').value,
       fundador: document.getElementById('fundador').checked,
       rgpd: document.getElementById('rgpd').checked,
-      origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo'
+      origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo',
+      ref: AulaRef.get(),
+      ref_t: AulaRef.clickTime()
     };
     try {
       const r = await fetch('/api/lead', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
       const j = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(j.message || 'Error');
-      if (j.checkout) { say('¡Apuntado! Te llevamos al pago seguro para reservar tu plaza…'); setTimeout(() => { location.href = j.checkout; }, 900); }
+      if (j.checkout) { say('¡Apuntado! Te llevamos al pago seguro para reservar tu plaza…'); setTimeout(() => { location.href = AulaRef.checkoutUrl(j.checkout); }, 900); }
       else say('¡Listo! Revisa tu correo: te escribiremos en cuanto abra tu comunidad.');
       form.reset();
     } catch (err) {

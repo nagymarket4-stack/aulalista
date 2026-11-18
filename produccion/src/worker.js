@@ -6,11 +6,14 @@
 //   POST /api/stripe-webhook              → alta/baja de licencias Pro
 //   GET  /api/license?session_id=cs_...   → devuelve la licencia tras el pago
 //   GET  /api/admin/leads                 → exporta leads en CSV (Authorization: Bearer ADMIN_TOKEN)
+//   GET  /api/admin/afiliados             → exporta ventas y comisiones de afiliados en CSV (misma autenticación)
+//   GET  /api/portal                      → redirige al portal de cliente de Stripe (STRIPE_PORTAL_URL)
 // Todo lo demás lo sirve el directorio de assets estáticos (public/).
 //
 // Secretos: ANTHROPIC_API_KEY, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, ADMIN_TOKEN (≥ 24 caracteres),
 //           IP_SALT (sal para seudonimizar IPs), LICENSE_SECRET (opcional; deriva licencias de forma idempotente).
 // Opcional: binding de rate limiting RATE_LIMITER (ver wrangler.toml).
+// Variables: STRIPE_FOUNDER_LINK (Payment Link de Fundador), STRIPE_PORTAL_URL (portal de cliente de Stripe).
 
 import { promptSA, promptRubrica, promptAdaptacion, promptPD, promptOposicion, promptExposicion, ISLAS, TIPOS_CENTRO, CCAA, CURSOS, areasDe } from './prompts.mjs';
 
@@ -151,7 +154,9 @@ const ROUTES = {
   '/api/lead': { POST: lead },
   '/api/stripe-webhook': { POST: stripeWebhook },
   '/api/license': { GET: licenseFromSession },
-  '/api/admin/leads': { GET: exportLeads }
+  '/api/admin/leads': { GET: exportLeads },
+  '/api/admin/afiliados': { GET: exportAfiliados },
+  '/api/portal': { GET: portal }
 };
 const BROWSER_POST = new Set(['/api/generate', '/api/lead']);
 
@@ -345,6 +350,9 @@ async function lead(req, env, ctx) {
 
   const prev = await env.KV.get('lead:' + email, 'json');
   const now = new Date().toISOString();
+  // Afiliado: gana el último enlace usado (si llega uno válido sustituye al anterior).
+  const ref = cleanRef(b.ref);
+  const refT = ref ? refClickTime(b.ref_t) : null;
   const rec = {
     email,
     comunidad: cleanText(b.comunidad).replace(/\s+/g, ' ').slice(0, 60),
@@ -355,6 +363,8 @@ async function lead(req, env, ctx) {
     consentimiento: now,
     privacidad: PRIVACY_VERSION
   };
+  if (ref) { rec.ref = ref; rec.ref_fecha = refT; }
+  else if (prev && prev.ref) { rec.ref = prev.ref; rec.ref_fecha = prev.ref_fecha; }
   await env.KV.put('lead:' + email, JSON.stringify(rec));
   if (env.MAILERLITE_API_KEY) {
     const p = fetch('https://connect.mailerlite.com/api/subscribers', {
@@ -368,7 +378,8 @@ async function lead(req, env, ctx) {
     }).catch(e => console.error('mailerlite', e));
     if (ctx && ctx.waitUntil) ctx.waitUntil(p);
   }
-  return json({ ok: true, checkout: b.fundador ? (env.STRIPE_FOUNDER_LINK || null) : null });
+  const checkout = b.fundador && env.STRIPE_FOUNDER_LINK ? withClientReference(env.STRIPE_FOUNDER_LINK, rec.ref) : null;
+  return json({ ok: true, checkout });
 }
 
 // Neutraliza fórmulas al abrir el CSV en Excel/LibreOffice/Sheets (inyección CSV).
@@ -378,13 +389,36 @@ export function csvCell(v) {
   return '"' + s.replace(/"/g, '""') + '"';
 }
 
-async function exportLeads(req, env, ctx, url) {
+// Autenticación común de las rutas /api/admin/*. Devuelve una Response de error o null si está autorizado.
+async function adminAuth(req, env, url) {
   if (!env.ADMIN_TOKEN || String(env.ADMIN_TOKEN).length < 24) return json({ message: 'ADMIN_TOKEN no configurado o demasiado corto (mínimo 24 caracteres)' }, 503);
   if (await rateLimited(env, 'admin:' + await clientId(req, env))) return json({ message: 'Demasiados intentos' }, 429);
   const auth = req.headers.get('authorization') || '';
   // Preferible la cabecera: el token en la URL queda en historial y logs (se mantiene ?token= por compatibilidad).
   const given = auth.startsWith('Bearer ') ? auth.slice(7).trim() : (url.searchParams.get('token') || '');
   if (!given || !safeEqual(given, env.ADMIN_TOKEN)) return json({ message: 'No autorizado' }, 401);
+  return null;
+}
+
+// numericCols: columnas con importes; si el valor es un número puro (p. ej. -2.70) no se le antepone «'»
+// (un número no puede ser una fórmula y así la hoja de cálculo lo suma).
+const NUM_RE = /^-?\d+(\.\d+)?$/;
+function csvResponse(rows, filename, numericCols = []) {
+  const cell = (v, i) => (numericCols.includes(i) && NUM_RE.test(String(v)) ? '"' + v + '"' : csvCell(v));
+  const csv = '\uFEFF' + rows.map(r => r.map(cell).join(',')).join('\r\n') + '\r\n';
+  return new Response(csv, {
+    headers: {
+      'content-type': 'text/csv; charset=utf-8',
+      'content-disposition': `attachment; filename="${filename}"`,
+      'cache-control': 'no-store',
+      'x-content-type-options': 'nosniff'
+    }
+  });
+}
+
+async function exportLeads(req, env, ctx, url) {
+  const denied = await adminAuth(req, env, url);
+  if (denied) return denied;
   const rows = [['email', 'comunidad', 'rol', 'fundador', 'origen', 'fecha', 'consentimiento', 'privacidad']];
   let cursor;
   do {
@@ -395,15 +429,7 @@ async function exportLeads(req, env, ctx, url) {
     }
     cursor = page.list_complete ? null : page.cursor;
   } while (cursor);
-  const csv = '﻿' + rows.map(r => r.map(csvCell).join(',')).join('\r\n') + '\r\n';
-  return new Response(csv, {
-    headers: {
-      'content-type': 'text/csv; charset=utf-8',
-      'content-disposition': 'attachment; filename="leads.csv"',
-      'cache-control': 'no-store',
-      'x-content-type-options': 'nosniff'
-    }
-  });
+  return csvResponse(rows, 'leads.csv');
 }
 
 // ---------- Stripe ----------
@@ -481,10 +507,16 @@ async function stripeWebhook(req, env) {
   const obj = (event.data && event.data.object) || {};
   switch (event.type) {
     case 'checkout.session.completed':
-      if (obj.id && ['paid', 'no_payment_required'].includes(obj.payment_status)) await issueLicense(env, obj);
+      if (obj.id && ['paid', 'no_payment_required'].includes(obj.payment_status)) {
+        await issueLicense(env, obj);
+        await recordAffiliateCheckout(env, obj, event);
+      }
       break;
     case 'checkout.session.async_payment_succeeded':
-      if (obj.id) await issueLicense(env, obj);
+      if (obj.id) { await issueLicense(env, obj); await recordAffiliateCheckout(env, obj, event); }
+      break;
+    case 'invoice.paid':
+      if (obj.id) await recordAffiliateRenewal(env, obj, event);
       break;
     case 'customer.subscription.deleted':
       if (obj.id) await setActiveByKV(env, 'sub:' + obj.id, false, 'baja');
@@ -494,6 +526,7 @@ async function stripeWebhook(req, env) {
       break;
     case 'charge.refunded':
       if (obj.refunded && obj.payment_intent) await setActiveByKV(env, 'pi:' + (obj.payment_intent.id || obj.payment_intent), false, 'reembolso');
+      if (obj.id) await recordAffiliateRefund(env, obj, event);
       break;
   }
   return json({ received: true });
@@ -514,4 +547,190 @@ async function licenseFromSession(req, env, ctx, url) {
     key = await issueLicense(env, s);
   }
   return json({ license: key });
+}
+
+// ---------- Portal de cliente de Stripe ----------
+// Enlace sin código del portal (Stripe → Configuración → Portal de cliente → «Enlace de inicio de sesión»).
+// La persona entra con su email y desde ahí cambia de plan, descarga facturas o cancela.
+async function portal(req, env) {
+  const u = portalUrl(env);
+  if (!u) {
+    return new Response('El portal de gestión de la suscripción aún no está disponible. Escríbenos y la gestionamos por ti.', {
+      status: 503, headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' }
+    });
+  }
+  return new Response(null, { status: 302, headers: { location: u, 'cache-control': 'no-store', 'referrer-policy': 'no-referrer' } });
+}
+
+export function portalUrl(env) {
+  try {
+    const u = new URL(String(env.STRIPE_PORTAL_URL || ''));
+    return u.protocol === 'https:' ? u.href : null;
+  } catch (e) { return null; }
+}
+
+// ---------- Afiliados ----------
+// Atribución sin cookies de terceros: ?ref=<código> → localStorage propio (60 días) → client_reference_id del
+// Payment Link (o lead:<email>.ref) → venta en KV. En KV de afiliados NO se guardan datos personales:
+// solo código, importes, plan, fechas e identificadores de Stripe (sesión, factura, cargo).
+// Claves:
+//   aff:<código>:<YYYY-MM>:<id>   un movimiento (venta, renovación o devolución); id = sesión, factura o cargo
+//   affsub:<subscription_id>      { ref, inicio } para atribuir las renovaciones durante 12 meses
+//   affpay:<payment_intent|invoice_id>  { ref, plan, bruto, neto, devuelto } para descontar devoluciones
+export const REF_RE = /^[a-z0-9]{1,32}$/;
+export const COMMISSION_RATE = 0.30;
+export const COMMISSION_MONTHS = 12;
+export const REF_WINDOW_DAYS = 60;
+const DAY_MS = 86400000;
+
+export function cleanRef(v) {
+  if (typeof v !== 'string') return null;
+  const s = v.trim().toLowerCase();
+  return REF_RE.test(s) ? s : null;
+}
+
+// Fecha del clic que envía el navegador (ms). Solo se acepta si está dentro de la ventana; si no, ahora.
+function refClickTime(v, now = Date.now()) {
+  const t = Number(v);
+  return new Date(Number.isFinite(t) && t <= now && t >= now - REF_WINDOW_DAYS * DAY_MS ? t : now).toISOString();
+}
+
+// Añade ?client_reference_id=<código> a un Payment Link (los Payment Links lo admiten en la URL).
+export function withClientReference(link, ref) {
+  const r = cleanRef(ref);
+  if (!r) return link;
+  try { const u = new URL(link); u.searchParams.set('client_reference_id', r); return u.href; } catch (e) { return link; }
+}
+
+const idOf = v => (typeof v === 'string' ? v : v && v.id) || null;
+const monthOf = sec => new Date(sec * 1000).toISOString().slice(0, 7);
+const isoOf = sec => new Date(sec * 1000).toISOString();
+const addMonths = (sec, n) => { const d = new Date(sec * 1000); d.setUTCMonth(d.getUTCMonth() + n); return d.getTime() / 1000; };
+const cents = v => (Number.isFinite(Number(v)) ? Math.round(Number(v)) : 0);
+const eventTime = (event, obj) => cents(event && event.created) || cents(obj && obj.created) || Math.floor(Date.now() / 1000);
+
+async function putMovement(env, ref, sec, id, rec) {
+  const k = `aff:${ref}:${monthOf(sec)}:${id}`;
+  if (await env.KV.get(k)) return false;          // idempotente ante reintentos del webhook
+  await env.KV.put(k, JSON.stringify(rec));
+  return true;
+}
+
+// Código de afiliado de una sesión de Checkout: client_reference_id (Payment Link) o metadata; si no hay,
+// el que dejó el lead con el mismo email si el clic fue hace ≤ 60 días (el email no se copia a aff:).
+async function refForSession(env, s, sec) {
+  const direct = cleanRef(s.client_reference_id) || cleanRef(s.metadata && (s.metadata.ref || s.metadata.afiliado));
+  if (direct) return direct;
+  const email = String((s.customer_details && s.customer_details.email) || s.customer_email || '').toLowerCase();
+  if (!email) return null;
+  const l = await env.KV.get('lead:' + email, 'json');
+  if (!l || !cleanRef(l.ref)) return null;
+  const t = Date.parse(l.ref_fecha || l.fecha || '');
+  return Number.isFinite(t) && sec * 1000 - t <= REF_WINDOW_DAYS * DAY_MS && sec * 1000 >= t - DAY_MS ? cleanRef(l.ref) : null;
+}
+
+export async function recordAffiliateCheckout(env, s, event) {
+  const sec = eventTime(event, s);
+  const ref = await refForSession(env, s, sec);
+  if (!ref || !s.id) return null;
+  const bruto = cents(s.amount_total);
+  const neto = Math.max(0, bruto - cents(s.total_details && s.total_details.amount_tax));
+  const plan = s.mode === 'subscription' ? 'pro' : 'fundador';
+  const sub = idOf(s.subscription), pi = idOf(s.payment_intent), inv = idOf(s.invoice);
+  const rec = { tipo: 'venta', codigo: ref, plan, importe: neto, bruto, moneda: String(s.currency || 'eur').toLowerCase(), fecha: isoOf(sec), session: s.id };
+  if (!(await putMovement(env, ref, sec, s.id, rec))) return rec;
+  if (sub) await env.KV.put('affsub:' + sub, JSON.stringify({ ref, inicio: sec, plan }));
+  const pay = { ref, plan, bruto, neto, devuelto: 0, mov: s.id };
+  for (const p of [pi, inv]) if (p) await env.KV.put('affpay:' + p, JSON.stringify(pay));
+  return rec;
+}
+
+// Renovaciones de suscripción (invoice.paid con billing_reason subscription_cycle) dentro de los 12 meses
+// desde el primer pago. El primer pago ya lo registra checkout.session.completed.
+export async function recordAffiliateRenewal(env, inv, event) {
+  if (inv.billing_reason !== 'subscription_cycle') return null;
+  const sub = idOf(inv.subscription) || idOf(inv.parent && inv.parent.subscription_details && inv.parent.subscription_details.subscription);
+  if (!sub) return null;
+  const a = await env.KV.get('affsub:' + sub, 'json');
+  if (!a || !cleanRef(a.ref)) return null;
+  const paidAt = cents(inv.status_transitions && inv.status_transitions.paid_at) || eventTime(event, inv);
+  if (paidAt >= addMonths(a.inicio, COMMISSION_MONTHS)) return null;   // a partir del mes 13 no hay comisión
+  const bruto = cents(inv.amount_paid ?? inv.total);
+  const tax = cents(inv.tax ?? (Array.isArray(inv.total_taxes) ? inv.total_taxes.reduce((n, t) => n + cents(t.amount), 0) : 0));
+  const neto = Math.max(0, bruto - tax);
+  const line = inv.lines && Array.isArray(inv.lines.data) && inv.lines.data[0];
+  const interval = line && ((line.price && line.price.recurring && line.price.recurring.interval) || (line.plan && line.plan.interval));
+  const plan = interval === 'year' ? 'pro-anual' : interval === 'month' ? 'pro-mensual' : (a.plan || 'pro');
+  const rec = { tipo: 'renovacion', codigo: a.ref, plan, importe: neto, bruto, moneda: String(inv.currency || 'eur').toLowerCase(), fecha: isoOf(paidAt), session: inv.id };
+  if (!(await putMovement(env, a.ref, paidAt, inv.id, rec))) return rec;
+  const pi = idOf(inv.payment_intent);
+  const pay = { ref: a.ref, plan, bruto, neto, devuelto: 0, mov: inv.id };
+  for (const p of [pi, inv.id]) if (p) await env.KV.put('affpay:' + p, JSON.stringify(pay));
+  return rec;
+}
+
+// Devoluciones (totales o parciales): movimiento negativo proporcional a lo devuelto, sin impuestos.
+// charge.refunded llega con el acumulado (amount_refunded): se registra solo la diferencia.
+export async function recordAffiliateRefund(env, ch, event) {
+  const keys = [idOf(ch.payment_intent), idOf(ch.invoice)].filter(Boolean).map(p => 'affpay:' + p);
+  let payKey = null, pay = null;
+  for (const k of keys) { pay = await env.KV.get(k, 'json'); if (pay) { payKey = k; break; } }
+  if (!pay || !cleanRef(pay.ref)) return null;
+  const total = cents(ch.amount_refunded);
+  const delta = total - cents(pay.devuelto);
+  if (delta <= 0) return null;
+  const sec = eventTime(event, ch);
+  const neto = pay.bruto > 0 ? Math.round(delta * pay.neto / pay.bruto) : 0;
+  const rec = { tipo: 'devolucion', codigo: pay.ref, plan: pay.plan, importe: -neto, bruto: -delta, moneda: String(ch.currency || 'eur').toLowerCase(), fecha: isoOf(sec), session: pay.mov, cargo: ch.id };
+  await putMovement(env, pay.ref, sec, `${ch.id}-${total}`, rec);
+  pay.devuelto = total;
+  for (const k of keys) if (k === payKey || (await env.KV.get(k))) await env.KV.put(k, JSON.stringify(pay));
+  return rec;
+}
+
+export const commissionOf = importe => Math.round(importe * COMMISSION_RATE);
+const eur = c => (c / 100).toFixed(2);
+
+// CSV de comisiones. ?mes=YYYY-MM filtra por mes; ?codigo=xxx por afiliado; ?formato=resumen agrupa por afiliado y mes.
+async function exportAfiliados(req, env, ctx, url) {
+  const denied = await adminAuth(req, env, url);
+  if (denied) return denied;
+  const mes = url.searchParams.get('mes') || '';
+  if (mes && !/^\d{4}-(0[1-9]|1[0-2])$/.test(mes)) return json({ message: 'mes debe ser AAAA-MM' }, 400);
+  const codigoParam = url.searchParams.get('codigo');
+  const codigo = codigoParam ? cleanRef(codigoParam) : null;
+  if (codigoParam && !codigo) return json({ message: 'Código de afiliado no válido' }, 400);
+  const resumen = url.searchParams.get('formato') === 'resumen';
+
+  const movs = [];
+  let cursor;
+  do {
+    const page = await env.KV.list({ prefix: codigo ? `aff:${codigo}:` : 'aff:', cursor });
+    for (const k of page.keys) {
+      const [, ref, m] = k.name.split(':');
+      if (mes && m !== mes) continue;
+      const r = await env.KV.get(k.name, 'json');
+      if (r) movs.push({ ...r, codigo: ref, mes: m });
+    }
+    cursor = page.list_complete ? null : page.cursor;
+  } while (cursor);
+  movs.sort((a, b) => a.codigo.localeCompare(b.codigo) || a.mes.localeCompare(b.mes) || String(a.fecha).localeCompare(String(b.fecha)));
+
+  const pct = Math.round(COMMISSION_RATE * 100) + '%';
+  if (resumen) {
+    const g = new Map();
+    for (const r of movs) {
+      const key = r.codigo + '|' + r.mes + '|' + r.moneda;
+      const x = g.get(key) || { codigo: r.codigo, mes: r.mes, moneda: r.moneda, ventas: 0, devoluciones: 0, importe: 0, comision: 0 };
+      if (r.tipo === 'devolucion') x.devoluciones++; else x.ventas++;
+      x.importe += cents(r.importe); x.comision += commissionOf(cents(r.importe));
+      g.set(key, x);
+    }
+    const rows = [['codigo', 'mes', 'ventas', 'devoluciones', 'importe_neto', 'comision_' + pct, 'moneda']];
+    for (const x of g.values()) rows.push([x.codigo, x.mes, x.ventas, x.devoluciones, eur(x.importe), eur(x.comision), x.moneda]);
+    return csvResponse(rows, `afiliados-resumen${mes ? '-' + mes : ''}.csv`, [2, 3, 4, 5]);
+  }
+  const rows = [['codigo', 'mes', 'tipo', 'fecha', 'plan', 'importe_neto', 'comision_' + pct, 'moneda', 'id_stripe', 'cargo']];
+  for (const r of movs) rows.push([r.codigo, r.mes, r.tipo, r.fecha, r.plan, eur(cents(r.importe)), eur(commissionOf(cents(r.importe))), r.moneda, r.session || '', r.cargo || '']);
+  return csvResponse(rows, `afiliados${mes ? '-' + mes : ''}.csv`, [5, 6]);
 }

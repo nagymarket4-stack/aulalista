@@ -53,7 +53,22 @@ def app(engine):
 (R/'dist/prototipo.html').write_text(app('engine.claude.js'))
 pub = R/'produccion/public'; pub.mkdir(parents=True, exist_ok=True)
 (pub/'app.html').write_text(app('engine.web.js'))
-(pub/'index.html').write_text((sh/'landing.html').read_text())
+# Bloque de atribución de afiliados: una sola fuente (engine.web.js) para la app y la landing.
+afiliado = re.search(r"/\*AFILIADO\*/.*?/\*END_AFILIADO\*/", (sh/'engine.web.js').read_text(), re.S)
+assert afiliado, 'falta el bloque /*AFILIADO*/ en shared/engine.web.js'
+landing = (sh/'landing.html').read_text()
+assert '/*__AFILIADO__*/' in landing, 'falta el marcador /*__AFILIADO__*/ en shared/landing.html'
+(pub/'index.html').write_text(landing.replace('/*__AFILIADO__*/', afiliado.group(0)))
+
+# Páginas legales: la fuente es shared/legal/; produccion/public/legal/ es una copia exacta (se borra lo que sobre).
+import shutil
+legal_src, legal_dst = sh/'legal', pub/'legal'
+legal_dst.mkdir(parents=True, exist_ok=True)
+legal_files = {f.name for f in legal_src.iterdir() if f.is_file()}
+for f in legal_dst.iterdir():
+    if f.is_file() and f.name not in legal_files: f.unlink()
+for name in sorted(legal_files):
+    shutil.copyfile(legal_src/name, legal_dst/name)
 esm = re.sub(r"\nif \(typeof module.*\n?", "\n", prompts) + "\nexport { curriculoDe, CCAA, CURSOS, AREAS_BASE, areasDe, ccaaPorId, cicloDe, sesionPorDefecto, promptSA, promptRubrica, promptAdaptacion, promptPD, ISLAS, TIPOS_CENTRO, criteriosCiclo, promptOposicion, promptExposicion };\n"
 (R/'produccion/src/prompts.mjs').write_text(esm)
 
@@ -96,5 +111,8 @@ common = """/*
 rules = [common]
 for path, value in [('/app', app_csp), ('/app.html', app_csp), ('/', landing_csp), ('/index.html', landing_csp)]:
     rules.append(f"{path}\n  {CSP_HEADER}: {value}\n  Cache-Control: no-cache\n")
+# Páginas legales: sin JavaScript. CSP estricta (si algún día llevan <script> en línea, se añade su hash).
+legal_html = ''.join((legal_dst/n).read_text() for n in sorted(legal_files) if n.endswith('.html'))
+rules.append(f"/legal/*\n  {CSP_HEADER}: {csp(legal_html)}\n")
 (pub/'_headers').write_text('# Generado por build.py: no editar a mano.\n' + ''.join(rules))
 print('ok')

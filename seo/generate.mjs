@@ -33,6 +33,8 @@ const AREAS = readJSON('areas.json').areas;
 const TEMAS = readJSON('temas.json').temas;
 const BASE = CONFIG.baseUrl.replace(/\/$/, '');
 const areaPorSlug = Object.fromEntries(AREAS.map(a => [a.slug, a]));
+// Nombre exacto del área en la app para una comunidad (p. ej. «Plástica y Visual» en la Comunitat Valenciana)
+const nombreEn = (a, c) => (a.nombresCCAA && a.nombresCCAA[c.id]) || a.nombre;
 
 const COMUNIDADES = CONFIG.ccaa.map(id => {
   const c = P.CCAA.find(x => x.id === id);
@@ -50,16 +52,19 @@ const nom = c => /^(Comunidad|Comunitat|Región)\b/.test(c.name) ? 'la ' + c.nam
   for (const t of TEMAS) {
     for (const k of ['slug', 'titulo', 'area', 'cursos', 'reto', 'producto', 'keywords']) if (!t[k]) err.push(`${t.slug || '?'}: falta ${k}`);
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(t.slug)) err.push(`${t.slug}: slug no válido`);
-    if (slugs.has(t.slug)) err.push(`${t.slug}: slug duplicado`);
-    slugs.add(t.slug);
+    // El mismo slug puede repetirse en áreas distintas (p. ej. Conocimiento del Medio y Ciencias de la Naturaleza)
+    if (slugs.has(`${t.area}/${t.slug}`)) err.push(`${t.slug}: slug duplicado en ${t.area}`);
+    slugs.add(`${t.area}/${t.slug}`);
     if (!areaPorSlug[t.area]) err.push(`${t.slug}: área desconocida ${t.area}`);
     for (const n of t.cursos || []) if (!(n >= 1 && n <= 6)) err.push(`${t.slug}: curso no válido ${n}`);
     for (const s of t.saberes || []) if (!(areaPorSlug[t.area]?.bloques || {})[s]) err.push(`${t.slug}: bloque de saberes desconocido ${s}`);
     for (const a of t.conexiones || []) if (!areaPorSlug[a]) err.push(`${t.slug}: conexión desconocida ${a}`);
     for (const k of Object.keys(t.porCiclo || {})) if (!['1', '2', '3'].includes(k) || !t.cursos.some(n => String(n <= 2 ? 1 : n <= 4 ? 2 : 3) === k)) err.push(`${t.slug}: porCiclo con ciclo no válido ${k}`);
   }
-  for (const a of AREAS) if (!P.AREAS_BASE.includes(a.nombre) && !P.CCAA.some(c => (c.extra || []).some(e => (e.name || e) === a.nombre)))
-    err.push(`área ${a.slug}: el nombre "${a.nombre}" no existe en shared/prompts.js`);
+  const existe = n => P.AREAS_BASE.includes(n) || P.CCAA.some(c => (c.extra || []).some(e => (e.name || e) === n));
+  for (const a of AREAS) for (const n of [a.nombre, ...Object.values(a.nombresCCAA || {})]) if (!existe(n))
+    err.push(`área ${a.slug}: el nombre "${n}" no existe en shared/prompts.js`);
+  for (const a of AREAS) for (const id of Object.keys(a.nombresCCAA || {})) if (!P.CCAA.some(c => c.id === id)) err.push(`área ${a.slug}: comunidad desconocida ${id}`);
   if (err.length) { console.error('Errores en el catálogo:\n - ' + err.join('\n - ')); process.exit(1); }
 })();
 
@@ -190,7 +195,7 @@ function extracto(body) {
 }
 
 // ---------- Modelo: qué páginas existen ----------
-const temaDisponible = (t, c, n) => (!t.ccaa || t.ccaa.includes(c.id)) && t.cursos.includes(n) && P.areasDe(c.id, cursoApp(n)).includes(areaPorSlug[t.area].nombre);
+const temaDisponible = (t, c, n) => (!t.ccaa || t.ccaa.includes(c.id)) && t.cursos.includes(n) && P.areasDe(c.id, cursoApp(n)).includes(nombreEn(areaPorSlug[t.area], c));
 const cursosDe = (t, c) => t.cursos.filter(n => temaDisponible(t, c, n));
 
 const urlTema = (c, n, a, t) => `/recursos/${c.id}/${cursoSlug(n)}/${a}/${t}/`;
@@ -198,7 +203,7 @@ const urlCurso = (c, n) => `/recursos/${c.id}/${cursoSlug(n)}/`;
 const urlCursoArea = (c, n, a) => `/recursos/${c.id}/${cursoSlug(n)}/${a}/`;
 const urlArea = (c, a) => `/recursos/${c.id}/${a}/`;
 const urlCCAA = c => `/recursos/${c.id}/`;
-const appUrl = (c, n, area, tema) => '/app.html?' + new URLSearchParams({ ccaa: c.id, curso: cursoApp(n), area: area.nombre, tema }).toString();
+const appUrl = (c, n, area, tema) => '/app.html?' + new URLSearchParams({ ccaa: c.id, curso: cursoApp(n), area: nombreEn(area, c), tema }).toString();
 
 const paginas = [];   // { url, html, indexable, tipo }
 function emit(url, html, indexable, tipo) { paginas.push({ url, html, indexable, tipo }); }
@@ -279,7 +284,7 @@ function paginaTema(c, n, t, todos) {
   const representante = !CONFIG.indexacion.unoPorCiclo || cursosT.find(x => cicloN(x) === cicloN(n)) === n;
   const indexable = (CONFIG.indexacion.ccaa.includes(c.id) && (t.prioridad || 3) <= CONFIG.indexacion.prioridadMax && representante)
     || (CONFIG.indexacion.siempreConEjemplo && ejPropio(ejemplo));
-  const conex = (t.conexiones || []).filter(a => P.areasDe(c.id, cursoApp(n)).includes(areaPorSlug[a].nombre)).map(a => areaPorSlug[a]);
+  const conex = (t.conexiones || []).filter(a => P.areasDe(c.id, cursoApp(n)).includes(nombreEn(areaPorSlug[a], c)) && todos.some(x => x.area === a && temaDisponible(x, c, n))).map(a => areaPorSlug[a]);
   const areasImpl = [area.corto, ...conex.map(a => a.corto)];
   const ods = (t.ods || []).map(o => `ODS ${o} (${ODS[o]})`);
   const temaApp = `${t.titulo}. ${t.reto}`;
@@ -312,7 +317,7 @@ ${cursosT.length > 1 ? `<p>Este tema se propone de ${esc(cursoTxt(cursosT[0]))} 
 ${saberes.length ? `<section>
 <h2>Saberes básicos que moviliza</h2>
 <ul>${saberes.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-<p class="note">Bloques de saberes del Real Decreto 157/2022 para ${esc(area.nombre)}. ${c.id === 'canarias' ? 'En Canarias se concretan dentro de los bloques competenciales del Decreto 211/2022.' : `Su concreción para ${esc(nom(c))} está en el ${esc(decretoCorto(c))}.`}</p>
+<p class="note">${area.rdArea ? `Bloques de saberes del área de ${esc(area.rdArea)} del Real Decreto 157/2022, de la que procede ${esc(area.nombre)}.` : `Bloques de saberes del Real Decreto 157/2022 para ${esc(area.nombre)}.`} ${c.id === 'canarias' ? 'En Canarias se concretan dentro de los bloques competenciales del Decreto 211/2022.' : `Su concreción para ${esc(nom(c))} está en el ${esc(decretoCorto(c))}.`}</p>
 </section>` : ''}
 <section>
 <h2>Estructura de la situación de aprendizaje</h2>
@@ -323,8 +328,9 @@ ${saberes.length ? `<section>
 <li><strong>Fundamentación metodológica.</strong> Aprendizaje basado en retos; ${esc(ciclo.agrup)}.</li>
 <li><strong>Secuencia de actividades.</strong> Ver la secuencia orientativa de ${ciclo.sesiones} sesiones más abajo.</li>
 <li><strong>Atención a las diferencias individuales.</strong> DUA: ${esc(ciclo.dua)}.</li>
-<li><strong>Evaluación.</strong> Instrumentos: ${esc(lista(area.evidencias))} y rúbrica del producto. ${esc(evaluacionCCAA(c))}</li>
-<li><strong>Producto final y difusión.</strong> ${esc(sinPunto(t.producto))}. Se presenta ${esc(ciclo.difusion)}.</li>
+<li><strong>Evaluación.</strong> ${c.id === 'canarias' ? `Técnicas, herramientas e instrumentos (${esc(lista(area.evidencias))}), tipos de evaluación según el agente y rúbrica con los niveles de la Resolución de 15/05/2025.` : `Instrumentos: ${esc(lista(area.evidencias))} y rúbrica del producto.`} ${esc(evaluacionCCAA(c))}</li>
+<li><strong>Producto final y difusión.</strong> ${esc(sinPunto(t.producto))}. Se presenta ${esc(ciclo.difusion)}.</li>${c.id === 'canarias' ? `
+<li><strong>Red Canaria-InnovAS.</strong> Ejes temáticos con los que conecta la SA, si el centro participa en la red.</li>` : ''}
 <li><strong>Valoración del ajuste.</strong> Propuestas de mejora para el próximo curso.</li>
 </ol>
 </section>
@@ -348,7 +354,8 @@ ${!(c.decreto && c.verificado) ? '<p class="note">Citamos el decreto autonómico
   const off = delArea.length ? hashNum(t.slug + n) % delArea.length : 0;
   const rot = delArea.slice(off).concat(delArea.slice(0, off)).slice(0, 8);
   const otrosTemas = rot.map(x => ({ url: urlTema(c, n, x.area, x.slug), text: x.titulo }));
-  const otrasCCAA = COMUNIDADES.filter(o => o.id !== c.id && temaDisponible(t, o, n)).map(o => ({ url: urlTema(o, n, t.area, t.slug), text: `${t.titulo} en ${nom(o)}` }));
+  const otrasCCAA = COMUNIDADES.filter(o => o.id !== c.id).map(o => [o, todos.find(x => x.slug === t.slug && temaDisponible(x, o, n))]).filter(([, x]) => x)
+    .map(([o, x]) => ({ url: urlTema(o, n, x.area, x.slug), text: `${t.titulo} en ${nom(o)}${x.area !== t.area ? ` (${areaPorSlug[x.area].corto})` : ''}` }));
   body += `<section class="rel">
 ${otrosCursos.length ? `<div><h2>El mismo tema en otros cursos</h2>${linkList(otrosCursos)}</div>` : ''}
 <div><h2>Más situaciones de ${esc(area.corto)} en ${esc(cursoTxt(n))}</h2>${linkList(otrosTemas)}<p><a href="${urlCursoArea(c, n, t.area)}">Todas las de ${esc(area.corto)} en ${esc(cursoTxt(n))} →</a></p></div>
@@ -385,7 +392,9 @@ ${otrasCCAA.length ? `<div><h2>En otras comunidades</h2>${linkList(otrasCCAA)}</
 function bloqueEjemplo(ej, c, n, t, area, temaApp) {
   if (ej && ej.completo) {
     const aviso = ej.revisado ? `<p class="note">Ejemplo revisado por un docente${ej.meta.fecha ? ` (${esc(ej.meta.fecha)})` : ''}. Generado con AulaLista y ajustado a mano; adáptalo a tu grupo.</p>`
-      : '<p class="note warn">Borrador generado con IA pendiente de revisión docente. Las marcas VERIFICAR señalan lo que hay que comprobar con el decreto.</p>';
+      : /\[VERIFICAR CON DECRETO\]/.test(ej.body)
+        ? '<p class="note warn">Borrador generado con IA pendiente de revisión docente. Las marcas VERIFICAR señalan lo que hay que comprobar con el decreto.</p>'
+        : '<p class="note warn">Borrador pendiente de revisión docente. Los criterios, saberes y descriptores de rúbrica que cita se han cotejado con los textos oficiales; falta la revisión didáctica.</p>';
     return `${aviso}<div class="ejemplo">${md(ej.body, 1)}</div>`;
   }
   if (ej && !ej.completo) {
@@ -433,7 +442,7 @@ function paginaArea(c, area) {
   const title = `Situaciones de aprendizaje de ${area.corto} en Primaria · ${corta(c)}`;
   const description = recorta(`${temas.length} temas de ${area.nombre} para Primaria en ${nom(c)}, de ${cursoTxt(cursos[0])} a ${cursoTxt(cursos[cursos.length - 1])}, con reto, producto final y estructura LOMLOE.`, 158);
   const bloques = Object.values(area.bloques);
-  const body = `<p class="lead">${bloques.length ? `Bloques de saberes del área (Real Decreto 157/2022): ${esc(lista(bloques))}. ` : ''}${esc(curriculoCCAA(c))}</p>
+  const body = `<p class="lead">${bloques.length ? `Bloques de saberes del área${area.rdArea ? ` de ${esc(area.rdArea)}, de la que procede` : ''} (Real Decreto 157/2022): ${esc(lista(bloques))}. ` : ''}${esc(curriculoCCAA(c))}</p>
 ${Object.entries(area.ciclos).map(([k, v]) => `<p><strong>${esc(CICLO[k].nombre[0].toUpperCase() + CICLO[k].nombre.slice(1))}.</strong> ${esc(v)}</p>`).join('\n')}
 <div class="tbl"><table class="matriz"><thead><tr><th>Tema</th>${cursos.map(n => `<th>${cursoTxt(n)}</th>`).join('')}</tr></thead><tbody>
 ${temas.map(t => `<tr><td><strong>${esc(t.titulo)}</strong><br><span class="note">${esc(recorta(t.reto, 110))}</span></td>${cursos.map(n => temaDisponible(t, c, n) ? `<td><a href="${urlTema(c, n, area.slug, t.slug)}" aria-label="${esc(t.titulo)}, ${cursoTxt(n)}">${cursoTxt(n)}</a></td>` : '<td></td>').join('')}</tr>`).join('\n')}

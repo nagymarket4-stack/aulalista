@@ -137,7 +137,7 @@
     <details><summary>¿Lo que genera es válido para entregar?</summary><p>Es un borrador profesional basado en el Real Decreto 157/2022 y en el decreto de tu comunidad. Lo que la herramienta no puede asegurar al pie de la letra lo marca como «verificar». Tú tienes siempre la última palabra.</p></details>
     <details><summary>¿Qué comunidades incluye?</summary><p>Ya puedes elegir cualquiera. Canarias, Andalucía y Madrid son las primeras con revisión docente específica; el resto se va incorporando según lo votan los fundadores.</p></details>
     <details><summary>¿Qué hacéis con los datos de mi alumnado?</summary><p>Nada, porque no los pedimos. Las adaptaciones funcionan con perfiles anónimos («alumno con dislexia, 4º»). No escribas nombres en la herramienta.</p></details>
-    <details><summary>¿Puedo cancelar?</summary><p>Sí, en cualquier momento y sin permanencia. El plan Fundador es un pago único: no hay nada que cancelar.</p></details>
+    <details><summary>¿Puedo cancelar?</summary><p>Sí, en cualquier momento y sin permanencia, desde <a href="/api/portal">Gestionar mi suscripción</a> (o desde la app, con tu plan Pro activo). El plan Fundador es un pago único: no hay nada que cancelar.</p></details>
   </section>
 
   <section id="acceso">
@@ -161,12 +161,15 @@
   <footer id="privacidad">
     <p>AulaLista · Hecho por docentes, para docentes. · <a href="/recursos/">Ejemplos de situaciones de aprendizaje por comunidad, curso y área</a></p>
     <p>Protección de datos. Responsable: [TITULAR] · Finalidad: avisarte del lanzamiento y enviarte información sobre AulaLista · Base: tu consentimiento · Destinatarios: proveedores que tratan los datos por nuestra cuenta (Cloudflare, MailerLite, Stripe), con transferencias internacionales a EE. UU. con garantías · Derechos: acceso, rectificación, supresión y demás, escribiendo a [EMAIL] · Baja en cualquier email · Más información en la <a href="/legal/privacidad.html">política de privacidad</a>.</p>
-    <p><a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/condiciones.html">Condiciones</a> · <a href="/legal/cookies.html">Cookies</a></p>
+    <p><a href="/legal/aviso-legal.html">Aviso legal</a> · <a href="/legal/privacidad.html">Privacidad</a> · <a href="/legal/condiciones.html">Condiciones</a> · <a href="/legal/cookies.html">Cookies</a> · <a href="/api/portal">Gestionar mi suscripción / cancelar</a></p>
   </footer>
 </div>
 
 <script>
+/*__AFILIADO__*/
 (() => {
+  AulaRef.capture();
+  AulaRef.decorate(document);
   const CCAA = ['Canarias','Andalucía','Aragón','Asturias','Illes Balears','Cantabria','Castilla y León','Castilla-La Mancha','Cataluña','Comunitat Valenciana','Extremadura','Galicia','Comunidad de Madrid','Región de Murcia','Navarra','País Vasco','La Rioja','Ceuta y Melilla'];
   const sel = document.getElementById('comunidad');
   CCAA.forEach(c => sel.add(new Option(c, c)));
@@ -183,13 +186,15 @@
       rol: document.getElementById('rol').value,
       fundador: document.getElementById('fundador').checked,
       rgpd: document.getElementById('rgpd').checked,
-      origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo'
+      origen: new URLSearchParams(location.search).get('utm_source') || document.referrer || 'directo',
+      ref: AulaRef.get(),
+      ref_t: AulaRef.clickTime()
     };
     try {
       const r = await fetch('/api/lead', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
       const j = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(j.message || 'Error');
-      if (j.checkout) { say('¡Apuntado! Te llevamos al pago seguro para reservar tu plaza…'); setTimeout(() => { location.href = j.checkout; }, 900); }
+      if (j.checkout) { say('¡Apuntado! Te llevamos al pago seguro para reservar tu plaza…'); setTimeout(() => { location.href = AulaRef.checkoutUrl(j.checkout); }, 900); }
       else say('¡Listo! Revisa tu correo: te escribiremos en cuanto abra tu comunidad.');
       form.reset();
     } catch (err) {

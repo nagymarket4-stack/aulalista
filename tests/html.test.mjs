@@ -2,7 +2,7 @@
 // CSP de public/_headers coherente con los scripts y coherencia UI ↔ validación del Worker.
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import vm from 'node:vm';
 import { PERFILES, TEXT_LIMITS } from '../produccion/src/worker.js';
@@ -21,7 +21,7 @@ describe('HTML generados', () => {
     });
   }
   test('los marcadores de build.py se han sustituido', () => {
-    for (const f of FILES) assert.doesNotMatch(read(f), /\/\*__(PROMPTS|ENGINE)__\*\//, f);
+    for (const f of FILES) assert.doesNotMatch(read(f), /\/\*__(PROMPTS|ENGINE|AFILIADO)__\*\//, f);
   });
   test('public/_headers existe y su CSP contiene el hash de cada script en línea', () => {
     assert.ok(existsSync(new URL('produccion/public/_headers', root)), 'ejecuta python3 build.py');
@@ -86,5 +86,53 @@ describe('UI del módulo opositor', () => {
   test('el validador solo acepta .md/.txt (sin dependencias de red)', () => {
     assert.match(tpl, /id="pdFile" type="file" accept="\.md,\.txt/);
     assert.doesNotMatch(tpl, /jszip/i);
+  });
+});
+
+describe('afiliados y gestión de la suscripción en la UI', () => {
+  const bloque = html => (html.match(/\/\*AFILIADO\*\/[\s\S]*?\/\*END_AFILIADO\*\//) || [])[0];
+  test('la landing y la app llevan el mismo bloque AulaRef que shared/engine.web.js', () => {
+    const src = bloque(read('shared/engine.web.js'));
+    assert.ok(src);
+    assert.equal(bloque(read('produccion/public/index.html')), src);
+    assert.equal(bloque(read('produccion/public/app.html')), src);
+    assert.equal(bloque(read('dist/prototipo.html')), undefined, 'el prototipo de claude.ai no hace atribución');
+  });
+  test('la landing captura ?ref, lo envía en /api/lead y lo añade al enlace de pago', () => {
+    const l = read('shared/landing.html');
+    assert.match(l, /AulaRef\.capture\(\)/);
+    assert.match(l, /AulaRef\.decorate\(document\)/);
+    assert.match(l, /ref:\s*AulaRef\.get\(\)/);
+    assert.match(l, /location\.href = AulaRef\.checkoutUrl\(j\.checkout\)/);
+  });
+  test('pie de la landing: condiciones y portal de cliente', () => {
+    const footer = read('produccion/public/index.html').match(/<footer[\s\S]*?<\/footer>/)[0];
+    assert.match(footer, /href="\/legal\/condiciones\.html"/);
+    assert.match(footer, /href="\/api\/portal"[^>]*>Gestionar mi suscripción/);
+  });
+  test('la app tiene el enlace «Gestionar mi suscripción / cancelar», oculto hasta que hay licencia', () => {
+    const tpl = read('shared/app.template.html');
+    assert.match(tpl, /<a id="manageSub" class="hidden" href="\/api\/portal"[^>]*>Gestionar mi suscripción \/ cancelar<\/a>/);
+    assert.match(tpl, /if \(u\.manage\)/);
+  });
+});
+
+describe('páginas legales (fuente: shared/legal/)', () => {
+  const names = readdirSync(new URL('shared/legal/', root)).sort();
+  test('build.py copia shared/legal/ a produccion/public/legal/ sin cambios ni sobrantes', () => {
+    assert.ok(names.includes('privacidad.html') && names.includes('condiciones.html') && names.includes('legal.css'));
+    assert.deepEqual(readdirSync(new URL('produccion/public/legal/', root)).sort(), names);
+    for (const n of names) assert.equal(read('produccion/public/legal/' + n), read('shared/legal/' + n), n);
+  });
+  test('_headers aplica una CSP estricta a /legal/*', () => {
+    const block = read('produccion/public/_headers').split(/\n(?=\/)/).find(b => b.split('\n')[0].trim() === '/legal/*');
+    assert.ok(block, 'falta la regla /legal/*');
+    assert.match(block, /default-src 'none'/);
+    assert.match(block, /frame-ancestors 'none'/);
+    for (const n of names.filter(n => n.endsWith('.html'))) {
+      for (const code of inlineScripts(read('shared/legal/' + n))) {
+        assert.ok(block.includes(createHash('sha256').update(code, 'utf8').digest('base64')), n);
+      }
+    }
   });
 });

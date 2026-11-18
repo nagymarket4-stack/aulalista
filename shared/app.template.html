@@ -74,7 +74,7 @@
 <body>
 <header>
   <div class="logo">Aula<span>Lista</span></div>
-  <div class="plan"><span id="usage"></span><span class="pill" id="planPill">Plan Gratis</span></div>
+  <div class="plan"><span id="usage"></span><span class="pill" id="planPill">Plan Gratis</span><a id="manageSub" class="hidden" href="/api/portal" target="_blank" rel="noopener">Gestionar mi suscripción / cancelar</a></div>
 </header>
 
 <main>
@@ -488,7 +488,7 @@ if (typeof module !== 'undefined') module.exports = AulaMD;
   }
 
   async function refreshUsage(){
-    try { const u = await Engine.usage(); $('usage').textContent = u.label || ''; $('planPill').textContent = u.plan || 'Plan Gratis'; } catch(e){}
+    try { const u = await Engine.usage(); $('usage').textContent = u.label || ''; $('planPill').textContent = u.plan || 'Plan Gratis'; const m = $('manageSub'); if (u.manage) { m.href = u.manage; m.classList.remove('hidden'); } else m.classList.add('hidden'); } catch(e){}
   }
 
   Engine.init().then(info => {
