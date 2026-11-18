@@ -7,11 +7,15 @@
     "madrid"
   ],
   "indexacion": {
-    "_nota": "Una ficha de tema se indexa (entra en sitemap y lleva robots index) si su comunidad está en 'ccaa', su prioridad <= 'prioridadMax', (con 'unoPorCiclo') es el primer curso del tema dentro de su ciclo y (con 'exigirDiferencial') tiene contenido diferencial: porCiclo del ciclo y, en Canarias, curriculoCanarias del ciclo (saberes y criterio literales); fuera de Canarias, contextos de esa comunidad. O, siempre, si tiene un ejemplo revisado propio y 'siempreConEjemplo' es true. El resto se publica con noindex,follow. Los índices (comunidad, curso, área) se indexan cuando su comunidad está en 'ccaa'. Lote activo: 2 (Canarias, prioridad <= 2).",
+    "_nota": "Una ficha de tema se indexa (entra en sitemap y lleva robots index) si su comunidad está en 'ccaa', su prioridad <= 'prioridadMaxCCAA' de su comunidad (o 'prioridadMax' si no figura), (con 'unoPorCiclo') es el primer curso del tema dentro de su ciclo y (con 'exigirDiferencial') tiene contenido diferencial: porCiclo del ciclo y, en Canarias, curriculo.canarias del ciclo (saberes y criterio literales); fuera de Canarias, anclaje local (contextos de esa comunidad o tema propio de ella) y, si el área tiene currículo literal cargado en esa comunidad (Andalucía), curriculo.<ccaa> con criterio del curso. O, siempre, si tiene un ejemplo revisado propio y 'siempreConEjemplo' es true. El resto se publica con noindex,follow. Los índices (comunidad, curso, área) se indexan cuando su comunidad está en 'ccaa'. Lotes activos: Canarias lote 2 (prioridad <= 2) y Andalucía lote 1 (prioridad 1).",
     "ccaa": [
-      "canarias"
+      "canarias",
+      "andalucia"
     ],
     "prioridadMax": 2,
+    "prioridadMaxCCAA": {
+      "andalucia": 1
+    },
     "exigirDiferencial": true,
     "siempreConEjemplo": true,
     "unoPorCiclo": true
