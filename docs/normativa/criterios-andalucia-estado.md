@@ -1,6 +1,6 @@
 # Criterios de evaluación de Primaria en Andalucía: estado de la base RAG
 
-> Revisado el 18/11/2026 (2.ª pasada). Ficheros en `data/andalucia/primaria/*.json`. Fuente normativa: Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II. La Orden desarrolla el Decreto 101/2023, de 9 de mayo (BOJA n.º 90, de 15/05/2023).
+> Revisado el 18/11/2026 (3.ª pasada: saberes de Lengua, Conocimiento del Medio y Valores). Ficheros en `data/andalucia/primaria/*.json`. Fuente normativa: Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II. La Orden desarrolla el Decreto 101/2023, de 9 de mayo (BOJA n.º 90, de 15/05/2023).
 
 ## Fuente
 
@@ -29,14 +29,14 @@ Al extraer el texto del PDF, las tres columnas de saberes se mezclan. Se separar
 | Área (`area`) | Fichero | Comp. (con descriptores) | 1.er ciclo (1.º/2.º) | 2.º ciclo (3.º/4.º) | 3.er ciclo (5.º/6.º) | Total | Saberes (bloques/ítems por ciclo) | Págs. tablas |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Matemáticas | `matematicas.json` | 8 | 17/17 | 16/17 | 17/17 | 101 | 6/56 · 6/68 · 6/69 | 151-159 |
-| Conocimiento del Medio N., S. y C. | `conocimiento-del-medio-natural-social-y-cultural.json` | 9 | 22/22 | 22/22 | 23/23 | 134 | pendiente | 38-53 |
-| Lengua Castellana y Literatura | `lengua-castellana-y-literatura.json` | 10 | 22/22 | 22/22 | 22/22 | 132 | pendiente | 103-117 |
+| Conocimiento del Medio N., S. y C. | `conocimiento-del-medio-natural-social-y-cultural.json` | 9 | 22/22 | 22/22 | 23/23 | 134 | 3/44 · 3/48 · 3/49 | 38-53 |
+| Lengua Castellana y Literatura | `lengua-castellana-y-literatura.json` | 10 | 22/22 | 22/22 | 22/22 | 132 | 4/28 · 4/30 · 4/32 | 103-117 |
 | Lengua Extranjera | `lengua-extranjera.json` | 6 | 13/13 | 15/15 | 15/15 | 86 | pendiente | 126-136 |
 | Educación Artística | `educacion-artistica.json` | 4 | 10/10 | 10/10 | 11/11 | 62 | pendiente | 61-67 |
 | Educación Física | `educacion-fisica.json` | 5 | 14/14 | 14/14 | 14/14 | 84 | pendiente | 77-85 |
-| Educación en Valores Cívicos y Éticos | `educacion-en-valores-civicos-y-eticos.json` | 4 | — | — | —/13 (solo 6.º) | 13 | pendiente | 91-92 |
+| Educación en Valores Cívicos y Éticos | `educacion-en-valores-civicos-y-eticos.json` | 4 | — | — | —/13 (solo 6.º) | 13 | 3/25 (solo 3.er ciclo) | 91-92 |
 | Segunda Lengua Extranjera | `segunda-lengua-extranjera.json` | 6 | — | — | 26 (los del 1.er ciclo de LE) | 26 | — | 126-129 |
-| **Total** | | **52** | | | | **612 criterios distintos** (más 26 derivados) | 193 ítems | |
+| **Total** | | **52** | | | | **612 criterios distintos** (más 26 derivados) | 449 ítems | |
 
 Notas a la tabla:
 
@@ -98,6 +98,14 @@ Notas a la tabla:
   - EF 3.er ciclo 4.1.a, «cultura andaluza andaluza»; 2.2.a, «colaboración oposición»;
   - Valores 3.1, «argumalmente» (reconsultado: así figura);
   - Matemáticas C7, «la la perseverancia» (no se sabe si la duplicación viene del original o del extractor).
-- **Saberes básicos pendientes** en Conocimiento del Medio (págs. 31-38), Lengua (~95-102), Lengua Extranjera (123-125), Artística (57-60), Educación Física (72-76) y Valores.
-  - Método probado con Matemáticas: pedir un ciclo y 2-3 bloques por consulta, separando por código.
+- **Saberes básicos (3.ª pasada).** Extraídos en Lengua Castellana y Literatura, Conocimiento del Medio y Valores, con el mismo método que en Matemáticas: un ciclo y 2-3 bloques por consulta, separando por código.
+  - **Lengua:** los bloques A, C y D numeran los ítems directamente (`LCL.1.A.1.`), sin subapartados, así que van en `bloque.items`.
+  - **Valores:** solo hay columna de TERCER CICLO (códigos `VCE.3.…`). Los ítems van directamente bajo cada bloque.
+  - **Conocimiento del Medio:** es la sección más intercalada del BOJA y la primera que hay que cotejar.
+    - `CMN.2.C.1.4` («Retos demográficos.») no tiene cuerpo en el texto extraído.
+    - `CMN.2.A.3.1` parece mezclar dos columnas.
+    - `CMN.3.C.2.5` se completó con «cuidado y conservación.» por indicación del extractor.
+    - Queda sin ubicar un fragmento suelto («Movilidad segura, saludable y sostenible como peatones…»).
+    - Códigos con errata literal del BOJA, conservados: `CMN.1.C4.`, `CMN.2.A3.`, `CMN.2.C1.`, `CMN.3.B2.`, `CMN.3.C3.`.
+- **Saberes pendientes:** Lengua Extranjera (págs. 123-125), Educación Artística (57-60) y Educación Física (72-76). Segunda Lengua Extranjera heredaría los del 1.er ciclo de Lengua Extranjera.
 - **Vinculación saber-competencia** (4.ª columna de las tablas): no se ha extraído.

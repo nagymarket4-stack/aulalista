@@ -372,14 +372,211 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
-    "El BOCM trae una tabla única para toda la etapa, sin cursos asignados; se replica en los tres ciclos (área que el centro puede ofertar en uno o varios cursos, art. 7.4)."
+    "El BOCM trae una tabla única para toda la etapa, sin cursos asignados; se replica en los tres ciclos (área que el centro puede ofertar en uno o varios cursos, art. 7.4).",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos: bloques A-F únicos para la etapa, replicados en los tres ciclos. El BOCM repite la cabecera «BLOQUES CONOCIMIENTOS, DESTREZAS Y ACTITUDES» antes del bloque D (salto de página)."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Pensamiento computacional",
+        "apartados": [],
+        "items": [
+          "Iniciación a la programación a través de recursos analógicos (actividades desenchufadas) y de recursos digitales (plataformas digitales de programación por bloques) adaptados al nivel lector del alumnado.",
+          "Interpretación y ejecución de algoritmos sencillos (rutinas, instrucciones con pasos ordenados, reglas de juegos, instrucciones, secuencias, patrones repetitivos, programación por bloques).",
+          "Fundamentos de la programación: bucles, condicionales, operadores, mensajes, variables, funciones, eventos, depuración (debugging).",
+          "Extensiones de programación por bloques y aplicación a la robótica educativa (música, dibujo, sensor de vídeo, texto a voz, traductor…).",
+          "Fases del pensamiento computacional: Descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución del problema.",
+          "Proceso de modelización de forma guiada (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana.",
+          "Mostrar interés por el pensamiento computacional participando en la resolución de problemas de programación.",
+          "Estrategias básicas de trabajo en equipo."
+        ]
+      },
+      {
+        "bloque": "B. Mecánica–Ingeniería (Diseño)",
+        "apartados": [],
+        "items": [
+          "Herramientas y útiles necesarios para la fabricación y montaje de artefactos. Funcionamiento de engranajes y poleas.",
+          "Técnicas de diseño y fabricación manual y mecánica.",
+          "Técnicas de diseño y fabricación digital. Impresión 3D y corte.",
+          "Herramientas de diseño asistido por dispositivo tecnológico, para la representación en 2D y 3D y/o fabricación de piezas aplicadas a proyectos.",
+          "Diseño y construcción de robots sencillos.",
+          "Técnicas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos. Respeto de las normas y cuidado en el uso de las herramientas."
+        ]
+      },
+      {
+        "bloque": "C. Electricidad",
+        "apartados": [],
+        "items": [
+          "Electricidad y electrónica básica: cables y conectores, actuadores, circuitos, sensores, motores, baterías (fuentes de energía).",
+          "Energía y movimiento. Energías renovables y su influencia en la contribución al desarrollo de la sociedad.",
+          "Primeros diseños y aplicación en proyectos.",
+          "Fomento de la curiosidad, interés, motivación e iniciativa en el desarrollo y la realización de las actividades."
+        ]
+      },
+      {
+        "bloque": "D. Inteligencia artificial (IA)",
+        "apartados": [],
+        "items": [
+          "La inteligencia artificial como respuesta del aprendizaje a través de la obtención de datos y creación de patrones. Principios para la utilización de la IA.",
+          "Estrategias para el aprendizaje automático o aprendizaje de las máquinas.",
+          "Uso de aplicaciones informáticas sencillas para ordenador y dispositivos móviles e introducción a la inteligencia artificial."
+        ]
+      },
+      {
+        "bloque": "E. Internet de las cosas (IoT)",
+        "apartados": [],
+        "items": [
+          "Funcionamiento de la red. Reglas básicas para la utilización de los recursos de forma segura y eficiente trabajando de forma individual, en equipo y en red y estrategias para resolver problemas en la comunicación digital.",
+          "Dispositivos conectables. Pautas para la instalación de dispositivos que puedan conectarse entre sí y controlarse de forma centralizada desde un ordenador, tablet o móvil.",
+          "Sistemas de control programado y uso de simuladores y dispositivos."
+        ]
+      },
+      {
+        "bloque": "F. Realidad virtual o aumentada",
+        "apartados": [],
+        "items": [
+          "Uso de aplicaciones y software específico que permita recrear la realidad y dar vida a los objetos para su estudio.",
+          "Iniciación a la edición y creación de códigos QR o contenidos con realidad aumentada.",
+          "Desarrollo de marcadores para aplicaciones de realidad virtual, aumentada y mixta."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Pensamiento computacional",
+        "apartados": [],
+        "items": [
+          "Iniciación a la programación a través de recursos analógicos (actividades desenchufadas) y de recursos digitales (plataformas digitales de programación por bloques) adaptados al nivel lector del alumnado.",
+          "Interpretación y ejecución de algoritmos sencillos (rutinas, instrucciones con pasos ordenados, reglas de juegos, instrucciones, secuencias, patrones repetitivos, programación por bloques).",
+          "Fundamentos de la programación: bucles, condicionales, operadores, mensajes, variables, funciones, eventos, depuración (debugging).",
+          "Extensiones de programación por bloques y aplicación a la robótica educativa (música, dibujo, sensor de vídeo, texto a voz, traductor…).",
+          "Fases del pensamiento computacional: Descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución del problema.",
+          "Proceso de modelización de forma guiada (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana.",
+          "Mostrar interés por el pensamiento computacional participando en la resolución de problemas de programación.",
+          "Estrategias básicas de trabajo en equipo."
+        ]
+      },
+      {
+        "bloque": "B. Mecánica–Ingeniería (Diseño)",
+        "apartados": [],
+        "items": [
+          "Herramientas y útiles necesarios para la fabricación y montaje de artefactos. Funcionamiento de engranajes y poleas.",
+          "Técnicas de diseño y fabricación manual y mecánica.",
+          "Técnicas de diseño y fabricación digital. Impresión 3D y corte.",
+          "Herramientas de diseño asistido por dispositivo tecnológico, para la representación en 2D y 3D y/o fabricación de piezas aplicadas a proyectos.",
+          "Diseño y construcción de robots sencillos.",
+          "Técnicas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos. Respeto de las normas y cuidado en el uso de las herramientas."
+        ]
+      },
+      {
+        "bloque": "C. Electricidad",
+        "apartados": [],
+        "items": [
+          "Electricidad y electrónica básica: cables y conectores, actuadores, circuitos, sensores, motores, baterías (fuentes de energía).",
+          "Energía y movimiento. Energías renovables y su influencia en la contribución al desarrollo de la sociedad.",
+          "Primeros diseños y aplicación en proyectos.",
+          "Fomento de la curiosidad, interés, motivación e iniciativa en el desarrollo y la realización de las actividades."
+        ]
+      },
+      {
+        "bloque": "D. Inteligencia artificial (IA)",
+        "apartados": [],
+        "items": [
+          "La inteligencia artificial como respuesta del aprendizaje a través de la obtención de datos y creación de patrones. Principios para la utilización de la IA.",
+          "Estrategias para el aprendizaje automático o aprendizaje de las máquinas.",
+          "Uso de aplicaciones informáticas sencillas para ordenador y dispositivos móviles e introducción a la inteligencia artificial."
+        ]
+      },
+      {
+        "bloque": "E. Internet de las cosas (IoT)",
+        "apartados": [],
+        "items": [
+          "Funcionamiento de la red. Reglas básicas para la utilización de los recursos de forma segura y eficiente trabajando de forma individual, en equipo y en red y estrategias para resolver problemas en la comunicación digital.",
+          "Dispositivos conectables. Pautas para la instalación de dispositivos que puedan conectarse entre sí y controlarse de forma centralizada desde un ordenador, tablet o móvil.",
+          "Sistemas de control programado y uso de simuladores y dispositivos."
+        ]
+      },
+      {
+        "bloque": "F. Realidad virtual o aumentada",
+        "apartados": [],
+        "items": [
+          "Uso de aplicaciones y software específico que permita recrear la realidad y dar vida a los objetos para su estudio.",
+          "Iniciación a la edición y creación de códigos QR o contenidos con realidad aumentada.",
+          "Desarrollo de marcadores para aplicaciones de realidad virtual, aumentada y mixta."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Pensamiento computacional",
+        "apartados": [],
+        "items": [
+          "Iniciación a la programación a través de recursos analógicos (actividades desenchufadas) y de recursos digitales (plataformas digitales de programación por bloques) adaptados al nivel lector del alumnado.",
+          "Interpretación y ejecución de algoritmos sencillos (rutinas, instrucciones con pasos ordenados, reglas de juegos, instrucciones, secuencias, patrones repetitivos, programación por bloques).",
+          "Fundamentos de la programación: bucles, condicionales, operadores, mensajes, variables, funciones, eventos, depuración (debugging).",
+          "Extensiones de programación por bloques y aplicación a la robótica educativa (música, dibujo, sensor de vídeo, texto a voz, traductor…).",
+          "Fases del pensamiento computacional: Descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución del problema.",
+          "Proceso de modelización de forma guiada (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana.",
+          "Mostrar interés por el pensamiento computacional participando en la resolución de problemas de programación.",
+          "Estrategias básicas de trabajo en equipo."
+        ]
+      },
+      {
+        "bloque": "B. Mecánica–Ingeniería (Diseño)",
+        "apartados": [],
+        "items": [
+          "Herramientas y útiles necesarios para la fabricación y montaje de artefactos. Funcionamiento de engranajes y poleas.",
+          "Técnicas de diseño y fabricación manual y mecánica.",
+          "Técnicas de diseño y fabricación digital. Impresión 3D y corte.",
+          "Herramientas de diseño asistido por dispositivo tecnológico, para la representación en 2D y 3D y/o fabricación de piezas aplicadas a proyectos.",
+          "Diseño y construcción de robots sencillos.",
+          "Técnicas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos. Respeto de las normas y cuidado en el uso de las herramientas."
+        ]
+      },
+      {
+        "bloque": "C. Electricidad",
+        "apartados": [],
+        "items": [
+          "Electricidad y electrónica básica: cables y conectores, actuadores, circuitos, sensores, motores, baterías (fuentes de energía).",
+          "Energía y movimiento. Energías renovables y su influencia en la contribución al desarrollo de la sociedad.",
+          "Primeros diseños y aplicación en proyectos.",
+          "Fomento de la curiosidad, interés, motivación e iniciativa en el desarrollo y la realización de las actividades."
+        ]
+      },
+      {
+        "bloque": "D. Inteligencia artificial (IA)",
+        "apartados": [],
+        "items": [
+          "La inteligencia artificial como respuesta del aprendizaje a través de la obtención de datos y creación de patrones. Principios para la utilización de la IA.",
+          "Estrategias para el aprendizaje automático o aprendizaje de las máquinas.",
+          "Uso de aplicaciones informáticas sencillas para ordenador y dispositivos móviles e introducción a la inteligencia artificial."
+        ]
+      },
+      {
+        "bloque": "E. Internet de las cosas (IoT)",
+        "apartados": [],
+        "items": [
+          "Funcionamiento de la red. Reglas básicas para la utilización de los recursos de forma segura y eficiente trabajando de forma individual, en equipo y en red y estrategias para resolver problemas en la comunicación digital.",
+          "Dispositivos conectables. Pautas para la instalación de dispositivos que puedan conectarse entre sí y controlarse de forma centralizada desde un ordenador, tablet o móvil.",
+          "Sistemas de control programado y uso de simuladores y dispositivos."
+        ]
+      },
+      {
+        "bloque": "F. Realidad virtual o aumentada",
+        "apartados": [],
+        "items": [
+          "Uso de aplicaciones y software específico que permita recrear la realidad y dar vida a los objetos para su estudio.",
+          "Iniciación a la edición y creación de códigos QR o contenidos con realidad aumentada.",
+          "Desarrollo de marcadores para aplicaciones de realidad virtual, aumentada y mixta."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

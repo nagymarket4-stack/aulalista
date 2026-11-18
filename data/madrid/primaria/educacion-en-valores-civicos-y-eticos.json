@@ -111,15 +111,62 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "Se imparte en 5.º curso (tabla única, guardada en el 3.er ciclo).",
-    "C2: «una convivencia, justa, respetuosa y pacífica»; 2.5: «los organismos internaciones»; 4.1: «valorando los de otras personas», tal como se extrajeron."
+    "C2: «una convivencia, justa, respetuosa y pacífica»; 2.5: «los organismos internaciones»; 4.1: «valorando los de otras personas», tal como se extrajeron.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos (5.º): en el BOCM cada ítem con guion continúa en líneas sin guion; se han unido al ítem que las precede."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "tercer": [
+      {
+        "bloque": "A. Conocimiento y autonomía personal",
+        "apartados": [],
+        "items": [
+          "El pensamiento crítico. El conocimiento de sí mismo. La reflexión y la expresión de los pensamientos.",
+          "La naturaleza humana y la identidad personal. Igualdad y diferencia entre las personas.",
+          "La libertad y el determinismo.",
+          "Emociones y sentimientos. La autoestima.",
+          "La educación afectivo-sexual.",
+          "Deseos y razones. La voluntad y el juicio moral. Autonomía y responsabilidad. Capacidades y talento. La motivación. El esfuerzo y afán de superación. La responsabilidad. El trabajo en equipo. El deseo de colaboración.",
+          "La ética como guía de nuestras acciones. El debate en torno a lo valioso y a los valores. Capacidad de expresar opiniones escuchando y respetando a los demás. Las normas, las virtudes y los sentimientos morales.",
+          "La dimensión trascendente del ser humano. El hecho religioso o su ausencia. El sentido de la vida y reflexión sobre la muerte. El bien y el mal. La belleza y la felicidad. La búsqueda de la verdad; la mentira. La salud, la enfermedad y la ética científica. Acercamiento a las raíces morales de Occidente y de otras culturas.",
+          "El propio proyecto personal: la diversidad de valores, fines y modelos de vida. Independencia de criterio en la toma de decisiones. Actitud positiva y capacidad de diálogo en la búsqueda de soluciones a situaciones conflictivas.",
+          "La influencia y el uso crítico y responsable de los medios y las redes de comunicación. La prevención del abuso y el ciberacoso. El respeto a la intimidad. Los límites a la libertad de expresión. Las conductas adictivas."
+        ]
+      },
+      {
+        "bloque": "B. Sociedad, justicia y democracia",
+        "apartados": [],
+        "items": [
+          "Las virtudes del diálogo y las normas de la argumentación. La toma democrática de decisiones.",
+          "Fundamentos de la vida en sociedad. La empatía con los demás. Los afectos. La familia. La amistad y el amor. El cuidado a las personas mayores.",
+          "Las reglas de convivencia. Moralidad, legalidad y conducta cívica. El papel de las fuerzas y agentes de seguridad.",
+          "Principios y valores constitucionales y democráticos. El problema de la justicia. La toma democrática de decisiones. La Constitución española de 1978. Derechos y deberes reconocidos a los españoles. El terrorismo. El Estado de Bienestar. El respeto a los bienes públicos. Los impuestos.",
+          "El Estado de Derecho como garantía para la democracia y la libertad.",
+          "Los derechos humanos y de la infancia y su relevancia ética.",
+          "La desigualdad económica. La pobreza y la explotación. Espíritu de trabajo y colaboración.",
+          "La igualdad entre mujeres y hombres. La prevención de los abusos y la violencia. Impulso de la conducta no discriminatoria, igualitaria y libre.",
+          "El respeto por las minorías y las identidades de diferentes culturas. Interculturalidad y migraciones. Relación con los demás. Tolerancia. Aceptación del otro. Desarrollo de habilidades sociales. El respeto a la libertad individual. La libertad de pensamiento, de conciencia, de religión, de opinión y de expresión. La superación de los prejuicios sociales.",
+          "La paz y no violencia. La contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional. La seguridad del ciudadano. Valoración de la defensa como un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración ciudadana frente a los desastres. El papel de las ONG y ONGD. La resolución pacífica de los conflictos."
+        ]
+      },
+      {
+        "bloque": "C. Cuidado del medio ambiente",
+        "apartados": [],
+        "items": [
+          "La empatía, el cuidado y el aprecio hacia los seres vivos y el medio natural. El maltrato animal y su prevención. El respeto a los bienes de la naturaleza. El respeto y protección a los animales en general y particularmente los que viven en entornos domésticos.",
+          "La acción humana en la naturaleza. Ecosistemas y sociedades: interdependencia, relación entre seres vivos y ecosistemas e interrelación.",
+          "Los límites del planeta y el cambio climático.",
+          "El deber y la obligación legal de proteger y cuidar del planeta.",
+          "Hábitos y actividades para el logro de los Objetivos de Desarrollo Sostenible. El consumo adecuado. El uso del suelo, del aire, del agua y de la energía. La movilidad segura, saludable y responsable con el medio ambiente. La prevención y la gestión de los residuos."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

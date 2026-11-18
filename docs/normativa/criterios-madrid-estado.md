@@ -1,6 +1,6 @@
 # Criterios de evaluación de Primaria en la Comunidad de Madrid: estado de la base RAG
 
-> Revisado el 18/11/2026 (2.ª pasada: contenidos de Matemáticas y repaso de guiones). Ficheros en `data/madrid/primaria/*.json`. Fuente normativa: Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II.
+> Revisado el 18/11/2026 (3.ª pasada: contenidos de 8 áreas). Ficheros en `data/madrid/primaria/*.json`. Fuente normativa: Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II.
 
 ## Fuente
 
@@ -38,11 +38,31 @@
 - Ningún criterio está en `null`. En casi todas las áreas y ciclos se pidió aparte la lista de números de criterio antes de transcribir, y cuadra con los textos obtenidos.
 - **`verificado: false` en las 10 áreas.**
 - `bloques: {}`: Madrid no tiene «bloques competenciales» como Canarias.
-- **Contenidos (saberes).** Extraídos solo en **Matemáticas** (2.ª pasada, 18/11/2026). Por ciclo tienen 6 bloques: 39 ítems en el 1.º, 64 en el 2.º y 57 en el 3.º.
-  - Estructura real del BOCM: un bloque por letra («A. Números y operaciones»…). Dentro, subtítulos sin numerar («Conteo», «Cantidad»…) y, debajo, ítems con guion.
-  - Se guardan como `saberes.<ciclo> = [{bloque, apartados:[{apartado, items}]}]`, con los ítems sin el guion.
+- **Contenidos (saberes).** Extraídos del BOCM a `saberes.<ciclo>` con la estructura real:
+  - un bloque por letra («A. …»);
+  - subtítulos sin numerar como `apartados`, cuando los hay;
+  - ítems sin el guion. Si un bloque no tiene subtítulos, sus ítems van en `bloque.items`.
   - Madrid no numera los contenidos y los organiza por ciclo, no por curso.
-  - En el resto de áreas, `saberes: {}`: pendiente.
+
+  Ítems por ciclo:
+
+| Área | 1.er ciclo | 2.º ciclo | 3.er ciclo |
+| --- | --- | --- | --- |
+| Matemáticas | 39 | 64 | 57 |
+| Lengua Castellana y Literatura | 29 | 36 | 34 |
+| Ciencias de la Naturaleza | 42 | 37 | 34 |
+| Ciencias Sociales | 21 | 32 | 38 |
+| Educación Física | 28 | 28 | 31 |
+| Educación Artística | 35 | pendiente | pendiente |
+| Valores Cívicos y Éticos (5.º) | — | — | 25 |
+| Segunda Lengua Extranjera (etapa, bloques A-C) | 21 | 21 | 21 |
+| Tecnología y Robótica (etapa) | 27 | 27 | 27 |
+| Lengua Extranjera: Inglés | pendiente | pendiente | pendiente |
+
+  Particularidades de estructura, anotadas en el `pendiente` de cada JSON:
+  - **Ciencias de la Naturaleza y Ciencias Sociales:** subtítulos y subítems sin guion intercalados. Se guardan en orden como ítems del apartado.
+  - **Educación Artística:** «BLOQUE I: Música y danza» y «BLOQUE II: Educación plástica y visual», cada uno con apartados A-C.
+  - **Segunda Lengua Extranjera:** el bloque D (sintáctico-discursivo por idioma, págs. 118-120) no se ha extraído.
 
 ## Método
 
@@ -79,8 +99,9 @@
   - Valores 2.5, «organismos internaciones»;
   - SLE 5.3, «una segunda extranjera»;
   - Artística 3.er ciclo 4.4, «considerado su madurez».
-- **Contenidos sin extraer** en 9 de las 10 áreas.
-  - Método probado con Matemáticas: pedir dos bloques por consulta, «marcando los ítems con guion». Salen unas 2 consultas por ciclo.
-  - Página donde empieza cada «CONTENIDOS», según el mapa del extractor: CS 43, 45 y 48; Artística 51, 54 y 57; EF 62, 65 y 68; LCL 73, 77 y 81; Inglés 86, 89 y 93; Valores 112; SLE 116 (y 118-120 por idioma); TyR 124. En CN no se ha mapeado: está entre las págs. 33 y 41.
+- **Contenidos pendientes:**
+  - Inglés: págs. 86, 89-90 y 93-95.
+  - Artística, 2.º y 3.er ciclo: págs. 54-56 y 57-60. El extractor se negó a citar el bloque completo; habrá que pedirlo por secciones A, B y C.
+  - Bloque D de Segunda Lengua Extranjera.
 - **Segmentación de ítems en los contenidos de Matemáticas del 1.er ciclo** (bloques C-F): el extractor no mostró los guiones, así que los ítems se separaron por frases completas. Hay que cotejarlo.
 - **Inyección en el prompt.** Resuelto por el coordinador: `curriculoDe` ya tiene en cuenta `verificado` y filtra por `curso`. Con `verificado:false`, la cabecera inyectada avisa de que la transcripción está «pendiente de cotejo final».

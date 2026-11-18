@@ -522,17 +522,238 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "Los enunciados de C1, C6, C7 y C9 cambian ligeramente según el ciclo (ver ciclos.<ciclo>.enunciados_ciclo); las diferencias son de una palabra o una coma y pueden ser fallos de extracción.",
     "C10 es mucho más corta que en el RD 157/2022 («…al servicio de la convivencia utilizando un lenguaje adecuado y eficaz.»); se reconsultó y dio el mismo texto.",
     "1.er ciclo 9.2: «terminología de la lengua básica adecuada» (reconsultado, mismo resultado).",
-    "2.º ciclo 2.1: «y avanzando, en la valoración crítica» y 5.1: «de manera acompañada, en la movilización de estrategias» (se reconsultó 5.1: sin «progresando»). Posibles erratas del BOCM o del extractor."
+    "2.º ciclo 2.1: «y avanzando, en la valoración crítica» y 5.1: «de manera acompañada, en la movilización de estrategias» (se reconsultó 5.1: sin «progresando»). Posibles erratas del BOCM o del extractor.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Bloque A de los tres ciclos y bloques C y D: ítems directamente bajo el bloque (sin subtítulos), guardados en bloque.items. 3.er ciclo C: «posibilidades del lenguaje El uso» (sin punto) y D: «Los signos de puntuación ( el punto…», tal como se extrajeron."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes",
+        "apartados": [],
+        "items": [
+          "Biografía de la lengua personal, reflexión sobre el mapa de lenguas del aula y la pluralidad de lenguas existentes.",
+          "La diversidad cultural y de las lenguas como riqueza y herramienta de reflexión interlingüística mostrando actitudes de respeto.",
+          "Identificación, con acompañamiento, de prejuicios sobre las lenguas. Identificación de modelos positivos.",
+          "Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación",
+        "apartados": [
+          {
+            "apartado": "Contexto",
+            "items": [
+              "Incidencia de los componentes (situación, participantes, intención) en el acto comunicativo; durante las conversaciones, proponiendo temas, aportando opiniones, respondiendo a preguntas y respetando los turnos de palabra y los puntos de vista de los demás."
+            ]
+          },
+          {
+            "apartado": "Géneros discursivos",
+            "items": [
+              "Tipologías textuales e intención comunicativa: la narración (de cuentos, sucesos, anécdotas o experiencias vividas de manera comprensible y estructurada, utilizando de forma adecuada los tiempos verbales), la descripción (de ilustraciones, fotografías, imágenes, objetos, personas, animales, lugares o escenas del mundo real y de ficción) y el diálogo.",
+              "Propiedades textuales: estrategias elementales para la coherencia y la cohesión.",
+              "Géneros discursivos propios del ámbito personal y educativo. Contenido y forma."
+            ]
+          },
+          {
+            "apartado": "Procesos",
+            "items": [
+              "Interacción oral: interacción oral adecuada en contextos informales o en situaciones en el aula, escucha activa, la asertividad, la resolución de conflictos mediante el diálogo y la cortesía del lenguaje. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas, para hacer sugerencias o peticiones, pedir o agradecer ayuda, manifestar una queja, formular deseos, expresar alegría o tristeza, saludar o despedirse.",
+              "Comprensión oral: identificación de las ideas más relevantes, análisis de los mensajes e interpretación del sentido global. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal. Identificación de los elementos básicos de la comunicación no verbal (postura, gestos, expresión facial, contacto visual).",
+              "Producción oral: Interés por expresarse oralmente con corrección y claridad, utilizando una pronunciación y entonación adecuadas y formulando correctamente las preguntas. Ampliación del vocabulario. Actitud postural. Construcción y comunicación de conocimiento mediante la planificación y producción de textos orales y multimodales sencillos (descripciones, relatos e informaciones). La fantasía y la libertad del escritor y del artista.",
+              "Comprensión lectora: estrategias elementales de comprensión lectora antes, durante y después de la lectura. Identificación del argumento, del contexto en el que sucede la narración, de las ideas más relevantes e interpretación del sentido global. Identificación de elementos gráficos y paratextuales (ilustraciones, imágenes, colores, variaciones tipográficas etc.) al servicio de la comprensión. Lectura compartida y expresiva con entonación y ritmo de acuerdo al nivel madurativo, iniciándose en el respeto a algunos signos de puntuación (punto, coma, signos de admiración y de interrogación). Detección de usos claramente discriminatorios del lenguaje verbal y no verbal. Identificación de modelos positivos.",
+              "Producción escrita: Ortografía natural y convenciones del código escrito en copias, dictados o textos de creación autónoma, (linealidad y direccionalidad de la escritura. Estrategias elementales para la iniciación en el reconocimiento de algunas reglas ortográficas: uso de mayúsculas, signos de puntuación, etc.). Coherencia textual. Cuidado en la presentación de las producciones y de los materiales con los que se trabaja.",
+              "Estrategias elementales, individuales o grupales, de planificación, textualización, revisión y autocorrección de textos. Dibujar lo que se lee, escribir lo que se ve. Uso de elementos gráficos y paratextuales elementales. Escritura en soporte digital acompañada.",
+              "Alfabetización mediática e informacional: estrategias elementales para la búsqueda guiada de información sencilla en fuentes documentales variadas y con distintos soportes y formatos. Pensamiento analítico y crítico para valorar la calidad y utilidad de la información recabada y comunicación de la información. Reconocimiento de autoría, respeto por las producciones ajenas. Uso guiado de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria",
+        "apartados": [],
+        "items": [
+          "Lectura guiada de obras o fragmentos variados y diversos de la literatura infantil adecuados a sus intereses y organizados en itinerarios lectores.",
+          "Estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, personajes, argumento, espacio) y la construcción acompañada del sentido de la obra.",
+          "Relación de los textos leídos y otras manifestaciones artísticas y culturales.",
+          "Inicio de la construcción de los itinerarios lectores individuales. Estrategias para la expresión de gustos e intereses.",
+          "Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "Creación guiada y de acuerdo a su nivel, de textos de intención literaria (cuentos, poemas…), de textos asociados a imágenes como: anuncios, carteles, cómics, chistes, con una función concreta: informar, narrar, describir, animar a una determinada acción…, a partir de pautas o modelos dados, utilizando los recursos léxicos, sintácticos, fónicos y rítmicos. Estrategias para la revisión de las producciones propias, ya sean resultado de copias o dictados o de creaciones autónomas.",
+          "Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas. Los libros ilustrados como fuente de disfrute y de aprendizaje de la lectura, y su conexión con la realidad, con la fantasía y con las demás artes."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+        "apartados": [],
+        "items": [
+          "Establecimiento de generalizaciones sobre aspectos de la lengua elementales, prestando especial atención a la existencia de distintos tipos de palabras (sustantivo, verbo, adjetivo) y a las relaciones de concordancia de género y que se establecen entre algunas de ellas, utilizando el metalenguaje específico básico.",
+          "Diferencias elementales entre lengua oral y lengua escrita. Los sonidos y su escritura. Correspondencias regulares entre fonema y grafía en el ámbito de la ortografía fonética o natural (/k/, /z/, /g/, /r/). Palabras sencillas que contienen los grupos inseparables /bl-/ y /br-/ y los grupos /m.b/ y /n.v/.",
+          "Procedimientos elementales de adquisición de vocabulario. Reflexión contextualizada sobre la relación de significado (polisemia, sinónima y antonimia) entre unas palabras y otras. Clases de palabras y concordancia.",
+          "Relación entre intención comunicativa y modalidad oracional.",
+          "Mecanismos elementales de coherencia y cohesión textual, con especial atención a los conectores temporales referidos a hechos o circunstancias en presente, pasado o futuro.",
+          "Signos básicos de puntuación como mecanismo para organizar el texto escrito. La utilidad del punto y sus implicaciones ortográficas. Identificación y uso elemental de la coma en las enumeraciones, y de los signos de interrogación y exclamación."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes",
+        "apartados": [],
+        "items": [
+          "Biografía de la lengua personal y reflexión sobre el mapa de las lenguas del centro y la pluralidad de lenguas existentes.",
+          "La diversidad cultural y del lenguaje como riqueza y herramienta de reflexión, mostrando actitudes de respeto.",
+          "Identificación de prejuicios sobre las lenguas.",
+          "Uso de un lenguaje no discriminatorio y respetuoso con las diferencias. Identificación de modelos positivos."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación",
+        "apartados": [
+          {
+            "apartado": "Contexto",
+            "items": [
+              "Incidencia de los componentes (situación, participantes, propósito comunicativo, canal) en el acto comunicativo, durante la participación en conversaciones y coloquios, expresando con orden y coherencia opiniones propias, escuchando las de los demás, dando explicaciones y siguiendo las normas establecidas para una correcta comunicación."
+            ]
+          },
+          {
+            "apartado": "Géneros discursivos",
+            "items": [
+              "Tipologías textuales: la narración de acontecimientos, historias, procesos sencillos, etc., la descripción, gradualmente más detallada de objetos, lugares, escenas, etc., el diálogo y la exposición de hechos, experiencias personales o temas cercanos o del entorno, previamente preparados.",
+              "Propiedades textuales: estrategias básicas para la coherencia y la cohesión.",
+              "Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma."
+            ]
+          },
+          {
+            "apartado": "Procesos",
+            "items": [
+              "Interacción oral: interacción oral adecuada (orden y coherencia al exponer opiniones e ideas) en contextos formales e informales, para hacer peticiones, resolver dudas, solicitar repeticiones, agradecer una colaboración, tomar el turno de palabra, formular deseos, etc., mediante la escucha activa, la asertividad, la resolución de conflictos mediante el diálogo y la cortesía. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas mostrando actitudes de respeto hacia los diferentes interlocutores.",
+              "Comprensión oral: identificación de las ideas más relevantes, análisis de los mensajes e interpretación del sentido global realizando las inferencias necesarias. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal. Identificación de modelos positivos.",
+              "Estrategias de interpretación de elementos básicos de la comunicación no verbal (postura, gestos, expresión facial, contacto visual) durante los procesos de interacción y comprensión.",
+              "Producción oral: elementos básicos de la prosodia (pausas, pronunciación, entonación adecuada…) y de la comunicación no verbal. Construcción, comunicación y valoración de conocimiento mediante la planificación y producción de textos orales y multimodales para relatar acontecimientos o sucesos, inventar o modificar historias, resumir textos escuchados, expresar opiniones sobre temas cercanos, responder a preguntas, etc. Adecuación de la expresión a la intención, teniendo en cuenta al interlocutor y el asunto a tratar.",
+              "Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes, resumen del argumento, análisis del contexto, relación entre las ilustraciones y el contenido del texto, reconocimiento del vocabulario e interpretación del sentido global, realizando las inferencias necesarias. Identificación de elementos gráficos y paratextuales (ilustraciones, diseños, colores, fotografías, variaciones tipográficas, infografías, etc.) al servicio de la comprensión.",
+              "Lectura compartida y entonada. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal. Identificación de modelos positivos.",
+              "Lectura individual de textos breves, narrativos, poéticos…con entonación, fluidez, ritmo y respeto hacia los signos de puntuación (punto, coma, punto y coma, puntos suspensivos, signos de admiración e interrogación).",
+              "Producción escrita: convenciones del código escrito y ortografía reglada básica en copias, dictados o textos de creación autónoma. Coherencia y cohesión textual. Presentación cuidada (limpieza, claridad, precisión y orden en los escritos).",
+              "Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección de textos sencillos con distintos propósitos comunicativos (cartas, noticias, invitaciones, formularios, textos narrativos como biografías, diarios personales, cuentos, etc.). Uso de elementos gráficos y paratextuales básicos al servicio de la comprensión y la organización del texto. Escritura en soporte digital acompañada.",
+              "Estrategias básicas para el uso de fuentes documentales diversas, en diferentes formatos, incluidos los digitales, para mejorar la comprensión y la producción de los textos.",
+              "Alfabetización mediática e informacional: estrategias básicas para la organización, comparación, reelaboración y búsqueda guiada de información (acceso a las fuentes adecuadas, búsqueda y recuperación de la información, discriminación de la información válida de la no válida, etc.) en fuentes documentales variadas y con distintos soportes y formatos. Reconocimiento de autoría y respeto hacia las producciones ajenas. Comparación y comunicación creativa de la información. Uso de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria",
+        "apartados": [],
+        "items": [
+          "Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil, adecuados a sus intereses y organizados en itinerarios lectores.",
+          "Estrategias básicas para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+          "Análisis guiado de los recursos expresivos y sus efectos en la recepción del texto.",
+          "Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+          "Construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses e iniciación a la valoración argumentada de las obras.",
+          "Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo empleando recursos lingüísticos y no lingüísticos (voz, cuerpo, movimiento).",
+          "Creación guiada y de acuerdo a su nivel, de textos de intención literaria de manera libre (cuentos, poemas…), y de textos asociados a imágenes como: anuncios, carteles, cómics, chistes, con una función concreta: informar, narrar, describir, animar a una determinada acción… a partir de pautas o modelos dados o recreando textos literarios, utilizando los recursos léxicos, sintácticos, fónicos y rítmicos. Estrategias para la revisión de las producciones propias, ya sean resultado de copias o dictados o de creaciones autónomas.",
+          "Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas. Los libros ilustrados como fuente de disfrute y de aprendizaje de la lectura y su conexión con la realidad, con la fantasía y con las demás artes.",
+          "Principales autores de la literatura española de las distintas épocas. Obras más relevantes."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales",
+        "apartados": [],
+        "items": [
+          "Establecimiento de generalizaciones sobre aspectos de la lengua elementales a partir de la observación, comparación y transformación de enunciados, prestando especial atención a las relaciones que se establecen entre sustantivos, adjetivos y verbos.",
+          "Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos. Observación y comparación de unidades comunicativas básicas. Reglas ortográficas (b/v, g/j, ll/y, r/rr, h; c/qu, z/c, d/z, s/z) en palabras de uso frecuente.",
+          "Procedimientos elementales de adquisición de vocabulario. Similitudes y diferencias de forma y significado (polisemia, sinonimia, antonimia, prefijos y sufijos: aumentativos, diminutivos) entre palabras de la misma familia léxica o semántica. Clases de palabras: sustantivos, artículos y otros determinantes, pronombres personales básicos, adjetivos calificativos y verbos.",
+          "Relación entre intención comunicativa y modalidad oracional.",
+          "Mecanismos elementales de coherencia y cohesión, con especial atención a las repeticiones y sinónimos, y al orden de oraciones y párrafos.",
+          "Los signos de puntuación (punto, coma, punto y coma, dos puntos, interrogación y exclamación) como mecanismos para organizar el texto escrito y para expresar la intención comunicativa.",
+          "Estrategias elementales para el uso guiado de diccionarios, en distintos soportes."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes",
+        "apartados": [],
+        "items": [
+          "Biografía de la lengua personal y reflexión sobre el mapa de las lenguas del entorno y la pluralidad de las existentes.",
+          "Mapa del español en el mundo. El español como lengua universal. La Real Academia Española de la lengua. Orígenes e historia de la lengua española. Lenguas muertas en España: griego y latín.",
+          "La diversidad cultural y el lenguaje como riqueza y herramienta de reflexión interlingüística. Aproximación a las lenguas de signos. Actitudes de respeto hacia las diferentes lenguas y sus interlocutores.",
+          "Estrategias de identificación de prejuicios del lenguaje. Identificación de modelos positivos.",
+          "Uso de un lenguaje no discriminatorio y respetuoso con las diferencias. Conocimiento sobre las distintas formas de comunicación utilizadas por las personas con discapacidad."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación",
+        "apartados": [
+          {
+            "apartado": "Contexto",
+            "items": [
+              "Interacciones entre los componentes del hecho comunicativo (situación, participantes, propósito comunicativo, canal, registro), respeto a las estrategias de cortesía lingüística."
+            ]
+          },
+          {
+            "apartado": "Géneros discursivos",
+            "items": [
+              "Tipologías textuales: la narración, la descripción, el diálogo, la exposición y la argumentación.",
+              "Propiedades textuales: estrategias básicas para la coherencia, cohesión y adecuación.",
+              "Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma. Estrategias para la selección del género discursivo adecuado a la intención comunicativa, modelos orientados al desarrollo de la capacidad creativa en la escritura. Redes sociales y sus riesgos."
+            ]
+          },
+          {
+            "apartado": "Procesos",
+            "items": [
+              "Interacción oral: interacción oral y adecuada en contextos formales e informales, transmitiendo ideas con claridad, participando en debates e intercambios de manera constructiva, confrontando las propias opiniones o aportando argumentos mediante la escucha activa, la asertividad, el diálogo y la cortesía. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas, mostrando actitudes de respeto hacia los diferentes interlocutores.",
+              "Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias en narraciones, descripciones, informaciones, instrucciones, argumentaciones. Respuesta a preguntas concernientes a la comprensión literal, interpretativa y crítica. Valoración crítica. Detección de usos discriminatorios del lenguaje verbal y no verbal. Identificación de modelos positivos.",
+              "Producción oral: elementos de la prosodia (entonación, dicción: articulación, ritmo, volumen…) y de la comunicación no verbal. Construcción, comunicación y valoración crítica de conocimiento mediante la planificación y producción de textos orales y multimodales con autonomía. Adecuación del uso de la lengua a las distintas finalidades y a las diferentes necesidades comunicativas.",
+              "Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global, activación de conocimientos previos, relectura, parafraseo, visión general del texto, identificación de términos, conceptos confusos o palabras clave, formulación de preguntas, deducción del significado de palabras y expresiones con ayuda del contexto, realizando las inferencias necesarias. Valoración crítica. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida y expresiva. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "Estrategias de uso gradualmente autónomo de recursos lingüísticos diversos, en diferentes soportes, incluidos los digitales, para mejorar la comprensión de textos.",
+              "Producción escrita: ortografía reglada en la textualización y la autocorrección de textos escritos y multimodales de relativa complejidad, con distintos propósitos comunicativos tales como diarios, cartas, correos electrónicos, biografías, informes, pequeños poemas, descripciones... Coherencia, cohesión y adecuación textual en copias, dictados o textos de creación autónoma. Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección. Comentarios de texto (tema, resumen, estructura…). Presentación cuidada con limpieza, claridad, precisión y orden en los escritos. Uso de elementos gráficos y paratextuales al servicio de la comprensión. Escritura en soporte digital.",
+              "Alfabetización mediática e informacional: estrategias para la búsqueda y selección de información (toma notas, elabora esquemas, guiones, mapas conceptuales, sigue un plan de trabajo, expresa conclusiones con claridad etc.) en distintas fuentes documentales y con distintos soportes y formatos, entre ellos el periódico. Reconocimiento de autoría y respeto por las producciones ajenas. Comparación, organización y valoración crítica de la información. Uso autónomo de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria",
+        "apartados": [],
+        "items": [
+          "Lectura autónoma de obras o fragmentos variados y diversos de la literatura adecuados a su edad y organizados en itinerarios lectores.",
+          "Estrategia para la interpretación de las obras a través de conversaciones literarias.",
+          "Relación, entre los elementos constitutivos de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+          "Análisis de la relación entre los elementos básicos del género literario y la construcción del sentido de la obra. Características fundamentales de textos literarios narrativos, poéticos y dramáticos.",
+          "Estrategias básicas para la interpretación autónoma de los textos literarios. El lenguaje figurado (símiles y metáforas), las personificaciones, las hipérboles y los juegos de palabras. Refranes, aforismos y greguerías para profundizar en el sentido y posibilidades del lenguaje El uso de comparaciones, metáforas, aumentativos, diminutivos y sinónimos en textos literarios.",
+          "Relación entre los textos leídos y otras manifestaciones artísticas y culturales. Los libros ilustrados como fuente de disfrute y de aprendizaje de la lectura y su conexión con la realidad, con la fantasía y con las demás artes.",
+          "Avance en la construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses y para la valoración crítica elemental de las obras.",
+          "Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "Creación de textos de intención literaria (cuentos, poemas, canciones, pequeñas obras teatrales) de manera libre y a partir de la recreación y apropiación de los modelos dados utilizando recursos léxicos, sintácticos, fónicos y rítmicos en dichas producciones.",
+          "Uso autónomo de la biblioteca de aula o de centro como escenario de actividades literarias compartidas.",
+          "Principales autores de la literatura española y universal en las distintas épocas. Obras más relevantes."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "apartados": [],
+        "items": [
+          "Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados (sustitución, inserción, supresión, cambio de orden, manipulación), formulación y comprobación de hipótesis y contrastes con otras lenguas.",
+          "Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras (sustantivos, determinantes artículos: demostrativos, posesivos, indefinidos, numerales, interrogativos y exclamativos; pronombres, adverbios, locuciones adverbiales, preposiciones, conjunciones, interjecciones, verbos y adjetivos) oraciones (tipos) y textos. Observación y comparación de unidades comunicativas básicas. Relaciones fundamentales entre los esquemas semánticos y sintácticos de la oración. Uso de la sintaxis correcta en los escritos propios. Reconocimiento de sintagmas sencillos.",
+          "Procedimientos básicos de adquisición de vocabulario. Mecanismos léxicos básicos para la formación de palabras. Familias de palabras, palabras derivadas, homónimas.",
+          "Relación entre intención comunicativa y modalidad oracional (enunciativas, exclamativas, interrogativas…).",
+          "Mecanismos básicos de coherencia y cohesión, con especial atención a las sustituciones pronominales y a la correlación temporal establecida mediante los distintos tiempos verbales. Conjugación de los verbos. La voz pasiva.",
+          "Estrategias de observación y formulación de generalizaciones sobre la acentuación. Sílabas tónicas y átonas, diptongos, triptongos e hiatos. Palabras agudas, llanas, esdrújulas y sobresdrújulas. Reglas de acentuación de los interrogativos, exclamativos y las palabras compuestas.",
+          "Los signos de puntuación ( el punto y seguido, el punto y aparte, el punto final, el punto después de las abreviaturas y detrás de paréntesis o comillas cuando cierran períodos; la coma; los dos puntos y los puntos suspensivos en todos sus usos; los signos de interrogación y de exclamación; la raya para señalar cada una de las intervenciones de un dialogo; el guion para separar una palabra que no cabe completa en una línea o renglón y las comillas para reproducir citas textuales) como mecanismos para organizar el texto y expresar intención comunicativa."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

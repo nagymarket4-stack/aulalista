@@ -282,15 +282,94 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "La tabla de criterios no se divide en Música y Danza / Plástica y Visual; esa división solo aparece en los contenidos.",
-    "3.er ciclo 4.4: «considerado su madurez» y 3.1: «pintura….», tal como se extrajeron."
+    "3.er ciclo 4.4: «considerado su madurez» y 3.1: «pintura….», tal como se extrajeron.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos extraídos solo del 1.er ciclo (el extractor se negó a citar el 2.º ciclo completo; pendiente con consultas más pequeñas). El BOCM los divide en «BLOQUE I» «Música y danza» y «BLOQUE II» «Educación plástica y visual», cada uno con A, B y C: se guardan como bloque «BLOQUE I: Música y danza» con apartados A-C. 1.er ciclo, bloque II B: «producciones pláticas», tal como se extrajo."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "BLOQUE I: Música y danza",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Principales propuestas artísticas musicales vocales e instrumentales de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas elementales de comportamiento y actitud en la recepción de propuestas artísticas musicales y de las artes escénicas en diferentes lugares. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción y la práctica musical.",
+              "Vocabulario específico básico de la música y las artes escénicas.",
+              "Recursos digitales básicos para la música y las artes escénicas. Estrategias elementales de búsqueda, difusión y filtrado de información de manera responsable. Consecuencias sobre la difusión de obras sin consentimiento."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "Fases del proceso creativo: planificación guiada y experimentación: preparación, generación y resultado. Ejecución individual y en grupo.",
+              "Profesiones vinculadas con la música y las artes escénicas.",
+              "Valoración, respeto e interés, tanto por el proceso como por el producto final, en producciones musicales y escénicas."
+            ]
+          },
+          {
+            "apartado": "C. Música y artes escénicas",
+            "items": [
+              "El sonido y sus cualidades básicas, tono, duración, timbre e intensidad, discriminación auditiva, clasificación y representación de diversidad de sonidos y líneas melódicas a través de diferentes grafías.",
+              "La voz, cualidades y registros de la voz como instrumento y recurso expresivo, partiendo de la canción y de sus posibilidades para interpretar, crear e improvisar. Los instrumentos musicales y principales familias: viento, cuerda y percusión y agrupaciones: coros, bandas y orquestas. Distinguir tipos de voces e instrumentos. Discriminación visual y auditiva. Objetos sonoros, cotidiáfonos.",
+              "El carácter y el tempo: reconocimiento y capacidad de relación tras la escucha de obras musicales.",
+              "Práctica instrumental, vocal y corporal: aproximación a la experimentación e interpretación sencilla de piezas vocales e instrumentales de diferentes épocas, estilos y culturas a partir de las propias posibilidades sonoras y expresivas de forma individual o en distintos agrupamientos.",
+              "Construcción asistida de instrumentos con materiales del entorno, domésticos y reciclados.",
+              "Lenguajes musicales básicos: conocimiento y aplicación de sus conceptos elementales en la interpretación y creación de propuestas musicales vocales e instrumentales sencillas que contengan procedimientos musicales de repetición, variación y contraste. Juegos rítmicos con instrumentos de diferentes tipos.",
+              "El cuerpo y sus posibilidades motrices: interés por la experimentación a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medio de expresión y diversión.",
+              "El cuerpo como instrumento de expresión de emociones y forma de interacción social.",
+              "Técnicas dramáticas y dancísticas elementales. Nociones básicas del lenguaje expresivo y representación dramáticas elementales. Iniciación a la danza y coreografías sencillas.",
+              "Capacidades expresivas y creativas básicas de la expresión corporal y dramática. El mimo, el teatro, la danza y el baile como formas de interacción social.",
+              "Valoración y respeto por su aportación al patrimonio cultural."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "BLOQUE II: Educación plástica y visual",
+        "apartados": [
+          {
+            "apartado": "A. Recepción y análisis",
+            "items": [
+              "Principales propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales para valorar el patrimonio artístico.",
+              "Recepción y apreciación de obras artísticas.",
+              "Normas elementales de comportamiento y respeto en la recepción de propuestas artísticas, plásticas, visuales y audiovisuales en diferentes lugares. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+              "Vocabulario específico básico de las artes plásticas, visuales y las artes audiovisuales.",
+              "Recursos digitales básicos para las artes plásticas, visuales y las artes audiovisuales. Estrategias elementales de búsqueda de información de manera responsable. Consecuencias sobre la difusión de imágenes propias o ajenas sin consentimiento."
+            ]
+          },
+          {
+            "apartado": "B. Creación e interpretación",
+            "items": [
+              "Fases del proceso creativo: planificación guiada y experimentación: preparación, generación y resultado. Ejecución individual y grupal.",
+              "Profesiones vinculadas con las artes plásticas, visuales y audiovisuales.",
+              "Valoración, respeto e interés tanto por el proceso como por el producto final en producciones pláticas, visuales y audiovisuales."
+            ]
+          },
+          {
+            "apartado": "C. Artes plásticas, visuales y audiovisuales",
+            "items": [
+              "Las artes visuales. La imagen en el mundo actual: técnicas y estrategias básicas de lectura. Distintas manifestaciones de las artes visuales.",
+              "Elementos configurativos básicos del lenguaje visual: punto, línea, plano, textura, color.",
+              "Materiales, instrumentos, soportes y técnicas elementales utilizados en la expresión plástica y visual.",
+              "Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales básicas de composición, equilibrio y proporción en dibujos y modelados sencillos.",
+              "Herramientas adecuadas para el registro de imagen y sonido.",
+              "Estrategias y técnicas básicas de composición de historias audiovisuales sencillas con intención comunicativa.",
+              "Nociones básicas sobre el cine. El cine de animación como género y sus características.",
+              "Respeto y valoración de las manifestaciones artísticas más importantes del patrimonio cultural y artístico, español y local."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

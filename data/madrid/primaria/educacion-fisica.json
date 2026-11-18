@@ -396,16 +396,219 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "Guiones (repaso del 18/11/2026 contra el PDF del BOCM): «colaboración-oposición» del 2.º ciclo 2.2 restaurado (el guion está en el original, partido por el salto de línea). «perceptivomotrices» (C2 del 1.er y 2.º ciclo) y «físicodeportivas» (2.º ciclo 1.3; C4 del 3.er ciclo) aparecen sin guion en el texto extraído del propio PDF, mientras que en otros lugares el BOCM escribe «perceptivo-motrices» y «físico-deportivas»: se conservan sin guion porque la fuente no confirma el guion; cotejar visualmente.",
     "Los enunciados de C1, C3 y C4 cambian según el ciclo (enunciados_ciclo). 3.er ciclo C3: «actitudes de, respeto», tal como se extrajo.",
-    "1.er ciclo 1.3 termina con una oración sin verbo principal («Tomando medidas de seguridad previas…»); 4.2: «la dedicación su actitud ante la derrota»; 3.3: «el dialogo» sin tilde."
+    "1.er ciclo 1.3 termina con una oración sin verbo principal («Tomando medidas de seguridad previas…»); 4.2: «la dedicación su actitud ante la derrota»; 3.3: «el dialogo» sin tilde.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos: el BOCM no usa subtítulos dentro de los bloques A-F; los ítems van en bloque.items y cada ítem con guion incluye sus líneas de continuación."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Vida activa y saludable",
+        "apartados": [],
+        "items": [
+          "Salud física: efectos físicos beneficiosos de un estilo de vida activo. Alimentación saludable e hidratación. Educación postural en situaciones cotidianas. Cuidado del cuerpo: higiene personal y el descanso tras la actividad física.",
+          "Salud mental: bienestar personal y en el entorno a través de la motricidad. Conocimiento de uno mismo e identificación de fortalezas y debilidades en todos los ámbitos (social, físico y mental). La actividad motriz como ayuda para la regulación de las emociones, la autoestima y para combatir el estrés.",
+          "Salud social: la actividad física como práctica social saludable. Derechos de los niños en el deporte escolar. Respeto hacia todas las personas con independencia de sus características personales. La actividad física como medio para la resolución de conflictos y para fomentar valores."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física",
+        "apartados": [],
+        "items": [
+          "Elección de la práctica física: vivencia de diversas experiencias corporales en distintos contextos, de forma individual y en grupo.",
+          "Cuidado del material utilizado en la actividad a desarrollar.",
+          "Preparación de la práctica motriz: vestimenta deportiva adecuada y hábitos generales de higiene corporal.",
+          "Planificación y regulación guiada de proyectos motores sencillos: objetivos o metas, conocimientos previos, recursos materiales y ambientales, participantes y sus roles, reglas y aspectos didácticos básicos.",
+          "Prevención de accidentes en las prácticas motrices: juegos de activación, calentamiento y vuelta a la calma. Medidas de seguridad previas a la práctica motriz. Correcta utilización de los diferentes materiales a utilizar."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Toma de decisiones: adecuación de las acciones a las capacidades y las limitaciones personales en situaciones motrices individuales. Coordinación de acciones con compañeros en situaciones conjuntas. Adecuación de la acción a la ubicación del adversario en situaciones motrices de persecución y de interacción con un móvil. Selección de la posición corporal o la distancia adecuadas en situaciones de oposición de contacto. Selección de acciones para mantener la posesión, recuperar el móvil o evitar que el atacante progrese en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "Capacidades perceptivo-motrices en contextos de práctica: integración del esquema corporal; conciencia corporal, lateralidad (utilización de los segmentos dominantes) y su proyección en el espacio; coordinación óculo-pédica y óculo-manual; equilibrio estático y dinámico.",
+          "Capacidades físicas desde el ámbito lúdico y el juego.",
+          "Habilidades y destrezas motrices básicas genéricas: locomotrices, (correr, trepar, rodar) no locomotrices (girar, saltar, balancearse, colgarse) y manipulativas (lanzar, recepcionar, golpear, botar).",
+          "Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos (sistema interoceptivo) y estímulos externos (sistema exteroceptivo)."
+        ]
+      },
+      {
+        "bloque": "D. Regulación emocional e interacción social en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Gestión emocional: estrategias de identificación, experimentación, regulación y manifestación de emociones, pensamientos y sentimientos con una conducta asertiva a partir de experiencias motrices.",
+          "Habilidades sociales: verbalización de emociones derivadas de la interacción en contextos motrices. Asertividad y autonomía emocional.",
+          "Respeto de las reglas de juego, a las normas y a los compañeros. Tolerancia a la frustración.",
+          "Conductas que favorezcan la convivencia y la igualdad y de respeto a los demás, en situaciones motrices: cooperación, toma de decisiones, capacidad de relación, estrategias de identificación de conductas discriminatorias. Adaptación a las diferentes capacidades.",
+          "Gestión del conflicto: iniciarse en el conocimiento de estrategias para solucionar situaciones conflictivas establecimiento de medidas guiadas para solucionar la situación problemática y acuerdos para adoptarlas."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz",
+        "apartados": [],
+        "items": [
+          "Aportaciones de la cultura motriz a la herencia cultural. Los juegos y las danzas como manifestación de la propia cultura. Juegos populares de Madrid: el aro, las chapas, el clavo, canicas, tabas, pídola, rana …",
+          "Usos comunicativos de la corporalidad: gestos, muecas, posturas y otros. Representación de personajes y animales.",
+          "Práctica de actividades rítmico-musicales con carácter artístico-expresivo. Representar movimiento a partir de estímulos rítmicos o musicales. Bailes sencillos.",
+          "Deporte e igualdad: referentes en el deporte de distintos sexos."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y cuidadosa con el entorno",
+        "apartados": [],
+        "items": [
+          "Normas de uso: educación vial para peatones. Movilidad segura y saludable. Normas básicas de comportamiento para una movilidad segura, atendiendo al medio que se utilice (bicicleta, patinete, transporte público).",
+          "Posibilidades motrices de los espacios de juego y esparcimiento infantil. Experimentar todas las posibilidades del medio para la práctica motriz.",
+          "El material y sus posibilidades de uso para el desarrollo de la motricidad. Conocimiento, práctica y experimentación de diferentes materiales en función del objetivo motriz.",
+          "Realización de actividades físicas seguras en el medio natural y urbano.",
+          "Cuidado del entorno próximo y de los animales y plantas que en él viven, como servicio a la comunidad, durante la práctica segura de actividades físicas en el medio natural y urbano. Normas básicas del cuidado y respeto al medio natural.",
+          "Uso eficiente y respetuoso de las instalaciones deportivas del entorno."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Vida activa y saludable",
+        "apartados": [],
+        "items": [
+          "Salud física: efectos físicos y psicológicos beneficiosos de un estilo de vida activo. Características de alimentos naturales, procesados y ultra procesados. Educación e higiene postural en acciones motrices habituales. Factores básicos que inciden en el cuidado del cuerpo (alimentación adecuada, actividad física diaria, descanso, uso excesivo de las pantallas, mantenimiento de la salud, equilibrio emocional).",
+          "Salud mental: respeto y aceptación del propio cuerpo. Autoconocimiento e identificación de las propias fortalezas y debilidades ante mensajes nocivos para el mantenimiento de un concepto saludable sobre el cuerpo, posibilidades y limitaciones en todos los ámbitos, tanto reales como virtuales para el mantenimiento o la mejora de un equilibrio (social, físico y mental).",
+          "Salud social: la actividad física como hábito y alternativa de salud frente a formas de ocio nocivas. Límites para evitar una competitividad desmedida. Aceptación de distintas tipologías corporales, para practicar, en igualdad, diversidad de actividades físico-deportivas."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física",
+        "apartados": [],
+        "items": [
+          "Elección de la práctica física: usos y finalidades catárticos lúdico-recreativos y cooperativos. Respeto a las elecciones de los demás.",
+          "Cuidado y preparación del material según la actividad a desarrollar.",
+          "Pautas de higiene personal relacionadas con la actividad física.",
+          "Planificación y regulación de proyectos motores: mecanismos básicos para ejecutar lo planificado.",
+          "Prevención de accidentes en las prácticas motrices: mecanismos de prevención y control corporal para la prevención de lesiones. Medidas de seguridad, previas y durante la práctica motriz, normas básicas de actuación ante posibles lesiones. Correcta utilización de los diferentes materiales a utilizar."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Toma de decisiones: distribución racional del esfuerzo en situaciones motrices individuales. Ubicación en el espacio en situaciones grupales. Ubicación en el espacio y reubicación tras cada acción en situaciones motrices de persecución y de interacción con un móvil. Anticipación a las decisiones ofensivas del adversario en situaciones de oposición de contacto. Pase a compañeros desmarcados o en situación ventajosa en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "Capacidades perceptivo-motrices en contexto de práctica: integración del esquema corporal, control tónico-postural e independencia segmentaria en situaciones motrices. Definición de la lateralidad. Coordinación dinámica general y segmentaria, automatización de movimientos.",
+          "Capacidades condicionales: capacidades físicas básicas (fuerza, resistencia, velocidad, flexibilidad).",
+          "Habilidades y destrezas motrices básicas genéricas: locomotrices, no locomotrices y manipulativas. Combinación de habilidades.",
+          "Creatividad motriz: variación y adecuación de la acción motriz ante estímulos internos y externos (cambios de posición, movimientos de sus compañeros, percepción de móviles y sus trayectorias, situaciones de colaboración y oposición)."
+        ]
+      },
+      {
+        "bloque": "D. Regulación emocional e interacción social en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Gestión emocional: reconocimiento de emociones, pensamientos y sentimientos y establecimiento de estrategias para una adecuada regulación de las emociones a partir de experiencias motrices.",
+          "Habilidades sociales: escucha activa, diálogo y estrategias de negociación mediada y de acuerdo para la resolución de conflictos en contextos motrices, desarrollo de conductas asertivas y de confianza en uno mismo.",
+          "Concepto de deportividad, aceptación de las normas del juego, respeto al adversario, a los compañeros, a los árbitros, espectadores y profesores.",
+          "Conductas contrarias a la convivencia, en situaciones motrices (discriminación por cuestiones de competencia motriz, etnia, género u otras): efectos negativos y estrategias de identificación, abordaje y evitación (tratamiento y solución para afrontar las consecuencias perjudiciales)."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz",
+        "apartados": [],
+        "items": [
+          "Aportaciones de la cultura motriz a la herencia cultural. Los juegos y las danzas como manifestación de la interculturalidad. Juegos populares de España: bolos, chito… danzas populares: chotis, jotas, sevillanas, sardanas…",
+          "Usos comunicativos de la corporalidad: comunicación de sensaciones, sentimientos, emociones e ideas simples. Representación de escenas cotidianas.",
+          "Práctica de actividades rítmico-musicales con carácter expresivo. Representar movimientos a partir de estímulos rítmicos o musicales. Coreografías sencillas (Promoroaca, Minoesika).",
+          "Deporte e igualdad ligas masculinas, femeninas y mixtas de distintos deportes. Referentes en el deporte de distintos géneros. Personajes relevantes, en el deporte; identificación con las diferentes disciplinas que practican.",
+          "La cultura del esfuerzo para conseguir un objetivo."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y cuidadosa con el entorno",
+        "apartados": [],
+        "items": [
+          "Normas de uso: educación vial para bicicletas, patines y patinetes. Movilidad segura y saludable. Uso de los elementos de seguridad (casco, luces, guantes, chalecos). Normas básicas de circulación, (circular por la derecha, en fila, señales básicas).",
+          "Espacios naturales en el contexto urbano: uso, disfrute seguro y mantenimiento. Conceptos básicos del uso responsable de los elementos lúdicos urbanos (cuidado de los materiales).",
+          "Estado del material para actividades en el medio natural y urbano: valoración previa y actuación ante desperfectos. Mantenimiento, limpieza y reparación de los materiales.",
+          "Prevención y sensibilización sobre la generación de residuos y su correcta gestión. Diferencias entre tipos de residuos y conocimiento de su gestión. Normas básicas de reciclaje y cuidado del medio.",
+          "Realización de actividades físicas seguras en el medio natural y urbano. Diferentes posibilidades de actividad física que nos proporciona el medio natural (senderismo, kayak, escalada…).",
+          "Cuidado del entorno próximo y de los animales y plantas que en él conviven, durante la práctica de actividades físicas en el medio natural y urbano. Prácticas esenciales de cuidado del medio natural (recogida de material y desperdicios utilizados en la práctica motriz)."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Vida activa y saludable",
+        "apartados": [],
+        "items": [
+          "Salud física: efectos físicos, psicológicos y sociales beneficiosos del estilo de vida activo. Impacto de alimentos ultra procesados y bebidas energéticas o azucaradas. Educación higiénico postural en acciones motrices específicas. Responsabilidad personal en el cuidado del cuerpo.",
+          "Salud mental: Consolidación y ajuste realista del concepto de uno mismo, teniendo en cuenta la igualdad. Respeto y aceptación del propio cuerpo y del aspecto corporal de los demás. Visión crítica de las imágenes ajustadas o distorsionadas ofrecidas en los entornos sociales, tanto reales como virtuales, que ayudan o entorpecen el mantenimiento o la mejora de un equilibrio social, físico y mental.",
+          "Vida saludable: aproximación a los efectos de los malos hábitos relacionados con la salud e influencia en la práctica de actividad física. La exigencia del deporte profesional. Aceptación de distintas tipologías corporales para practicar en igualdad, actividades físico-deportivas según la competencia motriz."
+        ]
+      },
+      {
+        "bloque": "B. Organización y gestión de la actividad física",
+        "apartados": [],
+        "items": [
+          "Usos y finalidades: catárticos, lúdico-recreativos, competitivos y agonísticos.",
+          "Actitudes consumistas en torno al equipamiento. Análisis de la adquisición de material para la práctica físico-deportiva.",
+          "Hábitos autónomos de higiene corporal en acciones cotidianas.",
+          "Planificación y regulación de proyectos motores: seguimiento y valoración durante el proceso y evaluación del resultado.",
+          "Toma de medidas (previas y durante) de prevención de accidentes en las prácticas motrices: calentamiento general, conciencia y responsabilidad en función de los requerimientos de la tarea y vuelta a la calma. Importancia de respetar las normas de seguridad. Compromiso de responsabilidad hacia la seguridad de uno mismo y de los demás. Correcta utilización de materiales.",
+          "Actuaciones básicas ante accidentes durante la práctica de actividades físicas. Posición lateral de seguridad. Primeros auxilios básicos: mantener la calma, conductas PAS (proteger, avisar, socorrer)."
+        ]
+      },
+      {
+        "bloque": "C. Resolución de problemas en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Toma de decisiones: selección de acciones en función del entorno en situaciones motrices individuales. Selección de acciones para el ajuste espacio-temporal en la interacción con los compañeros. Selección de zonas de envío del móvil desde donde sea difícil devolverlo, en situaciones motrices de persecución y de interacción con un móvil. Selección adecuada de las habilidades motrices en situaciones de oposición de contacto. Desmarque y ubicación en un lugar desde el que se constituya un apoyo para los demás en situaciones motrices de colaboración-oposición de persecución y de interacción con un móvil.",
+          "Capacidades perceptivo-motrices en contexto de práctica: integración del esquema corporal; equilibrio estático y dinámico en situaciones complejas crecientes; organización espacial del propio cuerpo y de sus compañeros (percepción de distancias y trayectorias, orientación en el espacio), temporal (simultaneidad y sucesión de acciones) y espacio-temporal (ritmo, ajuste perceptivo en el envío y en la intercepción de trayectorias de móviles).",
+          "Capacidades condicionales: capacidades físicas básicas y resultantes (coordinación, equilibrio y agilidad).",
+          "Iniciación de las habilidades motrices específicas asociadas a la técnica y táctica en actividades físico-deportivas: aspectos principales. Iniciación a la práctica deportiva, gestos técnicos básicos.",
+          "Creatividad motriz: identificación de estímulos internos o externos que exijan un reajuste instantáneo de la acción motriz. Adaptación del movimiento a diferentes entornos y situaciones de colaboración y oposición."
+        ]
+      },
+      {
+        "bloque": "D. Regulación emocional e interacción social en situaciones motrices",
+        "apartados": [],
+        "items": [
+          "Gestión emocional que pueda desencadenar actitudes, conductas y estados que dificultan el desarrollo personal y escolar: ansiedad, estrés, ira, tristeza y situaciones motrices. Estrategias de afrontamiento y gestión: Introspección, motivación, capacidad de expresión, (asertividad), como medio para superar las diferencias individuales en una práctica, lúdica o deportiva de todos y para todos.",
+          "Habilidades sociales: estrategias de trabajo en equipo para la resolución de conflictos en situaciones motrices colectivas. Respeto y tolerancia a las diferencias individuales, adjudicación de roles, liderazgo, aceptación de responsabilidades.",
+          "Concepto de fairplay o <<juego limpio>>. Aceptación y entendimiento de las normas de juego, de la derrota como parte del mismo, respeto a todos los agentes del ámbito deportivo.",
+          "Acciones que muestren una amenaza a la práctica deportiva. Hábitos no adecuados, conductas violentas, manipulación del juego.",
+          "Identificación, abordaje y rechazo de conductas discriminatorias y contrarias a la convivencia en situaciones motrices."
+        ]
+      },
+      {
+        "bloque": "E. Manifestaciones de la cultura motriz",
+        "apartados": [],
+        "items": [
+          "Aportaciones de la cultura motriz, los juegos, a la herencia cultural de cada país y al conjunto global del planeta. Los deportes como seña de identidad cultural. Juegos populares de diferentes etnias y culturas: Coger tu cola (Nigeria), Bokwele (Zaire), El conejo a la pata coja (Tailandia), Tirar seis (México),…",
+          "Usos comunicativos de la corporalidad: comunicación de sensaciones, sentimientos, emociones e ideas complejas. El significado de diferentes movimientos, posturas. Lenguaje corporal.",
+          "Práctica de actividades rítmico-musicales con carácter expresivo. Danzas y bailes del mundo: Minoesika, Big Jhon, Promoroaca, Polka,…",
+          "Deporte e igualdad en el deporte amateur y profesional. Deportes asociados a hombres y mujeres.",
+          "Deportes olímpicos y paralímpicos, historia e instituciones asociadas a los Juegos Olímpicos y Paralímpicos. Categorías, deportes, diversidad funcional y su capacidad para desarrollar cualquier disciplina deportiva.",
+          "La cultura del esfuerzo para conseguir una meta."
+        ]
+      },
+      {
+        "bloque": "F. Interacción eficiente y cuidadosa con el entorno",
+        "apartados": [],
+        "items": [
+          "Normas de uso: la educación vial desde la actividad física y deportiva. Movilidad segura y saludable Convivencia armoniosa y pacífica entre los distintos medios de locomoción y el peatón. Puesta en práctica de las normas básicas de circulación.",
+          "Transporte activo seguro y no contaminante: bicicletas, patines, patinetes. Normas de uso responsable y seguro del material y el entorno, conocimientos de mecánica básica, (pinchazos, ajuste de sillín…).",
+          "Previsión de riesgos de accidente durante la práctica en el medio natural y urbano: valoración previa y actuación. Preparación y evaluación de los posibles riesgos que pueden darse en la actividad física en el medio natural y conocimiento de una correcta gestión de los mismos. Previsión de riesgos y actuaciones en caso de accidente (evaluación de riesgos y maniobras básicas de primeros auxilios, técnica PAS (proteger, avisar, socorrer).",
+          "Consumo adecuado: Búsqueda, construcción, reparación y reutilización de elementos y materiales para la práctica motriz.",
+          "Práctica de actividades físicas con cierto grado de autonomía en el medio natural y urbano: senderismo, escalada, piragüismo, barranquismo, parques de aventura, bicicleta.",
+          "Cuidado del entorno próximo y de los animales y plantas que en él conviven, durante la práctica de actividad física en diferentes contextos e instalaciones en el medio natural u urbano. Prácticas esenciales de cuidado del medio natural (recogida del material y desperdicios utilizados)."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

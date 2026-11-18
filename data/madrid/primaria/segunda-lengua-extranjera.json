@@ -393,16 +393,141 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "El BOCM trae una tabla única para toda la etapa (Francés, Alemán, Italiano y Portugués comparten competencias y criterios; págs. 118-120 solo traen contenidos por idioma). Se replica la misma tabla en los tres ciclos para que la inyección RAG funcione en cualquier curso en que el centro la oferte (art. 7.4).",
     "5.3: «aprender una segunda extranjera» (falta «lengua»), tal como se extrajo.",
-    "2.2: el extractor repitió «a partir de» en la unión de dos fragmentos; se dejó una sola vez."
+    "2.2: el extractor repitió «a partir de» en la unión de dos fragmentos; se dejó una sola vez.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "Contenidos: bloques A-C únicos para la etapa (replicados en los tres ciclos, como los criterios). El bloque D «Contenidos sintáctico-discursivos» va por idioma (Francés, Alemán, Italiano, Portugués; págs. 118-120) y no se ha extraído."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "El error como parte integrante del proceso y como instrumento de mejora. Confianza y reflexión sobre el aprendizaje, las propias posibilidades y la prioridad de la intención comunicativa.",
+          "Estrategias básicas de uso común (contexto visual, conocimiento previo del tema, identificación de información básica, deducción del significado de palabras y frases nuevas por el contexto…) para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+          "Conocimientos, destrezas y actitudes elementales que permiten iniciarse en actividades de comunicación en situaciones cotidianas básicas, en las que se utilicen gradualmente estrategias que ayuden a resolver conflictos, mejorar la comunicación o servir de enlace entre varios interlocutores en la misma o en diferentes lenguas, crear relaciones y llegar a acuerdos, fomentando actitudes de colaboración mutua.",
+          "Funciones comunicativas básicas de uso común adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar el tiempo, la cantidad y el espacio.",
+          "Modelos contextuales y géneros discursivos básicos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios, tales como cuentos, leyendas, artículos, noticias, cartas, emails, folletos, instrucciones, normas, avisos o conversaciones reguladoras de la convivencia.",
+          "Unidades lingüísticas básicas de uso común y significados asociados a dichas estructuras, tales como expresión de la entidad y sus propiedades, cantidad y número, espacio y las relaciones espaciales, afirmación, exclamación, negación, interrogación.",
+          "Léxico elemental, de alta frecuencia y de interés para el alumnado relativo a situaciones cotidianas, temas habituales, relaciones personales próximas (familiares, de amistad, escolares…) vivienda, lugares y entornos cercanos, aplicando los conocimientos adquiridos sobre los mismos a una comprensión adecuada del texto.",
+          "Patrones sonoros, acentuales y de entonación básicos de uso común, y funciones comunicativas generales asociadas a dichos patrones. Aspectos fonológicos: sonidos, ritmo, entonación y acentuación de palabras en frases de uso frecuente en el aula, a través de rimas, retahílas, trabalenguas, canciones, adivinanzas… acompañados de gestos y mímica. Lectura, deletreo y reconocimiento de palabras que comparten un patrón común, palabras que rimen y fonemas finales.",
+          "Convenciones ortográficas básicas de uso común y significados asociados a los formatos y elementos gráficos.",
+          "Convenciones y estrategias conversacionales básicas verbales o no verbales (gestos, contacto físico…) de uso común, en formato síncrono (cara a cara, teléfono, videollamada.) o asíncrono en las que se establece contacto social, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar indicaciones.",
+          "Recursos para el aprendizaje y estrategias elementales de búsqueda guiada de información en medios analógicos y digitales (filtrar resultados, elegir los términos precisos y utilizar la búsqueda avanzada, completar y contrastar los datos, valorar y seleccionar la información...).",
+          "Herramientas analógicas y digitales básicas de uso común para la comprensión, producción y coproducción oral, escrita y multimodal; y plataformas virtuales de interacción y colaboración educativa."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas de compensación de las carencias comunicativas (petición de repetición, aclaración o discurso más lento, descripciones, utilización de comunicación no verbal: gestos, dibujos…) para responder a una necesidad elemental, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las lenguas familiares.",
+          "Estrategias básicas de uso común para identificar, retener, recuperar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) uso de imágenes visuales, diagramas, fichas de vocabulario, mapas semánticos, diccionarios personales, a partir de su repertorio lingüístico.",
+          "Iniciación al uso de estrategias y herramientas básicas de uso común de evaluación, analógicas y digitales, individuales y grupales. Rúbricas, diarios de clase, porfolios, escalas de estimación, bloc de autoevaluación, listas de cotejo...",
+          "Léxico y expresiones elementales para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje). La enseñanza de estrategias metalingüísticas de inferencia a partir de las pistas contextuales, tales como el tema general; otras palabras del discurso (redundancias, anáforas, paralelismos); la estructura gramatical; la morfología (análisis de los prefijos, sufijos, composición, etc.); la entonación (habla) y la puntuación (escritura)."
+        ]
+      },
+      {
+        "bloque": "C. Diferentes culturas",
+        "apartados": [],
+        "items": [
+          "La segunda lengua extranjera como medio de comunicación y relación con personas de otros países, como medio para conocer culturas y modos de vida diferentes. Comprensión de mensajes emitidos por hablantes de otras lenguas, con distintos acentos.",
+          "Interés en la participación en intercambios comunicativos planificados, a través de diferentes medios (soporte papel o medios digitales), con estudiantes de la segunda lengua extranjera. Valoración del enriquecimiento personal que supone la relación con personas de otras culturas.",
+          "Iniciación a patrones culturales elementales propios de la segunda lengua extranjera. Fórmulas de cortesía adecuadas en los intercambios sociales.",
+          "Aspectos de la lengua, de la cultura y de la sociedad elementales, relativos a las costumbres, la vida cotidiana y las relaciones interpersonales básicas en países donde se habla esta segunda lengua extranjera.",
+          "Estrategias básicas de uso común para entender y apreciar la diversidad del lenguaje, de la cultura y del arte."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "El error como parte integrante del proceso y como instrumento de mejora. Confianza y reflexión sobre el aprendizaje, las propias posibilidades y la prioridad de la intención comunicativa.",
+          "Estrategias básicas de uso común (contexto visual, conocimiento previo del tema, identificación de información básica, deducción del significado de palabras y frases nuevas por el contexto…) para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+          "Conocimientos, destrezas y actitudes elementales que permiten iniciarse en actividades de comunicación en situaciones cotidianas básicas, en las que se utilicen gradualmente estrategias que ayuden a resolver conflictos, mejorar la comunicación o servir de enlace entre varios interlocutores en la misma o en diferentes lenguas, crear relaciones y llegar a acuerdos, fomentando actitudes de colaboración mutua.",
+          "Funciones comunicativas básicas de uso común adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar el tiempo, la cantidad y el espacio.",
+          "Modelos contextuales y géneros discursivos básicos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios, tales como cuentos, leyendas, artículos, noticias, cartas, emails, folletos, instrucciones, normas, avisos o conversaciones reguladoras de la convivencia.",
+          "Unidades lingüísticas básicas de uso común y significados asociados a dichas estructuras, tales como expresión de la entidad y sus propiedades, cantidad y número, espacio y las relaciones espaciales, afirmación, exclamación, negación, interrogación.",
+          "Léxico elemental, de alta frecuencia y de interés para el alumnado relativo a situaciones cotidianas, temas habituales, relaciones personales próximas (familiares, de amistad, escolares…) vivienda, lugares y entornos cercanos, aplicando los conocimientos adquiridos sobre los mismos a una comprensión adecuada del texto.",
+          "Patrones sonoros, acentuales y de entonación básicos de uso común, y funciones comunicativas generales asociadas a dichos patrones. Aspectos fonológicos: sonidos, ritmo, entonación y acentuación de palabras en frases de uso frecuente en el aula, a través de rimas, retahílas, trabalenguas, canciones, adivinanzas… acompañados de gestos y mímica. Lectura, deletreo y reconocimiento de palabras que comparten un patrón común, palabras que rimen y fonemas finales.",
+          "Convenciones ortográficas básicas de uso común y significados asociados a los formatos y elementos gráficos.",
+          "Convenciones y estrategias conversacionales básicas verbales o no verbales (gestos, contacto físico…) de uso común, en formato síncrono (cara a cara, teléfono, videollamada.) o asíncrono en las que se establece contacto social, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar indicaciones.",
+          "Recursos para el aprendizaje y estrategias elementales de búsqueda guiada de información en medios analógicos y digitales (filtrar resultados, elegir los términos precisos y utilizar la búsqueda avanzada, completar y contrastar los datos, valorar y seleccionar la información...).",
+          "Herramientas analógicas y digitales básicas de uso común para la comprensión, producción y coproducción oral, escrita y multimodal; y plataformas virtuales de interacción y colaboración educativa."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas de compensación de las carencias comunicativas (petición de repetición, aclaración o discurso más lento, descripciones, utilización de comunicación no verbal: gestos, dibujos…) para responder a una necesidad elemental, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las lenguas familiares.",
+          "Estrategias básicas de uso común para identificar, retener, recuperar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) uso de imágenes visuales, diagramas, fichas de vocabulario, mapas semánticos, diccionarios personales, a partir de su repertorio lingüístico.",
+          "Iniciación al uso de estrategias y herramientas básicas de uso común de evaluación, analógicas y digitales, individuales y grupales. Rúbricas, diarios de clase, porfolios, escalas de estimación, bloc de autoevaluación, listas de cotejo...",
+          "Léxico y expresiones elementales para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje). La enseñanza de estrategias metalingüísticas de inferencia a partir de las pistas contextuales, tales como el tema general; otras palabras del discurso (redundancias, anáforas, paralelismos); la estructura gramatical; la morfología (análisis de los prefijos, sufijos, composición, etc.); la entonación (habla) y la puntuación (escritura)."
+        ]
+      },
+      {
+        "bloque": "C. Diferentes culturas",
+        "apartados": [],
+        "items": [
+          "La segunda lengua extranjera como medio de comunicación y relación con personas de otros países, como medio para conocer culturas y modos de vida diferentes. Comprensión de mensajes emitidos por hablantes de otras lenguas, con distintos acentos.",
+          "Interés en la participación en intercambios comunicativos planificados, a través de diferentes medios (soporte papel o medios digitales), con estudiantes de la segunda lengua extranjera. Valoración del enriquecimiento personal que supone la relación con personas de otras culturas.",
+          "Iniciación a patrones culturales elementales propios de la segunda lengua extranjera. Fórmulas de cortesía adecuadas en los intercambios sociales.",
+          "Aspectos de la lengua, de la cultura y de la sociedad elementales, relativos a las costumbres, la vida cotidiana y las relaciones interpersonales básicas en países donde se habla esta segunda lengua extranjera.",
+          "Estrategias básicas de uso común para entender y apreciar la diversidad del lenguaje, de la cultura y del arte."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Comunicación",
+        "apartados": [],
+        "items": [
+          "El error como parte integrante del proceso y como instrumento de mejora. Confianza y reflexión sobre el aprendizaje, las propias posibilidades y la prioridad de la intención comunicativa.",
+          "Estrategias básicas de uso común (contexto visual, conocimiento previo del tema, identificación de información básica, deducción del significado de palabras y frases nuevas por el contexto…) para la comprensión y la producción de textos orales, escritos y multimodales breves, sencillos y contextualizados.",
+          "Conocimientos, destrezas y actitudes elementales que permiten iniciarse en actividades de comunicación en situaciones cotidianas básicas, en las que se utilicen gradualmente estrategias que ayuden a resolver conflictos, mejorar la comunicación o servir de enlace entre varios interlocutores en la misma o en diferentes lenguas, crear relaciones y llegar a acuerdos, fomentando actitudes de colaboración mutua.",
+          "Funciones comunicativas básicas de uso común adecuadas al ámbito y al contexto: saludar, despedirse, presentar y presentarse; describir personas, objetos y lugares; pedir e intercambiar información sobre cuestiones cotidianas; describir rutinas; dar indicaciones e instrucciones; expresar el tiempo, la cantidad y el espacio.",
+          "Modelos contextuales y géneros discursivos básicos de uso común en la comprensión, producción y coproducción de textos orales, escritos y multimodales, breves y sencillos, literarios y no literarios, tales como cuentos, leyendas, artículos, noticias, cartas, emails, folletos, instrucciones, normas, avisos o conversaciones reguladoras de la convivencia.",
+          "Unidades lingüísticas básicas de uso común y significados asociados a dichas estructuras, tales como expresión de la entidad y sus propiedades, cantidad y número, espacio y las relaciones espaciales, afirmación, exclamación, negación, interrogación.",
+          "Léxico elemental, de alta frecuencia y de interés para el alumnado relativo a situaciones cotidianas, temas habituales, relaciones personales próximas (familiares, de amistad, escolares…) vivienda, lugares y entornos cercanos, aplicando los conocimientos adquiridos sobre los mismos a una comprensión adecuada del texto.",
+          "Patrones sonoros, acentuales y de entonación básicos de uso común, y funciones comunicativas generales asociadas a dichos patrones. Aspectos fonológicos: sonidos, ritmo, entonación y acentuación de palabras en frases de uso frecuente en el aula, a través de rimas, retahílas, trabalenguas, canciones, adivinanzas… acompañados de gestos y mímica. Lectura, deletreo y reconocimiento de palabras que comparten un patrón común, palabras que rimen y fonemas finales.",
+          "Convenciones ortográficas básicas de uso común y significados asociados a los formatos y elementos gráficos.",
+          "Convenciones y estrategias conversacionales básicas verbales o no verbales (gestos, contacto físico…) de uso común, en formato síncrono (cara a cara, teléfono, videollamada.) o asíncrono en las que se establece contacto social, para iniciar, mantener y terminar la comunicación, tomar y ceder la palabra, pedir y dar indicaciones.",
+          "Recursos para el aprendizaje y estrategias elementales de búsqueda guiada de información en medios analógicos y digitales (filtrar resultados, elegir los términos precisos y utilizar la búsqueda avanzada, completar y contrastar los datos, valorar y seleccionar la información...).",
+          "Herramientas analógicas y digitales básicas de uso común para la comprensión, producción y coproducción oral, escrita y multimodal; y plataformas virtuales de interacción y colaboración educativa."
+        ]
+      },
+      {
+        "bloque": "B. Plurilingüismo",
+        "apartados": [],
+        "items": [
+          "Estrategias y técnicas de compensación de las carencias comunicativas (petición de repetición, aclaración o discurso más lento, descripciones, utilización de comunicación no verbal: gestos, dibujos…) para responder a una necesidad elemental, a pesar de las limitaciones derivadas del nivel de competencia en la lengua extranjera y en las lenguas familiares.",
+          "Estrategias básicas de uso común para identificar, retener, recuperar y utilizar unidades del lenguaje (léxico, morfosintaxis, patrones sonoros, etc.) uso de imágenes visuales, diagramas, fichas de vocabulario, mapas semánticos, diccionarios personales, a partir de su repertorio lingüístico.",
+          "Iniciación al uso de estrategias y herramientas básicas de uso común de evaluación, analógicas y digitales, individuales y grupales. Rúbricas, diarios de clase, porfolios, escalas de estimación, bloc de autoevaluación, listas de cotejo...",
+          "Léxico y expresiones elementales para comprender enunciados sobre la comunicación, la lengua y el aprendizaje (metalenguaje). La enseñanza de estrategias metalingüísticas de inferencia a partir de las pistas contextuales, tales como el tema general; otras palabras del discurso (redundancias, anáforas, paralelismos); la estructura gramatical; la morfología (análisis de los prefijos, sufijos, composición, etc.); la entonación (habla) y la puntuación (escritura)."
+        ]
+      },
+      {
+        "bloque": "C. Diferentes culturas",
+        "apartados": [],
+        "items": [
+          "La segunda lengua extranjera como medio de comunicación y relación con personas de otros países, como medio para conocer culturas y modos de vida diferentes. Comprensión de mensajes emitidos por hablantes de otras lenguas, con distintos acentos.",
+          "Interés en la participación en intercambios comunicativos planificados, a través de diferentes medios (soporte papel o medios digitales), con estudiantes de la segunda lengua extranjera. Valoración del enriquecimiento personal que supone la relación con personas de otras culturas.",
+          "Iniciación a patrones culturales elementales propios de la segunda lengua extranjera. Fórmulas de cortesía adecuadas en los intercambios sociales.",
+          "Aspectos de la lengua, de la cultura y de la sociedad elementales, relativos a las costumbres, la vida cotidiana y las relaciones interpersonales básicas en países donde se habla esta segunda lengua extranjera.",
+          "Estrategias básicas de uso común para entender y apreciar la diversidad del lenguaje, de la cultura y del arte."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

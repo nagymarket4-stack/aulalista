@@ -1230,13 +1230,341 @@
     "La lista de códigos del 2.º ciclo que dio el extractor en una primera consulta incluía 6.2.a/6.2.b; en dos consultas posteriores confirmó que el 2.º ciclo solo tiene 6.1 (6.2 aparece en el 3.er ciclo). Se sigue lo segundo.",
     "2.º ciclo 9.3.a: «tanto para las las personas» (el extractor indica que la duplicación figura en el original); «al-gunas» unido.",
     "3.er ciclo: el 9.3 no existe (solo 9.1 y 9.2). No se pudo confirmar que los enunciados de competencias del 3.er ciclo sean idénticos a los del 1.º; el 2.º sí (confirmado).",
-    "Saberes básicos sin extraer (págs. 31-38; códigos CMN.<ciclo>.<bloque>…)."
+    "Saberes básicos extraídos (págs. 31-38) separando las tres columnas por su código CMN.<ciclo>.<bloque>.<n>.<m>. El texto de esta sección sale muy intercalado: 2.º ciclo CMN.2.C.1.4 («Retos demográficos.») no tiene cuerpo en el texto extraído; CMN.2.A.3.1 («…instrumentos de medición y aplicaciones para conocer sus nutrientes y su aporte energético.») parece mezclar dos columnas; 3.er ciclo CMN.3.C.2.5 se completó con «cuidado y conservación.» por indicación del extractor; queda sin ubicar el fragmento «Movilidad segura, saludable y sostenible como peatones o como usuarios de los medios de locomoción.». Códigos literales con errata del BOJA: «CMN.1.C4.», «CMN.2.A3.», «CMN.2.C1.», «CMN.3.B2.», «CMN.3.C3.». Cotejar esta sección antes que ninguna otra."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "CMN.1.A.1. Iniciación en la actividad científica.",
+            "items": [
+              "CMN.1.A.1.1. Procedimientos de indagación adecuados a las necesidades de la investigación (observación en el tiempo, identificación y clasificación, búsqueda de patrones, etc.).",
+              "CMN.1.A.1.2. Instrumentos y dispositivos apropiados para realizar observaciones y mediciones de acuerdo con las necesidades de las diferentes investigaciones.",
+              "CMN.1.A.1.3. Vocabulario científico básico relacionado con las diferentes investigaciones.",
+              "CMN.1.A.1.4. Fomento de la curiosidad y la iniciativa en la realización de las diferentes investigaciones, así como en la lectura de textos divulgativos científicos.",
+              "CMN.1.A.1.5. Las profesiones relacionadas con la ciencia y la tecnología.",
+              "CMN.1.A.1.6. Estilos de vida sostenible e importancia del cuidado del planeta a través del conocimiento científico presente en la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "CMN.1.A.2. La vida en nuestro planeta.",
+            "items": [
+              "CMN.1.A.2.1. Necesidades básicas de los seres vivos, incluido el ser humano, y la diferencia con los objetos inertes.",
+              "CMN.1.A.2.2. Las adaptaciones de los seres vivos, incluido el ser humano, a su hábitat, concebido como el lugar en el que cubren sus necesidades y sus relaciones: los ecosistemas.",
+              "CMN.1.A.2.3. Clasificación e identificación de los seres vivos, incluido el ser humano, de acuerdo con sus características observables.",
+              "CMN.1.A.2.4. Las relaciones entre los seres humanos, los animales y las plantas. Cuidado y respeto hacia los seres vivos y al entorno en el que viven, evitando la degradación del suelo, el aire o el agua. El reino de los animales. Características y clasificación. Características que diferencian a los animales de otros seres vivos. Diferenciación entre animales domésticos y salvajes. Observación e identificación de algunos de estos animales. Clasificación de los animales según el medio en el cual habitan: terrestres, acuáticos, aéreos. Identificación de algunos de estos animales. Identificación de las características que diferencian a los animales vertebrados e invertebrados. Conocimiento de las características generales de los animales vertebrados: mamíferos, aves, reptiles, anfibios y peces. Conocimiento de las características de los animales invertebrados. Clasificación de los animales por su forma de alimentación: omnívoros, carnívoros y herbívoros. Identificación de algunos animales de estos grupos.",
+              "CMN.1.A.2.5. El reino de las plantas. Características y clasificación. Identificación y observación de las características que diferencian los tipos de plantas. Identificación de las partes de las plantas. Diferenciación entre plantas de hoja caduca y de hoja perenne. Conocimiento de la forma de reproducción de las plantas (flores, frutos y semilla). Identificación y explicación de la diferencia entre las plantas con flor y las plantas sin flor.",
+              "CMN.1.A.2.6. Conocimiento de sí mismo y de los demás. Aceptación del propio cuerpo con sus posibilidades y limitaciones.",
+              "CMN.1.A.2.7. Partes del cuerpo y funciones vitales del ser humano. Nutrición: respiración y alimentación. Relación: huesos, músculos, articulaciones y sentidos. Reproducción: aparato reproductor.",
+              "CMN.1.A.2.8. Hábitos saludables relacionados con el bienestar físico del ser humano: higiene, alimentación variada, equilibrada y sostenible, ejercicio físico, contacto con la naturaleza, descanso y cuidado del cuerpo como medio para prevenir posibles enfermedades.",
+              "CMN.1.A.2.9. Hábitos saludables relacionados con el bienestar emocional y social: Estrategias de identificación de las propias emociones y respeto por las de los demás. Sensibilidad y aceptación de la diversidad presente en el aula y en la sociedad."
+            ]
+          },
+          {
+            "apartado": "CMN.1.A.3. Materia, fuerzas y energía.",
+            "items": [
+              "CMN.1.A.3.1. La luz y el sonido como formas de energía. Fuentes y uso en la vida cotidiana.",
+              "CMN.1.A.3.2. Propiedades observables y medibles de los materiales, su procedencia y su uso en objetos de la vida cotidiana de acuerdo con las necesidades de diseño para los que fueron fabricados.",
+              "CMN.1.A.3.3. Las sustancias puras y las mezclas. Identificación de mezclas homogéneas y heterogéneas. Separación de mezclas heterogéneas mediante distintos métodos.",
+              "CMN.1.A.3.4. Estructuras resistentes, estables y útiles. Identificación de algunas máquinas y aparatos de la vida cotidiana: utilidad y funcionamiento."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "CMN.1.B.1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "CMN.1.B.1.1. Dispositivos y recursos del entorno digital de aprendizaje de acuerdo con las necesidades del contexto educativo. Utilización de las tecnologías de la información y la comunicación para la búsqueda de información y presentar conclusiones de forma oral o escrita.",
+              "CMN.1.B.1.2. Recursos digitales para comunicarse con personas conocidas en entornos conocidos y seguros. Búsqueda guiada de información contrastando la información de algunas fuentes seleccionadas."
+            ]
+          },
+          {
+            "apartado": "CMN.1.B.2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "CMN.1.B.2.1. Fases de los proyectos de diseño: prototipado, prueba y comunicación.",
+              "CMN.1.B.2.2. Materiales adecuados a la consecución del proyecto de diseño.",
+              "CMN.1.B.2.3. Iniciación a la programación a través de recursos analógicos o digitales adaptados al nivel lector del alumnado en la vida cotidiana.",
+              "CMN.1.B.2.4. Estrategias básicas de trabajo en equipo."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "CMN.1.C.1. Retos del mundo actual.",
+            "items": [
+              "CMN.1.C.1.1. La Tierra en el universo. Elementos, movimientos y dinámicas relacionados con la Tierra y el universo y sus consecuencias en la vida diaria y en el entorno. Secuencias temporales y cambios estacionales. Orientación espacial, nociones básicas, puntos cardinales y mapas.",
+              "CMN.1.C.1.2. La vida en la Tierra. Fenómenos atmosféricos y su repercusión en los ciclos biológicos y en la vida diaria. Observación y registro de datos atmosféricos.",
+              "CMN.1.C.1.3. El paisaje natural: montaña y costa. Principales unidades del relieve: isla, archipiélago, península, montaña, cordillera, llanura, valle, meseta, río, etc. Paisajes andaluces. El medio natural y el ser humano. El medio rural y urbano andaluz.",
+              "CMN.1.C.1.4. Retos sobre situaciones cotidianas. Funciones básicas del pensamiento espacial y temporal para la interacción con el medio y la resolución de situaciones de la vida cotidiana. Itinerarios y trayectos, desplazamientos y viajes."
+            ]
+          },
+          {
+            "apartado": "CMN.1.C.2. Sociedades en el tiempo.",
+            "items": [
+              "CMN.1.C.2.1. La percepción del tiempo. Medida del tiempo en la vida cotidiana. El ciclo vital y las relaciones intergeneracionales. Las unidades básicas de tiempo: día, semana, mes y año.",
+              "CMN.1.C.2.2. Recursos y medios analógicos y digitales. Las fuentes orales y la memoria colectiva. La historia local y la biografía familiar, hombres y mujeres como sujetos de la historia.",
+              "CMN.1.C.2.3. Las expresiones y producciones artísticas a través del tiempo. El patrimonio material e inmaterial local. Reconocimiento de personajes históricos relevantes, en especial andaluces, relacionados con el entorno cercano como monumentos, calles, etc. Hitos históricos, costumbres y tradiciones de Andalucía.",
+              "CMN.1.C.2.4. Uso de objetos y artefactos de la vida cotidiana como fuentes para reflexionar sobre el cambio y la continuidad, la causas y consecuencias."
+            ]
+          },
+          {
+            "apartado": "CMN.1.C.3. Alfabetización cívica.",
+            "items": [
+              "CMN.1.C.3.1. La vida en colectividad. La familia. Diversidad familiar. Compromisos, participación y normas en el entorno familiar, vecinal y escolar. Prevención, gestión y resolución dialogada de conflictos.",
+              "CMN.1.C.3.2. Estrategias para desarrollar la responsabilidad, la capacidad de esfuerzo y la constancia en la vida escolar y familiar.",
+              "CMN.1.C.3.3. La vida en sociedad. Espacios, recursos y servicios del entorno. El barrio, la localidad y el municipio. Formas y modos de interacción social en espacios públicos. Ciudades y pueblos más importantes de Andalucía.",
+              "CMN.1.C.3.4. Identidad y diversidad cultural: existencia de realidades diferentes y aproximación a las distintas étnico-culturas presentes en el entorno, integración y rechazo a las actitudes discriminatorias. La cultura gitana. Origen y formas de vida. Cultura de paz y no violencia.",
+              "CMN.1.C.3.5. Manifestaciones culturales populares de Andalucía y sus expresiones más significativas, haciendo hincapié en el Flamenco como patrimonio de la humanidad.",
+              "CMN.1.C.3.6. Ocupación y trabajo. Identificación de las principales actividades profesionales y laborales de hombres y mujeres en el entorno. Conocimiento del Ayuntamiento y los servicios públicos.",
+              "CMN.1.C.3.7. Igualdad de género. Relaciones humanas. Ocupación y distribución de la población en el espacio y análisis de los principales problemas y retos demográficos. Representación gráfica y cartográfica de la población. La organización del territorio en Andalucía, España y en Europa.",
+              "CMN.1.C.3.8. Seguridad vial. La ciudad como espacio de convivencia. Normas básicas en los desplazamientos como peatones y usuarios de los medios de transporte."
+            ]
+          },
+          {
+            "apartado": "CMN.1.C4. Conciencia ecosocial.",
+            "items": [
+              "CMN.1.C.4.1. Conocimiento de nuestro entorno. Paisajes naturales y paisajes humanizados, y sus elementos. La acción humana sobre el medio y sus consecuencias. Problemas ambientales en Andalucía.",
+              "CMN.1.C.4.2. Responsabilidad ecosocial. Acciones para la conservación, mejora y uso sostenible de los bienes comunes. El maltrato animal y su prevención.",
+              "CMN.1.C.4.3. Estilos de vida sostenible. El uso responsable del agua, la movilidad segura, saludable y sostenible, y la prevención y la gestión de los residuos. La importancia del agua como elemento indispensable para la vida. Necesidad de reducción, reutilización y reciclaje de materiales."
+            ]
+          }
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "CMN.2.A.1. Iniciación en la actividad científica.",
+            "items": [
+              "CMN.2.A.1.1. Procedimientos de indagación adecuadas a las necesidades de la investigación (observación en el tiempo, identificación y clasificación, búsqueda de patrones, creación de modelos, investigación a través de búsqueda de información, experimentos con control de variables, etc.).",
+              "CMN.2.A.1.2. Instrumentos y dispositivos apropiados para realizar observaciones y mediciones precisas de acuerdo con las necesidades de la investigación.",
+              "CMN.2.A.1.3. Vocabulario científico básico relacionado con las diferentes investigaciones.",
+              "CMN.2.A.1.4. Fomento de la curiosidad, la iniciativa y la constancia en la realización de las diferentes investigaciones, así como en la lectura de textos divulgativos científicos.",
+              "CMN.2.A.1.5. Avances en el pasado relacionados con la ciencia y la tecnología que han contribuido a transformar nuestra sociedad para mostrar modelos desde una perspectiva de género.",
+              "CMN.2.A.1.6. La importancia del uso de la ciencia y la tecnología para ayudar a comprender las causas de las propias acciones, tomar decisiones razonadas y realizar tareas de forma más eficiente."
+            ]
+          },
+          {
+            "apartado": "CMN.2.A.2. La vida en nuestro planeta.",
+            "items": [
+              "CMN.2.A.2.1. El cuerpo humano y su funcionamiento: los aparatos y sistemas implicados en las funciones vitales de nutrición y relación. Análisis de sus características principales que posibilita una actitud crítica ante las prácticas sociales que perjudican un desarrollo sano y obstaculizan el comportamiento responsable ante la salud.",
+              "CMN.2.A.2.2. Los cambios en el cuerpo humano durante las diferentes etapas de la vida: aceptación y reconocimiento del propio cuerpo y del de los demás, con sus posibilidades y limitaciones. Hábitos de vida saludables: la importancia de la higiene, una alimentación variada y equilibrada, el ejercicio físico, el ocio activo y el descanso. Identificación de las propias emociones y por la de los demás.",
+              "CMN.2.A.2.3. Los reinos de la naturaleza desde una perspectiva general e integrada a partir del estudio y análisis de las características de diferentes ecosistemas. La Biodiversidad en Andalucía.",
+              "CMN.2.A.2.4. Características propias de los animales que permiten su clasificación y diferenciación en subgrupos relacionados con su capacidad adaptativa al medio: obtención de energía, relación con el entorno y perpetuación de la especie. Clasificación de los animales según el tipo de alimentación y sistemas implicados en la función de nutrición: respiratorio, digestivo, circulatorio y excretor. Los animales y su relación con el entorno: órganos de los sentidos, aparato locomotor y sistema nervioso. Clasificación de los animales según su tipo de reproducción (sexual y asexual) y forma de reproducción (vivíparos, ovíparos y ovovivíparos).",
+              "CMN.2.A.2.5. Características propias de las plantas que permiten su clasificación en relación con su capacidad adaptativa al medio: obtención de energía, relación con el entorno y perpetuación de la especie.",
+              "CMN.2.A.2.6. Los ecosistemas como lugar donde intervienen factores bióticos y abióticos, manteniéndose un equilibrio entre los diferentes elementos y recursos. Principales ecosistemas andaluces.",
+              "CMN.2.A.2.7. Relación del ser humano con los ecosistemas para cubrir las necesidades de la sociedad. Ejemplos de buenos y malos usos de los recursos naturales de nuestro planeta y sus consecuencias. El ciclo del agua.",
+              "CMN.2.A.2.8. Las formas de relieve más relevantes.",
+              "CMN.2.A.2.9. Clasificación elemental de las rocas."
+            ]
+          },
+          {
+            "apartado": "CMN.2.A3. Materia, fuerzas y energía.",
+            "items": [
+              "CMN.2.A.3.1. El calor. Cambios de estado, materiales conductores y aislantes, instrumentos de medición y aplicaciones para conocer sus nutrientes y su aporte energético.",
+              "CMN.2.A.3.2. Los cambios reversibles e irreversibles que experimenta la materia desde un estado inicial a uno final, identificando los procesos y transformaciones que ocurren en la materia en situaciones de la vida cotidiana. Las sustancias puras y las mezclas. Tipos de mezclas. Separación de mezclas homogéneas mediante distintos métodos.",
+              "CMN.2.A.3.3. Fuerzas de contacto y a distancia. Las fuerzas y sus efectos.",
+              "CMN.2.A.3.4. Propiedades de las máquinas simples y complejas y su efecto sobre las fuerzas. Aplicaciones y usos en la vida cotidiana."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "CMN.2.B.1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "CMN.2.B.1.1. Dispositivos y recursos digitales de acuerdo con las necesidades del contexto educativo.",
+              "CMN.2.B.1.2. Estrategias de búsquedas guiadas de información seguras y eficientes en Internet (valoración, discriminación, selección y organización).",
+              "CMN.2.B.1.3. Reglas básicas de seguridad y privacidad para navegar por Internet y para proteger el entorno digital personal de aprendizaje.",
+              "CMN.2.B.1.4. Recursos y plataformas digitales restringidas y seguras para comunicarse con otras personas. Etiqueta digital, reglas básicas de cortesía y respeto y estrategias para resolver problemas en la comunicación digital.",
+              "CMN.2.B.1.5. Estrategias para fomentar el bienestar digital físico y mental. Reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, acceso a contenidos inadecuados, publicidad y correos no deseados, etc.), y estrategias de actuación."
+            ]
+          },
+          {
+            "apartado": "CMN.2.B.2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "CMN.2.B.2.1. Fases de los proyectos de diseño: diseño, prototipado, prueba y comunicación.",
+              "CMN.2.B.2.2. Materiales, herramientas y objetos adecuados a la consecución de un proyecto de diseño.",
+              "CMN.2.B.2.3. Técnicas cooperativas sencillas para el trabajo en equipo y estrategias para la gestión de conflictos y promoción de conductas empáticas e inclusivas.",
+              "CMN.2.B.2.4. Iniciación en la programación a través de recursos analógicos (actividades desenchufadas) o digitales (plataformas digitales de iniciación en la programación, aplicaciones de programación por bloques, robótica educativa, etc.)."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "CMN.2.C1. Retos del mundo actual.",
+            "items": [
+              "CMN.2.C.1.1. La Tierra y las catástrofes naturales. Elementos, movimientos, dinámicas que ocurren en el universo y su relación con determinados fenómenos físicos que afectan a la Tierra y repercuten en la vida diaria y en el entorno.",
+              "CMN.2.C.1.2. Conocimiento del espacio. Representación del espacio. Representación de la Tierra a través del globo terráqueo, los mapas y otros recursos digitales. Mapas y planos en distintas escalas. Técnicas de orientación mediante la observación de los elementos del medio físico y otros medios de localización espacial.",
+              "CMN.2.C.1.3. El clima y el paisaje. Los fenómenos atmosféricos. Toma y registro de datos meteorológicos y su representación gráfica y visual. Las Tecnologías de la Información Geográfica (TIG). Relación entre las zonas climáticas de España y Andalucía y la diversidad de paisajes. Las principales unidades de relieve de España y Andalucía a diferentes escalas. Los límites geográficos de España. Mares y océanos que la rodean. Islas y archipiélagos. Localización en el mapa.",
+              "CMN.2.C.1.4. Retos demográficos.",
+              "CMN.2.C.1.5. Desigualdad social y acceso a los recursos. Usos del espacio por el ser humano y evolución de las actividades productivas. Los sectores de producción en España y Andalucía. El valor, el control del dinero y los medios de pago. De la supervivencia a la sobreproducción."
+            ]
+          },
+          {
+            "apartado": "CMN.2.C.2. Sociedades en el tiempo.",
+            "items": [
+              "CMN.2.C.2.1. El tiempo histórico. Nociones temporales y cronología. Ubicación temporal de las grandes etapas históricas en ejes cronológicos (Prehistoria, Edad Antigua, Edad Media, Edad Moderna y Edad Contemporánea). La Península Ibérica en la Prehistoria: el Paleolítico, el Neolítico y la Edad de los Metales. Culturas prerromanas autóctonas: celtas e íberos. La Península Ibérica en la Edad Antigua: los pueblos colonizadores del Mediterráneo (fenicios, griegos y cartagineses). La Hispania Romana. La caída del Imperio romano: Influencia de las invasiones bárbaras.",
+              "CMN.2.C.2.2. Las fuentes históricas: clasificación y utilización de las distintas fuentes (orales, escritas, patrimoniales) como vía para el análisis de los cambios y permanencias en la localidad a lo largo de la historia. Las huellas de la historia en lugares, edificios, objetos, oficios o tradiciones de la localidad y de Andalucía.",
+              "CMN.2.C.2.3. Iniciación en la investigación y en los métodos de trabajo para la realización de proyectos, que analicen hechos, asuntos y temas de relevancia actual con perspectiva histórica, contextualizándolos en la época correspondiente (Prehistoria y Edad Antigua), como son la supervivencia y la alimentación, la vivienda, los intercambios comerciales (de dónde viene el dinero, los trabajos no remunerados), la explotación de bienes comunes y recursos, los avances técnicos.",
+              "CMN.2.C.2.4. La acción de mujeres y hombres como sujetos en la historia. Interpretación del papel de los individuos y de los distintos grupos sociales, relaciones, conflictos, creencias y condicionantes en cada época histórica. Las raíces clásicas y judeocristianas de Occidente.",
+              "CMN.2.C.2.5. Las expresiones artísticas y culturales prehistóricas y de la Antigüedad y su contextualización histórica. La función del arte y la cultura en el mundo de la Prehistoria y la Edad Antigua. Identificación de algunas expresiones artísticas de estos periodos en España.",
+              "CMN.2.C.2.6. El patrimonio natural y cultural de España y Andalucía. El Flamenco como Patrimonio Cultural Inmaterial de la Humanidad. Los espacios naturales y culturales protegidos de nuestra comunidad; uso, cuidado y conservación de los mismos."
+            ]
+          },
+          {
+            "apartado": "CMN.2.C.3. Alfabetización cívica.",
+            "items": [
+              "CMN.2.C.3.1. Compromisos y normas para la vida en sociedad.",
+              "CMN.2.C.3.2. Las costumbres, tradiciones y manifestaciones etnoculturales del entorno. Respeto por la diversidad cultural y la cohesión social. La actualidad de la ciudadanía gitana. La cultura de paz y no violencia.",
+              "CMN.2.C.3.3. La organización política y territorial de España y Andalucía. Comunidades autónomas, ciudades autónomas y provincias que forman España y Andalucía.",
+              "CMN.2.C.3.4. Organización y funcionamiento de la sociedad. Las principales instituciones y entidades del entorno local, regional y nacional y los servicios públicos que prestan. Estructura administrativa de España y Andalucía. El Estatuto de Autonomía de Andalucía.",
+              "CMN.2.C.3.5. Seguridad vial. La ciudad como espacio de convivencia. Normas de circulación, señales y marcas viales."
+            ]
+          },
+          {
+            "apartado": "CMN.2.C.4. Conciencia ecosocial.",
+            "items": [
+              "CMN.2.C.4.1. El cambio climático. Introducción a las causas y consecuencias del cambio climático, y su impacto en los paisajes de la Tierra. Medidas de mitigación y de adaptación. Principales efectos de cambio climático en Andalucía.",
+              "CMN.2.C.4.2. Responsabilidad ecosocial. Ecodependencia e interdependencia entre personas, sociedades y medio natural.",
+              "CMN.2.C.4.3. Estilos de vida sostenible. El consumo y la producción responsables, la alimentación equilibrada y sostenible, el uso eficiente del agua y la energía, la movilidad segura, saludable y sostenible, y la prevención y la gestión de los residuos. Necesidad de reducción, reutilización y reciclaje de materiales.",
+              "CMN.2.C.4.4. La transformación y la degradación de los ecosistemas naturales por la acción humana. Conservación y protección de la naturaleza. El maltrato animal y su prevención."
+            ]
+          }
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Cultura científica.",
+        "apartados": [
+          {
+            "apartado": "CMN.3.A.1. Iniciación en la actividad científica.",
+            "items": [
+              "CMN.3.A.1.1. Fases de la investigación científica (observación, formulación de preguntas y predicciones, planificación y realización de experimentos, recogida y análisis de información y datos, comunicación de resultados, etc.).",
+              "CMN.3.A.1.2. Instrumentos y dispositivos apropiados para realizar observaciones y mediciones precisas de acuerdo con las necesidades de la investigación.",
+              "CMN.3.A.1.3. Vocabulario científico básico relacionado con las diferentes investigaciones.",
+              "CMN.3.A.1.4. Fomento de la curiosidad, la iniciativa, la constancia y el sentido de la responsabilidad en la realización de las diferentes investigaciones, así como en la lectura de textos divulgativos científicos. El ensayo y el error en el método científico.",
+              "CMN.3.A.1.5. La ciencia, la tecnología y la ingeniería como actividades humanas. Las profesiones STEM en la actualidad",
+              "CMN.3.A.1.6. La relación entre los avances en matemáticas, ciencia, ingeniería y tecnología para comprender la evolución de la sociedad en el ámbito científicotecnológico."
+            ]
+          },
+          {
+            "apartado": "CMN.3.A.2. La vida en nuestro planeta.",
+            "items": [
+              "CMN.3.A.2.1. Aspectos básicos de las funciones vitales del ser humano desde una perspectiva integrada: obtención de energía (aparatos respiratorio, digestivo, circulatorio y excretor), relación con el entorno (órganos de los sentidos, sistema nervioso, aparato locomotor) y perpetuación de la especie (aparato reproductor).",
+              "CMN.3.A.2.2. Los cambios físicos, emocionales y sociales que conllevan la pubertad y la adolescencia para aceptarlos de forma positiva tanto en uno mismo como en los demás.",
+              "CMN.3.A.2.3. Pautas para una alimentación saludable y sostenible: menús saludables y equilibrados. La importancia de la cesta de la compra y del etiquetado de los productos alimenticios",
+              "CMN.3.A.2.4. Pautas que fomenten una salud emocional y social adecuadas: higiene del sueño, prevención y consecuencias del consumo de drogas (legales e ilegales), gestión saludable del ocio y del tiempo libre, contacto con la naturaleza, uso adecuado de dispositivos digitales, estrategias para el fomento de relaciones sociales saludables y fomento de los cuidados a personas.",
+              "CMN.3.A.2.5. Pautas para la prevención de riesgos y accidentes. Conocimiento de actuaciones básicas de primeros auxilios.",
+              "CMN.3.A.2.6. Clasificación básica de rocas y minerales. Usos y explotación sostenible de los recursos geológicos.",
+              "CMN.3.A.2.7. Procesos geológicos básicos de formación y modelado del relieve."
+            ]
+          },
+          {
+            "apartado": "CMN.3.A.3. Materia, fuerzas y energía.",
+            "items": [
+              "CMN.3.A.3.1. Masa y volumen. Instrumentos para calcular la masa y la capacidad de un objeto. Concepto de densidad y su relación con la flotabilidad de un objeto en un líquido.",
+              "CMN.3.A.3.2. La energía eléctrica. Fuentes, transformaciones, transferencia y uso en la vida cotidiana. Los circuitos eléctricos y las estructuras robotizadas.",
+              "CMN.3.A.3.3. Las formas de energía, las fuentes y las transformaciones. Las fuentes de energías renovables y no renovables y su influencia en la contribución al desarrollo sostenible de la sociedad.",
+              "CMN.3.A.3.4. Artefactos voladores. Principios básicos del vuelo. Artefactos marinos y principios básicos de flotabilidad e inmersión. Artefactos terrestres y principios básicos del movimiento a través del rozamiento y la rozadura."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Tecnología y digitalización.",
+        "apartados": [
+          {
+            "apartado": "CMN.3.B.1. Digitalización del entorno personal de aprendizaje.",
+            "items": [
+              "CMN.3.B.1.1. Dispositivos y recursos digitales de acuerdo con las necesidades del contexto educativo.",
+              "CMN.3.B.1.2. Estrategias de búsquedas de información seguras y eficientes en Internet (valoración, discriminación, selección, organización y propiedad intelectual).",
+              "CMN.3.B.1.3. Estrategias de recogida, almacenamiento y representación de datos para facilitar su comprensión y análisis.",
+              "CMN.3.B.1.4. Reglas básicas de seguridad y privacidad para navegar por Internet y para proteger el entorno digital personal de aprendizaje.",
+              "CMN.3.B.1.5. Recursos y plataformas digitales restringidas y seguras para comunicarse con otras personas. Etiqueta digital, reglas básicas de cortesía, respeto y estrategias para resolver problemas en la comunicación digital.",
+              "CMN.3.B.1.6. Estrategias para fomentar el bienestar digital físico y mental. Reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, dependencia tecnológica, acceso a contenidos inadecuados, etc.), y estrategias de actuación."
+            ]
+          },
+          {
+            "apartado": "CMN.3.B2. Proyectos de diseño y pensamiento computacional.",
+            "items": [
+              "CMN.3.B.2.1. Fases de los proyectos de diseño: identificación de necesidades, diseño, prototipado, prueba, evaluación y comunicación.",
+              "CMN.3.B.2.2. Fases del pensamiento computacional (descomposición de una tarea en partes más sencillas, reconocimiento de patrones y creación de algoritmos sencillos para la resolución del problema, etc.).",
+              "CMN.3.B.2.3. Materiales, herramientas, objetos, dispositivos y recursos digitales (programación por bloques, sensores, motores, simuladores, impresoras 3D, etc.) seguros y adecuados a la consecución del proyecto.",
+              "CMN.3.B.2.4. Estrategias en situaciones de incertidumbre: adaptación y cambio de estrategia cuando sea necesario, valoración del error propio y el de los demás como oportunidad de aprendizaje."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Sociedades y territorios.",
+        "apartados": [
+          {
+            "apartado": "CMN.3.C.1. Retos del mundo actual.",
+            "items": [
+              "CMN.3.C.1.1. El futuro de la Tierra y del universo. Los fenómenos físicos relacionados con la Tierra y el universo y su repercusión en la vida diaria y en el entorno. La exploración espacial y la observación del cielo; la contaminación lumínica.",
+              "CMN.3.C.1.2. El clima y el planeta. Introducción a la dinámica atmosférica y a las grandes áreas climáticas del mundo. Los principales ecosistemas y sus paisajes.",
+              "CMN.3.C.1.3. El entorno natural. La diversidad geográfica de Andalucía, España y de Europa (límites geográficos, vertientes y cuencas hidrográficas, formas de relieve y accidentes geográficos). Representación gráfica, visual y cartográfica a través de medios y recursos analógicos y digitales usando las Tecnologías de la Información Geográfica (TIG). Los límites geográficos de Europa: conocimiento y localización en el mapa. Países europeos y sus capitales. Principales países, ciudades, ríos y cordilleras de Hispanoamérica y otros países del mundo.",
+              "CMN.3.C.1.4. Migraciones y diversidad cultural. Las principales variables demográficas y su representación gráfica. Los comportamientos de la población y su evolución. Los movimientos migratorios y la apreciación de la diversidad cultural. Contraste entre zonas urbanas y despoblación rural en Europa, España y Andalucía.",
+              "CMN.3.C.1.5. Ciudadanía activa. Fundamentos y principios para la organización política y gestión del territorio en España. Participación social y ciudadana. Las Comunidades Autónomas: sus provincias y capitales. Los poderes del Estado: Legislativo, ejecutivo y judicial.",
+              "CMN.3.C.1.6. Igualdad de género entre personas. Hombres y mujeres en los distintos ámbitos: académico, profesional, social y cultural. Acciones para la igualdad efectiva entre mujeres y hombres."
+            ]
+          },
+          {
+            "apartado": "CMN.3.C.2. Sociedades en el tiempo.",
+            "items": [
+              "CMN.3.C.2.1. Las fuentes históricas: clasificación y utilización de las distintas fuentes (orales, escritas, patrimoniales). Temas de relevancia en la historia (Edad Media, Edad Moderna y Edad Contemporánea), el papel representado por los sujetos históricos (individuales y colectivos), acontecimientos y procesos: Hispania Visigoda, los musulmanes en la Península Ibérica, la Reconquista, los Reyes Católicos, el descubrimiento de América, el siglo XVIII, los Borbones en España, la Edad Contemporánea.",
+              "CMN.3.C.2.2. El papel de la mujer en la historia y los principales movimientos en defensa de sus derechos. Situación actual y retos de futuro en la igualdad de género.",
+              "CMN.3.C.2.3. La memoria democrática. Análisis multicausal del proceso de construcción de la democracia en España. La transición política española, del 1975 a la Constitución de 1978.El movimiento andalucista, desde la asamblea de Ronda hasta el Estatuto de Autonomía de Andalucía. La figura de Blas Infante. Fórmulas para la participación de la ciudadanía en la vida pública.",
+              "CMN.3.C.2.4. Las expresiones artísticas y culturales medievales, modernas y contemporáneas y su contextualización histórica. La función del arte y la cultura en el mundo medieval, moderno y contemporáneo. La España y la Andalucía de las tres culturas: el judaísmo, el cristianismo y el islam.",
+              "CMN.3.C.2.5. El patrimonio natural y cultural como bien y recurso. Los paisajes naturales de Andalucía como patrimonio natural de España. Principales manifestaciones de cultura popular en España y Andalucía. El Flamenco como patrimonio de la humanidad. Su uso, cuidado y conservación."
+            ]
+          },
+          {
+            "apartado": "CMN.3.C3. Alfabetización cívica.",
+            "items": [
+              "CMN.3.C.3.1. Historia y cultura de las minorías étnicas presentes en nuestro país, particularmente las propias del pueblo gitano. Reconocimiento de la diversidad cultural y lingüística de España.",
+              "CMN.3.C.3.2. Los principios y valores de los derechos humanos y de la infancia, la Constitución española y el Estatuto de Autonomía de Andalucía, derechos y deberes de la ciudadanía. La contribución del Estado y sus instituciones a la paz, la seguridad integral y la cooperación internacional para el desarrollo.",
+              "CMN.3.C.3.3. La cultura de paz y no violencia. El pensamiento crítico como herramienta para el análisis de los conflictos de intereses. El reconocimiento de las víctimas de la violencia. El reconocimiento a las víctimas de ETA.",
+              "CMN.3.C.3.4. La organización política. Principales entidades políticas y administrativas del entorno local, andaluz y nacional en España. Sistemas de representación y de participación política. Los símbolos del Estado español y de Andalucía.",
+              "CMN.3.C.3.5. España y Europa. Las principales instituciones de España y de la Unión Europea, de sus valores y de sus funciones. Los ámbitos de acción de las instituciones europeas y su repercusión en el entorno."
+            ]
+          },
+          {
+            "apartado": "CMN.3.C.4. Conciencia ecosocial.",
+            "items": [
+              "CMN.3.C.4.1. El cambio climático de lo local a lo global: causas y consecuencias. Medidas de mitigación y adaptación.",
+              "CMN.3.C.4.2. Responsabilidad ecosocial. Ecodependencia, interdependencia e interrelación entre personas, sociedades y medio natural.",
+              "CMN.3.C.4.3. El desarrollo sostenible. La actividad humana sobre el espacio y la explotación de los recursos. Las actividades económicas y los sectores productivos de Andalucía, España y Europa. La actividad económica y la distribución de la riqueza: desigualdad social y regional en el mundo y en España. Los Objetivos de Desarrollo Sostenible.",
+              "CMN.3.C.4.4. Economía verde. La influencia de los mercados (de bienes, financiero y laboral) en la vida de la ciudadanía. Los agentes económicos y los derechos laborales. El valor social de los impuestos. Responsabilidad social y ambiental de las empresas. Publicidad, consumo responsable (necesidades y deseos) y derechos del consumidor. La importancia de la planificación de los ingresos, gastos, ahorro, etc. para favorecer un consumo adecuado.",
+              "CMN.3.C.4.5. Hábitos de vida sostenible: los límites del planeta y el agotamiento de recursos. La huella ecológica. Necesidad de reducción, reutilización y reciclaje de materiales.",
+              "CMN.3.C.4.6. Agenda Urbana. El desarrollo urbano sostenible. La ciudad como espacio de convivencia."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

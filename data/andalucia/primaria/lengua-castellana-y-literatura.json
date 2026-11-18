@@ -1233,13 +1233,215 @@
     "C5 en la tabla del 1.er ciclo: el extractor duplicó «a demandas» al unir fragmentos; se dejó una vez.",
     "1.er ciclo 10.1.b termina sin punto; 10.1.a: «aspectos elementales, verbales, de la comunicación»; 2.º ciclo 1.3.b: «a la variedades»; 10.2.b: «escucha activa, y la comunicación asertiva», tal como se extrajeron.",
     "Enunciados de competencias tomados de la tabla del 1.er ciclo; el extractor confirmó que C8-C10 son iguales en el 2.º ciclo y C6-C10 iguales entre el 2.º y el 3.º; el resto no se pudo comparar.",
-    "Saberes básicos sin extraer (págs. ~95-102)."
+    "Saberes básicos extraídos (códigos LCL.<ciclo>.<bloque>…). Los bloques A, C y D numeran ítems directamente (LCL.1.A.1.) sin subapartados: se guardan en bloque.items. Erratas literales: «andaluza..» (LCL.2.C.8) y «andaluzar» (LCL.3.C.9)."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes.",
+        "items": [
+          "LCL.1.A.1. Biografía lingüística personal y mapa lingüístico del aula.",
+          "LCL.1.A.2. La diversidad etnocultural y lingüística, con especial atención a las variedades de la modalidad lingüística andaluza en las variedades geográficas más cercanas al alumnado, como riqueza y herramienta de reflexión interlingüística.",
+          "LCL.1.A.3. Identificación, con acompañamiento, de prejuicios y estereotipos lingüísticos.",
+          "LCL.1.A.4. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "LCL.1.B.1. Contexto.",
+            "items": [
+              "LCL.1.B.1.1. Incidencia de los componentes (situación, participantes, intención) en el acto comunicativo; durante las conversaciones, proponiendo temas, aportando opiniones, respondiendo a preguntas y respetando los turnos de palabra y los puntos de vista de los demás."
+            ]
+          },
+          {
+            "apartado": "LCL.1.B.2. Géneros discursivos.",
+            "items": [
+              "LCL.1.B.2.1. Tipologías textuales: la narración, la descripción y el diálogo.",
+              "LCL.1.B.2.2. Propiedades textuales: estrategias elementales para la coherencia y la cohesión.",
+              "LCL.1.B.2.3. Géneros discursivos propios del ámbito personal y educativo. Contenido y forma."
+            ]
+          },
+          {
+            "apartado": "LCL.1.B.3. Procesos.",
+            "items": [
+              "LCL.1.B.3.1. Interacción oral: interacción oral adecuada en contextos informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas para hacer sugerencias o peticiones, pedir o agradecer ayuda, manifestar una queja, formular deseos, expresar alegría o tristeza, saludar o despedirse.",
+              "LCL.1.B.3.2. Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal.",
+              "LCL.1.B.3.3. Producción oral: pronunciación y entonación. Actitud postural. Construcción y comunicación de conocimiento mediante la planificación y producción de textos orales y multimodales sencillos.",
+              "LCL.1.B.3.4. Comprensión lectora: estrategias elementales de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal.",
+              "LCL.1.B.3.5. Producción escrita: convenciones del código escrito y ortografía natural. Coherencia textual. Estrategias elementales, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales elementales. Escritura en soporte digital acompañada. Estrategias elementales, individuales o grupales, de planificación, textualización, revisión y autocorrección de textos. Dibujar lo que se lee, escribir lo que se ve. Uso de elementos gráficos y paratextuales elementales. Escritura en soporte digital acompañada.",
+              "LCL.1.B.3.6. Alfabetización mediática e informacional: estrategias elementales para la búsqueda guiada de información. Comunicación de la información. Reconocimiento de autoría. Uso guiado de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria.",
+        "items": [
+          "LCL.1.C.1. Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil y de la literatura popular andaluza, adecuados a sus intereses y organizados en itinerarios lectores.",
+          "LCL.1.C.2. Estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "LCL.1.C.3. Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, personajes, trama, escenario, argumento, espacio) y la construcción acompañada del sentido de la obra.",
+          "LCL.1.C.4. Relación de los textos leídos y otras manifestaciones artísticas y culturales.",
+          "LCL.1.C.5. Inicio de la construcción de los itinerarios lectores individuales. Estrategias para la expresión de gustos e intereses.",
+          "LCL.1.C.6. Lectura expresiva, dramatización o interpretación de fragmentos de la literatura infantil y popular andaluza, atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "LCL.1.C.7. Creación de textos de intención literaria a partir de modelos dados en general, prestando especial atención a la literatura popular andaluza.",
+          "LCL.1.C.8. Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas, en las que se incluyen las Comunidades lectoras. Los libros ilustrados como fuente de disfrute y de aprendizaje de la lectura, y su conexión con la realidad, con la fantasía y con las demás artes."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de la producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "LCL.1.D.1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados.",
+          "LCL.1.D.2. Diferencias elementales entre lengua oral y lengua escrita. Los sonidos y su escritura. Correspondencias regulares entre fonema y grafía en el ámbito de la ortografía fonética o natural (/k/, z, g, r). Palabras sencillas que contienen los grupos inseparables /bl/- y /br/- y los grupos /m.b/ y /n.v/.",
+          "LCL.1.D.3. Procedimientos elementales de adquisición de vocabulario. Reflexión contextualizada sobre la relación de significado entre unas palabras y otras. Clases de palabras y concordancias.",
+          "LCL.1.D.4. Relación entre intención comunicativa y modalidad oracional.",
+          "LCL.1.D.5. Mecanismos elementales de coherencia y cohesión textual, con especial atención a los conectores temporales y explicativos.",
+          "LCL.1.D.6. Signos básicos de puntuación como mecanismo para organizar el texto escrito. La utilidad del punto y sus implicaciones ortográficas. Identificación y uso elemental de la coma en las enumeraciones, y de los signos de interrogación y exclamación."
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes.",
+        "items": [
+          "LCL.2.A.1. Biografía lingüística personal y mapa lingüístico del centro.",
+          "LCL.2.A.2. La diversidad etno-cultural y lingüística, como riqueza y herramienta de reflexión interlingüística. La modalidad lingüística andaluza.",
+          "LCL.2.A.3. Identificación de prejuicios y estereotipos lingüísticos.",
+          "LCL.2.A.4. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "LCL.2.B.1. Contexto.",
+            "items": [
+              "LCL.2.B.1.1. Incidencia de los componentes (situación, participantes, propósito comunicativo, canal) en el acto comunicativo, durante la participación en conversaciones y coloquios, expresando con orden y coherencia opiniones propias, escuchando las de los demás, dando explicaciones y siguiendo las normas establecidas para una correcta comunicación."
+            ]
+          },
+          {
+            "apartado": "LCL.2.B.2. Géneros discursivos.",
+            "items": [
+              "LCL.2.B.2.1. Tipologías textuales: la narración, la descripción, el diálogo y la exposición.",
+              "LCL.2.B.2.2. Propiedades textuales: estrategias básicas para la coherencia y la cohesión.",
+              "LCL.2.B.2.3. Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma."
+            ]
+          },
+          {
+            "apartado": "LCL.2.B.3. Procesos.",
+            "items": [
+              "LCL.2.B.3.1. Interacción oral: interacción oral adecuada en contextos formales e informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas. Estrategias de interpretación de elementos básicos de la comunicación no verbal (postura, gestos, expresión facial, contacto visual) durante los procesos de interacción y comprensión.",
+              "LCL.2.B.3.2. Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global realizando inferencias necesarias. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal.",
+              "LCL.2.B.3.3. Producción oral: elementos básicos de la prosodia y de la comunicación no verbal. Construcción, comunicación y valoración de conocimiento mediante la planificación y producción de textos orales y multimodales.",
+              "LCL.2.B.3.4. Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida y entonada. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal. Lectura individual de textos breves, narrativos, poéticos… con entonación, fluidez, ritmo y respeto hacia los signos de puntuación (punto, coma, punto y coma, puntos suspensivos, signos de admiración e interrogación).",
+              "LCL.2.B.3.5. Producción escrita: convenciones del código escrito y ortografía reglada básica. Coherencia y cohesión textual. Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales básicos al servicio de la comprensión. Escritura en soporte digital acompañada.",
+              "LCL.2.B.3.6. Alfabetización mediática e informacional: estrategias básicas para la búsqueda guiada de información en fuentes documentales variadas y con distintos soportes y formatos. Reconocimiento de autoría. Comparación y comunicación creativa de la información. Uso de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria.",
+        "items": [
+          "LCL.2.C.1. Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil y de la literatura popular andaluza, adecuados a sus intereses y organizados en itinerarios lectores.",
+          "LCL.2.C.2. Estrategias básicas para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "LCL.2.C.3. Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, protagonistas, personajes secundarios, trama, escenario, lenguaje, argumento, espacio) y la construcción del sentido de la obra.",
+          "LCL.2.C.4. Análisis guiado de los recursos expresivos y sus efectos en la recepción del texto.",
+          "LCL.2.C.5. Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+          "LCL.2.C.6. Construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses e iniciación a la valoración argumentada de las obras.",
+          "LCL.2.C.7. Lectura expresiva, dramatización o interpretación de fragmentos de la literatura infantil, prestando especial atención a la literatura popular andaluza, atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+          "LCL.2.C.8. Creación de textos de intención literaria de manera libre, a partir de modelos dados o recreando textos literarios en general, con especial atención a la literatura popular andaluza..",
+          "LCL.2.C.9. Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas. Comunidades lectoras."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "LCL.2.D.1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de enunciados, prestando especial atención a las relaciones que se establecen entre sustantivos, adjetivos y verbos.",
+          "LCL.2.D.2. Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos. Observación y comparación de unidades comunicativas básicas. Reglas ortográficas (b/v, g/j, ll/y, r/rr, h; c/qu, z/c, d/z, s/z) en palabras de uso frecuente.",
+          "LCL.2.D.3. Procedimientos elementales de adquisición de vocabulario. Similitudes y diferencias de forma y significado entre palabras de la misma familia léxica o semántica. Clases de palabras: sustantivos, artículos y otros determinantes, pronombres personales básicos, adjetivos calificativos y verbos.",
+          "LCL.2.D.4. Relación entre intención comunicativa y modalidad oracional.",
+          "LCL.2.D.5. Mecanismos elementales de coherencia y cohesión, con especial atención a las repeticiones y sinónimos, y al orden de oraciones y párrafos.",
+          "LCL.2.D.6. Los signos de puntuación como mecanismos para organizar el texto escrito y para expresar la intención comunicativa.",
+          "LCL.2.D.7. Estrategias elementales para el uso guiado de diccionarios, en distintos soportes."
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Las lenguas y sus hablantes.",
+        "items": [
+          "LCL.3.A.1. Biografía lingüística personal y mapa lingüístico del entorno geográfico. Mapa del español en el mundo. El español como lengua universal. La Real Academia Española de la lengua. Orígenes e historia de la lengua española. Lenguas muertas en España: griego y latín. Elio Antonio de Nebrija como autor de la primera gramática de la Lengua Castellana.",
+          "LCL.3.A.2. La diversidad etnocultural y lingüística como riqueza y herramienta de reflexión interlingüística. Aproximación a las lenguas de signos. La modalidad lingüística andaluza.",
+          "LCL.3.A.3. Estrategias de identificación de prejuicios y estereotipos lingüísticos.",
+          "LCL.3.A.4. Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+        ]
+      },
+      {
+        "bloque": "B. Comunicación.",
+        "apartados": [
+          {
+            "apartado": "LCL.3.B.1. Contexto.",
+            "items": [
+              "LCL.3.B.1.1. Interacciones entre los componentes del hecho comunicativo (situación, participantes, propósito comunicativo, canal, registro)."
+            ]
+          },
+          {
+            "apartado": "LCL.3.B.2. Géneros discursivos.",
+            "items": [
+              "LCL.3.B.2.1. Tipologías textuales: la narración, la descripción, el diálogo, la exposición y la argumentación.",
+              "LCL.3.B.2.2. Propiedades textuales: estrategias básicas para la coherencia, cohesión y adecuación.",
+              "LCL.3.B.2.3. Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma. Redes sociales y sus riesgos."
+            ]
+          },
+          {
+            "apartado": "LCL.3.B.3. Procesos.",
+            "items": [
+              "LCL.3.B.3.1. Interacción oral: interacción oral y adecuada en contextos formales e informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+              "LCL.3.B.3.2. Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Valoración crítica. Detección de usos discriminatorios del lenguaje verbal y no verbal. Estrategias de uso gradualmente autónomo de recursos lingüísticos diversos en diferentes soportes, incluidos los digitales, para mejorar la comprensión de textos.",
+              "LCL.3.B.3.3. Producción oral: elementos de la prosodia y de la comunicación no verbal. Construcción, comunicación y valoración crítica de conocimiento mediante la planificación y producción de textos orales y multimodales con progresiva autonomía.",
+              "LCL.3.B.3.4. Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Valoración crítica. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida y expresiva. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+              "LCL.3.B.3.5. Producción escrita: ortografía reglada en la textualización y la autocorrección. Coherencia, cohesión y adecuación textual. Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales al servicio de la comprensión. Escritura en soporte digital acompañada.",
+              "LCL.3.B.3.6. Alfabetización mediática e informacional: estrategias para la búsqueda de información en distintas fuentes documentales y con distintos soportes y formatos. Reconocimiento de autoría. Comparación, organización, valoración crítica y comunicación creativa de la información. Uso progresivamente autónomo de la biblioteca, así como de recursos digitales del aula."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Educación literaria.",
+        "items": [
+          "LCL.3.C.1. Lectura progresivamente autónoma de obras o fragmentos variados y diversos de la literatura y de la literatura popular andaluza, adecuados a su edad y organizados en itinerarios lectores.",
+          "LCL.3.C.2. Estrategia para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+          "LCL.3.C.3. Relación, de manera acompañada, entre los elementos constitutivos de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+          "LCL.3.C.4. Análisis acompañado de la relación entre los elementos básicos del género literario y la construcción del sentido de la obra. Características fundamentales de textos literarios narrativos, poéticos y dramáticos.",
+          "LCL.3.C.5. Estrategias básicas para la interpretación progresivamente autónoma de los textos literarios. El lenguaje figurado (símiles y metáforas), las personificaciones, las hipérboles y los juegos de palabras. Refranes, aforismos y greguerías para profundizar en el sentido y posibilidades del lenguaje. El uso de comparaciones, metáforas, aumentativos, diminutivos y sinónimos en textos literarios.",
+          "LCL.3.C.6. Relación entre los textos leídos y otras manifestaciones artísticas y culturales. Los libros ilustrados como fuente de disfrute y de aprendizaje de la lectura y su conexión con la realidad, con la fantasía y con las demás artes.",
+          "LCL.3.C.7. Progreso en la construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses y para la valoración crítica elemental de las obras.",
+          "LCL.3.C.8. Lectura expresiva, dramatización o interpretación de fragmentos, de la literatura infantil y de la literatura popular andaluza, atendiendo a los procesos de comprensión y al nivel de desarrollo. Principales autores de la literatura española y universal en las distintas épocas. Obras más relevantes.",
+          "LCL.3.C.9. Creación de textos de intención literaria, de manera libre y a partir de la recreación y apropiación de los modelos dados en general, con especial atención a la literatura popular andaluzar.",
+          "LCL.3.C.10. Uso progresivamente autónomo de la biblioteca de aula o de centro como escenario de actividades literarias compartidas. Comunidades lectoras."
+        ]
+      },
+      {
+        "bloque": "D. Reflexión sobre la lengua y sus usos en el marco de propuestas de producción y comprensión de textos orales, escritos o multimodales.",
+        "items": [
+          "LCL.3.D.1. Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados.",
+          "LCL.3.D.2. Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos. Observación y comparación de unidades comunicativas básicas. Relaciones fundamentales entre los esquemas semánticos y sintácticos de la oración. Uso de la sintaxis correcta en los escritos propios. Reconocimiento de sintagmas sencillos.",
+          "LCL.3.D.3. Procedimientos básicos de adquisición de vocabulario. Mecanismos léxicos básicos para la formación de palabras. Familias de palabras, palabras derivadas, homónimas.",
+          "LCL.3.D.4. Relación entre intención comunicativa y modalidad oracional.",
+          "LCL.3.D.5. Mecanismos básicos de coherencia y cohesión, con especial atención a las sustituciones pronominales y a la correlación temporal establecida mediante los distintos tiempos verbales. Conjugación de los verbos. La voz pasiva.",
+          "LCL.3.D.6. Estrategias de observación y formulación de generalizaciones sobre la acentuación.",
+          "LCL.3.D.7. Los signos de puntuación como mecanismos para organizar el texto y expresar intención comunicativa.",
+          "LCL.3.D.8. Estrategias básicas para el uso progresivamente autónomo de diccionarios, en distintos soportes."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }

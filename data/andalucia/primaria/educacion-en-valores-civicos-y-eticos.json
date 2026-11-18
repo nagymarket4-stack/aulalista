@@ -182,13 +182,56 @@
     "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
     "Tabla «Educación en Valores Cívicos y Éticos (Tercer Ciclo)» con una sola columna «Criterios de evaluación 6º»; criterios numerados X.Y sin a/b. El anexo I de la Orden asigna el área solo a 6.º (1,5 h).",
     "3.1: «justificando argumalmente» (reconsultado: así figura); 2.5: «los organismos internaciones», tal como se extrajeron.",
-    "Saberes básicos sin extraer."
+    "Saberes básicos extraídos (sección «Saberes básicos», solo TERCER CICLO; códigos VCE.3.<bloque>.<n>.). Los ítems van directamente bajo cada bloque (sin subapartados)."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
     "metodo": "WebFetch sobre el PDF oficial; citas literales en fragmentos"
   },
-  "saberes": {},
+  "saberes": {
+    "tercer": [
+      {
+        "bloque": "A. Autoconocimiento y autonomía moral.",
+        "items": [
+          "VCE.3.A.1. El pensamiento crítico y ético.",
+          "VCE.3.A.2. La naturaleza humana y la identidad personal. Igualdad y diferencia entre las personas. La libertad y el determinismo.",
+          "VCE.3.A.3. La gestión de las emociones y los sentimientos. La autoestima.",
+          "VCE.3.A.4. La educación afectivo-sexual.",
+          "VCE.3.A.5. Deseos y razones. La voluntad y el juicio moral. Autonomía y responsabilidad.",
+          "VCE.3.A.6. La ética como guía de nuestras acciones. El debate en torno a lo valioso y a los valores. Las normas, las virtudes y los sentimientos morales. La dimensión trascendente del ser humano. El hecho religioso o su ausencia. El sentido de la vida y reflexión sobre la muerte. El bien y el mal. La belleza y la felicidad. La búsqueda de la verdad; la mentira. La salud, la enfermedad y la ética científica. Acercamiento a las raíces morales de Occidente y de otras culturas.",
+          "VCE.3.A.7. El propio proyecto personal: la diversidad de valores, fines y modelos de vida. El pensamiento creativo.",
+          "VCE.3.A.8. La influencia y el uso crítico y responsable de los medios y las redes de comunicación. La prevención del abuso y el ciberacoso. El respeto a la intimidad. Los límites a la libertad de expresión. Las conductas adictivas."
+        ]
+      },
+      {
+        "bloque": "B. Sociedad, justicia y democracia.",
+        "items": [
+          "VCE.3.B.1. Las virtudes del diálogo y las normas de la argumentación. La toma democrática de decisiones. El trabajo cooperativo y solidario en grupo.",
+          "VCE.3.B.2. Fundamentos de la vida en sociedad. La empatía con los demás. Los afectos. La familia. La amistad y el amor. El cuidado a las personas mayores.",
+          "VCE.3.B.3. Las reglas de convivencia. Moralidad, legalidad y conducta cívica. El papel de las fuerzas y agentes de seguridad.",
+          "VCE.3.B.4. Principios y valores constitucionales y democráticos. El problema de la justicia. La toma democrática de decisiones. La Constitución española de 1978. Derechos y deberes reconocidos a los españoles. El terrorismo. El Estado de Bienestar. El respeto a los bienes públicos. Los impuestos. El Estado de Derecho como garantía para la democracia y la libertad.",
+          "VCE.3.B.5. Valores promulgados por la Constitución de 1978.",
+          "VCE.3.B.6. Valores promulgados por el Estatuto de Autonomía de Andalucía.",
+          "VCE.3.B.7. Los Derechos Humanos y de la infancia y su relevancia ética.",
+          "VCE.3.B.8. La desigualdad económica. La pobreza y la explotación laboral e infantil: análisis de sus causas y búsqueda de soluciones locales y globales.",
+          "VCE.3.B.9. La igualdad y la corresponsabilidad entre mujeres y hombres. La prevención de los abusos y la violencia de género. La conducta no sexista.",
+          "VCE.3.B.10. El respeto por las minorías y las identidades etnoculturales y de género. Interculturalidad y migraciones. Relación con los demás. Tolerancia. Aceptación del otro. Desarrollo de habilidades sociales. El respeto a la libertad individual. La libertad de pensamiento, de conciencia, de religión, de opinión y de expresión. La superación de los prejuicios sociales.",
+          "VCE.3.B.11. La cultura de paz y no violencia. La contribución del Estado y sus instituciones a la paz, la seguridad y la cooperación internacional. La seguridad integral del ciudadano. Valoración de la defensa como un compromiso cívico y solidario al servicio de la paz. La protección civil y la colaboración ciudadana frente a los desastres. El papel de las ONG y ONGD. La resolución pacífica de los conflictos.",
+          "VCE.3.B.12. La política: ley, poder, soberanía y justicia. Formas de estado y tipos de gobierno. El Estado de derecho. La Constitución española de 1978 y sus valores como norma fundamental de todos los españoles. La democracia: principios, procedimientos e instituciones. La Comunidad Autónoma de Andalucía, su Estatuto e Instituciones. Blas Infante y el Andalucismo histórico. La memoria democrática. La guerra, el terrorismo de ETA y otras formas de violencia política. El reconocimiento a las víctimas de ETA."
+        ]
+      },
+      {
+        "bloque": "C. Desarrollo sostenible y ética ambiental.",
+        "items": [
+          "VCE.3.C.1. La empatía, el cuidado y el aprecio hacia los seres vivos y el medio natural. El maltrato animal y su prevención. El respeto a los bienes de la naturaleza. El respeto y protección a los animales en general y particularmente los que viven en entornos domésticos.",
+          "VCE.3.C.2. La acción humana en la naturaleza. Ecosistemas y sociedades: interdependencia, ecodependencia e interrelación.",
+          "VCE.3.C.3. Los límites del planeta y el cambio climático.",
+          "VCE.3.C.4. El deber ético y la obligación legal de proteger y cuidar del planeta.",
+          "VCE.3.C.5. Hábitos y actividades para el logro de los Objetivos de Desarrollo Sostenible. El consumo responsable. El uso sostenible del suelo, del aire, del agua y de la energía. La movilidad segura, saludable y sostenible. La prevención y la gestión de los residuos."
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }
