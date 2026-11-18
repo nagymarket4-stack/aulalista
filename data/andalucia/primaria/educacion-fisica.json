@@ -1,0 +1,783 @@
+{
+  "area": "Educación Física",
+  "fuente": "Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo. Texto extraído del PDF oficial de juntadeandalucia.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Adoptar un estilo de vida activo y saludable, practicando regularmente actividades físicas, lúdicas y deportivas, adoptando comportamientos que potencien la salud física, mental y social, así como medidas de responsabilidad individual y colectiva durante la práctica motriz, para interiorizar e integrar hábitos de actividad física sistemática que contribuyan al bienestar.",
+      "resumen": null,
+      "descriptores": [
+        "STEM2",
+        "STEM5",
+        "CPSAA2",
+        "CPSAA5",
+        "CE3",
+        "CD1",
+        "CD2",
+        "CD3"
+      ]
+    },
+    {
+      "id": "C2",
+      "enunciado": "Adaptar los elementos propios del esquema corporal, las capacidades físicas, perceptivo-motrices y coordinativas, así como las habilidades y destrezas motrices, aplicando procesos de percepción, decisión y ejecución adecuados a la lógica interna y a los objetivos de diferentes situaciones, para dar respuesta a las demandas de proyectos motores y de prácticas motrices con distintas finalidades en contextos de la vida diaria.",
+      "resumen": null,
+      "descriptores": [
+        "STEM1",
+        "CPSAA4",
+        "CPSAA5",
+        "CD1",
+        "CD2",
+        "CD3"
+      ]
+    },
+    {
+      "id": "C3",
+      "enunciado": "Desarrollar procesos de autorregulación e interacción en el marco de la práctica motriz, con actitud empática e inclusiva, haciendo uso de habilidades sociales y actitudes de cooperación, respeto, inclusión, trabajo en equipo y deportividad, con independencia de las diferencias etnoculturales, sociales, de género y de habilidad de los participantes, para contribuir a la convivencia social y al compromiso ético en los diferentes espacios en los que se participa.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA5",
+        "CC2",
+        "CC3"
+      ]
+    },
+    {
+      "id": "C4",
+      "enunciado": "Reconocer y practicar diferentes manifestaciones lúdicas, físico-deportivas y artístico-expresivas propias de la cultura motriz, valorando su influencia y sus aportaciones estéticas y creativas a la cultura tradicional y contemporánea, para integrarlas dentro del repertorio de actuaciones motrices que se utilizan regularmente en la vida cotidiana.",
+      "resumen": null,
+      "descriptores": [
+        "CC3",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CCEC4",
+        "CD1",
+        "CD2",
+        "CD3"
+      ]
+    },
+    {
+      "id": "C5",
+      "enunciado": "Valorar diferentes medios naturales y urbanos como contextos de práctica motriz, interactuando con ellos y comprendiendo la importancia de su conservación desde un enfoque sostenible, adoptando medidas de responsabilidad individual durante la práctica de juegos y actividades físico-deportivas, para realizar una práctica eficiente y respetuosa con el entorno y participar en su cuidado y mejora.",
+      "resumen": null,
+      "descriptores": [
+        "STEM5",
+        "CC2",
+        "CC4",
+        "CE1",
+        "CE3",
+        "CD5"
+      ]
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Identificar los desplazamientos activos como práctica saludable, buscando la posibilidad de integrar normas de seguridad y hábitos de higiene en prácticas motrices cotidianas, conociendo sus beneficios para el establecimiento de un estilo de vida activo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Identificar los desplazamientos activos como práctica saludable, integrando normas de seguridad y hábitos de higiene en prácticas motrices cotidianas, conociendo sus beneficios físicos para el establecimiento de un estilo de vida activo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Explorar las posibilidades de la propia motricidad a través del juego, practicando en distintas situaciones cotidianas, medidas básicas de cuidado de la salud personal a través de la higiene corporal y la educación postural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Explorar las posibilidades de la propia motricidad a través del juego, aplicando en distintas situaciones cotidianas, medidas básicas de cuidado de la salud personal a través de la higiene corporal y la educación postural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Vivenciar juegos de activación y vuelta a la calma identificando su utilidad para adaptar el cuerpo a la actividad física y evitar lesiones, manteniendo la calma y sabiendo cómo actuar en caso de que se produzca algún accidente en contextos de práctica motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Participar en juegos de activación y vuelta a la calma reconociendo su utilidad para adaptar el cuerpo a la actividad física y evitar lesiones, manteniendo la calma y sabiendo cómo actuar en caso de que se produzca algún accidente en contextos de práctica motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Identificar los valores positivos que fomenta la práctica motriz compartida, vivenciando y disfrutando sus beneficios en contextos variados e inclusivos y respetando a todos los participantes con independencia de sus diferencias individuales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Conocer los valores positivos que fomenta la práctica motriz compartida, reconociendo, vivenciando y disfrutando sus beneficios en contextos variados e inclusivos y respetando a todos los participantes con independencia de sus diferencias individuales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Vivenciar la importancia de establecer metas claras a la hora de desarrollar proyectos motores de carácter individual, cooperativo o colaborativo, identificando su consecución a partir de un análisis de los resultados obtenidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Reconocer la importancia de establecer metas claras a la hora de desarrollar proyectos motores de carácter individual, cooperativo o colaborativo, valorando su consecución a partir de un análisis de los resultados obtenidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Explorar situaciones variadas en contextos de práctica motriz de manera ajustada según las circunstancias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Adoptar decisiones en contextos de práctica motriz de manera ajustada según las circunstancias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Vivenciar y emplear los componentes cualitativos y cuantitativos de la motricidad de manera lúdica e integrada en diferentes situaciones y contextos, mejorando progresivamente su control y su dominio corporal.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Descubrir, reconocer y emplear los componentes cualitativos y cuantitativos de la motricidad de manera lúdica e integrada en diferentes situaciones y contextos, mejorando progresivamente su control y su dominio corporal.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Vivenciar las emociones que se producen durante el juego y la actividad física, iniciándose en la gestión positiva de las mismas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Identificar las emociones que se producen durante el juego, intentando gestionarlas y disfrutando de la actividad física.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Acordar normas y reglas de juegos consensuadas en clase, interactuando con diálogo y aceptando las diferencias individuales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Respetar las normas consensuadas en clase, así como las reglas de juego y actuar desde los parámetros de la deportividad y el juego limpio, aceptando las características y niveles de los participantes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Iniciarse en prácticas motrices cotidianas cooperativas, mostrando actitudes de respeto y responsabilidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Participar en las prácticas motrices cotidianas, comenzando a desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación, iniciándose en la resolución de conflictos personales de forma dialógica y justa, y mostrando un compromiso activo frente a las actuaciones contrarias a la convivencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Vivenciar juegos y manifestaciones artístico-expresivas de carácter cultural del entorno cercano, valorando su componente lúdico y disfrutando de su puesta en práctica.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Participar activamente en juegos y otras manifestaciones artístico-expresivas de carácter cultural propias del entorno, valorando su componente lúdico-festivo y disfrutando de su puesta en práctica.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Conocer a referentes del deporte de ambos géneros del entorno cercano, reconociendo el esfuerzo y la dedicación requeridos para alcanzar el éxito.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Conocer y valorar los logros de distintos referentes del deporte andaluz de ambos géneros, reconociendo el esfuerzo, la dedicación y los sacrificios requeridos para alcanzar dichos éxitos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Explorar las posibilidades expresivas del cuerpo y del movimiento en actividades rítmico-musicales de carácter expresivo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Adecuar los distintos usos comunicativos de la corporalidad y sus manifestaciones a diferentes ritmos y contextos expresivos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Explorar el entorno natural y urbano, aprendiendo a utilizarlo de forma segura, conociendo otros usos desde la motricidad, adoptando actitudes de respeto hacia ellos durante el desarrollo de distintas prácticas lúdico-recreativas en contextos terrestres o acuáticos e iniciándose en su cuidado y conservación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Participar en actividades lúdicos-recreativas de forma segura en los entornos natural y urbano y en contextos terrestres o acuáticos, conociendo otros usos desde la motricidad y adoptando actitudes de respeto, cuidado y conservación de dichos entornos.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/77-79"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Reconocer la actividad física como alternativa de ocio saludable, practicando desplazamientos activos y sostenibles e identificando los efectos beneficiosos a nivel físico y mental que posee adoptar un estilo de vida activo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Reconocer la actividad física como alternativa de ocio saludable, identificando desplazamientos activos y sostenibles y conociendo los efectos beneficiosos a nivel físico y mental que posee adoptar un estilo de vida activo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Practicar medidas de educación postural, alimentación saludable, higiene corporal, normas de seguridad y preparación de la práctica motriz, asumiendo responsabilidades y generando hábitos y rutinas en situaciones cotidianas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Aplicar medidas de educación postural, alimentación saludable, higiene corporal, normas de seguridad y preparación de la práctica motriz, asumiendo responsabilidades y generando hábitos y rutinas en situaciones cotidianas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Ejecutar medidas de precaución y prevención de lesiones en relación con la conservación y mantenimiento del material en el marco de distintas prácticas físico-deportivas y lúdicas, vivenciando protocolos básicos de actuación ante accidentes que se puedan producir en este contexto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Tomar medidas de precaución y prevención de lesiones en relación con la conservación y el mantenimiento del material en el marco de distintas prácticas físico-deportivas y lúdicas, conociendo protocolos básicos de actuación ante accidentes que se puedan producir en este contexto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Reconocer la propia imagen corporal y la de los demás, aceptando y respetando las diferencias individuales que puedan existir, identificando y rechazando las conductas discriminatorias que se puedan producir en contextos de práctica motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Reconocer la propia imagen corporal y la de los demás, aceptando y respetando las diferencias individuales que puedan existir, superando y rechazando las conductas discriminatorias que se puedan producir en contextos de práctica motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Vivenciar la importancia de establecer metas claras a la hora de desarrollar proyectos motores de carácter individual, cooperativo o colaborativo, identificando su consecución a partir de un análisis de los resultados obtenidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Llevar a cabo proyectos motores de carácter individual, cooperativo o colaborativo, empleando estrategias de monitorización y seguimiento que permitan analizar los resultados obtenidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Participar en proyectos motores de carácter individual, cooperativo o colaborativo identificando estrategias de monitorización y seguimiento que permitan analizar los resultados obtenidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Adoptar decisiones en situaciones lúdicas, juegos y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores, de las características del grupo y de la lógica interna de situaciones individuales, de cooperación, de oposición y de colaboración-oposición, en contextos simulados de actuación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Participar en proyectos motores de carácter individual, cooperativo o colaborativo, definiendo metas, secuenciando acciones, analizando si es preciso cambios durante el proceso y generando producciones motrices de calidad, a través del análisis del grado de ajuste al proceso seguido y al resultado obtenido.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Emplear los componentes cualitativos y cuantitativos de la motricidad de manera eficiente y creativa en distintos contextos y situaciones motrices, lúdicas y deportivas, adquiriendo un progresivo control y dominio corporal sobre ellos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Mostrar una disposición positiva hacia el juego, controlando las emociones negativas en contextos lúdicos de práctica motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Mostrar una disposición positiva hacia la práctica física y hacia el esfuerzo, controlando la impulsividad y las emociones negativas que surjan en contextos de actividad motriz.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Respetar las normas consensuadas en clase, así como las reglas de juego, actuando con deportividad y juego limpio desde el diálogo y el debate, expresando y escuchando propuestas y pensamientos de manera activa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Respetar las normas consensuadas en clase, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, valorando la aportación de los participantes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Identificar en prácticas motrices variadas habilidades sociales de acogida, inclusión, ayuda y cooperación, proponiendo soluciones a conflictos individuales y colectivos de forma dialógica y justa, y mostrando un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y cualquier tipo de violencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Desarrollar habilidades sociales de acogida, inclusión, ayuda y cooperación al participar en prácticas motrices variadas, resolviendo los conflictos individuales y colectivos de forma dialógica y justa, y mostrando un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y cualquier tipo de violencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Participar activamente en juegos motores y otras manifestaciones artístico-expresivas con arraigo en la cultura andaluza, tradicional o actual, contextualizando su origen, su aparición y su transmisión a lo largo del tiempo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Participar activamente en juegos motores y otras manifestaciones artístico-expresivas con arraigo en la cultura andaluza, tradicional o actual, así como otros procedentes de diversas culturas, contextualizando su origen, su aparición y su transmisión a lo largo del tiempo y valorando su importancia, repercusión e influencia en las sociedades pasadas y presentes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Experimentar prácticas deportivas individuales, colectivas y mixtas, disfrutando de su práctica y conociendo las distintas posibilidades de deporte federado que existen en su entorno cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Asumir una visión abierta del deporte a partir del conocimiento de distintas ligas femeninas, masculinas o mixtas, acercándose al deporte federado e identificando y rechazando comportamientos contrarios a la convivencia independientemente del contexto en el que tengan lugar.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Aplicar de forma espontánea y creativa distintas combinaciones de movimientos que incorporen prácticas comunicativas que transmitan sentimientos, emociones o ideas a través del cuerpo, empleando los distintos recursos expresivos y rítmicos de la corporalidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Reproducir distintas combinaciones de movimientos o coreografías individuales y grupales que incorporen prácticas comunicativas que transmitan sentimientos, emociones o ideas a través del cuerpo, empleando los distintos recursos expresivos y rítmicos de la corporalidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Fomentar una práctica motriz teniendo en cuenta las posibles dificultades en contextos naturales y urbanos de carácter terrestre o acuático, observando cada situación antes de realizar las acciones y atendiendo a las medidas de conservación ambiental existentes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Desarrollar una práctica motriz segura en contextos naturales y urbanos de carácter terrestre o acuático, adecuando las acciones al análisis de cada situación y aplicando medidas de conservación ambiental.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/80-82"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Identificar los efectos beneficiosos a nivel físico y mental de la actividad física, lúdica y deportiva como paso previo para su integración en la vida diaria, analizando situaciones cotidianas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Reconocer los efectos beneficiosos a nivel físico y mental de la actividad física, lúdica y deportiva, como paso previo para su integración en la vida diaria, analizando situaciones cotidianas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Implementar los procesos de activación corporal, dosificación del esfuerzo, relajación e higiene y seguridad en la práctica de actividades motrices, lúdicas y deportivas, integrando las propias rutinas de una práctica motriz saludable y responsable.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Integrar los procesos de activación corporal, dosificación del esfuerzo, relajación e higiene y seguridad en la práctica de actividades motrices, interiorizando las rutinas propias de una práctica motriz saludable y responsable.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Ejecutar medidas de seguridad antes, durante y después de la práctica de actividad física, lúdica y deportiva, identificando los contextos de riesgo y actuando con precaución ante ellos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Adoptar medidas de seguridad antes, durante y después de la práctica de actividad física, lúdica y deportiva, reconociendo los contextos de riesgo y actuando con precaución ante ellos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Reconocer conductas inapropiadas vinculadas al ámbito corporal, la actividad física, lúdica y deportiva, que resultan perjudiciales para la salud o afectan negativamente a la convivencia, integrando posturas de rechazo a la violencia, a la discriminación y a los estereotipos de género, y evitando activamente su reproducción.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.4.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Identificar y abordar conductas inapropiadas vinculadas al ámbito corporal, la actividad lúdica y deportiva, que resultan perjudiciales para la salud o afectan negativamente a la convivencia, adoptando posturas de rechazo a la violencia, a la discriminación y a los estereotipos de género, y evitando activamente su reproducción.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Participar en proyectos motores de carácter individual, cooperativo o colaborativo, definiendo metas, secuenciando acciones, observando los cambios durante el proceso y generando producciones motrices de calidad, analizando el grado de ajuste al proceso seguido y al resultado obtenido.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Desarrollar proyectos motores de carácter individual, cooperativo o colaborativo, definiendo metas, secuenciando acciones, introduciendo cambios, si es preciso, durante el proceso, y generando producciones motrices de calidad, valorando el grado de ajuste al proceso seguido y al resultado obtenido.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Vivenciar principios básicos de toma de decisiones en situaciones lúdicas, juegos modificados y actividades deportivas a partir de la anticipación, ajustándolos a las demandas derivadas de los objetivos motores y a la lógica interna de situaciones individuales, de cooperación, de oposición y de colaboración oposición, en contextos reales o simulados de actuación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Aplicar principios básicos de toma de decisiones en situaciones lúdicas, juegos modificados y actividades deportivas a partir de la anticipación, ajustándolos a las demandas derivadas de los objetivos motores y a la lógica interna de situaciones individuales, de cooperación, de oposición y de colaboración-oposición, en contextos reales o simulados de actuación, reflexionando sobre las soluciones obtenidas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos y cuantitativos de la motricidad de manera eficiente y creativa, y haciendo frente a las demandas de resolución de problemas en situaciones motrices transferibles a su espacio vivencial.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Adquirir un progresivo control y dominio corporal, empleando los componentes cualitativos y cuantitativos de la motricidad de manera eficiente y creativa, y haciendo frente a las demandas de resolución de problemas en situaciones motrices transferibles a su espacio vivencial.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Participar en actividades de carácter motor, autorregulando su actuación, controlando y gestionando las emociones negativas, expresándolas de manera adecuada ante sus iguales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Participar en actividades de carácter motor, desde la autorregulación de su actuación, con predisposición, esfuerzo, perseverancia y mentalidad de crecimiento, controlando la impulsividad, gestionando las emociones y expresándolas de forma asertiva.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Respetar las normas consensuadas, así como las reglas de juego, actuando con deportividad y juego limpio, afrontando los conflictos de forma dialógica y con asertividad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Respetar las normas consensuadas, así como las reglas de juego, y actuar desde los parámetros de la deportividad y el juego limpio, reconociendo las actuaciones de compañeros y compañeras y rivales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Poner en juego en situaciones de prácticas motrices habilidades sociales de diálogo y resolución pacífica de conflictos, respetando cualquier tipo de diversidad, demostrando una actitud crítica y un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y la violencia, teniendo en cuenta el fomento de la igualdad de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Convivir mostrando en el contexto de las prácticas motrices habilidades sociales, diálogo en la resolución de conflictos y respeto a la diversidad, ya sea de género, de origen nacional, étnica, socioeconómica o de competencia motriz, y mostrando una actitud crítica y un compromiso activo frente a los estereotipos, las actuaciones discriminatorias y la violencia, haciendo especial hincapié en el fomento de la igualdad de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Participar activamente en juegos, deportes, danzas y otras manifestaciones artístico-expresivas con arraigo en la cultura andaluza andaluza, tradicional o actual, así como otros procedentes de diversas culturas, asumiendo que forman parte del patrimonio cultural y favoreciendo su transmisión.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Participar activamente en juegos motores y otras manifestaciones artístico-expresivas con arraigo en la cultura andaluza, tradicional o actual, así como otros procedentes de diversas culturas, reconociendo y transmitiendo su valor cultural y su potencial como espacio generador de interacciones constructivas entre personas con orígenes diferentes y entendiendo las ventajas de su conservación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Practicar juegos y deportes de otras culturas, debatiendo sobre los estereotipos de género o capacidad y adoptando una actitud crítica ante comportamientos sexistas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Valorar el deporte como fenómeno cultural analizando críticamente los estereotipos de género o capacidad y los comportamientos sexistas que a veces suceden en su contexto, rechazándolos y adoptando actitudes que eviten su reproducción en el futuro.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Ejecutar composiciones, con o sin soporte musical, y comunicar diferentes sensaciones, emociones e ideas, de forma estética y creativa, usando los recursos rítmicos y expresivos de la motricidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.3.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Reproducir y crear composiciones con o sin soporte musical, y comunicar diferentes sensaciones, emociones e ideas, de forma estética y creativa, desde el uso de los recursos rítmicos y expresivos de la motricidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Ajustar las acciones motrices del medio valorando los riesgos del medio natural y urbano en contextos terrestres o acuáticos, salvando los obstáculos, practicando las actividades físicas propuestas y actuando respetuosamente en el entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Adaptar las acciones motrices a la incertidumbre propia del medio natural y urbano en contextos terrestres o acuáticos de forma eficiente y segura, valorando sus posibilidades para la práctica de actividad física y actuando desde una perspectiva ecosostenible del entorno y comunitaria.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/83-85"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOJA a través de WebFetch (límite de cita de unos 125 caracteres, tabla a dos columnas por curso que la extracción de texto intercala). Cotejar con el PDF antes de marcar verificado:true.",
+    "Andalucía numera los criterios por curso: X.Y.a = primer curso del ciclo (1.º, 3.º, 5.º) y X.Y.b = segundo curso (2.º, 4.º, 6.º). Campo «curso» en cada criterio.",
+    "Los descriptores operativos van vinculados a la competencia específica (primera columna de la tabla), no al criterio: están en competencias[].descriptores y criterios[].descriptores queda vacío a propósito.",
+    "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
+    "2.º ciclo 2.1.a coincide literalmente con 1.er ciclo 2.1.a; se reconsultó y el extractor confirmó que está en la tabla del 2.º ciclo.",
+    "3.er ciclo 2.2.a: «colaboración oposición» (sin guion) y 4.1.a: «cultura andaluza andaluza», tal como se extrajeron; 1.er ciclo 5.1.b: «lúdicos-recreativas».",
+    "No se pudo confirmar que los enunciados de competencias del 2.º y 3.er ciclo sean idénticos a los del 1.º (el extractor solo vio iguales C3-C5 entre 2.º y 3.º).",
+    "Saberes básicos sin extraer (págs. 72-76)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
+    "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

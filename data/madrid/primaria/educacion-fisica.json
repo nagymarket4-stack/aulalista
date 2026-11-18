@@ -166,7 +166,7 @@
         {
           "id": "2.2",
           "competencia": "C2",
-          "texto": "Adoptar decisiones en situaciones lúdicas, juegos y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores, de las características del grupo y de la lógica interna de situaciones individuales o grupales de oposición y de colaboraciónoposición, en contextos simulados de actuación.",
+          "texto": "Adoptar decisiones en situaciones lúdicas, juegos y actividades deportivas, ajustándose a las demandas derivadas de los objetivos motores, de las características del grupo y de la lógica interna de situaciones individuales o grupales de oposición y de colaboración-oposición, en contextos simulados de actuación.",
           "descriptores": [],
           "saberes": []
         },
@@ -397,7 +397,7 @@
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
     "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
-    "Guiones de palabras compuestas posiblemente perdidos por el corte de línea del PDF: «perceptivomotrices» (C2, 1.er ciclo; en el 3.er ciclo sale «perceptivo-motrices»), «físicodeportivas» (2.º ciclo 1.3; C4 en el 3.er ciclo), «colaboraciónoposición» (2.º ciclo 2.2). Se conservan tal cual hasta cotejar.",
+    "Guiones (repaso del 18/11/2026 contra el PDF del BOCM): «colaboración-oposición» del 2.º ciclo 2.2 restaurado (el guion está en el original, partido por el salto de línea). «perceptivomotrices» (C2 del 1.er y 2.º ciclo) y «físicodeportivas» (2.º ciclo 1.3; C4 del 3.er ciclo) aparecen sin guion en el texto extraído del propio PDF, mientras que en otros lugares el BOCM escribe «perceptivo-motrices» y «físico-deportivas»: se conservan sin guion porque la fuente no confirma el guion; cotejar visualmente.",
     "Los enunciados de C1, C3 y C4 cambian según el ciclo (enunciados_ciclo). 3.er ciclo C3: «actitudes de, respeto», tal como se extrajo.",
     "1.er ciclo 1.3 termina con una oración sin verbo principal («Tomando medidas de seguridad previas…»); 4.2: «la dedicación su actitud ante la derrota»; 3.3: «el dialogo» sin tilde."
   ],

@@ -1,6 +1,6 @@
 # Criterios de evaluación de Primaria en la Comunidad de Madrid: estado de la base RAG
 
-> Revisado el 18/11/2026. Ficheros en `data/madrid/primaria/*.json`. Fuente normativa: Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II.
+> Revisado el 18/11/2026 (2.ª pasada: contenidos de Matemáticas y repaso de guiones). Ficheros en `data/madrid/primaria/*.json`. Fuente normativa: Decreto 61/2022, de 13 de julio (BOCM n.º 169, de 18/07/2022, págs. 15-126), anexo II.
 
 ## Fuente
 
@@ -37,7 +37,12 @@
 - Están las 10 áreas que devuelve `areasDe('madrid', …)`. La clave `area` coincide con esos nombres sin paréntesis: «Lengua Extranjera (Inglés)» pasa a «Lengua Extranjera».
 - Ningún criterio está en `null`. En casi todas las áreas y ciclos se pidió aparte la lista de números de criterio antes de transcribir, y cuadra con los textos obtenidos.
 - **`verificado: false` en las 10 áreas.**
-- `saberes: {}` y `bloques: {}`: no se han extraído los contenidos, y Madrid no tiene «bloques competenciales» como Canarias.
+- `bloques: {}`: Madrid no tiene «bloques competenciales» como Canarias.
+- **Contenidos (saberes).** Extraídos solo en **Matemáticas** (2.ª pasada, 18/11/2026). Por ciclo tienen 6 bloques: 39 ítems en el 1.º, 64 en el 2.º y 57 en el 3.º.
+  - Estructura real del BOCM: un bloque por letra («A. Números y operaciones»…). Dentro, subtítulos sin numerar («Conteo», «Cantidad»…) y, debajo, ítems con guion.
+  - Se guardan como `saberes.<ciclo> = [{bloque, apartados:[{apartado, items}]}]`, con los ítems sin el guion.
+  - Madrid no numera los contenidos y los organiza por ciclo, no por curso.
+  - En el resto de áreas, `saberes: {}`: pendiente.
 
 ## Método
 
@@ -65,11 +70,17 @@
 
 - **Cotejo con el PDF.** Es el paso que falta para poner `verificado: true`. Puede hacerse como en Canarias: descargar el PDF del BOCM, pasarlo por `pdftotext` y buscar cada `texto` como subcadena normalizada (adaptando `tools/verificar_criterios_canarias.py`). La shell de este entorno no tiene red: el proxy devuelve 403 para bocm.es.
 - **Variantes de puntuación entre ciclos.** Las del extractor en los enunciados de competencias, de una coma o una palabra, son poco fiables. En dos consultas sobre Matemáticas C6 dio versiones distintas. Están guardadas en `enunciados_ciclo`, pero hay que confirmarlas o descartarlas en el cotejo.
-- **Guiones perdidos por el corte de línea:** «perceptivomotrices», «físicodeportivas», «colaboraciónoposición» (Educación Física). Se conservan tal cual.
+- **Guiones (repaso del 18/11/2026).** Se consultaron contra el PDF del BOCM todas las apariciones en Educación Física:
+  - **Restaurado:** «colaboración-oposición», en el 2.º ciclo 2.2. El guion está en el original y el salto de línea lo partía.
+  - **Sin restaurar:** «perceptivomotrices» (C2 del 1.er y 2.º ciclo) y «físicodeportivas» (2.º ciclo 1.3; C4 del 3.er ciclo). El texto extraído del PDF los da sin guion en esos puntos, aunque en otros el BOCM escribe «perceptivo-motrices» y «físico-deportivas». Como la fuente no confirma el guion, se dejan tal cual hasta el cotejo visual.
+  - **En contenidos de Matemáticas (2.º ciclo):** «aditivomultiplicativa», mismo caso.
 - **Posibles erratas del BOCM o del extractor**, anotadas en el `pendiente` de cada JSON. Algunas:
   - LCL 1.er ciclo 9.2, «terminología de la lengua básica»;
   - Valores 2.5, «organismos internaciones»;
   - SLE 5.3, «una segunda extranjera»;
   - Artística 3.er ciclo 4.4, «considerado su madurez».
-- **Contenidos sin extraer** en todas las áreas: siguiente pasada, por ciclo y bloque (A, B, C…).
-- **Inyección en el prompt.** `curriculoDe` (en `shared/prompts.js`) presenta cualquier dato de `data/<ccaa>/primaria` como «texto literal del decreto, cotejado con el BOC» y manda no usar [VERIFICAR CON DECRETO]. Para Madrid eso no es cierto hasta el cotejo. Conviene que esa función mire `verificado` y cambie la cabecera (y el nombre del boletín) según la comunidad.
+- **Contenidos sin extraer** en 9 de las 10 áreas.
+  - Método probado con Matemáticas: pedir dos bloques por consulta, «marcando los ítems con guion». Salen unas 2 consultas por ciclo.
+  - Página donde empieza cada «CONTENIDOS», según el mapa del extractor: CS 43, 45 y 48; Artística 51, 54 y 57; EF 62, 65 y 68; LCL 73, 77 y 81; Inglés 86, 89 y 93; Valores 112; SLE 116 (y 118-120 por idioma); TyR 124. En CN no se ha mapeado: está entre las págs. 33 y 41.
+- **Segmentación de ítems en los contenidos de Matemáticas del 1.er ciclo** (bloques C-F): el extractor no mostró los guiones, así que los ítems se separaron por frases completas. Hay que cotejarlo.
+- **Inyección en el prompt.** Resuelto por el coordinador: `curriculoDe` ya tiene en cuenta `verificado` y filtra por `curso`. Con `verificado:false`, la cabecera inyectada avisa de que la transcripción está «pendiente de cotejo final».

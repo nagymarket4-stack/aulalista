@@ -1,0 +1,1242 @@
+{
+  "area": "Conocimiento del Medio Natural, Social y Cultural",
+  "fuente": "Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo. Texto extraído del PDF oficial de juntadeandalucia.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Utilizar dispositivos y recursos digitales de forma segura, responsable y eficiente, para buscar información, comunicarse y trabajar de manera individual, en equipo y en red y para reelaborar y crear contenido digital de acuerdo con las necesidades digitales del contexto educativo.",
+      "resumen": null,
+      "descriptores": [
+        "CCL3",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CD5",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "C2",
+      "enunciado": "Plantear y dar respuesta a cuestiones científicas sencillas, utilizando diferentes técnicas, instrumentos y modelos propios del pensamiento científico, para interpretar y explicar hechos y fenómenos que ocurren en el medio natural, social y cultural.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL3",
+        "STEM2",
+        "STEM4",
+        "CD1",
+        "CD2",
+        "CC4"
+      ]
+    },
+    {
+      "id": "C3",
+      "enunciado": "Resolver problemas a través de proyectos de diseño y de la aplicación del pensamiento computacional, para generar cooperativamente un producto creativo e innovador que responda a necesidades concretas.",
+      "resumen": null,
+      "descriptores": [
+        "STEM3",
+        "STEM4",
+        "CD5",
+        "CPSAA3",
+        "CPSAA4",
+        "CPSAA5",
+        "CE1",
+        "CE3",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "C4",
+      "enunciado": "Conocer y tomar conciencia del propio cuerpo, de las emociones y sentimientos propios y ajenos, desarrollando hábitos saludables fundamentados en el conocimiento científico para conseguir el bienestar físico, emocional y social.",
+      "resumen": null,
+      "descriptores": [
+        "STEM5",
+        "CPSAA1",
+        "CPSAA2",
+        "CPSAA3",
+        "CC3"
+      ]
+    },
+    {
+      "id": "C5",
+      "enunciado": "Identificar las características de los diferentes elementos o sistemas del medio natural, social y cultural, analizando su organización y propiedades, y estableciendo relaciones entre los mismos, para reconocer el valor del patrimonio cultural y natural y emprender acciones para un uso responsable, su conservación y mejora.",
+      "resumen": null,
+      "descriptores": [
+        "STEM1",
+        "STEM2",
+        "STEM4",
+        "STEM5",
+        "CD1",
+        "CC4",
+        "CE1",
+        "CCEC1"
+      ]
+    },
+    {
+      "id": "C6",
+      "enunciado": "Identificar las causas y consecuencias de la intervención humana en el entorno, desde los puntos de vista los social, económico, cultural, tecnológico y ambiental, para mejorar la capacidad para afrontar problemas, buscar soluciones y actuar de manera individual y cooperativa en su resolución, y para poner en práctica estilos de vida sostenibles y consecuentes con el respeto, el cuidado y la protección de las personas y del planeta.",
+      "resumen": null,
+      "descriptores": [
+        "CCL5",
+        "STEM2",
+        "STEM5",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CC4",
+        "CE1"
+      ]
+    },
+    {
+      "id": "C7",
+      "enunciado": "Observar, comprender e interpretar continuidades y cambios del medio social y cultural, analizando relaciones de causalidad, simultaneidad y sucesión, para explicar y valorar las relaciones entre diferentes elementos y acontecimientos.",
+      "resumen": null,
+      "descriptores": [
+        "CCL3",
+        "STEM4",
+        "CPSAA4",
+        "CC1",
+        "CC3",
+        "CE2",
+        "CCEC1"
+      ]
+    },
+    {
+      "id": "C8",
+      "enunciado": "Reconocer y valorar la diversidad y la igualdad de género, mostrando empatía y respeto por otras culturas, y reflexionando sobre cuestiones éticas, para contribuir al bienestar individual y colectivo de una sociedad en continua transformación y al logro de los valores de la integración europea.",
+      "resumen": null,
+      "descriptores": [
+        "CP3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ]
+    },
+    {
+      "id": "C9",
+      "enunciado": "Participar en el entorno y la vida social de forma eficaz y constructiva desde el respeto a los valores democráticos, los derechos humanos y de la infancia y los principios y valores del Estatuto de Autonomía de Andalucía, la Constitución española y la Unión Europea, valorando de la función del Estado y sus instituciones en el mantenimiento de la paz y la seguridad integral ciudadana, para generar interacciones respetuosas y equitativas, y promover la resolución pacífica y dialogada de los conflictos.",
+      "resumen": null,
+      "descriptores": [
+        "CCL5",
+        "CPSAA1",
+        "CC1",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ]
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Iniciarse en la utilización de dispositivos y recursos digitales sencillos de acuerdo con las necesidades básicas del contexto educativo de forma segura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Utilizar dispositivos y recursos digitales de acuerdo con las necesidades del contexto educativo de forma segura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Mostrar curiosidad por objetos, hechos y fenómenos del entorno más cercano e inmediato, realizando pequeños planteamientos para formular preguntas sencillas y realizar pequeñas predicciones.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Mostrar curiosidad por objetos, hechos y fenómenos cercanos, formulando preguntas y realizando predicciones.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Iniciarse en la búsqueda de información sencilla de algunas fuentes seguras y fiables, utilizándola en pequeñas investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Buscar información sencilla de diferentes fuentes seguras y fiables de forma guiada, utilizándola en investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Participar en pequeños experimentos pautados o guiados, cuando la investigación lo requiera, iniciándose, de manera progresiva, en la utilización de algunas técnicas sencillas de indagación, empleando de forma segura algunos instrumentos básicos y registrando las observaciones a través de registros claros.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Participar en experimentos pautados o guiados, cuando la investigación lo requiera, utilizando diferentes técnicas sencillas de indagación, empleando de forma segura instrumentos y registrando las observaciones a través de registros claros.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Dar ejemplos de posibles respuestas sencillas a las preguntas planteadas, comenzando a establecer comparaciones básicas entre la información y resultados obtenidos con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Dar ejemplos de posibles respuestas a las preguntas planteadas, comparando la información y resultados obtenidos con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Iniciarse en el uso de destrezas básicas para comunicar de forma oral o gráfica el resultado de las investigaciones, realizando, de manera guiada, la explicación de los pasos seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Comunicar de forma oral o gráfica el resultado de las investigaciones, explicando los pasos seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Diseñar, de forma guiada, un producto o idea sencilla que dé solución a un problema de la vida cotidiana, probando en equipo distintas alternativas para un misma situación de partida.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Realizar, de forma guiada, un producto final sencillo que dé solución a un problema de diseño, probando en equipo diferentes prototipos y utilizando de forma segura los materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Presentar de forma gráfica el diseño final de los proyectos, explicando los pasos seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Presentar de forma oral o gráfica el producto final de los proyectos de diseño, explicando los pasos seguidos con ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Mostrar interés por el pensamiento computacional, introduciéndose en la participación de la resolución guiada de problemas sencillos de programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Mostrar interés por el pensamiento computacional, participando en la resolución guiada de problemas sencillos de programación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Identificar las emociones propias y de las de los demás, asociándolas a situaciones en entornos familiares y escolares a las que pertenecen.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Distinguir acciones que favorezcan el bienestar emocional y social, reconociendo las emociones propias y las de los demás e identificando las relaciones familiares y escolares a las que pertenecen.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Identificar hábitos de vida saludables valorando la importancia de la higiene, una alimentación variada y equilibrada, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Reconocer hábitos de vida saludables, partiendo del conocimiento y la localización de las partes del cuerpo implicadas en las funciones vitales, valorando la importancia de la higiene, una alimentación variada, equilibrada y sostenible, el ejercicio físico, el contacto con la naturaleza, el descanso y el uso adecuado de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Reconocer las características, la organización y las propiedades de los elementos del medio natural, social y cultural a través de metodologías de indagación, iniciándose en la utilización de las herramientas y procesos adecuados de forma pautada, comprendiendo y valorando su riqueza y diversidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Reconocer las características, la organización y las propiedades de los elementos del medio natural, social y cultural a través de metodologías de indagación, utilizando las herramientas y procesos adecuados de forma pautada, comprendiendo y valorando su riqueza y diversidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Reconocer, de forma guiada, conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural por medio de la observación, la manipulación y la experimentación, y de los principales cambios y adaptaciones que ha ido desarrollando el ser humano para sus necesidades.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Reconocer conexiones sencillas y directas entre diferentes elementos del medio natural, social y cultural, por medio de la observación, la manipulación y la experimentación, y de los principales cambios y adaptaciones que ha ido desarrollando el ser humano para sus necesidades.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Mostrar actitudes de respeto para el disfrute del patrimonio natural y cultural más cercano, reconociéndolo como un bien común.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Mostrar actitudes de respeto para el disfrute del patrimonio natural y cultural, reconociéndolo como un bien común y adoptando conductas respetuosas para su disfrute.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Mostrar estilos de vida sostenible e iniciarse en la toma de conciencia de ser consecuentes con el respeto, los cuidados y la protección de los elementos y seres del planeta, identificando, de forma guiada, la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio como el suelo y el agua.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Mostrar estilos de vida sostenible y valorar la importancia del respeto, los cuidados, la corresponsabilidad y la protección de los elementos y seres del planeta, identificando la relación de la vida de las personas con sus acciones sobre los elementos y recursos del medio como el suelo y el agua.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "1.º",
+          "texto": "Ordenar temporalmente hechos del entorno social y cultural cercano, iniciándose en el empleo de nociones de medida y sucesión básicas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "2.º",
+          "texto": "Ordenar temporalmente hechos del entorno social y cultural cercano, empleando nociones de medida y sucesión básicas, identificando las acciones y hechos más destacados de su entorno cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "1.º",
+          "texto": "Conocer las principales formas de vida del pasado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "2.º",
+          "texto": "Conocer personas y grupos sociales relevantes, especialmente de Andalucía, de la historia y formas de vida del pasado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "1.º",
+          "texto": "Identificar algunos rasgos característicos de las manifestaciones culturales más conocidas en el entorno próximo, mostrando respeto consigo y otras personas e interés por el bienestar del grupo y valorando positivamente las diferencias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "2.º",
+          "texto": "Recoger información acerca de manifestaciones culturales del propio entorno, identificando algunas manifestaciones populares del patrimonio andaluz y algunas obras de artistas de Andalucía, mostrando respeto consigo y a otras personas, facilitando el bienestar propio y de los otros, valorando su diversidad y riqueza, y apreciándolas como fuente de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "1.º",
+          "texto": "Iniciarse en la identificación de modelos positivos de conductas no sexistas en el entorno próximo y mostrar interés por la igualdad de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "2.º",
+          "texto": "Mostrar actitudes que fomentan la igualdad de género y las conductas no sexistas, reconociendo modelos positivos en el entorno cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "1.º",
+          "texto": "Identificar e iniciarse en la asunción de distintos roles de responsabilidad en grupos en los que participa, empleando el diálogo como forma de llegar a acuerdos y utilizando un lenguaje inclusivo y no violento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "2.º",
+          "texto": "Identificar y asumir distintos roles de responsabilidad y establecer acuerdos de forma dialógica y democrática, empleando un lenguaje inclusivo y no violento, como parte de grupos próximos a su entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "1.º",
+          "texto": "Distinguir algunas instituciones cercanas señalando las funciones que promueven una buena convivencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "2.º",
+          "texto": "Identificar instituciones cercanas, señalando y valorando las funciones que promueven una buena convivencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.3.a",
+          "competencia": "C9",
+          "curso": "1.º",
+          "texto": "Conocer algunas normas básicas como peatones y usuarios de los medios de locomoción, identificando ejemplos que ayuden a valorar la importancia de la movilidad segura, saludable y sostenible.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.3.b",
+          "competencia": "C9",
+          "curso": "2.º",
+          "texto": "Conocer e interiorizar normas básicas como peatones y usuarios de los medios de locomoción, tomando conciencia de la importancia de la movilidad segura, saludable y sostenible tanto para las personas como para el planeta.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/38-42"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Utilizar dispositivos y recursos digitales, de acuerdo con las necesidades del contexto educativo de forma segura, iniciándose en la búsqueda de información, a través del uso de estrategias básicas de comunicación, trabajando de forma individual y en equipo y creando con ayuda contenidos digitales sencillos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Utilizar dispositivos y recursos digitales, de acuerdo con las necesidades del contexto educativo de forma segura, buscando información, comunicándose y trabajando de forma individual y en equipo y creando contenidos digitales sencillos, aumentando la productividad y eficiencia en el propio trabajo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Demostrar curiosidad por el medio natural, social y cultural que tiene lugar a su alrededor, formulando preguntas, realizando predicciones y comenzando a establecer de forma guiada el razonamiento de estas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Demostrar y mantener la curiosidad sobre un tema relacionado con el medio natural, social o cultural específico y cercano, formulando preguntas y realizando predicciones razonadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Buscar e iniciarse en el uso de estrategias de selección de información, de diferentes fuentes seguras y fiables, comenzando a adquirir léxico científico básico, utilizándola en investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Buscar, seleccionar y contrastar información, de diferentes fuentes seguras y fiables, usando los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico, utilizándola en investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Iniciarse en la realización de experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación y modelos simples, empleando de forma segura instrumentos y dispositivos básicos, realizando las observaciones y mediciones apropiadas y registrándolas adecuadamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Diseñar y realizar experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura los instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas y registrándolas correctamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, empezando a utilizar diversas estrategias que faciliten la interpretación de la información y los resultados obtenidos, comparándolos con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, a través del análisis e interpretación de la información y los resultados obtenidos, valorando la coherencia de las posibles soluciones, comparándolas con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Presentar, con ayuda, algunos resultados de las investigaciones en diferentes formatos, comenzando a utilizar lenguaje científico básico y explicando con progresiva autonomía los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Comunicar los resultados de las investigaciones adaptando el mensaje y el formato a la audiencia que va dirigido, utilizando lenguaje científico y explicando los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Diseñar en equipo un producto final sencillo, iniciándose en la construcción, que dé solución a un problema de diseño, proponiendo posibles soluciones, probando diferentes prototipos y utilizando de forma segura y con apoyo algunas herramientas, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Construir en equipo un producto final sencillo que dé solución a un problema de diseño, proponiendo posibles soluciones, probando diferentes prototipos y utilizando de forma segura las herramientas, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Presentar el producto final de los proyectos de diseño en diferentes formatos y explicando los pasos seguidos con la ayuda de un guion.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Presentar el producto final de los proyectos de diseño en diferentes formatos y explicando los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Presentar aplicaciones sencillas de programación, para ayudar en la resolución de problemas sencillos de acuerdo con los principios básicos del pensamiento computacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Resolver, de forma guiada, problemas sencillos de programación, modificando algoritmos de acuerdo con los principios básicos del pensamiento computacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Reconocer actitudes que fomenten el bienestar emocional y social, identificando las emociones propias y las de los demás, estableciendo relaciones afectivas saludables.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Mostrar actitudes que fomenten el bienestar emocional y social, identificando las emociones propias y las de los demás, mostrando empatía y estableciendo relaciones afectivas saludables.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Identificar hábitos de vida saludables desde el conocimiento de las distintas partes del cuerpo y las funciones vitales, valorando la importancia de una alimentación variada, equilibrada y sostenible, el ejercicio físico, el descanso y la higiene.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Identificar hábitos de vida saludables, partiendo del conocimiento y la localización y funciones de los aparatos y sistemas que intervienen en las funciones vitales de relación y nutrición, estableciendo relaciones entre ellos y valorando la importancia de una alimentación variada, equilibrada y sostenible, el ejercicio físico, el contacto con la naturaleza, el descanso y la higiene en la prevención de enfermedades y accidentes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Reconocer las características, la organización y las propiedades de los elementos del medio natural, social y cultural, a través de metodologías de indagación, utilizando las herramientas y procesos adecuados, comprendiendo y valorando su riqueza y diversidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Identificar las características, la organización y las propiedades de los elementos del medio natural, social y cultural, a través de metodologías de indagación, utilizando las herramientas y procesos adecuados, comprendiendo y valorando su riqueza y diversidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Identificar conexiones sencillas entre diferentes elementos del medio natural, social y cultural, iniciándose en la comprensión de las relaciones que se establecen y de los cambios y adaptaciones protagonizadas por los seres humanos a través del tiempo para sus necesidades y las distintas organizaciones sociales que han ido desarrollándose.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Identificar conexiones sencillas entre diferentes elementos del medio natural, social y cultural, mostrando comprensión de las relaciones que se establecen y de los cambios y adaptaciones protagonizadas por los seres humanos a través del tiempo, para sus necesidades y las distintas organizaciones sociales que han ido desarrollándose.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Valorar y proteger el patrimonio natural y cultural, considerándolo un bien común y adoptando conductas respetuosas para su disfrute.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Valorar y proteger el patrimonio natural y cultural, considerándolo un bien común, adoptando conductas respetuosas para su disfrute y proponiendo acciones para su conservación y mejora.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Identificar problemas ecosociales, proponer posibles soluciones y poner en práctica estilos de vida sostenible, reconociendo comportamientos respetuosos de cuidado y protección del entorno y uso sostenible de los recursos naturales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Identificar problemas ecosociales, proponer posibles soluciones y poner en práctica estilos de vida sostenible, reconociendo comportamientos respetuosos de cuidado y protección del entorno y uso sostenible de los recursos naturales, expresando los cambios positivos y negativos causados en el medio por la acción humana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "3.º",
+          "texto": "Identificar hechos del entorno social y cultural de la historia, empleando las nociones de causalidad, simultaneidad y sucesión, y contextualizando acontecimientos relevantes de su entorno más cercano desde el punto de vista histórico.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "4.º",
+          "texto": "Identificar hechos del entorno social y cultural desde la Prehistoria hasta la Edad Antigua, su relevancia e impacto en Andalucía, empleando las nociones de causalidad, simultaneidad y sucesión, y contextualizando acontecimientos relevantes desde el punto de vista histórico.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "3.º",
+          "texto": "Conocer las principales características de las personas, grupos sociales relevantes y formas de vida de las sociedades de la historia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "4.º",
+          "texto": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades desde la Prehistoria hasta la Edad Antigua.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "3.º",
+          "texto": "Colaborar en acciones orientadas al bienestar individual y colectivo del entorno, identificando diferentes realidades del mismo derivadas de la procedencia geográfica, valorando la diversidad cultural y la igualdad de género y mostrando respeto hacia las diferencias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "4.º",
+          "texto": "Contribuir al bienestar individual y colectivo de la sociedad, analizando la importancia demográfica, cultural y económica de las migraciones en la actualidad, valorando la diversidad cultural y la igualdad de género y mostrando empatía y respeto hacia las diferencias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "3.º",
+          "texto": "Identificar y apreciar las acciones que fomentan la igualdad de género y las conductas no sexistas reconociendo modelos positivos en la comunidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "4.º",
+          "texto": "Valorar positivamente las acciones que fomentan la igualdad de género y las conductas no sexistas, reconociendo modelos positivos a lo largo de la historia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "3.º",
+          "texto": "Participar de forma constructiva dentro de la comunidad escolar, realizando de forma guiada actividades que influyan en el bienestar colectivo, asumiendo responsabilidades, respetando las normas y los derechos de los otros y estableciendo acuerdos de forma dialogada y democrática, empleando un lenguaje inclusivo y no violento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "4.º",
+          "texto": "Participar de forma eficaz y constructiva dentro de la comunidad escolar, realizando actividades que influyan en el bienestar colectivo, asumiendo responsabilidades, respetando las normas y explicando los derechos del niño y estableciendo acuerdos de forma dialogada y democrática, empleando un lenguaje inclusivo y no violento y la escucha activa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "3.º",
+          "texto": "Reconocer los principales órganos de gobierno y funciones de la administración local, apreciando la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "4.º",
+          "texto": "Conocer los principales órganos de gobierno y funciones de diversas administraciones y servicios públicos del ámbito local y provincial, valorando la importancia de su gestión para la seguridad integral ciudadana y la participación democrática.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.3.a",
+          "competencia": "C9",
+          "curso": "3.º",
+          "texto": "Conocer e interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones y usuarios de los medios de locomoción, identificando algunas señales de tráfico, iniciándose en la toma de conciencia de la importancia de la movilidad segura, saludable y sostenible tanto para las las personas como para el planeta.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.3.b",
+          "competencia": "C9",
+          "curso": "4.º",
+          "texto": "Conocer e interiorizar normas básicas para la convivencia en el uso de los espacios públicos como peatones y usuarios de los medios de locomoción, conociendo las señales de tráfico y tomando conciencia de la importancia de la movilidad segura, saludable y sostenible tanto para las personas como para el planeta.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/43-47"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Utilizar recursos digitales de acuerdo con las necesidades del contexto educativo de forma segura y adecuada, buscando información, comunicándose y trabajando de forma individual y en equipo, comenzando a realizar actividades en red, creando contenidos digitales sencillos, interpretando y organizando la información y aumentando la productividad y eficiencia en el propio trabajo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Utilizar recursos digitales de acuerdo con las necesidades del contexto educativo de forma segura y eficiente, buscando información, comunicándose y trabajando de forma individual, en equipo y en red, reelaborando y creando contenidos digitales sencillos, interpretando, organizando y analizando la información y aumentando la productividad y eficiencia en el propio trabajo.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Demostrar y tratar de mantener la curiosidad sobre un tema relacionado con el medio natural, social o cultural propio de su entorno, formulando preguntas y realizando predicciones razonadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Demostrar y mantener la curiosidad sobre un tema relacionado con el medio natural, social o cultural específico, formulando preguntas y realizando predicciones razonadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Buscar, seleccionar y comenzar a utilizar mecanismos para contrastar información, de diferentes fuentes seguras y fiables, iniciándose en el uso de los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico, utilizándola en investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Buscar, seleccionar y contrastar información, de diferentes fuentes seguras y fiables, usando los criterios de fiabilidad de fuentes, adquiriendo léxico científico básico, utilizándola en investigaciones relacionadas con el medio natural, social y cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Iniciarse en el diseño y realizar experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura los instrumentos y dispositivos adecuados, realizando observaciones y mediciones precisas y registrándolas correctamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Diseñar y realizar experimentos guiados, cuando la investigación lo requiera, utilizando diferentes técnicas de indagación y modelos, empleando de forma segura los instrumentos y dispositivos apropiados, realizando observaciones y mediciones precisas y registrándolas correctamente.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, iniciándose en el análisis e interpretación de la información y los resultados obtenidos, comenzando a tomar conciencia sobre el valor de la coherencia de las posibles soluciones, comparándolas con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.4.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Proponer posibles respuestas a las preguntas planteadas, a través del análisis e interpretación de la información y los resultados obtenidos, valorando la coherencia de las posibles soluciones, comparándolas con las predicciones realizadas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Comunicar, siguiendo pautas, algunos de los resultados de las investigaciones, buscando la adaptación del mensaje y el formato a la audiencia que va dirigido, utilizando lenguaje científico y explicando los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.5.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Comunicar los resultados de las investigaciones adaptando el mensaje y el formato a la audiencia que va dirigido, utilizando lenguaje científico y explicando los pasos seguidos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Presentar problemas de diseño que se resuelvan con la creación de un prototipo o solución digital, iniciando la evaluación de las necesidades del entorno y estableciendo objetivos concretos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Plantear problemas de diseño que se resuelvan con la creación de un prototipo o solución digital, evaluando necesidades del entorno y estableciendo objetivos concretos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Diseñar de forma guiada soluciones a los problemas planteados con técnicas sencillas de los proyectos de diseño y pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta los recursos necesarios.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Diseñar posibles soluciones a los problemas planteados de acuerdo con técnicas sencillas de los proyectos de diseño y pensamiento computacional, mediante estrategias básicas de gestión de proyectos cooperativos, teniendo en cuenta los recursos necesarios y estableciendo criterios concretos para evaluar el proyecto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Diseñar un producto final que dé solución a un problema de diseño, mediante estrategias cooperativas, como prototipos o soluciones digitales, utilizando de forma segura las herramientas, dispositivos, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Desarrollar un producto final que dé solución a un problema de diseño, probando en equipo, diferentes prototipos o soluciones digitales, utilizando de forma segura las herramientas, dispositivos, técnicas y materiales adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.4.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Presentar y comunicar el resultado de los proyectos de diseño, explicando los pasos seguidos, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto y proponiendo posibles retos para futuros proyectos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.4.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Comunicar el resultado de los proyectos de diseño, adaptando el mensaje y el formato a la audiencia, explicando los pasos seguidos, justificando por qué ese prototipo o solución digital cumple con los requisitos del proyecto y proponiendo posibles retos para futuros proyectos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Reconocer actitudes y conductas que fomenten el bienestar emocional y social, identificando las emociones propias y respetando las de los demás, fomentando relaciones afectivas saludables basadas en la actividad física y la gestión del tiempo libre y usos de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Promover actitudes que fomenten el bienestar emocional y social, gestionando las emociones propias y respetando las de los demás, validándolas, fomentando relaciones afectivas saludables y reflexionando ante los usos de las tecnologías y la gestión del tiempo libre.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Valorar hábitos de vida saludables, partiendo del conocimiento y la localización y funciones de los aparatos y sistemas que intervienen en las funciones vitales de relación, nutrición y reproducción, estableciendo relaciones entre ellos y valorando la importancia de una alimentación variada, equilibrada y sostenible, el ejercicio físico, el contacto con la naturaleza, el descanso, la higiene, la prevención de enfermedades y accidentes, y el uso adecuado de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Adoptar hábitos de vida saludables, partiendo del conocimiento y la localización, forma, estructura y funciones de los principales órganos, aparatos y sistemas que intervienen en las funciones vitales, estableciendo relación entre ellos, valorando la importancia de una alimentación variada, equilibrada y sostenible, el ejercicio físico, el contacto con la naturaleza, el descanso, la higiene, la prevención de enfermedades y accidentes, y el uso adecuado de las tecnologías.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Identificar y describir las características, la organización y las propiedades de los elementos del medio natural, social y cultural a través de metodologías de indagación, utilizando las herramientas y procesos adecuados, comprendiendo y valorando su riqueza y diversidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Identificar y analizar las características, la organización y las propiedades de los elementos del medio natural, social y cultural a través de metodologías de indagación, utilizando las herramientas y los procesos adecuados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Establecer conexiones sencillas entre diferentes elementos del medio natural, social y cultural, mostrando comprensión de las relaciones que se establecen, visibilizando los problemas que genera el uso del espacio y sus transformaciones, los cambios producidos por el ser humano y las distintas organizaciones sociales que se han desarrollado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Establecer conexiones sencillas entre diferentes elementos del medio natural, social y cultural, mostrando comprensión de las relaciones que se establecen, visibilizando y proponiendo soluciones a los problemas que genera el uso del espacio y sus transformaciones, los cambios y adaptaciones producidos por el ser humano y las distintas organizaciones sociales que se han desarrollado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio natural y cultural a través de propuestas que reflejen compromisos y conductas en favor de la sostenibilidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Valorar, proteger y mostrar actitudes de conservación y mejora del patrimonio natural y cultural a través de propuestas y acciones que reflejen compromisos y conductas en favor de la sostenibilidad, respondiendo a retos naturales, sociales y culturales planteados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Identificar estilos de vida sostenible y consecuentes con el respeto, los cuidados y la protección de las personas y del planeta, a partir del análisis crítico de la intervención humana en el entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Promover estilos de vida sostenible y consecuentes con el respeto, los cuidados y la protección de las personas y del planeta, a partir del análisis crítico de la intervención humana en el entorno, siendo conscientes de los límites de la biosfera, de los problemas asociados al consumo acelerado de bienes y al establecimiento de un modelo energético basado en los combustibles fósiles.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Promover una actitud emprendedora en la búsqueda, contraste y evaluación de propuestas para afrontar problemas ecosociales, partiendo del análisis crítico de las causas y consecuencias de la intervención humana en el entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Promover una actitud emprendedora en la búsqueda, contraste y evaluación de propuestas para afrontar problemas ecosociales, buscar soluciones y actuar para su resolución, a partir del análisis crítico de las causas y consecuencias de la intervención humana en el entorno.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "5.º",
+          "texto": "Analizar relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural de la Edad Media y la Edad Moderna, situando hechos en ejes cronológicos, para adoptar una actitud objetiva y analítica con respecto a la actualidad y para asumir un compromiso responsable y consciente con respecto a los retos del futuro.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "6.º",
+          "texto": "Analizar relaciones de causalidad, simultaneidad y sucesión entre diferentes elementos del medio social y cultural de la Edad Contemporánea, situando hechos en ejes cronológicos para adoptar una actitud objetiva y analítica con respecto a la actualidad y para asumir un compromiso responsable y consciente con respecto a los retos del futuro.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "5.º",
+          "texto": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades de la Edad Media y la Edad Moderna, situándolas en ejes cronológicos e identificando rasgos significativos sociales en distintas épocas de la historia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "6.º",
+          "texto": "Conocer personas, grupos sociales relevantes y formas de vida de las sociedades en la Edad Contemporánea, situándolas en ejes cronológicos e identificando rasgos significativos sociales, económicos y culturales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "5.º",
+          "texto": "Contribuir al bienestar individual y colectivo mediante el análisis comparativo de los procesos geográficos, históricos y culturales que han conformado algunos de los diferentes territorios y sociedades del mundo, valorando la diversidad etnocultural, la cohesión social, y mostrando empatía y respeto por otras culturas y la igualdad de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "6.º",
+          "texto": "Contribuir al bienestar individual y colectivo y al logro de los valores de la integración europea a través del conocimiento de los procesos geográficos, históricos y culturales que han conformado la sociedad actual, valorando la diversidad etnocultural, la cohesión social, y mostrando empatía y respeto por otras culturas y la igualdad de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "5.º",
+          "texto": "Reconocer y respetar actitudes de igualdad de género y conductas no sexistas, contrastando diferentes modelos en nuestra sociedad y apreciando acciones contrarias a las actitudes discriminatorias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "6.º",
+          "texto": "Promover actitudes de igualdad de género y conductas no sexistas, analizando y contrastando diferentes modelos en nuestra sociedad y valorando acciones contrarias a las actitudes discriminatorias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "5.º",
+          "texto": "Practicar una interacción respetuosa y equitativa, y resolver de forma pacífica y dialogada los conflictos, empleando un lenguaje inclusivo y no violento, así como la escucha activa, explicando y practicando las principales normas, derechos, deberes y libertades que forman parte de la Constitución española y el Estatuto de Autonomía de Andalucía.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "6.º",
+          "texto": "Promover una interacción respetuosa y equitativa, y resolver de forma pacífica y dialogada los conflictos, empleando un lenguaje inclusivo y no violento, la escucha activa, y el pensamiento crítico y explicando y ejercitando las principales normas, derechos, deberes y libertades que forman parte de la Constitución española, el Estatuto de Autonomía de Andalucía y de la Unión Europea, conociendo la función que el Estado y sus instituciones desempeñan en el mantenimiento de la paz y la seguridad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "5.º",
+          "texto": "Describir el funcionamiento general de los órganos de gobierno del municipio y de la Comunidad Autónoma de Andalucía, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "6.º",
+          "texto": "Explicar el funcionamiento general de los órganos de gobierno del municipio, de las comunidades autónomas, del Estado español y de la Unión Europea, valorando sus funciones y la gestión de los servicios públicos para la ciudadanía.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/48-53"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOJA a través de WebFetch (límite de cita de unos 125 caracteres, tabla a dos columnas por curso que la extracción de texto intercala). Cotejar con el PDF antes de marcar verificado:true.",
+    "Andalucía numera los criterios por curso: X.Y.a = primer curso del ciclo (1.º, 3.º, 5.º) y X.Y.b = segundo curso (2.º, 4.º, 6.º). Campo «curso» en cada criterio.",
+    "Los descriptores operativos van vinculados a la competencia específica (primera columna de la tabla), no al criterio: están en competencias[].descriptores y criterios[].descriptores queda vacío a propósito.",
+    "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
+    "C6: «desde los puntos de vista los social, económico…» y C9: «valorando de la función del Estado», tal como se extrajeron.",
+    "La lista de códigos del 2.º ciclo que dio el extractor en una primera consulta incluía 6.2.a/6.2.b; en dos consultas posteriores confirmó que el 2.º ciclo solo tiene 6.1 (6.2 aparece en el 3.er ciclo). Se sigue lo segundo.",
+    "2.º ciclo 9.3.a: «tanto para las las personas» (el extractor indica que la duplicación figura en el original); «al-gunas» unido.",
+    "3.er ciclo: el 9.3 no existe (solo 9.1 y 9.2). No se pudo confirmar que los enunciados de competencias del 3.er ciclo sean idénticos a los del 1.º; el 2.º sí (confirmado).",
+    "Saberes básicos sin extraer (págs. 31-38; códigos CMN.<ciclo>.<bloque>…)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
+    "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

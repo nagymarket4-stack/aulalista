@@ -1,0 +1,1245 @@
+{
+  "area": "Lengua Castellana y Literatura",
+  "fuente": "Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo. Texto extraído del PDF oficial de juntadeandalucia.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Reconocer la diversidad lingüística del mundo a partir de la identificación de las lenguas del alumnado y de la realidad plurilingüe y multicultural de España para favorecer la reflexión interlingüística, para identificar y rechazar estereotipos y prejuicios lingüísticos, y para valorar dicha diversidad como fuente de riqueza cultural.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP2",
+        "CP3",
+        "CC1",
+        "CC2",
+        "CCEC1",
+        "CCEC3"
+      ]
+    },
+    {
+      "id": "C2",
+      "enunciado": "Comprender e interpretar textos orales y multimodales, identificando el sentido general y la información más relevante, y valorando con ayuda aspectos formales y de contenidos básicos, para construir conocimiento y responder a diferentes necesidades comunicativas.",
+      "resumen": null,
+      "descriptores": [
+        "CCL2",
+        "CP2",
+        "STEM1",
+        "CD3",
+        "CPSAA3",
+        "CC3"
+      ]
+    },
+    {
+      "id": "C3",
+      "enunciado": "Producir textos orales y multimodales, con coherencia, claridad y registro adecuados, para expresar ideas, sentimientos y conceptos; construir conocimiento; establecer vínculos personales; y participar con autonomía y una actitud cooperativa y empática en interacciones orales variadas.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "CP2",
+        "STEM1",
+        "CD2",
+        "CD3",
+        "CC2",
+        "CE1"
+      ]
+    },
+    {
+      "id": "C4",
+      "enunciado": "Comprender e interpretar textos escritos y multimodales, reconociendo el sentido global, las ideas principales y la información explícita e implícita, realizando con ayuda reflexiones elementales sobre aspectos formales y de contenido, para adquirir y construir conocimiento y para responder a necesidades e intereses comunicativos diversos.",
+      "resumen": null,
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CCL5",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA4",
+        "CPSAA5"
+      ]
+    },
+    {
+      "id": "C5",
+      "enunciado": "Producir textos escritos y multimodales, con corrección gramatical y ortográfica básicas, secuenciando correctamente los contenidos y aplicando estrategias elementales de planificación, textualización, revisión y edición, para construir conocimiento y para dar respuesta a demandas comunicativas concretas.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL3",
+        "CCL5",
+        "STEM1",
+        "CD2",
+        "CD3",
+        "CPSAA5",
+        "CC2"
+      ]
+    },
+    {
+      "id": "C6",
+      "enunciado": "Buscar, seleccionar y contrastar información procedente de dos o más fuentes, de forma planificada y con el debido acompañamiento, evaluando su fiabilidad y reconociendo algunos riesgos de manipulación y desinformación, para transformarla en conocimiento y para comunicarla de manera creativa, adoptando un punto de vista personal y respetuoso con la propiedad intelectual.",
+      "resumen": null,
+      "descriptores": [
+        "CCL3",
+        "CD1",
+        "CD2",
+        "CD3",
+        "CD4",
+        "CPSAA5",
+        "CC2",
+        "CE3"
+      ]
+    },
+    {
+      "id": "C7",
+      "enunciado": "Leer de manera autónoma obras diversas seleccionadas atendiendo a sus gustos e intereses, compartiendo las experiencias de lectura, para iniciar la construcción de la identidad lectora, para fomentar el gusto por la lectura como fuente de placer y para disfrutar de su dimensión social.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL4",
+        "CD3",
+        "CPSAA1",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3"
+      ]
+    },
+    {
+      "id": "C8",
+      "enunciado": "Leer, interpretar y analizar, de manera acompañada, obras o fragmentos literarios adecuados a su desarrollo, estableciendo relaciones entre ellos e identificando el género literario y sus convenciones fundamentales, para iniciarse en el reconocimiento de la literatura como manifestación artística y fuente de placer, conocimiento e inspiración para crear textos de intención literaria.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CCL4",
+        "CPSAA1",
+        "CPSAA3",
+        "CPSAA5",
+        "CCEC1",
+        "CCEC2",
+        "CCEC3",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "C9",
+      "enunciado": "Reflexionar de forma guiada sobre el lenguaje a partir de procesos de producción y comprensión de textos en contextos significativos, utilizando la terminología elemental adecuada, para iniciarse en el desarrollo de la conciencia lingüística y para mejorar las destrezas de producción y comprensión oral y escrita.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL2",
+        "CP2",
+        "STEM1",
+        "STEM2",
+        "CPSAA5"
+      ]
+    },
+    {
+      "id": "C10",
+      "enunciado": "Poner las propias prácticas comunicativas al servicio de la convivencia democrática, utilizando un lenguaje no discriminatorio y detectando y rechazando los abusos de poder a través de la palabra, para favorecer un uso no solo eficaz sino también ético del lenguaje.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CCL5",
+        "CP3",
+        "CD3",
+        "CPSAA3",
+        "CC1",
+        "CC2",
+        "CC3"
+      ]
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Mostrar interés y respeto por las distintas lenguas y variedades dialectales de su entorno más cercano, reconociendo las lenguas de signos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Mostrar interés y respeto a las distintas lenguas y variedades dialectales de su entorno, valorando la igualdad en las diferencias.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Iniciar de manera acompañada el reconocimiento y en contextos próximos, de algunos prejuicios y estereotipos lingüísticos y culturales muy frecuentes, a partir de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Reconocer, de manera acompañada y en contextos próximos, algunos prejuicios y estereotipos lingüísticos y culturales muy frecuentes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Iniciarse en el reconocimiento de los rasgos de la modalidad lingüística y de las tradiciones literarias populares andaluzas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Reconocer rasgos de la modalidad lingüística y de las tradiciones literarias populares andaluzas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos y los mensajes implícitos más sencillos, e iniciando, de manera acompañada, la valoración del contenido y de los elementos no verbales más elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Producir textos orales y multimodales sencillos, con planificación acompañada a partir de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Producir textos orales y multimodales coherentes, con planificación acompañada y utilizando recursos no verbales elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Participar en interacciones orales, a partir de modelos dados utilizando algunas normas básicas de la cortesía lingüística.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Participar en interacciones orales espontáneas, incorporando estrategias elementales de escucha activa y de cortesía lingüística.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Reproducir textos orales sencillos de la literatura infantil andaluza del entorno cercano del alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Reproducir textos orales sencillos de la literatura infantil andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Leer textos escritos y multimodales adecuados a su desarrollo cognitivo, identificando el sentido global y la información relevante y movilizando de forma acompañada estrategias básicas de comprensión, para adquirir conocimiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Comprender el sentido global y la información relevante de textos cercanos, escritos y multimodales, a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Identificar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales sencillos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Analizar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales sencillos, valorando su contenido y estructura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Producir textos escritos y multimodales sencillos y coherentes, desde las diferentes etapas del proceso evolutivo de la escritura, ajustándose a modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Producir textos escritos y multimodales sencillos y coherentes en distintos soportes, desde las diferentes etapas del proceso evolutivo de la escritura, ajustándose a modelos dados y movilizando, de manera acompañada, estrategias elementales, individuales o grupales, de planificación, textualización y revisión.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Iniciarse en la búsqueda de resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal, realizado de manera acompañada, que implique la localización y selección de información de dos o más fuentes, atendiendo a modelos, incluidas las digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas y recreándolas mediante la adaptación creativa de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal orientado y realizado de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal, realizado de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Iniciarse de manera acompañada en el uso, seguro y saludable de las tecnologías digitales en relación con la búsqueda de la información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "1.º",
+          "texto": "Iniciarse en la lectura de textos de distintos autores y autoras acordes con sus gustos e intereses, seleccionados de manera acompañada, desde las diferentes etapas del proceso evolutivo de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "2.º",
+          "texto": "Leer con progresiva autonomía textos de distintos autores y autoras acordes con sus gustos e intereses, seleccionados de manera acompañada, desde las diferentes etapas del proceso evolutivo de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "1.º",
+          "texto": "Compartir oralmente la experiencia de lectura iniciándose en la participación en comunidades lectoras de ámbito escolar para conseguir disfrutar de la dimensión social de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "2.º",
+          "texto": "Compartir oralmente la experiencia y disfrute por la lectura, participando en comunidades lectoras de ámbito escolar.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "1.º",
+          "texto": "Escuchar e iniciar la lectura de textos orales y escritos de la literatura infantil, que recojan diversidad de autores y autoras, estableciendo de manera acompañada relaciones elementales entre ellos y con otras manifestaciones artísticas o culturales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "2.º",
+          "texto": "Escuchar y leer de manera acompañada textos orales y escritos de la literatura infantil, que recojan diversidad de autores y autoras, estableciendo de manera acompañada relaciones elementales entre ellos y con otras manifestaciones artísticas o culturales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "1.º",
+          "texto": "Reproducir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, adaptados a las diferentes etapas del proceso evolutivo de la escritura, a partir de modelos dados y en distintos soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "2.º",
+          "texto": "Producir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, adaptados a las diferentes etapas del proceso evolutivo de la escritura, ajustándose a modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.a",
+          "competencia": "C8",
+          "curso": "1.º",
+          "texto": "Conocer pequeños textos literarios como las retahílas tradicionales andaluzas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.b",
+          "competencia": "C8",
+          "curso": "2.º",
+          "texto": "Conocer e interpretar pequeños textos literarios a partir de pautas y modelos dados como las retahílas tradicionales andaluzas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "1.º",
+          "texto": "Iniciarse en la reflexión sobre el funcionamiento de la lengua, prestando especial atención a la concordancia y a las relaciones de significado entre las palabras, a partir de la observación, comparación y manipulación de palabras, en un proceso acompañado de comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "2.º",
+          "texto": "Formular conclusiones elementales sobre el funcionamiento de la lengua, prestando especial atención a la concordancia y a las relaciones de significado entre las palabras, a partir de la observación, comparación y transformación de palabras y enunciados, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "1.º",
+          "texto": "Revisar los textos propios y subsanar algunos problemas de comprensión lectora, de manera acompañada, usando la terminología lingüística básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "2.º",
+          "texto": "Revisar y mejorar los textos propios y subsanar algunos problemas de comprensión lectora, de manera acompañada, a partir de la reflexión metalingüística e interlingüística y usando la terminología lingüística básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.a",
+          "competencia": "C10",
+          "curso": "1.º",
+          "texto": "Identificar los usos lingüísticos discriminatorios identificados a partir de la reflexión grupal acompañada sobre los aspectos elementales, verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.b",
+          "competencia": "C10",
+          "curso": "2.º",
+          "texto": "Rechazar los usos lingüísticos discriminatorios identificados a partir de la reflexión grupal acompañada sobre los aspectos elementales, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.a",
+          "competencia": "C10",
+          "curso": "1.º",
+          "texto": "Identificar, con la planificación y el acompañamiento necesarios, estrategias elementales para la escucha activa y el consenso, iniciándose en la gestión dialogada de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.b",
+          "competencia": "C10",
+          "curso": "2.º",
+          "texto": "Movilizar, con la planificación y el acompañamiento necesarios, estrategias elementales para la escucha activa, la comunicación asertiva y el consenso, iniciándose en la gestión dialogada de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/103-106"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Mostrar interés y respeto por las distintas lenguas y variedades dialectales de su entorno, incluidas las lenguas de signos, identificando algunas palabras sencillas de uso cotidiano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Mostrar interés y respeto a las distintas lenguas y variedades dialectales de su entorno, identificando algunas expresiones de uso cotidiano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Identificar en contextos próximos, a partir de modelos dados, prejuicios y estereotipos lingüísticos frecuentes, reconociendo la pluralidad lingüística de su entorno como una fuente de riqueza cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Identificar, con cierta autonomía y en contextos próximos, prejuicios y estereotipos lingüísticos frecuentes, aportando alternativas y reconociendo la diversidad lingüística de su entorno como una fuente de riqueza cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Identificar y reconocer de manera acompañada rasgos de la modalidad lingüística andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Identificar y reconocer rasgos de la modalidad lingüística andaluza, con especial atención a la variedades del entorno del alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales, los mensajes explícitos y los mensajes implícitos más sencillos, iniciando, de manera acompañada, la valoración crítica del contenido y de los elementos no verbales elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales, los mensajes explícitos y los mensajes implícitos más sencillos, y progresando, de manera acompañada, en la valoración crítica del contenido y de los elementos no verbales elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Producir textos orales y multimodales coherentes, con planificación acompañada y a partir de modelos dados, ajustando el discurso a la situación comunicativa y utilizando recursos no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Producir textos orales y multimodales coherentes, con planificación acompañada, ajustando el discurso a la situación comunicativa y utilizando recursos no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Participar en interacciones orales espontáneas, respetando las normas básicas de la cortesía lingüística e iniciándose en estrategias de escucha activa.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Participar en interacciones orales espontáneas o regladas, incorporando estrategias básicas de escucha activa y cortesía lingüística.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Conocer y producir textos orales y multimodales sencillos con planificación acompañada, propios de la literatura infantil andaluza, a partir de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Conocer y producir textos orales y multimodales con planificación acompañada, propios de la literatura infantil andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Leer de manera silenciosa y en voz alta textos escritos y multimodales sencillos, identificando el sentido global y la información relevante para construir conocimiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Comprender el sentido global y la información relevante de textos sencillos, escritos y multimodales, realizando inferencias a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Analizar, de manera acompañada, el contenido y aspectos formales y no verbales elementales de textos escritos y multimodales, valorando su contenido y estructura e iniciándose en la evaluación de su fiabilidad, para responder a necesidades comunicativas concretas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Analizar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales, valorando su contenido y estructura e iniciándose en la evaluación de su fiabilidad.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Producir textos escritos y multimodales sencillos y coherentes, en distintos soportes, para diferentes modelos discursivos, iniciándose en el uso de las normas gramaticales y ortográficas más sencillas y progresando, de manera acompañada, en la movilización de estrategias sencillas, individuales o grupales, de planificación, redacción, revisión y edición.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Producir textos escritos y multimodales sencillos, con coherencia y adecuación, en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, iniciándose en el uso de las normas gramaticales y ortográficas más sencillas al servicio de la cohesión y progresando, de manera acompañada, en la movilización de estrategias sencillas, individuales o grupales, de planificación, textualización y revisión.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Localizar y seleccionar información de distintas fuentes, incluidas las digitales, para un proceso de investigación, e iniciarse en procesos para contrastar los resultados, citándolas y recreándolas mediante la adaptación de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Localizar, seleccionar y contrastar información de distintas fuentes, con especial atención a las digitales, citándolas, evaluando su fiabilidad y recreándolas mediante la adaptación creativa de modelos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial orientado y realizado de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Compartir, de manera creativa, los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial, realizado de manera progresivamente autónoma.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Adoptar, de manera acompañada, hábitos sencillos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Adoptar hábitos sencillos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información, de manera progresivamente autónoma.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "3.º",
+          "texto": "Leer de manera autónoma o acompañada textos de diversos autores y autoras, ajustados a sus gustos e intereses y seleccionados con creciente autonomía, avanzando en la construcción de su identidad lectora para conseguir que sea una fuente de placer.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "4.º",
+          "texto": "Leer con progresiva autonomía o de forma acompañada textos de diversos autores y autoras, ajustados a sus gustos e intereses y seleccionados con creciente autonomía, avanzando en la construcción de su identidad lectora para conseguir que sea una fuente de placer.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "3.º",
+          "texto": "Compartir la experiencia de lectura, en soportes sencillos, participando en comunidades lectoras en el ámbito escolar para conseguir disfrutar de la dimensión social de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "4.º",
+          "texto": "Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar para conseguir disfrutar de la dimensión social de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "3.º",
+          "texto": "Escuchar y leer de manera acompañada textos variados de la literatura infantil universal, que recojan diversidad de autores y autoras, relacionándolos en función de los temas y con otras manifestaciones artísticas o culturales de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "4.º",
+          "texto": "Escuchar y leer, de manera acompañada, textos variados de la literatura infantil universal, que recojan diversidad de autores y autoras, relacionándolos en función de temas y aspectos elementales del género literario, e interpretándolos y relacionándolos con otras manifestaciones artísticas o culturales de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "3.º",
+          "texto": "Producir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, recreando de manera personal los modelos dados, y complementándolos con otros lenguajes artísticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "4.º",
+          "texto": "Producir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, recreando de manera personal los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.a",
+          "competencia": "C8",
+          "curso": "3.º",
+          "texto": "Conocer pequeños textos literarios de la literatura tradicional andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.b",
+          "competencia": "C8",
+          "curso": "4.º",
+          "texto": "Conocer y crear pequeños textos literarios a partir de pautas y modelos dados de la literatura tradicional andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "3.º",
+          "texto": "Formular conclusiones elementales sobre el funcionamiento de la lengua, prestando especial atención a la relación entre el sujeto y el verbo, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "4.º",
+          "texto": "Formular conclusiones elementales sobre el funcionamiento de la lengua, utilizando la terminología elemental adecuada, prestando especial atención a la relación entre sustantivos, adjetivos y verbos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "3.º",
+          "texto": "Revisar y mejorar los textos propios y ajenos y subsanar algunos problemas de comprensión lectora, de manera acompañada, a partir de la reflexión metalingüística y usando la terminología básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "4.º",
+          "texto": "Revisar y mejorar los textos propios y ajenos y subsanar algunos problemas de comprensión lectora, de manera acompañada, a partir de la reflexión metalingüística e interlingüística y usando la terminología básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.a",
+          "competencia": "C10",
+          "curso": "3.º",
+          "texto": "Rechazar los usos lingüísticos discriminatorios e iniciar la identificación de los abusos de poder a través de la palabra a partir de la reflexión grupal acompañada sobre los aspectos básicos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.b",
+          "competencia": "C10",
+          "curso": "4.º",
+          "texto": "Rechazar los usos lingüísticos discriminatorios e identificar los abusos de poder a través de la palabra a partir de la reflexión grupal acompañada sobre los aspectos básicos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.a",
+          "competencia": "C10",
+          "curso": "3.º",
+          "texto": "Iniciar, con la planificación y el acompañamiento necesarios, estrategias básicas para la comunicación asertiva y el consenso, progresando en la gestión dialogada de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.b",
+          "competencia": "C10",
+          "curso": "4.º",
+          "texto": "Movilizar, con la planificación y el acompañamiento necesarios, estrategias básicas para la escucha activa, y la comunicación asertiva y el consenso, progresando en la gestión dialogada de conflictos.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/107-112"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Mostrar interés y respeto por las distintas lenguas y variedades dialectales, incluidas las lenguas de signos, identificando algunos rasgos de los dialectos y lenguas familiares del alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Mostrar interés y respeto a las distintas lenguas y variedades dialectales, incluidas las lenguas de signos, identificando las características fundamentales de las de su entorno geográfico, así como algunos rasgos de los dialectos y lenguas familiares del alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Detectar, con autonomía creciente y en contextos próximos, prejuicios y estereotipos lingüísticos frecuentes, aportando alternativas y valorando la diversidad lingüística del mundo como una fuente de riqueza cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Detectar, con autonomía creciente y en contextos próximos, prejuicios y estereotipos lingüísticos frecuentes, aportando alternativas y valorando la diversidad lingüística del mundo como una fuente de riqueza cultural.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Conocer los rasgos de la modalidad lingüística andaluza del entorno geográfico del alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.3.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Conocer los rasgos más destacados de la modalidad lingüística andaluza.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos e implícitos, valorando con cierta autonomía su contenido y los elementos no verbales elementales y, de manera acompañada, algunos elementos formales elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos e implícitos, valorando su contenido y los elementos no verbales elementales y, de manera acompañada, algunos elementos formales elementales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Producir textos orales y multimodales de manera progresivamente autónoma, coherente y fluida, en contextos formales sencillos y utilizando correctamente recursos verbales y no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Producir textos orales y multimodales de manera autónoma, coherente y fluida, en contextos formales sencillos y utilizando correctamente recursos verbales y no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Participar en interacciones orales espontáneas o regladas, respetando las normas de la cortesía lingüística, iniciando de manera acompañada el desarrollo de estrategias sencillas de escucha activa y de cooperación conversacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Participar en interacciones orales espontáneas o regladas, incorporando estrategias sencillas de escucha activa, de cortesía lingüística y de cooperación conversacional.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Conocer y producir textos orales y multimodales de manera progresivamente más autónoma, coherente y fluida, propios de la literatura infantil andaluza, utilizando correctamente recursos verbales y no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.3.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Conocer y producir textos orales y multimodales de manera autónoma, coherente y fluida, propios de la literatura infantil andaluza, utilizando correctamente recursos verbales y no verbales básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Leer de manera silenciosa y en voz alta textos escritos y multimodales sencillos, identificando el sentido global y la información relevante, realizando inferencias directas de manera acompañada y superando la interpretación literal para construir conocimiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Comprender el sentido global y la información relevante, de textos escritos y multimodales, realizando inferencias a partir de estrategias básicas de antes, durante y después de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Analizar e interpretar, de manera acompañada, el contenido y aspectos formales y no verbales elementales de textos escritos y multimodales, valorando su contenido y estructura e iniciando la evaluación de su calidad, fiabilidad e idoneidad en función del propósito de lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Analizar e interpretar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales, valorando su contenido y estructura y evaluando su calidad, fiabilidad e idoneidad en función del propósito de lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Producir textos escritos y multimodales coherentes, en distintos soportes, seleccionando el modelo discursivo que mejor responda a cada situación comunicativa, progresando en el uso de las normas gramaticales y ortográficas básicas y movilizando, de manera acompañada, estrategias sencillas, individuales o grupales, de planificación, redacción, revisión y edición.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Producir textos escritos y multimodales de relativa complejidad, con coherencia y adecuación, en distintos soportes, progresando en el uso de las normas gramaticales y ortográficas básicas al servicio de la cohesión textual y movilizando estrategias sencillas, individuales o grupales, de planificación, textualización, revisión y edición.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas, iniciándose en la evaluación de su fiabilidad y recreándolas mediante la adaptación creativa de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas y recreándolas mediante la adaptación creativa de modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Compartir de manera creativa los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial, realizado de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial, realizado de manera acompañada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Adoptar hábitos sencillos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.a",
+          "competencia": "C7",
+          "curso": "5.º",
+          "texto": "Leer de manera autónoma textos de diversos autores y autoras ajustados a sus gustos e intereses, seleccionados de manera puntualmente acompañada, progresando en la construcción de su identidad lectora para conseguir que sea una fuente de placer.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.1.b",
+          "competencia": "C7",
+          "curso": "6.º",
+          "texto": "Leer de manera autónoma textos de diversos autores y autoras ajustados a sus gustos e intereses, seleccionados con criterio propio, progresando en la construcción de su identidad lectora para conseguir que sea una fuente de placer.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.a",
+          "competencia": "C7",
+          "curso": "5.º",
+          "texto": "Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar o local para conseguir disfrutar de la dimensión social de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "7.2.b",
+          "competencia": "C7",
+          "curso": "6.º",
+          "texto": "Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar o social para conseguir disfrutar de la dimensión social de la lectura.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.a",
+          "competencia": "C8",
+          "curso": "5.º",
+          "texto": "Escuchar y leer textos literarios adecuados a su edad, que recojan diversidad de autores y autoras, relacionándolos en función de los temas y de aspectos elementales de cada género literario, e interpretándolos, iniciándose en la valoración de los mismos y relacionándolos con otras manifestaciones artísticas o culturales de manera progresivamente autónoma.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.1.b",
+          "competencia": "C8",
+          "curso": "6.º",
+          "texto": "Escuchar y leer de manera acompañada textos literarios adecuados a su edad, que recojan diversidad de autores y autoras, relacionándolos en función de los temas y de aspectos elementales de cada género literario, e interpretándolos, valorándolos y relacionándolos con otras manifestaciones artísticas o culturales de manera progresivamente autónoma.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.a",
+          "competencia": "C8",
+          "curso": "5.º",
+          "texto": "Producir, de manera progresivamente autónoma, textos sencillos individuales o colectivos con intención literaria, reelaborando a partir de modelos dados y en distintos soportes y complementándolos con otros lenguajes artísticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.2.b",
+          "competencia": "C8",
+          "curso": "6.º",
+          "texto": "Producir, de manera progresivamente autónoma, textos sencillos individuales o colectivos con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.a",
+          "competencia": "C8",
+          "curso": "5.º",
+          "texto": "Conocer y crear textos literarios a partir de manifestaciones de la cultura popular andaluza orales y escritas, tales como refranes, cantinelas y poemas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "8.3.b",
+          "competencia": "C8",
+          "curso": "6.º",
+          "texto": "Conocer y crear textos literarios a partir de manifestaciones de la cultura popular andaluza orales y escritas, tales como refranes, cantinelas y poemas, referenciando su validez histórica y los recursos estilísticos que contienen.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.a",
+          "competencia": "C9",
+          "curso": "5.º",
+          "texto": "Formular generalizaciones sobre aspectos básicos del funcionamiento de la lengua de manera acompañada, utilizando la terminología elemental adecuada, formulando hipótesis y buscando contraejemplos, a partir de la observación, comparación y manipulación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.1.b",
+          "competencia": "C9",
+          "curso": "6.º",
+          "texto": "Establecer generalizaciones sobre aspectos básicos del funcionamiento de la lengua de manera puntualmente acompañada, utilizando la terminología elemental adecuada, formulando hipótesis y buscando contraejemplos, a partir de la observación, comparación y transformación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.a",
+          "competencia": "C9",
+          "curso": "5.º",
+          "texto": "Revisar los textos propios y ajenos y subsanar algunos problemas de comprensión lectora, de manera progresivamente autónoma, a partir de la reflexión metalingüística y usando la terminología básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "9.2.b",
+          "competencia": "C9",
+          "curso": "6.º",
+          "texto": "Revisar y mejorar los textos propios y ajenos y subsanar algunos problemas de comprensión lectora, de manera progresivamente autónoma, a partir de la reflexión metalingüística e interlingüística y usando la terminología básica adecuada.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.a",
+          "competencia": "C10",
+          "curso": "5.º",
+          "texto": "Rechazar los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra identificados mediante la reflexión grupal acompañada sobre distintos aspectos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.1.b",
+          "competencia": "C10",
+          "curso": "6.º",
+          "texto": "Rechazar los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra, identificados mediante la reflexión grupal, puntualmente acompañada, sobre distintos aspectos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.a",
+          "competencia": "C10",
+          "curso": "5.º",
+          "texto": "Iniciar, con la planificación y el acompañamiento necesarios, estrategias básicas para la deliberación argumentada y la gestión dialogada de conflictos, eligiendo soluciones entre varios modelos dados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "10.2.b",
+          "competencia": "C10",
+          "curso": "6.º",
+          "texto": "Movilizar, con la planificación y el acompañamiento necesarios, estrategias básicas para la escucha activa, la comunicación asertiva y la deliberación argumentada, progresando en la gestión dialogada de conflictos, proponiendo soluciones creativas.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/113-117"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOJA a través de WebFetch (límite de cita de unos 125 caracteres, tabla a dos columnas por curso que la extracción de texto intercala). Cotejar con el PDF antes de marcar verificado:true.",
+    "Andalucía numera los criterios por curso: X.Y.a = primer curso del ciclo (1.º, 3.º, 5.º) y X.Y.b = segundo curso (2.º, 4.º, 6.º). Campo «curso» en cada criterio.",
+    "Los descriptores operativos van vinculados a la competencia específica (primera columna de la tabla), no al criterio: están en competencias[].descriptores y criterios[].descriptores queda vacío a propósito.",
+    "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
+    "C5 en la tabla del 1.er ciclo: el extractor duplicó «a demandas» al unir fragmentos; se dejó una vez.",
+    "1.er ciclo 10.1.b termina sin punto; 10.1.a: «aspectos elementales, verbales, de la comunicación»; 2.º ciclo 1.3.b: «a la variedades»; 10.2.b: «escucha activa, y la comunicación asertiva», tal como se extrajeron.",
+    "Enunciados de competencias tomados de la tabla del 1.er ciclo; el extractor confirmó que C8-C10 son iguales en el 2.º ciclo y C6-C10 iguales entre el 2.º y el 3.º; el resto no se pudo comparar.",
+    "Saberes básicos sin extraer (págs. ~95-102)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
+    "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

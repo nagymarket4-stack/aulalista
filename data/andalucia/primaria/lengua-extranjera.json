@@ -1,0 +1,817 @@
+{
+  "area": "Lengua Extranjera",
+  "fuente": "Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2/06/2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo. Texto extraído del PDF oficial de juntadeandalucia.es mediante WebFetch; sin cotejar",
+  "verificado": false,
+  "competencias": [
+    {
+      "id": "C1",
+      "enunciado": "Comprender el sentido general e información específica y predecible de textos breves y sencillos, expresados de forma clara y en la lengua estándar, haciendo uso de diversas estrategias y recurriendo, cuando sea necesario, al uso de distintos tipos de apoyo, para desarrollar el repertorio lingüístico y para responder a necesidades comunicativas cotidianas.",
+      "resumen": null,
+      "descriptores": [
+        "CCL2",
+        "CCL3",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CD1",
+        "CPSAA5",
+        "CCEC2"
+      ]
+    },
+    {
+      "id": "C2",
+      "enunciado": "Producir textos sencillos de manera comprensible y estructurada, mediante el empleo de estrategias como la planificación o la compensación, para expresar mensajes breves relacionados con necesidades inmediatas y responder a propósitos comunicativos cotidianos.",
+      "resumen": null,
+      "descriptores": [
+        "CCL1",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CD2",
+        "CPSAA5",
+        "CE1",
+        "CCEC4"
+      ]
+    },
+    {
+      "id": "C3",
+      "enunciado": "Interactuar con otras personas usando expresiones cotidianas, recurriendo a estrategias de cooperación y empleando recursos analógicos y digitales, para responder a necesidades inmediatas de su interés en intercambios comunicativos respetuosos con las normas de cortesía.",
+      "resumen": null,
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP2",
+        "STEM1",
+        "CPSAA3",
+        "CC3",
+        "CE1",
+        "CE3"
+      ]
+    },
+    {
+      "id": "C4",
+      "enunciado": "Mediar en situaciones predecibles, usando estrategias y conocimientos para procesar y transmitir información básica y sencilla, con el fin de facilitar la comunicación.",
+      "resumen": null,
+      "descriptores": [
+        "CCL5",
+        "CP1",
+        "CP2",
+        "CP3",
+        "STEM1",
+        "CPSAA1",
+        "CPSAA3",
+        "CCEC1"
+      ]
+    },
+    {
+      "id": "C5",
+      "enunciado": "Reconocer y usar los repertorios lingüísticos personales entre distintas lenguas, reflexionando sobre su funcionamiento e identificando las estrategias y conocimientos propios, para mejorar la respuesta a necesidades comunicativas concretas en situaciones conocidas.",
+      "resumen": null,
+      "descriptores": [
+        "CP2",
+        "STEM1",
+        "CD2",
+        "CPSAA1",
+        "CPSAA4",
+        "CPSAA5",
+        "CE3"
+      ]
+    },
+    {
+      "id": "C6",
+      "enunciado": "Apreciar y respetar la diversidad lingüística, cultural y artística a partir de la lengua extranjera, identificando y valorando las diferencias y semejanzas entre lenguas y culturas, para aprender a gestionar situaciones interculturales.",
+      "resumen": null,
+      "descriptores": [
+        "CCL5",
+        "CP3",
+        "CPSAA1",
+        "CPSAA3",
+        "CC2",
+        "CC3",
+        "CCEC1"
+      ]
+    }
+  ],
+  "ciclos": {
+    "primer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Reconocer palabras y expresiones habituales en textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Reconocer e interpretar palabras y expresiones habituales en textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos de relevancia personal y próximos a su experiencia, expresados de forma comprensible, clara, sencilla y directa, y en lengua estándar.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "1.º",
+          "texto": "Seleccionar, de forma guiada, estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar la idea global e identificar elementos específicos con ayuda de elementos lingüísticos y no lingüísticos del contexto y el cotexto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "2.º",
+          "texto": "Seleccionar y aplicar de forma guiada estrategias elementales en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar la idea global e identificar elementos específicos con ayuda de elementos lingüísticos y no lingüísticos del contexto y el cotexto.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Identificar oralmente palabras cortas y sencillas con información básica sobre asuntos cotidianos y de relevancia para el alumnado, utilizando de forma guiada recursos verbales y no verbales, recurriendo a modelos y estructuras previamente presentados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Expresar oralmente frases cortas y sencillas con información básica sobre asuntos cotidianos y de relevancia para el alumnado, utilizando de forma guiada recursos verbales y no verbales, recurriendo a modelos y estructuras previamente presentados y prestando atención al ritmo, la acentuación y la entonación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Identificar palabras, expresiones conocidas y frases a partir de modelos y con una finalidad específica, a través de herramientas analógicas y digitales, usando léxico y estructuras elementales sobre asuntos cotidianos y de relevancia personal para el alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Escribir palabras, expresiones conocidas y frases a partir de modelos y con una finalidad específica, a través de herramientas analógicas y digitales, usando léxico y estructuras elementales sobre asuntos cotidianos y de relevancia personal para el alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "1.º",
+          "texto": "Seleccionar de forma guiada estrategias básicas para producir mensajes breves y sencillos adecuados a las intenciones comunicativas usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "2.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias básicas para producir mensajes breves y sencillos adecuados a las intenciones comunicativas usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Participar, de forma guiada, en diálogos y conversaciones sencillas sobre temas cercanos, utilizando algunos soportes de repetición, reproduciendo patrones sonoros, con entonación y ritmo básicos y usando algunas técnicas no verbales, favoreciendo la capacidad de mostrar empatía.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Participar, de forma guiada, en situaciones interactivas elementales sobre temas cotidianos, preparadas previamente, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "1.º",
+          "texto": "Identificar y comenzar a utilizar de manera guiada, algunas estrategias básicas de expresión oral para iniciar o mantener una conversación breve y sencilla relacionada con su interés y necesidades más inmediatas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "2.º",
+          "texto": "Seleccionar y utilizar, de forma guiada y en entornos próximos, estrategias elementales para saludar, despedirse y presentarse; expresar mensajes sencillos y breves; y formular y contestar preguntas básicas para la comunicación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "1.º",
+          "texto": "Reconocer y comprender, de manera guiada, con la ayuda de diversos soportes, información esencial de textos orales breves y sencillos, en diferentes contextos en los que sea necesario atender a la diversidad, valorando con empatía e interés los problemas de entendimiento en su entorno más cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "2.º",
+          "texto": "Interpretar y explicar, de forma guiada, información básica de conceptos, comunicaciones y textos breves y sencillos, de forma guiada, en situaciones en las que haya que atender a la diversidad, mostrando empatía e interés por los interlocutores e interlocutoras y por los problemas de entendimiento en su entorno inmediato, apoyándose en diversos recursos y soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Comparar similitudes y diferencias evidentes entre distintas lenguas, reflexionando, de forma guiada, sobre aspectos muy elementales de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Comparar y contrastar similitudes y diferencias evidentes entre distintas lenguas, reflexionando, de forma guiada, sobre aspectos elementales de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Identificar, de forma guiada, conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Identificar y aplicar, de forma guiada, conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "1.º",
+          "texto": "Identificar de manera guiada, progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "2.º",
+          "texto": "Identificar y explicar, de manera guiada, progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Mostrar interés por la comunicación intercultural, identificando, de forma guiada, las discriminaciones, los prejuicios y los estereotipos más comunes, en situaciones cotidianas y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Mostrar interés por la comunicación intercultural, identificando y analizando, de forma guiada, las discriminaciones, los prejuicios y los estereotipos más comunes, en situaciones cotidianas y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "1.º",
+          "texto": "Reconocer la diversidad lingüística y cultural relacionada con la lengua extranjera, mostrando interés por conocer sus elementos culturales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "2.º",
+          "texto": "Reconocer y apreciar la diversidad lingüística y cultural relacionada con la lengua extranjera, mostrando interés por conocer sus elementos culturales y lingüísticos elementales.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/126-129"
+    },
+    "segundo": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Reconocer el sentido global, así como palabras previamente indicadas, en textos orales, escritos y multimodales, breves y sencillos, sobre temas frecuentes y cotidianos de relevancia personal y próximos a su experiencia a través de distintos soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Reconocer e interpretar el sentido global, así como palabras y frases previamente indicadas, en textos orales, escritos y multimodales, breves y sencillos, sobre temas frecuentes y cotidianos de relevancia personal y próximos a su experiencia, así como de textos de ficción adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible, clara y en lengua estándar a través de distintos soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "3.º",
+          "texto": "Seleccionar, de forma guiada, estrategias adecuadas en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar el sentido global y procesar informaciones explícitas en textos breves y sencillos sobre temas familiares.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "4.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias adecuadas en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar el sentido global y procesar informaciones explícitas en textos breves y sencillos sobre temas familiares.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Participar oralmente en una conversación sencilla y breve de uso cotidiano, usando, de manera guiada, recursos básicos propios del lenguaje verbal y no verbal, prestando especial atención a la entonación y ritmo básicos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Expresar oralmente frases cortas con información básica sobre asuntos cotidianos y de relevancia para el alumnado, utilizando, de forma guiada, recursos verbales y no verbales, prestando atención al ritmo, la acentuación y la entonación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Redactar frases cortas, con adecuación a la situación comunicativa propuesta, a partir de modelos y a través de herramientas analógicas y digitales, usando estructuras y léxico elemental sobre asuntos cotidianos y de relevancia personal para el alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Redactar textos muy breves y sencillos, con adecuación a la situación comunicativa propuesta, a partir de modelos y a través de herramientas analógicas y digitales, usando estructuras y léxico elemental sobre asuntos cotidianos y de relevancia personal para el alumnado.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "3.º",
+          "texto": "Seleccionar, de forma guiada, estrategias para producir mensajes breves y sencillos adecuados a las intenciones comunicativas, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "4.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias para producir mensajes breves y sencillos adecuados a las intenciones comunicativas, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Participar en diálogos y conversaciones sencillas sobre temas cercanos próximos a su experiencia, mediante diversos soportes, reproduciendo patrones sonoros de repetición, con entonación y ritmo básicos y usando algunos recursos del lenguaje no verbal, favoreciendo la capacidad de mostrar empatía y respeto por la cortesía lingüística y etiqueta digital.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Participar en situaciones interactivas breves y sencillas sobre temas cotidianos, de relevancia personal y próximos a su experiencia, preparadas previamente, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía y respeto por la cortesía lingüística y la etiqueta digital.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "3.º",
+          "texto": "Iniciarse en el uso, de manera guiada, de estrategias básicas de expresión oral para iniciar o mantener una conversación breve y sencilla tales como saludar, despedirse, presentarse y transmitir mensajes breves y sencillos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "4.º",
+          "texto": "Seleccionar y utilizar, de forma guiada y en situaciones cotidianas, estrategias elementales para saludar, despedirse y presentarse; expresar mensajes breves; y formular y contestar preguntas sencillas.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Comprender y transmitir, de manera guiada, y con la ayuda de diversos soportes, información esencial de textos orales breves y sencillos, en diferentes contextos en los que sea necesario atender a la diversidad, valorando con empatía e interés los problemas de entendimiento en su entorno más cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Interpretar y explicar textos, conceptos y comunicaciones breves y sencillas, de forma guiada, en situaciones en las que haya que atender a la diversidad, mostrando empatía e interés por los interlocutores e interlocutoras y por los problemas de entendimiento en su entorno más próximo, apoyándose en diversos recursos y soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "3.º",
+          "texto": "Identificar y distinguir, de manera guiada, estrategias básicas y sencillas con el fin de facilitar la comprensión de información, usando, con ayuda, algunos recursos físicos o digitales adecuados a sus propias necesidades en cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "4.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias elementales que ayuden a crear puentes y faciliten la comprensión y producción de la información y la comunicación, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Identificar y comenzar a distinguir las similitudes y diferencias entre distintas lenguas, tomando conciencia sobre aspectos muy básicos de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Comparar y contrastar las similitudes y diferencias entre distintas lenguas reflexionando, de forma guiada, sobre aspectos básicos de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Utilizar de forma guiada los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Utilizar y diferenciar, de forma guiada, los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "3.º",
+          "texto": "Registrar y aplicar, de manera guiada, los progresos y dificultades elementales en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar la autoevaluación y coevaluación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "4.º",
+          "texto": "Registrar y aplicar, de manera guiada, los progresos y dificultades en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar y participando en actividades de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL).",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Actuar con respeto en situaciones interculturales, identificando semejanzas y diferencias elementales entre lenguas y culturas, y mostrando rechazo frente a discriminaciones, prejuicios y estereotipos de cualquier tipo en contextos comunicativos cotidianos y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Actuar con respeto en situaciones interculturales, identificando y comparando semejanzas y diferencias elementales entre lenguas y culturas, y mostrando rechazo frente a discriminaciones, prejuicios y estereotipos de cualquier tipo en contextos comunicativos cotidianos y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Reconocer y apreciar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por conocer elementos culturales elementales y habituales que fomenten la convivencia pacífica y el respeto por los demás.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Reconocer y apreciar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por comprender elementos culturales y lingüísticos elementales y habituales que fomenten la convivencia pacífica y el respeto por los demás.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.a",
+          "competencia": "C6",
+          "curso": "3.º",
+          "texto": "Seleccionar de forma guiada estrategias elementales para entender los aspectos más relevantes de la diversidad cultural y artística.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.b",
+          "competencia": "C6",
+          "curso": "4.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias básicas para entender y apreciar los aspectos más relevantes de la diversidad lingüística, cultural y artística.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/129-132"
+    },
+    "tercer": {
+      "criterios": [
+        {
+          "id": "1.1.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Reconocer e interpretar el sentido global, así como palabras y frases específicas de textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, así como de textos literarios adecuados al nivel de desarrollo del alumnado, expresando de forma comprensible, clara y en lengua estándar a través de distintos soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.1.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Reconocer, interpretar y analizar el sentido global, así como palabras y frases específicas de textos orales, escritos y multimodales breves y sencillos sobre temas frecuentes y cotidianos de relevancia personal y ámbitos próximos a su experiencia, así como de textos literarios adecuados al nivel de desarrollo del alumnado, expresados de forma comprensible, clara y en lengua estándar a través de distintos soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.a",
+          "competencia": "C1",
+          "curso": "5.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias y conocimientos adecuados en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar el sentido global y procesar informaciones explícitas en textos diversos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "1.2.b",
+          "competencia": "C1",
+          "curso": "6.º",
+          "texto": "Seleccionar, organizar y aplicar, de forma guiada, estrategias y conocimientos adecuados en situaciones comunicativas cotidianas y de relevancia para el alumnado, con el fin de captar el sentido global y procesar informaciones explícitas en textos diversos.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Participar oralmente en conversaciones sencillas y breves, previamente preparadas, usando, de manera guiada, recursos básicos propios del lenguaje verbal y no verbal, así como estructuras simples relacionadas con la lengua extranjera.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.1.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Expresar oralmente textos breves y sencillos, previamente preparados, sobre asuntos cotidianos y de relevancia para el alumnado, utilizando, de forma guiada, recursos verbales y no verbales, y usando formas y estructuras básicas y de uso frecuente, propias de la lengua extranjera.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Iniciarse, con ayuda, en la redacción de textos cortos y sencillos, tratando de ajustarse a la situación comunicativa, mediante el uso de herramientas simples tanto analógicas como digitales, así como la ayuda de estructuras y léxico básico sobre temas cotidianos adaptados a su experiencia más cercana.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.2.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Organizar y redactar textos breves y sencillos, previamente preparados, con adecuación a la situación comunicativa propuesta, a través de herramientas analógicas y digitales, y usando estructuras y léxico básico de uso común sobre asuntos cotidianos y frecuentes, de relevancia personal para el alumnado y próximos a su experiencia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.a",
+          "competencia": "C2",
+          "curso": "5.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, conocimientos y estrategias para preparar y producir textos adecuados a las intenciones comunicativas, las características contextuales y la tipología textual, usando, con ayuda, recursos físicos o digitales en función de la tarea y las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "2.3.b",
+          "competencia": "C2",
+          "curso": "6.º",
+          "texto": "Seleccionar, organizar y aplicar, de forma guiada, conocimientos y estrategias para preparar y producir textos adecuados a las intenciones comunicativas, las características contextuales y la tipología textual, usando, con ayuda, recursos físicos o digitales en función de la tarea y las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Participar en diálogos y conversaciones breves y sencillas sobre temas cercanos próximos a su experiencia, mediante diversos soportes, reproduciendo patrones sonoros de repetición, con entonación y ritmo básicos y usando recursos propios del lenguaje no verbal, favoreciendo la capacidad de mostrar empatía y respeto por la cortesía lingüística y etiqueta digital, así como por las ideas de los interlocutores e interlocutoras.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.1.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Planificar y participar en situaciones interactivas breves y sencillas sobre temas cotidianos, de relevancia personal y próximos a su experiencia, a través de diversos soportes, apoyándose en recursos tales como la repetición, el ritmo pausado o el lenguaje no verbal, y mostrando empatía y respeto por la cortesía lingüística y la etiqueta digital, así como por las diferentes necesidades, ideas y motivaciones de los interlocutores e interlocutoras.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.a",
+          "competencia": "C3",
+          "curso": "5.º",
+          "texto": "Seleccionar, organizar y utilizar, de forma guiada y en situaciones cotidianas, estrategias elementales para saludar, despedirse y presentarse; formular y contestar preguntas sencillas y expresar mensajes sencillos y contextualizados.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "3.2.b",
+          "competencia": "C3",
+          "curso": "6.º",
+          "texto": "Seleccionar, organizar y utilizar, de forma guiada y en situaciones cotidianas, estrategias elementales para saludar, despedirse y presentarse; formular y contestar preguntas sencillas; expresar mensajes, e iniciar y terminar la comunicación.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Comprender y transmitir, de manera guiada, y con la ayuda de diversos recursos y soportes, información esencial de textos orales breves y sencillos, en diferentes contextos en los que sea necesario atender a la diversidad, valorando con empatía y respeto a las y los interlocutores y lenguas empleadas e interesándose por los problemas de entendimiento en su entorno más cercano.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.1.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Inferir y explicar textos, conceptos y comunicaciones breves y sencillas, de forma guiada, en situaciones en las que haya que atender a la diversidad, mostrando respeto y empatía por los interlocutores e interlocutoras y por las lenguas empleadas, e interés por participar en la solución de problemas de intercomprensión y de entendimiento en su entorno próximo, apoyándose en diversos recursos y soportes.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.a",
+          "competencia": "C4",
+          "curso": "5.º",
+          "texto": "Identificar y distinguir, de manera guiada, estrategias básicas y sencillas con el fin de facilitar la comprensión y producción de información y su intención comunicativa, usando, con ayuda, algunos recursos físicos o digitales adecuados a sus propias necesidades en cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "4.2.b",
+          "competencia": "C4",
+          "curso": "6.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias básicas que ayuden a crear puentes y faciliten la comprensión y producción de la información y la comunicación, adecuadas a las intenciones comunicativas, usando, con ayuda, recursos y apoyos físicos o digitales en función de las necesidades de cada momento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Comparar y contrastar las similitudes y diferencias entre distintas lenguas reflexionando de manera progresivamente autónoma sobre aspectos muy básicos de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.1.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Comparar y contrastar las similitudes y diferencias entre distintas lenguas reflexionando de manera progresivamente autónoma sobre aspectos básicos de su funcionamiento.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Utilizar de forma progresivamente autónoma los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.2.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Utilizar y diferenciar de forma progresivamente autónoma los conocimientos y estrategias de mejora de su capacidad de comunicar y de aprender la lengua extranjera, con apoyo de otros participantes y de soportes analógicos y digitales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.a",
+          "competencia": "C5",
+          "curso": "5.º",
+          "texto": "Registrar y utilizar, de manera guiada, los progresos y dificultades básicas en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar y realizando actividades de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o en un diario de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "5.3.b",
+          "competencia": "C5",
+          "curso": "6.º",
+          "texto": "Registrar y utilizar, de manera guiada, los progresos y dificultades en el proceso de aprendizaje de la lengua extranjera, reconociendo los aspectos que ayudan a mejorar y realizando actividades de autoevaluación y coevaluación, como las propuestas en el Portfolio Europeo de las Lenguas (PEL) o en un diario de aprendizaje.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Actuar con respeto en situaciones interculturales, construyendo vínculos entre las diferentes lenguas y culturas, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo en contextos comunicativos cotidianos y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.1.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Actuar con aprecio y respeto en situaciones interculturales, construyendo vínculos entre las diferentes lenguas y culturas, y mostrando rechazo ante cualquier tipo de discriminación, prejuicio y estereotipo en contextos comunicativos cotidianos y habituales.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Aceptar y respetar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por comprender elementos culturales y lingüísticos elementales que fomenten la sostenibilidad y la democracia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.2.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Aceptar y respetar la diversidad lingüística, cultural y artística propia de países donde se habla la lengua extranjera como fuente de enriquecimiento personal, mostrando interés por comprender elementos culturales y lingüísticos básicos que fomenten la sostenibilidad y la democracia.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.a",
+          "competencia": "C6",
+          "curso": "5.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias básicas para entender y apreciar los aspectos significativos de la diversidad lingüística, cultural y artística.",
+          "descriptores": [],
+          "saberes": []
+        },
+        {
+          "id": "6.3.b",
+          "competencia": "C6",
+          "curso": "6.º",
+          "texto": "Seleccionar y aplicar, de forma guiada, estrategias básicas para entender y apreciar la diversidad lingüística, cultural y artística.",
+          "descriptores": [],
+          "saberes": []
+        }
+      ],
+      "paginas_boja": "9731/132-136"
+    }
+  },
+  "pendiente": [
+    "Texto obtenido del PDF oficial del BOJA a través de WebFetch (límite de cita de unos 125 caracteres, tabla a dos columnas por curso que la extracción de texto intercala). Cotejar con el PDF antes de marcar verificado:true.",
+    "Andalucía numera los criterios por curso: X.Y.a = primer curso del ciclo (1.º, 3.º, 5.º) y X.Y.b = segundo curso (2.º, 4.º, 6.º). Campo «curso» en cada criterio.",
+    "Los descriptores operativos van vinculados a la competencia específica (primera columna de la tabla), no al criterio: están en competencias[].descriptores y criterios[].descriptores queda vacío a propósito.",
+    "La cuarta columna de cada tabla vincula saberes (códigos) con cada competencia; esa vinculación no se ha extraído: criterios[].saberes=[].",
+    "El BOJA titula el área «Primera y Segunda Lengua Extranjera» y las tablas «Lengua Extranjera (… Ciclo)»; la clave area usa «Lengua Extranjera» (areasDe: «Lengua Extranjera (Inglés)» sin paréntesis).",
+    "3.er ciclo 1.1.a: «expresando de forma comprensible» (en 1.1.b: «expresados»); 2.1.b: «de uso frecuente, propias», tal como se extrajeron. El extractor reordenó fragmentos intercalados en 5.3.a/5.3.b.",
+    "Enunciados de competencias del 1.er ciclo; el extractor indicó que C4-C6 son iguales en 2.º y 3.º y que C1 tiene los mismos descriptores; no se confirmó la redacción completa de C1-C3 en 2.º y 3.º.",
+    "Saberes básicos sin extraer (págs. 123-125)."
+  ],
+  "extraccion": {
+    "fecha": "2026-11-18",
+    "url": "https://www.juntadeandalucia.es/eboja/2023/104/BOJA23-104-00208-9731-01_00284747.pdf",
+    "metodo": "WebFetch sobre el PDF oficial (735.082 caracteres); citas literales en fragmentos de menos de 100 caracteres, columnas de curso pedidas por separado"
+  },
+  "saberes": {},
+  "bloques": {}
+}

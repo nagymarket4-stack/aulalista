@@ -433,16 +433,579 @@
   "pendiente": [
     "Texto obtenido del PDF oficial del BOCM a través de WebFetch (modelo intermedio con límite de cita de unos 125 caracteres): cada criterio se pidió en fragmentos consecutivos y se unió a mano. Riesgo residual de palabras o comas cambiadas. Cotejar con el PDF antes de marcar verificado:true.",
     "El decreto de Madrid no vincula descriptores operativos a los criterios ni a las competencias en las tablas del anexo II: descriptores=[] a propósito.",
-    "Contenidos (en Madrid se llaman «Contenidos», no «saberes básicos») sin extraer: saberes={} pendiente.",
     "El enunciado de C6 varía en la puntuación según el ciclo («escrito y gráfico, y» en el 1.er ciclo; «escrito, gráfico, y» en el 2.º; «escrito, gráfico y» en el 3.º); se guarda en ciclos.<ciclo>.enunciados_ciclo. Confirmar en el PDF.",
     "C8 tiene en Madrid una redacción propia y más corta que la del RD 157/2022 («reconociendo y respetando a los compañeros y participar en equipos de trabajo…»). Confirmar en el PDF.",
-    "Criterio 8.2 del 2.º ciclo: «estrategias de colaboración y sencillas de trabajo en equipo», tal como se extrajo."
+    "Criterio 8.2 del 2.º ciclo: «estrategias de colaboración y sencillas de trabajo en equipo», tal como se extrajo.",
+    "Contenidos extraídos del BOCM a saberes.<ciclo>: lista de bloques («A. Números y operaciones»…) con apartados (subtítulos sin numerar) e ítems (en el BOCM van con guion, aquí sin él). Madrid no numera los contenidos. Los contenidos van por ciclo, no por curso.",
+    "En los contenidos del 1.er ciclo (bloques C-F) el extractor no mostró los guiones: la separación en ítems se hizo por frases completas; cotejar. 2.º ciclo, Cantidad: «aditivomultiplicativa» (posible guion perdido); Operaciones: el último ítem termina sin punto; 3.er ciclo, Pensamiento computacional: el paréntesis no se cierra, tal como se extrajo."
   ],
   "extraccion": {
     "fecha": "2026-11-18",
     "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/18/BOCM-20220718-1.PDF",
     "metodo": "WebFetch sobre el PDF oficial, citas literales en fragmentos de menos de 100 caracteres por bloques de 4-10 criterios; enunciados de competencias pedidos en el 1.er ciclo y comparados en los otros dos"
   },
-  "saberes": {},
+  "saberes": {
+    "primer": [
+      {
+        "bloque": "A. Números y operaciones",
+        "apartados": [
+          {
+            "apartado": "Conteo",
+            "items": [
+              "Estrategias variadas de conteo (series ascendentes y descendentes de cadencia 1, 2, 3, 4, 5, 10, 20, 50, 100 a partir de un número dado; anterior y posterior de un número natural dado) recuento sistemático, en situaciones de la vida cotidiana en cantidades hasta el 999, y de los diez primeros números ordinales."
+            ]
+          },
+          {
+            "apartado": "Cantidad",
+            "items": [
+              "Estimaciones razonadas de cantidades en contextos de resolución de problemas.",
+              "Lectura, escritura (con cifras y letras), representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición aditiva, atendiendo al valor posicional, y recomposición; estableciendo equivalencias entre centenas, decenas y unidades de números naturales hasta 999.",
+              "Representación de una misma cantidad de distintas formas (manipulativa, gráfica o numérica) y estrategias de elección de la representación adecuada para cada situación o problema."
+            ]
+          },
+          {
+            "apartado": "Operaciones",
+            "items": [
+              "Estrategias de cálculo mental de sumas y restas con números naturales hasta 999.",
+              "Términos de las operaciones matemáticas.",
+              "Suma y resta de números naturales en el campo numérico inferior a 999 resueltas con flexibilidad y sentido utilizando correctamente los términos de: sumando, suma, minuendo, sustraendo, diferencia y su utilidad en situaciones contextualizadas, aplicando estrategias y herramientas de resolución y propiedades."
+            ]
+          },
+          {
+            "apartado": "Relaciones",
+            "items": [
+              "Sistema de numeración de base diez (hasta el 999) identificando el valor posicional de las cifras y estableciendo equivalencias entre centenas, decenas y unidades: aplicación de las relaciones que genera en las operaciones.",
+              "Números naturales en contextos de la vida cotidiana: comparación y ordenación. Diferencia entre números pares e impares. Anterior y posterior a un número dado. Relaciones entre tres números.",
+              "Relaciones entre la suma y la resta: aplicación en contextos cotidianos."
+            ]
+          },
+          {
+            "apartado": "Educación financiera",
+            "items": [
+              "Sistema monetario europeo: monedas (de céntimos y de 1, 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia entre monedas y billetes, así como entre dos conjuntos apropiados de monedas o billetes de un total de hasta 50 €.",
+              "Concepto de: ingreso de dinero, ahorro monetario y gastos económicos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Medida",
+        "apartados": [
+          {
+            "apartado": "Magnitud",
+            "items": [
+              "Atributos mensurables de los objetos (longitud, masa, capacidad), distancias y tiempos. Distinción entre largo, ancho y alto en objetos tridimensionales.",
+              "Unidades convencionales (metro, kilo y litro, segundo), y no convencionales (dedos, palmos, pies, pasos, lápices, folios…) en situaciones de la vida cotidiana.",
+              "Unidades de medida de tiempo (año, mes, semana, día, hora, minuto, segundo) en situaciones de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "Medición",
+            "items": [
+              "Procesos para medir mediante repetición de una unidad y mediante la utilización de instrumentos convencionales (reglas, cintas métricas, balanzas, calendarios, relojes analógicos y digitales…) y no convencionales en contextos familiares."
+            ]
+          },
+          {
+            "apartado": "Estimación y relaciones",
+            "items": [
+              "Estrategias de comparación directa (midiendo longitudes o distancias apropiadas; reconociendo entre diversos cuerpos los que pesan aproximadamente un kilo; comparando dos recipientes de parecida capacidad mediante trasvases) y ordenación de medidas de la misma magnitud.",
+              "Estimación de medidas (distancias, tamaños, masas, capacidades y tiempos) por comparación directa con otras medidas, señalando qué unidad de medida es la más apropiada para expresarla."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Geometría",
+        "apartados": [
+          {
+            "apartado": "Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "Figuras geométricas sencillas de dos o tres dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos.",
+              "Estrategias y técnicas de construcción de figuras geométricas sencillas de una, dos o tres dimensiones: líneas rectas, paralelas, perpendiculares, abiertas, cerradas, curvas, mixtas y poligonales, polígonos (cuadrado, triángulo, rectángulo, círculo) y cuerpos geométricos (esfera, cilindro y cono, cubo y prisma), de forma manipulativa.",
+              "Vocabulario geométrico básico: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas, utilizando con propiedad los conceptos de lado y vértice en un polígono.",
+              "Propiedades de figuras geométricas de dos dimensiones: exploración mediante materiales manipulables y herramientas digitales."
+            ]
+          },
+          {
+            "apartado": "Localización y sistemas de representación",
+            "items": [
+              "Posición relativa de objetos en el espacio e interpretación de movimientos: descripción en referencia a uno mismo a través de vocabulario adecuado (arriba, abajo, delante, detrás, entre, más cerca que, menos cerca que, más lejos que, menos lejos que…)."
+            ]
+          },
+          {
+            "apartado": "Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "Modelos geométricos en la resolución de problemas relacionados con los otros bloques.",
+              "Relaciones geométricas: reconocimiento en el entorno."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "D. Álgebra",
+        "apartados": [
+          {
+            "apartado": "Patrones",
+            "items": [
+              "Estrategias para la identificación, descripción oral, descubrimiento de elementos ocultos y extensión de secuencias a partir de las regularidades en una colección de números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "Modelo matemático",
+            "items": [
+              "Proceso guiado de modelización (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "Relaciones y funciones",
+            "items": [
+              "Expresión de relaciones de igualdad y desigualdad mediante los signos = y ≠; > y <, en el campo numérico inferior a 999.",
+              "Representación de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos."
+            ]
+          },
+          {
+            "apartado": "Pensamiento computacional",
+            "items": [
+              "Estrategias para la interpretación de algoritmos sencillos (rutinas, instrucciones con pasos ordenados…)."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "E. Estadística y probabilidad",
+        "apartados": [
+          {
+            "apartado": "Organización y análisis de datos",
+            "items": [
+              "Estrategias de reconocimiento de los principales elementos y extracción de la información relevante de gráficos estadísticos sencillos de la vida cotidiana (pictogramas, gráficas de barras...).",
+              "Estrategias sencillas para la recogida, clasificación y recuento de datos cualitativos y cuantitativos en muestras pequeñas.",
+              "Representación de datos obtenidos a través de recuentos mediante gráficos estadísticos sencillos y recursos manipulables y tecnológicos.",
+              "Diferenciación entre imposible, seguro y posible pero no seguro."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "F. Actitudes y aprendizaje",
+        "apartados": [
+          {
+            "apartado": "Creencias, actitudes y valoración personal",
+            "items": [
+              "Valoración de la superación, del esfuerzo, del triunfo y aceptación del error: curiosidad e iniciativa en el aprendizaje de las matemáticas."
+            ]
+          },
+          {
+            "apartado": "Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "Identificación y rechazo de actitudes discriminatorias ante las diferencias individuales presentes en el aula.",
+              "Actitudes de aceptación de la diversidad del grupo.",
+              "Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de los demás.",
+              "Contribución de las matemáticas a los distintos ámbitos del conocimiento humano."
+            ]
+          }
+        ]
+      }
+    ],
+    "segundo": [
+      {
+        "bloque": "A. Números y operaciones",
+        "apartados": [
+          {
+            "apartado": "Conteo",
+            "items": [
+              "Estrategias variadas de conteo (series ascendentes y descendentes de cadencia 2, 10,100, 1000, 10000, a partir de cualquier número, y de cadencia 5, 25, 50 a partir de un número múltiplo de 5, 25 y 50, recuento sistemático, intercalando números naturales entre otros números dados, ordenando números utilizando los signos ‘<’ y ‘>’ y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta el 99.999.",
+              "Manejo, en situaciones de la vida cotidiana, de los treinta primeros números ordinales.",
+              "Numeración romana en situaciones de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "Cantidad",
+            "items": [
+              "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números identificando el significado y valor posicional de cada cifra estableciendo equivalencias (milésimas, centésimas, décimas, unidades, decenas, centenas, millares, decenas de millar).",
+              "Los números decimales. Tratamiento en contextos cercanos al alumnado.",
+              "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+              "Lectura, escritura y representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición aditiva y aditivomultiplicativa y recomposición de números naturales hasta 99.999.",
+              "Lectura, escritura y representación de fracciones propias (menor que la unidad) con denominador hasta 12 en contextos de la vida cotidiana e impropias, identificando los términos de las fracciones (numerador y denominador)."
+            ]
+          },
+          {
+            "apartado": "Operaciones",
+            "items": [
+              "Estrategias de cálculo mental de sumas y restas con números naturales y fracciones.",
+              "Términos de las operaciones matemáticas.",
+              "Estrategias de cálculo mental de multiplicación y división de números naturales.",
+              "Estrategias de reconocimiento de qué operaciones simples (suma, resta, multiplicación, división como reparto y partición) son útiles para resolver situaciones contextualizadas, identificando correctamente los términos propios de las mismas.",
+              "Construcción de las tablas de multiplicar apoyándose en número de veces, suma repetida o disposición en cuadrículas.",
+              "Suma, resta, multiplicación y división de números naturales resueltas con flexibilidad y sentido en situaciones contextualizadas: estrategias y herramientas de resolución y propiedades de cada una de ellas (conmutativa, asociativa, distributiva, elemento neutro y nulo).",
+              "Sumas y restas sencillas con números decimales.",
+              "Representación de divisiones como fracciones, calculando mitad, tercera parte, cuarta parte de números pares múltiplos de 3 y 4 respectivamente.",
+              "Aplicación del orden de operaciones (suma/resta y multiplicación/división) en números naturales"
+            ]
+          },
+          {
+            "apartado": "Relaciones",
+            "items": [
+              "Sistema de numeración de base diez (hasta el 99.999) identificando el valor posicional de las cifras y estableciendo equivalencias entre decenas de millar, millares, centenas, decenas, unidades, décimas, centésima y milésimas: aplicación de las relaciones que genera en las operaciones.",
+              "Números naturales y fracciones en contextos de la vida cotidiana: comparación y ordenación, y equivalencias entre fracciones y números decimales exactos y periódicos.",
+              "Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos."
+            ]
+          },
+          {
+            "apartado": "Educación financiera",
+            "items": [
+              "Cálculo y estimación de cantidades y cambios (equivalencias entre euros y céntimos de euro) en problemas de la vida cotidiana: ingresos, gastos y ahorro. Decisiones de compra responsable.",
+              "Presupuesto personal. Planificación de ingresos y gastos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Medida",
+        "apartados": [
+          {
+            "apartado": "Magnitud",
+            "items": [
+              "Atributos mensurables de los objetos (longitud, masa, capacidad, superficie, volumen y amplitud del ángulo).",
+              "Unidades convencionales (km, hm, dam, m, dm cm, mm; Tn, kg, hg, dag, g, dg, cg, mg; kl, hl, dal, l, dl, cl y ml) y no convencionales en situaciones de la vida cotidiana, utilizando las abreviaturas de las diferentes unidades.",
+              "Medida del tiempo (año, mes, semana, día, hora, minutos y segundos) y determinación de la duración de periodos de tiempo."
+            ]
+          },
+          {
+            "apartado": "Medición",
+            "items": [
+              "Estrategias para realizar mediciones con instrumentos y unidades no convencionales (repetición de una unidad, uso de cuadrículas y materiales manipulativos) y convencionales.",
+              "Procesos de medición mediante instrumentos convencionales (regla, cinta métrica, balanzas, reloj analógico y digital) expresando las mediciones de forma compleja e incompleja."
+            ]
+          },
+          {
+            "apartado": "Estimación y relaciones",
+            "items": [
+              "Estrategias de comparación y ordenación de medidas de la misma magnitud (km, hm, dam, m, dm cm, mm; Tn, kg, hg, dag, g, dg, cg, mg; kl, hl, dal, l, dl, cl y ml) aplicación de equivalencias entre unidades en problemas de la vida cotidiana que impliquen convertir en unidades más pequeñas.",
+              "Estimación de medidas de longitud, masa, capacidad y tiempo por comparación y buscando estrategias de equivalencias entre unidades de las mismas magnitudes.",
+              "Evaluación de resultados de mediciones y estimaciones o cálculos (suma y resta) de medidas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Geometría",
+        "apartados": [
+          {
+            "apartado": "Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "Figuras geométricas de dos o tres dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos.",
+              "Estrategias y técnicas de construcción de figuras geométricas de dos dimensiones por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla, escuadra, cartabón, compás, transportador de ángulos...) y aplicaciones informáticas.",
+              "Vocabulario: Punto, recta (paralelas, perpendiculares coincidentes y secantes), semirrecta, segmento, ángulo (agudo, recto, obtuso), polígono (regulares, irregulares, sus propiedades y clasificación según lados y ángulos), elementos de los polígonos (lado, vértice, ángulo), circunferencia (diámetro, radio, cuerda, arco) y círculo, poliedros( prismas, cubos, esferas, pirámides, cilindros) y sus elementos (caras, vértices, aristas); simetría, perímetro y área, descripción verbal de los elementos y las propiedades de figuras geométricas sencillas.",
+              "Propiedades de figuras geométricas de dos y tres dimensiones: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y el manejo de herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+            ]
+          },
+          {
+            "apartado": "Localización y sistemas de representación",
+            "items": [
+              "Descripción de la posición relativa de objetos en el espacio o de sus representaciones, utilizando vocabulario geométrico adecuado (paralelo, perpendicular, oblicuo, derecha, izquierda, al lado de, encima de, arriba a la derecha, arriba a la izquierda, abajo a la derecha, abajo a la izquierda, subir, bajar, girar a la derecha, girar a la izquierda, etc.).",
+              "Descripción verbal e interpretación de movimientos (dirección, sentido, distancia, giros y simetrías), en relación a uno mismo o a otros puntos de referencia, utilizando vocabulario geométrico adecuado.",
+              "Interpretación de itinerarios en planos, utilizando soportes físicos y virtuales."
+            ]
+          },
+          {
+            "apartado": "Movimientos y transformaciones",
+            "items": [
+              "Identificación de figuras transformadas mediante traslaciones y simetrías en situaciones de la vida cotidiana.",
+              "Generación de figuras transformadas a partir de simetrías y traslaciones de un patrón inicial y predicción del resultado."
+            ]
+          },
+          {
+            "apartado": "Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "Estrategias para el cálculo de perímetros de figuras planas y utilización en la resolución de problemas de la vida cotidiana.",
+              "Modelos geométricos en la resolución de problemas relacionados con los otros bloques.",
+              "Reconocimiento de relaciones geométricas en campos ajenos a la clase de matemáticas, como el arte, las ciencias y la vida cotidiana."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "D. Álgebra",
+        "apartados": [
+          {
+            "apartado": "Patrones",
+            "items": [
+              "Identificación, descripción verbal, representación y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "Modelo matemático",
+            "items": [
+              "Proceso pautado de modelización usando representaciones matemáticas (gráficas, tablas...) para facilitar la comprensión y la resolución de problemas de la vida cotidiana."
+            ]
+          },
+          {
+            "apartado": "Relaciones y funciones",
+            "items": [
+              "Relaciones de igualdad y desigualdad y uso de los signos = y ≠ entre expresiones que incluyan operaciones y sus propiedades.",
+              "La igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+              "Representación de la relación <<mayor que>> y <<menor que>>, y uso de los signos < y > en el campo numérico inferior a 99.999."
+            ]
+          },
+          {
+            "apartado": "Pensamiento computacional",
+            "items": [
+              "Estrategias para la interpretación y modificación de algoritmos sencillos (reglas de juegos, instrucciones secuenciales, bucles, patrones repetitivos, programación por bloques, robótica educativa...)."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "E. Estadística y probabilidad",
+        "apartados": [
+          {
+            "apartado": "Organización y análisis de datos",
+            "items": [
+              "Gráficos estadísticos de la vida cotidiana (pictogramas, gráficas de barras, histogramas...): lectura e interpretación.",
+              "Estrategias sencillas para la recogida, clasificación y organización de datos cualitativos o cuantitativos discretos en muestras pequeñas mediante calculadora y aplicaciones informáticas sencillas. Frecuencia absoluta: interpretación.",
+              "Gráficos estadísticos sencillos (diagrama de barras y pictogramas) para representar datos, seleccionando el más conveniente mediante recursos tradicionales y aplicaciones informáticas sencillas.",
+              "La moda: interpretación como el dato más frecuente.",
+              "Comparación gráfica de dos conjuntos de datos para establecer relaciones y extraer conclusiones."
+            ]
+          },
+          {
+            "apartado": "Incertidumbre",
+            "items": [
+              "La probabilidad como medida subjetiva de la incertidumbre. Reconocimiento de la incertidumbre en situaciones de la vida cotidiana y mediante la realización de experimentos.",
+              "Identificación de suceso seguro, suceso posible y suceso imposible.",
+              "Diferenciación entre posible y probable.",
+              "Comparación de la probabilidad de dos sucesos de forma intuitiva."
+            ]
+          },
+          {
+            "apartado": "Inferencia",
+            "items": [
+              "Formulación de conjeturas a partir de los datos recogidos y analizados, dándoles sentido en el contexto de estudio."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "F. Actitudes y aprendizaje",
+        "apartados": [
+          {
+            "apartado": "Creencias, actitudes y valoración personal",
+            "items": [
+              "Valoración de la superación, del esfuerzo, del triunfo y aceptación del error. Iniciativa y tolerancia ante la frustración en el aprendizaje de las matemáticas.",
+              "Fomento de la autonomía y estrategias para la toma de decisiones en situaciones de resolución de problemas."
+            ]
+          },
+          {
+            "apartado": "Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "Sensibilidad y respeto ante las diferencias individuales presentes en el aula: identificación y rechazo de actitudes discriminatorias.",
+              "Participación activa en el trabajo en equipo, escucha activa y respeto por el trabajo de los demás.",
+              "Reconocimiento y comprensión de las experiencias de los demás ante las matemáticas.",
+              "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano."
+            ]
+          }
+        ]
+      }
+    ],
+    "tercer": [
+      {
+        "bloque": "A. Números y operaciones",
+        "apartados": [
+          {
+            "apartado": "Conteo",
+            "items": [
+              "Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números naturales en situaciones de la vida cotidiana.",
+              "Diferencias entre números naturales, enteros, racionales y reales. Número Pi (π)."
+            ]
+          },
+          {
+            "apartado": "Cantidad",
+            "items": [
+              "Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números.",
+              "Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+              "Lectura, escritura y representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición, recomposición y ordenación de números naturales, enteros y decimales hasta las milésimas.",
+              "Fracciones y decimales para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema."
+            ]
+          },
+          {
+            "apartado": "Operaciones",
+            "items": [
+              "Estrategias de cálculo mental con números naturales, fracciones y decimales.",
+              "Estrategias de reconocimiento de qué operaciones simples o combinadas (suma, resta, multiplicación, división) son útiles para resolver situaciones contextualizadas.",
+              "Estrategias de factorización en números primos (número primo, número compuesto). Potencia como producto de factores iguales. Cuadrados y cubos.",
+              "Estrategias de resolución de operaciones aritméticas (con números naturales, decimales y fracciones), aplicando jerarquía de operaciones (paréntesis y corchetes), con flexibilidad y sentido: mentalmente, de manera escrita o con calculadora; utilidad en situaciones contextualizadas y propiedades."
+            ]
+          },
+          {
+            "apartado": "Relaciones",
+            "items": [
+              "Sistema de numeración de base diez (números naturales y decimales hasta las milésimas): aplicación de las relaciones que genera en las operaciones.",
+              "Números naturales, fracciones y decimales hasta las milésimas en contextos de la vida cotidiana: comparación y ordenación de números: naturales y racionales.",
+              "Relaciones entre las operaciones aritméticas: aplicación en contextos cotidianos.",
+              "Relación de divisibilidad: múltiplos y divisores (reglas de divisibilidad por 2, 3, 5 y 10; mínimo común múltiplo y máximo común divisor).",
+              "Relación entre fracciones sencillas (equivalencias, simplificación, amplificación de fracciones, reducción de fracciones a común denominador), decimales y porcentajes."
+            ]
+          },
+          {
+            "apartado": "Razonamiento proporcional",
+            "items": [
+              "Situaciones proporcionales y no proporcionales en problemas de la vida cotidiana: identificación como comparación multiplicativa entre magnitudes.",
+              "Resolución de problemas de proporcionalidad, (regla de tres, reducción a la unidad e igualdad entre proporciones), porcentajes y escalas de la vida cotidiana, mediante la igualdad entre razones, la reducción a la unidad o el uso de coeficientes de proporcionalidad."
+            ]
+          },
+          {
+            "apartado": "Educación financiera",
+            "items": [
+              "Resolución de problemas relacionados con el consumo (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas.",
+              "Planificación del gasto personal. Préstamos y depósitos."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "B. Medida",
+        "apartados": [
+          {
+            "apartado": "Magnitud",
+            "items": [
+              "Unidades convencionales del Sistema Métrico Decimal (longitud, masa, capacidad, volumen y superficie), tiempo y grado (ángulos) en contextos de la vida cotidiana: selección y uso de las unidades adecuadas."
+            ]
+          },
+          {
+            "apartado": "Medición",
+            "items": [
+              "Instrumentos (analógicos o digitales) y unidades adecuadas para medir longitudes, objetos, ángulos y tiempos: selección y uso."
+            ]
+          },
+          {
+            "apartado": "Estimación y relaciones",
+            "items": [
+              "Estrategias de comparación y ordenación de medidas, expresadas de forma simple o compleja, de la misma magnitud, aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana.",
+              "Relación entre el sistema métrico decimal y el sistema de numeración decimal.",
+              "Estimación de medidas de longitud, capacidad, masa, volumen, de ángulos y superficies por comparación.",
+              "Evaluación de resultados de mediciones y estimaciones o cálculos de medidas, razonando si son o no posibles."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "C. Geometría",
+        "apartados": [
+          {
+            "apartado": "Figuras geométricas de dos y tres dimensiones",
+            "items": [
+              "Figuras geométricas en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos (caras, ángulos, aristas, vértices en los tridimensionales) y a las relaciones entre ellos.",
+              "Técnicas de construcción de figuras geométricas por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla, cartabón, compás, transportador de ángulos…) y aplicaciones informáticas.",
+              "Vocabulario geométrico: descripción verbal de los elementos y las propiedades de figuras geométricas.",
+              "Propiedades de figuras geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.)."
+            ]
+          },
+          {
+            "apartado": "Localización y sistemas de representación",
+            "items": [
+              "Localización y desplazamientos en planos y mapas a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas): descripción e interpretación con el vocabulario adecuado en soportes físicos y virtuales.",
+              "Descripción de posiciones y movimientos en el primer cuadrante del sistema de coordenadas cartesiano."
+            ]
+          },
+          {
+            "apartado": "Movimientos y transformaciones",
+            "items": [
+              "Transformaciones mediante giros, traslaciones y simetrías en situaciones de la vida cotidiana: identificación de figuras transformadas, generación a partir de patrones iniciales y predicción del resultado.",
+              "Semejanza en situaciones de la vida cotidiana: identificación de figuras semejantes, generación a partir de patrones iniciales y predicción del resultado."
+            ]
+          },
+          {
+            "apartado": "Visualización, razonamiento y modelización geométrica",
+            "items": [
+              "Cálculo de áreas y perímetros de figuras planas y volúmenes.",
+              "Modelos geométricos en la resolución de problemas relacionados con los otros bloques.",
+              "Elaboración de conjeturas sobre propiedades geométricas, utilizando instrumentos de dibujo (regla, cartabón, compás, transportador de ángulos…), y programas de geometría dinámica.",
+              "Las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "D. Álgebra",
+        "apartados": [
+          {
+            "apartado": "Patrones",
+            "items": [
+              "Estrategias de identificación, representación (verbal o mediante tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes.",
+              "Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes."
+            ]
+          },
+          {
+            "apartado": "Modelo matemático",
+            "items": [
+              "Proceso de modelización a partir de problemas de la vida cotidiana, usando representaciones matemáticas."
+            ]
+          },
+          {
+            "apartado": "Relaciones y funciones",
+            "items": [
+              "Relaciones de igualdad y desigualdad y uso de signos < y >. Determinación de datos desconocidos (representados por medio de una letra o un símbolo) en expresiones sencillas relacionadas mediante estos signos y los signos de = y ≠."
+            ]
+          },
+          {
+            "apartado": "Pensamiento computacional",
+            "items": [
+              "Estrategias para la interpretación, modificación y creación de algoritmos sencillos (secuencias de pasos ordenados, esquemas, simulaciones, patrones repetitivos, bucles, instrucciones anidadas y condicionales, representaciones computacionales, programación por bloques, robótica educativa..."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "E. Estadística y probabilidad",
+        "apartados": [
+          {
+            "apartado": "Organización y análisis de datos",
+            "items": [
+              "Conjuntos de datos y gráficos estadísticos de la vida cotidiana: descripción, interpretación y análisis crítico.",
+              "Estrategias para la realización de un estudio estadístico sencillo: formulación de preguntas recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones…). Tablas de frecuencias absolutas y relativas: interpretación.",
+              "Gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma, etc.): representación de datos mediante recursos tradicionales y tecnológicos y selección del más conveniente.",
+              "Medidas de centralización (media, moda y mediana): interpretación, cálculo y aplicación.",
+              "Medidas de dispersión (rango): cálculo e interpretación.",
+              "Calculadora y otros recursos digitales, como la hoja de cálculo, para organizar la información estadística y realizar diferentes visualizaciones de los datos.",
+              "Relación y comparación de dos conjuntos de datos a partir de su representación gráfica: formulación de conjeturas, análisis de la dispersión y obtención de conclusiones."
+            ]
+          },
+          {
+            "apartado": "Incertidumbre",
+            "items": [
+              "La incertidumbre en situaciones de la vida cotidiana: cuantificación y estimación subjetiva y mediante la comprobación de la estabilización de las frecuencias relativas en experimentos aleatorios repetitivos.",
+              "Cálculo de probabilidades en experimentos, comparaciones o investigaciones en los que sea aplicable la regla de Laplace: aplicación de técnicas básicas del conteo."
+            ]
+          },
+          {
+            "apartado": "Inferencia",
+            "items": [
+              "Identificación de un conjunto de datos como muestra de un conjunto más grande y reflexión sobre la población a la que es posible aplicar las conclusiones de investigaciones estadísticas sencillas."
+            ]
+          }
+        ]
+      },
+      {
+        "bloque": "F. Actitudes y aprendizaje",
+        "apartados": [
+          {
+            "apartado": "Actitudes y valoración personal",
+            "items": [
+              "Valoración de la superación, del esfuerzo, del triunfo y aceptación del error en el aprendizaje. Estrategias de mejora de la constancia y el sentido de la responsabilidad hacia el aprendizaje de las matemáticas.",
+              "Flexibilidad cognitiva, adaptación y cambio de estrategia en caso necesario. Valoración del error como oportunidad de aprendizaje."
+            ]
+          },
+          {
+            "apartado": "Trabajo en equipo, inclusión, respeto y diversidad",
+            "items": [
+              "Respeto por las producciones matemáticas de los demás.",
+              "Aplicación de técnicas sencillas de colaboración para el trabajo en equipo y estrategias para la gestión de conflictos, promoción de conductas adecuadas.",
+              "Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano."
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "bloques": {}
 }
