@@ -48,7 +48,9 @@ const nombreEn = (a, c) => (a.nombresCCAA && a.nombresCCAA[c.id]) || a.nombre;
 const CURR_CCAA = {
   canarias: { soloVerificado: true, porCurso: false, saberes: 'romano', norma: 'Decreto 211/2022' },
   andalucia: { soloVerificado: false, porCurso: true, saberes: 'propio', norma: 'Orden de 30 de mayo de 2023', boletin: 'BOJA',
-    fuente: 'Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2 de junio de 2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo' }
+    fuente: 'Orden de 30 de mayo de 2023 (BOJA n.º 104, de 2 de junio de 2023), anexo II, que desarrolla el Decreto 101/2023, de 9 de mayo',
+    // Saberes con extracción dudosa según el campo «pendiente» del JSON (no se pueden citar hasta cotejarlos)
+    saberesExcluidos: ['CMN.2.C.1.4', 'CMN.2.A.3.1', 'CMN.3.C.2.5'] }
 };
 // slug de seo/areas.json → fichero de data/<ccaa>/primaria (mismo mapa que verificar-ejemplos.mjs)
 const AREA_DATA = {
@@ -169,6 +171,7 @@ const nom = c => /^(Comunidad|Comunitat|Región)\b/.test(c.name) ? 'la ' + c.nam
         for (const s of v.saberes || []) {
           if (!cu.saberes.has(s)) err.push(`${id}: el saber ${s} no existe en el ${CICLO_DATA[k]} ciclo`);
           else if (cu.saberes.get(s) === null) err.push(`${id}: el saber ${s} tiene numeración ambigua en el JSON y no se puede citar`);
+          if ((CURR_CCAA[ccaa].saberesExcluidos || []).includes(s)) err.push(`${id}: el saber ${s} tiene una extracción dudosa (campo «pendiente» del JSON) y no se puede citar hasta cotejarlo`);
         }
         if (new Set(v.saberes || []).size !== (v.saberes || []).length) err.push(`${id}: saberes repetidos`);
         if (CURR_CCAA[ccaa].porCurso) {
